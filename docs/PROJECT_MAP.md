@@ -22,3 +22,5 @@ The runtime entrypoint is `app.py`. The public repository keeps code and the sma
 |Secrets, signed identity paperwork, fonts, `.git`, environments |Excluded |Not needed for public research execution |
 
 `data/manifest.json` lists every public runtime file's original and publication SHA-256, length and transformation. The larger archive includes `PUBLIC_FILE_MANIFEST.json` for every archive member except its own manifest. Private recovery indexes, source paths and internal audit files remain outside the repository. No new blanket MIT/CC0 licence is assigned.
+
+Full RQ1 training/inference/threshold/history sources: `research/src/rq3_original/evaluation/learned_intent_ranking/`. Full RQ2 sources: `research/src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/` plus adjacent stage0/stage1/stage5 trees. The narrower `rq1_original/` and `rq2_original/` copies retain their earlier snapshot identity; all recovered code origins and transformations are enumerated in `research/metadata/g0_r1_code_recovery.json`. The 1554-file selected source recovery is complete, including the original Unicode Individual Feedback page.

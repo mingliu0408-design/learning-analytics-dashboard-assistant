@@ -3012,20 +3012,20 @@
       "category": "anonymous ratings/H9/S7/R7/D9",
       "recovery": "FOUND_HASH_PINNED_ARCHIVES",
       "destination": "release:studies/{ratings,h9,s7,r7,d9}/",
-      "publication": "READY_FOR_UPLOAD"
+      "publication": "PUBLISHED_PUBLIC_DOWNLOAD_VERIFIED"
     },
     {
       "category": "latest actual thesis and supplement",
       "recovery": "FOUND_W9_GIT_AND_ARCHIVES",
       "destination": "release:studies/{thesis_w9,supplement_w9}/",
       "source_commit": "955fa3bf2980d12abe571a3cf4e2178dd60f2e27",
-      "publication": "READY_FOR_UPLOAD"
+      "publication": "PUBLISHED_PUBLIC_DOWNLOAD_VERIFIED"
     },
     {
       "category": "historical62x9/DEV/failures/unknown/small model heads",
       "recovery": "FOUND_GIT_AND_LOCAL_RESOURCES",
       "destination": "release:historical_tracked/ and local_model_resources/",
-      "publication": "READY_FOR_UPLOAD"
+      "publication": "PUBLISHED_PUBLIC_DOWNLOAD_VERIFIED"
     },
     {
       "category": "inherited per-slot module checkpoints",
@@ -3052,10 +3052,17 @@
       "bytes": 67328343,
       "members": 17704,
       "uncompressed_bytes": 344081366,
-      "url": null,
-      "release_tag": null,
-      "status": "READY_FOR_UPLOAD",
-      "public_download_verified": false
+      "url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/download/v0.2.0-g0-r1/LAD_ASSISTANT_G0_R1_RESEARCH_DATA_2026-10-10.zip",
+      "release_tag": "v0.2.0-g0-r1",
+      "status": "PUBLISHED_PUBLIC_DOWNLOAD_VERIFIED",
+      "public_download_verified": true,
+      "release_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/tag/v0.2.0-g0-r1",
+      "release_code_commit": "a2ec4f177072ec287a4f46bb0afb0a968a8bc255",
+      "verified_at": "2026-10-10T12:24:50.617778+08:00"
     }
-  ]
+  ],
+  "published_file_count": 322,
+  "runtime_input_file_count": 320,
+  "evaluation_file_count": 2,
+  "runtime_file_count_note": "Legacy count covers all small publication files including 2 separate evaluation-only files; generation input count is runtime_input_file_count."
 }

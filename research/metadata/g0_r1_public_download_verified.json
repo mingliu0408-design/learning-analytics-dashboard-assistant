@@ -1,0 +1,23 @@
+{
+  "validated_at": "2026-10-10T12:24:50.617778+08:00",
+  "public_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/download/v0.2.0-g0-r1/LAD_ASSISTANT_G0_R1_RESEARCH_DATA_2026-10-10.zip",
+  "release_tag": "v0.2.0-g0-r1",
+  "authentication": "none; urllib request has only User-Agent; no credential headers, cookies or author token",
+  "http_status": 200,
+  "announced_bytes": 67328343,
+  "downloaded_bytes": 67328343,
+  "sha256": "cb690dc0adbf361ea437a72e8beae319fdee3ca25b5311403cb497ffc7843612",
+  "members": 17704,
+  "crc": "PASS",
+  "per_file_published_manifest_hashes": "PASS",
+  "first_extract": {
+    "written": 17704,
+    "identical": 0
+  },
+  "second_extract": {
+    "written": 0,
+    "identical": 17704
+  },
+  "download_and_readback_seconds": 80.125,
+  "status": "PASS"
+}

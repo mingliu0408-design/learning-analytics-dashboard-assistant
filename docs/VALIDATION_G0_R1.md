@@ -58,3 +58,13 @@ The added GitHub Actions workflow uses Ubuntu and Python 3.13, read-only reposit
 The current validation used explicit lexical Memory in no-key components/mocks. Full Hybrid Memory requires the separately documented pinned MPNet resources and optional dependencies. Missing resources produce a clear failure rather than a silent backend substitution. Those optional resources and real paid LLM inference were not tested in this validation. `LIVE_LLM_TESTED = false`.
 
 Public Community Cloud state is reported separately after login/deployment and correct UI interaction. A localhost app, GitHub Pages, a login page or HTTP 200 alone does not establish a deployed Streamlit app. Cloud writable files are temporary; local session storage is persistent only while its selected filesystem remains available. Public historical seeds stay read-only.
+
+## Actual local browser evidence
+
+The local browser rendered all five page choices with their expected page identity, replayed original-01/S0 from the saved dataset, and executed the real original R0 and complete M1 in COMPONENTS. The result identity was COMPONENTS / NO_LLM_NO_NATURAL_ANSWER_GENERATION. Actual screenshots are docs/screenshots/replay-local.jpg and components-local.jpg. This browser evidence is in addition to AppTest; it remains localhost evidence, not Community Cloud.
+
+## Actual GitHub publication and anonymous readback
+
+The core code commit `a2ec4f177072ec287a4f46bb0afb0a968a8bc255` was normally pushed to main and [Linux CI](https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/actions/runs/38022488036) completed SUCCESS on that exact commit. A credential-free clean clone independently passed all 48 app tests, 20 research tests, 7 RQ3 contracts, 315 preserved snapshot hashes, safety scan and Streamlit startup. The [new Release](https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/tag/v0.2.0-g0-r1) targets the core commit and retains the older v0.1.0 tag. Later documentation/link commits do not move this release tag.
+
+The actual published archive was anonymously downloaded over public HTTPS, with no author credential headers or cookies: HTTP 200, 67,328,343 bytes, 17,704 members, SHA-256 `cb690dc0adbf361ea437a72e8beae319fdee3ca25b5311403cb497ffc7843612`. CRC and every published manifest member hash passed. Safe extraction wrote 17,704 files; repeated extraction wrote zero and recognized 17,704 identical files. This confirms public data availability, separately from the local ZIP and cloud application.

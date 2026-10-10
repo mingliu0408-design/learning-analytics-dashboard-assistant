@@ -4,14 +4,23 @@
   "repository": "mingliu0408-design/learning-analytics-dashboard-assistant",
   "branch": "main",
   "source_recovery": "RECOVERED_WITH_DOCUMENTED_HISTORICAL_GAPS",
-  "code_published": false,
-  "data_published": false,
+  "code_published": true,
+  "data_published": true,
   "local_app_tested": true,
   "streamlit_deployed": false,
-  "streamlit_blocker": "Browser sign-in explicitly requires service terms acceptance and login by author",
+  "streamlit_blocker": "Streamlit signed in; author GitHub sign-in and OAuth connection still required before deployment",
   "live_llm_tested": false,
   "application_tests": 48,
   "research_tests": 20,
   "rq3_contract_tests": 7,
-  "preserved_snapshot_files": 315
+  "preserved_snapshot_files": 315,
+  "core_code_commit": "a2ec4f177072ec287a4f46bb0afb0a968a8bc255",
+  "core_linux_ci": {
+    "status": "SUCCESS",
+    "url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/actions/runs/38022488036"
+  },
+  "release_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/tag/v0.2.0-g0-r1",
+  "release_tag": "v0.2.0-g0-r1",
+  "public_data_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/download/v0.2.0-g0-r1/LAD_ASSISTANT_G0_R1_RESEARCH_DATA_2026-10-10.zip",
+  "public_data_download_verified": true
 }
