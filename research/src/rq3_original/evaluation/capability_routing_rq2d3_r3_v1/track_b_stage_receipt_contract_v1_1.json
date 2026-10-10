@@ -1,0 +1,1 @@
+{"receipt_durably_persisted":true,"receipt_sha_bound_to_global_lock":true,"required_fields":["stage","worker_role","approved_head","execution_id","effective_contract_id","code_identity","parent_state","artifact_receipts","open_read_counts","runtime_firewall_summary"],"schema_version":"track-b-stage-receipt-contract-v1-1","status":"FROZEN"}

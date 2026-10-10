@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.local/schemas/rq2-v2-scenario-matrix-row-v1.schema.json",
+  "title": "RQ2-V2 answerable 2^3 scenario matrix row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "combination_id",
+    "scenario_family_id_template",
+    "capability_combination",
+    "page_type",
+    "dashboard_evidence_requirement",
+    "rag_state_contract",
+    "memory_state_contract",
+    "planning_request_type",
+    "target_scenario_family_count",
+    "target_human_utterances_per_family",
+    "target_human_utterances",
+    "development_family_target",
+    "test_family_target",
+    "development_eligible",
+    "test_eligible",
+    "split_unit"
+  ],
+  "properties": {
+    "schema_version": {"const": "rq2-v2-scenario-matrix-row-v1"},
+    "combination_id": {"type": "string", "pattern": "^[01]{3}$"},
+    "scenario_family_id_template": {"type": "string", "minLength": 1},
+    "capability_combination": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rag_required", "memory_required", "planning_required"],
+      "properties": {
+        "rag_required": {"type": "boolean"},
+        "memory_required": {"type": "boolean"},
+        "planning_required": {"type": "boolean"}
+      }
+    },
+    "page_type": {"const": "CONTROLLED_LAD_PAGE"},
+    "dashboard_evidence_requirement": {
+      "const": "DEFAULT_INPUT_CONTEXT_CONTROLLED_BY_FAMILY"
+    },
+    "rag_state_contract": {"type": "string", "minLength": 1},
+    "memory_state_contract": {"type": "string", "minLength": 1},
+    "planning_request_type": {"type": "string", "minLength": 1},
+    "target_scenario_family_count": {"const": 6},
+    "target_human_utterances_per_family": {"const": 2},
+    "target_human_utterances": {"const": 12},
+    "development_family_target": {"const": 4},
+    "test_family_target": {"const": 2},
+    "development_eligible": {"const": true},
+    "test_eligible": {"const": true},
+    "split_unit": {"const": "scenario_family_id"}
+  }
+}
+

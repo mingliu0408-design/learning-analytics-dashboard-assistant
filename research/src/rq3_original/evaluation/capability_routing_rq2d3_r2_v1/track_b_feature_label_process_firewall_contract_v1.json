@@ -1,0 +1,81 @@
+{
+  "combined_source_is_label_free": false,
+  "combined_source_role": "SEALED_COMBINED_CASE_SOURCE",
+  "feature_extractor_process": {
+    "combined_source_open_read": "1/1",
+    "forbidden_keys_exported": 0,
+    "must_exit_before_predictor": true,
+    "output_fields": [
+      "review_case_id",
+      "current_query",
+      "current_page",
+      "necessary_conversation_history"
+    ],
+    "predictor_modules_imported": 0,
+    "process_id": "TRACK_B_FEATURE_EXTRACTOR_V1"
+  },
+  "feature_fields": [
+    "review_case_id",
+    "current_query",
+    "current_page",
+    "necessary_conversation_history"
+  ],
+  "label_fields": [
+    "review_case_id",
+    "context_resolution_required",
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification",
+    "forbidden_capabilities"
+  ],
+  "metric_process": {
+    "combined_source_open_read": "0/0",
+    "fresh_process": true,
+    "grouping_ledger_open_read": "1/1",
+    "label_only_gold_open_read": "1/1",
+    "starts_after_prediction_firewall": true
+  },
+  "predictor_forbidden_fields": [
+    "capability_unambiguous",
+    "case_validity",
+    "clarification",
+    "context_resolution_required",
+    "context_sufficient",
+    "contrast_group_id",
+    "course_retrieval",
+    "dashboard_evidence",
+    "episodic_memory",
+    "forbidden_capabilities",
+    "gold_decision_source",
+    "planning",
+    "query_naturalness_1_to_5",
+    "reviewer_id",
+    "reviewer_rationale",
+    "safe_direct_response",
+    "source_role"
+  ],
+  "predictor_process": {
+    "allowed_inputs": [
+      "FEATURE_ONLY_VIEW",
+      "FROZEN_MODEL_RUNTIME_ARTIFACTS"
+    ],
+    "forbidden_inputs": [
+      "SEALED_COMBINED_CASE_SOURCE",
+      "LABEL_ONLY_GOLD",
+      "GROUPING_LEDGER",
+      "HIDDEN_LEGACY"
+    ],
+    "fresh_process": true,
+    "method_order": [
+      "B0",
+      "B1",
+      "P1"
+    ],
+    "review_case_id_is_feature": false
+  },
+  "schema_version": "track-b-feature-label-process-firewall-contract-v1",
+  "status": "FROZEN"
+}

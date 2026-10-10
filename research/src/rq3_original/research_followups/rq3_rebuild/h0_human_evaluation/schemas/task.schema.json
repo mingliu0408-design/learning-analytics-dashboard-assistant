@@ -1,0 +1,620 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "task_id",
+    "family_id",
+    "episode_id",
+    "split",
+    "group_keys",
+    "provenance",
+    "task",
+    "visible_context",
+    "sources",
+    "source_annotations",
+    "evaluator_reference",
+    "applicability",
+    "observability",
+    "freeze"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "H0_TASK_V1"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "TEMPLATE_UNFILLED_NOT_EVALUABLE",
+        "DRAFT",
+        "FROZEN_PRE_ANSWER"
+      ]
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "split": {
+      "type": "string",
+      "enum": [
+        "",
+        "DEV",
+        "HELD_OUT"
+      ]
+    },
+    "group_keys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "id"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "learner",
+              "episode",
+              "event",
+              "plan",
+              "source_proposition"
+            ]
+          },
+          "id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provenance_class",
+        "source_origin",
+        "utterance_origin",
+        "exposure_status",
+        "general_corpus_reuse",
+        "human_author_id",
+        "independent_reviewer_id",
+        "permission_reference",
+        "independent_review_reference",
+        "legacy_relations"
+      ],
+      "properties": {
+        "provenance_class": {
+          "type": "string"
+        },
+        "source_origin": {
+          "type": "string"
+        },
+        "utterance_origin": {
+          "type": "string"
+        },
+        "exposure_status": {
+          "type": "string"
+        },
+        "general_corpus_reuse": {
+          "type": "string"
+        },
+        "human_author_id": {
+          "type": "string"
+        },
+        "independent_reviewer_id": {
+          "type": "string"
+        },
+        "permission_reference": {
+          "type": "string"
+        },
+        "independent_review_reference": {
+          "type": "string"
+        },
+        "legacy_relations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_utterance",
+        "current_page",
+        "category",
+        "source_condition",
+        "target_time",
+        "scope",
+        "runtime_capture_id"
+      ],
+      "properties": {
+        "target_utterance": {
+          "type": "string"
+        },
+        "current_page": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "source_condition": {
+          "type": "string"
+        },
+        "target_time": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "runtime_capture_id": {
+          "type": "string"
+        }
+      }
+    },
+    "visible_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "history",
+        "scope",
+        "snapshot_version"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "snapshot_version": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "kind",
+          "document_or_session_id",
+          "version",
+          "exact_span",
+          "sha256",
+          "scope",
+          "event_time",
+          "captured_at",
+          "valid_from",
+          "valid_to",
+          "supersedes",
+          "permission_reference",
+          "pre_target_readiness_reference",
+          "state",
+          "permitted_use"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "document_or_session_id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "exact_span": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "event_time": {
+            "type": "string"
+          },
+          "captured_at": {
+            "type": "string"
+          },
+          "valid_from": {
+            "type": "string"
+          },
+          "valid_to": {
+            "type": "string"
+          },
+          "supersedes": {
+            "type": "string"
+          },
+          "permission_reference": {
+            "type": "string"
+          },
+          "pre_target_readiness_reference": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "permitted_use": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "source_annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "annotation_id",
+          "source_id",
+          "field",
+          "value",
+          "captured_at",
+          "confirmed_by_reference",
+          "available_pre_target",
+          "permitted_runtime_use"
+        ],
+        "properties": {
+          "annotation_id": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "captured_at": {
+            "type": "string"
+          },
+          "confirmed_by_reference": {
+            "type": "string"
+          },
+          "available_pre_target": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "permitted_runtime_use": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "evaluator_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_dossier",
+        "missing_fact_labels",
+        "acceptable_boundaries",
+        "source_ids",
+        "scope",
+        "version",
+        "absence_basis"
+      ],
+      "properties": {
+        "evidence_dossier": {
+          "type": "string"
+        },
+        "missing_fact_labels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "acceptable_boundaries": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "absence_basis": {
+          "type": "string"
+        }
+      }
+    },
+    "applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "CLARITY",
+        "PERSONALISATION",
+        "ACTIONABILITY",
+        "CONTEXT_AWARENESS",
+        "MOTIVATION_AND_ENGAGEMENT",
+        "RELIABILITY",
+        "MULTI_PAGE_COHESIVENESS",
+        "ERROR_HANDLING"
+      ],
+      "properties": {
+        "CLARITY": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "PERSONALISATION": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "ACTIONABILITY": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "CONTEXT_AWARENESS": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "MOTIVATION_AND_ENGAGEMENT": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "RELIABILITY": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "MULTI_PAGE_COHESIVENESS": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        },
+        "ERROR_HANDLING": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "reason",
+            "weight"
+          ],
+          "properties": {
+            "applicable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer",
+              "const": 1
+            }
+          }
+        }
+      }
+    },
+    "observability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "multi_page_design",
+        "context_reference",
+        "author_approval_reference"
+      ],
+      "properties": {
+        "multi_page_design": {
+          "type": "string"
+        },
+        "context_reference": {
+          "type": "string"
+        },
+        "author_approval_reference": {
+          "type": "string"
+        }
+      }
+    },
+    "freeze": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "basis",
+        "frozen_at",
+        "source_manifest_sha256",
+        "applicability_review_reference",
+        "author_protocol_approval_reference"
+      ],
+      "properties": {
+        "basis": {
+          "type": "string",
+          "const": "PRE_ANSWER_TASK"
+        },
+        "frozen_at": {
+          "type": "string"
+        },
+        "source_manifest_sha256": {
+          "type": "string"
+        },
+        "applicability_review_reference": {
+          "type": "string"
+        },
+        "author_protocol_approval_reference": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

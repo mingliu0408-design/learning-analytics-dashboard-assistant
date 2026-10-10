@@ -1,0 +1,96 @@
+{
+  "all_human_fields_initially_blank": true,
+  "authentic_assistant_history_displayed": false,
+  "binary_annotation_values": [
+    "YES",
+    "NO"
+  ],
+  "canonical_case_id_visible": false,
+  "capabilities": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "capability_unambiguous_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "case_validity_values": [
+    "INCLUDE_VALID_CASE",
+    "EXCLUDE_INVALID_CASE",
+    "UNCERTAIN"
+  ],
+  "context_link_valid_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "context_sufficient_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "displayed_history_link_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "human_fields": [
+    "case_validity",
+    "query_naturalness_1_to_5",
+    "context_link_valid",
+    "context_sufficient",
+    "capability_unambiguous",
+    "context_resolution_required",
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification",
+    "forbidden_capabilities",
+    "reviewer_rationale",
+    "reviewer_id",
+    "review_date"
+  ],
+  "llm_may_substitute_required_human_reviewer": false,
+  "model_or_proposal_output_visible": false,
+  "no_displayed_history_rule": {
+    "missing_prior_context": {
+      "context_link_valid": "NOT_APPLICABLE",
+      "context_resolution_required": "YES",
+      "context_sufficient": "NO"
+    },
+    "self_contained_query": {
+      "context_link_valid": "NOT_APPLICABLE",
+      "context_sufficient": "NOT_APPLICABLE"
+    }
+  },
+  "query_naturalness_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "required_human_reviewer_count": 2,
+  "reviewer_ids_must_differ": true,
+  "schema_version": "human-review-schema-v1.3",
+  "source_identity_visible": false,
+  "stage": "RQ2-A-R1C",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "visible_fields": [
+    "review_case_id",
+    "current_query",
+    "current_page",
+    "necessary_conversation_history",
+    "turn_index",
+    "capability_definition_reference"
+  ]
+}

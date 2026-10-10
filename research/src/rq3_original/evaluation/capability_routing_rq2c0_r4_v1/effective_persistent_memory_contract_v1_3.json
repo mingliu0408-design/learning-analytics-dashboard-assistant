@@ -1,0 +1,48 @@
+{
+  "actual_retrieval_executed": false,
+  "composite_validator_required": true,
+  "effective_admission": "MEMORY_ADMISSION_V1_1",
+  "effective_payload_binding": "PERSISTENT_MEMORY_PAYLOAD_BINDING_V1_3",
+  "effective_payload_scope": "TEXT_ONLY_PRIVATE_PAYLOAD_V1_1",
+  "effective_retrieval": "PMR_HYBRID_STATE_AWARE_V1_1",
+  "historical_base": "RQ2-C0-R2",
+  "p2_implemented": false,
+  "persistent_store_implemented": false,
+  "production_behaviour_changed": false,
+  "rq2c1_import_contract": {
+    "direct_r2_only_validation_allowed": false,
+    "direct_r3_only_validation_allowed": false,
+    "direct_r4_only_validation_allowed": false,
+    "payload_binding": "evaluation.capability_routing_rq2c0_r4_v1.composite_payload_episode_validator_v1_3.validate_persistent_memory_payload_binding_v1_3"
+  },
+  "safety_base": "RQ2-C0-R3",
+  "schema_version": "effective-persistent-memory-contract-v1.3",
+  "scope_hash_contract": "RQ2_MEMORY_SCOPE_V1",
+  "stage": "RQ2-C0-R4",
+  "status": "FROZEN_FOR_FUTURE_RQ2_C1",
+  "supersedes_only": [
+    "R3_INCOMPLETE_PAYLOAD_EPISODE_REFERENCE_LINKAGE_VALIDATION",
+    "R3_INCOMPLETE_PROVENANCE_BINDING",
+    "R3_INCOMPLETE_TIMESTAMP_ORDERING_VALIDATION"
+  ],
+  "unchanged": {
+    "Capability_Gold": true,
+    "P1": true,
+    "admission_rules": true,
+    "candidate_ordering": true,
+    "dense_encoder": true,
+    "fixtures": true,
+    "maximum_admitted_memories": true,
+    "primary_policy_identity": "PMR_HYBRID_STATE_AWARE",
+    "production_code": true,
+    "retrieval_policies": true,
+    "top_k": true
+  },
+  "unvalidated_payload_forbidden_before": [
+    "EMBEDDING",
+    "RETRIEVAL",
+    "ADMISSION",
+    "PROJECTION",
+    "GENERATION"
+  ]
+}

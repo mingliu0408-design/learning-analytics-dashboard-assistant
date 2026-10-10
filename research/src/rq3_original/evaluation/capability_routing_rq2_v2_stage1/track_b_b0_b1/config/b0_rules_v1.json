@@ -1,0 +1,79 @@
+{
+  "schema_version": "rq2-v2-b0-rule-config-v1",
+  "ruleset_id": "R2V2-B0_RULE_BASELINE_V1_R1_FEATURE_FAIR",
+  "ruleset_status": "BASELINE_UNTUNED_NOT_EMPIRICALLY_FINAL",
+  "rag": {
+    "course_subject_patterns": [
+      "\\b(?:course|module|lecture|lectures|reading|readings|seminar|workshop|week\\s*\\d+|w\\d+)\\b",
+      "\\b(?:coursework|course material|teaching material|claim[- ]evidence framework)\\b"
+    ],
+    "request_operation_patterns": [
+      "\\b(?:explain|define|summari[sz]e|interpret|cite|find|locate|show|open)\\b",
+      "\\b(?:what does|what is|what are|which reading|where (?:is|are)|mean)\\b",
+      "\\b(?:according to|based on|using|from)\\b"
+    ],
+    "page_context_pages": [
+      "Resources",
+      "Lecture"
+    ],
+    "page_context_request_patterns": [
+      "\\b(?:this|the)\\s+(?:framework|theory|concept|model|reading|lecture|video|resource)\\b",
+      "\\b(?:framework|theory|concept|model)\\b.{0,60}\\b(?:mean|work|apply)\\b"
+    ],
+    "content_already_supplied_context_patterns": [
+      "\\b(?:supplied|provided|included)\\s+(?:course\\s+)?(?:context|content|definition|excerpt|summary)\\b"
+    ]
+  },
+  "memory": {
+    "long_term_reference_patterns": [
+      "\\b(?:remember|recall|from memory|long[- ]term memory|saved|on file)\\b",
+      "\\b(?:last time|last month|previously|earlier|before|in a prior conversation)\\b",
+      "\\b(?:i told you|i mentioned|we discussed|we agreed|what did i)\\b"
+    ],
+    "personal_reference_patterns": [
+      "\\b(?:my|mine|me|i|we|our)\\b"
+    ],
+    "reference_topics": [
+      "target",
+      "goal",
+      "deadline",
+      "preference",
+      "availability",
+      "schedule",
+      "accommodation",
+      "priority",
+      "priorities",
+      "strength",
+      "strengths",
+      "weakness",
+      "weaknesses",
+      "study pattern",
+      "learning need"
+    ],
+    "current_query_resolution_patterns": [
+      "\\bmy\\s+(?:target|goal|deadline|preference|availability|schedule|priority)\\s+(?:is|was|=|of)\\s+[^?.!,;]+",
+      "\\bmy\\s+\\d+(?:\\.\\d+)?\\s*(?:percent|%)?\\s+(?:target|goal)\\b",
+      "\\bi\\s+(?:can study|am available|prefer|need|want)\\s+[^?.!,;]+"
+    ],
+    "generic_history_reference_patterns": [
+      "\\b(?:what i told you|what i mentioned|what we discussed|what we agreed)\\b"
+    ],
+    "concrete_context_patterns": [
+      "\\b\\d+(?:\\.\\d+)?\\s*(?:percent|%|hours?|days?|weeks?)\\b",
+      "\\b(?:is|was|equals?|set to)\\s+[^?.!,;]+"
+    ],
+    "unresolved_context_patterns": [
+      "\\b(?:contains? no|no|not|without)\\b.{0,80}\\b(?:target|goal|deadline|preference|availability|schedule|priority)\\b",
+      "\\b(?:target|goal|deadline|preference|availability|schedule|priority)\\b.{0,40}\\b(?:not supplied|unavailable|unknown|absent|missing)\\b"
+    ]
+  },
+  "planning": {
+    "request_patterns": [
+      "\\b(?:action plan|study plan|revision plan|roadmap|timeline|schedule|strategy)\\b",
+      "\\b(?:next steps?|step[- ]by[- ]step|week[- ]by[- ]week|day[- ]by[- ]day)\\b",
+      "\\b(?:prioriti[sz]e|plan|organise|organize|sequence)\\b",
+      "\\b(?:what should i do|how should i improve|turn .{0,80} into)\\b",
+      "\\b(?:two[- ]week|three[- ]week|weekly|daily)\\b.{0,60}\\b(?:plan|schedule|routine)\\b"
+    ]
+  }
+}

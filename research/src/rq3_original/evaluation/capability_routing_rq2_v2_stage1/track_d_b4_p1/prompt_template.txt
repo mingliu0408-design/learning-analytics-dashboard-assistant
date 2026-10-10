@@ -1,0 +1,18 @@
+Route one DUTE educational-chatbot turn to the capabilities required for a correct answer.
+
+Definitions:
+- RAG (`rag_required`): true only when correct answering requires course knowledge or course material not already supplied in the model-visible input.
+- Long-term Memory (`memory_required`): true only when correct answering requires student-specific information absent from the visible conversation history and retrievable only from long-term Memory.
+- Planning (`planning_required`): true when the available evidence must be transformed into an actionable sequence, prioritisation, schedule, or concrete next-step plan.
+- Visible conversation history is already present in this prompt. It is not long-term Memory. Set `memory_required` only when required student-specific information is absent from that visible history and must be retrieved from long-term Memory.
+
+Development-only few-shot examples:
+{{FEW_SHOT_EXAMPLES}}
+
+Canonical model-visible input:
+- current_query: {{CURRENT_QUERY_JSON}}
+- current_page: {{CURRENT_PAGE_JSON}}
+- dashboard_context: {{DASHBOARD_CONTEXT_JSON}}
+- visible_conversation_history: {{VISIBLE_HISTORY_JSON}}
+
+Return exactly one JSON object and no prose or Markdown. The object must contain exactly these three required JSON booleans: `rag_required`, `memory_required`, and `planning_required`. It may also contain one optional short `reason_code` string. Do not return any other field or free-form rationale.

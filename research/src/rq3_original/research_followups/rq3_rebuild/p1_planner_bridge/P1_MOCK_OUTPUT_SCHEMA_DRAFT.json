@@ -1,0 +1,428 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "failure_kind": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "plan": {
+      "anyOf": [
+        {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "title": "PLANNER_CANDIDATE_SCHEMA_DRAFT",
+          "type": "object",
+          "properties": {
+            "plan_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "actions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "step_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "task_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "TASK",
+                      "REVIEW"
+                    ]
+                  },
+                  "action": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "estimated_duration": {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "minimum": 0,
+                            "maximum": 1000000
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "unit": {
+                        "const": "minutes",
+                        "type": "string"
+                      },
+                      "origin": {
+                        "type": "string",
+                        "enum": [
+                          "SYNTHETIC_ESTIMATE",
+                          "LEARNER_ESTIMATE",
+                          "SOURCE_ESTIMATE",
+                          "UNKNOWN",
+                          "MODEL_ESTIMATE"
+                        ]
+                      },
+                      "evidence_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minItems": 0,
+                        "maxItems": 1000,
+                        "uniqueItems": true
+                      },
+                      "uncertainty": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "value",
+                      "unit",
+                      "origin",
+                      "evidence_refs",
+                      "uncertainty"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "resource_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0,
+                    "maxItems": 1000,
+                    "uniqueItems": true
+                  },
+                  "dependencies": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0,
+                    "maxItems": 1000,
+                    "uniqueItems": true
+                  },
+                  "schedule": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "start": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "end": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "start",
+                          "end"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "completion_check": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "evidence_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 1,
+                    "maxItems": 1000,
+                    "uniqueItems": true
+                  },
+                  "brief_rationale": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "step_id",
+                  "task_id",
+                  "kind",
+                  "action",
+                  "estimated_duration",
+                  "resource_ids",
+                  "dependencies",
+                  "schedule",
+                  "completion_check",
+                  "evidence_refs",
+                  "brief_rationale"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 100,
+              "uniqueItems": false
+            },
+            "evidence_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 1000,
+              "uniqueItems": true
+            },
+            "continues_plan_id": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "brief_rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "plan_id",
+            "goal_id",
+            "goal",
+            "actions",
+            "evidence_refs",
+            "continues_plan_id",
+            "brief_rationale"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "outcome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "message": {
+                "type": "string",
+                "minLength": 1
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "ERROR",
+                  "NOT_CHECKABLE",
+                  "WARNING",
+                  "CONTRADICTION"
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "path",
+              "message",
+              "severity"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "check": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "CHECKED",
+                  "NOT_APPLICABLE",
+                  "NOT_IMPLEMENTED",
+                  "FAILED",
+                  "NOT_CHECKABLE"
+                ]
+              },
+              "detail": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "check",
+              "status",
+              "detail"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        }
+      },
+      "required": [
+        "outcome",
+        "issues",
+        "checks"
+      ],
+      "additionalProperties": false
+    },
+    "repair_history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 0,
+      "maxItems": 3,
+      "uniqueItems": false
+    },
+    "provider_calls": {
+      "type": "object",
+      "properties": {
+        "candidate": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "repair": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "final": {
+          "type": "integer",
+          "const": 0
+        },
+        "real": {
+          "type": "integer",
+          "const": 0
+        }
+      },
+      "required": [
+        "candidate",
+        "repair",
+        "final",
+        "real"
+      ],
+      "additionalProperties": false
+    },
+    "trace_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "utc": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "event",
+          "sequence",
+          "utc"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 1000,
+      "uniqueItems": false
+    },
+    "semantic_support": {
+      "type": "string",
+      "const": "NOT_CHECKED"
+    },
+    "deployment_suitability": {
+      "type": "string",
+      "const": "NOT_ESTABLISHED"
+    },
+    "actual_feasibility": {
+      "type": "string",
+      "const": "NOT_CHECKED"
+    },
+    "final_response_generated": {
+      "type": "boolean",
+      "const": false
+    }
+  },
+  "required": [
+    "status",
+    "failure_kind",
+    "plan",
+    "validation",
+    "repair_history",
+    "provider_calls",
+    "trace_events",
+    "semantic_support",
+    "deployment_suitability",
+    "actual_feasibility",
+    "final_response_generated"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+  "c4_schema_metadata": [
+    {
+      "schema_name": "c4_memory_schema_v1",
+      "schema_version": 1,
+      "architecture_id": "C4_LEARNER_MEMORY_V1",
+      "created_at": "2026-09-01T00:00:00+00:00"
+    }
+  ],
+  "learner_memory_settings": [],
+  "memories": [],
+  "memory_events": []
+}

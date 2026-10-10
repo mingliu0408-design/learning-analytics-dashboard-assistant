@@ -1,0 +1,127 @@
+{
+  "course_corpora": {
+    "shared-course-v1": "source_materials/course/corpus.jsonl"
+  },
+  "contexts": {
+    "context-c0aa4f8d44d5": {
+      "page_state_path": "source_materials/page_states/context-c0aa4f8d44d5.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-95761bc98ed1": {
+      "page_state_path": "source_materials/page_states/context-95761bc98ed1.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-b6898be4e38d": {
+      "page_state_path": "source_materials/page_states/context-b6898be4e38d.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-0e48341f6309": {
+      "page_state_path": "source_materials/page_states/context-0e48341f6309.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-61b3acfe0a48": {
+      "page_state_path": "source_materials/page_states/context-61b3acfe0a48.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-88828cd6a19c": {
+      "page_state_path": "source_materials/page_states/context-88828cd6a19c.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-f66893e8100a": {
+      "page_state_path": "source_materials/page_states/context-f66893e8100a.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-de163963fb5c": {
+      "page_state_path": "source_materials/page_states/context-de163963fb5c.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-7469f2cfd8c1": {
+      "page_state_path": "source_materials/page_states/context-7469f2cfd8c1.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-373926448336": {
+      "page_state_path": "source_materials/page_states/context-373926448336.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-0dbd26b0464f": {
+      "page_state_path": "source_materials/page_states/context-0dbd26b0464f.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-4c7a82df46ee": {
+      "page_state_path": "source_materials/page_states/context-4c7a82df46ee.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-1960017e2839": {
+      "page_state_path": "source_materials/page_states/context-1960017e2839.json",
+      "history_path": "source_materials/histories/context-1960017e2839.json",
+      "memory_operations_path": "source_materials/memory_operations/context-1960017e2839.jsonl"
+    },
+    "context-495277e64cd9": {
+      "page_state_path": "source_materials/page_states/context-495277e64cd9.json",
+      "history_path": "source_materials/histories/context-495277e64cd9.json",
+      "memory_operations_path": "source_materials/memory_operations/context-495277e64cd9.jsonl"
+    },
+    "context-013459503624": {
+      "page_state_path": "source_materials/page_states/context-013459503624.json",
+      "history_path": "source_materials/histories/context-013459503624.json",
+      "memory_operations_path": "source_materials/memory_operations/context-013459503624.jsonl"
+    },
+    "context-d019d3dc3beb": {
+      "page_state_path": "source_materials/page_states/context-d019d3dc3beb.json",
+      "history_path": "source_materials/histories/context-d019d3dc3beb.json",
+      "memory_operations_path": "source_materials/memory_operations/context-d019d3dc3beb.jsonl"
+    },
+    "context-c03a748773d6": {
+      "page_state_path": "source_materials/page_states/context-c03a748773d6.json",
+      "history_path": "source_materials/histories/context-c03a748773d6.json",
+      "memory_operations_path": "source_materials/memory_operations/context-c03a748773d6.jsonl"
+    },
+    "context-b74ac9a2a7d8": {
+      "page_state_path": "source_materials/page_states/context-b74ac9a2a7d8.json",
+      "history_path": "source_materials/histories/context-b74ac9a2a7d8.json",
+      "memory_operations_path": "source_materials/memory_operations/context-b74ac9a2a7d8.jsonl"
+    },
+    "context-7eaffb7ac93a": {
+      "page_state_path": "source_materials/page_states/context-7eaffb7ac93a.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-54fd6c10b998": {
+      "page_state_path": "source_materials/page_states/context-54fd6c10b998.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-6c36478d23c7": {
+      "page_state_path": "source_materials/page_states/context-6c36478d23c7.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-cc11974765a4": {
+      "page_state_path": "source_materials/page_states/context-cc11974765a4.json",
+      "history_path": null,
+      "memory_operations_path": null
+    },
+    "context-17b1e1304286": {
+      "page_state_path": "source_materials/page_states/context-17b1e1304286.json",
+      "history_path": "source_materials/histories/context-17b1e1304286.json",
+      "memory_operations_path": "source_materials/memory_operations/context-17b1e1304286.jsonl"
+    },
+    "context-03979c9cc009": {
+      "page_state_path": "source_materials/page_states/context-03979c9cc009.json",
+      "history_path": "source_materials/histories/context-03979c9cc009.json",
+      "memory_operations_path": "source_materials/memory_operations/context-03979c9cc009.jsonl"
+    }
+  }
+}

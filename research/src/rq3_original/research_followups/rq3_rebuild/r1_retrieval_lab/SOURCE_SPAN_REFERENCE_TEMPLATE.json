@@ -1,0 +1,176 @@
+{
+  "probes": [
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "navigation_metadata",
+      "draft_anchors": [
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_weekly_pages",
+          "end": 7403,
+          "required_facts": [],
+          "source_sha256": "799e0c07bd5655cc3caffa80b320cd4cafda4677d3e1664d951acb0b45740489",
+          "start": 7364,
+          "text_sha256": "3cb4ee057f6d0de917c3a4fe1224e03ec970ea9a9af25380ac1be1490596f833"
+        }
+      ],
+      "expected_p3_control": null,
+      "id": "DEV01",
+      "independent_held_out": false,
+      "query": "Where is the Week 4 lecture link?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "body_content",
+      "draft_anchors": [
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_handbook",
+          "end": 8324,
+          "required_facts": [],
+          "source_sha256": "296ca2e803bf687d328153268354211332f093ca19c691166b53532be62c077f",
+          "start": 8172,
+          "text_sha256": "f7355cef7cfe5ba6a798ee79bf22921f519e92759d893478d8d2b34efbc7f9c9"
+        }
+      ],
+      "expected_p3_control": null,
+      "id": "DEV02",
+      "independent_held_out": false,
+      "query": "What requirements does Part A specify for reflective writing?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "multi_section",
+      "draft_anchors": [
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_handbook",
+          "end": 8324,
+          "required_facts": [],
+          "source_sha256": "296ca2e803bf687d328153268354211332f093ca19c691166b53532be62c077f",
+          "start": 8172,
+          "text_sha256": "f7355cef7cfe5ba6a798ee79bf22921f519e92759d893478d8d2b34efbc7f9c9"
+        },
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_handbook",
+          "end": 8920,
+          "required_facts": [],
+          "source_sha256": "296ca2e803bf687d328153268354211332f093ca19c691166b53532be62c077f",
+          "start": 8324,
+          "text_sha256": "0d4c5a0f6d46a72de22d8428eca604d263976a378f74ffd15b57437e8702c79a"
+        }
+      ],
+      "expected_p3_control": null,
+      "id": "DEV03",
+      "independent_held_out": false,
+      "query": "Compare the requirements of assessment Part A and Part B.",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "ambiguous_followup",
+      "draft_anchors": [],
+      "expected_p3_control": null,
+      "id": "DEV04",
+      "independent_held_out": false,
+      "query": "What about the second one?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "wrong_week_hard_negative",
+      "draft_anchors": [
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_weekly_pages",
+          "end": 8718,
+          "required_facts": [],
+          "source_sha256": "799e0c07bd5655cc3caffa80b320cd4cafda4677d3e1664d951acb0b45740489",
+          "start": 8668,
+          "text_sha256": "2d972da6d268c6c592e295ea29b5071cef2a1ad61cb98836cd98abf561caaf7b"
+        }
+      ],
+      "expected_p3_control": null,
+      "id": "DEV05",
+      "independent_held_out": false,
+      "query": "What is the Week 5 debate task, rather than the Week 4 task?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": "W4"
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "title_only_insufficient",
+      "draft_anchors": [
+        {
+          "anchor_status": "DRAFT_LOCATION_ONLY_NOT_SUFFICIENCY_REFERENCE",
+          "document_id": "module_reading_list",
+          "end": 313,
+          "required_facts": [],
+          "source_sha256": "351e4e33919cdb5fe29347ed9df2fdf37eca794b736ac88cca4c610bedf087f0",
+          "start": 0,
+          "text_sha256": "b166d9561925a0f73da4f7f33e3a99dac83ed55966567b9d86ad92034de3de35"
+        }
+      ],
+      "expected_p3_control": null,
+      "id": "DEV06",
+      "independent_held_out": false,
+      "query": "Explain the detailed empirical argument in the Week 4 reading.",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "corpus_unanswerable",
+      "draft_anchors": [],
+      "expected_p3_control": null,
+      "id": "DEV07",
+      "independent_held_out": false,
+      "query": "What are the course visa sponsorship rules?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    },
+    {
+      "authorship": "MACHINE_AUTHORED_DEVELOPMENT_PROBES",
+      "candidate_rankings_viewed_before_draft": false,
+      "category": "no_rag_numeric_dashboard",
+      "draft_anchors": [],
+      "expected_p3_control": false,
+      "id": "DEV08",
+      "independent_held_out": false,
+      "query": "How many times did I view the Dashboard this week?",
+      "required_fact_labels": null,
+      "review_status": "HUMAN_REVIEW_PENDING",
+      "wrong_week_negative": null
+    }
+  ],
+  "schema": {
+    "acceptable_spans": "document/hash/start/end",
+    "answerability": "answerable|partial|unanswerable|ambiguous",
+    "required_fact_id": "human assigns",
+    "review_date": "not supplied",
+    "reviewer": "not supplied",
+    "support_type": "title_url|body|multi_section"
+  },
+  "use": "draft locations require human review; not a scored evaluation set"
+}

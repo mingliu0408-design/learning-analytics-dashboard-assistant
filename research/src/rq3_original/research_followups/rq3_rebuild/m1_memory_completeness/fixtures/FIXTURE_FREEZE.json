@@ -1,0 +1,39 @@
+{
+  "execution_utc": "2026-09-06T18:13:49.228954+00:00",
+  "stage": "BEFORE_LINKED_RETRIEVAL",
+  "flags": [
+    "SYNTHETIC_DEVELOPMENT_FIXTURE",
+    "MODEL_AUTHORED",
+    "NOT_FOR_INDEPENDENT_TEST"
+  ],
+  "case_count": 33,
+  "policy": {
+    "version": "M1_EXPANSION_V1",
+    "top_k": 5,
+    "max_added": 4,
+    "max_final": 9,
+    "max_depth": 2,
+    "max_edges": 12
+  },
+  "files": [
+    {
+      "path": "linked_runtime_v1.json",
+      "sha256": "b1ae61907dfbeae1759948d2c16cae18a794aa560888315fdd8725103843ef9f"
+    },
+    {
+      "path": "test_only_expectations_v1.json",
+      "sha256": "f0773e68a6b03dff98174feef7bdda3a63d39d59df2eab2088b5906c7384bfdd"
+    },
+    {
+      "path": "test_only_metamorphic_pairs.json",
+      "sha256": "eb85c9a014316a35ab5eccf5436b2fdbbb7221fd9e1b74b0f35ff108a0724ab4"
+    },
+    {
+      "path": "SOURCE_ENRICHMENT_LOG.json",
+      "sha256": "9cc03e2b79ba9b806460341b9cad194657725071ef650a569e8ed35926dff35d"
+    }
+  ],
+  "policy_document_sha256": "cb4deee9924d750267fe8f6dc23fef00f1b265f3c2bb7a75ba615d0f738c441d",
+  "not_a_held_out_test": true,
+  "no_query_or_threshold_selection_using_retrieval": true
+}

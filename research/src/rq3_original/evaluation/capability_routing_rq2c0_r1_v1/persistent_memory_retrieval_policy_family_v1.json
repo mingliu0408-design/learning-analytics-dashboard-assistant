@@ -1,0 +1,93 @@
+{
+  "case_specific_keywords": false,
+  "cross_encoder_training": false,
+  "dense_only_is_sufficient_architecture": false,
+  "future_dense_encoder": {
+    "download_authorised": false,
+    "local_only": true,
+    "model": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  },
+  "gold_label_as_feature": false,
+  "hybrid_candidate_union": [
+    "DENSE_TOP_K",
+    "LEXICAL_OR_ENTITY_MATCH",
+    "EXPLICIT_GOAL_PLAN_OR_REFERENCE_LINK"
+  ],
+  "hybrid_rerank_signals": [
+    "MEMORY_TYPE_COMPATIBILITY",
+    "TEMPORAL_VALIDITY",
+    "RECENCY"
+  ],
+  "keyword_only_is_baseline": true,
+  "keyword_only_is_sufficient_architecture": false,
+  "latest_explicit_correction_wins": true,
+  "learned_retriever": false,
+  "llm_memory_router": false,
+  "local_mpnet_identity_frozen_for_future_dense_condition": true,
+  "policies": {
+    "PMR_DENSE_ONLY": {
+      "active_status_filter": false,
+      "conflict_resolution": false,
+      "dense_signal": true,
+      "explicit_state_link": false,
+      "keyword_signal": false,
+      "lexical_entity_signal": false,
+      "recency": false,
+      "temporal_validity": false,
+      "type_compatibility": false
+    },
+    "PMR_HYBRID_STATE_AWARE": {
+      "active_status_filter": true,
+      "conflict_resolution": true,
+      "dense_signal": true,
+      "explicit_state_link": true,
+      "keyword_signal": true,
+      "lexical_entity_signal": true,
+      "recency": true,
+      "temporal_validity": true,
+      "type_compatibility": true
+    },
+    "PMR_HYBRID_TYPE_TEMPORAL": {
+      "active_status_filter": false,
+      "conflict_resolution": false,
+      "dense_signal": true,
+      "explicit_state_link": true,
+      "keyword_signal": true,
+      "lexical_entity_signal": true,
+      "recency": true,
+      "temporal_validity": true,
+      "type_compatibility": true
+    },
+    "PMR_KW_LEGACY": {
+      "active_status_filter": false,
+      "conflict_resolution": false,
+      "dense_signal": false,
+      "explicit_state_link": false,
+      "keyword_signal": true,
+      "lexical_entity_signal": false,
+      "recency": false,
+      "temporal_validity": false,
+      "type_compatibility": false
+    }
+  },
+  "policy_executed": false,
+  "policy_ids": [
+    "PMR_KW_LEGACY",
+    "PMR_DENSE_ONLY",
+    "PMR_HYBRID_TYPE_TEMPORAL",
+    "PMR_HYBRID_STATE_AWARE"
+  ],
+  "policy_selected": false,
+  "schema_version": "persistent-memory-retrieval-policy-family-v1",
+  "source_role_as_feature": false,
+  "stage": "RQ2-C0-R1",
+  "state_aware_rejections": [
+    "STALE",
+    "SUPERSEDED",
+    "CANCELLED",
+    "DELETED",
+    "CROSS_STUDENT_SCOPE"
+  ],
+  "status": "FROZEN_NOT_SELECTED"
+}

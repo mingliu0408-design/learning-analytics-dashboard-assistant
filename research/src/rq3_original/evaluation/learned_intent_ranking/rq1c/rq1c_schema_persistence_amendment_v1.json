@@ -1,0 +1,43 @@
+{
+  "authority_amendment_sha256": "ef2044c9747abad0565ffa0cd4d14b7ec080d7c3d4b1114623882ae488642fdb",
+  "authority_package_sha256": "e4efb4283753f918cde73741b94b62f5194a33631a10d3544240ff3dc5dc6268",
+  "blank_value_canonicalisation": {
+    "canonical_in_memory": "NONE",
+    "noncontrast_role_raw": "BLANK",
+    "query_only_page_raw": "BLANK"
+  },
+  "checkpoint_modified": false,
+  "contains_query": false,
+  "contains_raw_final_gold": false,
+  "contains_record_ids": false,
+  "contamination_normalisation": "NFKC_CASEFOLD_REMOVE_UNICODE_PUNCTUATION_COLLAPSE_WHITESPACE",
+  "model_training_performed": false,
+  "one_shot_state_order": [
+    "ARMED",
+    "OPENED",
+    "RESULT_PERSISTED",
+    "COMPLETED"
+  ],
+  "schema_version": "rq1c-schema-persistence-amendment-v1",
+  "source_normalisation": "NFC_STRIP_CASEFOLD_EM_DASH_TO_ASCII_HYPHEN_PRESERVE_OTHER_PUNCTUATION",
+  "stage": "RQ1-C0-R2",
+  "statistical_contract_modified": false,
+  "status": "PASS",
+  "supersedes": "RQ1-C0-R1 parser/persistence portions only",
+  "unchanged": {
+    "checkpoint_hashes": true,
+    "contamination_policy": true,
+    "label_universe_count": 16,
+    "models": [
+      "K0",
+      "C0",
+      "M64"
+    ],
+    "one_shot_no_retry_policy": true,
+    "representative_seed": 20260815,
+    "statistical_contract": true,
+    "track_a_authority": true,
+    "track_a_record_count": 128,
+    "track_a_sha256": "5d40f0a4a6b460e77271ee9815fce1b0954c1d7e05c7a4cd2f5d8e28ff09eb8f"
+  }
+}

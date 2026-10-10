@@ -1,0 +1,264 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-rag-specialist-fold-package-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "specialist": "RAG Specialist",
+  "outer_fold": "DEV-CV-FOLD-2",
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_template": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n",
+  "specialist_schema": {
+    "type": "object",
+    "properties": {
+      "rag_required": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "rag_required"
+    ],
+    "additionalProperties": false
+  },
+  "few_shot_examples": [
+    {
+      "input": {
+        "current_query": "Does the way I've used these resources fit the format preference I just mentioned?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: three optional resources were opened, an audio summary was not opened, and all resource-format descriptions are visible.",
+        "visible_conversation_history": [
+          {
+            "content": "Dense diagrams work better for me than audio summaries.",
+            "role": "user"
+          }
+        ]
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does getting 6 out of 10 after two attempts suggest when you consider my usual learning preference?",
+        "current_page": "Lecture",
+        "dashboard_context": "Controlled dashboard snapshot: the explicitly selected Lecture 6 checkpoint shows 6 of 10 correct with two attempts recorded.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "I'm 80% through Week 4—how does the lecture connect learning design with digital data traces?",
+        "current_page": "Lecture",
+        "dashboard_context": "Controlled dashboard snapshot: Week 4 Learning Analytics lecture completion is 80%, with activity tiles for learning design and digital data traces.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    }
+  ],
+  "complete_rendered_fold_package": {
+    "model": "gpt-4o-mini-2024-07-18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Does the way I've used these resources fit the format preference I just mentioned?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: three optional resources were opened, an audio summary was not opened, and all resource-format descriptions are visible.\",\"visible_conversation_history\":[{\"content\":\"Dense diagrams work better for me than audio summaries.\",\"role\":\"user\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does getting 6 out of 10 after two attempts suggest when you consider my usual learning preference?\",\"current_page\":\"Lecture\",\"dashboard_context\":\"Controlled dashboard snapshot: the explicitly selected Lecture 6 checkpoint shows 6 of 10 correct with two attempts recorded.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"I'm 80% through Week 4—how does the lecture connect learning design with digital data traces?\",\"current_page\":\"Lecture\",\"dashboard_context\":\"Controlled dashboard snapshot: Week 4 Learning Analytics lecture completion is 80%, with activity tiles for learning design and digital data traces.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 32,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "rq2_v2_rag_specialist_v1",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "rag_required": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "rag_required"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "hashes": {
+    "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+    "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+    "example_id_order_sha256": "7f8d7107a850ff85b8057b1b954d1f0e1e70fff80bfb07e3b9314e62f472c0f5",
+    "specialist_example_set_sha256": "49400a99bd06e01e464f98079c59e357aa00eb60816968b87cb42a0e377fc340",
+    "complete_rendered_fold_package_sha256": "0a4c0e7ff08ffcb5d98600be72af17958114312c4daf809ba882da61f063274f"
+  },
+  "source_b4_reuse": {
+    "example_ids_in_order": [
+      "R2V2-ANN-050",
+      "R2V2-ANN-049",
+      "R2V2-ANN-019",
+      "R2V2-ANN-038",
+      "R2V2-ANN-058",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_id_order": [
+      "R2V2-ANN-050",
+      "R2V2-ANN-049",
+      "R2V2-ANN-019",
+      "R2V2-ANN-038",
+      "R2V2-ANN-058",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_set_sha256": "fc36603e7827c756500cfbeaf72f8eae47b4fefd943794e3d3b5cd1e95cd97f2",
+    "identity_and_order_exact": true
+  },
+  "execution_controls": {
+    "sdk_transport_retries": 0,
+    "initial_request_count": 1,
+    "manual_retry_max": 1,
+    "manual_retry_condition": "INVALID_JSON_OR_STRICT_SCHEMA_ONLY",
+    "retry_prompt_identical": true,
+    "correction_message_allowed": false,
+    "string_to_boolean_coercion_allowed": false,
+    "json_extraction_from_prose_allowed": false,
+    "non_retryable_error_categories": [
+      "AUTHENTICATION",
+      "PERMISSION",
+      "REQUEST_CONFIGURATION",
+      "TRANSPORT",
+      "RATE_LIMIT",
+      "MODEL"
+    ],
+    "maximum_output_tokens": 32
+  },
+  "execution_boundary": {
+    "provider_calls_authorized": 0,
+    "provider_calls_made": 0,
+    "specialist_predictions_present": 0
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "basis": "DERIVED_FROM_IMMUTABLE_RUN_RECEIPTS_NOT_NEW_RUNTIME_LOGS",
+  "new_attempts": 9,
+  "new_accepted": 3,
+  "new_unknown": 6,
+  "cumulative_attempts": 286,
+  "cumulative_budget_debit_usd": "0.5750629499999999994",
+  "cumulative_unknown_reserved_usd": "0.0199433999999999994",
+  "accepted_canonical_slots": 183,
+  "missing_slots": 63,
+  "missing_reason_counts": {
+    "FINAL_UNKNOWN_AFTER_TWO_ATTEMPTS": 1,
+    "CANDIDATE_UNKNOWN_FINAL_DEPENDENCY_BLOCKED": 2,
+    "UNATTEMPTED_AFTER_GLOBAL_STOP": 60
+  },
+  "missing_slot_details": [
+    {
+      "slot": "task-495277e64cd9:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "UNKNOWN_COMPLETION",
+      "derived_missing_reason": "FINAL_UNKNOWN_AFTER_TWO_ATTEMPTS",
+      "source_outcomes": [
+        {
+          "path": "run/attempts/609c7eb4e602ef81b3bb2fa491c893062042ece65f1fe62d2c231e828f226db8.1.outcome.json",
+          "sha256": "b3a48c44aff6aeb0a661cc276ed61edf31f71a6d77984f8099b80825dc8757a7"
+        },
+        {
+          "path": "run/attempts/609c7eb4e602ef81b3bb2fa491c893062042ece65f1fe62d2c231e828f226db8.2.outcome.json",
+          "sha256": "1230f2db585168eb64e5adcb0ab5111a3783d55a06ef41b567db5ef8fcb42daf"
+        }
+      ]
+    },
+    {
+      "slot": "task-495277e64cd9:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "DEPENDENCY_BLOCKED",
+      "derived_missing_reason": "CANDIDATE_UNKNOWN_FINAL_DEPENDENCY_BLOCKED",
+      "source_outcomes": [
+        {
+          "path": "run/attempts/b39c0cd4c730b95f16b66a4cd8fbc25a6ddf092cee3c498b41b84a53f38b1b0f.1.outcome.json",
+          "sha256": "f40dff041c56bd6c40420bff7b0a36e60c37390995a16078192cd406b748aab7"
+        },
+        {
+          "path": "run/attempts/b39c0cd4c730b95f16b66a4cd8fbc25a6ddf092cee3c498b41b84a53f38b1b0f.2.outcome.json",
+          "sha256": "adac4fdbe2cf2c035d2a0ffb0241aa85c44db85ba68328e9282455498da299e5"
+        }
+      ]
+    },
+    {
+      "slot": "task-495277e64cd9:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "CANDIDATE_UNKNOWN_FINAL_DEPENDENCY_BLOCKED",
+      "source_outcomes": [
+        {
+          "path": "run/attempts/949c00d4abd2fba9c95cc91d0215fde5d1ddc418adc2c81f24f5e4148f4e6cba.1.outcome.json",
+          "sha256": "c0c9ba05fa3377f69890c160ac38da6c5be12142194151d9218a708c60057855"
+        },
+        {
+          "path": "run/attempts/949c00d4abd2fba9c95cc91d0215fde5d1ddc418adc2c81f24f5e4148f4e6cba.2.outcome.json",
+          "sha256": "f3bb79b05123c6f1194eee0c3bf931edff667207c658c99f642e7f9e6052ea94"
+        }
+      ]
+    },
+    {
+      "slot": "task-013459503624:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-013459503624:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-013459503624:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-013459503624:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-013459503624:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-013459503624:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-d019d3dc3beb:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-c03a748773d6:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-b74ac9a2a7d8:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-7eaffb7ac93a:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-54fd6c10b998:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-6c36478d23c7:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-cc11974765a4:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-17b1e1304286:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S0_PAGE_ONLY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S1_CROSS_PAGE_EVIDENCE",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S2_EVIDENCE_RAG",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S3_EVIDENCE_MEMORY",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S4_EVIDENCE_PLANNING",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    },
+    {
+      "slot": "task-03979c9cc009:S5_FULL",
+      "recorded_handoff_status": "NOT_EXECUTED",
+      "derived_missing_reason": "UNATTEMPTED_AFTER_GLOBAL_STOP",
+      "source_outcomes": []
+    }
+  ],
+  "waits_before_rebuild_seconds": [
+    10.028643707977608,
+    10.038532625010703,
+    10.036973292008042,
+    10.028190582990646
+  ],
+  "minimum_start_interval_seconds": 2.0002333329757676,
+  "canonical_269_cached_results_not_resent": true,
+  "all_three_retry_payloads_identical": true,
+  "original_unknown_resend_payload_identical": true,
+  "six_planning_replacements_not_resent": true,
+  "consecutive_failure_stop_verified": true,
+  "credential_bytes_absent_from_artifacts": true,
+  "note": "S5 candidate reached the third connection exhaustion and stopped the runner before the coordinator wrote a dependency stage. The original handoff records its FINAL as NOT_EXECUTED; this report derives the candidate dependency blocker from its two real UNKNOWN outcomes. No runner log or response was fabricated."
+}

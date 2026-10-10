@@ -1,0 +1,71 @@
+{
+  "absolute_score_threshold": null,
+  "authentic_specific_policy": false,
+  "case_specific_rules": false,
+  "existing_need_signals_called": true,
+  "intent_capability_seed_map_modified": false,
+  "learned_weights": false,
+  "legacy_memory_dependency_helper_called": true,
+  "llm_router": false,
+  "per_capability_threshold_search": false,
+  "policies": [
+    {
+      "always_include_top1": true,
+      "candidate_window": 1,
+      "delta_from_top1": null,
+      "policy_id": "P1_K1_SIGNAL_UNION",
+      "rank_k": 1,
+      "union_context_and_episodic_signals": true,
+      "union_deterministic_need_signals": true
+    },
+    {
+      "always_include_top1": true,
+      "candidate_window": 2,
+      "delta_from_top1": null,
+      "policy_id": "P1_K2_SIGNAL_UNION",
+      "rank_k": 2,
+      "union_context_and_episodic_signals": true,
+      "union_deterministic_need_signals": true
+    },
+    {
+      "always_include_top1": true,
+      "candidate_window": 3,
+      "delta_from_top1": null,
+      "policy_id": "P1_K3_SIGNAL_UNION",
+      "rank_k": 3,
+      "union_context_and_episodic_signals": true,
+      "union_deterministic_need_signals": true
+    },
+    {
+      "always_include_top1": true,
+      "candidate_window": 3,
+      "delta_from_top1": 0.05,
+      "policy_id": "P1_D05_SIGNAL_UNION",
+      "rank_k": null,
+      "union_context_and_episodic_signals": true,
+      "union_deterministic_need_signals": true
+    },
+    {
+      "always_include_top1": true,
+      "candidate_window": 3,
+      "delta_from_top1": 0.1,
+      "policy_id": "P1_D10_SIGNAL_UNION",
+      "rank_k": null,
+      "union_context_and_episodic_signals": true,
+      "union_deterministic_need_signals": true
+    }
+  ],
+  "policy_ids": [
+    "P1_K1_SIGNAL_UNION",
+    "P1_K2_SIGNAL_UNION",
+    "P1_K3_SIGNAL_UNION",
+    "P1_D05_SIGNAL_UNION",
+    "P1_D10_SIGNAL_UNION"
+  ],
+  "router_identity": "P1_CONTEXT_ENVELOPE_C0_SCORE_VECTOR_MULTILABEL_CAPABILITY_PLAN",
+  "schema_version": "rq2b-p1-policy-family-v1",
+  "source_specific_policy": false,
+  "stage": "RQ2-B",
+  "status": "FROZEN_BEFORE_EVALUATION",
+  "trained_classifier": false
+}

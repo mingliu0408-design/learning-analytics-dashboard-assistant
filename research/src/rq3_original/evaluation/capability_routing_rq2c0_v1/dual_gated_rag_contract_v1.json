@@ -1,0 +1,50 @@
+{
+  "gate_1_retrieval_candidate": {
+    "all_required": [
+      "P1_COURSE_RETRIEVAL_TRUE",
+      "P1_CLARIFICATION_FALSE",
+      "COURSE_SOURCE_AUTHORISED"
+    ],
+    "c0_low_confidence_trigger_allowed": false,
+    "gold_trigger_allowed": false
+  },
+  "gate_2_evidence_sufficiency": {
+    "evidence_admitted_only_when": "SUPPORTED_WITH_AT_LEAST_ONE_SUPPORTING_CHUNK",
+    "existing_interface": {
+      "interface": "utils.retrieval_v2.sufficiency.evaluate_evidence_sufficiency",
+      "parameters": [
+        "plan",
+        "chunks"
+      ],
+      "retrieval_adapter_sha256": "70f16b94edbc2fe5c5e156b1c87acab27c6656518b79493bf09bc1bfdff79751",
+      "retrieval_models_sha256": "1b07cd32122567185207e1b6a1425c6bcbca664fee7bb565a1a40329d62c5183",
+      "status": "PASS",
+      "sufficiency_sha256": "9af6e67b9ffc1457726ccb52f57fbd74af014cbad7c05b6ff25d76c811c1f77f"
+    },
+    "existing_status_mapping": {
+      "insufficient": "UNSUPPORTED",
+      "metadata_only": "AMBIGUOUS",
+      "no_result": "NO_RESULT",
+      "not_applicable": "NOT_APPLICABLE",
+      "partially_sufficient": "AMBIGUOUS",
+      "sufficient": "SUPPORTED"
+    },
+    "llm_support_judgement_allowed": false,
+    "non_supported_chunk_prompt_admission": false,
+    "normalised_statuses": [
+      "SUPPORTED",
+      "AMBIGUOUS",
+      "UNSUPPORTED",
+      "NO_RESULT",
+      "NOT_APPLICABLE"
+    ],
+    "retrieval_threshold_changed": false
+  },
+  "network_access": false,
+  "p2_implemented": false,
+  "production_behavior_changed": false,
+  "provider_calls": 0,
+  "schema_version": "dual-gated-rag-contract-v1",
+  "stage": "RQ2-C0",
+  "status": "FROZEN"
+}

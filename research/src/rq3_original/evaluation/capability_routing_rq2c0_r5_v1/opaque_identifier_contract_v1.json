@@ -1,0 +1,37 @@
+{
+  "all_episode_reference_payload_occurrences_validated": true,
+  "contract_id": "GOVERNED_OPAQUE_IDENTIFIER_V1",
+  "fail_closed": true,
+  "failure_codes": [
+    "IDENTIFIER_NOT_STRING",
+    "IDENTIFIER_EMPTY",
+    "IDENTIFIER_NOT_NFC",
+    "IDENTIFIER_SURROUNDING_WHITESPACE",
+    "IDENTIFIER_CONTAINS_NUL",
+    "IDENTIFIER_TOO_LONG"
+  ],
+  "governed_identifier_types": [
+    "memory_id",
+    "payload_id",
+    "episode_id",
+    "source_turn_id"
+  ],
+  "rules": {
+    "automatic_normalisation": false,
+    "automatic_replacement_id": false,
+    "casefold": false,
+    "maximum_utf8_bytes": 256,
+    "non_empty": true,
+    "nul_character": "PROHIBITED",
+    "punctuation_removal": false,
+    "surrounding_whitespace": "PROHIBITED",
+    "trim_then_accept": false,
+    "type": "STRING",
+    "unicode_normalisation": "NFC_REQUIRED_ALREADY_NORMALISED"
+  },
+  "schema_version": "opaque-identifier-contract-v1",
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN",
+  "store_global_uniqueness_implemented": false,
+  "store_global_uniqueness_rq2c1_prerequisite": true
+}

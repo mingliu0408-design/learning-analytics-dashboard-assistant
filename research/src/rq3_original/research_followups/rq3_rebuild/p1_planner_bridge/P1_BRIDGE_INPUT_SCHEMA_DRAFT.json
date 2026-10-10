@@ -1,0 +1,1280 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "P1_MEMORY_PLANNER_BRIDGE_V1_DRAFT"
+    },
+    "base_input": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "PLANNER_INPUT_SCHEMA_DRAFT",
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "P0_DRAFT_V0",
+          "type": "string"
+        },
+        "scope": {
+          "type": "object",
+          "properties": {
+            "learner_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "course_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "session_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "as_of": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "horizon": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "end": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "timezone": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "learner_id",
+            "course_id",
+            "session_id",
+            "as_of",
+            "horizon",
+            "timezone"
+          ],
+          "additionalProperties": false
+        },
+        "context": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1
+            },
+            "visible_conversation": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": false
+            }
+          },
+          "required": [
+            "query",
+            "page",
+            "visible_conversation"
+          ],
+          "additionalProperties": false
+        },
+        "goals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "goal_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "maxItems": 1000,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "goal_id",
+              "text",
+              "evidence_refs"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "hard_constraints": {
+          "type": "object",
+          "properties": {
+            "budget": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "minutes": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1000000
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "required",
+                "minutes"
+              ],
+              "additionalProperties": false
+            },
+            "schedule": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "allowed_windows": {
+                  "anyOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "start": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "end": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "start",
+                          "end"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "minItems": 0,
+                      "maxItems": 1000,
+                      "uniqueItems": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "excluded_windows": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "end": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": false
+                },
+                "forbidden_weekdays": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 6
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                },
+                "non_overlap": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "required",
+                "allowed_windows",
+                "excluded_windows",
+                "forbidden_weekdays",
+                "non_overlap"
+              ],
+              "additionalProperties": false
+            },
+            "forbid_completed_repeat": {
+              "type": "boolean"
+            },
+            "continue_active_plan": {
+              "type": "boolean"
+            },
+            "required_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true
+            },
+            "task_prerequisites": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "task_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "prerequisite_task_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0,
+                    "maxItems": 1000,
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "task_id",
+                  "prerequisite_task_ids"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": false
+            }
+          },
+          "required": [
+            "budget",
+            "schedule",
+            "forbid_completed_repeat",
+            "continue_active_plan",
+            "required_evidence_ids",
+            "task_prerequisites"
+          ],
+          "additionalProperties": false
+        },
+        "soft_preferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "preference_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "PREFERRED_RESOURCE",
+                  "NOTE"
+                ]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "preference_id",
+              "kind",
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "completed_tasks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "task_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "maxItems": 1000,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "task_id",
+              "evidence_refs"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "review_permissions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "task_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "maxItems": 1000,
+                "uniqueItems": true
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "task_id",
+              "evidence_refs",
+              "rationale"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "active_plan": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "plan_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "goal_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "remaining_task_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                },
+                "completed_task_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "plan_id",
+                "goal_id",
+                "remaining_task_ids",
+                "completed_task_ids",
+                "evidence_refs"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "facts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fact_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "DASHBOARD",
+                  "COURSE_RAG",
+                  "LEARNER_MEMORY"
+                ]
+              },
+              "fact_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_ref": {
+                "type": "object",
+                "properties": {
+                  "source_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "version": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "learner_id": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "course_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "scope": {
+                    "enum": [
+                      "LEARNER",
+                      "COURSE"
+                    ],
+                    "type": "string"
+                  },
+                  "session_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "span_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "page": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "observed_at": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "valid_from": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "valid_to": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "superseded_by": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "access": {
+                    "type": "string",
+                    "enum": [
+                      "GRANTED",
+                      "DENIED",
+                      "UNKNOWN"
+                    ]
+                  }
+                },
+                "required": [
+                  "source_id",
+                  "version",
+                  "learner_id",
+                  "course_id",
+                  "scope",
+                  "session_id",
+                  "span_id",
+                  "page",
+                  "observed_at",
+                  "valid_from",
+                  "valid_to",
+                  "superseded_by",
+                  "access"
+                ],
+                "additionalProperties": false
+              },
+              "available": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "fact_id",
+              "kind",
+              "fact_type",
+              "value",
+              "source_ref",
+              "available"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "resources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "resource_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_ref": {
+                "type": "object",
+                "properties": {
+                  "source_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "version": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "learner_id": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "course_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "scope": {
+                    "enum": [
+                      "LEARNER",
+                      "COURSE"
+                    ],
+                    "type": "string"
+                  },
+                  "session_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "span_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "page": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "observed_at": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "valid_from": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "valid_to": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "superseded_by": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "access": {
+                    "type": "string",
+                    "enum": [
+                      "GRANTED",
+                      "DENIED",
+                      "UNKNOWN"
+                    ]
+                  }
+                },
+                "required": [
+                  "source_id",
+                  "version",
+                  "learner_id",
+                  "course_id",
+                  "scope",
+                  "session_id",
+                  "span_id",
+                  "page",
+                  "observed_at",
+                  "valid_from",
+                  "valid_to",
+                  "superseded_by",
+                  "access"
+                ],
+                "additionalProperties": false
+              },
+              "available": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "resource_id",
+              "title",
+              "source_ref",
+              "available"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "source_versions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "version"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        },
+        "missing_information": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "field": {
+                "type": "string",
+                "minLength": 1
+              },
+              "required": {
+                "type": "boolean"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "field",
+              "required",
+              "reason"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 1000,
+          "uniqueItems": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "scope",
+        "context",
+        "goals",
+        "hard_constraints",
+        "soft_preferences",
+        "completed_tasks",
+        "review_permissions",
+        "active_plan",
+        "facts",
+        "resources",
+        "source_versions",
+        "missing_information"
+      ],
+      "additionalProperties": false
+    },
+    "task_request": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "ORDINARY_ACTION_ADVICE",
+            "EXPLICIT_SCHEDULE",
+            "UNKNOWN"
+          ]
+        },
+        "basis": {
+          "type": "string",
+          "enum": [
+            "EXPLICIT_TASK_REQUEST_FIELD",
+            "RESTRICTED_EXACT_PHRASE_V1",
+            "UNKNOWN"
+          ]
+        },
+        "source_quote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "mode",
+        "basis",
+        "source_quote"
+      ],
+      "additionalProperties": false
+    },
+    "selected_memory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "native": {
+            "type": "object",
+            "properties": {
+              "memory_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "memory_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "content": {
+                "type": "string",
+                "minLength": 1
+              },
+              "timestamp_version": {
+                "type": "object",
+                "properties": {
+                  "created_at": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "valid_from": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "valid_to": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "last_confirmed_at": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "version": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "status": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "created_at",
+                  "valid_from",
+                  "valid_to",
+                  "last_confirmed_at",
+                  "version",
+                  "status"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "object",
+                "properties": {
+                  "source_session_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_turn_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "supersedes_memory_id": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "consent_status": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "content_sha256": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "source_session_id",
+                  "source_turn_id",
+                  "supersedes_memory_id",
+                  "consent_status",
+                  "content_sha256"
+                ],
+                "additionalProperties": false
+              },
+              "read_only_evidence": {
+                "type": "object",
+                "properties": {
+                  "representation": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "mutable": {
+                    "type": "boolean"
+                  },
+                  "content": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "content_sha256": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "representation",
+                  "mutable",
+                  "content",
+                  "content_sha256"
+                ],
+                "additionalProperties": false
+              },
+              "relevance_components": {
+                "type": "object",
+                "properties": {
+                  "lexical": {
+                    "type": "number"
+                  },
+                  "semantic": {
+                    "type": "number"
+                  },
+                  "memory_type_alignment": {
+                    "type": "number"
+                  },
+                  "recency": {
+                    "type": "number"
+                  },
+                  "importance": {
+                    "type": "number"
+                  },
+                  "confidence": {
+                    "type": "number"
+                  },
+                  "fusion": {
+                    "type": "number"
+                  },
+                  "lexical_supported": {
+                    "type": "boolean"
+                  },
+                  "semantic_supported": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "lexical",
+                  "semantic",
+                  "memory_type_alignment",
+                  "recency",
+                  "importance",
+                  "confidence",
+                  "fusion",
+                  "lexical_supported",
+                  "semantic_supported"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "memory_id",
+              "memory_type",
+              "content",
+              "timestamp_version",
+              "provenance",
+              "read_only_evidence",
+              "relevance_components"
+            ],
+            "additionalProperties": false
+          },
+          "binding": {
+            "type": "object",
+            "properties": {
+              "learner_id": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "course_id": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "current_version": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "superseded_by": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "enabled": {
+                "anyOf": [
+                  {
+                    "type": "boolean"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "origin": {
+                "type": "string",
+                "enum": [
+                  "LEARNER_STATED_FACT",
+                  "SYSTEM_ORIGIN_PLAN",
+                  "EXPLICITLY_ACCEPTED_PLAN",
+                  "OBSERVED_COMPLETED_ACTION",
+                  "MODEL_INFERENCE",
+                  "UNKNOWN"
+                ]
+              },
+              "origin_basis": {
+                "type": "string",
+                "enum": [
+                  "EXPLICIT_USER_STATEMENT",
+                  "VERIFIED_SYSTEM_EVENT",
+                  "EXPLICIT_ACCEPTANCE_EVENT",
+                  "MODEL_OUTPUT",
+                  "UNKNOWN"
+                ]
+              },
+              "source_role": {
+                "type": "string",
+                "enum": [
+                  "USER",
+                  "SYSTEM",
+                  "OBSERVER",
+                  "MODEL",
+                  "UNKNOWN"
+                ]
+              },
+              "source_span": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "start": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "end": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "start",
+                      "end"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "FREE_TEXT",
+                  "P1_EXPLICIT_FIELDS_JSON_V1"
+                ]
+              },
+              "validity_policy": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "policy_id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "source_sha256": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "policy_id",
+                      "source_sha256"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "learner_id",
+              "course_id",
+              "current_version",
+              "superseded_by",
+              "enabled",
+              "origin",
+              "origin_basis",
+              "source_role",
+              "source_span",
+              "encoding",
+              "validity_policy"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "native",
+          "binding"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 1000,
+      "uniqueItems": false
+    },
+    "memory_status": {
+      "type": "string",
+      "enum": [
+        "AVAILABLE",
+        "NO_MATCH",
+        "NOT_ACTIVATED",
+        "UNKNOWN"
+      ]
+    },
+    "future_use_policy": {
+      "type": "string",
+      "enum": [
+        "RECONFIRM_FOR_SCHEDULE",
+        "WARN_SNAPSHOT_ONLY"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "base_input",
+    "task_request",
+    "selected_memory",
+    "memory_status",
+    "future_use_policy"
+  ],
+  "additionalProperties": false
+}

@@ -1,3 +1,5 @@
+> Historical v0.1.0 snapshot. Current G0-R1 recovery/publication: [PROJECT_MAP](PROJECT_MAP.md), [RECOVERY](RECOVERY.md), [VALIDATION_G0_R1](VALIDATION_G0_R1.md).
+
 # 2026-10-10 公开演示验证
 
 验证对象是本次新公开包装，不是原论文实验的重新执行。全部数据与课程材料为合成内容，模型接口仅使用 mock。

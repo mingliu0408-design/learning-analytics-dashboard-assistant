@@ -1,0 +1,439 @@
+{
+  "status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "final_sample_size": null,
+  "split_rule": "Both conditions of a family stay together; DRAFT_UNASSIGNED is not held-out certification.",
+  "tasks": [
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "family_id": "E01",
+      "condition": "A",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅Debate快照的post_status从DRAFT变成PUBLISHED。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "family_id": "E01",
+      "condition": "B",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅Debate快照的post_status从DRAFT变成PUBLISHED。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "family_id": "E02",
+      "condition": "A",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加三条范围外事件：另一学生、另一课程、窗口前一天。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "family_id": "E02",
+      "condition": "B",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加三条范围外事件：另一学生、另一课程、窗口前一天。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "family_id": "E03",
+      "condition": "A",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "BOUNDARY",
+      "changed_factor": "仅Reflection覆盖状态COMPLETE变为UNKNOWN；事件列表同为空。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "family_id": "E03",
+      "condition": "B",
+      "primary_capability": "Evidence Synthesis",
+      "design_focus_bucket": "E",
+      "test_type": "BOUNDARY",
+      "changed_factor": "仅Reflection覆盖状态COMPLETE变为UNKNOWN；事件列表同为空。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "family_id": "R01",
+      "condition": "A",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅改变同义问题的表述；课程库、当前页与可见历史固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "family_id": "R01",
+      "condition": "B",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅改变同义问题的表述；课程库、当前页与可见历史固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "family_id": "R02",
+      "condition": "A",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "COMPOSITION",
+      "changed_factor": "仅在同伴观点归属问题上增加直接引用书籍的格式需求，增加另一段来源。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-373926448336",
+      "family_id": "R02",
+      "condition": "B",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "COMPOSITION",
+      "changed_factor": "仅在同伴观点归属问题上增加直接引用书籍的格式需求，增加另一段来源。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "family_id": "R03",
+      "condition": "A",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "BOUNDARY",
+      "changed_factor": "同一引文由书目事实改问论文中的具体教学实施步骤；课程库固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "family_id": "R03",
+      "condition": "B",
+      "primary_capability": "RAG",
+      "design_focus_bucket": "R",
+      "test_type": "BOUNDARY",
+      "changed_factor": "同一引文由书目事实改问论文中的具体教学实施步骤；课程库固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "family_id": "M01",
+      "condition": "A",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加一个旅行文件夹会话及对应无关预置记录。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "family_id": "M01",
+      "condition": "B",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加一个旅行文件夹会话及对应无关预置记录。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-013459503624",
+      "family_id": "M02",
+      "condition": "A",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅增加目标前的明确更正会话及替代版本。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "family_id": "M02",
+      "condition": "B",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅增加目标前的明确更正会话及替代版本。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "family_id": "M03",
+      "condition": "A",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "BOUNDARY",
+      "changed_factor": "仅把已确定对象与关注点的历史话语替换为尚未确定；相应预置事实改变。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "family_id": "M03",
+      "condition": "B",
+      "primary_capability": "Memory",
+      "design_focus_bucket": "M",
+      "test_type": "BOUNDARY",
+      "changed_factor": "仅把已确定对象与关注点的历史话语替换为尚未确定；相应预置事实改变。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "family_id": "P01",
+      "condition": "A",
+      "primary_capability": "Planning",
+      "design_focus_bucket": "P",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅可用时间35变15分钟。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "family_id": "P01",
+      "condition": "B",
+      "primary_capability": "Planning",
+      "design_focus_bucket": "P",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅可用时间35变15分钟。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "family_id": "P02",
+      "condition": "A",
+      "primary_capability": "Planning",
+      "design_focus_bucket": "P",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅资源页read步骤completed从false变true。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "family_id": "P02",
+      "condition": "B",
+      "primary_capability": "Planning",
+      "design_focus_bucket": "P",
+      "test_type": "DIRECTIONAL",
+      "changed_factor": "仅资源页read步骤completed从false变true。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "family_id": "P03",
+      "condition": "A",
+      "primary_capability": "Planning + RAG + Memory",
+      "design_focus_bucket": "P",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加三条范围外活动；课程、当前草稿、历史偏好和相关进度固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "family_id": "P03",
+      "condition": "B",
+      "primary_capability": "Planning + RAG + Memory",
+      "design_focus_bucket": "P",
+      "test_type": "INVARIANCE",
+      "changed_factor": "仅增加三条范围外活动；课程、当前草稿、历史偏好和相关进度固定。",
+      "split": "DRAFT_UNASSIGNED",
+      "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+      "task_exposure": "NEW_AUTHORING_NO_TARGET_OUTPUT_OBSERVED",
+      "source_exposure": "REUSED_EXPOSED_COURSE_DOMAIN",
+      "not_claimed": [
+        "independent human authorship",
+        "held-out certification",
+        "new-document generalisation"
+      ]
+    }
+  ]
+}

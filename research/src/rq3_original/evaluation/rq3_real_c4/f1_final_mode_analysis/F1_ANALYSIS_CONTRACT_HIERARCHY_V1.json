@@ -1,0 +1,49 @@
+{
+  "authority_order": [
+    {
+      "controls": [
+        "nine real-C4 mode identities",
+        "exact eight contrasts and left-minus-right directions",
+        "primary and targeted-secondary families",
+        "separate five/three Holm families",
+        "paired-scenario design",
+        "predeclared mechanism and efficiency outcomes"
+      ],
+      "path": "evaluation/rq3_real_c4/track_d_dataset/c4_real_ablation_mode_registry_v1.json",
+      "rank": 1,
+      "sha256": "998884326cbb448360d517e9792b46598d9df5733628ceefadf444d5316c960c"
+    },
+    {
+      "controls_only_compatible_procedures": [
+        "complete pairs",
+        "family-cluster bootstrap",
+        "paired family sign-flip",
+        "Wilcoxon robustness",
+        "paired Cohen dz",
+        "matched rank-biserial",
+        "wins/ties/losses",
+        "mathematical guards"
+      ],
+      "path": "evaluation/rq3_v2/rq3_0b4_evaluation_protocol/rq3_statistical_analysis_contract_v1.json",
+      "rank": 2,
+      "sha256": "cddf95489eb5142064ca78902555946a74e43b30e9195dc90d456c16fc18d8b0"
+    }
+  ],
+  "contrast_or_multiplicity_conflict_resolution": "REAL_C4_MODE_REGISTRY_CONTROLS",
+  "controlled_rq3_contrast_formulas_executable": false,
+  "forbidden_final_contrast_names": [
+    "RM00",
+    "RM10",
+    "RM01",
+    "RM11",
+    "BASE",
+    "ALWAYS",
+    "ORACLE",
+    "PREDICTED"
+  ],
+  "frozen_at_utc": "2026-09-03T07:37:54.066226+00:00",
+  "mode_mapping_content_accesses_before_hierarchy": 0,
+  "overwrite_permitted": false,
+  "schema_version": "F1_ANALYSIS_CONTRACT_HIERARCHY_V1",
+  "write_count": 1
+}

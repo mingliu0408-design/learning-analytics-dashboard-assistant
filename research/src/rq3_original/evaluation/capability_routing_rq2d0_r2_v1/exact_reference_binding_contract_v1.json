@@ -1,0 +1,16 @@
+{
+  "authority_verification_before_key_or_lock_or_raw_open": true,
+  "byte_exact_identity_required": true,
+  "caller_supplied_bundle_permitted": false,
+  "caller_supplied_manifest_permitted": false,
+  "caller_supplied_source_resolution_permitted": false,
+  "canonical_partition_commitment_encoding": "partition_id ASCII + NUL + decimal_count ASCII + NUL + lowercase_sha256_ascii + LF, in frozen order",
+  "path_override_permitted": false,
+  "raw_line_partition_commitments_recomputed": true,
+  "real_loader": "load_frozen_contamination_reference_authority_v1_1",
+  "real_loader_parameter_count": 0,
+  "same_name_search_permitted": false,
+  "schema_version": "exact-reference-binding-contract-v1",
+  "source_record_rebuild_permitted": false,
+  "status": "FROZEN_BEFORE_RAW_TRACK_B_ACCESS"
+}

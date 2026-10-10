@@ -1,0 +1,41 @@
+{
+  "status": "PENDING_AUTHOR_APPROVAL",
+  "historical_generator_reference": {
+    "GENERATOR_MODEL": "gpt-4o-mini-2024-07-18",
+    "GENERATOR_ENDPOINT": "OpenAI Chat Completions",
+    "GENERATOR_MAX_OUTPUT_TOKENS": 512,
+    "temperature": 0,
+    "stream": false,
+    "evidence": "utils/c4_real_adapters.py::_build_request_payload; reference only, no parameters enabled"
+  },
+  "frozen_p3_reference": {
+    "path": "evaluation/capability_routing_rq2_v2_stage4/track_m_specialist_composition/p3_rag_memory_specialists_frozen_v1.json",
+    "sha256": "3a05be7546c62e24b571451a80a801338bf2beb7badc126bfe9dcd5f17255c13",
+    "composition": {
+      "memory_required": "MEMORY_SPECIALIST.memory_required",
+      "planning_required": "B4.planning_required",
+      "rag_required": "RAG_SPECIALIST.rag_required"
+    },
+    "models": {
+      "B4": "gpt-4o-mini-2024-07-18",
+      "MEMORY_SPECIALIST": "gpt-4o-mini-2024-07-18",
+      "RAG_SPECIALIST": "gpt-4o-mini-2024-07-18"
+    }
+  },
+  "live_settings": {
+    "provider": "PENDING_AUTHOR_APPROVAL",
+    "model_snapshot": "PENDING_AUTHOR_APPROVAL",
+    "candidate_model_role": "PENDING_AUTHOR_APPROVAL",
+    "temperature": "PENDING_AUTHOR_APPROVAL",
+    "max_output_tokens": "PENDING_AUTHOR_APPROVAL",
+    "repair_limit": "PENDING_AUTHOR_APPROVAL",
+    "route_invalid_output_repair_limit": "PENDING_AUTHOR_APPROVAL",
+    "total_call_budget": "PENDING_AUTHOR_APPROVAL",
+    "total_token_or_cost_budget": "PENDING_AUTHOR_APPROVAL",
+    "future_use_policy": "PENDING_AUTHOR_APPROVAL",
+    "task_scope": "PENDING_AUTHOR_APPROVAL"
+  },
+  "live_transport": "NOT_IMPLEMENTED_IN_PREPARATION_PACKAGE",
+  "secrets_read": false,
+  "SDK_clients_constructed": 0
+}

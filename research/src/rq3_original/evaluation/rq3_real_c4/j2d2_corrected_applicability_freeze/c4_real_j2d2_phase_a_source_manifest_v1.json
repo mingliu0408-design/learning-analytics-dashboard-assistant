@@ -1,0 +1,36 @@
+{
+  "human_rating_or_rationale_accessed": false,
+  "judge_score_or_rationale_accessed": false,
+  "mode_outcome_mapping_accessed": false,
+  "schema_version": "c4-real-j2d2-phase-a-source-manifest-v1",
+  "sources": {
+    "completed_researcher_attestation": {
+      "copied_byte_identically_to_source_intake": true,
+      "sha256": "f2f7522f1ceb21bfe5e49176610fa48e67a6badd94158d5cfad8054e93f09bcc",
+      "source_filename": "applicability_researcher_attestation_completed.md"
+    },
+    "completed_researcher_packet": {
+      "copied_byte_identically_to_source_intake": true,
+      "sha256": "0f248db0e00609fd4630c759e36548c62b61de5935d19ff7706601eb528c78a1",
+      "source_filename": "applicability_researcher_review_packet_completed.csv"
+    },
+    "frozen_blank_packet": {
+      "modified": false,
+      "path": "evaluation/rq3_real_c4/j2d1_applicability_provenance_audit/applicability_researcher_review_packet.csv",
+      "sha256": "5e36691b2929d18a14528a4c31bee34345712ace5c85d778ec6c917d29ee2962"
+    },
+    "restricted_review_id_mapping": {
+      "content_included_in_tracked_artifacts": false,
+      "filename": "c4_real_j2d1_applicability_review_id_to_scenario_mapping_v1.csv",
+      "ignored": true,
+      "sha256": "de04ba913919447fddefafa1127b1480fb5c8614bf4cfce570f52b548f397c25",
+      "tracked": false
+    },
+    "v1_condition_applicability_maps": {
+      "modified": false,
+      "path": "evaluation/rq3_real_c4/i1_route_integration/c4_real_condition_applicability_maps_frozen_v1.jsonl",
+      "sha256": "1f5b159b3d80506c32265624a8f4e5866af4dba996dd0f62abf53dff93f31084"
+    }
+  },
+  "status": "PASS_ALL_PHASE_A_SOURCES_HASH_VERIFIED"
+}

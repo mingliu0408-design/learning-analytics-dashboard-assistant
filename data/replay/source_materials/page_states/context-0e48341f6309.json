@@ -1,0 +1,125 @@
+{
+  "provenance": "SYNTHETIC_EXPERIMENT_STATE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "scope": {
+    "student_id": "synthetic-learner-d134709e21f9",
+    "course_id": "dute-archived-materials-experiment-v1",
+    "window_start": "2026-08-24T00:00:00+00:00",
+    "window_end": "2026-08-31T00:00:00+00:00"
+  },
+  "as_of": "2026-08-31T12:00:00+00:00",
+  "coverage": {
+    "Resources": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Lecture": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Debate": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Reflection": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    }
+  },
+  "events": [
+    {
+      "event_id": "resource-a",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Resources",
+      "event_type": "resource_view",
+      "occurred_at": "2026-08-24T10:00:00+00:00",
+      "payload": {
+        "resource": "module-guide"
+      }
+    },
+    {
+      "event_id": "resource-b",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Resources",
+      "event_type": "resource_view",
+      "occurred_at": "2026-08-25T10:00:00+00:00",
+      "payload": {
+        "resource": "reading-list"
+      }
+    },
+    {
+      "event_id": "lecture-a",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Lecture",
+      "event_type": "recording_play",
+      "occurred_at": "2026-08-26T10:00:00+00:00",
+      "payload": {
+        "recording_id": "analytics-notes"
+      }
+    },
+    {
+      "event_id": "debate-a",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Debate",
+      "event_type": "post_published",
+      "occurred_at": "2026-08-27T10:00:00+00:00",
+      "payload": {
+        "post_id": "claim-and-evidence"
+      }
+    },
+    {
+      "event_id": "reflection-a",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "event_type": "document_edit",
+      "occurred_at": "2026-08-28T10:00:00+00:00",
+      "payload": {
+        "document_id": "weekly-note"
+      }
+    },
+    {
+      "event_id": "outside-learner",
+      "student_id": "synthetic-other-learner",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Debate",
+      "event_type": "post_published",
+      "occurred_at": "2026-08-27T10:00:00+00:00",
+      "payload": {
+        "post_id": "other-post"
+      }
+    },
+    {
+      "event_id": "outside-course",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "synthetic-unrelated-course",
+      "page": "Lecture",
+      "event_type": "recording_play",
+      "occurred_at": "2026-08-28T10:00:00+00:00",
+      "payload": {
+        "recording_id": "other-recording"
+      }
+    },
+    {
+      "event_id": "outside-window",
+      "student_id": "synthetic-learner-d134709e21f9",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "event_type": "document_edit",
+      "occurred_at": "2026-08-23T10:00:00+00:00",
+      "payload": {
+        "document_id": "old-note"
+      }
+    }
+  ],
+  "records": [],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

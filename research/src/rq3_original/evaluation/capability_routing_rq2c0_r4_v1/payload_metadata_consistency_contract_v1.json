@@ -1,0 +1,33 @@
+{
+  "canonical_bytes": "frozen_normalise(canonical_text).encode('utf-8')",
+  "canonical_payload_must_be_nonempty": true,
+  "canonical_text_runtime_type": "str",
+  "content_length_unit": "NORMALISED_UTF8_BYTES",
+  "content_type_exact": "text/plain",
+  "empty_failure_code": "EMPTY_CANONICAL_PAYLOAD",
+  "encoding_exact": "UTF-8",
+  "fail_closed": true,
+  "hash_algorithm": "SHA-256",
+  "hash_triplet_consistency": true,
+  "invalid_type_failure_code": "INVALID_CANONICAL_PAYLOAD_TYPE",
+  "invalid_utf8_failure_code": "INVALID_CANONICAL_PAYLOAD_ENCODING",
+  "locale": {
+    "automatic_correction": false,
+    "equal_between_payload_and_reference": true,
+    "language_detection": false,
+    "maximum_length": 35,
+    "non_empty": true,
+    "surrounding_whitespace": "PROHIBITED",
+    "unknown_locale_value": "und"
+  },
+  "payload_scope": "TEXT_ONLY_PRIVATE_PAYLOAD_V1_1",
+  "schema_version": "payload-metadata-consistency-contract-v1",
+  "stage": "RQ2-C0-R4",
+  "status": "FROZEN",
+  "structured_value_allowed_values": [
+    "NULL",
+    "EMPTY_MAPPING"
+  ],
+  "text_normalisation": "FROZEN_R2_TEXT_NORMALISATION",
+  "unicode_character_count_used": false
+}

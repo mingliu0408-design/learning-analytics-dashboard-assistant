@@ -1,0 +1,46 @@
+{
+  "provenance": "SYNTHETIC_AUTHORED_DIALOGUE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "student_id": "synthetic-learner-c994ecef8f75",
+  "course_id": "dute-archived-materials-experiment-v1",
+  "scope_policy": "read-only prior sessions for this experimental learner and course",
+  "target_session_id": "new-session-13aa8ca534a3",
+  "target_time": "2026-08-31T12:00:00+00:00",
+  "sessions": [
+    {
+      "session_id": "session-cf3d663c3a42",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-cf3d663c3a42-m1",
+          "role": "user",
+          "content": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+          "timestamp": "2026-08-21T09:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "session_id": "session-97c1062c1ea7",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-97c1062c1ea7-m1",
+          "role": "user",
+          "content": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+          "timestamp": "2026-08-24T09:00:00+00:00"
+        },
+        {
+          "message_id": "session-97c1062c1ea7-m2",
+          "role": "assistant",
+          "content": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+          "timestamp": "2026-08-24T09:01:00+00:00"
+        }
+      ]
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

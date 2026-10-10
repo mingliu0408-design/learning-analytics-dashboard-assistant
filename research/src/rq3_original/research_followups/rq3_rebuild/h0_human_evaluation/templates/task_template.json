@@ -1,0 +1,101 @@
+{
+  "schema_version": "H0_TASK_V1",
+  "status": "TEMPLATE_UNFILLED_NOT_EVALUABLE",
+  "task_id": "",
+  "family_id": "",
+  "episode_id": "",
+  "split": "",
+  "group_keys": [],
+  "provenance": {
+    "provenance_class": "",
+    "source_origin": "",
+    "utterance_origin": "",
+    "exposure_status": "",
+    "general_corpus_reuse": "",
+    "human_author_id": "",
+    "independent_reviewer_id": "",
+    "permission_reference": "",
+    "independent_review_reference": "",
+    "legacy_relations": []
+  },
+  "task": {
+    "target_utterance": "",
+    "current_page": "",
+    "category": "",
+    "source_condition": "",
+    "target_time": "",
+    "scope": "",
+    "runtime_capture_id": ""
+  },
+  "visible_context": {
+    "text": "",
+    "history": [],
+    "scope": "",
+    "snapshot_version": ""
+  },
+  "sources": [],
+  "source_annotations": [],
+  "evaluator_reference": {
+    "evidence_dossier": "",
+    "missing_fact_labels": [],
+    "acceptable_boundaries": "",
+    "source_ids": [],
+    "scope": "",
+    "version": "",
+    "absence_basis": ""
+  },
+  "applicability": {
+    "CLARITY": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "PERSONALISATION": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "ACTIONABILITY": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "CONTEXT_AWARENESS": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "MOTIVATION_AND_ENGAGEMENT": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "RELIABILITY": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "MULTI_PAGE_COHESIVENESS": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    },
+    "ERROR_HANDLING": {
+      "applicable": null,
+      "reason": "",
+      "weight": 1
+    }
+  },
+  "observability": {
+    "multi_page_design": "",
+    "context_reference": "",
+    "author_approval_reference": ""
+  },
+  "freeze": {
+    "basis": "PRE_ANSWER_TASK",
+    "frozen_at": "",
+    "source_manifest_sha256": "",
+    "applicability_review_reference": "",
+    "author_protocol_approval_reference": ""
+  }
+}

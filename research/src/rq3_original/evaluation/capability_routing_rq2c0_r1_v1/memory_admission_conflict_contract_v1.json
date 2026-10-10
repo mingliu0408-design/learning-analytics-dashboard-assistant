@@ -1,0 +1,43 @@
+{
+  "admission_requires": [
+    "SEMANTIC_OR_ENTITY_RELEVANCE_SUPPORTED",
+    "ACTIVE_STATUS",
+    "TEMPORALLY_VALID",
+    "CURRENT_STUDENT_SCOPE",
+    "NOT_STALE",
+    "NOT_SUPERSEDED",
+    "NOT_CANCELLED_OR_COMPLETED_UNLESS_COMPLETION_QUERIED",
+    "NOT_DELETED"
+  ],
+  "cross_student_search": false,
+  "deleted_memory_retrieval": false,
+  "explicit_deletion_required": true,
+  "latest_explicit_correction_wins": true,
+  "llm_summary_as_sole_fact_source": false,
+  "p2_implemented": false,
+  "per_student_namespace_required": true,
+  "production_behavior_changed": false,
+  "production_encryption_implemented": false,
+  "production_encryption_prerequisite": true,
+  "production_persistence_implemented": false,
+  "production_persistence_prerequisite": true,
+  "public_memory_store_upload_allowed": false,
+  "raw_episode_removed_on_supersession": false,
+  "raw_memory_in_tracked_outputs": false,
+  "rejection_priority": [
+    "CROSS_STUDENT_SCOPE",
+    "DELETED",
+    "SUPERSEDED",
+    "CANCELLED_OR_COMPLETED",
+    "STALE",
+    "INACTIVE",
+    "RELEVANCE_UNSUPPORTED"
+  ],
+  "schema_version": "memory-admission-conflict-contract-v1",
+  "sensitive_inference_persistence_allowed": false,
+  "source_provenance_required": true,
+  "stage": "RQ2-C0-R1",
+  "status": "FROZEN",
+  "tombstone_support_required": true,
+  "version_history_required": true
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "original-21",
+  "operations": 0,
+  "accepted_writes": 0,
+  "unindexed_suggestions": 0,
+  "receipts": [],
+  "native_rows": 0,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 0,
+    "fts_row_count": 0
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [],
+    "setup_operations": [],
+    "relation_events": [],
+    "target": {
+      "learner_id": "research:reused62:learner",
+      "course_id": "research:reused62:module",
+      "session_id": "target-session",
+      "as_of": "2026-09-01T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "Give particular suggestions to improve my engagement",
+      "page": "Overview",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

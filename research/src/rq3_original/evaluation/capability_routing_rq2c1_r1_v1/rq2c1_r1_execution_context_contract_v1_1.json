@@ -1,0 +1,32 @@
+{
+  "bound_fields": [
+    "validated_plan",
+    "validated_bundle",
+    "student_scope_hash",
+    "snapshot_fingerprint",
+    "projection_hash",
+    "projected_status",
+    "store_revision",
+    "condition_id",
+    "request_fingerprint",
+    "context_fingerprint",
+    "contract_id"
+  ],
+  "completed_allowed_only_for_completion_target": true,
+  "context_schema": "ValidatedMemoryExecutionContextV1_1",
+  "current_projection_status_is_authority": true,
+  "factory": "create_validated_execution_context_v1_1",
+  "immutable_episode_status_is_current_authority": false,
+  "manual_or_stale_context_accepted": false,
+  "query_time_authority": "ValidatedRetrievalPlanV1_2.query_time_utc",
+  "r2_naive_time_helper_used": false,
+  "schema_version": "rq2c1-r1-execution-context-contract-v1.1",
+  "stage": "RQ2-C1-R1_OFFLINE_P2_CORRECTED_RUN",
+  "temporal_api": "temporal_validity_aware_v1_1",
+  "verifier": "verify_execution_context_v1_1",
+  "verifier_rechecks_scope": true,
+  "verifier_rechecks_store_bundle_fingerprint": true,
+  "verifier_rechecks_time": true,
+  "verifier_recomputes_current_projection": true,
+  "verifier_recomputes_current_snapshot": true
+}

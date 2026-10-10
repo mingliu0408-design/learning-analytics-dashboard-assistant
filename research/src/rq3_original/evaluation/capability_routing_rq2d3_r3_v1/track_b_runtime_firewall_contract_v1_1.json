@@ -1,0 +1,1 @@
+{"actual_attempt_counters":true,"adversarial_attempts_required":true,"blocked_before_open":true,"constant_zero_report_prohibited":true,"formal_success_forbidden_attempts_required":0,"implementation":"sys.addaudithook","installed_after_credential_claim":true,"installed_before_business_import":true,"schema_version":"track-b-runtime-firewall-contract-v1-1","status":"FROZEN"}

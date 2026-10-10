@@ -1,0 +1,63 @@
+{
+  "actual_retrieval_executed": false,
+  "effective_admission_algorithm": "MEMORY_ADMISSION_V1_1",
+  "effective_payload_scope": "TEXT_ONLY_PRIVATE_PAYLOAD_V1_1",
+  "effective_primary_policy_id": "PMR_HYBRID_STATE_AWARE",
+  "effective_state_aware_algorithm": "PMR_HYBRID_STATE_AWARE_V1_1",
+  "historical_contract": "RQ2-C0-R2 executable persistent-memory contract",
+  "only_state_aware_effective_algorithm_superseded": true,
+  "p2_implemented": false,
+  "persistent_store_implemented": false,
+  "primary_policy_selected_from_data": false,
+  "production_behaviour_changed": false,
+  "rq2c1_import_contract": {
+    "admission": "evaluation.capability_routing_rq2c0_r3_v1.admission_v1_1.admit_ranked_candidates_v1_1",
+    "payload_scope": "evaluation.capability_routing_rq2c0_r3_v1.payload_scope_v1_1.validate_text_only_payload_scope_v1_1",
+    "state_aware_retrieval": "evaluation.capability_routing_rq2c0_r3_v1.state_aware_retrieval_v1_1.rank_hybrid_state_aware_v1_1",
+    "superseded_r2_admission_import_allowed": false,
+    "superseded_r2_state_aware_import_allowed": false
+  },
+  "schema_version": "effective-persistent-memory-contract-v1.2",
+  "stage": "RQ2-C0-R3",
+  "status": "FROZEN_FOR_FUTURE_RQ2_C1",
+  "supersedes": [
+    "R2_STATE_AWARE_CANDIDATE_ORDERING",
+    "R2_ADMISSION_TEMPORAL_GUARD_ORDERING",
+    "R2_AMBIGUOUS_STRUCTURED_VALUE_SCOPE"
+  ],
+  "unchanged": {
+    "Capability_Gold": true,
+    "P1": true,
+    "dense_encoder": {
+      "device": "CPU",
+      "fallback_encoder_allowed": false,
+      "local_files_only": true,
+      "model": "sentence-transformers/all-mpnet-base-v2",
+      "model_download_authorised": false,
+      "normalize_embeddings": true,
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "dense_top_k": 5,
+    "direct_structured_dense_relevance_definitions": true,
+    "fixture_bank": true,
+    "maximum_admitted_memories": 3,
+    "maximum_retrieval_results": 5,
+    "policy_family_ids": [
+      "PMR_KW_LEGACY",
+      "PMR_DENSE_ONLY",
+      "PMR_HYBRID_TYPE_TEMPORAL",
+      "PMR_HYBRID_STATE_AWARE"
+    ],
+    "primary_policy_identity": "PMR_HYBRID_STATE_AWARE",
+    "production_code": true,
+    "ranking_tuple_after_eligibility": [
+      "EXPLICIT_STATE_LINK_DESC",
+      "TYPE_COMPATIBLE_DESC",
+      "ENTITY_OVERLAP_COUNT_DESC",
+      "TEMPORAL_VALIDITY_DESC",
+      "DENSE_SCORE_DESC",
+      "EVENT_TIME_DESC",
+      "MEMORY_ID_ASC"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "c4_schema_metadata": [
+    {
+      "schema_name": "c4_memory_schema_v1",
+      "schema_version": 1,
+      "architecture_id": "C4_LEARNER_MEMORY_V1",
+      "created_at": "2026-09-01T00:00:00+00:00"
+    }
+  ],
+  "learner_memory_settings": [],
+  "memories": [
+    {
+      "row_id": 1,
+      "memory_id": "mem_0c4c404e029e13785f3a61b8",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_type": "GOAL",
+      "content": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+      "source_session_id": "session-0c84674d3ed8",
+      "source_turn_id": "session-0c84674d3ed8-m1",
+      "created_at": "2026-08-20T09:00:00.000000+00:00",
+      "valid_from": "2026-08-20T09:00:00.000000+00:00",
+      "valid_to": null,
+      "last_confirmed_at": "2026-08-20T09:00:00.000000+00:00",
+      "status": "ACTIVE",
+      "importance": 0.5,
+      "confidence": 1.0,
+      "supersedes_memory_id": null,
+      "consent_status": "NOT_REQUIRED",
+      "content_sha256": "d7c153c4bbe687fc87a8b6d0547b95b0c0e7392f389cf462d0cd112e2b6629de",
+      "version": 1,
+      "conflict_key": "conflict_f3de464f7bc3dc8ca023",
+      "deletion_event_sha256": null
+    },
+    {
+      "row_id": 2,
+      "memory_id": "mem_d7d7fc75ea57b863c5b9b0e7",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_type": "PREFERENCE",
+      "content": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+      "source_session_id": "session-953c7c2b0575",
+      "source_turn_id": "session-953c7c2b0575-m1",
+      "created_at": "2026-08-22T09:00:00.000000+00:00",
+      "valid_from": "2026-08-22T09:00:00.000000+00:00",
+      "valid_to": null,
+      "last_confirmed_at": "2026-08-22T09:00:00.000000+00:00",
+      "status": "ACTIVE",
+      "importance": 0.5,
+      "confidence": 1.0,
+      "supersedes_memory_id": null,
+      "consent_status": "NOT_REQUIRED",
+      "content_sha256": "0f46c4fd67057694525442d0e04edf2dbdf4694d98dd2f8657010bb7fb1852b7",
+      "version": 1,
+      "conflict_key": "conflict_b93a825db9ea994e1ad8",
+      "deletion_event_sha256": null
+    },
+    {
+      "row_id": 3,
+      "memory_id": "mem_edf012665a95241b92eba0a0",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_type": "PROGRESS_UPDATE",
+      "content": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+      "source_session_id": "session-f583bc77ee85",
+      "source_turn_id": "session-f583bc77ee85-m1",
+      "created_at": "2026-08-25T09:00:00.000000+00:00",
+      "valid_from": "2026-08-25T09:00:00.000000+00:00",
+      "valid_to": null,
+      "last_confirmed_at": "2026-08-25T09:00:00.000000+00:00",
+      "status": "ACTIVE",
+      "importance": 0.5,
+      "confidence": 1.0,
+      "supersedes_memory_id": null,
+      "consent_status": "NOT_REQUIRED",
+      "content_sha256": "c0f447f7c43e00adf77513da75b2bc820424bc9d2016abf543eb8644c5bb986e",
+      "version": 1,
+      "conflict_key": "conflict_711ea2cae566d5f761d3",
+      "deletion_event_sha256": null
+    }
+  ],
+  "memory_events": [
+    {
+      "event_id": "evt_32ebc700012911d731a4a0e1",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_id": "mem_edf012665a95241b92eba0a0",
+      "operation": "ADD",
+      "event_at": "2026-08-25T09:00:00.000000+00:00",
+      "before_status": null,
+      "after_status": "ACTIVE",
+      "target_memory_id": null,
+      "reason_code": "WRITE_AUTHORISED",
+      "event_sha256": "32ebc700012911d731a4a0e170360bd7f3b6544ad5e0c05a95ab375e1aee3a61"
+    },
+    {
+      "event_id": "evt_a744cf432ebd5a25c363b749",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_id": "mem_0c4c404e029e13785f3a61b8",
+      "operation": "ADD",
+      "event_at": "2026-08-20T09:00:00.000000+00:00",
+      "before_status": null,
+      "after_status": "ACTIVE",
+      "target_memory_id": null,
+      "reason_code": "WRITE_AUTHORISED",
+      "event_sha256": "a744cf432ebd5a25c363b749369f508b2d12c1098276aef11ca9648335fda200"
+    },
+    {
+      "event_id": "evt_b8e7565b95033ed82838a353",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_id": "mem_d7d7fc75ea57b863c5b9b0e7",
+      "operation": "ADD",
+      "event_at": "2026-08-22T09:00:00.000000+00:00",
+      "before_status": null,
+      "after_status": "ACTIVE",
+      "target_memory_id": null,
+      "reason_code": "WRITE_AUTHORISED",
+      "event_sha256": "b8e7565b95033ed82838a3537720d753afc89c439a76d2f2d8caad739f7563b3"
+    },
+    {
+      "event_id": "evt_f152bcaaa51cad0ca676af4a",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "memory_id": null,
+      "operation": "NOOP",
+      "event_at": "2026-08-20T09:01:00.000000+00:00",
+      "before_status": null,
+      "after_status": null,
+      "target_memory_id": null,
+      "reason_code": "ASSISTANT_ADVICE_NOT_LEARNER_FACT",
+      "event_sha256": "f152bcaaa51cad0ca676af4a6a5035697fde63fc77bd10ded19fd1ee3a431dd0"
+    }
+  ]
+}

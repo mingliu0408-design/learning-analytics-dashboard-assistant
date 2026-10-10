@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-06T18:17:10.963049+00:00",
+  "scope": "Exposed model-authored development fixture freeze before diagnostic replay; not preregistration or independent Gold.",
+  "files": [
+    {
+      "path": "fixtures/bridge_runtime.json",
+      "bytes": 553601,
+      "sha256": "667e9bf313ce1cbf357c83d07b5fe63b73efe0c3fd9f20b62587b422fc1aef37"
+    },
+    {
+      "path": "fixtures/expected_outcomes_sidecar.json",
+      "bytes": 6227,
+      "sha256": "95622cc804c75732447b4009ccfa26c748f42de6065138a6f065c9397617f339"
+    },
+    {
+      "path": "fixtures/mock_sequences.json",
+      "bytes": 65252,
+      "sha256": "48356b092477f5f41a1cedd2ac7e3c9f7a4491ce94154e9df739cd7742968883"
+    }
+  ]
+}

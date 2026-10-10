@@ -1,0 +1,246 @@
+{
+  "schema_version": "rq3-statistical-analysis-contract-v1",
+  "status": "FROZEN_BEFORE_ANY_REAL_RQ3_RESPONSE_OR_SCORE",
+  "design": "PAIRED",
+  "clustering_and_resampling_unit": "scenario_family_id",
+  "analysis_record_unit": "one frozen eligible response for one immutable case under one condition",
+  "primary_outcome": {
+    "name": "OVERALL_APPLICABLE_MEAN",
+    "formula": "arithmetic mean of applicable scores among the authoritative eight primary criteria",
+    "minimum_applicable_criteria": 3,
+    "locally_recomputed": true,
+    "secondary_audits_included": false
+  },
+  "secondary_outcomes": {
+    "primary_dimension_scores": "Report all eight separately with their applicable denominators.",
+    "EVIDENCE_FAITHFULNESS": "Report separately; never add to the primary mean.",
+    "UNSUPPORTED_CLAIM_COUNT": "Report separately as a count; never add to the primary mean.",
+    "confirmatory_status": "SECONDARY_EXPLORATORY_UNLESS_A_LATER_PRE_RESPONSE_AMENDMENT_EXPLICITLY_SAYS_OTHERWISE"
+  },
+  "pairing_rules": {
+    "pair_key": "immutable case key within scenario_family_id",
+    "same_population_required": true,
+    "differential_single_condition_deletion_permitted": false,
+    "incomplete_pair_policy": "Exclude the entire pair from that contrast with a frozen reason; report case and family exclusions. Do not impute or retain the surviving side.",
+    "family_summary_for_rank_and_effect_tests": "For families containing multiple paired cases, calculate the arithmetic mean paired difference within family before family-level sign-flip, Wilcoxon, and paired effect-size calculations."
+  },
+  "condition_summaries": [
+    "eligible case count",
+    "scenario family count",
+    "mean",
+    "median"
+  ],
+  "paired_contrast_summaries": [
+    "paired case count",
+    "scenario family count",
+    "paired mean difference",
+    "paired median difference",
+    "wins",
+    "ties",
+    "losses"
+  ],
+  "primary_contrasts": {
+    "RQ3-A": [
+      {
+        "contrast_id": "RQ3A_RAG_MAIN",
+        "formula": "RM10_RAG - RM00_BASE",
+        "population": "primary RAG-eligible cases",
+        "eligibility_rule": "frozen RAG-required and asset-eligible"
+      },
+      {
+        "contrast_id": "RQ3A_MEMORY_MAIN",
+        "formula": "RM01_MEMORY - RM00_BASE",
+        "population": "Memory-eligible cases",
+        "eligibility_rule": "frozen Memory-required, authorized asset available, and Memory fact absent from visible history"
+      },
+      {
+        "contrast_id": "RQ3A_RAG_MEMORY_INTERACTION",
+        "formula": "(RM11_RAG_MEMORY - RM01_MEMORY) - (RM10_RAG - RM00_BASE)",
+        "population": "jointly RAG-and-Memory-eligible cases",
+        "eligibility_rule": "both main-effect eligibility rules hold on the same complete four-condition records"
+      }
+    ],
+    "RQ3-B": [
+      {
+        "contrast_id": "RQ3B_PLANNING_MAIN",
+        "formula": "PLAN01_WITH_PLAN - PLAN00_NO_PLAN",
+        "population": "Planning-eligible cases",
+        "eligibility_rule": "frozen Planning-required and Planner-asset eligible"
+      }
+    ],
+    "RQ3-C": [
+      {
+        "contrast_id": "RQ3C_ORACLE_VS_BASE",
+        "formula": "ORACLE_ROUTE - BASE_NEVER_ON",
+        "population": "complete end-to-end eligible paired cohort"
+      },
+      {
+        "contrast_id": "RQ3C_PREDICTED_VS_BASE",
+        "formula": "PREDICTED_ROUTE - BASE_NEVER_ON",
+        "population": "the identical complete end-to-end eligible paired cohort"
+      },
+      {
+        "contrast_id": "RQ3C_PREDICTED_VS_ALWAYS",
+        "formula": "PREDICTED_ROUTE - ALWAYS_ON",
+        "population": "the identical complete end-to-end eligible paired cohort"
+      },
+      {
+        "contrast_id": "RQ3C_PREDICTED_VS_ORACLE",
+        "formula": "PREDICTED_ROUTE - ORACLE_ROUTE",
+        "population": "the identical complete end-to-end eligible paired cohort"
+      }
+    ]
+  },
+  "interval_estimation": {
+    "method": "family-cluster nonparametric percentile bootstrap",
+    "confidence_level": 0.95,
+    "replicates": 10000,
+    "random_seed": 20260831,
+    "algorithm": [
+      "Sample scenario families uniformly with replacement until the original family count is reached.",
+      "For every sampled family occurrence, include all complete paired case records in that family.",
+      "Recompute the declared case-level statistic with multiplicity from resampled family occurrences.",
+      "Use the 2.5th and 97.5th empirical percentiles; do not switch interval methods after seeing results."
+    ],
+    "minimum_family_gate": "If fewer than two eligible families exist, report NOT_ESTIMABLE_INSUFFICIENT_FAMILIES rather than an interval."
+  },
+  "hypothesis_tests": {
+    "primary": {
+      "name": "paired family-cluster sign-flip permutation test",
+      "null": "The family-level paired difference distribution is sign-exchangeable around zero.",
+      "statistic": "absolute mean of the family-level paired differences",
+      "two_sided": true,
+      "zero_differences": "Retain as zeros in the family vector.",
+      "enumeration": "Enumerate all 2^F sign assignments when F <= 20; otherwise use 100000 Monte Carlo sign assignments.",
+      "monte_carlo_seed": 20260831,
+      "monte_carlo_p_value": "(1 + number of simulated statistics at least as extreme as observed) / (1 + 100000)"
+    },
+    "robustness": {
+      "name": "two-sided Wilcoxon signed-rank on non-zero family-level mean differences",
+      "zero_method": "wilcox_drop_zero",
+      "tie_method": "average ranks",
+      "status_if_all_zero": "NOT_ESTIMABLE_ALL_ZERO_WITH_EXACT_AGREEMENT_REPORTED",
+      "interpretation": "Robustness analysis; it does not replace the predeclared primary sign-flip result after exposure."
+    }
+  },
+  "multiplicity": {
+    "method": "Holm step-down family-wise error correction",
+    "alpha": 0.05,
+    "families": {
+      "RQ3-A": [
+        "RQ3A_RAG_MAIN",
+        "RQ3A_MEMORY_MAIN",
+        "RQ3A_RAG_MEMORY_INTERACTION"
+      ],
+      "RQ3-B": [
+        "RQ3B_PLANNING_MAIN"
+      ],
+      "RQ3-C": [
+        "RQ3C_ORACLE_VS_BASE",
+        "RQ3C_PREDICTED_VS_BASE",
+        "RQ3C_PREDICTED_VS_ALWAYS",
+        "RQ3C_PREDICTED_VS_ORACLE"
+      ]
+    },
+    "unadjusted_p_values_retained": true,
+    "post_exposure_new_contrasts_permitted": false
+  },
+  "paired_effect_sizes": {
+    "paired_cohens_dz": {
+      "formula": "mean(family_mean_difference) / sample_sd(family_mean_difference)",
+      "zero_sd_guard": "Report NOT_ESTIMABLE_ZERO_STANDARD_DEVIATION; separately report the common difference."
+    },
+    "matched_rank_biserial_correlation": {
+      "formula": "(sum positive signed ranks - sum negative signed ranks) / sum all non-zero ranks",
+      "all_zero_guard": "NOT_ESTIMABLE_ALL_ZERO"
+    },
+    "wins_ties_losses": {
+      "unit": "paired case",
+      "tie_tolerance": 0.000000000001
+    }
+  },
+  "oracle_gain_retention": {
+    "formula": "(mean(PREDICTED_ROUTE) - mean(BASE_NEVER_ON)) / (mean(ORACLE_ROUTE) - mean(BASE_NEVER_ON))",
+    "population": "the exact same complete eligible paired RQ3-C cohort for all three means",
+    "near_zero_denominator_guard": {
+      "absolute_threshold_rubric_points": 0.05,
+      "condition": "abs(mean(ORACLE_ROUTE) - mean(BASE_NEVER_ON)) < 0.05",
+      "result": "NOT_ESTIMABLE_NEAR_ZERO_ORACLE_GAIN"
+    },
+    "clipping_permitted": false,
+    "percentage_conversion": "Multiply an estimable raw ratio by 100 only for a clearly labelled percentage presentation; retain the raw ratio.",
+    "uncertainty": "Use the same family-cluster bootstrap resamples and guard each replicate; report the fraction of guarded replicates."
+  },
+  "human_validation_sampling": {
+    "selection_timing": "Only after the final RQ3 cohort, every included response, and their hashes are frozen.",
+    "actual_response_ids_selected_in_rq3_0b4": 0,
+    "selection_unit": "scenario_family_id",
+    "minimum_eligible_families": 10,
+    "target_family_count_rule": "If eligible family count is 10 or 11, select all; if it is at least 12, select 12; if it is below 10, block validation and request a pre-response amendment.",
+    "required_coverage_tokens": [
+      "RAG-required",
+      "Memory-required",
+      "Planning-required",
+      "neither-required",
+      "RAG+Memory",
+      "each distinct LAD page in the frozen cohort",
+      "each predeclared response condition represented in the eligible validation population"
+    ],
+    "deterministic_seed": 20260901,
+    "family_token_definition": "The union of frozen capability strata, LAD pages, and eligible response-condition labels for all records in the family. Labels are restricted selection metadata and never enter rater packets.",
+    "selection_algorithm": [
+      "Hash the final cohort manifest and final response manifest; both hashes are inputs to every tie key.",
+      "For every token, compute prevalence as the number of eligible families containing it.",
+      "Starting from an empty set, calculate each unselected family's uncovered gain as the sum of 1/prevalence(token) over its not-yet-covered tokens.",
+      "Calculate its balance gain as the sum of 1/(prevalence(token) * (1 + selected_count(token))) over all its tokens.",
+      "Select the family with lexicographically maximal (uncovered gain, balance gain); break exact ties by ascending SHA-256 of schema version, seed, both manifest hashes, and scenario_family_id.",
+      "Repeat until the target family count is reached.",
+      "Verify every required token is covered. If any token is absent, block rather than hand-edit the sample."
+    ],
+    "response_inclusion_after_family_selection": "Include every successfully frozen response in each predeclared eligible analysis block for a selected family; incomplete blocks are recorded and excluded before packet release, never after ratings.",
+    "presentation": "Replace restricted identifiers with blind response IDs and apply the frozen interleaving algorithm."
+  },
+  "agreement": {
+    "human_human": {
+      "raters": 2,
+      "independent": true,
+      "statistics": [
+        "quadratic weighted Cohen's kappa per applicable criterion",
+        "pooled quadratic weighted Cohen's kappa",
+        "Spearman correlation per criterion and pooled",
+        "exact agreement per criterion and pooled",
+        "within-one-point agreement per criterion and pooled"
+      ]
+    },
+    "human_vs_llm_judge": {
+      "pairings": [
+        "human rater A versus LLM judge",
+        "human rater B versus LLM judge",
+        "pooled human-score versus LLM-score pairs retaining both human observations"
+      ],
+      "statistics": [
+        "the same applicable kappa, Spearman, exact, and within-one-point statistics",
+        "mean absolute score difference",
+        "criterion-level bias defined as mean(LLM score - human score)"
+      ]
+    },
+    "pooled_rule": "Concatenate each jointly applicable criterion-response pair once per named source pairing; never include NA as a numeric category.",
+    "undefined_metric_rule": "Report NOT_ESTIMABLE with the reason for zero variance, no applicable pairs, or another mathematical guard; do not coerce to zero.",
+    "score_rewriting_permitted": false,
+    "source_retention": "Keep immutable human-A, human-B, and LLM-judge scores as separate sources. Agreement findings never overwrite a score."
+  },
+  "integrity_and_reporting": [
+    "Applicability maps were frozen before responses were scored.",
+    "Every primary aggregate is locally recomputed and reconciles to stored dimension scores.",
+    "Every declared contrast uses complete pairs and reports exclusions and denominators.",
+    "Case counts and scenario-family counts are both reported.",
+    "Human and judge identities remain blind until all scores are frozen.",
+    "No new contrast, subgroup, denominator rule, or test is selected after results are visible."
+  ],
+  "stage_boundary": {
+    "real_scores_read": 0,
+    "real_analysis_executed": false,
+    "judge_model": "JUDGE_MODEL_REQUIRES_DIRECT_AUTHORIZATION",
+    "provider_calls_authorized": false
+  }
+}

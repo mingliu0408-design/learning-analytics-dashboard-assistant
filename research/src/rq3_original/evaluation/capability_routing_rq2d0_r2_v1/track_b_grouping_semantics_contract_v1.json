@@ -1,0 +1,15 @@
+{
+  "expected_contrast_groups": 24,
+  "expected_records_per_contrast_group": 2,
+  "expected_track_b_records": 48,
+  "grouping_hash_domain": "RQ2_FAMILY_OR_GROUP_IDENTITY_V1\\x00",
+  "grouping_overlap_can_invalidate_final_evaluation": false,
+  "grouping_overlap_is_query_or_context_contamination": false,
+  "grouping_validation_failure": "TRACK_B_FINAL_EVALUATION_INVALID",
+  "scenario_family_id_cluster_role": "NOT_ELIGIBLE_UNIQUE_PER_RECORD",
+  "scenario_family_id_may_be_bootstrap_cluster": false,
+  "scenario_family_unique_count": 48,
+  "schema_version": "track-b-grouping-semantics-contract-v1",
+  "status": "FROZEN_BEFORE_RAW_TRACK_B_ACCESS",
+  "track_b_grouping_source": "contrast_set_id"
+}

@@ -1,0 +1,35 @@
+{
+  "grouping_field": "family_or_group_hash_if_available",
+  "grouping_fields": "REPORT_ONLY",
+  "grouping_overlap_can_invalidate_final_evaluation": false,
+  "hard_conflict_count_semantics": "unique Track B cases with one or more hard identity overlaps across all hard partitions",
+  "hard_final_independence_partitions": [
+    "RQ1_TRAIN",
+    "RQ1_DEV",
+    "C0_FROZEN_62_CANDIDATES",
+    "TRACK_A_SAFE_IDENTITIES",
+    "SYNTHETIC35"
+  ],
+  "hard_identity_field_count": 4,
+  "hard_identity_fields": [
+    "exact_query_hash",
+    "normalised_query_hash",
+    "query_history_hash",
+    "source_record_identity_hash"
+  ],
+  "hard_identity_overlap_event_count_semantics": "Track B case by hard partition identity-overlap events",
+  "label_conflict_timing": "ONLY_AFTER_TRACK_B_CAPABILITY_GOLD_FROZEN",
+  "post_overlap_policy_change_permitted": false,
+  "scenario_family_id_cluster_role": "NOT_ELIGIBLE_UNIQUE_PER_RECORD",
+  "schema_version": "track-b-contamination-policy-v1.2",
+  "sensitivity_overlap_count_semantics": "unique Track B cases with identity overlap against sensitivity partitions; grouping overlap is reported separately",
+  "sensitivity_overlap_decision": "RETAIN_AND_REPORT_BY_PARTITION",
+  "sensitivity_overlap_may_automatically_delete_case": false,
+  "sensitivity_partitions": [
+    "AUTHENTIC22",
+    "CONTEXT_MISSING3",
+    "CONTROLLED_MECHANISM_FIXTURE28"
+  ],
+  "status": "FROZEN_BEFORE_ANY_RAW_TRACK_B_ACCESS",
+  "track_b_grouping_source": "contrast_set_id"
+}

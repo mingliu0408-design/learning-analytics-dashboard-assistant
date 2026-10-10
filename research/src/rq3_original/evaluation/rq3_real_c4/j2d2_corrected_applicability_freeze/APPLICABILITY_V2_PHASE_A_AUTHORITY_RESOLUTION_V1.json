@@ -1,0 +1,48 @@
+{
+  "acceptance_basis": "Final Applicability V2 scientific content is accepted because it was independently reproduced from allowlisted pre-response researcher decisions, opaque identity mapping, condition identity and preserved ERROR_HANDLING, and matched the historical Phase-A scientific artifacts.",
+  "accepted_historical_scientific_artifacts": [
+    {
+      "byte_size": 41921,
+      "filename": "c4_real_researcher_scenario_applicability_decisions_frozen_v1.jsonl",
+      "sha256": "50451afbf4bbfcfd5e6bf387ba5bc5c42e2569ae186785e3685b514e749d1f66"
+    },
+    {
+      "byte_size": 5687,
+      "filename": "c4_real_researcher_scenario_applicability_decisions_frozen_v1.csv",
+      "sha256": "895fa1c2c135b848b8b0ee7fff9543a0b8b8d8f60e741ea20e4a9533a1f62af0"
+    },
+    {
+      "byte_size": 883140,
+      "filename": "c4_real_condition_applicability_maps_frozen_v2.jsonl",
+      "sha256": "12d8618beb629235a42261266338a02fb419573ce1f37deffc1b7f28feafa553"
+    },
+    {
+      "byte_size": 86576,
+      "filename": "c4_real_condition_applicability_maps_frozen_v2.csv",
+      "sha256": "6069ca8a7708868075d02e516378da39058b8d00282fec37d468fd39b56e93f3"
+    },
+    {
+      "byte_size": 155577,
+      "filename": "c4_real_applicability_v1_v2_diff_audit.json",
+      "sha256": "9b8f9524b8a1e9f91013de6ba22b816fc13e38d6eea7d00019ceff0764f0fdb8"
+    }
+  ],
+  "authoritative_evidence": "The clean-room supplement is the authoritative evidence for score-isolated artifact reproducibility.",
+  "final_phase_a_status": "CERTIFIED_BY_SCORE_ISOLATED_REPLAY_WITH_DISCLOSED_PRIOR_INCIDENT",
+  "incident_disclosure_preserved": true,
+  "incident_report_sha256": "a8702aa6c839d1f1f332972cc1927d71cb2d782fade08d259408e4303431a8de",
+  "original_receipt_preserved_and_qualified": true,
+  "original_receipt_sha256": "f5a1ecae8da0237356173b6976183671fef14bbf4725b98774be41f578a0eba9",
+  "original_receipt_status": "PRESERVED_QUALIFIED_BY_PHASE_A_BOUNDARY_INCIDENT",
+  "phase_b_boundary": "Phase B remains unstarted. A separate direct user authorization and a new Codex conversation are required.",
+  "phase_b_started_in_this_task": false,
+  "prior_session_statement": "No claim is made that the earlier assistant session had zero score exposure. The original receipt is historically authentic, is qualified by the retained incident, and is not sufficient alone to certify the entire prior session.",
+  "prior_session_zero_score_exposure_claimed": false,
+  "remediation_erases_prior_incident": false,
+  "schema_version": "APPLICABILITY_V2_PHASE_A_AUTHORITY_RESOLUTION_V1",
+  "scientific_comparison_report_sha256": "9fad321aebcf22bca83a8325bdf6105a72443a5aba879aec523158ab3770af48",
+  "scientific_content_accepted_by_independent_allowlisted_reproduction": true,
+  "supplement_path": "/Users/liuming/Downloads/rq2_v2_parallel/rq3-real-c4-i1-route-integration/evaluation/rq3_real_c4/j2d2_corrected_applicability_freeze/APPLICABILITY_V2_CLEANROOM_REPLAY_SUPPLEMENT_V1.json",
+  "supplement_sha256": "35ea3305ebee0bbfbee91b8d840eeaa32e9efbc94708d203f971d2378795e615",
+  "timestamp_utc": "2026-09-02T19:49:40.910292+00:00"
+}

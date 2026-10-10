@@ -1,0 +1,83 @@
+{
+  "canonical_packets_local_only": true,
+  "case_set_sha256": "8bc65809a59f0ca1f7bcd2b143af9f7facbab9f2dc718b2892e2bbe56b340595",
+  "column_count_per_packet": 22,
+  "date_canonicalisation": {
+    "canonical_packets": {
+      "reviewer_a": {
+        "ignored": true,
+        "non_date_bytes_modified": false,
+        "old_date_replacement_count": 60,
+        "review_date": "2026-08-26",
+        "sha256": "4761de149ea68c7f4d231f451b6e83a326da52866dfd198ef9c0e127f6323888",
+        "size_bytes": 27218,
+        "tracked": false
+      },
+      "reviewer_b": {
+        "ignored": true,
+        "non_date_bytes_modified": false,
+        "old_date_replacement_count": 60,
+        "review_date": "2026-08-26",
+        "sha256": "e7a54912dbcf194a32f24669b13996b13fb25d95d7ccb4282b79a7b0aa4bf736",
+        "size_bytes": 27140,
+        "tracked": false
+      }
+    },
+    "from": "2026/8/26",
+    "method": "EXACT_BYTE_REPLACEMENT",
+    "to": "2026-08-26"
+  },
+  "fixed_case_fields_match_r1c_templates": true,
+  "limited_reviewer_a_correction": {
+    "change_from": "YES",
+    "change_to": "NOT_APPLICABLE",
+    "changed_cell_count": 7,
+    "changed_column": "context_sufficient",
+    "changed_review_case_ids": [
+      "RQ2CAL-880e3f0fd7f0",
+      "RQ2CAL-c3aa6922fcb1",
+      "RQ2CAL-12c362e21314",
+      "RQ2CAL-39b5d301ec03",
+      "RQ2CAL-dfc19ec65698",
+      "RQ2CAL-7e0b2a5d6a1e",
+      "RQ2CAL-ff7858da6978"
+    ],
+    "other_change_count": 0,
+    "review_date_unchanged_before_canonicalisation": true,
+    "reviewer_id_unchanged": true
+  },
+  "original_input_identities": {
+    "completed_b": {
+      "sha256": "b87de072e2ef1a0bdab874dcd7d59bf45451ea974d8b1067149a45236cb8d4cc",
+      "size_bytes": 27080,
+      "source": "R1C_LOCAL_REVIEW"
+    },
+    "corrected_a": {
+      "sha256": "847a192283752547ee242c8e65184a2a4d776d74ef817ae925c715fe8a483df9",
+      "size_bytes": 27158,
+      "source": "R1C_LOCAL_REVIEW"
+    },
+    "original_a": {
+      "sha256": "17ef20990c2bf76a84e7ed4c5d021dbcb79f0ef7de8d91b335c5458c6f1c7b87",
+      "size_bytes": 27081,
+      "source": "R1C_LOCAL_REVIEW"
+    }
+  },
+  "original_inputs_preserved": true,
+  "r1c_blank_template_sha256": {
+    "reviewer_a": "94aebdb33758e3ea5729e2234f864215bccb6c4e574fb4f84465db663253f3cf",
+    "reviewer_b": "30cab031c5c6697b976b16d862cb19c4c7fb37c7f3a38b7b31a7767243381532"
+  },
+  "reviewer_a_order_sha256": "68a205c158ee0f549e4f9a1b820171fd92ff545370337b8b799a8b61e4e53e4f",
+  "reviewer_answer_modified_beyond_authorised_changes": false,
+  "reviewer_b_order_sha256": "e6d747333c5194f30df02ffbe0cecf2af3bd763a0510eb361139364534b64c80",
+  "reviewer_ids": [
+    "REVIEWER_A",
+    "REVIEWER_B"
+  ],
+  "reviewer_ids_are_different": true,
+  "row_count_per_packet": 60,
+  "schema_version": "human-packet-freeze-manifest-v1",
+  "stage": "RQ2-A-R2A",
+  "status": "FROZEN_FOR_AGREEMENT_AND_ADJUDICATION"
+}

@@ -1,0 +1,52 @@
+{
+  "version": "M1_RELATIONS_V1",
+  "nodes": {
+    "mem_f7d64a41f5d3e93d384ec08c": {
+      "native_id": "mem_f7d64a41f5d3e93d384ec08c",
+      "native_version": 1,
+      "content_sha256": "82e8979ff15265df9049ee51c3d8740f3d4adc249a0b2e5ea549cf474bbd7cee",
+      "memory_type": "GOAL",
+      "learner_id": "synthetic-learner-a678755b344c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "source_ref": {
+        "event_id": "session-0446d17556ec-m1",
+        "source_version": 1,
+        "session_id": "session-0446d17556ec",
+        "event_sha256": "e1fd9ab51a0b4351e328322c8427b9177b14b9a354a5dacdec940c3a9f82be7c",
+        "span_chars": [
+          0,
+          169
+        ],
+        "observed_at": "2026-08-21T09:00:00+00:00",
+        "origin": "USER",
+        "claim_basis": "EXPLICIT_USER_STATEMENT",
+        "confirmation": "LEARNER_STATED"
+      }
+    },
+    "mem_def6b5e6fc2ef7c1d9aaa12b": {
+      "native_id": "mem_def6b5e6fc2ef7c1d9aaa12b",
+      "native_version": 1,
+      "content_sha256": "6ecd047caf2aadf59d09152664a171c174765cd61ef01ba2de742f8a5bd7c32b",
+      "memory_type": "PREFERENCE",
+      "learner_id": "synthetic-learner-a678755b344c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "source_ref": {
+        "event_id": "session-029e4c5c2a31-m1",
+        "source_version": 1,
+        "session_id": "session-029e4c5c2a31",
+        "event_sha256": "714ca43831c42e53f6fc5a57f8b0ca619760483393b8e4e70d16af1bea388bf8",
+        "span_chars": [
+          0,
+          100
+        ],
+        "observed_at": "2026-08-25T09:00:00+00:00",
+        "origin": "USER",
+        "claim_basis": "EXPLICIT_USER_STATEMENT",
+        "confirmation": "LEARNER_STATED"
+      }
+    }
+  },
+  "source_events": {},
+  "edges": [],
+  "sha256": "60685fb7f73fc699fd459d969eae84788c21f03a465d49f0d0e3e54141600bb9"
+}

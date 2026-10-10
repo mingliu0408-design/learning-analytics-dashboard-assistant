@@ -1,0 +1,68 @@
+{
+  "agreement_computations": 0,
+  "amendment_packages": {
+    "A": {
+      "path": "/Users/liuming/Downloads/C4_REAL_HUMAN_RATER_A_APPLICABILITY_AMENDMENT_PACKET_R1_2026-09-02.zip",
+      "sha256": "bb1bf5ea18a46e19d6e0627b06a457fb1e6440da37052ae055d2bc0343e6608e"
+    },
+    "B": {
+      "path": "/Users/liuming/Downloads/C4_REAL_HUMAN_RATER_B_APPLICABILITY_AMENDMENT_PACKET_R1_2026-09-02.zip",
+      "sha256": "83ba604d5016465f2143a9042499624a854328d866d7145733e1a6fbfe184d17"
+    }
+  },
+  "amendment_ratings_completed": 0,
+  "applicability_authority_resolution_sha256": "7cc28f87a1add40f2903ca884126d73613aaded67dffef186ab2e648a0bafb7e",
+  "attestation_statuses": {
+    "A": {
+      "ai_use_declaration": "Rater A independently completed all 44 ratings and required rationales. Generative AI was used only to draft and format the later attestation wording, not to make, revise, validate, compare or replace any rating or rationale.",
+      "all_required_rationales_present": true,
+      "attestation_present_and_signed": true,
+      "independence_status": "SELF_ATTESTED_INDEPENDENT_COMPLETION",
+      "required_criterion_pairs_complete": 352,
+      "rows": 44,
+      "score_and_na_valid_under_v1": true,
+      "technical_independence_verification": "NOT_CLAIMED",
+      "unique_items": 44,
+      "visible_source_fields_unchanged": true
+    },
+    "B": {
+      "ai_use_declaration": "Rater B independently completed all assigned ratings and required rationales and declared no viewing, consultation, copying or other use of the AI-generated reference template for ratings or rationales.",
+      "all_required_rationales_present": true,
+      "attestation_present_and_signed": true,
+      "independence_status": "SELF_ATTESTED_INDEPENDENT_COMPLETION",
+      "required_criterion_pairs_complete": 352,
+      "rows": 44,
+      "score_and_na_valid_under_v1": true,
+      "technical_independence_verification": "NOT_CLAIMED",
+      "unique_items": 44,
+      "visible_source_fields_unchanged": true
+    }
+  },
+  "completed_human_source_hashes": {
+    "human_rater_attestation_A_completed(1).md": "dfa22955ab3aa6ea9885c7bdf0578dfed9e2bc1b83e895e2719e52eb40ba23a3",
+    "human_rater_attestation_B_completed(1).md": "0146f38074a065e3fa6f3f09579a813f1f8019dad3ee1dc4575bc98d31a722c6",
+    "human_rating_packet_A_completed.csv": "0d4195b4bfa3680cc8079a9c87b3177ee3f207dea14c9a3a7dfaaaef14a6a318",
+    "human_rating_packet_B_completed.csv": "02ae76ba9866f8b7115ead815cc587e7c14c2f00c733570839364129bfeeaa46"
+  },
+  "corrected_unique_item_count": 44,
+  "counts_are_unique_item_criterion_pairs_not_multiplied_by_raters": true,
+  "frozen_at_utc": "2026-09-02T20:42:58.990853+00:00",
+  "human_llm_agreement_computations": 0,
+  "newly_applicable_amendment_count": 6,
+  "old_applicable_to_new_na_count": 7,
+  "old_item_merge_count": 0,
+  "old_item_split_count": 0,
+  "original_unique_human_visible_items": 44,
+  "overwrite_permitted": false,
+  "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+  "raw_completed_sources_modified": false,
+  "required_amendment_ratings_across_both_raters": 12,
+  "sampled_condition_mappings": 108,
+  "schema_version": "C4_REAL_HUMAN_APPLICABILITY_REPAIR_FREEZE_RECEIPT",
+  "score_aggregates_computed": 0,
+  "status": "FROZEN_BASE_INTAKE_AND_BLANK_APPLICABILITY_AMENDMENTS",
+  "unchanged_applicable_criterion_count": 270,
+  "unchanged_na_criterion_count": 69,
+  "write_count": 1,
+  "write_enforcement": "O_EXCL; flush; fsync file and parent directory"
+}

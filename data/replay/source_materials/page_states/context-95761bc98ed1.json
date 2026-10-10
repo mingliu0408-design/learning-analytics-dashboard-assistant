@@ -1,0 +1,61 @@
+{
+  "provenance": "SYNTHETIC_EXPERIMENT_STATE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "scope": {
+    "student_id": "synthetic-learner-e7e7dd241b31",
+    "course_id": "dute-archived-materials-experiment-v1",
+    "window_start": "2026-08-24T00:00:00+00:00",
+    "window_end": "2026-08-31T00:00:00+00:00"
+  },
+  "as_of": "2026-08-31T12:00:00+00:00",
+  "coverage": {
+    "Resources": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Lecture": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Debate": {
+      "status": "UNKNOWN",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Reflection": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    }
+  },
+  "events": [
+    {
+      "event_id": "lecture-play",
+      "student_id": "synthetic-learner-e7e7dd241b31",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Lecture",
+      "event_type": "recording_play",
+      "occurred_at": "2026-08-25T10:00:00+00:00",
+      "payload": {
+        "recording_id": "discussion-preparation"
+      }
+    }
+  ],
+  "records": [
+    {
+      "record_id": "discussion-work",
+      "student_id": "synthetic-learner-e7e7dd241b31",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Debate",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "topic": "How learning analytics should preserve student choice",
+        "post_status": "PUBLISHED",
+        "draft_saved": true
+      }
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

@@ -1,0 +1,40 @@
+{
+  "provenance": "SYNTHETIC_AUTHORED_DIALOGUE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "student_id": "synthetic-learner-a678755b344c",
+  "course_id": "dute-archived-materials-experiment-v1",
+  "scope_policy": "read-only prior sessions for this experimental learner and course",
+  "target_session_id": "new-session-d36ba079e3e3",
+  "target_time": "2026-08-31T12:00:00+00:00",
+  "sessions": [
+    {
+      "session_id": "session-0446d17556ec",
+      "student_id": "synthetic-learner-a678755b344c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-0446d17556ec-m1",
+          "role": "user",
+          "content": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+          "timestamp": "2026-08-21T09:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "session_id": "session-029e4c5c2a31",
+      "student_id": "synthetic-learner-a678755b344c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-029e4c5c2a31-m1",
+          "role": "user",
+          "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+          "timestamp": "2026-08-25T09:00:00+00:00"
+        }
+      ]
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

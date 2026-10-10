@@ -1,0 +1,156 @@
+{
+  "schema_version": "rq2-v2-b1-intent-capability-mapping-v1",
+  "mapping_id": "R2V2-B1-INTENT-CAPABILITY-MAPPING-DEVELOPMENT-TEMPLATE-V1",
+  "mapping_scope": "DEVELOPMENT_TEMPLATE_ONLY",
+  "mapping_status": "UNFROZEN",
+  "development_data_review_complete": false,
+  "final_test_accessed_for_mapping": false,
+  "final_inference_authorized": false,
+  "notes": "Template only. Capability values are intentionally null. Review and freeze later using development data only; do not use this file for final inference.",
+  "mappings": [
+    {
+      "intent_id": "access_or_capability_question",
+      "intent_definition": "Asks whether or how the system can access, inspect, disclose, or perform something.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "course_content_question",
+      "intent_definition": "Asks about course concepts, readings, lectures, or other teaching material.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "cross_page_relationship",
+      "intent_definition": "Asks to relate or compare evidence across dashboard pages or domains.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "dashboard_interpretation",
+      "intent_definition": "Asks what visible dashboard evidence or an observed activity pattern means.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "discrepancy_or_correction",
+      "intent_definition": "Reports or questions an apparent inconsistency, error, or correction need.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "emotional_or_justification",
+      "intent_definition": "Expresses an affective concern or asks for a reason or justification around learning activity.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "hybrid_course_and_planning",
+      "intent_definition": "Combines course-material content with an actionable planning or strategy request.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "improvement_recommendation",
+      "intent_definition": "Asks for recommendations intended to improve learning or engagement.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "metric_clarification",
+      "intent_definition": "Asks for the meaning or definition of a dashboard metric.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "out_of_scope",
+      "intent_definition": "Falls outside the supported learning, dashboard, or course-assistant domain.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "planning_or_strategy",
+      "intent_definition": "Asks for a strategy, prioritised sequence, schedule, or concrete next steps.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "quantitative_metric_query",
+      "intent_definition": "Asks for a numeric count, value, rate, or other dashboard quantity.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "reflection_structure_question",
+      "intent_definition": "Asks how to structure, organise, or frame a reflection response.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "social_interaction",
+      "intent_definition": "A greeting, thanks, farewell, or other bounded social exchange.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "technical_data_question",
+      "intent_definition": "Asks about data provenance, calculation, schema, quality, export, or reliability.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    },
+    {
+      "intent_id": "unsupported_task",
+      "intent_definition": "Requests an action or task that the supported system cannot perform.",
+      "proposed_rag": null,
+      "proposed_memory": null,
+      "proposed_planning": null,
+      "mapping_status": "UNFROZEN",
+      "mapping_rationale": "Pending development-only review; no capability assignment is authorized."
+    }
+  ]
+}

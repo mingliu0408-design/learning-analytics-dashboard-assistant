@@ -1,0 +1,19 @@
+{
+  "approved_head": "bbcbfb764023730a374e6eb3d0f4dda96e94a14f",
+  "final_evaluation_started": false,
+  "freeze_timestamp": "2026-08-29T16:32:11Z",
+  "gold_alias": "TRACK_B_CONTEXTUAL_CAPABILITY_FINAL_GOLD_V1",
+  "gold_bundle_sha256": "5c2ee1722594e9e3d4fb40cf5e21ef9a6dc6a833f2704191c9b3fd056ad92fc5",
+  "gold_frozen_before_legacy_unblinding": true,
+  "hidden_legacy_access_authorised": false,
+  "hidden_legacy_accessed": false,
+  "human_adjudication_count": 23,
+  "human_consensus_count": 25,
+  "model_execution_count": 0,
+  "policy_or_threshold_change": false,
+  "record_count": 48,
+  "schema_version": "track-b-capability-gold-freeze-receipt-v1",
+  "source_blinded": true,
+  "stage": "RQ2-D2B",
+  "state": "TRACK_B_CAPABILITY_GOLD_FROZEN"
+}

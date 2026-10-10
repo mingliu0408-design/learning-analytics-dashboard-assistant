@@ -1,0 +1,26 @@
+{
+  "actual_retrieval_executed": false,
+  "bound_fields": [
+    "student_scope_id",
+    "query_time_utc",
+    "target_memory_types",
+    "original_query",
+    "resolved_query",
+    "resolver_authorised",
+    "memory_required",
+    "validation_contract_id"
+  ],
+  "contract_id": "VALIDATED_RETRIEVAL_PLAN_V1_2",
+  "fingerprint_domain_hex": "5251325f56414c4944415445445f52455452494556414c5f504c414e5f56315f3200",
+  "fixture_expected_fields_allowed": false,
+  "future_rq2c1_required_schema": "ValidatedRetrievalPlanV1_2",
+  "gold_fields_allowed": false,
+  "historical_input_schema": "RetrievalPlanV1_1",
+  "query_time": "TIMEZONE_AWARE_AND_CANONICAL_UTC",
+  "raw_r2_plan_authorised_for_effective_retrieval": false,
+  "schema_version": "validated-retrieval-plan-contract-v1.2",
+  "source_role_allowed": false,
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN",
+  "student_scope_contract": "RQ2_MEMORY_SCOPE_V1"
+}

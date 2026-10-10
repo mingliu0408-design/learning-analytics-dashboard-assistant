@@ -1,0 +1,87 @@
+{
+  "calculation_authorised_before_both_packets_frozen": false,
+  "capability_set_metrics": [
+    "EXACT_SET_AGREEMENT",
+    "MEAN_JACCARD_SIMILARITY",
+    "MEDIAN_JACCARD_SIMILARITY",
+    "ALL_CAPABILITY_MICRO_AGREEMENT"
+  ],
+  "capability_unambiguous_metrics": [
+    "PERCENT_AGREEMENT",
+    "COHENS_KAPPA"
+  ],
+  "case_validity_metrics": [
+    "PERCENT_AGREEMENT",
+    "COHENS_KAPPA"
+  ],
+  "context_resolution_required_metrics": [
+    "PERCENT_AGREEMENT",
+    "POSITIVE_AGREEMENT",
+    "NEGATIVE_AGREEMENT",
+    "COHENS_KAPPA"
+  ],
+  "context_sufficient_metrics": [
+    "PERCENT_AGREEMENT",
+    "COHENS_KAPPA"
+  ],
+  "forbidden_capability_set_metrics": [
+    "EXACT_SET_AGREEMENT",
+    "MEAN_JACCARD_SIMILARITY",
+    "MEDIAN_JACCARD_SIMILARITY"
+  ],
+  "kappa_paradox_acknowledged": true,
+  "kappa_role": "DIAGNOSTIC_ONLY",
+  "low_kappa_alone_may_change_label": false,
+  "low_kappa_alone_may_delete_case": false,
+  "missing_optional_capability_label_policy": "PAIRWISE_COMPLETE_WITH_EXPLICIT_RECORD_COUNT",
+  "naturalness_metric": "QUADRATIC_WEIGHTED_KAPPA",
+  "per_capability_metrics": {
+    "clarification": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ],
+    "course_retrieval": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ],
+    "dashboard_evidence": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ],
+    "episodic_memory": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ],
+    "planning": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ],
+    "safe_direct_response": [
+      "PERCENT_AGREEMENT",
+      "POSITIVE_AGREEMENT",
+      "NEGATIVE_AGREEMENT",
+      "COHENS_KAPPA",
+      "SUPPORT_BY_REVIEWER"
+    ]
+  },
+  "schema_version": "human-agreement-contract-v1",
+  "single_overall_kappa_sufficient": false,
+  "stage": "RQ2-A-R1",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "zero_variance_kappa_policy": "RETURN_NULL_WITH_UNDEFINED_ZERO_VARIANCE_STATUS"
+}

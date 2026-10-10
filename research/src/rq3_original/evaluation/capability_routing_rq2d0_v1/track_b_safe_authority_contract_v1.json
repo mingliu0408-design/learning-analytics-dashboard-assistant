@@ -1,0 +1,32 @@
+{
+  "authority_alias": "TRACK_B_CONTEXTUAL_CAPABILITY_FINAL_SOURCE_V1",
+  "authority_builder_access": "OUT_OF_BAND_SCHEMA_AUTHORITY_EXTRACTION",
+  "authority_builder_must_not_review_or_adjudicate": true,
+  "codex_raw_access": false,
+  "existing_intent_label_is_capability_gold": false,
+  "history_dependent": true,
+  "internal_checksum_match_count": 5,
+  "member_count": 6,
+  "member_hash_match_count": 6,
+  "p1_modification_eligible": false,
+  "package_sha256": "11a1bcba3b4a6589f8947a3f24ec3b227f43a57a8d5fcf4ceb5adc5c568fd30e",
+  "policy_selection_eligible": false,
+  "raw_text_in_safe_package": false,
+  "repository_d0_raw_access": false,
+  "schema_version": "track-b-safe-authority-contract-v1",
+  "source_identity": {
+    "column_count": 47,
+    "file_name": "primary_v3_hybrid_context_human_review_researcher_final_v1.csv",
+    "history_dependent": true,
+    "physical_line_count": 49,
+    "record_count": 48,
+    "reserved_for_rq2": true,
+    "sha256": "52c14dbc9e79b3c211e47ffd72697ec6ed87eec0478353066eb5d2f1ab45f351",
+    "size_bytes": 65095,
+    "track_b_excluded_from_rq1": true
+  },
+  "status": "PASS",
+  "threshold_selection_eligible": false,
+  "track_b_is_capability_gold": false,
+  "zip_integrity": "PASS"
+}

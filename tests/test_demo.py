@@ -197,7 +197,7 @@ class DemoTests(unittest.TestCase):
     def test_streamlit_offline_chat_memory_form_and_visitor_isolation(self):
         from streamlit.testing.v1 import AppTest
 
-        app_path = Path(__file__).resolve().parents[1] / "app.py"
+        app_path = Path(__file__).resolve().parents[1] / "demo" / "legacy_app.py"
         with patch.dict("os.environ", {"DEMO_MEMORY_ROOT": str(Path(self.temporary.name) / "ui")}):
             app = AppTest.from_file(str(app_path), default_timeout=30).run()
             self.assertEqual(len(app.exception), 0)

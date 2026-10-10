@@ -1,0 +1,134 @@
+{
+  "PMR_DENSE_ONLY": {
+    "admission_still_validates_type_and_time": true,
+    "candidate_pool": "DENSE_TOP_5",
+    "p2_full_policy": false,
+    "ranking_uses_keyword_entity_type_time_active_status_or_gold": false
+  },
+  "PMR_HYBRID_STATE_AWARE": {
+    "conflict_group_fields": [
+      "STUDENT_SCOPE",
+      "MEMORY_TYPE",
+      "GOVERNED_ENTITY_SET",
+      "SUPERSESSION_CHAIN"
+    ],
+    "latest_active_episode_only": true,
+    "latest_explicit_correction_wins": true,
+    "p2_full_policy": true,
+    "pre_ranking_rejections": [
+      "STALE",
+      "SUPERSEDED",
+      "CANCELLED",
+      "COMPLETED_UNLESS_COMPLETION_TARGETED"
+    ],
+    "starts_from": "PMR_HYBRID_TYPE_TEMPORAL_CANDIDATE_UNION"
+  },
+  "PMR_HYBRID_TYPE_TEMPORAL": {
+    "candidate_union": [
+      "DENSE_TOP_5",
+      "EXACT_LEXICAL_OR_ENTITY_MATCH",
+      "EXPLICIT_GOAL_PLAN_OR_REFERENCE_LINK"
+    ],
+    "deduplicate_by": "MEMORY_ID",
+    "ranking": [
+      "EXPLICIT_STATE_LINK_DESC",
+      "TYPE_COMPATIBLE_DESC",
+      "ENTITY_OVERLAP_COUNT_DESC",
+      "TEMPORAL_VALIDITY_DESC",
+      "DENSE_SCORE_DESC",
+      "EVENT_TIME_DESC",
+      "MEMORY_ID_ASC"
+    ],
+    "target_type_unspecified_is_neutral_true_and_audited": true
+  },
+  "PMR_KW_LEGACY": {
+    "p2_full_policy": false,
+    "ranking": [
+      "EXPLICIT_LINK_DESC",
+      "ENTITY_OVERLAP_COUNT_DESC",
+      "EVENT_TIME_DESC",
+      "MEMORY_ID_ASC"
+    ],
+    "signals": [
+      "EXISTING_PRODUCTION_MEMORY_TRIGGER",
+      "EXPLICIT_PLAN_GOAL_REFERENCE_LINK",
+      "EXACT_LEXICAL_OR_ENTITY_OVERLAP"
+    ]
+  },
+  "case_specific_keywords": false,
+  "common_hard_guards_before_candidate_generation": [
+    "STUDENT_SCOPE_ID_EXACT_MATCH",
+    "STATUS_NOT_DELETED"
+  ],
+  "dense_encoder": {
+    "device": "CPU",
+    "fallback_encoder_allowed": false,
+    "local_files_only": true,
+    "model": "sentence-transformers/all-mpnet-base-v2",
+    "model_download_authorised": false,
+    "normalize_embeddings": true,
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  },
+  "dense_score": "COSINE_QUERY_EMBEDDING_MEMORY_EMBEDDING",
+  "dense_tie_break": [
+    "DENSE_SCORE_DESC",
+    "EVENT_TIME_DESC",
+    "MEMORY_ID_ASC"
+  ],
+  "dense_top_k": 5,
+  "encoder_executed": false,
+  "gold_feature": false,
+  "hard_guard_rejection_codes": [
+    "CROSS_STUDENT_SCOPE",
+    "DELETED_MEMORY"
+  ],
+  "maximum_policy_results": 5,
+  "persistent_store_implemented": false,
+  "policy_ids": [
+    "PMR_KW_LEGACY",
+    "PMR_DENSE_ONLY",
+    "PMR_HYBRID_TYPE_TEMPORAL",
+    "PMR_HYBRID_STATE_AWARE"
+  ],
+  "primary_policy_id": "PMR_HYBRID_STATE_AWARE",
+  "primary_policy_selection_basis": "PREDESIGNATED_BY_CONTRACT_NOT_FIXTURE_SELECTION",
+  "representation": {
+    "dense_memory": "PRIVATE_PAYLOAD_CANONICAL_TEXT_ONLY",
+    "dense_query": "RESOLVED_QUERY_IF_NONEMPTY_AND_RESOLVER_AUTHORISED_ELSE_ORIGINAL_QUERY",
+    "encoder": {
+      "device": "CPU",
+      "fallback_encoder_allowed": false,
+      "local_files_only": true,
+      "model": "sentence-transformers/all-mpnet-base-v2",
+      "model_download_authorised": false,
+      "normalize_embeddings": true,
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "encoder_executed": false,
+    "forbidden_embedding_components": [
+      "GOLD_LABELS",
+      "MEMORY_STATUS",
+      "SOURCE_ROLE",
+      "EXPECTED_FIXTURE_IDS"
+    ],
+    "lexical_entity_normalisation": [
+      "UNICODE_NFKC",
+      "CASEFOLD",
+      "REMOVE_UNICODE_PUNCTUATION",
+      "COLLAPSE_WHITESPACE"
+    ],
+    "text_hash_normalisation": [
+      "UNICODE_NFC",
+      "CRLF_AND_CR_TO_LF",
+      "STRIP_LEADING_AND_TRAILING_WHITESPACE",
+      "PRESERVE_INTERNAL_WHITESPACE",
+      "PRESERVE_PUNCTUATION",
+      "PRESERVE_CASE",
+      "UTF8_ENCODING"
+    ]
+  },
+  "retrieval_executed": false,
+  "schema_version": "executable-persistent-retrieval-contract-v1",
+  "stage": "RQ2-C0-R2",
+  "status": "FROZEN_EXECUTABLE_NOT_RUN"
+}

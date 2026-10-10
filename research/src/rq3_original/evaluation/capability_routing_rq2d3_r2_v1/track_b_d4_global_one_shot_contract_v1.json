@@ -1,0 +1,57 @@
+{
+  "completion_persistent": true,
+  "d4_execution_count": 0,
+  "entry_parameters": [
+    "approved_head"
+  ],
+  "execution_contract_id": "RQ2_TRACK_B_B0_B1_P1_FINAL_EVALUATION_GLOBAL_ONE_SHOT_V1",
+  "failure_persistent": true,
+  "forbidden_entry_parameters": [
+    "input_path",
+    "output_path",
+    "gold_path",
+    "grouping_path",
+    "model_path",
+    "method_list",
+    "metric_list",
+    "comparison",
+    "threshold",
+    "seed",
+    "draw_count",
+    "resample_count",
+    "callback"
+  ],
+  "post_reservation_pipeline": [
+    "FIXED_FEATURE_EXTRACTOR_PROCESS",
+    "FIXED_B0_B1_P1_PREDICTOR_PROCESS",
+    "FIXED_LABEL_GROUPING_METRIC_PROCESS",
+    "FIXED_D3_R1_STATISTICS",
+    "DURABLE_RESULT_AND_COMPLETED_LOCK"
+  ],
+  "pre_reservation_forbidden_opens": [
+    "SEALED_COMBINED_CASE_SOURCE",
+    "LABEL_ONLY_GOLD",
+    "GROUPING_LEDGER"
+  ],
+  "prearm_non_consuming_checks": [
+    "APPROVED_HEAD_AND_GIT",
+    "CODE_AND_ARTIFACT_IDENTITIES",
+    "LOCAL_MODEL_SMOKE",
+    "FIXED_OUTPUT_AND_CONTROL_ABSENCE"
+  ],
+  "real_entry": "execute_real_rq2d4_one_shot_v1(*, approved_head: str)",
+  "real_pipeline_executable": true,
+  "reservation": {
+    "first_state": "GLOBAL_RESERVED",
+    "flags": [
+      "O_CREAT",
+      "O_EXCL",
+      "O_NOFOLLOW_IF_AVAILABLE"
+    ],
+    "mode": "0600",
+    "repository_global": true
+  },
+  "retry_permitted": false,
+  "schema_version": "track-b-d4-global-one-shot-contract-v1",
+  "status": "FROZEN"
+}

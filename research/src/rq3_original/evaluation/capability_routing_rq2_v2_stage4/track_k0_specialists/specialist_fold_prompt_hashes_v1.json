@@ -1,0 +1,331 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-specialist-fold-prompt-hashes-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "hash_serialization": "UTF-8 canonical JSON with sorted keys and compact separators",
+  "source_b4_fold_examples_file_sha256": "5834833e0d9af6520e858fc1061477ff80ff026b5ea42bbfd0133f51faf8916c",
+  "source_b4_final_examples_file_sha256": "34f12e80a654bb79a7103e35a14c5df058e4a54c8831c27d73756355754fb5b3",
+  "specialists": {
+    "rag": {
+      "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "folds": {
+        "DEV-CV-FOLD-1": {
+          "prompt_package_filename": "rag_specialist_dev_cv_fold_1_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-063",
+            "R2V2-ANN-049",
+            "R2V2-ANN-037",
+            "R2V2-ANN-038",
+            "R2V2-ANN-035",
+            "R2V2-ANN-084",
+            "R2V2-ANN-090",
+            "R2V2-ANN-030"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+          "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+          "example_id_order_sha256": "ce5cb83d25e94a2dee2797a217f74e6a6666275af4adbba958b184fc4ac55961",
+          "specialist_example_set_sha256": "5343250979e9291e3760c2b197dbe8052fdde0dc2d86bf45259d86b385f2103e",
+          "complete_rendered_fold_package_sha256": "58bbc505b3ff3ded6ba0f1d26cdd40f77115deacb4853de7091423eaf4e32885"
+        },
+        "DEV-CV-FOLD-2": {
+          "prompt_package_filename": "rag_specialist_dev_cv_fold_2_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-050",
+            "R2V2-ANN-049",
+            "R2V2-ANN-019",
+            "R2V2-ANN-038",
+            "R2V2-ANN-058",
+            "R2V2-ANN-084",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+          "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+          "example_id_order_sha256": "7f8d7107a850ff85b8057b1b954d1f0e1e70fff80bfb07e3b9314e62f472c0f5",
+          "specialist_example_set_sha256": "49400a99bd06e01e464f98079c59e357aa00eb60816968b87cb42a0e377fc340",
+          "complete_rendered_fold_package_sha256": "0a4c0e7ff08ffcb5d98600be72af17958114312c4daf809ba882da61f063274f"
+        },
+        "DEV-CV-FOLD-3": {
+          "prompt_package_filename": "rag_specialist_dev_cv_fold_3_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-050",
+            "R2V2-ANN-021",
+            "R2V2-ANN-037",
+            "R2V2-ANN-103",
+            "R2V2-ANN-034",
+            "R2V2-ANN-017",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+          "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+          "example_id_order_sha256": "ab9a6f65f51f495fe2388b43a03daa1fb2a8d0c4c0f02b9ef52eb923e319c720",
+          "specialist_example_set_sha256": "44bdc7c706afbfc7ff1dc5fe31f1546bbb78d93c23485846828e01d1041fd2b1",
+          "complete_rendered_fold_package_sha256": "f769843b3ce59ca7adec758d2c98ee90231ba8dc00fd187c8ba908e29569db44"
+        },
+        "DEV-CV-FOLD-4": {
+          "prompt_package_filename": "rag_specialist_dev_cv_fold_4_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-063",
+            "R2V2-ANN-021",
+            "R2V2-ANN-019",
+            "R2V2-ANN-038",
+            "R2V2-ANN-034",
+            "R2V2-ANN-084",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+          "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+          "example_id_order_sha256": "881d2e88e784f0d46406ddef6fc40551a7082e66d55aa41c2f521966cd76d90e",
+          "specialist_example_set_sha256": "921bdcc2d6826a4d9f2a5bffa333651e85542df9eaada3b94f90ee13b4f18950",
+          "complete_rendered_fold_package_sha256": "16d26dbcfc78eaba6e737f4e661bef1dd329bbfdc7fbf590d716ecaa5ed3d458"
+        }
+      },
+      "full_dev": {
+        "prompt_package_filename": "rag_specialist_final_full_dev_prompt_package_v1.json",
+        "example_count": 8,
+        "signatures": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "100",
+          "101",
+          "110",
+          "111"
+        ],
+        "example_ids": [
+          "R2V2-ANN-063",
+          "R2V2-ANN-049",
+          "R2V2-ANN-037",
+          "R2V2-ANN-038",
+          "R2V2-ANN-034",
+          "R2V2-ANN-084",
+          "R2V2-ANN-043",
+          "R2V2-ANN-069"
+        ],
+        "target_yes_count": 4,
+        "target_no_count": 4,
+        "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+        "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+        "example_id_order_sha256": "b6e8a62a1891fd314f3062353d0f6d29a0d5a57c5955ef950bb24ff7f866100a",
+        "specialist_example_set_sha256": "a932596e126ab66c054173bd1b9c454cbba9988e9d0b418da2d80c3e1df1e6eb",
+        "complete_rendered_full_dev_package_sha256": "8a8c432b3bbc80d337a92f52e376fbf3930b42166bef0079fd626668ac28e6c3"
+      }
+    },
+    "memory": {
+      "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "folds": {
+        "DEV-CV-FOLD-1": {
+          "prompt_package_filename": "memory_specialist_dev_cv_fold_1_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-063",
+            "R2V2-ANN-049",
+            "R2V2-ANN-037",
+            "R2V2-ANN-038",
+            "R2V2-ANN-035",
+            "R2V2-ANN-084",
+            "R2V2-ANN-090",
+            "R2V2-ANN-030"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+          "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+          "example_id_order_sha256": "ce5cb83d25e94a2dee2797a217f74e6a6666275af4adbba958b184fc4ac55961",
+          "specialist_example_set_sha256": "243c8af9ef8aa68e8286765d089c59ada7767e6b808a80741cbcfbba10ebfd1a",
+          "complete_rendered_fold_package_sha256": "eb985ab93f8d56c2773ff8b5048eeeb1c9ed189f218dff184875e8a6a0547628"
+        },
+        "DEV-CV-FOLD-2": {
+          "prompt_package_filename": "memory_specialist_dev_cv_fold_2_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-050",
+            "R2V2-ANN-049",
+            "R2V2-ANN-019",
+            "R2V2-ANN-038",
+            "R2V2-ANN-058",
+            "R2V2-ANN-084",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+          "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+          "example_id_order_sha256": "7f8d7107a850ff85b8057b1b954d1f0e1e70fff80bfb07e3b9314e62f472c0f5",
+          "specialist_example_set_sha256": "0e6ae20501840655d233cb34ee85864ab73abbd41bc26c313f3155935ed07b88",
+          "complete_rendered_fold_package_sha256": "eec3320e47b866f43e7da69c3dee084b7eaaa8691f38ac16b5d5d6c25fb9a836"
+        },
+        "DEV-CV-FOLD-3": {
+          "prompt_package_filename": "memory_specialist_dev_cv_fold_3_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-050",
+            "R2V2-ANN-021",
+            "R2V2-ANN-037",
+            "R2V2-ANN-103",
+            "R2V2-ANN-034",
+            "R2V2-ANN-017",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+          "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+          "example_id_order_sha256": "ab9a6f65f51f495fe2388b43a03daa1fb2a8d0c4c0f02b9ef52eb923e319c720",
+          "specialist_example_set_sha256": "4deaea66e25aa50eafe9e90105632089026f2e165ef0a21220b2e4d09f8a06ef",
+          "complete_rendered_fold_package_sha256": "dafe4f9521b055c3adbbafddf07344e2a3d9a36d58ba30dac0fd6641c749554d"
+        },
+        "DEV-CV-FOLD-4": {
+          "prompt_package_filename": "memory_specialist_dev_cv_fold_4_prompt_package_v1.json",
+          "example_count": 8,
+          "signatures": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "example_ids": [
+            "R2V2-ANN-063",
+            "R2V2-ANN-021",
+            "R2V2-ANN-019",
+            "R2V2-ANN-038",
+            "R2V2-ANN-034",
+            "R2V2-ANN-084",
+            "R2V2-ANN-043",
+            "R2V2-ANN-069"
+          ],
+          "target_yes_count": 4,
+          "target_no_count": 4,
+          "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+          "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+          "example_id_order_sha256": "881d2e88e784f0d46406ddef6fc40551a7082e66d55aa41c2f521966cd76d90e",
+          "specialist_example_set_sha256": "63ecf6b2ca3cbdd9935b48d07881a29b0ca9ce63837f215ec7cbdf59129e0404",
+          "complete_rendered_fold_package_sha256": "335ba7bc320f19935c5a86dc667123d15e0356102a3d3a63260ce98eca6899fc"
+        }
+      },
+      "full_dev": {
+        "prompt_package_filename": "memory_specialist_final_full_dev_prompt_package_v1.json",
+        "example_count": 8,
+        "signatures": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "100",
+          "101",
+          "110",
+          "111"
+        ],
+        "example_ids": [
+          "R2V2-ANN-063",
+          "R2V2-ANN-049",
+          "R2V2-ANN-037",
+          "R2V2-ANN-038",
+          "R2V2-ANN-034",
+          "R2V2-ANN-084",
+          "R2V2-ANN-043",
+          "R2V2-ANN-069"
+        ],
+        "target_yes_count": 4,
+        "target_no_count": 4,
+        "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+        "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+        "example_id_order_sha256": "b6e8a62a1891fd314f3062353d0f6d29a0d5a57c5955ef950bb24ff7f866100a",
+        "specialist_example_set_sha256": "57a7aecd53710a1587388711177d7564f4560f1a8729939d445268d2514d3eb4",
+        "complete_rendered_full_dev_package_sha256": "9fa8db7df4f848c7fe6b4795446f99f11ee97b82c9f4746144d3ddc997923ec9"
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "rq2-v2-contract-v1",
+  "freeze_date": "2026-08-30",
+  "task": "LOW_RESOURCE_CONTEXT_AWARE_MULTI_LABEL_CAPABILITY_ROUTING",
+  "stage": "RQ2_V2_STAGE_0",
+  "core_capability_fields": [
+    "rag_required",
+    "memory_required",
+    "planning_required"
+  ],
+  "capability_definitions": {
+    "rag_required": "YES only when correct answering requires course knowledge or course material not already supplied in the model-visible input.",
+    "memory_required": "YES only when correct answering requires student-specific information absent from visible history and retrievable only from long-term Memory.",
+    "planning_required": "YES when evidence must be transformed into an actionable sequence, prioritisation, schedule, or concrete next-step plan."
+  },
+  "dashboard_role": "INPUT_CONTEXT_NOT_CAPABILITY_LABEL",
+  "dialogue_control": {
+    "actions": ["ANSWER", "CLARIFY"],
+    "separate_from_capability_labels": true,
+    "clarify_executes_capability_route": false
+  },
+  "model_ids": [
+    "R2V2-B0_RULE",
+    "R2V2-B1_LEGACY_INTENT",
+    "R2V2-B2_PROTOTYPE",
+    "R2V2-B3_OVR",
+    "R2V2-B4_LLM",
+    "R2V2-P1_HYBRID"
+  ],
+  "primary_metric": "macro_f1",
+  "metric_definitions": {
+    "macro_f1": "Unweighted mean of the three per-capability F1 scores on Gold ANSWER cases.",
+    "micro_f1": "F1 after pooling TP, FP, and FN assignments across the three capabilities on Gold ANSWER cases.",
+    "example_based_f1": "Mean per-case set F1; two empty sets score 1.",
+    "jaccard_similarity": "Mean per-case intersection over union; two empty sets score 1.",
+    "exact_set_match": "Fraction of Gold ANSWER cases with all three capability bits correct.",
+    "hamming_loss": "Incorrect capability assignments divided by ANSWER cases times three labels.",
+    "under_routing_rate": "Fraction of Gold ANSWER cases with at least one omitted required capability.",
+    "over_routing_rate": "Fraction of Gold ANSWER cases with at least one unnecessary predicted capability.",
+    "under_routing_assignment_rate": "False-negative capability assignments divided by all Gold-positive assignments.",
+    "over_routing_assignment_rate": "False-positive capability assignments divided by all Gold-negative assignments.",
+    "answerability_accuracy": "ANSWER versus CLARIFY accuracy over all cases, evaluated separately from capability metrics.",
+    "contrast_consistency": "Fraction of registered contrast pairs whose predicted changed-label set exactly matches the frozen Gold changed-label set."
+  },
+  "planned_benchmark": {
+    "answerable_combination_count": 8,
+    "scenario_families_per_combination": 6,
+    "human_utterances_per_family": 2,
+    "answerable_case_target": 96,
+    "clarification_family_target": 6,
+    "clarification_case_target": 12,
+    "total_case_target": 108,
+    "development_case_target": 72,
+    "test_case_target": 36,
+    "split_unit": "scenario_family_id",
+    "stage0_cases_created": 0
+  },
+  "data_roles": {
+    "RQ2_V1_AUTHENTIC_PILOT": "Qualitative realism, codebook audit, descriptive retrospective transfer only; not untouched RQ2-V2 test.",
+    "RQ2_V1_SYNTHETIC_STRESS": "Development augmentation, rare-combination stress, and code validation only; not authentic and not final test.",
+    "RQ2_V2_HUMAN_ELICITED": "Planned controlled benchmark; not created in Stage 0.",
+    "RQ2_V2_LLM_AUGMENTED": "Optional future DEV-family paraphrases only, with preserved generation provenance and human verification."
+  },
+  "final_test_discipline": {
+    "family_grouped_split_required": true,
+    "test_gold_for_tuning_forbidden": true,
+    "test_examples_as_llm_few_shots_forbidden": true,
+    "test_family_llm_augmentation_forbidden": true,
+    "post_result_silent_tuning_forbidden": true
+  },
+  "stage0_forbidden": [
+    "TRAIN_FINAL_MODELS",
+    "RUN_RQ2_V2_FINAL_TEST",
+    "PAID_LLM_OR_API_CALL",
+    "EXECUTE_RQ3",
+    "MODIFY_HUMAN_ANNOTATIONS_OR_GOLD",
+    "INVENT_AUTHENTIC_STUDENT_DATA",
+    "INVENT_RAG_EVIDENCE",
+    "INVENT_LONG_TERM_MEMORY_RECORDS",
+    "CLAIM_RQ2_WINNER"
+  ]
+}
+

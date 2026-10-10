@@ -1,0 +1,13 @@
+# 来源范围（R1限定修订）
+
+新24条件的活动、页面状态和历史是构造情境；原25中的17个可准备任务使用既有普通来源的受控重置背景。两者均不声称恢复原学生身份、原完整会话或原时间语境。8个缺件原题保留缺件。来源可准备不等于正式纳入或获准运行。
+
+固定课程库保留624个既有chunk、六份原件和其固定导出。原始ID、版本、Unicode字符区间及来源值均不变；区间不是原DOC/PDF的字节偏移。书目、课程改编指南、入口和元数据均不能替代被引论文全文或完整讲座。C09只增加评价侧定位。
+
+原25的PAGE_SOURCES.json及RAW_AGGREGATION_RECEIPT.json逐字节沿用V2。收据记录2026-09-07本地受控回放聚合及四项raw/features计数相合：Resources views 221、Debate views 50、posts 6、replies 11。本轮核对所附快照、收据及已存在的实现文件身份；未重新读取原始CSV或执行全量采集/权限审计。收据不能认证同意流程、原身份恢复或外发许可。
+
+Lecture解释采用“所附录播观看记录”。源ID echo和原指标定义中的Panopto均保持；其平台映射待作者核实。Content_week是材料周，不是观看日期；No Lecture Video的零不等于缺席。累计快照没有共同观察窗口，活动不等于质量。
+
+新24保留范围过滤、记录快照与事件计数的区别。COMPLETE的零仅限所声明实验事件流；UNKNOWN保持null。E03-B、R03-B、M03-B的无答案或未知条件不补事实。8份历史及26条PUT_VERSION源操作保留角色、版本与原句；assistant未采纳建议不提升为学生承诺或ACTIVE_PLAN。valid_until=null不保证无限适用。
+
+runtime_tasks只含普通任务字段。评价参考、family、适用性、审阅理由和最低要求只保存在sidecar。原始五份回传保持DRAFT_PENDING_CONFIRMATION。旧native setup_receipt按原字节保留，是V2状态构建的历史收据，内含旧target query；当前查询与身份以R1 runtime_tasks、prepared_inputs和INPUT_IDENTITY_CHANGES为准。状态内容未因查询修订而重造。

@@ -1,0 +1,39 @@
+{
+  "allowed_write_events": [
+    "EXPLICIT_STUDENT_FACT",
+    "EXPLICIT_STUDENT_PREFERENCE",
+    "EXPLICIT_STUDENT_CONSTRAINT",
+    "EXPLICIT_STUDENT_GOAL",
+    "EXPLICIT_STUDENT_CORRECTION",
+    "VERIFIED_PLAN_STATE_CHANGE",
+    "VERIFIED_COMPLETION_EVENT"
+  ],
+  "assistant_suggestion_without_acceptance_authorised": false,
+  "correction_update": {
+    "append_new_episode": true,
+    "delete_historical_fact": false,
+    "mark_old_superseded": true,
+    "retain_supersedes_link": true
+  },
+  "deletion": {
+    "audit_event_hash_retained": true,
+    "future_retrieval_allowed": false,
+    "status": "DELETED",
+    "tombstone_required": true
+  },
+  "forbidden_write_events": [
+    "MODEL_INFERENCE_ONLY",
+    "ASSISTANT_SUGGESTION_NOT_ACCEPTED",
+    "UNVERIFIED_DASHBOARD_INTERPRETATION",
+    "SENSITIVE_PROFILE_INFERENCE"
+  ],
+  "model_inference_only_authorised": false,
+  "production_behavior_changed": false,
+  "schema_version": "memory-write-update-contract-v1",
+  "sensitive_profile_inference_authorised": false,
+  "stage": "RQ2-C0-R1",
+  "status": "FROZEN",
+  "store_implemented": false,
+  "unverified_dashboard_profile_write_authorised": false,
+  "write_source_requirement": "EXPLICIT_STUDENT_STATEMENT_OR_VERIFIED_SYSTEM_EVENT"
+}

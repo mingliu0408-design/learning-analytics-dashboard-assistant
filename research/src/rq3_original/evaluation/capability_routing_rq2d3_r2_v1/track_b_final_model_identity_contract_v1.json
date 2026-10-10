@@ -1,0 +1,42 @@
+{
+  "b0": {
+    "context_resolution_prediction": false,
+    "context_resolver_call_count": 0,
+    "history_read_count": 0,
+    "identity": "B0_ORIGINAL_QUERY_C0_TOP1_HARD_ROUTE_NO_CONTEXT_RESOLUTION",
+    "original_query_only": true,
+    "router": "C0_COSINE_TOP1_HARD_ROUTE",
+    "structured_memory_read_count": 0
+  },
+  "b1": {
+    "frozen_development_ledger_sha256": "801efb2c4ab4b32445e6ec2e51a6bac9173d566cb8136070b557e35d62ca5e80",
+    "identity": "B1_CURRENT_PRODUCTION_CONTEXT_RESOLUTION_C0_TOP1_HARD_ROUTE",
+    "router": "C0_COSINE_TOP1_HARD_ROUTE"
+  },
+  "c0": {
+    "aggregation": "MAX",
+    "candidate_embeddings_relative_path": "semantic_runtime/artifacts/intent_index_embeddings_mpnet_base_v2_v1.npz",
+    "candidate_embeddings_sha256": "8b6fb268970c119ec58ce304e1c9ad0380e161fe086713dbf77d432b547bf9d8",
+    "candidate_index_relative_path": "semantic_runtime/artifacts/intent_examples_approved_index_v1.jsonl",
+    "candidate_index_sha256": "b4cac34df91c074a4a2fa85e4ccc52623563f3358fe44938771f8303f00b6be9",
+    "candidate_record_count": 62,
+    "identity": "C0_COSINE",
+    "label_count": 16,
+    "mpnet_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  },
+  "model_training_performed": false,
+  "p1": {
+    "guards_changed": false,
+    "identity": "P1_D05_SIGNAL_UNION",
+    "intent_map_changed": false,
+    "need_signals_changed": false,
+    "policy_relative_path": "evaluation/capability_routing_rq2b_v1/rq2b_final_p1_policy_v1.json",
+    "policy_sha256": "74236e7166cfa2cc73447f873150812b9700dfcc14e5209e8b157be3c7210942",
+    "threshold_changed": false,
+    "weights_changed": false
+  },
+  "production_integration": false,
+  "schema_version": "track-b-final-model-identity-contract-v1",
+  "stage": "RQ2-D3-R2",
+  "status": "FROZEN"
+}

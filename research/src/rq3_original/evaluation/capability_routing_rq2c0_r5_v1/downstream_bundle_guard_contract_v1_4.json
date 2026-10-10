@@ -1,0 +1,22 @@
+{
+  "accepted_authorisation_object": "ValidatedPersistentMemoryBundleV1_4",
+  "allowed_interfaces": [
+    "EMBEDDING_INPUT_BUILDER",
+    "PERSISTENT_RETRIEVAL_CANDIDATE_BUILDER",
+    "MEMORY_ADMISSION_BUILDER",
+    "STATE_PROJECTION_BUILDER",
+    "GENERATION_EVIDENCE_BUILDER"
+  ],
+  "boolean_receipt_accepted": false,
+  "dictionary_receipt_accepted": false,
+  "failure_prefix": "UNVALIDATED_OR_STALE_BUNDLE_BLOCKED:<interface>",
+  "fingerprint_only_token_accepted": false,
+  "free_standing_r4_receipt_accepted": false,
+  "full_bundle_revalidation_required": true,
+  "guard_callable": "evaluation.capability_routing_rq2c0_r5_v1.validated_bundle_guard_v1_4.require_validated_bundle_for_interface_v1_4",
+  "payload_plus_separate_receipt_accepted": false,
+  "production_interface_implemented": false,
+  "schema_version": "downstream-bundle-guard-contract-v1.4",
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN"
+}

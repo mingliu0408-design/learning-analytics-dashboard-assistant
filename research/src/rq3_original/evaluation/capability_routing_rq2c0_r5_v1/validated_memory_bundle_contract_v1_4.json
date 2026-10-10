@@ -1,0 +1,69 @@
+{
+  "bundle_schema": "ValidatedPersistentMemoryBundleV1_4",
+  "bundle_with_failed_validation_constructible": false,
+  "caller_identity_authentication_claim": false,
+  "composite_creation": {
+    "creation_trace": [
+      [
+        "R2",
+        1
+      ],
+      [
+        "R3",
+        1
+      ],
+      [
+        "R4",
+        1
+      ],
+      [
+        "R5_IDENTIFIER",
+        1
+      ],
+      [
+        "R5_INTERVAL",
+        1
+      ],
+      [
+        "R5_FINGERPRINT",
+        1
+      ]
+    ],
+    "failed_bundle_returned": false,
+    "later_stage_may_override_failure": false,
+    "ordered_stages": [
+      "R4_COMPOSITE_VALIDATOR_INCLUDING_R2_R3_R4",
+      "R5_OPAQUE_IDENTIFIER_VALIDATION",
+      "R5_VALIDITY_INTERVAL_VALIDATION",
+      "R5_CANONICAL_COMPONENT_AND_COMPOSITE_FINGERPRINTING",
+      "VALIDATED_BUNDLE_CREATION"
+    ],
+    "r4_composite_called_exactly_once": true,
+    "r5_fingerprint_stage_called_exactly_once": true,
+    "r5_identifier_stage_called_exactly_once": true,
+    "r5_interval_stage_called_exactly_once": true,
+    "schema_version": "composite-validated-bundle-validator-v1.4",
+    "short_circuit_on_failure": true,
+    "stage": "RQ2-C0-R5",
+    "status": "FROZEN",
+    "validator_id": "PERSISTENT_MEMORY_VALIDATED_BUNDLE_V1_4"
+  },
+  "creation_callable": "evaluation.capability_routing_rq2c0_r5_v1.validated_memory_bundle_v1_4.validate_and_bind_payload_v1_4",
+  "exact_input_objects_retained": true,
+  "free_standing_r4_receipt_is_authorisation": false,
+  "manually_constructed_fully_valid_bundle_may_pass": true,
+  "persistent_store_implemented": false,
+  "r5_validator_id": "PERSISTENT_MEMORY_VALIDATED_BUNDLE_V1_4",
+  "schema_version": "validated-memory-bundle-contract-v1.4",
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN",
+  "validation_contract_hash": "2760fe9dc9a6e8694ec6d734ae415a9d91aa6efcc3255bb111a20aa1f4520891",
+  "verification_callable": "evaluation.capability_routing_rq2c0_r5_v1.validated_memory_bundle_v1_4.verify_validated_bundle_v1_4",
+  "verification_checks_complete_trace": true,
+  "verification_checks_contract_hash": true,
+  "verification_checks_validator_ids": true,
+  "verification_recomputes_all_component_fingerprints": true,
+  "verification_recomputes_composite_fingerprint": true,
+  "verification_reruns_r4_composite": true,
+  "verification_reruns_r5_identifier_and_interval_checks": true
+}

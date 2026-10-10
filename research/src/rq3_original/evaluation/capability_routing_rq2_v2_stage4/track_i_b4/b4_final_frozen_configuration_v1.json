@@ -1,0 +1,63 @@
+{
+  "B4_MODEL_STATUS": "EXECUTION_INCOMPLETE_NOT_FROZEN",
+  "execution_evidence": {
+    "attempt_records_sha256": "0be2829472fd15e5339c09618fd2902ea17700c2645504923b40ee5563c45755",
+    "call_journal_sha256": "7722518f6c25c1196adfcc923aaee0ecbee5929f0883caa805e5bc8e3c34cff0",
+    "logical_terminal_results": 1,
+    "physical_attempts": 1,
+    "requested_models": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "returned_models": [],
+    "terminal_results_sha256": "81e74e9446b5da17cbd299ac543b6ce68ba572b0a5485ff2b216b113b30b2b49",
+    "v1_manifest_sha256": "f0b8e90c43a680ab9305b873414fe7aa23d6531187b9d8560e8b389c80971b55",
+    "v2_manifest_sha256": "e3fe5585ccd78d51cf9c154d64a56f919c3fc47b0e2460678a4cb7b058a67c22"
+  },
+  "execution_scope": "DEV_ONLY_CONDITIONAL_B4_ANSWER_CASES",
+  "full_dev_examples": {
+    "example_ids_in_order": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+    "prompt_package_sha256": "7a4875e23350d4ea2d3e6a6fed7e28d2eb278f79722fb74dfe43788b02216d89",
+    "signatures_in_order": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  "future_boundary": {
+    "intended_future_use": "ONE_TIME_TEST_B4_EXECUTION_AFTER_SEPARATE_DIRECT_AUTHORIZATION",
+    "p1_calls_made": 0,
+    "rq3_calls_made": 0,
+    "test_calls_made": 0
+  },
+  "manual_retry_policy": {
+    "correction_message_added": false,
+    "maximum_retries_per_logical_case": 1,
+    "only_after": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED"
+    ],
+    "prompt_changed": false
+  },
+  "max_output_tokens": 64,
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+  "response_schema_sha256": "9f364e920cfcca07a90580000196c85a6f801ef2e75c9c907bf820eea6a9aba2",
+  "schema_version": "rq2-v2-stage4-i-x-b4-final-freeze-v1",
+  "sdk_transport_retries": 0,
+  "temperature": 0
+}

@@ -1,0 +1,18 @@
+{
+  "completed_ratings": 0,
+  "different_deterministic_orders": true,
+  "item_set_sha256": "72bbe5f0212790ea881b01d002b32fa57dc1d635c487656a5b1088a48cf60e4b",
+  "order_sha256": {
+    "A": "673684324bbdbf093a4573e1502bd4dc5ac80a044b73d7ebe938386d976b4a25",
+    "B": "531b8d2815ebac02f1cc686587438fc2227f49d1bc7d79ad9efc0442d32b225f"
+  },
+  "packet_sha256": {
+    "A": "c4b43280014e9575ab66dd6d93b8d3999fdd6e1a1b7a70dd3bf551243b660967",
+    "B": "f99d25599ccd798e5f88233c05eceb816ab9cb29feba32fe6559110c7ae8b53b"
+  },
+  "rating_item_count": 108,
+  "same_item_set": true,
+  "schema_version": "c4-real-human-validation-freeze-receipt-v1",
+  "selected_family_count": 12,
+  "status": "FROZEN_READY_FOR_INDEPENDENT_HUMAN_REVIEW"
+}

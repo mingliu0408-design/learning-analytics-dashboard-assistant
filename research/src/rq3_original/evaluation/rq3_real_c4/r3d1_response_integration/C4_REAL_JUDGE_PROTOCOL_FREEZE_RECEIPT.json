@@ -1,0 +1,47 @@
+{
+  "applicability_sha256": "bee7bf9d681004f4ab5be549053b7dbeb2f7726361217251495a167257460b0e",
+  "configuration_sha256": "41c7f3ff63ce99559b7f1852282fc381d0863fed12cf9f9a099e217b02e99e6f",
+  "judge_calls": 0,
+  "judge_model": "gpt-4.1-2025-04-14",
+  "maximum_output_tokens": 2048,
+  "maximum_physical_attempts": 294,
+  "package_sha256": {
+    "A": "d50a5285b9f95f3a6cdf9c1aaabc368759f30967b72aa01c604a0f084e916622",
+    "B": "7618d3ce5ae6d9f93380a941f88135f051e62e7ff2d15c6774ebfae9262a7c73",
+    "C": "498a5497ae63994e6c9cf1fe72668ff5fc65c0b458201797863b8fcae76a0163"
+  },
+  "prompt_sha256": "5b99b52bef760daa4e2fc8ae6ab13cead7e031b9d41b52d41e88617d906c35f3",
+  "rubric_sha256": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+  "schema_sha256": "caf69ff4e8c27b71805414b29caf3b87fa5da92bf0df0dec23c6945b2019be30",
+  "schema_version": "c4-real-judge-protocol-freeze-receipt-v1",
+  "shards": {
+    "A": {
+      "estimated_input_tokens": 175666,
+      "maximum_physical_attempts": 98,
+      "page_coverage_count": 5,
+      "response_condition_coverage_count": 9,
+      "scenario_family_count": 20,
+      "unique_judge_requests": 49
+    },
+    "B": {
+      "estimated_input_tokens": 175621,
+      "maximum_physical_attempts": 98,
+      "page_coverage_count": 5,
+      "response_condition_coverage_count": 9,
+      "scenario_family_count": 20,
+      "unique_judge_requests": 49
+    },
+    "C": {
+      "estimated_input_tokens": 175733,
+      "maximum_physical_attempts": 98,
+      "page_coverage_count": 5,
+      "response_condition_coverage_count": 9,
+      "scenario_family_count": 22,
+      "unique_judge_requests": 49
+    }
+  },
+  "status": "FROZEN_READY_FOR_SEPARATELY_AUTHORIZED_PARALLEL_EXECUTION",
+  "temperature": 0,
+  "unique_judge_manifest_sha256": "e00b762c579309ad929e1f4dc7e46f1da17ffa30168748d13a2c15fa787abda1",
+  "unique_judge_request_count": 147
+}

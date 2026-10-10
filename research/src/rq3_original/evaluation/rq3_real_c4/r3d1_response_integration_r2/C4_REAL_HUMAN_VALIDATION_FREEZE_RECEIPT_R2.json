@@ -1,0 +1,21 @@
+{
+  "condition_level_sample_mappings": 108,
+  "different_deterministic_orders": true,
+  "duplicate_mapping_count": 64,
+  "exact_criterion_specific_na_rules_in_guide": true,
+  "full_criterion_specific_behavioural_anchors_in_guide": true,
+  "guide_sha256": "18be7dd12a1fdd8f0168466f529a9883092e29f4b3698dca5fc34d47b2f3932a",
+  "maximum_exact_duplicate_group_size": 8,
+  "package_sha256": {
+    "A": "7015c9f3e639d8d9b5fa60c8de5b8c555f89ec7d59b768d400f083968cbb8a6d",
+    "B": "ad1e2569f336c940d31d9b1e4e32a73f51ebd00e97d3f2292f22672514bb6a21"
+  },
+  "primary_rubric_sha256": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+  "ratings_completed": 0,
+  "rationales_completed": 0,
+  "same_unique_item_set": true,
+  "schema_version": "c4-real-human-validation-freeze-receipt-r2-v1",
+  "selected_family_count": 12,
+  "status": "FROZEN_READY_FOR_INDEPENDENT_HUMAN_REVIEW_R2",
+  "unique_human_visible_item_count": 44
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "c4-real-judge-execution-contract-set-r2-v1",
+  "shard_contracts": {
+    "A": {
+      "attempt_terminal_error_status_journals_flush_and_fsync": true,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_JUDGE_EXECUTION_R2",
+      "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+      "authorization_headers_recorded": false,
+      "authorization_record_exact_binding_fields": [
+        "schema_version",
+        "authorization_id",
+        "authorized_by",
+        "authorized_at_utc",
+        "package_id",
+        "shard_id",
+        "request_count",
+        "maximum_physical_attempts",
+        "package_zip_sha256",
+        "blinded_judge_manifest_sha256",
+        "status"
+      ],
+      "authorization_record_schema_version": "c4-real-judge-execution-authorization-r2-v1",
+      "authorization_status_required": "AUTHORIZED",
+      "automatic_resume": false,
+      "automatic_sdk_retries": 0,
+      "bindings_verified_before_runtime_and_client_construction": true,
+      "complete_or_incomplete_status_always_written_after_output_creation": true,
+      "condition_comparisons_inside_worker": false,
+      "configuration_sha256": "00d2778c92bfb874431a9f41e635526e0abbb9ddbe8b4fc46ed7c8afd39a64bf",
+      "execution_authorized_in_package": false,
+      "existing_output_directory_permitted": false,
+      "manual_retry": {
+        "byte_identical": true,
+        "correction_message": false,
+        "maximum_retries": 1,
+        "permitted_only_after": [
+          "INVALID_JSON",
+          "STRICT_SCHEMA_VALIDATION_FAILED",
+          "APPLICABILITY_CONTRACT_VIOLATION"
+        ]
+      },
+      "minimum_seconds_between_initial_request_starts": 15.0,
+      "non_retryable_error_policy": "STOP_ENTIRE_SHARD",
+      "openai_client_max_retries": 0,
+      "openai_sdk_version": "1.109.1",
+      "output_directory_created_atomically": true,
+      "preflight_start_receipt_before_runtime_and_client_construction": true,
+      "provider_error_fields_sanitized": true,
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5",
+      "raw_invalid_output_preserved": true,
+      "required_cli_arguments": [
+        "--package-zip",
+        "--authorization-record",
+        "--output-dir",
+        "--execute"
+      ],
+      "returned_model_identity_verified": "gpt-4.1-2025-04-14",
+      "schema_version": "c4-real-judge-execution-contract-r2-v1",
+      "serial_execution": true,
+      "status": "FROZEN_FOR_FUTURE_SEPARATELY_AUTHORIZED_EXECUTION_R2"
+    },
+    "B": {
+      "attempt_terminal_error_status_journals_flush_and_fsync": true,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_JUDGE_EXECUTION_R2",
+      "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+      "authorization_headers_recorded": false,
+      "authorization_record_exact_binding_fields": [
+        "schema_version",
+        "authorization_id",
+        "authorized_by",
+        "authorized_at_utc",
+        "package_id",
+        "shard_id",
+        "request_count",
+        "maximum_physical_attempts",
+        "package_zip_sha256",
+        "blinded_judge_manifest_sha256",
+        "status"
+      ],
+      "authorization_record_schema_version": "c4-real-judge-execution-authorization-r2-v1",
+      "authorization_status_required": "AUTHORIZED",
+      "automatic_resume": false,
+      "automatic_sdk_retries": 0,
+      "bindings_verified_before_runtime_and_client_construction": true,
+      "complete_or_incomplete_status_always_written_after_output_creation": true,
+      "condition_comparisons_inside_worker": false,
+      "configuration_sha256": "3d48c639d040210c942dde059d06716c25579ca34742c8c203ce6046c015e9ba",
+      "execution_authorized_in_package": false,
+      "existing_output_directory_permitted": false,
+      "manual_retry": {
+        "byte_identical": true,
+        "correction_message": false,
+        "maximum_retries": 1,
+        "permitted_only_after": [
+          "INVALID_JSON",
+          "STRICT_SCHEMA_VALIDATION_FAILED",
+          "APPLICABILITY_CONTRACT_VIOLATION"
+        ]
+      },
+      "minimum_seconds_between_initial_request_starts": 15.0,
+      "non_retryable_error_policy": "STOP_ENTIRE_SHARD",
+      "openai_client_max_retries": 0,
+      "openai_sdk_version": "1.109.1",
+      "output_directory_created_atomically": true,
+      "preflight_start_receipt_before_runtime_and_client_construction": true,
+      "provider_error_fields_sanitized": true,
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5",
+      "raw_invalid_output_preserved": true,
+      "required_cli_arguments": [
+        "--package-zip",
+        "--authorization-record",
+        "--output-dir",
+        "--execute"
+      ],
+      "returned_model_identity_verified": "gpt-4.1-2025-04-14",
+      "schema_version": "c4-real-judge-execution-contract-r2-v1",
+      "serial_execution": true,
+      "status": "FROZEN_FOR_FUTURE_SEPARATELY_AUTHORIZED_EXECUTION_R2"
+    },
+    "C": {
+      "attempt_terminal_error_status_journals_flush_and_fsync": true,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_JUDGE_EXECUTION_R2",
+      "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+      "authorization_headers_recorded": false,
+      "authorization_record_exact_binding_fields": [
+        "schema_version",
+        "authorization_id",
+        "authorized_by",
+        "authorized_at_utc",
+        "package_id",
+        "shard_id",
+        "request_count",
+        "maximum_physical_attempts",
+        "package_zip_sha256",
+        "blinded_judge_manifest_sha256",
+        "status"
+      ],
+      "authorization_record_schema_version": "c4-real-judge-execution-authorization-r2-v1",
+      "authorization_status_required": "AUTHORIZED",
+      "automatic_resume": false,
+      "automatic_sdk_retries": 0,
+      "bindings_verified_before_runtime_and_client_construction": true,
+      "complete_or_incomplete_status_always_written_after_output_creation": true,
+      "condition_comparisons_inside_worker": false,
+      "configuration_sha256": "ba85d5c5b52d71764f090514c18b6ed704b3dc9b6ea8633a6406e18b6254a76a",
+      "execution_authorized_in_package": false,
+      "existing_output_directory_permitted": false,
+      "manual_retry": {
+        "byte_identical": true,
+        "correction_message": false,
+        "maximum_retries": 1,
+        "permitted_only_after": [
+          "INVALID_JSON",
+          "STRICT_SCHEMA_VALIDATION_FAILED",
+          "APPLICABILITY_CONTRACT_VIOLATION"
+        ]
+      },
+      "minimum_seconds_between_initial_request_starts": 15.0,
+      "non_retryable_error_policy": "STOP_ENTIRE_SHARD",
+      "openai_client_max_retries": 0,
+      "openai_sdk_version": "1.109.1",
+      "output_directory_created_atomically": true,
+      "preflight_start_receipt_before_runtime_and_client_construction": true,
+      "provider_error_fields_sanitized": true,
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5",
+      "raw_invalid_output_preserved": true,
+      "required_cli_arguments": [
+        "--package-zip",
+        "--authorization-record",
+        "--output-dir",
+        "--execute"
+      ],
+      "returned_model_identity_verified": "gpt-4.1-2025-04-14",
+      "schema_version": "c4-real-judge-execution-contract-r2-v1",
+      "serial_execution": true,
+      "status": "FROZEN_FOR_FUTURE_SEPARATELY_AUTHORIZED_EXECUTION_R2"
+    }
+  },
+  "shard_execution_contract_sha256": {
+    "A": "4879a0ce178a8a24d062ef5465b67fce25fe7645d0a83965d7635cdcd9564caa",
+    "B": "a81eba444f4d2f2b0b75ff4dff69eba6e71abb8eeccd5aa9658e0c4abb989719",
+    "C": "e27c1b06fd3088421ce0438b687f176a1033907494b0c8c45d663082880a17df"
+  },
+  "status": "FROZEN_UNEXECUTED_R2"
+}

@@ -1,0 +1,92 @@
+{
+  "effect_size_reporting": [
+    "MEAN_DELTA_RR",
+    "MEDIAN_DELTA_RR",
+    "WINS",
+    "TIES",
+    "LOSSES",
+    "MATCHED_RANK_BISERIAL_CORRELATION"
+  ],
+  "final_gold_read_by_module": false,
+  "final_selection": {
+    "failure_decision": "C0_REMAINS_SELECTED",
+    "required_gates": [
+      "PRIMARY_MRR_SIGNIFICANCE",
+      "TOP1_DIRECTION",
+      "MACRO_F1_TOLERANCE",
+      "WEAK_CLASS",
+      "SEED_ROBUSTNESS",
+      "NO_FINAL_GOLD_TUNING",
+      "NO_TAXONOMY_CHANGE"
+    ]
+  },
+  "matched_rank_biserial": {
+    "all_ties_status": "UNDEFINED_ALL_TIES",
+    "all_ties_value": null,
+    "formula": "WINS_MINUS_LOSSES_DIVIDED_BY_WINS_PLUS_LOSSES"
+  },
+  "paired_approximate_randomisation": {
+    "alpha": 0.05,
+    "exact_when_nonzero_pair_count_at_most": 20,
+    "method": "PAIRED_SIGN_FLIP",
+    "monte_carlo_random_seed": 20260825,
+    "monte_carlo_resamples_otherwise": 100000,
+    "p_value": "EXTREME_PLUS_1_DIVIDED_BY_RESAMPLES_PLUS_1",
+    "sidedness": "TWO_SIDED"
+  },
+  "paired_bootstrap_ci": {
+    "cluster_sensitivity_replaces_primary_ci": false,
+    "cluster_sensitivity_role": "SECONDARY_ONLY_IF_GROUPING_METADATA_PRESENT",
+    "confidence": 0.95,
+    "lower_percentile": 2.5,
+    "method": "PERCENTILE_BOOTSTRAP",
+    "percentile_interpolation": "LINEAR_TYPE_7",
+    "random_seed": 20260826,
+    "resamples": 50000,
+    "resampling_unit": "PAIRED_QUERY",
+    "upper_percentile": 97.5
+  },
+  "primary_comparison": {
+    "comparison": "REPRESENTATIVE_M64_VS_C0",
+    "confirmatory_comparison_count": 1,
+    "metric": "MRR",
+    "multiplicity_correction": "NONE_SINGLE_CONFIRMATORY_COMPARISON",
+    "primary_effect": "MEAN_DELTA_RR",
+    "query_delta": "RR_M64_MINUS_RR_C0"
+  },
+  "primary_significance_gate": {
+    "all_required": true,
+    "bootstrap_lower_bound_gt": 0.0,
+    "mean_delta_rr_gt": 0.0,
+    "paired_randomisation_p_value_lt": 0.05,
+    "representative_m64_mrr_gt_c0_mrr": true
+  },
+  "schema_version": "rq1a-r1-statistical-decision-contract-v1",
+  "secondary_inference": {
+    "k0_comparisons": "EXPLORATORY",
+    "multiple_secondary_tests_correction": "HOLM",
+    "secondary_metric_tests": "EXPLORATORY"
+  },
+  "seed_robustness_gate": {
+    "five_seed_mean_mrr_gt_c0_mrr": true,
+    "may_reselect_representative_seed": false,
+    "may_reselect_scenario": false,
+    "minimum_seed_count_with_mrr_gt_c0": 4,
+    "seed_count": 5,
+    "single_final_gold_evaluation_session": true
+  },
+  "stage": "RQ1-A-R1",
+  "status": "FROZEN",
+  "top1_and_macro_f1_gate": {
+    "macro_f1_noninferiority_tolerance": 0.01,
+    "representative_m64_macro_f1_gte_c0_minus_tolerance": true,
+    "representative_m64_top1_gte_c0_top1": true,
+    "tolerance_change_after_final_gold": false
+  },
+  "weak_class_gate": {
+    "hard_gate_minimum_support": 5,
+    "maximum_per_label_f1_drop": 0.15,
+    "positive_c0_f1_m64_zero_forbidden": true,
+    "support_below_5_role": "REPORT_ONLY"
+  }
+}

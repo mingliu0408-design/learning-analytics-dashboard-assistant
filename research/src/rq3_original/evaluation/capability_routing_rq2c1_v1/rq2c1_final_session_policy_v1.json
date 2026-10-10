@@ -1,0 +1,88 @@
+{
+  "authentic_used_for_selection": false,
+  "candidate_results": [
+    {
+      "metrics": {
+        "accuracy": 0.7714285714285715,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 0,
+        "precision": 0.0,
+        "predicted_positive_count": 0,
+        "recall": 0.0,
+        "support": 8,
+        "true_negative": 27,
+        "true_positive": 0,
+        "unnecessary_use_rate": 0.0
+      },
+      "policy_id": "M0_P1_ONLY",
+      "safety": {
+        "cancelled_admission": 0,
+        "cross_scope_admission": 0,
+        "execution_under_clarification": 0,
+        "missing_context_without_state_auto_memory": 0,
+        "stale_admission": 0,
+        "superseded_admission": 0
+      },
+      "selection_eligible": true
+    },
+    {
+      "metrics": {
+        "accuracy": 0.7714285714285715,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 0,
+        "precision": 0.0,
+        "predicted_positive_count": 0,
+        "recall": 0.0,
+        "support": 8,
+        "true_negative": 27,
+        "true_positive": 0,
+        "unnecessary_use_rate": 0.0
+      },
+      "policy_id": "M1_RESOLVED_STATE_DEPENDENCY",
+      "safety": {
+        "cancelled_admission": 0,
+        "cross_scope_admission": 0,
+        "execution_under_clarification": 0,
+        "missing_context_without_state_auto_memory": 0,
+        "stale_admission": 0,
+        "superseded_admission": 0
+      },
+      "selection_eligible": true
+    },
+    {
+      "metrics": {
+        "accuracy": 0.7714285714285715,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 0,
+        "precision": 0.0,
+        "predicted_positive_count": 0,
+        "recall": 0.0,
+        "support": 8,
+        "true_negative": 27,
+        "true_positive": 0,
+        "unnecessary_use_rate": 0.0
+      },
+      "policy_id": "M2_EXPLICIT_MEMORY_NEED_WITH_STATE",
+      "safety": {
+        "cancelled_admission": 0,
+        "cross_scope_admission": 0,
+        "execution_under_clarification": 0,
+        "missing_context_without_state_auto_memory": 0,
+        "stale_admission": 0,
+        "superseded_admission": 0
+      },
+      "selection_eligible": true
+    }
+  ],
+  "context_missing_used_for_selection": false,
+  "immutable": true,
+  "scenario_family_count": 18,
+  "schema_version": "rq2c1-final-session-policy-v1",
+  "selected_policy_id": "M0_P1_ONLY",
+  "selection_dataset": "SYNTHETIC_COVERAGE_STRESS_GOLD",
+  "selection_record_count": 35,
+  "selection_rule_frozen": true
+}

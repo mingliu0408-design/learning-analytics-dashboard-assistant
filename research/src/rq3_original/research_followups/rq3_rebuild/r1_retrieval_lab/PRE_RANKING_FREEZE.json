@@ -1,0 +1,19 @@
+{
+  "base_head": "4765e066bd512611cd7157098aa50a86d25e7ea8",
+  "branch": "research/rq3-rebuild-r1-retrieval-lab",
+  "cwd": "/Users/liuming/Downloads/rq2_v2_parallel/rq3-rebuild-r1-retrieval-lab",
+  "files": {
+    "RUN_CONFIG.json": "fa437bb9014c2e8a04e938c2bc3e1566e4c8cf63c63996c0dbd3e290b7d04cc1",
+    "SOURCE_SPAN_REFERENCE_TEMPLATE.json": "da402ad49a73f94750b44540831ee91a6bef45295a70f7421e09bddebc7e3b4b",
+    "local_artifacts/canonical_sections.json": "f1b3386035603a83687293d8b7a9712c281e96ffb39e194859400ec012e6b245",
+    "local_artifacts/historical_labels.json": "0ea9040387d6c5df2e415777d4e938775766631b15da067c2ea82b443b5374da",
+    "local_artifacts/historical_requests.json": "3994a0587e3516d34c652935cd1235ff3e02ce3c61677483c6fd71a20c8e0f2a"
+  },
+  "initial_status": "tracked and untracked clean observed before first edit",
+  "network_guard": {
+    "forbidden_import_attempts": 0,
+    "network_attempts": 0
+  },
+  "rankings_executed_before_freeze": 0,
+  "time_utc": "2026-09-06T17:57:40.984272+00:00"
+}

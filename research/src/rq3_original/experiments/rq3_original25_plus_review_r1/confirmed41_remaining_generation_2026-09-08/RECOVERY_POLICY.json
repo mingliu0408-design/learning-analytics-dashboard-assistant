@@ -1,0 +1,31 @@
+{
+  "version": "CONFIRMED41_NETWORK_RECOVERY_V1",
+  "starting_head": "75dffa20bf843168ee752923f0027a7a856c04f9",
+  "parent_archive_sha256": "c485f191b9869fbd0ca4ff20e2a9cf5e0aa077cdce019e67e18139a9dd4f3a93",
+  "logical_caps": {
+    "ROUTE": 33,
+    "CANDIDATE": 22,
+    "FINAL": 66
+  },
+  "physical_caps": {
+    "ROUTE": 66,
+    "CANDIDATE": 44,
+    "FINAL": 131
+  },
+  "aggregate_new_physical_cap": 241,
+  "cumulative_physical_cap": 518,
+  "cumulative_money_cap_usd": 10,
+  "historical_physical_calls": 277,
+  "historical_budget_debit_usd": 0.5533299,
+  "network_retry_wait_seconds": 10,
+  "max_physical_attempts_per_logical_including_repairs": 2,
+  "existing_unknown_additional_attempts": 1,
+  "sdk_retries": 0,
+  "timeout_seconds": 30,
+  "minimum_start_interval_seconds": 2,
+  "stop_after_consecutive_connection_exhaustions": 3,
+  "accepted_selection": "EARLIEST_FROZEN_MECHANICAL_CHECK_PASS",
+  "scientific_interface": "A1_PLANNING_INTENT_DECLARED_SOURCE_TIME_V1",
+  "scientific_changes_permitted": false,
+  "late_response_replacement_permitted": false
+}

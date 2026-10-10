@@ -1,0 +1,124 @@
+{
+  "fixture_count": 10,
+  "policy_results": {
+    "PMR_DENSE_ONLY": {
+      "admission": {
+        "f1": 0.923076923076923,
+        "false_negative": 0,
+        "false_positive": 1,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "true_positive": 6
+      },
+      "deletion_compliance": 1.0,
+      "latest_correction_accuracy": 1.0,
+      "maximum_admission_count": 2,
+      "maximum_retrieval_count": 2,
+      "mrr": 1.0,
+      "multi_hop_complete_retrieval": 1.0,
+      "no_memory_abstention": 0.8,
+      "projection_consistency": true,
+      "recall_at_1": 0.7857142857142857,
+      "recall_at_3": 1.0,
+      "safety_counts": {
+        "cancelled_admission_count": 0,
+        "completed_not_requested_admission_count": 0,
+        "cross_student_violation_count": 0,
+        "deleted_memory_violation_count": 0,
+        "stale_admission_count": 0,
+        "superseded_admission_count": 0
+      },
+      "supersession_accuracy": 1.0
+    },
+    "PMR_HYBRID_STATE_AWARE": {
+      "admission": {
+        "f1": 0.923076923076923,
+        "false_negative": 0,
+        "false_positive": 1,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "true_positive": 6
+      },
+      "deletion_compliance": 1.0,
+      "latest_correction_accuracy": 1.0,
+      "maximum_admission_count": 2,
+      "maximum_retrieval_count": 2,
+      "mrr": 0.7142857142857143,
+      "multi_hop_complete_retrieval": 0.3333333333333333,
+      "no_memory_abstention": 0.8,
+      "projection_consistency": true,
+      "recall_at_1": 0.5714285714285714,
+      "recall_at_3": 0.6428571428571429,
+      "safety_counts": {
+        "cancelled_admission_count": 0,
+        "completed_not_requested_admission_count": 0,
+        "cross_student_violation_count": 0,
+        "deleted_memory_violation_count": 0,
+        "stale_admission_count": 0,
+        "superseded_admission_count": 0
+      },
+      "supersession_accuracy": 1.0
+    },
+    "PMR_HYBRID_TYPE_TEMPORAL": {
+      "admission": {
+        "f1": 0.923076923076923,
+        "false_negative": 0,
+        "false_positive": 1,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "true_positive": 6
+      },
+      "deletion_compliance": 1.0,
+      "latest_correction_accuracy": 1.0,
+      "maximum_admission_count": 2,
+      "maximum_retrieval_count": 2,
+      "mrr": 1.0,
+      "multi_hop_complete_retrieval": 1.0,
+      "no_memory_abstention": 0.8,
+      "projection_consistency": true,
+      "recall_at_1": 0.7857142857142857,
+      "recall_at_3": 1.0,
+      "safety_counts": {
+        "cancelled_admission_count": 0,
+        "completed_not_requested_admission_count": 0,
+        "cross_student_violation_count": 0,
+        "deleted_memory_violation_count": 0,
+        "stale_admission_count": 0,
+        "superseded_admission_count": 0
+      },
+      "supersession_accuracy": 1.0
+    },
+    "PMR_KW_LEGACY": {
+      "admission": {
+        "f1": 0.923076923076923,
+        "false_negative": 0,
+        "false_positive": 1,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "true_positive": 6
+      },
+      "deletion_compliance": 1.0,
+      "latest_correction_accuracy": 1.0,
+      "maximum_admission_count": 2,
+      "maximum_retrieval_count": 2,
+      "mrr": 1.0,
+      "multi_hop_complete_retrieval": 1.0,
+      "no_memory_abstention": 0.8,
+      "projection_consistency": true,
+      "recall_at_1": 0.7857142857142857,
+      "recall_at_3": 1.0,
+      "safety_counts": {
+        "cancelled_admission_count": 0,
+        "completed_not_requested_admission_count": 0,
+        "cross_student_violation_count": 0,
+        "deleted_memory_violation_count": 0,
+        "stale_admission_count": 0,
+        "superseded_admission_count": 0
+      },
+      "supersession_accuracy": 1.0
+    }
+  },
+  "primary_policy_id": "PMR_HYBRID_STATE_AWARE",
+  "primary_selected_from_fixtures": false,
+  "schema_version": "rq2c1-persistent-policy-comparison-v1"
+}

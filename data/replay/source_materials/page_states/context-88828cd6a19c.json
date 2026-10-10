@@ -1,0 +1,48 @@
+{
+  "provenance": "SYNTHETIC_EXPERIMENT_STATE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "scope": {
+    "student_id": "synthetic-learner-1454eab04012",
+    "course_id": "dute-archived-materials-experiment-v1",
+    "window_start": "2026-08-24T00:00:00+00:00",
+    "window_end": "2026-08-31T00:00:00+00:00"
+  },
+  "as_of": "2026-08-31T12:00:00+00:00",
+  "coverage": {
+    "Resources": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Lecture": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Debate": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Reflection": {
+      "status": "UNKNOWN",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    }
+  },
+  "events": [
+    {
+      "event_id": "lecture-a",
+      "student_id": "synthetic-learner-1454eab04012",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Lecture",
+      "event_type": "recording_play",
+      "occurred_at": "2026-08-25T10:00:00+00:00",
+      "payload": {
+        "recording_id": "reflection-preparation"
+      }
+    }
+  ],
+  "records": [],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

@@ -1,0 +1,98 @@
+{
+  "all_48_cases_reviewed": true,
+  "all_human_fields_initially_blank": true,
+  "binary_values": [
+    "YES",
+    "NO"
+  ],
+  "capabilities": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "capability_labels_role": "NEW_MULTILABEL_EXECUTABLE_REQUIREMENTS",
+  "capability_unambiguous_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "case_validity_values": [
+    "INCLUDE_VALID_CASE",
+    "EXCLUDE_INVALID_CASE",
+    "UNCERTAIN"
+  ],
+  "context_link_valid_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "context_sufficient_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "existing_intent_labels_role": "DESCRIPTIVE_LEGACY_ANNOTATIONS_ONLY",
+  "first_round_independent": true,
+  "human_fields": [
+    "case_validity",
+    "query_naturalness_1_to_5",
+    "context_link_valid",
+    "context_sufficient",
+    "capability_unambiguous",
+    "context_resolution_required",
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification",
+    "forbidden_capabilities",
+    "reviewer_rationale",
+    "reviewer_id",
+    "review_date"
+  ],
+  "inherits_annotation_semantics": "RQ2_HUMAN_REVIEW_SCHEMA_V1_3",
+  "intent_to_capability_map_may_form_gold": false,
+  "intent_vs_capability_diagnostic_allowed_only_after_gold_freeze": true,
+  "llm_may_substitute_required_reviewer": false,
+  "packet_generation_does_not_form_labels": true,
+  "query_naturalness_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "required_human_reviewer_count": 2,
+  "review_sequence": [
+    "case_validity",
+    "query_naturalness_1_to_5",
+    "context_link_valid",
+    "context_sufficient",
+    "capability_unambiguous",
+    "context_resolution_required",
+    "six_capabilities",
+    "forbidden_capabilities",
+    "reviewer_rationale"
+  ],
+  "reviewer_ids_must_differ": true,
+  "reviewers_must_not_use_ai": true,
+  "reviewers_must_not_view_each_other": true,
+  "reviewers_must_not_view_intent_or_model_outputs": true,
+  "sampling_permitted": false,
+  "schema_version": "track-b-capability-review-schema-v1",
+  "status": "FROZEN_BEFORE_TRACK_B_HUMAN_REVIEW",
+  "third_human_adjudicator_required_for_all_disagreements": true,
+  "visible_fields": [
+    "review_case_id",
+    "current_query",
+    "current_page",
+    "necessary_conversation_history",
+    "capability_definition_reference"
+  ]
+}

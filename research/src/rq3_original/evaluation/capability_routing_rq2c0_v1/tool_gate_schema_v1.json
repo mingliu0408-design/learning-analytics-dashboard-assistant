@@ -1,0 +1,79 @@
+{
+  "invariants": [
+    "P1_PLAN_IMMUTABLE",
+    "CLARIFICATION_BLOCKS_EXECUTION",
+    "ONLY_SUPPORTED_EVIDENCE_ADMITTED",
+    "STALE_OR_SUPERSEDED_STATE_NEVER_ADMITTED",
+    "NO_GOLD_FIELDS_IN_DECISIONS"
+  ],
+  "p2_implemented": false,
+  "production_integration": false,
+  "schema_version": "tool-gate-schema-v1",
+  "schemas": {
+    "MemoryUseGateDecisionV1": {
+      "fields": [
+        "candidate",
+        "working_context_available",
+        "state_use_required",
+        "additional_retrieval_required",
+        "memory_query_attempted",
+        "candidate_item_count",
+        "relevant_item_count",
+        "stale_item_count",
+        "superseded_item_count",
+        "state_admitted_to_generation",
+        "clarification_required",
+        "failure_reason"
+      ],
+      "production_namespace": false,
+      "research_only": true
+    },
+    "P2ExecutionPlanV1": {
+      "fields": [
+        "p1_plan_immutable",
+        "rag_gate",
+        "memory_gate",
+        "dashboard_evidence_allowed",
+        "planning_allowed",
+        "safe_direct_response",
+        "clarification",
+        "execution_trace"
+      ],
+      "production_namespace": false,
+      "research_only": true
+    },
+    "RAGGateDecisionV1": {
+      "fields": [
+        "candidate",
+        "retrieval_attempted",
+        "source_authorised",
+        "retrieval_status",
+        "evidence_sufficiency",
+        "supporting_chunk_count",
+        "evidence_admitted_to_generation",
+        "clarification_required",
+        "failure_reason"
+      ],
+      "production_namespace": false,
+      "research_only": true
+    },
+    "ToolCandidatePlanV1": {
+      "fields": [
+        "schema_version",
+        "case_id",
+        "p1_policy_id",
+        "p1_required_capabilities",
+        "rag_candidate",
+        "episodic_state_candidate",
+        "candidate_evidence",
+        "forbidden_tools",
+        "clarification_blocks_execution",
+        "decision_trace"
+      ],
+      "production_namespace": false,
+      "research_only": true
+    }
+  },
+  "stage": "RQ2-C0",
+  "status": "FROZEN"
+}

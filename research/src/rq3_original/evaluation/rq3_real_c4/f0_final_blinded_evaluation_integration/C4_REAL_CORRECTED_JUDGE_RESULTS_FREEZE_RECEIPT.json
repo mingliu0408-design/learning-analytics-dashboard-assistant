@@ -1,0 +1,45 @@
+{
+  "duplicate_identity": 0,
+  "excluded_results": 0,
+  "frozen_at_utc": "2026-09-03T06:10:31.595177+00:00",
+  "missing_results": 0,
+  "overwrite_permitted": false,
+  "pacing_evidence_status": "QUALIFIED_PACING_EVIDENCE_LIMITATION",
+  "result_files": [
+    {
+      "filename": "c4_real_corrected_judge_results_frozen_v1.jsonl",
+      "row_count": 149,
+      "sha256": "a090dd943b12f34f800253c4b18745b494e1a8e4a965c0aa55000dbafc4ae808"
+    },
+    {
+      "filename": "c4_real_corrected_judge_results_frozen_v1.csv",
+      "row_count": 149,
+      "sha256": "218794c4788aebef66f566924790dad7df01f307c06bb9ec333d00c98ead3607"
+    },
+    {
+      "filename": "c4_real_corrected_judge_result_source_registry_v1.jsonl",
+      "row_count": 149,
+      "sha256": "e044c4a3f0c1bae06e475cb4e12931abf7e587c342f339922c11c8f0ab13b525"
+    }
+  ],
+  "result_identity_list_sha256": "e6dbd8ea78113e4c69b1c8683ce8fd146e64c6273d60079092f6de2761fc51cd",
+  "result_integrity_status": "PASS",
+  "results_metadata_sha256": "eaccf40bb85a1e797c27b01dfc91f09265a6c6012fae6bcab2c925914f98c874",
+  "retained_source_disclosure": "One Phase-B-retained result is materialized from the exact frozen raw attempt under unchanged Parser V3 and has no historical terminal reference. The other 32 retained sources have terminal references. No historical journal is altered or fabricated.",
+  "retained_without_historical_terminal": 1,
+  "schema_version": "C4_REAL_CORRECTED_JUDGE_RESULTS_FREEZE_RECEIPT",
+  "score_transformations": 0,
+  "source_counts": {
+    "A_historical": 38,
+    "A_order39_v2": 1,
+    "B": 38,
+    "C": 39,
+    "retained": 33
+  },
+  "source_overlap": 0,
+  "source_registry_sha256": "e044c4a3f0c1bae06e475cb4e12931abf7e587c342f339922c11c8f0ab13b525",
+  "status": "FROZEN_149_CORRECTED_CANONICAL_RESULTS",
+  "unique_request_ids": 149,
+  "unique_result_ids": 149,
+  "write_count": 1
+}

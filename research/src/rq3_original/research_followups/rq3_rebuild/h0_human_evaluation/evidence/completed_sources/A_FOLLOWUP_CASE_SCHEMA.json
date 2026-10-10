@@ -1,0 +1,496 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rq3:followup-design-template:v1",
+  "title": "Unfilled prospective capability diagnostic design template",
+  "description": "Draft schema only. Nulls and empty arrays mean unfilled, not adjudicated absence. This is not an executable or frozen evaluation dataset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "case_id",
+    "episode_id",
+    "family_id",
+    "split",
+    "exposure_status",
+    "task",
+    "baseline_visibility",
+    "missing_facts",
+    "source_evidence",
+    "expected_criteria",
+    "controls",
+    "intervention_contract",
+    "judge_contract",
+    "provenance"
+  ],
+  "properties": {
+    "status": {
+      "const": "TEMPLATE_UNFILLED_NOT_EVALUABLE"
+    },
+    "case_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "episode_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "family_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "split": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exposure_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_utterance",
+        "current_page",
+        "task_category",
+        "capability_requirements",
+        "human_authorship_reference",
+        "independent_review_reference"
+      ],
+      "properties": {
+        "target_utterance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "task_category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capability_requirements": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "human_authorship_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "independent_review_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "baseline_visibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "query",
+        "history",
+        "history_window_rule",
+        "dashboard_manifest",
+        "authorized_access",
+        "already_available_fact_ids"
+      ],
+      "properties": {
+        "query": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "history_window_rule": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dashboard_manifest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authorized_access": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "already_available_fact_ids": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "missing_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "fact_id",
+          "capability",
+          "needed_proposition",
+          "why_baseline_lacks_it",
+          "why_task_requires_it",
+          "evidence_ids"
+        ],
+        "properties": {
+          "fact_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "capability": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "needed_proposition": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "why_baseline_lacks_it": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "why_task_requires_it": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "source_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "source_kind",
+          "document_or_session_id",
+          "source_version",
+          "exact_span",
+          "event_time",
+          "valid_from",
+          "valid_to",
+          "supersedes",
+          "sha256",
+          "permitted_use"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_kind": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "document_or_session_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "exact_span": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "event_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "valid_from": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "valid_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "supersedes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "permitted_use": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "expected_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion_id",
+          "task_fact_or_constraint",
+          "success_rule",
+          "acceptable_abstention",
+          "applicability_basis",
+          "pre_answer_freeze_reference"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "criterion_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "task_fact_or_constraint": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "success_rule": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "acceptable_abstention": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applicability_basis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pre_answer_freeze_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "controls": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "intervention_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contrasts",
+        "common_model_prompt_budget_reference",
+        "condition_input_contracts",
+        "availability_note_policy"
+      ],
+      "properties": {
+        "contrasts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "common_model_prompt_budget_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "condition_input_contracts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "availability_note_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "judge_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "common_task_reference_manifest",
+        "condition_specific_context_manifest",
+        "task_success_definition",
+        "faithfulness_definition",
+        "applicability_freeze_reference"
+      ],
+      "properties": {
+        "common_task_reference_manifest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "condition_specific_context_manifest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "task_success_definition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "faithfulness_definition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "applicability_freeze_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_cohort",
+        "permitted_use",
+        "consent_or_license_reference",
+        "author_role_reference",
+        "review_role_reference",
+        "frozen_at",
+        "source_hashes"
+      ],
+      "properties": {
+        "source_cohort": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "permitted_use": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "consent_or_license_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author_role_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_role_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "frozen_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_hashes": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

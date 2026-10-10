@@ -1,0 +1,99 @@
+{
+  "provenance": "SYNTHETIC_EXPERIMENT_STATE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "scope": {
+    "student_id": "synthetic-learner-2758a1c329d4",
+    "course_id": "dute-archived-materials-experiment-v1",
+    "window_start": "2026-08-24T00:00:00+00:00",
+    "window_end": "2026-08-31T00:00:00+00:00"
+  },
+  "as_of": "2026-08-31T12:00:00+00:00",
+  "coverage": {
+    "Resources": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Lecture": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Debate": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Reflection": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    }
+  },
+  "events": [],
+  "records": [
+    {
+      "record_id": "workspace",
+      "student_id": "synthetic-learner-2758a1c329d4",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "workspace_title": "Draft for this study session",
+        "saved_draft": ""
+      }
+    },
+    {
+      "record_id": "study-options",
+      "student_id": "synthetic-learner-2758a1c329d4",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "plan_id": "outline-plan",
+        "origin": "SYNTHETIC_STUDY_OPTIONS",
+        "adoption": "USER_SELF_DECLARED_ORDER",
+        "duration_semantics": "CONTROLLED_ESTIMATES_MINUTES_NOT_MEASURED_LEARNING_TIME",
+        "steps": [
+          {
+            "step_id": "read",
+            "parent_plan_id": "outline-plan",
+            "action": "Read the course's reflective writing guide",
+            "estimated_minutes": 6,
+            "depends_on": []
+          },
+          {
+            "step_id": "outline",
+            "parent_plan_id": "outline-plan",
+            "action": "Make a short outline connecting a personal experience with theory",
+            "estimated_minutes": 9,
+            "depends_on": [
+              "read"
+            ]
+          },
+          {
+            "step_id": "revise",
+            "parent_plan_id": "outline-plan",
+            "action": "Revise one reflection paragraph using the outline and check its supporting evidence",
+            "estimated_minutes": 12,
+            "depends_on": [
+              "outline"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "study-budget",
+      "student_id": "synthetic-learner-2758a1c329d4",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "available_minutes": 35,
+        "origin": "SYNTHETIC_USER_SELF_REPORT"
+      }
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

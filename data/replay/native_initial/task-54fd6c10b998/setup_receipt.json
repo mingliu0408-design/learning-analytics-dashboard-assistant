@@ -1,0 +1,40 @@
+{
+  "task_id": "task-54fd6c10b998",
+  "operations": 0,
+  "accepted_writes": 0,
+  "unindexed_suggestions": 0,
+  "receipts": [],
+  "native_rows": 0,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 0,
+    "fts_row_count": 0
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [],
+    "setup_operations": [],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-2758a1c329d4",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "I want to work on my reflection in the order listed in the draft. Using the rough duration estimates and available time on the page, suggest how far I should get this time.",
+      "page": "Reflection",
+      "visible_history": [
+        {
+          "role": "user",
+          "content": "I chose the order of the steps in the page draft; the durations are only estimates for this exercise."
+        }
+      ],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

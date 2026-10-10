@@ -1,0 +1,45 @@
+{
+  "version": "CONFIRMED41_A1_PARENT_REUSE_V1",
+  "starting_head": "1f97e3904d56317d121d03a35bfbb297981ba1ba",
+  "parent_execution_head": "911202546d094d3d6cf82d0db22088ea10e3648d",
+  "parent_archive_sha256": "b96e578dd2616373e196f6984620db04fad5f6c7603ce32b8f34f449b0e5525d",
+  "parent_directory": "../confirmed41_generation_2026-09-07/results/run",
+  "parent_binding_sha256": "2844ff43bbcbcfe3a5acc9b97595cf47c69032f118ddfa130b14fca0b560650f",
+  "parent_unknown_authorizations": [
+    {
+      "logical": "task-1960017e2839:S0_PAGE_ONLY:FINAL",
+      "attempt_id": "c7b520034e6e1f347e23e4e0e511f1588e4376d062f501fddb72acf00f9c2a62.1",
+      "request_sha256": "676f6aeb49770ccc9eea261d3a51854c2ca0bbd4b8264eb95abbd03eeea9f1d9",
+      "new_attempts_allowed": 1
+    }
+  ],
+  "replacement_slots": [
+    "original-06:S4_EVIDENCE_PLANNING",
+    "original-06:S5_FULL",
+    "task-95761bc98ed1:S4_EVIDENCE_PLANNING",
+    "task-95761bc98ed1:S5_FULL",
+    "task-c0aa4f8d44d5:S4_EVIDENCE_PLANNING",
+    "task-c0aa4f8d44d5:S5_FULL"
+  ],
+  "replacement_final_attempts": 1,
+  "new_initial_slot_ceilings": {
+    "ROUTE": 33,
+    "CANDIDATE": 30,
+    "FINAL": 78
+  },
+  "new_physical_ceiling": 282,
+  "cumulative_physical_ceiling": 538,
+  "historical_physical_attempts": 256,
+  "historical_minimum_budget_debit_usd": 0.49946505,
+  "cumulative_money_ceiling_usd": 10.0,
+  "uncached_usd_per_million": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "unknown_new_completion_policy": "STOP_NO_RETRY",
+  "reuse_requires": "FULL_PROVIDER_PAYLOAD_EQUALITY_AND_VERIFIED_PARENT_RAW_OUTCOME_TERMINAL",
+  "impact_stop": "ANY_CHANGED_ACCEPTED_SLOT_OUTSIDE_SIX",
+  "exposure": "POST_PARTIAL_OUTPUT_PRE_HUMAN_SCORING_INTERFACE_REPAIR",
+  "data_revision": "ORIGINAL25_PLUS_REVIEW_R1",
+  "runtime_schema": "ORIGINAL25_PLUS_EN_V2"
+}

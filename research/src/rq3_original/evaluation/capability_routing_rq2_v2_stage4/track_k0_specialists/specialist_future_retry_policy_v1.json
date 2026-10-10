@@ -1,0 +1,27 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-specialist-future-retry-policy-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "applies_identically_to": [
+    "RAG_SPECIALIST",
+    "MEMORY_SPECIALIST"
+  ],
+  "logical_calls_per_specialist": 64,
+  "initial_requests_per_logical_call": 1,
+  "manual_retries_per_logical_call_max": 1,
+  "manual_retry_condition": "INVALID_JSON_OR_STRICT_SCHEMA_ONLY",
+  "retry_uses_identical_prompt": true,
+  "correction_message_allowed": false,
+  "string_to_boolean_coercion_allowed": false,
+  "json_extraction_from_prose_allowed": false,
+  "sdk_transport_retries": 0,
+  "non_retryable_error_categories": [
+    "AUTHENTICATION",
+    "PERMISSION",
+    "REQUEST_CONFIGURATION",
+    "TRANSPORT",
+    "RATE_LIMIT",
+    "MODEL"
+  ],
+  "maximum_physical_attempts_per_specialist": 128,
+  "provider_calls_authorized_in_stage4_k0": 0
+}

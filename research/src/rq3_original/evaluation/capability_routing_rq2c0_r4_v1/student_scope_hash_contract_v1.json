@@ -1,0 +1,38 @@
+{
+  "contract_id": "RQ2_MEMORY_SCOPE_V1",
+  "domain_separator_hex": "5251325f4d454d4f52595f53434f50455f563100",
+  "environment_value_used": false,
+  "fixed_test_vector": {
+    "expected_hash": "7009109fb754ac52ffee19d6f31728e3104738435141358c56f4aaa461b7d684",
+    "student_scope_id": "student-001"
+  },
+  "hash_algorithm": "SHA-256",
+  "identifier_role": "LOCAL_PSEUDONYMOUS_OPAQUE_IDENTIFIER",
+  "identifier_schema": {
+    "casefold": false,
+    "maximum_utf8_bytes": 256,
+    "non_empty": true,
+    "nul_character": "PROHIBITED",
+    "punctuation_removal": false,
+    "surrounding_whitespace": "PROHIBITED",
+    "trim": false,
+    "unicode_normalisation": "NFC_REQUIRED"
+  },
+  "password_hashing_claim": false,
+  "random_value_used": false,
+  "raw_pii_prohibited_before_interface": true,
+  "salt_used": false,
+  "schema_version": "student-scope-hash-contract-v1",
+  "secret_used": false,
+  "stage": "RQ2-C0-R4",
+  "status": "FROZEN",
+  "storage_namespace": {
+    "absolute_path_allowed": false,
+    "caller_supplied_arbitrary_namespace_allowed": false,
+    "derivation": "persistent-memory-v1:<derived_student_scope_hash>",
+    "path_inference_allowed": false,
+    "path_separators_allowed": false,
+    "path_traversal_allowed": false,
+    "uri_allowed": false
+  }
+}

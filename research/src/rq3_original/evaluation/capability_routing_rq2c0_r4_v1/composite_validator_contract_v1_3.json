@@ -1,0 +1,27 @@
+{
+  "binding_valid_requires_all_stages": true,
+  "callable": "evaluation.capability_routing_rq2c0_r4_v1.composite_payload_episode_validator_v1_3.validate_persistent_memory_payload_binding_v1_3",
+  "each_stage_invoked_exactly_once_on_valid_binding": true,
+  "guard_requires_complete_three_stage_trace": true,
+  "guarded_interfaces": [
+    "EMBEDDING_INPUT_BUILDER",
+    "PERSISTENT_RETRIEVAL_CANDIDATE_BUILDER",
+    "MEMORY_ADMISSION_BUILDER",
+    "STATE_PROJECTION_BUILDER",
+    "GENERATION_EVIDENCE_BUILDER"
+  ],
+  "later_stage_may_override_failure": false,
+  "ordered_stages": [
+    "R2_EPISODE_REFERENCE_AND_BASE_CONSISTENCY",
+    "R3_TEXT_ONLY_PAYLOAD_SCOPE",
+    "R4_SCOPE_IDENTITY_PROVENANCE_METADATA_AND_TEMPORAL_INTEGRITY"
+  ],
+  "persistent_store_implemented": false,
+  "production_interfaces_implemented": false,
+  "schema_version": "composite-payload-episode-validator-v1.3",
+  "short_circuit_on_failure": true,
+  "stage": "RQ2-C0-R4",
+  "status": "FROZEN",
+  "unvalidated_payload_allowed": false,
+  "validator_id": "PERSISTENT_MEMORY_PAYLOAD_BINDING_V1_3"
+}

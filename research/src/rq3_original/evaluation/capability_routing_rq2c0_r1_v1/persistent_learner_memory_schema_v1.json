@@ -1,0 +1,120 @@
+{
+  "active_state_source": "VERSIONED_PROJECTION",
+  "allowed_memory_types": [
+    "GOAL",
+    "PLAN",
+    "CONSTRAINT",
+    "PREFERENCE",
+    "CORRECTION",
+    "COMPLETION",
+    "REFERENCED_ITEM",
+    "LEARNING_EVENT"
+  ],
+  "dashboard_derived_goal_allowed_only_if_explicit_student_statement": true,
+  "dashboard_metric_written_to_profile_automatically": false,
+  "embedding_retrieval_implemented": false,
+  "forbidden_automatic_memory_types": [
+    "INFERRED_PERSONALITY",
+    "INFERRED_MENTAL_HEALTH",
+    "INFERRED_SRL_LEVEL",
+    "UNCONFIRMED_ABILITY_DEFICIT",
+    "OTHER_STUDENT_STATE"
+  ],
+  "memory_statuses": [
+    "ACTIVE",
+    "STALE",
+    "SUPERSEDED",
+    "COMPLETED",
+    "CANCELLED",
+    "DELETED"
+  ],
+  "namespace": "RESEARCH_ONLY_PERSISTENT_LEARNER_MEMORY_V1",
+  "p2_router_implemented": false,
+  "production_namespace": false,
+  "raw_episode_storage": "APPEND_ONLY",
+  "schema_fields": {
+    "MemoryAdmissionDecisionV1": [
+      "memory_id",
+      "admitted",
+      "relevance_supported",
+      "active",
+      "stale",
+      "superseded",
+      "cancelled",
+      "deleted",
+      "cross_scope",
+      "conflict_status",
+      "failure_reason"
+    ],
+    "MemoryCandidateV1": [
+      "memory_id",
+      "dense_rank",
+      "lexical_entity_match",
+      "type_compatibility",
+      "temporal_validity",
+      "status_validity",
+      "scope_validity",
+      "source_confidence",
+      "retrieval_evidence"
+    ],
+    "MemoryEpisodeV1": [
+      "memory_id",
+      "student_scope_id",
+      "episode_id",
+      "source_turn_id",
+      "memory_type",
+      "raw_content_hash",
+      "created_at",
+      "valid_from",
+      "valid_until",
+      "status",
+      "explicitness",
+      "confidence",
+      "entities",
+      "supersedes_memory_id",
+      "provenance",
+      "embedding_hash"
+    ],
+    "MemoryRetrievalPlanV1": [
+      "query_hash",
+      "context_status",
+      "capability_evidence",
+      "unresolved_referents",
+      "target_memory_types",
+      "entity_constraints",
+      "temporal_constraints",
+      "candidate_policy_id",
+      "top_k",
+      "decision_trace"
+    ],
+    "MemoryStateProjectionV1": [
+      "student_scope_id",
+      "active_goal",
+      "active_plan",
+      "active_constraints",
+      "active_preferences",
+      "latest_corrections",
+      "completed_steps",
+      "referenced_items",
+      "source_memory_ids",
+      "projection_version",
+      "updated_at"
+    ],
+    "MemoryWriteDecisionV1": [
+      "candidate",
+      "write_authorised",
+      "memory_type",
+      "explicit_student_source",
+      "verified_system_event",
+      "sensitive_inference",
+      "duplicate_of",
+      "supersedes",
+      "failure_reason",
+      "decision_trace"
+    ]
+  },
+  "schema_version": "persistent-learner-memory-schema-v1",
+  "stage": "RQ2-C0-R1",
+  "status": "FROZEN",
+  "store_implemented": false
+}

@@ -1,0 +1,153 @@
+{
+  "case_count": 35,
+  "each_case_oof_exactly_once": true,
+  "family_count": 18,
+  "folds": [
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "e2f97782f9dbe89f277996e11dd8cb0a97ff66a7c16c072ca5abb8529c3461b7",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "34627e3242f2ca21f540951cb5376600aebba58675654dd5f61e860c6948bffa",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 32,
+      "outer_case_count": 3,
+      "outer_family_hash": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "95679718b12047c9f19f7e940176591ebcfe2a954df3aa7241e7113ab2f23f5c",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "e9331cf9eb4fcd76bb85897e664f6a42e112c8089695864f000ec0f14e00c2f6",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 30,
+      "outer_case_count": 5,
+      "outer_family_hash": "66cd9688a2ae068244ea01e70f0e230f5623b7fa4cdecb65070a09ec06452262",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "d665f2a3bb705bdf2c08d8f6cb13b056149e6e5c8f1a76ab11f0a5a0a1c313d2",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "bce0818d456ddeaced0c7562ae2abeb9db39a82d568ded61218eb684fd3c080d",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "ac619ec4b4dd17c9d418fed596a443f88817370e3647834534d86d76695e3279",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "0deac0a26c0d846d7869c23130c6346c4040904a4134bb2f40a8c206a03748ed",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "99127d776e1f7796b7c37602cc7953cbdf216fb60e404dab449c12b04b4db9fb",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 32,
+      "outer_case_count": 3,
+      "outer_family_hash": "3004423e9493f15cad216658ddf4e7e0c5daa134d42791dcadabcd641f1e545f",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "423614833cbdcee4c5d05f43520d155207e5f272fddb7225ada6caf7d6904dc2",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "ff73976c6659bb506948b4c4de24849d5cd990d79585d5d13e6ecc1ae317ae47",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "990f9225803732f4b22ed6510f73185ca00883207ff528bf42bf9c7a90480fbc",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 31,
+      "outer_case_count": 4,
+      "outer_family_hash": "0315a1a0865a14ccac0f4cad1cdaa6a64b7aa864b728cb4b4f6cf596df43e16f",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 34,
+      "outer_case_count": 1,
+      "outer_family_hash": "f52c07ae5b45634faef0d98b87b789cd4a4001389377057b633fd8706f88dd99",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    },
+    {
+      "inner_case_count": 33,
+      "outer_case_count": 2,
+      "outer_family_hash": "f69a95ac42cce3409048a682808a715f2ef0db972cb46c93a24127670a487453",
+      "outer_family_used_for_selection": false,
+      "selected_policy_id": "M0_P1_ONLY"
+    }
+  ],
+  "oof_metrics": {
+    "accuracy": 0.7714285714285715,
+    "f1": 0.0,
+    "false_negative": 8,
+    "false_positive": 0,
+    "precision": 0.0,
+    "predicted_positive_count": 0,
+    "recall": 0.0,
+    "support": 8,
+    "true_negative": 27,
+    "true_positive": 0,
+    "unnecessary_use_rate": 0.0
+  },
+  "oof_policy_distribution": {
+    "M0_P1_ONLY": 35,
+    "M1_RESOLVED_STATE_DEPENDENCY": 0,
+    "M2_EXPLICIT_MEMORY_NEED_WITH_STATE": 0
+  },
+  "outer_family_leakage_count": 0,
+  "schema_version": "rq2c1-session-policy-oof-results-v1"
+}

@@ -1,0 +1,28 @@
+{
+  "family_or_group_overlap": "REPORT_WHERE_AVAILABLE",
+  "hard_final_independence_partitions": [
+    "RQ1_TRAIN",
+    "RQ1_DEV",
+    "C0_FROZEN_62_CANDIDATES",
+    "TRACK_A_SAFE_IDENTITIES",
+    "SYNTHETIC35"
+  ],
+  "hard_overlap_decision": "TRACK_B_FINAL_EVALUATION_INVALID",
+  "identity_overlap_types": [
+    "exact_query",
+    "normalised_query",
+    "query_plus_history",
+    "source_record_identity"
+  ],
+  "label_conflict_timing": "ONLY_AFTER_TRACK_B_CAPABILITY_GOLD_FROZEN",
+  "post_overlap_policy_change_permitted": false,
+  "schema_version": "track-b-contamination-policy-v1.1",
+  "sensitivity_overlap_decision": "RETAIN_AND_REPORT_BY_PARTITION",
+  "sensitivity_overlap_may_automatically_delete_case": false,
+  "sensitivity_partitions": [
+    "AUTHENTIC22",
+    "CONTEXT_MISSING3",
+    "CONTROLLED_MECHANISM_FIXTURE28"
+  ],
+  "status": "FROZEN_BEFORE_ANY_RAW_TRACK_B_ACCESS"
+}

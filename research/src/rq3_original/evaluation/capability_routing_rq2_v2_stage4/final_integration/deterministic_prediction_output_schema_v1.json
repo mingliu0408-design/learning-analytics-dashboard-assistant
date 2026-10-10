@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "annotation_case_id": {
+      "type": "string"
+    },
+    "execution_status": {
+      "const": "VALID_PREDICTIONS"
+    },
+    "logical_case_id": {
+      "type": "string"
+    },
+    "method_predictions": {
+      "additionalProperties": false,
+      "properties": {
+        "R2V2-B0_RULE": {
+          "type": "object"
+        },
+        "R2V2-B1_LEGACY_INTENT": {
+          "type": "object"
+        },
+        "R2V2-B2_PROTOTYPE": {
+          "type": "object"
+        },
+        "R2V2-B3_OVR": {
+          "type": "object"
+        },
+        "R2V2-CG1_CLARIFICATION_RULE": {
+          "type": "object"
+        },
+        "R2V2-D0_ALWAYS_ON": {
+          "type": "object"
+        },
+        "R2V2-D1_NEVER_ON": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "R2V2-CG1_CLARIFICATION_RULE",
+        "R2V2-D0_ALWAYS_ON",
+        "R2V2-D1_NEVER_ON",
+        "R2V2-B0_RULE",
+        "R2V2-B1_LEGACY_INTENT",
+        "R2V2-B2_PROTOTYPE",
+        "R2V2-B3_OVR"
+      ],
+      "type": "object"
+    },
+    "provider_calls": {
+      "const": 0
+    },
+    "schema_version": {
+      "const": "rq2-v2-stage4n-deterministic-test-terminal-result-v1"
+    },
+    "scoring_performed": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "logical_case_id",
+    "annotation_case_id",
+    "execution_status",
+    "method_predictions",
+    "provider_calls",
+    "scoring_performed"
+  ],
+  "title": "RQ2-V2 deterministic TEST terminal result",
+  "type": "object"
+}

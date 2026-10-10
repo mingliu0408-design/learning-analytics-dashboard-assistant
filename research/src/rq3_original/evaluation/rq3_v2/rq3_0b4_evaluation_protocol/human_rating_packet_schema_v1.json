@@ -1,0 +1,337 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.example/research/rq3/human-rating-packet-schema-v1.json",
+  "title": "RQ3-0B4 blinded human rating packet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "packet_status",
+    "packet_blind_id",
+    "rater_role",
+    "rubric_version",
+    "items",
+    "attestation"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "rq3-human-rating-packet-v1"
+    },
+    "packet_status": {
+      "type": "string",
+      "enum": [
+        "UNRATED_TEMPLATE",
+        "SUBMITTED"
+      ]
+    },
+    "packet_blind_id": {
+      "type": "string",
+      "pattern": "^HRP-[A-Z0-9-]{3,64}$"
+    },
+    "rater_role": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "rubric_version": {
+      "type": "string",
+      "const": "rq3-primary-eight-criterion-rubric-v1"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/ratingItem"
+      }
+    },
+    "attestation": {
+      "$ref": "#/$defs/attestation"
+    }
+  },
+  "$defs": {
+    "primaryScoreOrBlank": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        {
+          "type": "string",
+          "const": "NA"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "criterionScores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "personalisation",
+        "actionability",
+        "context_awareness",
+        "motivation_and_engagement",
+        "reliability",
+        "multi_page_cohesiveness",
+        "error_handling"
+      ],
+      "properties": {
+        "clarity": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "personalisation": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "actionability": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "context_awareness": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "motivation_and_engagement": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "reliability": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "multi_page_cohesiveness": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        },
+        "error_handling": {
+          "$ref": "#/$defs/primaryScoreOrBlank"
+        }
+      }
+    },
+    "criterionNotes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "personalisation",
+        "actionability",
+        "context_awareness",
+        "motivation_and_engagement",
+        "reliability",
+        "multi_page_cohesiveness",
+        "error_handling"
+      ],
+      "properties": {
+        "clarity": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "personalisation": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "actionability": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "context_awareness": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "motivation_and_engagement": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "reliability": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "multi_page_cohesiveness": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "error_handling": {
+          "type": "string",
+          "maxLength": 500
+        }
+      }
+    },
+    "applicabilityMap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "freeze_status",
+        "criteria",
+        "applicable_primary_count",
+        "applicability_sha256"
+      ],
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "rq3-dimension-applicability-map-v1"
+        },
+        "freeze_status": {
+          "type": "string",
+          "const": "FROZEN_BEFORE_CANDIDATE_SCORING"
+        },
+        "criteria": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "CLARITY",
+            "PERSONALISATION",
+            "ACTIONABILITY",
+            "CONTEXT_AWARENESS",
+            "MOTIVATION_AND_ENGAGEMENT",
+            "RELIABILITY",
+            "MULTI_PAGE_COHESIVENESS",
+            "ERROR_HANDLING"
+          ],
+          "properties": {
+            "CLARITY": {
+              "type": "boolean"
+            },
+            "PERSONALISATION": {
+              "type": "boolean"
+            },
+            "ACTIONABILITY": {
+              "type": "boolean"
+            },
+            "CONTEXT_AWARENESS": {
+              "type": "boolean"
+            },
+            "MOTIVATION_AND_ENGAGEMENT": {
+              "type": "boolean"
+            },
+            "RELIABILITY": {
+              "type": "boolean"
+            },
+            "MULTI_PAGE_COHESIVENESS": {
+              "type": "boolean"
+            },
+            "ERROR_HANDLING": {
+              "type": "boolean"
+            }
+          }
+        },
+        "applicable_primary_count": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 8
+        },
+        "applicability_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "ratingItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "response_blind_id",
+        "student_query",
+        "current_lad_page",
+        "visible_conversation_history",
+        "frozen_dashboard_evidence",
+        "course_evidence_available_in_condition",
+        "long_term_memory_available_in_condition",
+        "planning_support_available_in_condition",
+        "candidate_response",
+        "frozen_applicability_map",
+        "criterion_scores",
+        "criterion_notes"
+      ],
+      "properties": {
+        "response_blind_id": {
+          "type": "string",
+          "pattern": "^R3B-[A-F0-9]{20}$"
+        },
+        "student_query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "current_lad_page": {
+          "type": "string",
+          "minLength": 1
+        },
+        "visible_conversation_history": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "frozen_dashboard_evidence": {},
+        "course_evidence_available_in_condition": {},
+        "long_term_memory_available_in_condition": {},
+        "planning_support_available_in_condition": {},
+        "candidate_response": {
+          "type": "string",
+          "minLength": 1
+        },
+        "frozen_applicability_map": {
+          "$ref": "#/$defs/applicabilityMap"
+        },
+        "criterion_scores": {
+          "$ref": "#/$defs/criterionScores"
+        },
+        "criterion_notes": {
+          "$ref": "#/$defs/criterionNotes"
+        }
+      }
+    },
+    "attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "independent_rating_confirmed",
+        "condition_blindness_confirmed",
+        "other_rater_scores_unseen_confirmed",
+        "submitted_at_utc",
+        "rater_signature"
+      ],
+      "properties": {
+        "independent_rating_confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "condition_blindness_confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "other_rater_scores_unseen_confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "submitted_at_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "rater_signature": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "x-state-rules": {
+    "UNRATED_TEMPLATE": "Every criterion score is null, every note is blank, and every attestation field is null.",
+    "SUBMITTED": "Every applicable score is integer 1-5, every non-applicable score is NA, no score is null, and all three confirmation booleans are true with timestamp and signature present.",
+    "applicability": "The submitted score pattern must exactly match the frozen map; poor performance is never converted to NA.",
+    "packet_generation_boundary": "RQ3-0B4 defines the schema and a toy builder only; actual packets require separate authority."
+  }
+}

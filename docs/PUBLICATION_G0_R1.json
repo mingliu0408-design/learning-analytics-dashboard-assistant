@@ -1,0 +1,17 @@
+{
+  "task": "G0-R1",
+  "date": "2026-10-10",
+  "repository": "mingliu0408-design/learning-analytics-dashboard-assistant",
+  "branch": "main",
+  "source_recovery": "RECOVERED_WITH_DOCUMENTED_HISTORICAL_GAPS",
+  "code_published": false,
+  "data_published": false,
+  "local_app_tested": true,
+  "streamlit_deployed": false,
+  "streamlit_blocker": "Browser sign-in explicitly requires service terms acceptance and login by author",
+  "live_llm_tested": false,
+  "application_tests": 48,
+  "research_tests": 20,
+  "rq3_contract_tests": 7,
+  "preserved_snapshot_files": 315
+}

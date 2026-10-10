@@ -1,0 +1,44 @@
+{
+  "admission": [
+    "admission_precision",
+    "admission_recall",
+    "irrelevant_memory_admission_rate",
+    "stale_admission_rate",
+    "superseded_admission_rate",
+    "cancelled_or_completed_admission_rate",
+    "cross_student_violation_rate",
+    "deleted_memory_violation_rate"
+  ],
+  "authentic_generalisation_claim_authorised": false,
+  "conflict_update": [
+    "latest_correction_accuracy",
+    "supersession_accuracy",
+    "deletion_compliance",
+    "state_projection_consistency"
+  ],
+  "educational_effectiveness_claim_authorised": false,
+  "end_to_end": [
+    "episodic_memory_capability_precision",
+    "episodic_memory_capability_recall",
+    "safe_clarification_accuracy",
+    "personalisation_evidence_coverage",
+    "memory_token_overhead"
+  ],
+  "fixture_result_is_student_outcome_evidence": false,
+  "memory_write": [
+    "write_precision",
+    "write_recall",
+    "unsafe_write_rate",
+    "sensitive_inference_write_count"
+  ],
+  "retrieval": [
+    "recall_at_1",
+    "recall_at_3",
+    "mrr",
+    "multi_hop_complete_retrieval_rate",
+    "no_memory_abstention_accuracy"
+  ],
+  "schema_version": "persistent-memory-metric-contract-v1",
+  "stage": "RQ2-C0-R1",
+  "status": "FROZEN_NOT_MEASURED"
+}

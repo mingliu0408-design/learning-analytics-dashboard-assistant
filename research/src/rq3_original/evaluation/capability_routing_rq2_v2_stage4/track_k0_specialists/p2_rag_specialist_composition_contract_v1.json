@@ -1,0 +1,44 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-p2-rag-specialist-composition-contract-v1",
+  "composition_id": "R2V2-P2_RAG_SPECIALIST_COMPOSITION",
+  "method_role": "PRIMARY_RAGATE_INSPIRED_EXTENSION",
+  "formal_vector": [
+    "RAG_specialist",
+    "B4_memory",
+    "B4_planning"
+  ],
+  "bindings": {
+    "rag_required": {
+      "source": "RAG_SPECIALIST_VALID_STRUCTURED_RESULT",
+      "source_field": "rag_required"
+    },
+    "memory_required": {
+      "source": "FROZEN_JOINT_B4_VALID_STRUCTURED_RESULT",
+      "source_field": "memory_required"
+    },
+    "planning_required": {
+      "source": "FROZEN_JOINT_B4_VALID_STRUCTURED_RESULT",
+      "source_field": "planning_required"
+    }
+  },
+  "planning_is_function_of_memory": false,
+  "population": "64_FROZEN_DEV_ANSWER_UTTERANCES",
+  "join_key": "annotation_case_id",
+  "output_field_order": [
+    "rag_required",
+    "memory_required",
+    "planning_required"
+  ],
+  "output_values": "JSON_BOOLEAN_BITS_ONLY",
+  "confidence_or_scores_used": false,
+  "learned_composition_model_used": false,
+  "b3_fallback_allowed": false,
+  "missing_or_invalid_specialist_result": {
+    "composition_status": "INCOMPLETE",
+    "substitution_allowed": false,
+    "fallback_allowed": false,
+    "coverage_reported_separately": true
+  },
+  "execution_status": "NOT_EXECUTED",
+  "dev_scoring_status": "NOT_SCORED"
+}

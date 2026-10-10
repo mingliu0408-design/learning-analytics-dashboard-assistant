@@ -1,0 +1,147 @@
+{
+  "authority_basis": "USER_EXPLICIT_AUTHORITY_USING_VERIFIED_SAFE_BRIDGE",
+  "authority_bridge": {
+    "candidate_manifest_sha256": "aca437b1969a69b8b661b924e265c5cd26a9a72ec84a9a206b182959588c18dc",
+    "member_count": 3,
+    "tracked": false,
+    "verified": true,
+    "zip_sha256": "d6455d3e877ca9def32b60f2bbaba7f7485bb4f88f1e3086f467713cb624a9d9"
+  },
+  "contains_raw_final_gold": false,
+  "contamination_policy": {
+    "audit_before_scoring": true,
+    "conflicting_identical_query_count_gt_zero": "FINAL_EVALUATION_INVALID",
+    "duplicate_record_id_count_gt_zero": "FINAL_EVALUATION_INVALID",
+    "family_overlap": "REPORT_SECONDARY_CLUSTER_SENSITIVITY_WITHOUT_MODEL_CHANGE",
+    "same_label_internal_duplicates": "RETAIN_PRIMARY_AND_REPORT_UNIQUE_QUERY_SENSITIVITY",
+    "train_dev_candidate_exact_or_normalised_overlap_gt_zero": "FINAL_EVALUATION_INVALID"
+  },
+  "distribution": {
+    "context_requirement": {
+      "current_page": 24,
+      "query_only": 104
+    },
+    "contrast_role": {
+      "NONE": 64,
+      "anchor": 32,
+      "contrast": 32
+    },
+    "contrast_set_count": 32,
+    "difficulty": {
+      "adversarial": 32,
+      "boundary": 64,
+      "easy": 32
+    },
+    "heldout_family_count": 128,
+    "page_context": {
+      "Debate": 5,
+      "Lecture": 5,
+      "NONE": 104,
+      "Overview": 5,
+      "Reflection": 5,
+      "Resources": 4
+    },
+    "per_label_count": 8
+  },
+  "evaluation_input_contract": {
+    "aggregation": "MAX per intent",
+    "candidate_index": "Frozen 62 approved examples",
+    "candidate_label_count": 16,
+    "new_context_or_memory": false,
+    "page_prefixed_variant": "[PAGE={human_final_page_context}] {strip(query)}",
+    "page_prefixed_variant_usage": "Use only when scoring a frozen candidate example whose final_context_requirement is current_page; otherwise use the plain variant.",
+    "plain_variant": "strip(query)",
+    "query_rewriting": false,
+    "threshold_tuning": false
+  },
+  "field_contract": {
+    "context_requirement": "human_final_context_requirement",
+    "contrast_role": "contrast_role",
+    "contrast_set_id": "contrast_set_id",
+    "difficulty": "difficulty",
+    "eligibility": "primary_heldout_eligible",
+    "family_id": "final_heldout_family_id",
+    "gold_intent": "human_final_label",
+    "gold_intent_consistency_check": "final_semantic_label",
+    "independence_check": "human_independence_confirmed",
+    "page_context": "human_final_page_context",
+    "precomputed_normalised_query_for_audit_only": "normalised_query",
+    "privacy_check": "human_privacy_check",
+    "record_id": "probe_id",
+    "review_decision": "human_decision",
+    "review_status": "review_status",
+    "student_query": "query"
+  },
+  "label_universe": [
+    "access_or_capability_question",
+    "course_content_question",
+    "cross_page_relationship",
+    "dashboard_interpretation",
+    "discrepancy_or_correction",
+    "emotional_or_justification",
+    "hybrid_course_and_planning",
+    "improvement_recommendation",
+    "metric_clarification",
+    "out_of_scope",
+    "planning_or_strategy",
+    "quantitative_metric_query",
+    "reflection_structure_question",
+    "social_interaction",
+    "technical_data_question",
+    "unsupported_task"
+  ],
+  "raw_asset_hashed": false,
+  "raw_asset_opened": false,
+  "raw_asset_statted": false,
+  "raw_final_gold_access_authorised_in_this_stage": false,
+  "record_validation": {
+    "gold_fields_must_match": true,
+    "human_decision": "approved",
+    "human_independence_confirmed": "yes",
+    "human_privacy_check": "pass",
+    "primary_heldout_eligible": true,
+    "review_status": "completed_researcher_human_review",
+    "threshold_selection_eligible": false
+  },
+  "rq1c1_evaluation_performed": false,
+  "schema_version": "rq1c-final-gold-authority-contract-v1",
+  "sealed_use_policy": {
+    "final_gold_use": "ONE_SHOT_RQ1_C1_ONLY",
+    "may_be_used_for_development_selection": false,
+    "may_be_used_for_threshold_selection": false,
+    "may_be_used_for_training": false,
+    "may_be_used_to_change_schema_or_model": false,
+    "must_preserve_failed_one-shot lock": true,
+    "must_run_contamination_audit_before_scoring": true,
+    "must_verify_sha256_before_parsing": true
+  },
+  "stage": "RQ1-C0-R1",
+  "status": "AUTHORISED_FOR_RQ1_C1_ONE_SHOT_FINAL_EVALUATION",
+  "track_a": {
+    "alias": "PRIMARY_V3_TRACK_A_RQ1_FINAL_GOLD_V1",
+    "container_format": "CSV",
+    "dataset_version": "primary-v3-candidate-v1",
+    "duplicate_normalised_query_count": 0,
+    "duplicate_query_count": 0,
+    "duplicate_record_id_count": 0,
+    "encoding": "UTF-8 with BOM",
+    "expected_local_relative_path": "evaluation/learned_intent_ranking/rq1c/local_final_gold/primary_v3_semantic_heldout_human_review_researcher_final_v1.csv",
+    "file_name": "primary_v3_semantic_heldout_human_review_researcher_final_v1.csv",
+    "newline": "CRLF",
+    "record_count": 128,
+    "record_schema_version": "primary-v3-track-a-blank-template-v1",
+    "sha256": "5d40f0a4a6b460e77271ee9815fce1b0954c1d7e05c7a4cd2f5d8e28ff09eb8f",
+    "size_bytes": 129236,
+    "sole_rq1_final_gold": true,
+    "unique_normalised_query_count": 128,
+    "unique_query_count": 128,
+    "unique_record_id_count": 128
+  },
+  "track_b": {
+    "file_name": "primary_v3_hybrid_context_human_review_researcher_final_v1.csv",
+    "record_count": 48,
+    "reserved_for_rq2": true,
+    "sha256": "52c14dbc9e79b3c211e47ffd72697ec6ed87eec0478353066eb5d2f1ab45f351",
+    "track_b_excluded_from_rq1": true
+  }
+}

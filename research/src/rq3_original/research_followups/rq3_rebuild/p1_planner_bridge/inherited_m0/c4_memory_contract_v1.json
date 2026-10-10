@@ -1,0 +1,187 @@
+{
+  "architecture_id": "C4_LEARNER_MEMORY_V1",
+  "contract_version": "c4-memory-contract-v1",
+  "research_track": "RQ3-REAL-C4-TRACK-M",
+  "status": "IMPLEMENTED_OFFLINE_NOT_INTEGRATED",
+  "schema": {
+    "filename": "c4_memory_schema_v1.sql",
+    "schema_version": 1,
+    "required_memory_fields": [
+      "memory_id",
+      "student_id",
+      "memory_type",
+      "content",
+      "source_session_id",
+      "source_turn_id",
+      "created_at",
+      "valid_from",
+      "valid_to",
+      "last_confirmed_at",
+      "status",
+      "importance",
+      "confidence",
+      "supersedes_memory_id",
+      "consent_status",
+      "content_sha256"
+    ],
+    "additional_version_fields": [
+      "version",
+      "conflict_key",
+      "deletion_event_sha256"
+    ],
+    "database_isolation": "SEPARATE_SQLITE_DATABASE_PER_TEST_OR_EXPERIMENT_RUN",
+    "fts": "SQLITE_FTS5_UNICODE61"
+  },
+  "memory_types": [
+    "GOAL",
+    "PREFERENCE",
+    "CONSTRAINT",
+    "DIFFICULTY",
+    "COMPLETED_ACTION",
+    "ACTIVE_PLAN",
+    "PROGRESS_UPDATE",
+    "CORRECTION"
+  ],
+  "operations": [
+    "ADD",
+    "UPDATE",
+    "SUPERSEDE",
+    "DELETE",
+    "NOOP"
+  ],
+  "structured_candidate_contract": {
+    "strict": true,
+    "additional_properties": false,
+    "required": [
+      "operation",
+      "memory_type",
+      "content",
+      "target_memory_id",
+      "confidence",
+      "evidence_span"
+    ],
+    "properties": {
+      "operation": {
+        "enum": [
+          "ADD",
+          "UPDATE",
+          "SUPERSEDE",
+          "DELETE",
+          "NOOP"
+        ]
+      },
+      "memory_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "content": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 4000
+      },
+      "target_memory_id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0.0,
+        "maximum": 1.0
+      },
+      "evidence_span": {
+        "type": "string"
+      }
+    }
+  },
+  "write_policy": {
+    "minimum_confidence": 0.8,
+    "accepted_claim_bases": [
+      "EXPLICIT_USER_STATEMENT",
+      "VERIFIED_SYSTEM_EVENT"
+    ],
+    "evidence_span_must_occur_in_source": true,
+    "stored_content_must_occur_in_evidence_span": true,
+    "duplicate_active_fact_result": "NOOP",
+    "explicit_correction": "APPEND_CORRECTION_AND_MARK_TARGET_SUPERSEDED",
+    "delete": "REDACT_CONTENT_AND_CREATE_NON_RETRIEVABLE_TOMBSTONE",
+    "reject": [
+      "ASSISTANT_ADVICE",
+      "MODEL_INFERENCE",
+      "INFERRED_PERSONALITY",
+      "INFERRED_ABILITY",
+      "UNVERIFIED_DASHBOARD_INTERPRETATION",
+      "LOW_CONFIDENCE",
+      "UNRELATED_SENSITIVE_INFORMATION"
+    ]
+  },
+  "retrieval_pipeline": [
+    "FILTER_STUDENT_ID",
+    "FILTER_ACTIVE_AND_TEMPORALLY_VALID",
+    "EXCLUDE_VISIBLE_HISTORY",
+    "SQLITE_FTS5_LEXICAL_RETRIEVAL",
+    "FROZEN_LOCAL_MPNET_SEMANTIC_RETRIEVAL_WHERE_AVAILABLE",
+    "DETERMINISTIC_FUSION",
+    "SEMANTIC_MEMORY_TYPE_ALIGNMENT",
+    "RECENCY_IMPORTANCE_CONFIDENCE_ADJUSTMENT",
+    "SUPERSESSION_AND_CONFLICT_RESOLUTION",
+    "TOP_K_OR_NO_MATCH"
+  ],
+  "semantic_backend": {
+    "repo_id": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "local_only": true,
+    "download_allowed": false,
+    "network_allowed": false,
+    "normalised_embeddings": true,
+    "required_file_sha256": {
+      "config.json": "d46a3e04ded82bba22528424480697d394eeda6a27484e08c5bb2bdf5906cfa0",
+      "model.safetensors": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658",
+      "tokenizer.json": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842"
+    }
+  },
+  "memory_type_alignment": {
+    "method": "SEMANTIC_SIMILARITY_TO_FROZEN_TYPE_DESCRIPTIONS",
+    "keyword_only_trigger": false,
+    "strong_semantic_threshold": 0.36,
+    "typed_semantic_floor": 0.24,
+    "type_alignment_threshold": 0.2,
+    "strong_type_semantic_floor": 0.14,
+    "strong_type_alignment_threshold": 0.45,
+    "memory_gate_owner": "FROZEN_P3_MEMORY_SPECIALIST",
+    "retriever_owner": "RELEVANT_MEMORY_SELECTION"
+  },
+  "envelope": {
+    "statuses": [
+      "AVAILABLE",
+      "NO_MATCH"
+    ],
+    "read_only_evidence_representation": "C4_READ_ONLY_MEMORY_EVIDENCE_V1",
+    "internal_embeddings_exposed": false,
+    "sha256_required": true
+  },
+  "learner_controls": [
+    "LIST_ACTIVE_MEMORIES",
+    "CORRECT_MEMORY",
+    "DELETE_MEMORY",
+    "DISABLE_MEMORY_FOR_LEARNER",
+    "CLEAR_EXPERIMENTAL_LEARNER_STATE"
+  ],
+  "track_boundaries": {
+    "conversation_memory_role": "UNCHANGED_SHORT_TERM_WORKING_MEMORY_HELPER",
+    "p3_changed": false,
+    "c4_integration_performed": false,
+    "streamlit_changed": false,
+    "response_generation_performed": false,
+    "openai_calls": 0,
+    "judge_calls": 0,
+    "controlled_rq3_shards_executed": 0,
+    "final_rq3_scoring_performed": false,
+    "production_infrastructure_added": false
+  }
+}

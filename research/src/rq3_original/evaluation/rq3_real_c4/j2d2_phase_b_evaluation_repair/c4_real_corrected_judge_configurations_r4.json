@@ -1,0 +1,101 @@
+{
+  "A": {
+    "blinded_judge_manifest_sha256": "8c6bd146cdc20b2ea8dcc14b41967e256afda36ee605c39c4522f9386d4a2fc3",
+    "estimated_input_tokens": 139200,
+    "execution_authorized": false,
+    "maximum_output_tokens": 2048,
+    "maximum_physical_attempts": 78,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "model": "gpt-4.1-2025-04-14",
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_A_R4_20260902",
+    "request_count": 39,
+    "request_timeout_seconds": 120.0,
+    "runtime": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-configuration-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "A",
+    "stream": false,
+    "support_hashes": {
+      "APPLICABILITY_CONTRACT_V2.json": "9f7c9a19670ab2da7c99f5b4f19dcd73d7100792b30b9b60e6b9906bccc16557",
+      "JUDGE_PROMPT.txt": "0d5efac2d764cfd9d8aeaa125071ec8f8ce61108cd8896bfd299dc68ddc8537e",
+      "JUDGE_SCHEMA.json": "5193646806796034c2c9abe524006cfae04204284e2ddfe4f3add37eefc41a8a",
+      "PRIMARY_RUBRIC.json": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+      "judge_execution_runner_v3.py": "6fed067756d90cc8cddf82bab3cb0770423d200edabd3590a73b48c2b81fa6f2",
+      "judge_result_parser_v3.py": "7d54f39fd3b4452e11151d736aaac616c661c2c7cc9ca725573191d4d2f9e4fb",
+      "test_package.py": "f8323623a855ceac83c4a26d94aaab83a4c4c3b560d0e5113368299ca5d34323",
+      "validate_package.py": "12ac29b84e390860d3f030887f013925c0355be8bad2a0cc3c81b3254208c377"
+    },
+    "temperature": 0,
+    "tools": "NONE"
+  },
+  "B": {
+    "blinded_judge_manifest_sha256": "89be3ee0dc8b00795cd1770867b8fbd0094987fe013246312c99e29498998eba",
+    "estimated_input_tokens": 139203,
+    "execution_authorized": false,
+    "maximum_output_tokens": 2048,
+    "maximum_physical_attempts": 76,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "model": "gpt-4.1-2025-04-14",
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_B_R4_20260902",
+    "request_count": 38,
+    "request_timeout_seconds": 120.0,
+    "runtime": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-configuration-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "B",
+    "stream": false,
+    "support_hashes": {
+      "APPLICABILITY_CONTRACT_V2.json": "9f7c9a19670ab2da7c99f5b4f19dcd73d7100792b30b9b60e6b9906bccc16557",
+      "JUDGE_PROMPT.txt": "0d5efac2d764cfd9d8aeaa125071ec8f8ce61108cd8896bfd299dc68ddc8537e",
+      "JUDGE_SCHEMA.json": "5193646806796034c2c9abe524006cfae04204284e2ddfe4f3add37eefc41a8a",
+      "PRIMARY_RUBRIC.json": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+      "judge_execution_runner_v3.py": "6fed067756d90cc8cddf82bab3cb0770423d200edabd3590a73b48c2b81fa6f2",
+      "judge_result_parser_v3.py": "7d54f39fd3b4452e11151d736aaac616c661c2c7cc9ca725573191d4d2f9e4fb",
+      "test_package.py": "f8323623a855ceac83c4a26d94aaab83a4c4c3b560d0e5113368299ca5d34323",
+      "validate_package.py": "12ac29b84e390860d3f030887f013925c0355be8bad2a0cc3c81b3254208c377"
+    },
+    "temperature": 0,
+    "tools": "NONE"
+  },
+  "C": {
+    "blinded_judge_manifest_sha256": "fe4547a0b2ce05a78a7cefb65d8a4acb2b71c7152e5dd45aa290796152457bc5",
+    "estimated_input_tokens": 139204,
+    "execution_authorized": false,
+    "maximum_output_tokens": 2048,
+    "maximum_physical_attempts": 78,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "model": "gpt-4.1-2025-04-14",
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_C_R4_20260902",
+    "request_count": 39,
+    "request_timeout_seconds": 120.0,
+    "runtime": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-configuration-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "C",
+    "stream": false,
+    "support_hashes": {
+      "APPLICABILITY_CONTRACT_V2.json": "9f7c9a19670ab2da7c99f5b4f19dcd73d7100792b30b9b60e6b9906bccc16557",
+      "JUDGE_PROMPT.txt": "0d5efac2d764cfd9d8aeaa125071ec8f8ce61108cd8896bfd299dc68ddc8537e",
+      "JUDGE_SCHEMA.json": "5193646806796034c2c9abe524006cfae04204284e2ddfe4f3add37eefc41a8a",
+      "PRIMARY_RUBRIC.json": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+      "judge_execution_runner_v3.py": "6fed067756d90cc8cddf82bab3cb0770423d200edabd3590a73b48c2b81fa6f2",
+      "judge_result_parser_v3.py": "7d54f39fd3b4452e11151d736aaac616c661c2c7cc9ca725573191d4d2f9e4fb",
+      "test_package.py": "f8323623a855ceac83c4a26d94aaab83a4c4c3b560d0e5113368299ca5d34323",
+      "validate_package.py": "12ac29b84e390860d3f030887f013925c0355be8bad2a0cc3c81b3254208c377"
+    },
+    "temperature": 0,
+    "tools": "NONE"
+  }
+}

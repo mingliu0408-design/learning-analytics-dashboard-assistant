@@ -1,0 +1,74 @@
+{
+  "attestation": {
+    "clerical_warnings": [
+      "CLERICAL_WARNING_REVIEWER_NAME_CODE_LINE_BLANK",
+      "CLERICAL_WARNING_DATE_SIGNED_NON_ISO"
+    ],
+    "formal_completion_date_utc": "2026-09-02",
+    "identity_inferred_beyond_visible_signature_code": false,
+    "status": "SELF_ATTESTED_INDEPENDENT_NO_GENERATIVE_AI",
+    "technical_verification_status": "SELF_ATTESTATION_NOT_TECHNICALLY_VERIFIED",
+    "visible_signature_code": "GG"
+  },
+  "candidate_response_dependency": false,
+  "completed_attestation_sha256": "f2f7522f1ceb21bfe5e49176610fa48e67a6badd94158d5cfad8054e93f09bcc",
+  "completed_packet_sha256": "0f248db0e00609fd4630c759e36548c62b61de5935d19ff7706601eb528c78a1",
+  "condition_map_count": 558,
+  "condition_map_filename": "c4_real_condition_applicability_maps_frozen_v2.jsonl",
+  "condition_map_sha256": "12d8618beb629235a42261266338a02fb419573ce1f37deffc1b7f28feafa553",
+  "decision_distributions": {
+    "ACTIONABILITY": {
+      "NO": 34,
+      "YES": 28
+    },
+    "MOTIVATION_AND_ENGAGEMENT": {
+      "NO": 22,
+      "YES": 40
+    },
+    "PERSONALISATION": {
+      "NO": 25,
+      "YES": 37
+    }
+  },
+  "decision_map_filename": "c4_real_researcher_scenario_applicability_decisions_frozen_v1.jsonl",
+  "decision_map_sha256": "50451afbf4bbfcfd5e6bf387ba5bc5c42e2569ae186785e3685b514e749d1f66",
+  "error_handling_preserved_condition_count": 558,
+  "frozen_at_utc": "2026-09-02T19:00:42.605568Z",
+  "human_rating_or_rationale_accessed_before_receipt": false,
+  "judge_score_or_rationale_accessed_before_receipt": false,
+  "material_page_count_distribution": {
+    "one": 55,
+    "two": 6,
+    "zero": 1
+  },
+  "mode_dependency": false,
+  "mode_outcome_mapping_accessed_before_receipt": false,
+  "multi_page_cohesiveness_distribution": {
+    "applicable": 6,
+    "not_applicable": 56
+  },
+  "overwrite_permitted": false,
+  "p3_dependency": false,
+  "route_dependency": false,
+  "scenario_count": 62,
+  "schema_version": "c4-real-applicability-v2-pre-outcome-freeze-receipt-v1",
+  "source_mapping_filename": "c4_real_j2d1_applicability_review_id_to_scenario_mapping_v1.csv",
+  "source_mapping_sha256": "de04ba913919447fddefafa1127b1480fb5c8614bf4cfce570f52b548f397c25",
+  "status": "FROZEN_PRE_OUTCOME_ACCESS",
+  "v1_v2_change_counts": {
+    "changed_condition_maps": 351,
+    "scenario_transitions": {
+      "ACTIONABILITY_false_to_true": 13,
+      "ACTIONABILITY_true_to_false": 0,
+      "MOTIVATION_AND_ENGAGEMENT_false_to_true": 0,
+      "MOTIVATION_AND_ENGAGEMENT_true_to_false": 22,
+      "MULTI_PAGE_COHESIVENESS_false_to_true": 0,
+      "MULTI_PAGE_COHESIVENESS_true_to_false": 7,
+      "PERSONALISATION_false_to_true": 0,
+      "PERSONALISATION_true_to_false": 15
+    },
+    "scenarios_with_one_or_more_changes": 39,
+    "unchanged_condition_maps": 207
+  },
+  "write_count": 1
+}

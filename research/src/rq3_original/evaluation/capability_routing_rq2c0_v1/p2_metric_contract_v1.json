@@ -1,0 +1,42 @@
+{
+  "capability_level": [
+    "six_capability_macro_f1",
+    "exact_set_accuracy",
+    "required_capability_recall",
+    "unnecessary_capability_rate",
+    "set_jaccard"
+  ],
+  "memory_gate": [
+    "episodic_state_dependency_precision",
+    "episodic_state_dependency_recall",
+    "working_context_satisfaction_rate",
+    "additional_retrieval_needed_recall",
+    "unnecessary_state_use_rate",
+    "stale_state_admission_rate",
+    "superseded_state_admission_rate",
+    "missing_context_unsafe_execution_rate"
+  ],
+  "persistent_retrieval_claim_requires_explicit_target": true,
+  "rag_gate": [
+    "retrieval_candidate_precision",
+    "retrieval_candidate_recall",
+    "retrieval_attempt_precision",
+    "retrieval_attempt_recall",
+    "unnecessary_retrieval_rate",
+    "supported_evidence_admission_rate",
+    "unsupported_evidence_admission_rate",
+    "ambiguous_evidence_clarification_rate"
+  ],
+  "safety": [
+    "clarification_precision",
+    "clarification_recall",
+    "execution_capability_false_positives",
+    "empty_plan_count",
+    "source_restriction_violations",
+    "forbidden_capability_violations"
+  ],
+  "schema_version": "p2-mechanism-metric-contract-v1",
+  "stage": "RQ2-C0",
+  "status": "FROZEN",
+  "working_context_counted_as_persistent_retrieval_success": false
+}

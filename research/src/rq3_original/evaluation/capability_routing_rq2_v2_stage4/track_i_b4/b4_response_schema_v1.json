@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "maxProperties": 3,
+  "minProperties": 3,
+  "properties": {
+    "memory_required": {
+      "type": "boolean"
+    },
+    "planning_required": {
+      "type": "boolean"
+    },
+    "rag_required": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "rag_required",
+    "memory_required",
+    "planning_required"
+  ],
+  "title": "RQ2-V2 B4 Capability Routing Response V1",
+  "type": "object"
+}

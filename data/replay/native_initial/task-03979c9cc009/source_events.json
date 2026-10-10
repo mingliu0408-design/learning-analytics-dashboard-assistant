@@ -1,0 +1,29 @@
+{
+  "session-cf3d663c3a42-m1": {
+    "turn_id": "session-cf3d663c3a42-m1",
+    "session_id": "session-cf3d663c3a42",
+    "role": "USER",
+    "content": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+    "timestamp": "2026-08-21T09:00:00+00:00",
+    "learner_id": "synthetic-learner-c994ecef8f75",
+    "course_id": "dute-archived-materials-experiment-v1"
+  },
+  "session-97c1062c1ea7-m1": {
+    "turn_id": "session-97c1062c1ea7-m1",
+    "session_id": "session-97c1062c1ea7",
+    "role": "USER",
+    "content": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+    "timestamp": "2026-08-24T09:00:00+00:00",
+    "learner_id": "synthetic-learner-c994ecef8f75",
+    "course_id": "dute-archived-materials-experiment-v1"
+  },
+  "session-97c1062c1ea7-m2": {
+    "turn_id": "session-97c1062c1ea7-m2",
+    "session_id": "session-97c1062c1ea7",
+    "role": "ASSISTANT",
+    "content": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+    "timestamp": "2026-08-24T09:01:00+00:00",
+    "learner_id": "synthetic-learner-c994ecef8f75",
+    "course_id": "dute-archived-materials-experiment-v1"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "P2_FULL_NO_PERSISTENT_TARGET": "RAG_PLUS_SESSION_STATE_PERSISTENT_COMPONENT_NO_OP",
+  "P2_PERSISTENT_MEMORY_ONLY": "NOT_APPLICABLE_NO_GOVERNED_PERSISTENT_TARGET",
+  "all_48_cases_require_independent_human_mapping": true,
+  "capability_gold_required_before_evaluation": true,
+  "existing_intent_labels_are_capability_gold": false,
+  "forbidden_rag_claims": [
+    "RAG evidence-sufficiency accuracy",
+    "supported-chunk precision/recall"
+  ],
+  "frozen_runtime": {
+    "c0_aggregation": "MAX_PER_INTENT",
+    "c0_candidate_embeddings_sha256": "8b6fb268970c119ec58ce304e1c9ad0380e161fe086713dbf77d432b547bf9d8",
+    "c0_candidate_index_sha256": "b4cac34df91c074a4a2fa85e4ccc52623563f3358fe44938771f8303f00b6be9",
+    "c0_candidate_record_count": 62,
+    "c0_label_count": 16,
+    "c0_model": "sentence-transformers/all-mpnet-base-v2",
+    "c0_model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "dual_gated_rag": "RQ2_C1_R1_CORRECTED_CONDITION_ISOLATION",
+    "gold_bundle_sha256": "9957bbea0e723203718155f8974db5476c23d8a5239a4c66e76b2ade9a5ea18c",
+    "implementation_sha256": {
+      "B0": "b0db0ae0159838b987ea0a94e74b65063426bc99ca27af35776f1486a09ed93d",
+      "B1": "9b21b94bb40f1863a833c44534d883fc293c0e04fb7f0cf82d2af0aa84c9ea0e",
+      "C0_FULL_VECTOR": "8a907d9fbc2a851b561793543d02eb5af00e5a699d79469a004e547221fe70cf",
+      "CORRECTED_CONDITION_RUNNER": "0454bfd41f827181ad09128a2158355f963011f9fd52304d2f6216522f28dd8d",
+      "DUAL_GATED_RAG": "d407f3008b523313152d678a2d5f0d4589ee7dab9b66e6a9e46bcf7f8fdac76e",
+      "P1": "d24c54bc1610b3a2360ee83efdf05ec26ccb680f921a576840e0e0335f6f811f",
+      "SESSION_STATE_GATE": "856a7d4e046ac6bdf8e81265357168d1650a8cf3d20078808d58f4b3a9844efa"
+    },
+    "p1_policy_id": "P1_D05_SIGNAL_UNION",
+    "p1_policy_sha256": "74236e7166cfa2cc73447f873150812b9700dfcc14e5209e8b157be3c7210942",
+    "policy_change_after_track_b_visible": false,
+    "rag_candidate_gate": "FROZEN_DETERMINISTIC_CAPABILITY_AND_SOURCE_GATE",
+    "rag_sufficiency_gate": "FROZEN_EXISTING_STATUS_INTERFACE",
+    "rag_top_k": 5,
+    "rq1_router": "C0_COSINE",
+    "session_policy": "M0_P1_ONLY",
+    "threshold_change_after_track_b_visible": false
+  },
+  "negative_result_is_valid": true,
+  "p2_conditions": [
+    "P1_BASE",
+    "P2_RAG_ONLY",
+    "P2_SESSION_STATE_ONLY",
+    "P2_PERSISTENT_MEMORY_ONLY",
+    "P2_FULL_NO_PERSISTENT_TARGET"
+  ],
+  "p2_is_capability_predictor": false,
+  "p2_rag_diagnostics_after_gold": [
+    "RAG candidate precision/recall",
+    "actual retrieval-attempt precision/recall",
+    "unnecessary retrieval rate",
+    "clarification-blocked retrieval count"
+  ],
+  "p2_role": "SECONDARY_EXECUTION_DIAGNOSTIC_ONLY",
+  "p2_session_state_diagnostics_after_gold": [
+    "session-state candidate precision/recall",
+    "state-admission precision/recall",
+    "unnecessary state-use rate",
+    "missing-context unsafe-execution rate"
+  ],
+  "persistent_execution_rule": "STRICT_NO_OP",
+  "persistent_results_remain_from": "CONTROLLED_MECHANISM_FIXTURE28_ONLY",
+  "primary_capability_predictors": [
+    "B0_ORIGINAL_QUERY_C0_TOP1_HARD_ROUTE_NO_CONTEXT_RESOLUTION",
+    "B1_CURRENT_PRODUCTION_CONTEXT_RESOLUTION_C0_TOP1_HARD_ROUTE",
+    "P1_D05_SIGNAL_UNION"
+  ],
+  "primary_comparisons": {
+    "B1_MINUS_B0": "CURRENT_CONTEXT_RESOLUTION_CONTRIBUTION",
+    "P1_MINUS_B0": "COMPLETE_PROPOSED_ROUTING_CONTRIBUTION",
+    "P1_MINUS_B1": "MULTILABEL_CAPABILITY_AGGREGATION_CONTRIBUTION"
+  },
+  "primary_metric": "SIX_CAPABILITY_MACRO_F1",
+  "production_integration": false,
+  "production_selection_gate_registered": false,
+  "schema_version": "rq2-final-scope-contract-v1",
+  "secondary_metrics": [
+    "Exact-Set Accuracy",
+    "Micro Precision",
+    "Micro Recall",
+    "Micro F1",
+    "Required-Capability Recall",
+    "Unnecessary-Capability Rate",
+    "Mean Set Jaccard",
+    "Per-Capability Precision/Recall/F1",
+    "Forbidden-Capability Violation Rate",
+    "Context-Resolution Accuracy",
+    "Context-Resolution Positive Recall",
+    "Clarification Precision/Recall",
+    "Unnecessary-Clarification Rate"
+  ],
+  "source_alias": "TRACK_B_CONTEXTUAL_CAPABILITY_FINAL_SOURCE_V1",
+  "status": "FROZEN_BEFORE_TRACK_B_GOLD_OR_MODEL_RESULTS",
+  "track_b_persistent_retrieval_evaluable": false,
+  "track_b_rag_sufficiency_accuracy_evaluable": false,
+  "track_b_used_for_threshold_or_policy_selection": false
+}

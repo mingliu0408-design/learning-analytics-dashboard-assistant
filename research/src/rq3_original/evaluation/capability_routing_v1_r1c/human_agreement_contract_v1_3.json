@@ -1,0 +1,30 @@
+{
+  "authentic_context_link_validity_metric": "NOT_APPLICABLE",
+  "authentic_missing_context_reporting": [
+    "CONTEXT_SUFFICIENT_NO_COUNT",
+    "CONTEXT_RESOLUTION_REQUIRED_COUNT",
+    "EXCLUDED_DUE_TO_MISSING_CONTEXT_COUNT"
+  ],
+  "authentic_not_applicable_values_count_as_agreement": false,
+  "calculation_before_both_packets_frozen": false,
+  "context_link_agreement_population": "SYNTHETIC_CASES_WITH_DISPLAYED_CONVERSATION_HISTORY_ONLY",
+  "kappa_role": "DIAGNOSTIC_ONLY",
+  "overall_and_source_stratified_metrics_retained": true,
+  "required_general_metrics": [
+    "VALIDITY_PERCENT_AGREEMENT_AND_KAPPA",
+    "NATURALNESS_QUADRATIC_WEIGHTED_KAPPA",
+    "CONTEXT_SUFFICIENT_PERCENT_AGREEMENT_AND_KAPPA",
+    "CAPABILITY_UNAMBIGUOUS_PERCENT_AGREEMENT_AND_KAPPA",
+    "CONTEXT_RESOLUTION_PERCENT_POSITIVE_NEGATIVE_AGREEMENT_AND_KAPPA",
+    "PER_CAPABILITY_PERCENT_POSITIVE_NEGATIVE_AGREEMENT_KAPPA_AND_SUPPORT",
+    "EXACT_SET_AGREEMENT",
+    "MEAN_AND_MEDIAN_JACCARD",
+    "ALL_CAPABILITY_MICRO_AGREEMENT",
+    "FORBIDDEN_CAPABILITY_SET_AGREEMENT_AND_JACCARD"
+  ],
+  "schema_version": "human-agreement-contract-v1.3",
+  "source_identity_visible_during_first_round": false,
+  "stage": "RQ2-A-R1C",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "zero_variance_kappa_policy": "RETURN_NULL_WITH_STATUS"
+}

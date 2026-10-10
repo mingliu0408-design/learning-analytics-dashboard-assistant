@@ -13,3 +13,6 @@ outputs/
 research/outputs/
 .DS_Store
 .local/
+
+# Public read-only original study seeds; session databases remain ignored.
+!data/replay/native_initial/*/initial.sqlite

@@ -1,0 +1,11 @@
+{
+  "boundary_incident_remains_disclosed": true,
+  "incident_report_sha256": "a8702aa6c839d1f1f332972cc1927d71cb2d782fade08d259408e4303431a8de",
+  "original_receipt_historically_authentic": true,
+  "original_receipt_sha256": "f5a1ecae8da0237356173b6976183671fef14bbf4725b98774be41f578a0eba9",
+  "original_receipt_status": "PRESERVED_QUALIFIED_BY_PHASE_A_BOUNDARY_INCIDENT",
+  "prior_session_zero_score_exposure_claimed": false,
+  "schema_version": "ORIGINAL_PHASE_A_RECEIPT_QUALIFICATION_V1",
+  "statement": "The original receipt remains historically authentic but is insufficient by itself to certify zero score exposure across the entire prior assistant session. A later clean-room replay may certify artifact provenance and deterministic reproducibility; it cannot erase the prior event.",
+  "sufficient_by_itself_for_zero_score_exposure_across_prior_assistant_session": false
+}

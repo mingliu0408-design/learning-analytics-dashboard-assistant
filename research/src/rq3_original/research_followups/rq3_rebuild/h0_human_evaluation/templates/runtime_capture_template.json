@@ -1,0 +1,13 @@
+{
+  "schema_version": "H0_RUNTIME_CAPTURE_V1",
+  "capture_id": "",
+  "target_time": "",
+  "query": "",
+  "visible_context": {
+    "text": "",
+    "history": [],
+    "scope": "",
+    "snapshot_version": ""
+  },
+  "source_annotations": []
+}

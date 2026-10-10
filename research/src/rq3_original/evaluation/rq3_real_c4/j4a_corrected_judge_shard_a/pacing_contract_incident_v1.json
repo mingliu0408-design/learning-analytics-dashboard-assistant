@@ -1,0 +1,69 @@
+{
+  "schema_version": "c4-real-j4a-pacing-contract-incident-v1",
+  "status": "CORRECTED_JUDGE_EXECUTION_INCOMPLETE_REQUIRES_NEW_DIRECT_AUTHORIZATION",
+  "observed_contract": "minimum seconds between consecutive initial request starts is 15.0",
+  "evidence_basis": "ATTEMPT_STARTED request_started_at_utc values; actual monotonic transport timestamps are not journaled",
+  "reason": "Observed ATTEMPT_STARTED UTC initial-start intervals below frozen 15.0 seconds: after logical orders 13 and 26; sent SIGINT to verified runner PID 71656; no resume or rerun permitted.",
+  "stop_signal": "SIGINT",
+  "verified_runner_pid": 71656,
+  "interruption_initiated_by": "EXECUTING_AGENT_FAIL_CLOSED",
+  "frozen_runner_modified": false,
+  "durable_output_modified_after_stop": false,
+  "runner_invocations": 1,
+  "resume_or_rerun_invocations": 0,
+  "durable_output_sha256": {
+    "JUDGE_ATTEMPT_JOURNAL.jsonl": "51010df4ddf956e3c7d5bf49d9671ae0edc8e84e0ed876fc997c2d15536f8853",
+    "JUDGE_ERROR_REGISTRY.jsonl": "3cf623442362c6adcb397317a9680eeed8a1fa88d3c8e8007b0bb21043dc4cec",
+    "JUDGE_EXECUTION_STATUS.json": "8de7baa8b50740c2403176e510c6640ece005841d748de928322119588d0ebd2",
+    "JUDGE_PREFLIGHT_START_RECEIPT.json": "f4603672aaf2125fafe04c00e8da63609e115ca6abe7745c1f043c50abffdcc7",
+    "JUDGE_STATUS_JOURNAL.jsonl": "fcd6aafb2211f7a83a74a627fae6f769e79fbbeaa447b3a347796282eadc860c",
+    "JUDGE_TERMINAL_JOURNAL.jsonl": "fa7c803828fe77fa8cd8f2b95ca24406bfc1081a8df69b2cac2c10f16b527fed"
+  },
+  "errors": [
+    {
+      "corrected_execution_requires_new_direct_authorization": true,
+      "error_category": "KeyboardInterrupt",
+      "error_code": null,
+      "error_parameter": null,
+      "phase": "PROVIDER_CALL",
+      "provider_request_id": null,
+      "schema_version": "c4-real-judge-error-r4-v1",
+      "secret_or_authorization_header_recorded": false,
+      "terminal_policy": "STOP_ENTIRE_SHARD",
+      "timestamp_utc": "2026-09-02T21:54:39.234745Z"
+    }
+  ],
+  "pacing_violations": [
+    {
+      "next_logical_order": 14,
+      "next_started_at_utc": "2026-09-02T21:48:23.794581Z",
+      "observed_interval_seconds": 14.98719,
+      "previous_logical_order": 13,
+      "previous_started_at_utc": "2026-09-02T21:48:08.807391Z",
+      "shortfall_seconds": 0.01281
+    },
+    {
+      "next_logical_order": 27,
+      "next_started_at_utc": "2026-09-02T21:51:38.851368Z",
+      "observed_interval_seconds": 14.996812,
+      "previous_logical_order": 26,
+      "previous_started_at_utc": "2026-09-02T21:51:23.854556Z",
+      "shortfall_seconds": 0.003188
+    }
+  ],
+  "timestamp_utc": "2026-09-02T21:55:19Z",
+  "runner_final_status": {
+    "automatic_resume": false,
+    "corrected_execution_requires_new_direct_authorization": true,
+    "judge_calls": 39,
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_A_R4_20260902",
+    "physical_attempts": 39,
+    "request_count": 39,
+    "request_timeout_seconds": 120,
+    "schema_version": "c4-real-judge-execution-status-r4-v1",
+    "shard_id": "A",
+    "status": "INCOMPLETE",
+    "timestamp_utc": "2026-09-02T21:54:39.235397Z",
+    "valid_terminal_count": 38
+  }
+}

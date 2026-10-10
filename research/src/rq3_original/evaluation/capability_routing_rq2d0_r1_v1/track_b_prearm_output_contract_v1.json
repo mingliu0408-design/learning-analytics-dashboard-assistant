@@ -1,0 +1,25 @@
+{
+  "accepted_initial_states": [
+    "ABSENT",
+    "EXISTING_COMPLETELY_EMPTY_DIRECTORY"
+  ],
+  "failure_status": "BLOCKED_RQ2_D1_OUTPUT_DIRECTORY_NOT_EMPTY",
+  "must_run_before_armed_lock": true,
+  "must_run_before_key_generation": true,
+  "must_run_before_raw_open": true,
+  "overwrite_permitted": false,
+  "rejected_entries": [
+    "old lock",
+    "old packet",
+    "old mapping",
+    "old case bank",
+    "old escrow",
+    "old key",
+    "old audit",
+    "temporary file",
+    "hidden file",
+    "symlink"
+  ],
+  "schema_version": "track-b-prearm-output-contract-v1",
+  "status": "FROZEN_BEFORE_D1"
+}

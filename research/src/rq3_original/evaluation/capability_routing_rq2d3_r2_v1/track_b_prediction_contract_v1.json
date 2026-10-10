@@ -1,0 +1,31 @@
+{
+  "capability_set_nonempty": true,
+  "capability_universe": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "clarification_exclusive": true,
+  "fields": [
+    "review_case_id",
+    "method_id",
+    "context_resolution_required_prediction",
+    "predicted_capabilities",
+    "prediction_trace_hash"
+  ],
+  "methods": [
+    "B0",
+    "B1",
+    "P1"
+  ],
+  "prediction_ledgers_local_only": true,
+  "predictions_per_method": 48,
+  "safe_direct_response_exclusive": true,
+  "schema_version": "track-b-prediction-contract-v1",
+  "status": "FROZEN",
+  "total_predictions": 144,
+  "tracked_per_case_predictions": false
+}

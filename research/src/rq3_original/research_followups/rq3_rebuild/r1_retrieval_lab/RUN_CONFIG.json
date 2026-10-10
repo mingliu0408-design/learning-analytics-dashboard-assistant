@@ -1,0 +1,53 @@
+{
+  "batch_size": 4,
+  "bm25": {
+    "b": 0.75,
+    "field_weights": {
+      "body": 1.0,
+      "metadata": 3.6,
+      "section": 2.8,
+      "title": 3.4
+    },
+    "k1": 1.5
+  },
+  "candidate_thresholds": {
+    "A_R0": "native best>=2.0",
+    "B_BM25": null,
+    "C_HYBRID": null,
+    "D_CROSS_ENCODER": null
+  },
+  "ce_cap": 512,
+  "chunk_windows": [
+    256,
+    384
+  ],
+  "comparison_scope": "pipeline A vs B/C/D; B vs C controlled dense addition; C top30 vs D same pool",
+  "context_budget": 1200,
+  "dense_depth": 50,
+  "device": "cpu",
+  "diagnostic_mode": "retriever_only",
+  "dtype": "float32",
+  "effective_query": "raw_strip_v1",
+  "final_k": 5,
+  "gold_query_type": false,
+  "hard_week_filter": false,
+  "history": false,
+  "lexical_depth": 50,
+  "mpnet_cap": 384,
+  "neighbour_radius": 1,
+  "neural_serialization": "inherited _embedding_text; no V0 text repair or deduplication",
+  "new_candidate_deployment_action": "ABSTAIN_UNCALIBRATED",
+  "normalisation_and_filters": "common course/source ACL only; R0 native page/query bonuses retained",
+  "overlap_tokens": 24,
+  "query_cap": 64,
+  "rerank_depth": 30,
+  "rrf_constant": 60,
+  "rrf_votes": [
+    2,
+    1
+  ],
+  "schema": "r1_lab_fixed_config_v1",
+  "selection": "one declared setting; no tuning/grid",
+  "threads": 1,
+  "tie_break": "score descending then chunk_id ascending"
+}

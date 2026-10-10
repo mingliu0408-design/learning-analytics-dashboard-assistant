@@ -1,0 +1,4499 @@
+{
+  "candidate_response_dependency": false,
+  "changed_condition_applicability_maps": 351,
+  "changed_condition_identities": [
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U002",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U006",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U008",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U011",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U013",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U014",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U015",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U016",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U017",
+      "v1_applicability_sha256": "af010ea438a1ef8efff00fbb50648ab5bc99cf7961c717dd61c0f1a8b83609e8",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U019",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U020",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U021",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U022",
+      "v1_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U023",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U024",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U025",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U027",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U028",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U032",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U034",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U036",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U040",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U041",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "a384f51a8869a802118a3bdac85d911db2fa4b368d60e3f458c47656a90a2c01"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U042",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "517c96d25a86f32cd4d58e85935d69f44ad8aa160003808c9e382ec80f76affc"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U043",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U044",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U046",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "71538257ad4b755582cb360eb2aa8d05ab2810e234e368b5230c51b494a601c0",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U047",
+      "v1_applicability_sha256": "cacacc9829e375280c99f23a46856caa201cf809308b3b4717e6f6a21b87c8d5",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U048",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U049",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U050",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U051",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U052",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U053",
+      "v1_applicability_sha256": "2fb568182ce121b6955156b7b48ccff425fcd0cd06db0ec3303e8a191a33f7c0",
+      "v2_applicability_sha256": "77c66f9cb333d26b052ece52c532ca2a3a3620cdf14327df790094a753ed5a06"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "40dde9f68391cd3bb70356d3a34d38fdd8c4a4163d20840bf95e9282594f41d0"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U055",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "8306aaf069482a4fc4a5cdbc0c641a8c1913dc4fc7695449c307546d68a6c4e4"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U058",
+      "v1_applicability_sha256": "462c6a572a492e764156533f7690f612a668483971952bd427e9abdacc5f100b",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "353eae368d69f3627cb35a25e64193323db58d9eb5514d3806606754da998208",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U059",
+      "v1_applicability_sha256": "564946b1826b8c0602ab6061139c813978650bd10e837e64db23db9e83ef2490",
+      "v2_applicability_sha256": "ba26aa6c10f971b0a6711f6a3931dc5163cc56da2102ae08f20b1eb33ce3eb35"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U061",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "c0123ea348abb116d2cd45035df85f2f60ba7643d2bc0a97372891f519b108be"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C0_ORIGINAL",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C1_EVIDENCE",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C2_EVIDENCE_RAG",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C3_EVIDENCE_MEMORY",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C4_EVIDENCE_PLANNING",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_FULL_C4",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_RAG",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_MEMORY",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    },
+    {
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "mode": "C5_MINUS_PLANNING",
+      "scenario_id": "U062",
+      "v1_applicability_sha256": "5adfe20a51abf28fb358b49fa98625d8fd53b7d466d48666e69f19152c7d7273",
+      "v2_applicability_sha256": "274c655fbea9d23f8db2993ee7aaf84ce45dd119b237e9f39849e8fa82c271bd"
+    }
+  ],
+  "condition_identity_changed_count": 0,
+  "condition_map_count": 558,
+  "error_handling_preserved_condition_count": 558,
+  "judge_or_human_outcome_dependency": false,
+  "route_or_mode_dependency": false,
+  "scenario_count": 62,
+  "scenario_diffs": [
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U001",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U002",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U003",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U004",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U005",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U006",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U007",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U008",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U009",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U010",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U011",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U012",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U013",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U014",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U015",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U016",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY",
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U017",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U018",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U019",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U020",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U021",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION"
+      ],
+      "scenario_id": "U022",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U023",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U024",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U025",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U026",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U027",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U028",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U029",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U030",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U031",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U032",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U033",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U034",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U035",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U036",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U037",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U038",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U039",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U040",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U041",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U042",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U043",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U044",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U045",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U046",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U047",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U048",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U049",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U050",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U051",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U052",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U053",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U054",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "PERSONALISATION",
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U055",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": false
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U056",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U057",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U058",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MULTI_PAGE_COHESIVENESS"
+      ],
+      "scenario_id": "U059",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": true,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": false,
+      "changed_criteria": [],
+      "scenario_id": "U060",
+      "v1": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "MOTIVATION_AND_ENGAGEMENT"
+      ],
+      "scenario_id": "U061",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    },
+    {
+      "changed": true,
+      "changed_criteria": [
+        "ACTIONABILITY"
+      ],
+      "scenario_id": "U062",
+      "v1": {
+        "ACTIONABILITY": false,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      },
+      "v2": {
+        "ACTIONABILITY": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "PERSONALISATION": true
+      }
+    }
+  ],
+  "scenario_transition_counts": {
+    "ACTIONABILITY_false_to_true": 13,
+    "ACTIONABILITY_true_to_false": 0,
+    "MOTIVATION_AND_ENGAGEMENT_false_to_true": 0,
+    "MOTIVATION_AND_ENGAGEMENT_true_to_false": 22,
+    "MULTI_PAGE_COHESIVENESS_false_to_true": 0,
+    "MULTI_PAGE_COHESIVENESS_true_to_false": 7,
+    "PERSONALISATION_false_to_true": 0,
+    "PERSONALISATION_true_to_false": 15
+  },
+  "scenarios_with_one_or_more_changes": 39,
+  "schema_version": "c4-real-applicability-v1-v2-diff-audit-v1",
+  "status": "PASS_EXPECTED_INDEPENDENT_RESEARCHER_CORRECTION",
+  "unchanged_condition_applicability_maps": 207
+}

@@ -1,0 +1,26 @@
+{
+  "baseline_identity": "B0_ORIGINAL_QUERY_C0_TOP1_HARD_ROUTE_NO_CONTEXT_RESOLUTION",
+  "context_resolution_enabled": false,
+  "conversation_history_read_count": 0,
+  "episodic_memory_positive_count": 0,
+  "local_ledger_sha256": {
+    "authentic": "027c4bc2185582cef54d1a630a33797f0ac7a27b81fa6a87923034fe85819c05",
+    "registry": "54ef99dcd4adbdab38d5fc50f31574544ac87a9977759e6d0a23df5ffe8f3c39",
+    "synthetic": "390619788124421bdd2b5347d1644743bd0b0fd45acc487cf98fccda26e685ca"
+  },
+  "network_access": false,
+  "original_query_only": true,
+  "prepare_mode_cm_context_call_count": 0,
+  "production_behavior_changed": false,
+  "provider_calls": 0,
+  "record_counts": {
+    "authentic": 22,
+    "registry": 3,
+    "synthetic": 35
+  },
+  "schema_version": "rq2b-b0-contract-v1",
+  "stage": "RQ2-B",
+  "status": "PASS",
+  "structured_memory_read_count": 0,
+  "training_performed": false
+}

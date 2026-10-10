@@ -1,0 +1,15 @@
+{
+  "allowed_incomplete_responses": [
+    "CLARIFY_IF_TASK_REQUIRES_COMPLETE_MEMORY",
+    "SAFE_PARTIAL_WITH_EXPLICIT_MISSING_EVIDENCE_STATEMENT"
+  ],
+  "claim_complete_personalisation_when_incomplete": false,
+  "evaluation_executed": false,
+  "fabricate_missing_memory": false,
+  "missing_required_type_means_complete": false,
+  "multi_hop_definition": "MORE_THAN_ONE_DISTINCT_TARGET_MEMORY_TYPE",
+  "schema_version": "multi-hop-memory-contract-v1",
+  "stage": "RQ2-C0-R2",
+  "status": "FROZEN_EXECUTABLE_NOT_RUN",
+  "success_requirement": "AT_LEAST_ONE_ADMITTED_MEMORY_PER_REQUIRED_TYPE"
+}

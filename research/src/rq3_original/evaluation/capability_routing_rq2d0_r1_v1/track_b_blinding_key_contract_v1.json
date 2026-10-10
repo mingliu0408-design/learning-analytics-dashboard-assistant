@@ -1,0 +1,18 @@
+{
+  "commitment_algorithm": "SHA256(b'RQ2_TRACK_B_BLIND_KEY_V1\\x00' + key_bytes)",
+  "durability": [
+    "file_fsync",
+    "parent_directory_fsync",
+    "reread_verification"
+  ],
+  "environment_reusable_key_permitted": false,
+  "fixed_key_permitted_in_real_mode": false,
+  "key_file": "LOCAL_ONLY_MODE_0600",
+  "key_length_bytes": 32,
+  "opaque_id_algorithm": "TBV1- + first16UpperHex(HMAC-SHA256(key, b'RQ2_TRACK_B_REVIEW_CASE_V1\\x00' + raw_scenario_id))",
+  "opaque_id_collision_check_count": 48,
+  "raw_key_in_git_review_logs_stdout_or_safe_json": false,
+  "real_key_generation": "secrets.token_bytes(32)",
+  "schema_version": "track-b-blinding-key-contract-v1",
+  "status": "FROZEN_BEFORE_D1"
+}

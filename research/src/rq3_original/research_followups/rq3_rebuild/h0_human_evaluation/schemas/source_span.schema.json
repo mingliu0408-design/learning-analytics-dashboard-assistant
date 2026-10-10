@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "kind",
+    "document_or_session_id",
+    "version",
+    "exact_span",
+    "sha256",
+    "scope",
+    "event_time",
+    "captured_at",
+    "valid_from",
+    "valid_to",
+    "supersedes",
+    "permission_reference",
+    "pre_target_readiness_reference",
+    "state",
+    "permitted_use"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "document_or_session_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "exact_span": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "event_time": {
+      "type": "string"
+    },
+    "captured_at": {
+      "type": "string"
+    },
+    "valid_from": {
+      "type": "string"
+    },
+    "valid_to": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "permission_reference": {
+      "type": "string"
+    },
+    "pre_target_readiness_reference": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "permitted_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

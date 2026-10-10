@@ -1,0 +1,34 @@
+{
+  "authority_builder": "ChatGPT out-of-band schema-authority builder",
+  "authority_builder_access_not_used_for": [
+    "Capability label creation",
+    "human review or adjudication",
+    "P1/P2 policy modification",
+    "threshold selection",
+    "model training",
+    "model evaluation",
+    "production behaviour changes"
+  ],
+  "authority_builder_access_purpose": [
+    "byte-format characterisation",
+    "exact header and column-order extraction",
+    "field-type and blank-convention validation",
+    "record-order commitment construction",
+    "safe schema package generation"
+  ],
+  "created_date": "2026-08-27",
+  "d0_boundary_statement": "D0/Codex still performs no raw Track B access. A separate out-of-band authority-building step accessed the hash-matched asset solely to produce this safe schema authority.",
+  "existing_intent_or_model_outputs_used_to_form_capability_gold": false,
+  "future_firewall": {
+    "authority_builder_must_not_act_as_track_b_reviewer_or_adjudicator": true,
+    "future_assistance_limited_to_safe_governance_checksum_and_aggregate_review": true,
+    "no_policy_or_threshold_change_based_on_track_b_semantics": true
+  },
+  "methodological_disclosure_required": true,
+  "raw_asset_accessed_by_authority_builder": true,
+  "raw_asset_accessed_by_codex_or_repository_pipeline": false,
+  "raw_query_or_history_exported_in_package": false,
+  "schema_version": "track-b-schema-authority-provenance-v1",
+  "source_file_sha256": "52c14dbc9e79b3c211e47ffd72697ec6ed87eec0478353066eb5d2f1ab45f351",
+  "status": "OUT_OF_BAND_AUTHORITY_EXTRACTION_COMPLETE"
+}

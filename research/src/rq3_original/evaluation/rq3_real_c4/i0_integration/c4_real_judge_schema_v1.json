@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.example/research/rq3/rq3-judge-response-schema-v1.json",
+  "title": "RQ3-0B4 blind judge response v1",
+  "description": "Strict output contract. Applicability-dependent 1-5 versus NA validation and local aggregate recomputation are additionally enforced by rq3_judge_response_parser.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "response_blind_id",
+    "clarity",
+    "personalisation",
+    "actionability",
+    "context_awareness",
+    "motivation_and_engagement",
+    "reliability",
+    "multi_page_cohesiveness",
+    "error_handling",
+    "evidence_faithfulness",
+    "unsupported_claim_count",
+    "overall_applicable_mean",
+    "criterion_rationales",
+    "schema_version"
+  ],
+  "properties": {
+    "response_blind_id": {
+      "type": "string",
+      "pattern": "^R3B-[A-F0-9]{20}$"
+    },
+    "clarity": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "personalisation": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "actionability": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "context_awareness": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "motivation_and_engagement": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "reliability": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "multi_page_cohesiveness": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "error_handling": {
+      "$ref": "#/$defs/primaryScore"
+    },
+    "evidence_faithfulness": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Secondary technical audit; excluded from OVERALL_APPLICABLE_MEAN."
+    },
+    "unsupported_claim_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Secondary technical audit; excluded from OVERALL_APPLICABLE_MEAN."
+    },
+    "overall_applicable_mean": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Judge-reported integrity value. The authoritative value is recomputed locally from applicable primary scores."
+    },
+    "criterion_rationales": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clarity",
+        "personalisation",
+        "actionability",
+        "context_awareness",
+        "motivation_and_engagement",
+        "reliability",
+        "multi_page_cohesiveness",
+        "error_handling"
+      ],
+      "properties": {
+        "clarity": {
+          "$ref": "#/$defs/rationale"
+        },
+        "personalisation": {
+          "$ref": "#/$defs/rationale"
+        },
+        "actionability": {
+          "$ref": "#/$defs/rationale"
+        },
+        "context_awareness": {
+          "$ref": "#/$defs/rationale"
+        },
+        "motivation_and_engagement": {
+          "$ref": "#/$defs/rationale"
+        },
+        "reliability": {
+          "$ref": "#/$defs/rationale"
+        },
+        "multi_page_cohesiveness": {
+          "$ref": "#/$defs/rationale"
+        },
+        "error_handling": {
+          "$ref": "#/$defs/rationale"
+        }
+      }
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "rq3-judge-response-v1"
+    }
+  },
+  "$defs": {
+    "primaryScore": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        {
+          "type": "string",
+          "const": "NA"
+        }
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    }
+  },
+  "x-local-validation": {
+    "implementation": "rq3_judge_response_parser.py::parse_judge_response",
+    "applicable_primary_score": "integer 1-5 required",
+    "non_applicable_primary_score": "exact string NA required",
+    "minimum_applicable_primary_scores": 3,
+    "overall_formula": "mean of applicable primary scores only",
+    "judge_reported_overall_trusted": false,
+    "duplicate_json_keys_rejected": true,
+    "json_booleans_as_integers_rejected": true
+  }
+}

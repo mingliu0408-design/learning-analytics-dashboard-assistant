@@ -1,0 +1,34 @@
+{
+  "caller_identity_authentication": false,
+  "canonical_json": {
+    "dataclass_fields_by_name": true,
+    "encoding": "UTF-8",
+    "ensure_ascii": false,
+    "mapping_keys_sorted": true,
+    "nan_and_infinity_allowed": false,
+    "separators": [
+      ",",
+      ":"
+    ],
+    "sequence_order_preserved": true,
+    "sort_keys": true,
+    "string_exact": true
+  },
+  "composite_domain_hex": "5251325f56414c4944415445445f4d454d4f52595f42554e444c455f56315f3400",
+  "contract_id": "VALIDATED_MEMORY_BUNDLE_FINGERPRINT_V1",
+  "digital_signature": false,
+  "episode_domain_hex": "5251325f4d454d4f52595f455049534f44455f42494e44494e475f563100",
+  "integrity_binding": true,
+  "payload_ref_domain_hex": "5251325f4d454d4f52595f5041594c4f41445f5245465f42494e44494e475f563100",
+  "private_payload_domain_hex": "5251325f4d454d4f52595f505249564154455f5041594c4f41445f42494e44494e475f563100",
+  "private_payload_text_participates_in_local_fingerprint": true,
+  "private_payload_text_review_zip_eligible": false,
+  "private_payload_text_tracked": false,
+  "r4_validator_id": "PERSISTENT_MEMORY_PAYLOAD_BINDING_V1_3",
+  "r5_validator_id": "PERSISTENT_MEMORY_VALIDATED_BUNDLE_V1_4",
+  "schema_version": "bundle-fingerprint-contract-v1",
+  "secret_mac": false,
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN",
+  "validation_contract_hash": "2760fe9dc9a6e8694ec6d734ae415a9d91aa6efcc3255bb111a20aa1f4520891"
+}

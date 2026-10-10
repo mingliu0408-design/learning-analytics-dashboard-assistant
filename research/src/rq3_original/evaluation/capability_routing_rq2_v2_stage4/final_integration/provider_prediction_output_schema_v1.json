@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "annotation_case_id": {
+      "type": "string"
+    },
+    "attempt_records": {
+      "maxItems": 2,
+      "minItems": 1,
+      "type": "array"
+    },
+    "execution_status": {
+      "enum": [
+        "VALID_PREDICTION",
+        "INVALID_TERMINAL_RESULT",
+        "PROVIDER_ERROR"
+      ]
+    },
+    "logical_call_id": {
+      "type": "string"
+    },
+    "logical_case_id": {
+      "type": "string"
+    },
+    "method_id": {
+      "enum": [
+        "R2V2-B4_JOINT_LLM",
+        "R2V2-RAG_SPECIALIST",
+        "R2V2-MEMORY_SPECIALIST"
+      ]
+    },
+    "physical_attempts": {
+      "maximum": 2,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "prediction": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "rq2-v2-stage4n-provider-test-terminal-result-v1"
+    },
+    "scoring_performed": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "logical_case_id",
+    "logical_call_id",
+    "annotation_case_id",
+    "method_id",
+    "execution_status",
+    "physical_attempts",
+    "attempt_records",
+    "prediction",
+    "scoring_performed"
+  ],
+  "title": "RQ2-V2 provider TEST terminal result",
+  "type": "object"
+}

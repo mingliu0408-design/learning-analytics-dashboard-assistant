@@ -1,0 +1,129 @@
+{
+  "schema_version": "rq2-v2-stage4g-clarification-candidates-v1",
+  "gate_id": "R2V2-CG1_CLARIFICATION_RULE",
+  "candidate_status": "FROZEN_PREDECLARED_BEFORE_DEV_SCORING",
+  "performance_metrics_calculated_at_declaration": false,
+  "primary_feature_profile": "R2V2_PRIMARY_SEMANTIC_INPUT_V1",
+  "model_visible_fields": [
+    "current_query",
+    "current_page",
+    "dashboard_context",
+    "visible_conversation_history"
+  ],
+  "prohibited_runtime_features": [
+    "annotation_case_id",
+    "scenario_family_id",
+    "dev_atomic_component_id",
+    "dev_contrast_group_id",
+    "dev_contrast_axis",
+    "fold_id",
+    "fold_role",
+    "final_dialogue_action",
+    "final_rag_required",
+    "final_memory_required",
+    "final_planning_required",
+    "final_routing_signature",
+    "partition",
+    "writer_id"
+  ],
+  "shared_lexical_contract": {
+    "unresolved_reference_patterns": [
+      "\\b(?:this|that|those|these|it)\\b"
+    ],
+    "temporal_reference_patterns": [
+      "\\bbefore\\s+then\\b"
+    ],
+    "explicit_selection_patterns": [
+      "\\b(?:explicitly\\s+)?selected\\b",
+      "\\bexplicitly\\s+highlighted\\b"
+    ],
+    "explicitly_unselected_patterns": [
+      "\\b(?:no|neither|none)\\b.{0,80}\\bselected\\b",
+      "\\bno\\s+(?:draft|dimension|group|item|checkpoint|result|percentage|resource)\\b.{0,60}\\bselected\\b"
+    ],
+    "plausible_target_markers": [
+      "distinct Week-number references",
+      "distinct Lecture-number references",
+      "distinct visible percentages",
+      "bounded English number words from two through five",
+      "the words both, multiple, or simultaneously"
+    ],
+    "history_resolution_method": "A non-empty visible user turn resolves the reference only when it has a non-trivial case-folded token overlap with the current query.",
+    "activity_identity_patterns": [
+      "\\b(?:activity|activities|lecture|resource|reading|video|debate|discussion|reflection|checkpoint|task|assignment|submission)\\b"
+    ],
+    "deadline_identity_patterns": [
+      "\\b(?:deadline|due|submission|today|tomorrow|monday|tuesday|wednesday|thursday|friday|saturday|sunday|\\d+\\s+(?:hours?|days?|weeks?))\\b"
+    ]
+  },
+  "candidates": [
+    {
+      "config_id": "R2V2-CG1-C01_REFERENCE_MULTI_TARGET_UNSELECTED",
+      "simplicity_rank": 1,
+      "reference_clause": {
+        "enabled": true,
+        "min_plausible_visible_targets": 2,
+        "require_explicitly_unselected": true,
+        "require_no_explicit_selection": true,
+        "require_history_unresolved": true
+      },
+      "temporal_clause": {
+        "enabled": false,
+        "require_activity_unidentified": true,
+        "require_deadline_unidentified": true
+      }
+    },
+    {
+      "config_id": "R2V2-CG1-C02_REFERENCE_MULTI_TARGET_OR_TEMPORAL",
+      "simplicity_rank": 2,
+      "reference_clause": {
+        "enabled": true,
+        "min_plausible_visible_targets": 2,
+        "require_explicitly_unselected": true,
+        "require_no_explicit_selection": true,
+        "require_history_unresolved": true
+      },
+      "temporal_clause": {
+        "enabled": true,
+        "require_activity_unidentified": true,
+        "require_deadline_unidentified": true
+      }
+    },
+    {
+      "config_id": "R2V2-CG1-C03_REFERENCE_ANY_TARGET_OR_TEMPORAL",
+      "simplicity_rank": 3,
+      "reference_clause": {
+        "enabled": true,
+        "min_plausible_visible_targets": 1,
+        "require_explicitly_unselected": true,
+        "require_no_explicit_selection": true,
+        "require_history_unresolved": true
+      },
+      "temporal_clause": {
+        "enabled": true,
+        "require_activity_unidentified": true,
+        "require_deadline_unidentified": true
+      }
+    }
+  ],
+  "deterministic_simplicity_order": [
+    "R2V2-CG1-C01_REFERENCE_MULTI_TARGET_UNSELECTED",
+    "R2V2-CG1-C02_REFERENCE_MULTI_TARGET_OR_TEMPORAL",
+    "R2V2-CG1-C03_REFERENCE_ANY_TARGET_OR_TEMPORAL"
+  ],
+  "selection_order": [
+    "higher_clarify_f1",
+    "higher_dialogue_action_accuracy",
+    "lower_false_clarify_rate_on_gold_answer",
+    "higher_clarify_recall",
+    "simpler_predeclared_configuration",
+    "deterministic_config_id"
+  ],
+  "governance": {
+    "case_id_specific_conditions": false,
+    "family_id_specific_conditions": false,
+    "exact_full_query_lookup_table": false,
+    "gold_labels_are_runtime_features": false,
+    "candidate_mutation_after_scoring_permitted": false
+  }
+}

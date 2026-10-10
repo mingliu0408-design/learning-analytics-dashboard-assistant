@@ -1,0 +1,18 @@
+{
+  "status": "BLANK_NOT_ATTESTED",
+  "task_id": "",
+  "reviewer_id": "",
+  "independent_of_writer": null,
+  "source_authenticity_checked": null,
+  "permission_checked": null,
+  "scope_and_time_checked": null,
+  "natural_utterance_checked": null,
+  "runtime_evaluator_separation_checked": null,
+  "grouping_and_exposure_checked": null,
+  "applicability_checked_before_answers": null,
+  "multi_page_observability_checked": null,
+  "decision": "",
+  "notes": "",
+  "reviewed_at": "",
+  "signature": ""
+}

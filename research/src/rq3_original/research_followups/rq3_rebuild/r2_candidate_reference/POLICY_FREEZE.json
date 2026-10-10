@@ -1,0 +1,29 @@
+{
+  "coverage_audit_sha256": "63be9d819804974a0e1b1c1bec2124d0582eff49c5a87e464e8f35090e666be5",
+  "files": {
+    "CANDIDATE_POOLS.json": "4d0a99b676d77dbb20340eca7e867065806273c040723efbf23511501cad3e2c",
+    "EFFECTIVE_CONFIG.json": "c18ab88c78da9c83a2a02babdd0534eb300e53223db9f2c8dea3ed93890e0859",
+    "POLICIES.json": "5cb3532bab7815aa1e69bf7e8ecbcbc735a15dcff3199b2f69b0f846b4990521",
+    "SAVED_RANKING_INPUTS.json": "de9a5a1e7f7ba781315c475b86b5cdd963ff4654fe695f9dfbcfefb2a532da9c",
+    "policies.py": "c57f33787db82fd3fa712f09eadf531a8fce5e67bd7ad1a4f01df3050a38b9af"
+  },
+  "frozen_utc": "2026-09-06T23:07:03.709801+00:00",
+  "mixed_report_projection": "Only four whitelisted fields retained; policy function has no query, score, label, or file argument.",
+  "new_pair_scores_before_freeze": 0,
+  "reference_mapping_loaded_by_constructor": false,
+  "source_files": [
+    {
+      "bytes": 323886,
+      "path": "/Users/liuming/Downloads/rq2_v2_parallel/rq3-rebuild-r2-candidate-reference/research_followups/rq3_rebuild/r1_retrieval_lab/A_R0_DIAGNOSTICS.json",
+      "role": "SAVED_RANKING_PROJECTION_SOURCE",
+      "sha256": "0c6183c016e5db5abf6c7def1ed33461c852f1cf93bfda14115ddd6f2b14df6e"
+    },
+    {
+      "bytes": 113283,
+      "path": "/Users/liuming/Downloads/rq2_v2_parallel/rq3-rebuild-r2-candidate-reference/research_followups/rq3_rebuild/r1_retrieval_lab/C_HYBRID_DIAGNOSTICS.json",
+      "role": "SAVED_RANKING_PROJECTION_SOURCE",
+      "sha256": "86d327af7addfa375b372c12a1e50e87cc853571dd4f1aed0530390bd58afe5d"
+    }
+  ],
+  "start_head": "13d4bf9842f748e52777dd056ab17c17d6de86a4"
+}

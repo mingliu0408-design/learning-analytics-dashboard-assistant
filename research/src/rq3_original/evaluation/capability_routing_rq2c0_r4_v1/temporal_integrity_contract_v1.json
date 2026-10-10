@@ -1,0 +1,29 @@
+{
+  "accepted_zone_forms": [
+    "Z",
+    "+00:00",
+    "+01:00",
+    "-05:00"
+  ],
+  "comparison_instant": "UTC",
+  "fail_closed": true,
+  "failure_codes": [
+    "NAIVE_EVENT_TIME",
+    "NAIVE_CREATED_AT",
+    "NAIVE_INGESTED_AT",
+    "NAIVE_PAYLOAD_REF_CREATED_AT",
+    "EVENT_AFTER_CREATED",
+    "CREATED_AFTER_INGESTED",
+    "PAYLOAD_REF_TIME_NOT_INGESTION_TIME",
+    "INVALID_ISO_TIMESTAMP"
+  ],
+  "local_timezone_assumption_allowed": false,
+  "naive_datetime_allowed": false,
+  "ordering": "event_time <= created_at <= ingested_at",
+  "payload_reference_created_at": "SAME_INSTANT_AS_EPISODE_INGESTED_AT",
+  "schema_version": "temporal-integrity-contract-v1",
+  "stage": "RQ2-C0-R4",
+  "status": "FROZEN",
+  "timestamp_format": "ISO-8601_TIMEZONE_AWARE",
+  "timezone_abbreviation_allowed": false
+}

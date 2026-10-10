@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.local/schemas/rq2-v2-prediction-v1.schema.json",
+  "title": "RQ2-V2 shared router prediction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "model_id",
+    "dialogue_action",
+    "rag_required",
+    "memory_required",
+    "planning_required",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {"const": "rq2-v2-prediction-v1"},
+    "case_id": {"type": "string", "minLength": 1},
+    "model_id": {
+      "enum": [
+        "R2V2-B0_RULE",
+        "R2V2-B1_LEGACY_INTENT",
+        "R2V2-B2_PROTOTYPE",
+        "R2V2-B3_OVR",
+        "R2V2-B4_LLM",
+        "R2V2-P1_HYBRID"
+      ]
+    },
+    "dialogue_action": {"enum": ["ANSWER", "CLARIFY"]},
+    "rag_required": {"type": "boolean"},
+    "memory_required": {"type": "boolean"},
+    "planning_required": {"type": "boolean"},
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "execution_mode",
+        "provider_call_count",
+        "network_access",
+        "training_performed"
+      ],
+      "properties": {
+        "execution_mode": {"type": "string", "minLength": 1},
+        "provider_call_count": {"type": "integer", "minimum": 0},
+        "network_access": {"type": "boolean"},
+        "training_performed": {"type": "boolean"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"dialogue_action": {"const": "CLARIFY"}}},
+      "then": {
+        "properties": {
+          "rag_required": {"const": false},
+          "memory_required": {"const": false},
+          "planning_required": {"const": false}
+        }
+      }
+    }
+  ]
+}
+

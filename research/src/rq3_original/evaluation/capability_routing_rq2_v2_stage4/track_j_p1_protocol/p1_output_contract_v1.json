@@ -1,0 +1,132 @@
+{
+  "schema_version": "rq2-v2-stage4j0-p1-output-contract-v1",
+  "status": "FROZEN_PROTOCOL_NO_STAGE4J0_CASE_OUTPUTS",
+  "current_stage_execution": {
+    "p1_case_outputs_created": false,
+    "p1_scores_created": false,
+    "provider_calls": 0,
+    "test_records_accessed": 0
+  },
+  "future_case_level_output": {
+    "one_record_per_dev_answer_case": true,
+    "record_count": 64,
+    "required_fields": [
+      "annotation_case_id",
+      "outer_fold",
+      "policy_id",
+      "fallback_triggered",
+      "selected_router",
+      "fallback_outcome",
+      "predicted_rag_required",
+      "predicted_memory_required",
+      "predicted_planning_required",
+      "b4_valid_for_triggered_case",
+      "estimated_logical_b4_calls",
+      "b4_physical_attempt_count"
+    ],
+    "selected_router_values": [
+      "B3",
+      "B4"
+    ],
+    "fallback_outcome_values": [
+      "NOT_TRIGGERED_USED_B3",
+      "FALLBACK_SUCCEEDED_USED_B4",
+      "FALLBACK_FAILED_USED_B3"
+    ],
+    "invariants": [
+      "NOT_TRIGGERED_IMPLIES_COMPLETE_OUTPUT_EQUALS_B3",
+      "TRIGGERED_AND_VALID_B4_IMPLIES_COMPLETE_OUTPUT_EQUALS_B4",
+      "TRIGGERED_AND_INVALID_B4_IMPLIES_COMPLETE_OUTPUT_EQUALS_B3",
+      "LABEL_LEVEL_B3_B4_MIXING_IS_PROHIBITED",
+      "ONE_LOGICAL_B4_CALL_IS_ESTIMATED_IF_AND_ONLY_IF_FALLBACK_IS_TRIGGERED"
+    ]
+  },
+  "future_outer_fold_selection_output": {
+    "record_count": 4,
+    "required_fields": [
+      "outer_fold",
+      "selection_fold_ids",
+      "selection_answer_case_count",
+      "eligible_policy_metrics",
+      "selected_policy_id",
+      "outer_validation_answer_case_count",
+      "outer_validation_metrics"
+    ],
+    "eligible_policy_metric_record_count_per_outer_fold": 9,
+    "selection_answer_case_count": 48,
+    "outer_validation_answer_case_count": 16,
+    "outer_validation_gold_used_before_selected_policy_id_frozen": false
+  },
+  "future_primary_nested_output": {
+    "aggregation": "FOUR_UNTOUCHED_OUTER_VALIDATION_FOLDS",
+    "answer_case_count": 64,
+    "required_core_metrics": [
+      "macro_f1",
+      "exact_capability_set_match",
+      "jaccard",
+      "under_routing_rate",
+      "over_routing_rate"
+    ]
+  },
+  "future_final_full_dev_policy_freeze_output": {
+    "eligible_policy_score_count": 9,
+    "diagnostic_policy_excluded": "P1-DIAG-ALL-B4",
+    "required_fields": [
+      "final_policy_id",
+      "fallback_definition",
+      "fallback_rate",
+      "estimated_b4_calls",
+      "b0_input_sha256",
+      "b2_input_sha256",
+      "b3_prediction_sha256",
+      "b3_probability_sha256",
+      "b4_result_sha256",
+      "clarification_gate_sha256",
+      "selection_tie_break_id"
+    ],
+    "selection_tie_break_id": "P1_FROZEN_LEXICOGRAPHIC_TIE_BREAK_V1",
+    "test_performance_used": false
+  },
+  "future_required_reporting": {
+    "core_and_route_metrics": [
+      "nested_core_capability_metrics",
+      "full_route_metrics_with_shared_clarification_gate",
+      "family_both_utterances_correct",
+      "contrast_consistency",
+      "page_stratified_metrics"
+    ],
+    "fallback_and_cost": [
+      "fallback_rate",
+      "estimated_logical_b4_calls",
+      "actual_logical_b4_calls_where_available",
+      "actual_physical_b4_attempts_where_available",
+      "estimated_cost_where_available",
+      "actual_cost_where_available",
+      "valid_b4_fallback_coverage",
+      "failed_fallback_count"
+    ],
+    "subset_metrics": {
+      "direct_b3_subset": "CASES_WITH_FALLBACK_TRIGGERED_FALSE",
+      "b4_fallback_triggered_subset": "ALL_CASES_WITH_FALLBACK_TRIGGERED_TRUE_INCLUDING_FAILED_FALLBACKS",
+      "valid_b4_fallback_subset": "TRIGGERED_CASES_WITH_FALLBACK_SUCCEEDED_USED_B4",
+      "failed_fallback_subset": "TRIGGERED_CASES_WITH_FALLBACK_FAILED_USED_B3"
+    },
+    "diagnostic": {
+      "policy_id": "P1-DIAG-ALL-B4",
+      "purpose": "B4_COST_CEILING",
+      "eligible_for_selection": false
+    }
+  },
+  "cost_governance": {
+    "cost_only_policy_selection_prohibited": true,
+    "fallback_rate_enters_after_accuracy_and_routing_tie_breaks": true,
+    "estimated_or_actual_cost_is_not_an_additional_selection_tie_break": true
+  },
+  "test_and_stage_boundaries": {
+    "test_input_in_outputs": false,
+    "test_gold_in_outputs": false,
+    "test_performance_in_outputs": false,
+    "rq3_output": false,
+    "production_output": false
+  }
+}

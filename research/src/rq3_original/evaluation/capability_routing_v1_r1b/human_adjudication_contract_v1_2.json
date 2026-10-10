@@ -1,0 +1,62 @@
+{
+  "adjudication_before_both_packets_frozen": false,
+  "adjudication_triggers": [
+    "CASE_VALIDITY_DISAGREEMENT",
+    "EITHER_REVIEWER_EXCLUDES",
+    "NATURALNESS_DIFFERENCE_AT_LEAST_TWO",
+    "CONTEXT_SUFFICIENT_DISAGREEMENT",
+    "CAPABILITY_UNAMBIGUOUS_DISAGREEMENT",
+    "CONTEXT_RESOLUTION_DISAGREEMENT",
+    "ANY_CAPABILITY_DISAGREEMENT",
+    "FORBIDDEN_CAPABILITY_DISAGREEMENT",
+    "EITHER_REVIEWER_UNCERTAIN",
+    "CONTEXT_LINK_VALID_DISAGREEMENT",
+    "EITHER_REVIEWER_REJECTS_CONTEXT_LINK"
+  ],
+  "authentic_hard_coverage_gate": false,
+  "authentic_query_rewrite_for_coverage": false,
+  "authentic_reporting_requirements": [
+    "INCLUDED_AUTHENTIC_COUNT",
+    "EACH_CAPABILITY_POSITIVE_COUNT",
+    "CONTEXT_LINK_CONFIRMED_COUNT",
+    "MULTI_CAPABILITY_COUNT",
+    "PAGE_DISTRIBUTION"
+  ],
+  "context_link_no_dispositions": [
+    "CONTINUE_AS_STANDALONE_QUERY",
+    "EXCLUDE_CONTEXT_INSUFFICIENT"
+  ],
+  "gold_roles": {
+    "authentic": "AUTHENTIC_CODEBOOK_CALIBRATION_GOLD",
+    "merged_source_erasing_gold_allowed": false,
+    "synthetic": "SYNTHETIC_COVERAGE_STRESS_GOLD"
+  },
+  "hidden_proposal_use_after_gold_freeze": "ERROR_ANALYSIS_ONLY",
+  "hidden_proposal_visible_before_final_human_decision": false,
+  "invalid_assistant_context_may_remain_in_capability_gold": false,
+  "query_rewrite_during_adjudication": false,
+  "rewrite_or_recombination_policy": {
+    "current_case_disposition": "EXCLUDE",
+    "direct_addition_to_current_gold": false,
+    "new_case_id_required": true,
+    "new_independent_two_reviewer_round_required": true
+  },
+  "schema_version": "human-adjudication-contract-v1.2",
+  "stage": "RQ2-A-R1B",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "synthetic_coverage_calculator": "evaluate_coverage",
+  "synthetic_coverage_gate": {
+    "clarification_positive_minimum": 2,
+    "context_resolution_positive_minimum": 4,
+    "each_capability_positive_minimum": 2,
+    "failure_status": "BLOCKED_RQ2_A_R2_CALIBRATION_COVERAGE",
+    "included_synthetic_cases_minimum": 20,
+    "multi_capability_cases_minimum": 4,
+    "safe_direct_response_positive_minimum": 2
+  },
+  "threshold_rules": {
+    "authentic_threshold_selection_eligible": false,
+    "synthetic_controlled_threshold_development_eligible": true,
+    "track_b_only_contextual_final_heldout": true
+  }
+}

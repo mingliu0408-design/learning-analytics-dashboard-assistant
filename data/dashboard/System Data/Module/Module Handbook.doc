@@ -1,0 +1,1497 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="EN-GB" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <meta name="ProgId" content="Word.Document"/>
+    <meta name="Generator" content="Microsoft Word 11"/>
+    <meta name="Originator" content="Microsoft Word 11"/>
+    <!-- Folder and file name for header and footer info
+<?replace insert-filelist-filename?>
+-->
+    <title>
+      
+    </title>
+    <xml>
+      <o:DocumentProperties xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:Author>Yildiz Uzun</o:Author>
+        <o:Template>moodleBook.dotx</o:Template>
+        <o:LastAuthor>Yildiz Uzun</o:LastAuthor>
+        <o:Title/>
+        <o:Revision>1</o:Revision>
+        <o:TotalTime>1</o:TotalTime>
+        <o:LastPrinted>2009-03-13T16:29:00Z</o:LastPrinted>
+        <o:Created>2009-03-13T16:51:00Z</o:Created>
+        <o:LastSaved>2009-03-13T16:51:00Z</o:LastSaved>
+        <o:Pages>1</o:Pages>
+        <o:Company/>
+        <o:Lines>1</o:Lines>
+        <o:Paragraphs>1</o:Paragraphs>
+        <o:Version>11.5606</o:Version>
+      </o:DocumentProperties>
+  <o:CustomDocumentProperties xmlns:o="urn:schemas-microsoft-com:office:office">
+  <o:DC.Type>Book</o:DC.Type><o:moodleCourseID>51298</o:moodleCourseID><o:moodleImages>4</o:moodleImages><o:moodleLanguage>en</o:moodleLanguage><o:moodleRelease>4.5.10+ (Build: 20260306)</o:moodleRelease><o:moodleURL>https://moodle.ucl.ac.uk/</o:moodleURL><o:moodleUsername>dtnvyuz</o:moodleUsername>
+  </o:CustomDocumentProperties>
+    </xml>
+    <xml>
+      <w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+        <w:AttachedTemplate HRef="moodleBook.dotx"/>
+        <!--
+<w:UpdateStylesOnOpen/>
+ -->
+        <w:PunctuationKerning/>
+        <w:ValidateAgainstSchemas/>
+        <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+        <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+        <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+        <w:View>Print</w:View>
+        <w:Compatibility>
+          <w:BreakWrappedTables/>
+          <w:SnapToGridInCell/>
+          <w:WrapTextWithPunct/>
+          <w:UseAsianBreakRules/>
+          <w:DontGrowAutofit/>
+        </w:Compatibility>
+        <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+      </w:WordDocument>
+    </xml>
+    <xml>
+      <w:LatentStyles xmlns:w="urn:schemas-microsoft-com:office:word" DefLockedState="false" LatentStyleCount="156"/>
+    </xml>
+    <style>
+p.MsoListTitle, li.MsoListTitle, div.MsoListTitle
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.25in;
+text-align:center;
+text-indent:0;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Arial";
+font-weight:bold;
+mso-style-name:"List Title";
+mso-style-next:"Body Text"
+}
+/* Numbered style definitions: do not edit by hand */
+
+h1
+  {mso-style-next:"Body Text Indent";
+  mso-margin-top-alt:24.0pt;
+  margin-top:24pt;
+  margin-right:0cm;
+  margin-bottom:16.0pt;
+  margin-left:0cm;
+  line-height:16.0pt;
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-outline-level:1;
+  tab-stops:0cm list 54.0pt;
+  font-size:14.0pt;
+  font-family:Arial;
+  mso-font-kerning:0pt;
+  mso-ansi-language:EN-GB;
+  font-weight:bold;}
+h2
+  {mso-style-next:"Body Text Indent";
+  mso-margin-top-alt:12.0pt;
+  margin-top:12.0pt;
+  margin-right:0cm;
+  margin-bottom:3.0pt;
+  margin-left:0cm;
+  mso-line-height-alt:12.0pt;
+  mso-pagination:widow-orphan lines-together;
+  page-break-after:avoid;
+  mso-outline-level:2;
+  tab-stops:0cm list 54.0pt 72.0pt;
+  font-size:13.0pt;
+  font-family:Arial;
+  mso-ansi-language:EN-GB;
+  font-weight:bold;}
+h3
+{
+mso-style-next:"Body Text Indent";
+mso-margin-top-alt:12.0pt;
+margin-top:12.0pt;
+margin-right:0in;
+margin-bottom:6.0pt;
+margin-left:0cm;
+line-height:12.0pt;
+mso-pagination:widow-orphan lines-together;
+page-break-after:avoid;
+font-family:"Arial";
+mso-style-name:"Heading 3";
+font-size:12.0pt;
+mso-ansi-language:EN-GB;
+font-weight:bold;}
+h4
+{
+mso-style-next:"Body Text Indent";
+mso-margin-top-alt:12.0pt;
+margin-top:12.0pt;
+margin-right:0in;
+margin-bottom:6.0pt;
+margin-left:0cm;
+line-height:12.0pt;
+mso-pagination:widow-orphan lines-together;
+page-break-after:avoid;
+font-family:"Arial";
+mso-style-name:"Heading 4";
+font-size:11.0pt;
+font-weight:bold;
+mso-ansi-language:EN-GB;
+}
+h5
+{
+mso-style-next:"Body Text Indent";
+mso-margin-top-alt:12.0pt;
+margin-top:12.0pt;
+margin-right:0in;
+margin-bottom:6.0pt;
+margin-left:0cm;
+line-height:12.0pt;
+mso-pagination:widow-orphan lines-together;
+page-break-after:avoid;
+font-family:"Arial";
+mso-style-name:"Heading 5";
+font-size:11.0pt;
+font-weight:bold;
+font-style:italic;
+mso-ansi-language:EN-GB;
+}
+h6
+{
+mso-style-next:"Body Text Indent";
+margin-top:12.0pt;
+margin-right:0in;
+margin-bottom:6.0pt;
+margin-left:0cm;
+line-height:12.0pt;
+mso-pagination:widow-orphan lines-together;
+page-break-after:avoid;
+font-family:"Arial";
+mso-style-name:"Heading 6";
+font-size:11.0pt;
+font-weight:normal;
+font-style:italic;
+mso-ansi-language:EN-GB;
+}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.25in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+tab-stops:list .25in;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Bullet";
+mso-ansi-language:EN-GB;
+mso-list:l2 level1 lfo2;}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.5in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+tab-stops:list .5in;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Bullet 2";
+mso-ansi-language:EN-GB;
+mso-list:l2 level2 lfo2;}
+p.MsoListBullet3, li.MsoListBullet3, div.MsoListBullet3
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.75in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+tab-stops:list .75in;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Bullet 3";
+mso-ansi-language:EN-GB;
+mso-list:l2 level3 lfo2;}
+p.MsoListBullet4, li.MsoListBullet4, div.MsoListBullet4
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:1in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+tab-stops:list 1in;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Bullet 4";
+mso-list:l2 level4 lfo2;}
+p.ListNumberReset, li.ListNumberReset, div.ListNumberReset
+{mso-style-name:"List Number Reset";
+margin:0cm;
+font-size:9pt;
+text-align:center;
+font-weight:bold;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-list:l4 level1 lfo4;}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.25in;
+text-align:left;
+text-indent:-0.25in;
+line-height:11.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Number";
+tab-stops:list .25in;
+mso-ansi-language:EN-GB;
+mso-list:l4 level2 lfo4;}
+p.MsoListContinue, li.MsoListContinue, div.MsoListContinue
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.25in;
+text-align:left;
+text-indent:0;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-style-name:"List Continue";}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.5in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-style-name:"List Number 2";
+tab-stops:list .5in;
+mso-list:l4 level3 lfo4;}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.5in;
+text-align:left;
+text-indent:0;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-style-name:"List Continue 2";}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.75in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Number 3";
+tab-stops:list .75in;
+mso-ansi-language:EN-GB;
+mso-list:l4 level4 lfo4;}
+p.MsoListContinue3, li.MsoListContinue3, div.MsoListContinue3
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.75in;
+text-align:left;
+text-indent:0;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-style-name:"List Continue 3";}
+p.MsoListNumber4, li.MsoListNumber4, div.MsoListNumber4
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:1in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-style-name:"List Number 4";
+tab-stops:list 1.0in;
+mso-ansi-language:EN-GB;
+mso-list:l4 level5 lfo4;}
+p.MsoListContinue4, li.MsoListContinue4, div.MsoListContinue4
+{
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:1in;
+text-align:left;
+text-indent:0;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-ansi-language:EN-GB;
+mso-style-name:"List Continue 4";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+{
+mso-style-name:"Caption";
+mso-style-next:"Body Text";
+margin-top:3.0pt;
+margin-right:0in;
+margin-bottom:3.0pt;
+margin-left:0.75in;
+text-indent:-.75in;
+tab-stops:list .75in 1in;
+mso-pagination:widow-orphan;
+font-size:9.0pt;
+font-weight:bold;
+font-family:"Arial";
+mso-ansi-language:EN-GB;
+}
+p.TableTitle, li.TableTitle, div.TableTitle
+{
+mso-style-name:"Table Title";
+mso-margin-top-alt:0.25in;
+margin-top:0.25in;
+margin-right:0in;
+mso-margin-bottom-alt:0in;
+margin-bottom:0in;
+margin-left:0.75in;
+text-indent:-.75in;
+tab-stops:.75in;
+line-height:12.0pt;
+page-break-after:avoid;
+mso-pagination:widow-orphan;
+font-size:9.0pt;
+font-family:"Arial";
+font-weight:bold;
+mso-ansi-language:EN-GB;
+}
+p.QFQuestion, li.QFQuestion, div.QFQuestion
+{
+mso-style-name:"QF Question";
+margin-top:12.0pt;
+margin-left:0in;
+margin-right:0in;
+margin-bottom:2.0pt;
+tab-stops:list 0in 0.25in 0.5in;
+text-indent:-0.35in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+font-size:9.0pt;
+font-family:"Arial";
+mso-ansi-language:EN-GB;
+mso-list:l10 level2 lfo10;}
+p.QFOptionReset, li.QFOptionReset, div.QFOptionReset
+{mso-style-name:"QF Option Reset";
+margin:0cm;
+margin-left:0in;
+font-size:10pt;
+text-align:center;
+font-weight:bold;
+font-family:"Arial";
+mso-ansi-language:EN-GB;
+mso-list:l12 level1 lfo12;}
+p.QFOption, li.QFOption, div.QFOption
+{
+margin-top:3pt;
+margin-left:3pt;
+margin-right:3pt;
+margin-bottom:3pt;
+text-indent:0in;
+line-height:11.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Arial";
+mso-style-name:"QF Option";
+mso-style-next:"QF Option";
+page-break-after:avoid;
+tab-stops:list 0.20in;
+mso-ansi-language:EN-GB;
+mso-list:l12 level2 lfo12;}
+p.ListNumberalphaReset, li.ListNumberalphaReset, div.ListNumberalphaReset
+{mso-style-name:"List Number alpha Reset";
+margin:0cm;
+font-size:1pt;
+mso-ansi-language:EN-GB;
+mso-list:l13 level1 lfo13;}
+p.ListNumberalpha, li.ListNumberalpha, div.ListNumberalpha
+{
+mso-style-name:"List Number alpha";
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:0.25in;
+text-align:left;
+text-indent:-0.25in;
+line-height:12.0pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+tab-stops:list .25in;
+mso-ansi-language:EN-GB;
+mso-list:l13 level2 lfo13;}
+</style>
+    <style>
+
+ /* Style Definitions */
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+  {mso-margin-top-alt:auto;
+  margin-right:0cm;
+  mso-margin-bottom-alt:auto;
+  margin-left:0cm;
+  line-height:16.0pt;
+  mso-pagination:widow-orphan;
+  font-size:16.0pt;
+  font-family:Arial;
+  mso-fareast-font-family:"Times New Roman";
+  mso-ansi-language:EN-GB;
+  font-weight:bold;
+  mso-bidi-font-weight:normal;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+  {mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:14.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:14.0pt;
+  font-family:"Arial", Palatino;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+  {mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:12.0pt;
+  font-family:"Times New Roman", Palatino;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+  {
+  margin-top:6.0pt;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:0in;
+  margin-bottom:.0001pt;
+  text-align:justify;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  tab-stops:.35in right dotted 5.0in;
+  border:none;
+  mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in;
+  mso-padding-alt:1.0pt 0in 1.0pt 0in;
+  mso-ansi-language:EN-GB;
+  font-size:8.5pt;
+  font-family:Arial, "Frutiger 55 Roman";
+  font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+  {margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0in;
+  text-align:left;
+  line-height:12.0pt;
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;}
+span.MsoFootnoteReference
+  {vertical-align:super;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+  {mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:12.0pt;
+  font-family:"Times New Roman", Palatino;}
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+  {
+  mso-style-parent:"";
+  margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0in;
+  text-align:left;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+  {margin-top:3.0pt;
+  margin-right:0.25in;
+  margin-bottom:3.0pt;
+  margin-left:0.25in;
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  line-height:11.0pt;
+  font-family:"Arial";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+  {
+  margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0in;
+  text-align:left;
+  text-indent:12.25pt;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  layout-grid-mode:char;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;
+  mso-hansi-font-family:"Times New Roman";}
+
+p.MsoBodyTextFirst, li.MsoBodyTextFirst, div.MsoBodyTextFirst
+  {mso-style-name:"Body Text First";
+  mso-style-parent:"Body Text";
+  margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0in;
+  text-align:left;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  layout-grid-mode:char;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;
+  mso-hansi-font-family:"Times New Roman";}
+p.BlockQuote, li.BlockQuote, div.BlockQuote
+  {mso-style-name:"Block Quote";
+  margin-top:3.0pt;
+  margin-right:18.0pt;
+  margin-bottom:3.0pt;
+  margin-left:18.0pt;
+  text-align:left;
+  line-height:12.0pt;
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-family:Arial;}
+p.Figure, li.Figure, div.Figure
+  {mso-style-name:"Figure";
+  mso-style-parent:"Body Text";
+  mso-style-next:"Body Text";
+  margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0.0pt;
+  /*line-height:12.0pt; Omit line height, so that figure displays in full */
+  page-break-after:avoid;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  layout-grid-mode:char;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;
+  mso-hansi-font-family:"Times New Roman";}
+p.QFNormal, li.QFNormal, div.QFNormal
+  {mso-style-name:"QF Normal";
+  margin-top:3.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0in;
+  line-height:11.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-family:Arial, "Frutiger 55 Roman";}
+p.QFHeading, li.QFHeading, div.QFHeading
+  {mso-style-name:"QF Heading";
+  mso-style-next:"QF Normal";
+  margin-top:6.0pt;
+  margin-right:0in;
+  margin-bottom:3.0pt;
+  margin-left:0.0in; /* EC: Check this */
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:12.0pt;
+  font-family:Arial;
+  font-weight:bold;
+  font-style:italic;}
+p.QFFeedback, li.QFFeedback, div.QFFeedback
+  {mso-style-name:"QF Feedback";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  /*font-style:italic;*/
+  font-family:Arial;}
+p.QFGrade, li.QFGrade, div.QFGrade
+  {mso-style-name:"QF Grade";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:11.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-style:italic;
+  font-family:Arial;}
+p.QFType, li.QFType, div.QFType
+  {mso-style-name:"QF Type";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-style:italic;
+  font-family:Arial;
+  }
+p.QFName, li.QFName, div.QFName
+  {mso-style-name:"QF Name";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-style:italic;
+  font-family:Arial;
+}
+p.QFWeight, li.QFWeight, div.QFWeight
+  {mso-style-name:"QF Weight";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  text-align:right;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-style:italic;
+  font-family:Arial;}
+p.QFCaseStudy, li.QFCaseStudy, div.QFCaseStudy
+  {mso-style-name:"QF CaseStudy";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  text-align:left;
+  line-height:11.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-family:Arial, "Frutiger 55 Roman";}
+p.QFAnswer, li.QFAnswer, div.QFAnswer
+  {mso-style-name:"QF Answer";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  text-align:left;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-family:Arial, "Frutiger 55 Roman";}
+p.QFItemNumber, li.QFItemNumber, div.QFItemNumber
+{
+mso-style-name:"QF Item Number";
+mso-style-next:"QF Item Number";
+margin-top:0.0pt;
+margin-right:0in;
+margin-bottom:0.0pt;
+margin-left:0in;
+text-indent:0in;
+mso-pagination:widow-orphan;
+font-size:9.0pt;
+font-weight:bold;
+font-family:"Arial";
+mso-ansi-language:EN-GB;
+mso-list:l17 level2 lfo17;}
+p.QFID, li.QFID, div.QFID
+  {mso-style-name:"QF ID";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  text-align:left;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  /*font-style:italic;*/
+  font-family:Arial;}
+
+
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+  {margin-top:0in;
+  margin-right:0in;
+  margin-bottom:4.0pt;
+  margin-left:-1.0in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  tab-stops:right 415.3pt;
+  font-size:8.0pt;
+  font-family:Arial, "Eras Demi ITC";
+  font-weight:bold;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+  {margin-top:0in;
+  margin-right:0in;
+  margin-bottom:0in;
+  margin-left:.75in;
+  margin-bottom:.0001pt;
+  text-indent:-.75in;
+  line-height:12.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  tab-stops:center 207.65pt;
+  mso-ansi-language:EN-GB;
+  font-size:7.0pt;
+  font-family:Arial, "Eras Medium ITC";}
+
+
+strong
+{
+  font-weight:bold;
+}
+
+p.spacer, li.spacer, div.spacer
+  {mso-style-name:spacer;
+  mso-style-parent:"";
+  margin:0in;
+  margin-bottom:.0001pt;
+  mso-pagination:widow-orphan;
+  font-size:1.0pt;
+  font-family:Arial;
+  color:white;
+  mso-ansi-language:EN-GB;}
+
+
+
+
+/* Table Definitions */
+
+table
+  {border: solid;
+  mso-padding-alt: 0cm 0.0cm 0cm 0.0cm;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;}
+tr {
+  page-break-inside:avoid;
+}
+
+p.TableHead, li.TableHead, div.TableHead
+  {mso-style-name:"Table Head";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  line-height:11.0pt;
+  text-align:center;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-weight:bold;
+  font-family:"Arial";}
+p.TableRowHead, li.TableRowHead, div.TableRowHead
+  {mso-style-name:"Table Row Head";
+  mso-margin-top-alt:auto;
+  margin-right:0in;
+  mso-margin-bottom-alt:auto;
+  margin-left:0in;
+  text-align:left;
+  line-height:11.0pt;
+  /* mso-line-height-rule:exactly; */
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-weight:bold;
+  font-family:"Arial";}
+p.Cell, li.Cell, div.Cell
+  {mso-style-name:"Cell";
+  margin-top:1.0pt;
+  margin-right:.1in;
+  margin-bottom:2.0pt;
+  margin-left:2.0pt;
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:11.0pt;
+  font-family:Arial, "Frutiger 55 Roman";
+  }
+p.Cell2, li.Cell2, div.Cell2
+  {mso-style-name:"Cell2";
+  margin-top:1.0pt;
+  margin-right:0in;
+  margin-bottom:1.0pt;
+  margin-left:2.0pt;
+  mso-pagination:widow-orphan;
+  page-break-after:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:10.0pt;
+  font-family:"Times New Roman", Palatino;}
+p.TableNote
+  {mso-style-name:"Table Note";
+  margin-top:1.0pt;
+  margin-right:0in;
+  margin-bottom:1.0pt;
+  margin-left:0in;
+  mso-pagination:widow-orphan;
+  page-break-before:avoid;
+  mso-ansi-language:EN-GB;
+  font-size:9.0pt;
+  font-family:Arial, "Frutiger 55 Roman";
+}
+
+/* Bootstrap Alert Components */
+p.Success, li.Success, div.Success
+  {mso-style-name:"Success";
+  margin-top:6.0pt;
+  margin-right:18.0pt;
+  margin-bottom:6.0pt;
+  margin-left:18.0pt;
+  text-align:left;
+  line-height:13.0pt;
+  mso-pagination:widow-orphan;
+  background:#DFF0D8;
+  border: #D0E9C6;
+  mso-border-alt:solid #D0E9C6 .5pt;
+  mso-ansi-language:EN-GB;
+  font-size:11.0pt;
+  font-family:Arial;}
+
+p.Warning, li.Warning, div.Warning
+  {mso-style-name:"Warning";
+  margin-top:6.0pt;
+  margin-right:18.0pt;
+  margin-bottom:6.0pt;
+  margin-left:18.0pt;
+  text-align:left;
+  line-height:13.0pt;
+  mso-pagination:widow-orphan;
+  background:#FCF8E2;
+  border:#FBEED5;
+  mso-border-alt:solid #FBEED5 .5pt;
+  mso-ansi-language:EN-GB;
+  font-size:11.0pt;
+  font-family:Arial;}
+
+p.Info, li.Info, div.Info
+  {mso-style-name:"Info";
+  margin-top:6.0pt;
+  margin-right:18.0pt;
+  margin-bottom:6.0pt;
+  margin-left:18.0pt;
+  text-align:left;
+  line-height:13.0pt;
+  mso-pagination:widow-orphan;
+  background: #D9EDF7;
+  border:#BCE8F1;
+  mso-border-alt:solid #BCE8F1 .5pt;
+  mso-ansi-language:EN-GB;
+  font-size:11.0pt;
+  font-family:Arial;}
+
+p.Danger, li.Danger, div.Danger
+  {mso-style-name:"Danger";
+  margin-top:6.0pt;
+  margin-right:18.0pt;
+  margin-bottom:6.0pt;
+  margin-left:18.0pt;
+  text-align:left;
+  line-height:13.0pt;
+  mso-pagination:widow-orphan;
+  color:#B94A48;
+  background:#F2DEDE;
+  border:#EED3D7;
+  mso-border-alt:solid #EED3D7 .5pt;
+  mso-ansi-language:EN-GB;
+  font-size:11.0pt;
+  font-family:Arial;}
+
+
+</style>
+    <style>
+/* List definitions: do not edit by hand */
+
+@list l1
+{mso-list-id:100000001}
+@list l1:level1
+{
+mso-level-tab-stop:none;
+mso-level-text:"%1\.";
+mso-level-number-position:left;
+margin-left:0in;}
+@list l1:level2
+{
+mso-level-text:"%1\.%2";
+mso-level-number-position:left;}
+@list l1:level3
+{
+mso-level-text:"%1\.%2\.%3";
+mso-level-number-position:left;
+font-weight:normal;}
+@list l1:level4
+{
+mso-level-text:"%1\.%2\.%3\.%4";
+mso-level-number-position:left;
+font-weight:normal;}
+@list l1:level5
+{
+mso-level-text:"%1\.%2\.%3\.%4\.%5";
+mso-level-number-position:left;
+font-weight:normal;}
+@list l2
+{mso-list-id:100000002}
+@list l2:level1
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F0B7";
+mso-level-tab-stop:18.0pt;
+mso-level-number-position:left;
+margin-left:18.0pt;
+text-indent:-18.0pt;
+font-family:"Symbol";}
+@list l2:level2
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F02D";
+mso-level-tab-stop:36.0pt;
+mso-level-number-position:left;
+margin-left:36.0pt;
+text-indent:-18.0pt;
+font-family:"Symbol";}
+@list l2:level3
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F0A7";
+mso-level-tab-stop:54.0pt;
+mso-level-number-position:left;
+margin-left:54.0pt;
+text-indent:-18.0pt;
+font-family:"Wingdings";}
+@list l2:level4
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F0A0";
+mso-level-tab-stop:72.0pt;
+mso-level-number-position:left;
+margin-left:72.0pt;
+text-indent:-18.0pt;
+font-family:"Wingdings";}
+@list l3
+{mso-list-id:100000003}
+@list l3:level1
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F0B7";
+mso-level-number-position:left;
+font-family:"Symbol";}
+@list l3:level2
+{
+mso-level-number-format:bullet;
+mso-level-text:"";
+mso-level-number-position:left;
+font-family:"Arial";}
+@list l4
+{mso-list-id:100000004}
+@list l4:level1
+{
+mso-level-number-format:none;
+mso-level-style-link:"List Number Reset";}
+@list l4:level2
+{
+mso-level-number-format:decimal;
+mso-level-text:"%2\.";
+mso-level-tab-stop:36.0pt;
+mso-level-number-position:left;
+margin-left:36.0pt;
+text-indent:-18.0pt;}
+@list l4:level3
+{
+mso-level-number-format:alpha-lower;
+mso-level-text:"\(%3\)";
+mso-level-tab-stop:72.0pt;
+mso-level-number-position:left;
+margin-left:54.0pt;
+text-indent:-18.0pt;}
+@list l4:level4
+{
+mso-level-number-format:roman-lower;
+mso-level-text:"\(%4\)";
+mso-level-tab-stop:90.0pt;
+mso-level-number-position:left;
+margin-left:72.0pt;
+text-indent:-18.0pt;}
+@list l4:level5
+{
+mso-level-number-format:roman-upper;
+mso-level-text:"\(%5\)";
+mso-level-tab-stop:108.0pt;
+mso-level-number-position:left;
+margin-left:90.0pt;
+text-indent:-18.0pt;}
+@list l12
+{mso-list-id:100000012}
+@list l12:level1
+{
+mso-level-number-format:none;
+mso-level-text:"";
+mso-level-suffix:none;
+mso-level-style-link:"QF Option Reset";}
+@list l12:level2
+{
+mso-level-number-format:alpha-upper;
+mso-level-text:"%2\.";
+mso-level-number-position:left;}
+@list l13
+{mso-list-id:100000013}
+@list l13:level1
+{
+mso-level-number-format:none;
+mso-level-style-link:"List Number alpha Reset";}
+@list l13:level2
+{
+mso-level-number-format:alpha-lower;
+mso-level-text:"\(%2\)";
+mso-level-number-position:left;
+margin-left:36.0pt;
+text-indent:-18.0pt;}
+@list l15
+{mso-list-id:100000015}
+@list l15:level1
+{
+mso-level-text:"%1\.";
+mso-level-number-position:left;}
+@list l16
+{mso-list-id:100000016}
+@list l16:level1
+{
+mso-level-number-format:bullet;
+mso-level-text:"\F0B7";
+mso-level-tab-stop:18.0pt;
+mso-level-number-position:left;
+margin-left:18.0pt;
+text-indent:-18.0pt;
+font-family:"Symbol";}
+@list l17
+{mso-list-id:100000017}
+@list l17:level1
+{
+mso-level-text:"";
+mso-level-number-position:left;}
+@list l17:level2
+{
+mso-level-number-format:arabic-leading-zero;
+mso-level-suffix:none;
+mso-level-number-position:left;}
+</style>
+    <style>
+ /* Page Definitions */
+@page
+  {size:210mm 297mm;
+  margin:1.0in 1.0in 1.0in 1.0in;
+  mso-header-margin:35.3pt;
+  mso-footer-margin:35.3pt;
+  mso-page-numbers:1;
+  mso-page-numbers-chapter-style:header-1;
+  mso-title-page:yes;
+}
+@page Section
+  {size:210mm 297mm;
+  margin:1.0in 1.0in 1.0in 1.0in;
+  mso-header-margin:35.3pt;
+  mso-footer-margin:35.3pt;
+  mso-page-numbers:1;
+  mso-page-numbers-chapter-style:header-1;
+  mso-title-page:yes;
+  mso-paper-source:0;}
+div.Section
+  {page:Section;}
+
+
+</style>
+  </head>
+  <body lang="EN-UK" style="tab-interval:36.0pt">
+    <!--Institution: --><!--Moodle language: en--><!--Moodle URL: https://moodle.ucl.ac.uk/--><!--Course name: CCME0037: Design and Use of Artificial Intelligence in Education 25/26--><!--Course ID: 51298--><!--Author name: Yildiz Uzun--><!--Author ID: --><!--Author username: dtnvyuz--><!--Image handling: embedded--><!--Contains embedded images: 4-->
+<p class="Warning">Warning: this file must be opened using Word 2020 or Word 365 in order to handle embedded images correctly.</p>
+<p class="MsoTitle">Module Handbook</p><div class="chapter" id="intro"/><div class="chapter" id="207840"><h1 class="'MsoHeading1'">Module Overview</h1>
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+
+<h2 class="MsoHeading2">Module Summary</h2>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText" dir="ltr">Through a mixture of theoretical and practical insights, the <strong>Design and Use of AI in Education (DUTE_AI)</strong> module offers multiple different perspectives on AI and technology design and use for education. Technology as a construct is explored in its broadest terms to allow students to appreciate its continuous presence and role in the evolution of human cognition and both practical and intellectual innovation. However, the particular focus of the module is on learning analytics tools, approaches and technologies. Pertinent theoretical perspectives of learning are summarised to provide the grounding necessary for understanding different technological designs and implementations and to furnish students with an informed basis for critiquing and evaluating technologies as educational tools in varied contexts of use.  </p>&#13;
+<p class="MsoBodyText" dir="ltr">DUTE_AI module covers literature from learning analytics, AI in Education, and the learning sciences as well as the common statistical and machine learning approaches for educational data in real-world settings. In addition, the module discusses data-informed decision-making in the design and implementation of educational technologies as well as their evaluation in terms of their efficacy in achieving their intended educational outcomes in real-world contexts.</p>&#13;
+<p class="MsoBodyText" dir="ltr">Students will be engaging in all three social planes of learning. </p>&#13;
+<p class="MsoBodyText" dir="ltr">1) At the cohort level, students will engage in weekly discussions on the most significant promises and challenges of educational technologies.</p>&#13;
+<p class="MsoBodyText" dir="ltr">2) At the group level, students will work in interdisciplinary groups to construct their own potential solutions to significant educational challenges. Design solutions will be discussed in weekly face-to-face group activities and zoom calls through brainstorming and prototyping activities. </p>&#13;
+<p class="MsoBodyText" dir="ltr">3) At the individual level, students will work on a shared Python code to run their analyses and models, and document their individual reflections about the weekly content covered in the module. </p>&#13;
+<p class="MsoBodyText" dir="ltr">Students will use and experience some of the cutting-edge educational technologies as part of their engagement with the module as a way of promoting reflection on the current technology-enhanced learning practices.</p>&#13;
+
+<h2 class="MsoHeading2">Module Syllabus</h2>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText">This is an overview of the syllabus on DUTE_AI.  Details of each session and the related activities and readings will be published on an ongoing basis.</p>&#13;
+<div class="editor-indent" style="margin-left: 30px;"> </div>&#13;
+<p class="MsoBodyText"><strong>Session 1: </strong><strong>Introduction to Module's AI and Analytics Interventions</strong><strong style="font-size: 0.9375rem;">: </strong><strong style="font-size: 0.9375rem;"> </strong><span style="font-size: 0.9375rem;">This introductory session will h</span><span style="font-size: 0.9375rem;">ighlight and discuss with students how data are utilised to support the delivery of the module with learning analytics and AI.</span></p>&#13;
+<p class="MsoBodyText"><strong>Session 2:</strong> <strong>Data as the Key Affordance of Technology for Learning:</strong> This session will focus on introducing a broad definition of technology and introducing data as a key affordance of technology for supporting human learning and education.</p>&#13;
+<p class="MsoBodyText"><strong>Session 3: </strong><span lang="EN-US"><strong>Richard Noss Lecture: </strong></span>This week will include a special Lecture on <em>Learning Through Productive Failure In The GenAI Age</em> by Professor Manu Kapur, along with a bonus lecture introducing the fundamentals of Large Language Models.</p>&#13;
+<p class="MsoBodyText"><strong>Session 4: </strong><span lang="EN-US"><strong>Learning Analytics: </strong></span>This week will focus on introducing Learning Analytics, examining the relationship between learning theories, learning design, digital data traces, and learning analytics.</p>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"><strong>Session 5: Multimodal Learning Analytics:</strong>  This week you will have an experience of using a multimodal approach to the design and use of technology for education.</p>&#13;
+<p class="MsoBodyText"><strong>Session 6: </strong><strong>Value-driven Nature of Data and Performance Measures: </strong>This session will discuss the value-driven nature of artefacts including data and algorithms and will cover some methodologies to measure the success and failure of learning analytics models in practice. </p>&#13;
+<p class="MsoBodyText"><strong>Session 7:  From Prediction to Generation | Natural Language Processing (NLP) in Education: </strong>This session extends predictive thinking to analyse and generate text-based data through Natural Language Processing.</p>&#13;
+<p class="MsoBodyText"><strong>Session 8: AI and a Vision for Hybrid Intelligence Systems: </strong>This lecture will challenge the prevalent narrow conceptualization of AI as stochastic tools, highlighting two common fallacies in current discourse about AI&#8217;s transformative potential in education. The lecture delves into three conceptualizations of AI in education: the externalization of cognition, the internalization of AI models to influence human thought processes, and the extension of human cognition via tightly integrated human-AI systems.</p>&#13;
+<p class="MsoBodyText"><strong>Session 9: </strong><strong>Evidence-informed Implementations of AI in Education: </strong><span style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">This session will cover the importance of generating evidence about the effectiveness of AI implementations in education, challenges associated with evaluating the performance of generative AI tool implementations, and learn about how to use logic models to design an evaluation of AI in Education interventions.</span></p>&#13;
+<p class="MsoBodyText"><strong>Session 10: Student presentations and assessment: </strong>In this session, the students will present their group designs to illustrate different methods, concepts and ideas explored during DUTE_AI in practice. We will also focus on the preparation for the assignment and clarify any questions.</p>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<div>&#13;
+<div> </div>&#13;
+</div>&#13;
+<p class="MsoBodyText"><br/><br/></p>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"><br/><br/></p>&#13;
+<p class="MsoBodyText"/></div><div class="chapter" id="207836"><h1 class="'MsoHeading1'">Specification</h1>
+<p class="MsoBodyText"/>&#13;
+
+<h2 class="MsoHeading2">Design and Use of Artificial Intelligence in Education</h2>&#13;
+<p class="MsoBodyText"/>&#13;
+
+<table style="width: 69.7823%; height: 529.75px; border-width: 1px; border-style: solid;"><thead>&#13;
+<tr style="height: 44.5px;">&#13;
+
+<th style="border-width: 1px; border-style: solid; width: 41.5983%;" scope="col"><p class="TableHead">Value</p></th>&#13;
+
+<th style="border-width: 1px; border-style: solid; width: 58.4575%;" scope="col"><p class="TableHead"><span style="font-weight: normal;">30 credits</span></p></th>&#13;
+</tr>&#13;
+</thead><tbody>&#13;
+<tr style="height: 80.1875px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Requirement</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;">Optional for MA Education &amp; Technology<br/>Optional for all other IOE Students </td>&#13;
+</tr>&#13;
+<tr style="height: 53.8438px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Module Leader</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><a href="https://moodle.ucl.ac.uk/user/view.php?id=22384&amp;course=15115">Mutlu Cukurova</a></td>&#13;
+</tr>&#13;
+<tr style="height: 53.8438px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Module Tutors</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><a href="https://moodle.ucl.ac.uk/user/view.php?id=22671&amp;course=15115">Andrea Gauth</a>ier</td>&#13;
+</tr>&#13;
+<tr style="height: 53.8438px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Programme Administrator</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><a href="https://moodle.ucl.ac.uk/user/view.php?id=10113&amp;course=15119">Suzanne Barrett</a></td>&#13;
+</tr>&#13;
+<tr style="height: 80.1875px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Taught phase</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;">Autumn Term<br/>29 September - 12 December 2025</td>&#13;
+</tr>&#13;
+<tr style="height: 52.1875px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Assessment phase</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><p class="Cell">Final due: 7 January 2026 by 13:00</p></td>&#13;
+</tr>&#13;
+<tr style="height: 53.8438px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Mode</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><p class="Cell">face-to-face &amp; online </p></td>&#13;
+</tr>&#13;
+<tr style="height: 57.3125px;">&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 41.5983%;"><strong>Department</strong></td>&#13;
+
+<td style="border-width: 1px; border-style: solid; width: 58.4575%;"><p class="Cell">Culture, Communication &amp; Media</p></td>&#13;
+</tr>&#13;
+</tbody></table>&#13;
+<p class="MsoBodyText"><br/>This module is run by the <a href="https://ucl.ac.uk/knowledge-lab">UCL Knowledge Lab</a>.</p>&#13;
+<p class="MsoBodyText"><img src="data:image/png;base64,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" class="img-responsive atto_image_button_text-bottom img-fluid" alt="Logo of UCL Knowledge Lab" width="120" height="120" data-clarity-loaded="1jo3hj"/></p>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/></div><div class="chapter" id="207845"><h2>Core Reading</h2>
+<p class="MsoBodyText">The DUTE_AI module covers a large variety of technologies as well as approaches to their design, implementation and evaluation.  Given also that many issues discussed in the module lie at the cutting edge of current knowledge and understanding of the subject, there is no single core reading that can be provided at present.  However, for each of the subtopics covered in the module, a set of suggested readings is given and students are expected to read at least one of them before each session.  Further reading is given to allow the students to deepen their knowledge and develop a critical understanding of the related key issues, challenges and existing solutions. <a href="https://moodle.ucl.ac.uk/mod/book/view.php?id=7651064" target="_blank" rel="noopener">Please refer here for all your readings.</a> Please see below for some suggested core readings related to topics covered in the module.</p>&#13;
+<p class="MsoBodyText">1) How Data Happened: A History from the Age of Reason to the Age of Algorithms - Chris Wiggins &amp; Matthew L. Jones</p>&#13;
+<p class="MsoBodyText">2) Bernoulli's Fallacy - Aubrey Clayton</p>&#13;
+<p class="MsoBodyText">3) The Atomic Human - Neil D. Lawrence</p>&#13;
+<p class="MsoBodyText">4) The master and his emissary - Iain McGilchrist</p>&#13;
+<p class="MsoBodyText">5) Human Compatible - Stuart Russell</p>&#13;
+<p class="MsoBodyText">6) The Alignment Problem - Brian Christian</p></div><div class="chapter" id="207837"><h1 class="'MsoHeading1'">Module Aims</h1>
+<p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText">The overarching aim of this module is to 1) help students develop a comprehensive understanding of how big data and analytics are utilised to support and enhance learning experiences, <span style="font-size: 1rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;">2) help students design, prototype, and evaluate machine learning solutions to address real-world educational challenges, considering the complexities of educational contexts and the orchestration of learning environments. They will develop skills in prototyping models, using API integrations, and evaluating their impact in educational settings.  </span></p><br/><p class="MsoBodyText"/></div><div class="chapter" id="207838"><h1 class="'MsoHeading1'">Intended Learning Outcomes</h1>
+<p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText">By the end of the module the students will be able to:</p>
+<p class="MsoListBullet"><b>Appraise</b> critically different AI and Analytics models in a variety of different learning and teaching contexts;</p>
+<p class="MsoListBullet"><div><b>Engage</b> in an interdisciplinary design process in a way that bridges between research, design and practice of machine learning use cases in education;</div></p>
+<p class="MsoListBullet"><div><b>Generate</b> multifaceted and targeted questions of pertinence to AI in education.</div></p><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/></div><div class="chapter" id="207841"><h1 class="'MsoHeading1'">Module Assessment</h1>
+<p class="MsoBodyText"/>&#13;
+
+<h2 class="MsoHeading2">Overview</h2>&#13;
+<p class="MsoBodyText">The assignment has two parts.</p>&#13;
+<p class="MsoBodyText"><strong>Part A</strong> focuses on your weekly individual reflections over the course of the DUTE_AI module. Make sure you answer the specific questions posed each week.</p>&#13;
+<p class="MsoBodyText"><strong>Part B</strong> gives you a chance to demonstrate your in-depth understanding of the content covered and knowledge developed during the module. </p>&#13;
+<p class="MsoBodyText">Following the IOE policy, your assignment should be 5000 words +/- 10%. Part A will be considered equivalent to 2500 words (not equal to, so your individual reflections can add up to more than 2500 words). Part B will be equal to 2500 words in length. Your assignment should include a critical analysis of the key issues related to the design process and concepts as experienced through your group work and given your personal and research-informed reflections.</p>&#13;
+<hr/>&#13;
+
+<h2 class="MsoHeading2">Part A: Critical Analysis and Reflection Portfolio</h2>&#13;
+<p class="MsoBodyText"><strong>For this part, your weekly individual reflections will be submitted. Please see below for guidance on what your reflections portfolio should address. </strong></p>&#13;
+<p class="MsoBodyText">Describe, support with literature, and critically reflect on the weekly content of the module, as well as the practical application of this content in weekly activities. Your priority should be to address the questions posed every week in your individual reflections. In addition to these, if applicable, you can include visual illustrations in your text as figures to support your points. </p>&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">It is expected that some of the reflections that you present in this part of the assignment will have been brought up during the group work and class discussions. However, the reflection of these discussions in relation to how they advance digital learning design <strong>should be your own</strong>. If you include comments and reflections made by others in the group, you must reference them as such explicitly. If you include reflections on the nature of your group work, it is important that you take a constructive stance and connect it to the literature to explain why and how the group work proceeded in the way it did.</span></p>&#13;
+<hr/>&#13;
+
+<h2 class="MsoHeading2">Part B: Design Case Extension or Design Critique </h2>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"><strong>2,500 words essay submitted. For your essay, you have two options. </strong></p>&#13;
+<p class="MsoBodyText"><strong>Option 1: Extending the group design case to a new problem</strong></p>&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">Relying on the group design, consider if you would define the educational challenge differently. Explain your answer with reference to relevant research and a critique of the strengths and weaknesses of the group design. This critique ought to include strengths and weaknesses related to the type and functionality of the solution  proposed as well as methods considered by the group to inform the design and development of the solution. What would you have done differently and why? What other methods might you have used or perhaps in addition to the ones considered in class to improve the design case solutions? Back your arguments with reference to research as well as specific examples of data analysis. </span></p>&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">Key areas you may want to consider:</span></p>&#13;
+&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What are the characteristics of the new take on the challenge addressed &#8211; is there a different domain, a different way of learning and teaching? What are the nuances of the new context of use? How (in)flexible is your design in supporting these characteristics and why? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">Does your new problem require revisiting your original theoretical underpinnings and why? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">Do the target learners need further/more detailed data to be supported? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What new knowledge, if any, would you have to model in the new design? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What are the open design questions for your new design? What design processes and methods will you employ to help you achieve the changes in your solution, and why? Be clear what you will learn from applying each method and how it will inform different aspects of your solution. </span></p>&#13;
+&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;"><strong>Option 2: Critique of a data-driven technology (including AI) with respect to its educational value.</strong></span></p>&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">Consider an existing data-driven technology, either commercially available or a research environment and critique it with respect to its educational value (examples will be posted on Moodle). You will be expected to define what you mean by the educational value with reference to existing research. Consider whose perspective you are presenting in defining what may be the educational value of the technology you have chosen (learners, educators, parents, schools policy makers etc.). What are the component parts of the technology you are critiquing that may or may not contribute to it being of educational value? What are the theoretical underpinnings if any that the given technology is based and what is the evidence that motivates its design and evaluation? </span></p>&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">Key areas you may want to consider:</span></p>&#13;
+&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">How does the technology you are critiquing enhance learning and/or teaching? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">Who are the intended users of the technology you describe and w</span>hat is the context of use for which it is intended? <span style="font-size: 0.95rem;"> </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What are the common critiques of the data-driven technology you proposed in the literature? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What are the educational aspirations on which the technology is built? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What were the methods that were used to drive the data collection, analysis, and modelling decisions and how are they manifest in the design? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">What evidence is there of the educational value claimed? </span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">To what extent can we trust the evidence presented?</span></p>&#13;
+
+<p class="MsoListBullet"><span style="font-size: 0.95rem;">How it can be further improved to enhance teaching and learning practices?</span></p>&#13;
+&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"><br/><br/></p>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/></div><div class="chapter" id="207844"><h2>Assessment Criteria</h2>
+<p class="MsoBodyText"/>
+<table border="1" cellspacing="0" cellpadding="0" width="100%"><thead><tr>
+<th scope="col" width="50%"><p class="TableHead">General Criteria for Masters level</p></th>
+<th scope="col" width="50%"><p class="TableHead">Specific Criteria for this Module</p></th></tr></thead><tbody><tr>
+<td><span><span>Structure, communication and presentation</span><br/></span>
+<p class="MsoListBullet">Clarity, focus and cogency in organisation and presentation of arguments and conclusions</p></td>
+<td align="top">
+<p class="MsoListBullet">Clarity and coherence of argument </p>
+<p class="MsoListBullet">Clear structure and presentation that is commensurate
+with the specific type of question/option chosen in each
+part of the assignment, e.g. a comparison typically
+requires more structured, analytical approach than a
+discursive style permissible by some of the questions in
+Part B, while a presentation of the group design in either Part A
+or Part B.1 demands reference to concrete examples
+and illustrations from the completed data analysis (e.g. figures showing the models,
+inferences, predictions or system components etc.) </p>
+<p class="MsoListBullet">Clear and accurate referencing</p></td></tr><tr>
+<td align="top">Grasp of field of study
+<p class="MsoListBullet">Grasp of issues and high level of critical Insights into field of study</p>
+<p class="MsoListBullet">Review of literature · application of knowledge</p></td>
+<td align="top">
+<p class="MsoListBullet">Interrogation and discussion of appropriate and relevant
+literature </p>
+<p class="MsoListBullet">Evidence of critical and analytical thinking </p>
+<p class="MsoListBullet">Critical engagement with methods, techniques and
+thinking paradigms in the field of AI design
+and use for education </p>
+<p class="MsoListBullet">Evidence of knowledge and understanding of key
+concepts related to AI design and use for
+education (regression and classification models, design decisions, ML modelling, AI APIs etc.)</p></td></tr><tr>
+<td align="top">Understanding, evaluating, and applying research, methodologies, and scholarship in the field<br/>
+<p class="MsoListBullet">Understanding of how established techniques of research and enquiry are used to create and interpret knowledge and how these apply to students&#8217; own research and/or practice</p>
+<p class="MsoListBullet">Creative and critical handling, presenting and inferring from data</p></td>
+<td align="top">
+<p class="MsoListBullet">Appropriate instantiations of design and analysis methods </p>
+<p class="MsoListBullet">Exploration and understanding of the different types of
+data that can be generated through the application of
+the specific methods </p>
+<p class="MsoListBullet">Relevant theoretical insights and understanding of their
+implications for AI design and use </p>
+<p class="MsoListBullet">Reflection on the implications in relation to your own
+professional practice </p>
+<p class="MsoListBullet">Reflection on the implications with respect to your own
+academic development</p></td></tr></tbody></table><br/><p class="MsoBodyText"/></div><div class="chapter" id="207847"><p class="MsoBodyText"/><h2>The core elements of academic reflective writing</h2><p class="MsoBodyText">Academic reflective writing is a genre and just like an essay has characteristics, so does academic reflective writing.</p><p class="MsoBodyText">Academic reflective writing requires critical and analytic thought, a clear line of argument, and the use of evidence through examples of personal experiences and thoughts and often also theoretical literature.</p><p class="MsoBodyText">You should aim for a balance between personal experience, tone, and academic practice and rigor.</p><p class="MsoBodyText">Academic reflective writing should:</p>
+<p class="MsoListBullet">develop a perspective or line of reasoning</p>
+<p class="MsoListBullet">develop a link between your experience or practice and existing knowledge (theoretical or personal)</p>
+<p class="MsoListBullet">show understanding and appreciation of different perspectives to your own</p>
+<p class="MsoListBullet">show recognition that your own understanding is likely not be complete and situations are rarely clear-cut and simplistic</p>
+<p class="MsoListBullet">show learning resulting from the reflection (either by discovering something new or confirming existing knowledge) and how you plan to use it</p>
+<p class="MsoListBullet">be written in an appropriate style with language relevant to your academic discipline</p>
+<p class="MsoListBullet">sometimes, but not always, use theoretical literature to inform your understanding.  </p><p class="MsoBodyText"> </p><p class="MsoBodyText">People can have misconceptions about academic reflective writing &#8211; some of the common ones are described below. </p>
+<table><thead><tr>
+<th scope="col"><p class="TableHead"><strong>Academic reflective writing is NOT&#8230;</strong></p></th>
+<th scope="col"><p class="TableHead"><strong>Instead&#8230;</strong></p></th></tr></thead><tbody><tr>
+<td><p class="Cell">Just descriptions of what has happened</p></td>
+<td><p class="Cell">Descriptions should be used as foundations for learning.</p></td></tr><tr>
+<td><p class="Cell">A personal diary where you can say anything and use any language</p></td>
+<td><p class="Cell">Academic reflective writing require structure and formal language.</p></td></tr><tr>
+<td><p class="Cell">A place where you get marks for self-disclosure &#8211; while reflection is personal, you will not get a good mark by merely sharing challenging experiences or personal trauma </p></td>
+<td>The experiences you share must be used actively to promote learning <strong>AND</strong> be appropriate for the audience. An assessor will probably not be comfortable reading your darkest secrets. Private reflections may include such content, but for academic refection it is unlikely to be appropriate. Reflections should be appropriate both for your boundaries and the boundaries of the person reading them.</td></tr><tr>
+<td><p class="Cell">A place where you get marks for complementing the course or teacher assessing you</p></td>
+<td><p class="Cell">Include the course and the teacher if they have affected you, but be sure to uncover what about them worked or did not work for you, and how you can use this knowledge in other contexts.</p></td></tr><tr>
+<td><p class="Cell">A place where you reference learning uncritically</p></td>
+<td><p class="Cell">You should evidence how you have learned something, what it means for you, and how it will be used in the future.</p></td></tr><tr>
+<td><p class="Cell">A nuisance or waste of time</p></td>
+<td><p class="Cell">Done correctly, formalising and structuring reflection can help you surface and evidence your personal learning and development, which in turn can help you to communicate your abilities and experiences effectively.</p></td></tr></tbody></table><p class="MsoBodyText"><strong><br/></strong></p><p class="MsoBodyText"><strong>Developed from:</strong></p><p class="MsoBodyText">Ryan, M., 2011. Improving reflective writing in higher education: a social semiotic perspective. Teaching in Higher Education, 16(1), 99-111.</p><p class="MsoBodyText">University of Portsmouth, Department for Curriculum and Quality Enhancement (date unavailable). Reflective Writing: a basic introduction [online].  Portsmouth: University of Portsmouth. </p><p class="MsoBodyText">Queen Margaret University, Effective Learning Service (date unavailable).  Reflection. [online].  Edinburgh: Queen Margaret University.</p><br/></div><div class="chapter" id="207846"><h2>Referencing &amp; Plagiarism</h2>
+<p class="MsoBodyText"/>&#13;
+<div>When finalising any written assignment, these please remember that, to avoid plagiarism, it is essential that you pay proper attention to referencing and the use of citations. Plagiarism is taken very seriously at the UCL IOE. </div>&#13;
+<div> </div>&#13;
+<div>Please remember that: </div>&#13;
+<div> </div>&#13;
+<div>&#13;
+&#13;
+
+<p class="MsoListBullet">All direct quotations from another author's work must be placed in quotation marks and cited correctly by providing the author name, date, and page number. </p>&#13;
+
+<p class="MsoListBullet">All data, ideas, or lines of argument, which you appropriate from another author (even if you do not use their exact words), must be acknowledged and referenced correctly. </p>&#13;
+
+<p class="MsoListBullet">You also need to ensure you do not plagiarise your own work (self-plagiarism). You cannot include material that you have written and submitted for another assignment without referencing it correctly. </p>&#13;
+
+<p class="MsoListBullet">Further information about avoiding plagiarism can be found in the Programme Handbook (available on the Programme Handbook Moodle site). </p>&#13;
+&#13;
+</div>&#13;
+<div> </div>&#13;
+<div>In addition to revising these guidelines, we strongly recommend that you run your assignments through a test Turnitin drop box before you submit them. To do this please visit <a href="https://moodle.ucl.ac.uk/enrol/index.php?id=12731" target="_blank" rel="noopener">https://moodle.ucl.ac.uk/enrol/index.php?id=12731</a> and log in with your UCL username and password. Then click the 'Enrol me' button and select 'Check Your Work with Turnitin' tab. If you need help understanding Turnitin, we advise you to click on &#8216;Student Help&#8217; and then &#8216;Turnitin help&#8217; on the top left of the main Moodle page. There are lots of pages of advice there, including a Turnitin FAQ.</div>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/></div><div class="chapter" id="207842"><h1 class="'MsoHeading1'">Attendance</h1>
+<p class="MsoBodyText"/>&#13;
+
+<h2 class="MsoHeading2"><strong>Attendance and Activity Completion</strong></h2>&#13;
+<p class="MsoBodyText">It is very important to keep to the above timetable or you risk falling behind and missing crucial discussions. </p>&#13;
+<p class="MsoBodyText"><strong>Students are expected to attend all scheduled teaching events.</strong> If at any time your your overall attendance and/or engagement is considered to be unsatisfactory, you will be contacted about, and if it continues, you will be referred to the Faculty Tutor.</p>&#13;
+<p class="MsoBodyText"><strong>For this module, you are expected to complete activities for and contribute to at least 80% of all of the activities in the online sessions, during the specified dates of each week </strong>(or within a maximum of 3 weeks from the <strong>start</strong> date of <strong>each</strong> session - after their designated end date, activities will also start being locked off, but will remain visible; also note that team activities have firm deadlines).<strong> </strong></p>&#13;
+<p class="MsoBodyText">When you complete an activity, a tick in the related box will become visible. This can be used by you to track your progress with activity completion. Contribution includes:</p>&#13;
+&#13;
+
+<p class="MsoListBullet">Watching presentations prepared by the tutor. </p>&#13;
+
+<p class="MsoListBullet">Both posting your own messages and responding to/commenting on other students' posts. </p>&#13;
+
+<p class="MsoListBullet">Actively engaging in group activities and group presentations. </p>&#13;
+&#13;
+<p class="MsoBodyText"><span style="font-size: 0.95rem;">Activity completion is visualised with a ticked box next to the activity. <br/>Given that this is a 30 credit module, it is expected you will spend approximately 15 hours per week on it and the level of work is designed to reflect this.</span></p>&#13;
+<p class="MsoBodyText"/></div><div class="chapter" id="207839"><h1 class="'MsoHeading1'">Using the Library</h1>
+<p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText" style="color: rgb(73, 80, 87);font-size: 14.44px;"/><p class="MsoBodyText" style="color: rgb(73, 80, 87);font-size: 14.44px;"/><p class="MsoBodyText">The library will have many of the set readings and further readings related to technology-enhanced learning.  You can use the library in person or online.  For many papers, you may find it easiest to use Google Scholar search by typing either the name of the authors for recommended or cited papers or titles or both.  Many papers can be downloaded from the internet.  If you struggle to find a paper, please contact the TAs or Professor Mutlu Cukurova by email<span style="font-size: 0.95rem;">.</span></p>
+
+
+<p class="MsoListBullet">The main search page for IOE's library is at <a href="https://www.ucl.ac.uk/library/explore">https://www.ucl.ac.uk/library/explore</a>.</p>
+
+<p class="MsoListBullet">Before you start using this you may want to engage with the available library resources at <a href="https://libguides.ioe.ac.uk/">LibGuides</a>. <br/>There is a helpful induction video on the front page. There is also a <a href="https://ioe-uk.libsurveys.com/SAFERquiz">quizzes</a> page that is designed to teach you how to navigate the library pages.</p>
+
+<p class="MsoListBullet">Information about postal loans can be found under <a href="https://libguides.ioe.ac.uk/postalloans" aria-invalid="true">https://libguides.ioe.ac.uk/postalloans</a>.</p>
+
+<p class="MsoListBullet">Information about accessing resources remotely can be found under <a href="https://libguides.ioe.ac.uk/accessing" aria-invalid="true">http://libguides.ioe.ac.uk/accessing</a>.</p><br/><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/><p class="MsoBodyText"/></div><div class="chapter" id="207843"><h1 class="'MsoHeading1'">Getting Help</h1>
+<p class="MsoBodyText"/>&#13;
+<div><span style="font-size: 0.95rem;">The below flowchart will help you identify who best to speak to in order to receive tailored advice:  <br/></span><strong style="font-size: 0.95rem;">(Please note that the example below was created based on the UG taught module model and <i>may </i>differ to PGT and PGR requirements<i>)</i></strong></div>&#13;
+<div> </div>&#13;
+<div><img src="" class="img-responsive atto_image_button_text-bottom img-fluid" alt="Flow Chart for who to contact for which issue. In doubt, contact [redacted-contact]" width="909" height="783" data-clarity-loaded="16ss5vb"/></div>&#13;
+<p class="MsoBodyText"/>&#13;
+<p class="MsoBodyText"/></div>
+  </body>
+</html>

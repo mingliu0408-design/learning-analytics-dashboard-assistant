@@ -1,0 +1,82 @@
+{
+  "version": "M1_RELATIONS_V1",
+  "format": "Executable strict validator: code/relations.py",
+  "relation_types_native_endpoint_types": {
+    "PLAN_PURSUES_GOAL": [
+      "ACTIVE_PLAN",
+      "GOAL"
+    ],
+    "CONSTRAINT_APPLIES_TO_GOAL": [
+      "CONSTRAINT",
+      "GOAL"
+    ],
+    "CONSTRAINT_APPLIES_TO_PLAN": [
+      "CONSTRAINT",
+      "ACTIVE_PLAN"
+    ],
+    "COMPLETION_BELONGS_TO_PLAN": [
+      "COMPLETED_ACTION",
+      "ACTIVE_PLAN"
+    ],
+    "ACCEPTED_ACTION_BELONGS_TO_PLAN": [
+      "PROGRESS_UPDATE",
+      "ACTIVE_PLAN"
+    ],
+    "COMPLETION_OF_ACTION": [
+      "COMPLETED_ACTION",
+      "PROGRESS_UPDATE"
+    ]
+  },
+  "purpose_link_types": {
+    "GOAL_RECALL": [
+      "CONSTRAINT_APPLIES_TO_GOAL"
+    ],
+    "PLAN_CONTINUATION": [
+      "PLAN_PURSUES_GOAL",
+      "CONSTRAINT_APPLIES_TO_GOAL",
+      "CONSTRAINT_APPLIES_TO_PLAN",
+      "COMPLETION_BELONGS_TO_PLAN",
+      "ACCEPTED_ACTION_BELONGS_TO_PLAN",
+      "COMPLETION_OF_ACTION"
+    ],
+    "COMPLETION_RECALL": [
+      "COMPLETION_BELONGS_TO_PLAN",
+      "ACCEPTED_ACTION_BELONGS_TO_PLAN",
+      "COMPLETION_OF_ACTION"
+    ]
+  },
+  "policy": {
+    "version": "M1_EXPANSION_V1",
+    "top_k": 5,
+    "max_added": 4,
+    "max_final": 9,
+    "max_depth": 2,
+    "max_edges": 12
+  },
+  "edge_required": [
+    "edge_id",
+    "relation_type",
+    "from_id",
+    "to_id",
+    "from_version",
+    "to_version",
+    "learner_id",
+    "course_id",
+    "source_event_id",
+    "source_version",
+    "source_sha256",
+    "span_chars"
+  ],
+  "event_status": [
+    "ACTIVE",
+    "WITHDRAWN",
+    "SUPERSEDED"
+  ],
+  "origin_and_confirmation": {
+    "USER": "EXPLICIT_LEARNER_LINK",
+    "SYSTEM": "VERIFIED_SYSTEM_LINK_ACCEPTANCE_UNKNOWN"
+  },
+  "no_implicit_relations": true,
+  "accepted_action_native_mapping": "PROGRESS_UPDATE with explicit learner acceptance statement; role preserved",
+  "native_store_schema_changed": false
+}

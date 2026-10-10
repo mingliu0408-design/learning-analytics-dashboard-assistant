@@ -1,0 +1,19 @@
+{
+  "caller_callback_accepted": false,
+  "caller_implementation_sha_accepted": false,
+  "caller_metric_list_accepted": false,
+  "factory_parameter_count": 0,
+  "fixed_relative_path": "evaluation/capability_routing_rq2b_v1/capability_metrics.py",
+  "implementation_sha256": "697f8f84d8658275e8034da4e24839d3dca9f40a8e7f3409b0f659ba55b8b138",
+  "metric_keys": [
+    "SIX_CAPABILITY_MACRO_F1",
+    "EXACT_SET_ACCURACY",
+    "REQUIRED_CAPABILITY_RECALL",
+    "UNNECESSARY_CAPABILITY_RATE"
+  ],
+  "module_file_identity_verified": true,
+  "real_factory": "load_frozen_track_b_metric_binding_v1()",
+  "schema_version": "track-b-frozen-metric-binding-contract-v1",
+  "status": "FROZEN",
+  "synthetic_factory_separate": true
+}

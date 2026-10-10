@@ -1,0 +1,135 @@
+{
+  "provenance": "SYNTHETIC_EXPERIMENT_STATE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "scope": {
+    "student_id": "synthetic-learner-c994ecef8f75",
+    "course_id": "dute-archived-materials-experiment-v1",
+    "window_start": "2026-08-24T00:00:00+00:00",
+    "window_end": "2026-08-31T00:00:00+00:00"
+  },
+  "as_of": "2026-08-31T12:00:00+00:00",
+  "coverage": {
+    "Resources": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Lecture": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Debate": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    },
+    "Reflection": {
+      "status": "COMPLETE",
+      "window_start": "2026-08-24T00:00:00+00:00",
+      "window_end": "2026-08-31T00:00:00+00:00"
+    }
+  },
+  "events": [
+    {
+      "event_id": "outside-learner",
+      "student_id": "synthetic-other-learner",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Debate",
+      "event_type": "post_published",
+      "occurred_at": "2026-08-27T10:00:00+00:00",
+      "payload": {
+        "post_id": "other-post"
+      }
+    },
+    {
+      "event_id": "outside-course",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "synthetic-unrelated-course",
+      "page": "Lecture",
+      "event_type": "recording_play",
+      "occurred_at": "2026-08-28T10:00:00+00:00",
+      "payload": {
+        "recording_id": "other-recording"
+      }
+    },
+    {
+      "event_id": "outside-window",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "event_type": "document_edit",
+      "occurred_at": "2026-08-23T10:00:00+00:00",
+      "payload": {
+        "document_id": "old-note"
+      }
+    }
+  ],
+  "records": [
+    {
+      "record_id": "workspace",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "workspace_title": "Draft for this study session",
+        "saved_draft": "This educational chatbot replies to students very quickly, so I think it has educational value."
+      }
+    },
+    {
+      "record_id": "work-options",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Reflection",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "plan_id": "critique-plan",
+        "origin": "SYNTHETIC_STUDY_OPTIONS",
+        "adoption": "OPTIONS_NOT_A_UNIQUE_REQUIRED_PLAN",
+        "duration_semantics": "CONTROLLED_ESTIMATES_MINUTES_NOT_MEASURED_LEARNING_TIME",
+        "steps": [
+          {
+            "step_id": "read",
+            "parent_plan_id": "critique-plan",
+            "action": "Read the instructions for the Part B critique questions",
+            "estimated_minutes": 5,
+            "depends_on": []
+          },
+          {
+            "step_id": "compare",
+            "parent_plan_id": "critique-plan",
+            "action": "Compare one claim from the learner perspective with the evidence supporting it",
+            "estimated_minutes": 7,
+            "depends_on": [
+              "read"
+            ]
+          },
+          {
+            "step_id": "revise",
+            "parent_plan_id": "critique-plan",
+            "action": "Revise one paragraph and note the evidence questions that still need checking",
+            "estimated_minutes": 8,
+            "depends_on": [
+              "compare"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "resource-progress",
+      "student_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "page": "Resources",
+      "updated_at": "2026-08-30T12:00:00+00:00",
+      "payload": {
+        "plan_id": "critique-plan",
+        "step_id": "read",
+        "completed": true,
+        "origin": "SYNTHETIC_USER_CHECKLIST"
+      }
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

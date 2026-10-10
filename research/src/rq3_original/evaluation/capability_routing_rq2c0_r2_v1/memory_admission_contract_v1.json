@@ -1,0 +1,25 @@
+{
+  "admission_executed": false,
+  "automatic_top1_admission": false,
+  "dense_only_admission_validates_type_and_time": true,
+  "dense_only_ranking_ignores_type_and_time": true,
+  "dense_support": [
+    "DENSE_RANK_LE_3",
+    "TYPE_COMPATIBLE_TRUE",
+    "TEMPORAL_VALIDITY_TRUE"
+  ],
+  "direct_support": "EXPLICIT_STATE_LINK_TRUE",
+  "maximum_admitted_memories": 3,
+  "no_admitted_candidate_when_memory_not_required": "CONTINUE_WITHOUT_MEMORY",
+  "no_admitted_candidate_when_memory_required": "CLARIFICATION_TRUE",
+  "p2_implemented": false,
+  "retrieval_separate_from_admission": true,
+  "schema_version": "memory-admission-contract-v1",
+  "stage": "RQ2-C0-R2",
+  "status": "FROZEN_EXECUTABLE_NOT_RUN",
+  "structured_support": [
+    "ENTITY_OVERLAP_COUNT_GT_0",
+    "TYPE_COMPATIBLE_TRUE",
+    "TEMPORAL_VALIDITY_TRUE"
+  ]
+}

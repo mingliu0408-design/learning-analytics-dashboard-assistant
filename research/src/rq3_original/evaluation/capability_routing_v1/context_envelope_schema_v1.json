@@ -1,0 +1,51 @@
+{
+  "conflict_precedence": [
+    "LATEST_EXPLICIT_STUDENT_CORRECTION",
+    "LATEST_EXPLICIT_GOAL_OR_CONSTRAINT",
+    "ACTIVE_STRUCTURED_STATE",
+    "RECENT_RELEVANT_CONVERSATION",
+    "OLDER_INACTIVE_STATE"
+  ],
+  "context_resolution_is_independent_boolean": true,
+  "context_source_whitelist": [
+    "current_query",
+    "current_page",
+    "recent_relevant_conversation",
+    "existing_structured_memory",
+    "active_goal",
+    "active_plan",
+    "referenced_action",
+    "explicit_constraint",
+    "explicit_correction",
+    "active_course_item"
+  ],
+  "cross_student_context_forbidden": true,
+  "envelope_schema_version": "context-envelope-v1",
+  "fields": [
+    "schema_version",
+    "case_id",
+    "original_query",
+    "normalised_query",
+    "resolved_query",
+    "current_page",
+    "recent_relevant_turns",
+    "active_goal",
+    "active_plan",
+    "referenced_items",
+    "latest_correction",
+    "active_course_item",
+    "explicit_constraints",
+    "explicit_source_restrictions",
+    "context_resolution_required",
+    "context_sources",
+    "context_provenance"
+  ],
+  "full_dashboard_dataframe_forbidden": true,
+  "full_history_forbidden": true,
+  "inactive_state_suppressed": true,
+  "maximum_recent_turns": 4,
+  "schema_version": "context-envelope-schema-v1",
+  "stage": "RQ2-A",
+  "status": "FROZEN_RESEARCH_ONLY",
+  "working_context_is_predicted_capability": false
+}

@@ -1,0 +1,20 @@
+{
+  "session-0446d17556ec-m1": {
+    "turn_id": "session-0446d17556ec-m1",
+    "session_id": "session-0446d17556ec",
+    "role": "USER",
+    "content": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+    "timestamp": "2026-08-21T09:00:00+00:00",
+    "learner_id": "synthetic-learner-a678755b344c",
+    "course_id": "dute-archived-materials-experiment-v1"
+  },
+  "session-029e4c5c2a31-m1": {
+    "turn_id": "session-029e4c5c2a31-m1",
+    "session_id": "session-029e4c5c2a31",
+    "role": "USER",
+    "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+    "timestamp": "2026-08-25T09:00:00+00:00",
+    "learner_id": "synthetic-learner-a678755b344c",
+    "course_id": "dute-archived-materials-experiment-v1"
+  }
+}

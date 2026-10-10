@@ -1,0 +1,51 @@
+{
+  "schema_version": "M0_EPISODE_DRAFT_V0",
+  "status": "UNFILLED_NOT_EXECUTABLE",
+  "runtime": {
+    "case_id": "",
+    "family_id": "",
+    "episode_id": "",
+    "provenance": {
+      "authoring_origin": "",
+      "source_permission": "",
+      "exposure_status": "",
+      "source_collection_time": ""
+    },
+    "source_turns": [],
+    "setup_operations": [],
+    "target": {
+      "learner_id": "",
+      "course_id": "",
+      "session_id": "",
+      "as_of": "",
+      "horizon": "",
+      "query": "",
+      "page": "",
+      "visible_history": [],
+      "visibility_rule": ""
+    }
+  },
+  "evaluation_only": {
+    "persistent_retrieval_needed": null,
+    "need_rationale": "",
+    "source_availability": null,
+    "expected_fact_ids": [],
+    "expected_facts": [],
+    "expected_constraints": [],
+    "visible_fact_ids": [],
+    "control_condition": "",
+    "matched_family_ids": [],
+    "planned_split": "",
+    "independent_requirement_review": {
+      "decision": null,
+      "rationale": "",
+      "reviewer_role": "",
+      "reviewed_at": ""
+    },
+    "human_answers": "",
+    "human_target_utterance": "",
+    "writer_signature": "",
+    "reviewer_signature": "",
+    "review_status": ""
+  }
+}

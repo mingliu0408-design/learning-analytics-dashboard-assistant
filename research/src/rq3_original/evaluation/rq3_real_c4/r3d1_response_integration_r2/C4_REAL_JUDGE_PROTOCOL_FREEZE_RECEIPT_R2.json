@@ -1,0 +1,47 @@
+{
+  "applicability_sha256": "bee7bf9d681004f4ab5be549053b7dbeb2f7726361217251495a167257460b0e",
+  "combined_unique_judge_manifest_sha256": "757f5e171743216cd6fbdad2a7bbc72aeb906aee566d86762b61249ee9445ca0",
+  "judge_calls": 0,
+  "judge_model": "gpt-4.1-2025-04-14",
+  "maximum_output_tokens": 2048,
+  "maximum_physical_attempts": 294,
+  "package_test_sha256": "e3d047276db5ffa144bedfcdcaf3276508bf5e0fc973a458c47de7dcb9963804",
+  "parser_sha256": "1e96677613423791a7c711b8b69af2c69179ca4eee66dc22635753b502c74f9a",
+  "prompt_sha256": "0d5efac2d764cfd9d8aeaa125071ec8f8ce61108cd8896bfd299dc68ddc8537e",
+  "rubric_sha256": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+  "runner_sha256": "d415556ea34d2c3cae528c90148b63f0a74f8331445fcabfc78c1244278b3b21",
+  "schema_sha256": "5193646806796034c2c9abe524006cfae04204284e2ddfe4f3add37eefc41a8a",
+  "schema_version": "c4-real-judge-protocol-freeze-receipt-r2-v1",
+  "semantic_rubric_unchanged": true,
+  "semantic_schema_version": "rq3-judge-response-v1",
+  "shards": {
+    "A": {
+      "configuration_sha256": "00d2778c92bfb874431a9f41e635526e0abbb9ddbe8b4fc46ed7c8afd39a64bf",
+      "estimated_input_tokens": 176759,
+      "execution_contract_sha256": "4879a0ce178a8a24d062ef5465b67fce25fe7645d0a83965d7635cdcd9564caa",
+      "maximum_physical_attempts": 98,
+      "package_sha256": "7e57d62a56feb2776398fd2b719a009e3eed64c8ebb6b48fc63666eaed300ff7",
+      "request_count": 49
+    },
+    "B": {
+      "configuration_sha256": "3d48c639d040210c942dde059d06716c25579ca34742c8c203ce6046c015e9ba",
+      "estimated_input_tokens": 176712,
+      "execution_contract_sha256": "a81eba444f4d2f2b0b75ff4dff69eba6e71abb8eeccd5aa9658e0c4abb989719",
+      "maximum_physical_attempts": 98,
+      "package_sha256": "decc499163089e467ae6ec0e5d4f4e46a410f3670a99b17cf0c6396031ffb68b",
+      "request_count": 49
+    },
+    "C": {
+      "configuration_sha256": "ba85d5c5b52d71764f090514c18b6ed704b3dc9b6ea8633a6406e18b6254a76a",
+      "estimated_input_tokens": 176819,
+      "execution_contract_sha256": "e27c1b06fd3088421ce0438b687f176a1033907494b0c8c45d663082880a17df",
+      "maximum_physical_attempts": 98,
+      "package_sha256": "7f7863a5dd399ae62136bd5bf7541f6d5fc7347eafb275d22b435b25821639cd",
+      "request_count": 49
+    }
+  },
+  "status": "FROZEN_READY_FOR_SEPARATELY_AUTHORIZED_EXECUTION_R2",
+  "temperature": 0,
+  "unique_judge_request_count": 147,
+  "validator_sha256": "ebdfeab34384c3b49d86b4e0ee489488acc739bcb7c050d5dbbdff8fe44458f6"
+}

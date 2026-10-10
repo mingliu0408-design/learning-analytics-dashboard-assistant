@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "I5_DIRECT_APPROVAL_V1"
+    },
+    "authority": {
+      "type": "string",
+      "const": "DIRECT_USER_MESSAGE_CURRENT_CONVERSATION"
+    },
+    "status": {
+      "type": "string",
+      "const": "AUTHORIZED"
+    },
+    "recorded_at": {
+      "type": "string"
+    },
+    "timestamp_basis": {
+      "type": "string"
+    },
+    "quotation_boundary": {
+      "type": "string"
+    },
+    "signature_semantics": {
+      "type": "string"
+    },
+    "binding_sha256": {
+      "type": "string"
+    },
+    "binding": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "version",
+    "authority",
+    "status",
+    "recorded_at",
+    "timestamp_basis",
+    "quotation_boundary",
+    "signature_semantics",
+    "binding_sha256",
+    "binding"
+  ],
+  "additionalProperties": false
+}

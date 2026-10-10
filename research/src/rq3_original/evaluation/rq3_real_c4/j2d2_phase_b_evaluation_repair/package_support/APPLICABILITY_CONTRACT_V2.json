@@ -1,0 +1,31 @@
+{
+  "authority_status": "CERTIFIED_BY_SCORE_ISOLATED_REPLAY_WITH_DISCLOSED_PRIOR_INCIDENT",
+  "condition_map_v2_sha256": "12d8618beb629235a42261266338a02fb419573ce1f37deffc1b7f28feafa553",
+  "decision_recomputation_permitted": false,
+  "decision_sources": {
+    "ACTIONABILITY": "FROZEN_INDEPENDENT_RESEARCHER_DECISION",
+    "CLARITY": "ALWAYS_APPLICABLE",
+    "CONTEXT_AWARENESS": "ALWAYS_APPLICABLE",
+    "ERROR_HANDLING": "PRESERVED_CONDITION_SPECIFIC_V1_VALUE",
+    "MOTIVATION_AND_ENGAGEMENT": "FROZEN_INDEPENDENT_RESEARCHER_DECISION",
+    "MULTI_PAGE_COHESIVENESS": "FROZEN_RESEARCHER_MATERIAL_PAGE_COUNT_GREATER_THAN_ONE",
+    "PERSONALISATION": "FROZEN_INDEPENDENT_RESEARCHER_DECISION",
+    "RELIABILITY": "ALWAYS_APPLICABLE"
+  },
+  "execution_rule": "Consume the supplied frozen map exactly. Never infer applicability from the candidate response or an outcome.",
+  "incident_disclosure_preserved": true,
+  "material_page_count_zero_permitted": true,
+  "original_receipt_status": "PRESERVED_QUALIFIED_BY_PHASE_A_BOUNDARY_INCIDENT",
+  "output_map_version": "rq3-dimension-applicability-map-v1",
+  "parser_version": "JUDGE_PARSER_V3",
+  "phase_a_authority_hashes": {
+    "APPLICABILITY_V2_CLEANROOM_REPLAY_SUPPLEMENT_V1.json": "35ea3305ebee0bbfbee91b8d840eeaa32e9efbc94708d203f971d2378795e615",
+    "APPLICABILITY_V2_PHASE_A_AUTHORITY_RESOLUTION_V1.json": "7cc28f87a1add40f2903ca884126d73613aaded67dffef186ab2e648a0bafb7e",
+    "APPLICABILITY_V2_PRE_OUTCOME_FREEZE_RECEIPT.json": "f5a1ecae8da0237356173b6976183671fef14bbf4725b98774be41f578a0eba9",
+    "PHASE_A_BOUNDARY_INCIDENT_REPORT.md": "a8702aa6c839d1f1f332972cc1927d71cb2d782fade08d259408e4303431a8de"
+  },
+  "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+  "primary_rubric_unchanged": true,
+  "schema_version": "c4-real-applicability-contract-v2",
+  "score_contract": "An applicable criterion requires an integer from 1 to 5; a nonapplicable criterion requires NA. Low quality alone never permits NA."
+}

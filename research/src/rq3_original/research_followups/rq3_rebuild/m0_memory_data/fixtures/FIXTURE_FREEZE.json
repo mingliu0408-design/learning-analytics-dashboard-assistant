@@ -1,0 +1,22 @@
+{
+  "freeze_utc": "2026-09-06T17:09:50.890379+00:00",
+  "flags": [
+    "SYNTHETIC_DEVELOPMENT_FIXTURE",
+    "MODEL_AUTHORED",
+    "NOT_FOR_INDEPENDENT_TEST"
+  ],
+  "stage": "BEFORE_ANY_RETRIEVAL",
+  "family_count": 16,
+  "authoring": "MODEL_AUTHORED",
+  "query_selection": "Written from constructed dialogue; no retrieval or response score inspected.",
+  "files": [
+    {
+      "path": "synthetic_runtime.json",
+      "sha256": "8f9299568900d70bef9c40807b6a377254e57ce8fdd70f291eec9497a17d76c0"
+    },
+    {
+      "path": "synthetic_evaluation_only.json",
+      "sha256": "e48cd775def6b8d76905d5fb5bd481ca31367f573fec254151dfa6548d3ae24c"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "attempt_and_terminal_append_flush_fsync": true,
+  "automatic_resume": false,
+  "automatic_sdk_retries": 0,
+  "condition_comparisons_inside_worker": false,
+  "configuration_sha256": "41c7f3ff63ce99559b7f1852282fc381d0863fed12cf9f9a099e217b02e99e6f",
+  "execution_authorized": false,
+  "existing_output_directory_permitted": false,
+  "manual_retry": {
+    "byte_identical": true,
+    "correction_message": false,
+    "maximum_retries": 1,
+    "permitted_only_after": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED",
+      "APPLICABILITY_CONTRACT_VIOLATION"
+    ]
+  },
+  "minimum_seconds_between_initial_request_starts": 2,
+  "non_retryable_error_policy": "STOP_ENTIRE_SHARD",
+  "openai_sdk_version": "1.109.1",
+  "preflight_receipt_before_calls": true,
+  "python_executable": "/opt/anaconda3/bin/python3",
+  "python_version": "3.13.5",
+  "raw_invalid_output_preserved": true,
+  "returned_model_identity_verified": "gpt-4.1-2025-04-14",
+  "schema_version": "c4-real-judge-execution-contract-v1",
+  "serial_execution": true,
+  "status": "FROZEN_FOR_FUTURE_SEPARATELY_AUTHORIZED_EXECUTION"
+}

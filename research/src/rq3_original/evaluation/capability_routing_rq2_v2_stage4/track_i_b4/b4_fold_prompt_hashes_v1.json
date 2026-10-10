@@ -1,0 +1,133 @@
+{
+  "folds": {
+    "DEV-CV-FOLD-1": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-049",
+        "R2V2-ANN-037",
+        "R2V2-ANN-038",
+        "R2V2-ANN-035",
+        "R2V2-ANN-084",
+        "R2V2-ANN-090",
+        "R2V2-ANN-030"
+      ],
+      "example_set_sha256": "454d6797451353d5c56c8355371a1984479d875d21b79954248952fcbd11fc94",
+      "fold_prompt_package_sha256": "0bdd479d1ba3ca9be44cb833d0f119f3b501a25a6c87e60a8dff7da8af1e2074",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-2": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-049",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-058",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "fc36603e7827c756500cfbeaf72f8eae47b4fefd943794e3d3b5cd1e95cd97f2",
+      "fold_prompt_package_sha256": "c9d81e06c969597be208e2ebadd05e5f1bd683b520da29e857d2335ccff97743",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-3": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-021",
+        "R2V2-ANN-037",
+        "R2V2-ANN-103",
+        "R2V2-ANN-034",
+        "R2V2-ANN-017",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "7e63f0160b63f20aabd185000acb919dd446808c171657635fd855ceac223a69",
+      "fold_prompt_package_sha256": "e0af26307ab3149d4c4ca86fa0fdad4a1b778fb7e76b0ae90f29555761d5c795",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-4": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-021",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-034",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "aaca52041d7a13dc7e899d064db137823fad59f2206b76b81e018c5ee31c8bcf",
+      "fold_prompt_package_sha256": "d0de6083efa0e7d0da1bf06b91cf64c8132256c0d1ef31cb1e881dec292ac110",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    }
+  },
+  "full_dev": {
+    "example_count": 8,
+    "example_ids": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+    "prompt_package_sha256": "7a4875e23350d4ea2d3e6a6fed7e28d2eb278f79722fb74dfe43788b02216d89",
+    "signatures": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  "hash_serialization": "UTF-8 canonical JSON with sorted keys and compact separators",
+  "prompt_template_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+  "schema_version": "rq2-v2-stage4-i-b4-fold-prompt-hashes-v1",
+  "strict_response_schema_sha256": "9f364e920cfcca07a90580000196c85a6f801ef2e75c9c907bf820eea6a9aba2"
+}

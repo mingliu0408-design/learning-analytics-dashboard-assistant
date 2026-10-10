@@ -1,0 +1,9 @@
+### Individual Feedback:
+##### How the engagement with analytics feedback can help with your learning:
+Uzun, Y., Suraworachet, W., Zhou, Q., Gauthier, A., & Cukurova, M. (2025). Engagement with analytics feedback and its relationship to self-regulated learning competence and course performance. International Journal of Educational Technology in Higher Education, 22(1), 17. https://doi.org/10.1186/s41239-025-00515-3
+##### How we analyse the Moodle data:
+Zhou, Q., Suraworachet, W., & Cukurova, M. (2021). Different modality, different design, different results: Exploring self-regulated learner clusters’ engagement behaviours at individual, group and cohort activities. Proceedings of the First International Workshop on Multimodal Artificial Intelligence in Education (MAIED 2021), 2902. https://doi.org/10.35542/osf.io/u3g4n
+##### How we analyse the individual reflection:
+Suraworachet, W., Villa-Torrano, C., Zhou, Q., Asensio-Pérez, J. I., Dimitriadis, Y., & Cukurova, M. (2021). Examining the Relationship Between Reflective Writing Behaviour and Self-regulated Learning Competence: A Time-Series Analysis. In T. De Laet, R. Klemke, C. Alario-Hoyos, I. Hilliger, & A. Ortega-Arranz (Eds.), Technology-Enhanced Learning for a Free, Safe, and Sustainable World (Vol. 12884, pp. 163–177). Springer International Publishing. https://doi.org/10.1007/978-3-030-86436-1_13
+##### How the analysis of individual reflection can help with your learning:
+Suraworachet, W., Zhou, Q., & Cukurova, M. (2023). Impact of combining human and analytics feedback on students’ engagement with, and performance in, reflective writing tasks. International Journal of Educational Technology in Higher Education, 20(1), 1. https://doi.org/10.1186/s41239-022-00368-0

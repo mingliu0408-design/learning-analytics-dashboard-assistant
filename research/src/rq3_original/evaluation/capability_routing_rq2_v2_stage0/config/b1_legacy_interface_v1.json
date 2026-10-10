@@ -1,0 +1,61 @@
+{
+  "schema_version": "rq2-v2-b1-legacy-interface-v1",
+  "stage": "RQ2_V2_STAGE_0",
+  "selected_rq1_router": "C0_COSINE",
+  "selection_manifest_path": "evaluation/learned_intent_ranking/rq1c_final/rq1c1_router_selection_manifest_v1.json",
+  "selection_status": "C0_REMAINS_SELECTED",
+  "input_semantics": "Plain query embedding, except page-prefixed query for page-eligible candidates whose frozen context requirement is current_page.",
+  "output_semantics": "One Top-1 intent from the frozen page-eligible 16-label C0 universe before a later fixed Intent-to-Capability mapping.",
+  "aggregation": "MAX_OVER_ELIGIBLE_APPROVED_EXAMPLES_PER_INTENT",
+  "approved_example_count": 62,
+  "encoder": {
+    "repo_id": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "local_path": "semantic_runtime/models/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "embedding_dimension": 768,
+    "local_files_only": true
+  },
+  "artifacts": {
+    "approved_index": {
+      "path": "semantic_runtime/artifacts/intent_examples_approved_index_v1.jsonl",
+      "sha256": "b4cac34df91c074a4a2fa85e4ccc52623563f3358fe44938771f8303f00b6be9"
+    },
+    "embedding_npz": {
+      "path": "semantic_runtime/artifacts/intent_index_embeddings_mpnet_base_v2_v1.npz",
+      "sha256": "8b6fb268970c119ec58ce304e1c9ad0380e161fe086713dbf77d432b547bf9d8"
+    }
+  },
+  "frozen_label_universe": [
+    {"label": "access_or_capability_question", "approved_example_count": 3},
+    {"label": "course_content_question", "approved_example_count": 8},
+    {"label": "cross_page_relationship", "approved_example_count": 4},
+    {"label": "dashboard_interpretation", "approved_example_count": 9},
+    {"label": "discrepancy_or_correction", "approved_example_count": 1},
+    {"label": "emotional_or_justification", "approved_example_count": 1},
+    {"label": "hybrid_course_and_planning", "approved_example_count": 1},
+    {"label": "improvement_recommendation", "approved_example_count": 7},
+    {"label": "metric_clarification", "approved_example_count": 7},
+    {"label": "out_of_scope", "approved_example_count": 4},
+    {"label": "planning_or_strategy", "approved_example_count": 3},
+    {"label": "quantitative_metric_query", "approved_example_count": 1},
+    {"label": "reflection_structure_question", "approved_example_count": 2},
+    {"label": "social_interaction", "approved_example_count": 4},
+    {"label": "technical_data_question", "approved_example_count": 3},
+    {"label": "unsupported_task", "approved_example_count": 4}
+  ],
+  "runtime_taxonomy_labels_without_c0_index_support": [
+    "memory_state_query",
+    "ambiguous"
+  ],
+  "mapping_status": "PENDING_DEVELOPMENT_ONLY_FREEZE",
+  "mapping_requirements": [
+    "Use development assets only.",
+    "Cover exactly the frozen 16-label C0 universe.",
+    "Map each intent to independent RAG, MEMORY, and PLANNING booleans.",
+    "Freeze before any RQ2-V2 final-test access.",
+    "Do not infer the mapping from final-test outcomes."
+  ],
+  "stage0_model_loaded": false,
+  "stage0_predictions_run": false
+}
+

@@ -1,0 +1,26 @@
+{
+  "append_only_events": [
+    "WRITE",
+    "SUPERSEDE",
+    "COMPLETE",
+    "CANCEL",
+    "DELETE"
+  ],
+  "derived_projection": true,
+  "durable_database_claim": false,
+  "encrypted_disk_store_implemented": false,
+  "immutable_validated_bundles": true,
+  "monotonic_revision": true,
+  "payload_text_tracked": false,
+  "production_namespace": false,
+  "schema_version": "offline-memory-store-contract-v1",
+  "scope": "SINGLE_PROCESS_FIXTURE_ONLY_LOCAL_ONLY",
+  "store_id": "OfflinePersistentMemoryStoreV1",
+  "tombstone_registry": true,
+  "unique_identifiers": [
+    "memory_id",
+    "episode_id",
+    "payload_id",
+    "store_event_id"
+  ]
+}

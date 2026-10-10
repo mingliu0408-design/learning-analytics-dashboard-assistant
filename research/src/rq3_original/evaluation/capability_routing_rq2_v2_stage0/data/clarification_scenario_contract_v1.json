@@ -1,0 +1,17 @@
+{
+  "schema_version": "rq2-v2-clarification-scenario-contract-v1",
+  "dialogue_action": "CLARIFY",
+  "core_capability_route_execution": false,
+  "target_scenario_family_count": 6,
+  "target_human_utterances_per_family": 2,
+  "target_case_count": 12,
+  "development_family_target": 4,
+  "development_case_target": 8,
+  "test_family_target": 2,
+  "test_case_target": 4,
+  "split_unit": "scenario_family_id",
+  "scenario_family_definitions_created": 0,
+  "utterances_created": 0,
+  "status": "CONTRACT_ONLY_PENDING_STAGE_1_HUMAN_SCENARIO_DEFINITION"
+}
+

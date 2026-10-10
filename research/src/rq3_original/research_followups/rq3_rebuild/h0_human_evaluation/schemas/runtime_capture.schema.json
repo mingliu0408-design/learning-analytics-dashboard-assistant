@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "capture_id",
+    "target_time",
+    "query",
+    "visible_context",
+    "source_annotations"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "H0_RUNTIME_CAPTURE_V1"
+    },
+    "capture_id": {
+      "type": "string"
+    },
+    "target_time": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string"
+    },
+    "visible_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "history",
+        "scope",
+        "snapshot_version"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "snapshot_version": {
+          "type": "string"
+        }
+      }
+    },
+    "source_annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "annotation_id",
+          "source_id",
+          "field",
+          "value",
+          "captured_at",
+          "confirmed_by_reference",
+          "available_pre_target",
+          "permitted_runtime_use"
+        ],
+        "properties": {
+          "annotation_id": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "captured_at": {
+            "type": "string"
+          },
+          "confirmed_by_reference": {
+            "type": "string"
+          },
+          "available_pre_target": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "permitted_runtime_use": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

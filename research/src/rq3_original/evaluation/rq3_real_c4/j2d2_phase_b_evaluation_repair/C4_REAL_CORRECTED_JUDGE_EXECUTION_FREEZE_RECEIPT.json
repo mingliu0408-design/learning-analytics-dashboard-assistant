@@ -1,0 +1,116 @@
+{
+  "accepted_applicability_v2_artifact_hashes": {
+    "c4_real_applicability_v1_v2_diff_audit.json": "9b8f9524b8a1e9f91013de6ba22b816fc13e38d6eea7d00019ceff0764f0fdb8",
+    "c4_real_condition_applicability_maps_frozen_v2.csv": "6069ca8a7708868075d02e516378da39058b8d00282fec37d468fd39b56e93f3",
+    "c4_real_condition_applicability_maps_frozen_v2.jsonl": "12d8618beb629235a42261266338a02fb419573ce1f37deffc1b7f28feafa553",
+    "c4_real_researcher_scenario_applicability_decisions_frozen_v1.csv": "895fa1c2c135b848b8b0ee7fff9543a0b8b8d8f60e741ea20e4a9533a1f62af0",
+    "c4_real_researcher_scenario_applicability_decisions_frozen_v1.jsonl": "50451afbf4bbfcfd5e6bf387ba5bc5c42e2569ae186785e3685b514e749d1f66"
+  },
+  "corrected_condition_to_judge_mapping_count": 558,
+  "corrected_execution_count": 116,
+  "corrected_unique_judge_request_count": 149,
+  "excluded_changed_applicability_result_count": 56,
+  "existing_scores_transformed": 0,
+  "failed_no_valid_result_count": 1,
+  "final_phase_a_authority_status": "CERTIFIED_BY_SCORE_ISOLATED_REPLAY_WITH_DISCLOSED_PRIOR_INCIDENT",
+  "frozen_at_utc": "2026-09-02T20:42:58.990853+00:00",
+  "incident_disclosure_preserved": true,
+  "new_judge_calls": 0,
+  "original_receipt_status": "PRESERVED_QUALIFIED_BY_PHASE_A_BOUNDARY_INCIDENT",
+  "overwrite_permitted": false,
+  "packages": {
+    "A": {
+      "path": "/Users/liuming/Downloads/C4_REAL_CORRECTED_JUDGE_SHARD_A_EXECUTION_PACKAGE_R4_2026-09-02.zip",
+      "sha256": "5ad7494f179dfe0b817cdbc0b2152e0160fce87bd6bf84ee1eac59be70cf64bb"
+    },
+    "B": {
+      "path": "/Users/liuming/Downloads/C4_REAL_CORRECTED_JUDGE_SHARD_B_EXECUTION_PACKAGE_R4_2026-09-02.zip",
+      "sha256": "b133157f57a8546f503a8eba72520dd04fe54e5a803ec218bf55ef89fb28975b"
+    },
+    "C": {
+      "path": "/Users/liuming/Downloads/C4_REAL_CORRECTED_JUDGE_SHARD_C_EXECUTION_PACKAGE_R4_2026-09-02.zip",
+      "sha256": "16727bb41f11ae067a59ab70b48216db97692ae21f6ca334f63c095956ace2b9"
+    }
+  },
+  "phase_a_authority_hashes": {
+    "APPLICABILITY_V2_CLEANROOM_REPLAY_SUPPLEMENT_V1.json": "35ea3305ebee0bbfbee91b8d840eeaa32e9efbc94708d203f971d2378795e615",
+    "APPLICABILITY_V2_PHASE_A_AUTHORITY_RESOLUTION_V1.json": "7cc28f87a1add40f2903ca884126d73613aaded67dffef186ab2e648a0bafb7e",
+    "APPLICABILITY_V2_PRE_OUTCOME_FREEZE_RECEIPT.json": "f5a1ecae8da0237356173b6976183671fef14bbf4725b98774be41f578a0eba9",
+    "PHASE_A_BOUNDARY_INCIDENT_REPORT.md": "a8702aa6c839d1f1f332972cc1927d71cb2d782fade08d259408e4303431a8de"
+  },
+  "phase_a_cleanroom_hashes": {
+    "PHASE_A_CLEANROOM_ALLOWED_INPUTS_MANIFEST.json": "802c1944bbca6565533733894cce88f32c3fb5afcf6f752e2d74dbafcac62df8",
+    "phase_a_cleanroom_replay.py": "5fcc05d33e23aebd4cf0261dbaeb9236c477103f1ea664f5e0e60eb2bb8a9978"
+  },
+  "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+  "previously_unattempted_count": 59,
+  "restricted_mapping_metadata_sha256": "ece6f95d2315988c0c675f40aa676fda9b66af21ed1e32c9c11779a3a394a012",
+  "retained_result_count": 33,
+  "schema_version": "C4_REAL_CORRECTED_JUDGE_EXECUTION_FREEZE_RECEIPT",
+  "score_aggregates_computed": 0,
+  "shards": {
+    "A": {
+      "applicability_change_coverage": [
+        "ACTIONABILITY",
+        "MOTIVATION_AND_ENGAGEMENT",
+        "MULTI_PAGE_COHESIVENESS",
+        "PERSONALISATION",
+        "UNCHANGED_APPLICABILITY"
+      ],
+      "estimated_input_tokens": 139200,
+      "maximum_physical_attempts": 78,
+      "page_coverage": [
+        "Debate",
+        "Lecture",
+        "Overview",
+        "Reflection",
+        "Resources"
+      ],
+      "request_count": 39,
+      "scenario_family_count": 18
+    },
+    "B": {
+      "applicability_change_coverage": [
+        "ACTIONABILITY",
+        "MOTIVATION_AND_ENGAGEMENT",
+        "MULTI_PAGE_COHESIVENESS",
+        "PERSONALISATION",
+        "UNCHANGED_APPLICABILITY"
+      ],
+      "estimated_input_tokens": 139203,
+      "maximum_physical_attempts": 76,
+      "page_coverage": [
+        "Debate",
+        "Lecture",
+        "Overview",
+        "Reflection",
+        "Resources"
+      ],
+      "request_count": 38,
+      "scenario_family_count": 18
+    },
+    "C": {
+      "applicability_change_coverage": [
+        "ACTIONABILITY",
+        "MOTIVATION_AND_ENGAGEMENT",
+        "MULTI_PAGE_COHESIVENESS",
+        "PERSONALISATION",
+        "UNCHANGED_APPLICABILITY"
+      ],
+      "estimated_input_tokens": 139204,
+      "maximum_physical_attempts": 78,
+      "page_coverage": [
+        "Debate",
+        "Lecture",
+        "Overview",
+        "Reflection",
+        "Resources"
+      ],
+      "request_count": 39,
+      "scenario_family_count": 17
+    }
+  },
+  "status": "FROZEN_DORMANT_CORRECTED_JUDGE_R4",
+  "write_count": 1,
+  "write_enforcement": "O_EXCL; flush; fsync file and parent directory"
+}

@@ -1,0 +1,28 @@
+{
+  "P1_future_composition": {
+    "components": [
+      "R2V2-B0_RULE",
+      "R2V2-B2_PROTOTYPE",
+      "R2V2-B3_OVR",
+      "R2V2-B4_JOINT_LLM"
+    ],
+    "executed_in_stage4n": false
+  },
+  "logical_case_count": 36,
+  "method_execution_attempt_ceiling": 252,
+  "method_prediction_count": 252,
+  "methods_per_case": [
+    "R2V2-CG1_CLARIFICATION_RULE",
+    "R2V2-D0_ALWAYS_ON",
+    "R2V2-D1_NEVER_ON",
+    "R2V2-B0_RULE",
+    "R2V2-B1_LEGACY_INTENT",
+    "R2V2-B2_PROTOTYPE",
+    "R2V2-B3_OVR"
+  ],
+  "population": "ALL_36_FROZEN_TEST_INPUTS_WITHOUT_GOLD_FILTERING",
+  "provider_call_count": 0,
+  "schema_version": "rq2-v2-stage4n-deterministic-test-execution-config-v1",
+  "scoring_performed": false,
+  "status": "NOT_EXECUTED"
+}

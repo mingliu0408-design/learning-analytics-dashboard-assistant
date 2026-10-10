@@ -1,0 +1,35 @@
+{
+  "task_id": "task-c0aa4f8d44d5",
+  "operations": 0,
+  "accepted_writes": 0,
+  "unindexed_suggestions": 0,
+  "receipts": [],
+  "native_rows": 0,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 0,
+    "fts_row_count": 0
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [],
+    "setup_operations": [],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-e7e7dd241b31",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "I watched the lecture for debate preparation from August 24 to 30. How far have I got from the lecture to the debate? Use the records to suggest what I could do next.",
+      "page": "Lecture",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

@@ -1,0 +1,280 @@
+{
+  "task_id": "task-013459503624",
+  "operations": 3,
+  "accepted_writes": 2,
+  "unindexed_suggestions": 1,
+  "receipts": [
+    {
+      "operation_index": 0,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "debate-priority",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "priority": "one counterexample before wording polish"
+        },
+        "valid_from": "2026-08-20T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-070ffa4180e1",
+        "source_message_id": "session-070ffa4180e1-m1",
+        "source_char_start": 0,
+        "source_char_end": 102,
+        "source_quote": "For debate preparation, address one counterexample to my argument first, before polishing the wording.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PREFERENCE",
+      "temporal_interpretation": "EXPLICIT_SOURCE_WORKING_PREFERENCE",
+      "native_source_span": [
+        0,
+        102
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_b9f9d4bb41247d19e43367d4",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_b9f9d4bb41247d19e43367d4",
+          "student_id": "synthetic-learner-03864c101b6c",
+          "memory_type": "PREFERENCE",
+          "content": "For debate preparation, address one counterexample to my argument first, before polishing the wording.",
+          "source_session_id": "session-070ffa4180e1",
+          "source_turn_id": "session-070ffa4180e1-m1",
+          "created_at": "2026-08-20T09:00:00.000000+00:00",
+          "valid_from": "2026-08-20T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-20T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "f5384e6ec26064dff8f37d81ab535b07bdf8c3d91cd40334f3b6c0d8e38f8ee5",
+          "version": 1,
+          "conflict_key": "conflict_f6dfceb812edaeb4503b",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 1,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "debate-budget",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "minutes": 12
+        },
+        "valid_from": "2026-08-23T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-2c1b2d445a19",
+        "source_message_id": "session-2c1b2d445a19-m1",
+        "source_char_start": 0,
+        "source_char_end": 59,
+        "source_quote": "I can set aside 12 minutes for the next debate preparation.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "CONSTRAINT",
+      "temporal_interpretation": "SOURCE_DECLARED_NEXT_ACTIVITY_NOT_UNBOUNDED_CURRENT_AVAILABILITY",
+      "native_source_span": [
+        0,
+        59
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_a2716e30f0d3fbc35a692653",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_a2716e30f0d3fbc35a692653",
+          "student_id": "synthetic-learner-03864c101b6c",
+          "memory_type": "CONSTRAINT",
+          "content": "I can set aside 12 minutes for the next debate preparation.",
+          "source_session_id": "session-2c1b2d445a19",
+          "source_turn_id": "session-2c1b2d445a19-m1",
+          "created_at": "2026-08-23T09:00:00.000000+00:00",
+          "valid_from": "2026-08-23T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-23T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "4fe86b4f74a2f769c1cda5d94c06198b82e215320dd328950ce1c99b4f1bfbc4",
+          "version": 1,
+          "conflict_key": "conflict_1e96960de2591b104988",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 2,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "suggested-budget",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "ASSISTANT_SUGGESTION",
+        "value": {
+          "minutes": 30,
+          "student_adopted": false
+        },
+        "valid_from": "2026-08-23T09:01:00+00:00",
+        "valid_until": null,
+        "source_role": "assistant",
+        "source_session_id": "session-2c1b2d445a19",
+        "source_message_id": "session-2c1b2d445a19-m2",
+        "source_char_start": 0,
+        "source_char_end": 86,
+        "source_quote": "If convenient, I suggest setting aside 30 minutes; for now, this is only a suggestion.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "SOURCE_PRESERVED_NATIVE_WRITER_REJECTS_UNADOPTED_ASSISTANT",
+      "native_source_span": [
+        0,
+        86
+      ],
+      "writer_result": {
+        "accepted": false,
+        "requested_operation": "ADD",
+        "applied_operation": "NOOP",
+        "reason_code": "ASSISTANT_ADVICE_NOT_LEARNER_FACT",
+        "memory_id": null,
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": null,
+        "record": null
+      }
+    }
+  ],
+  "native_rows": 2,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 2,
+    "fts_row_count": 2
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [
+      {
+        "turn_id": "session-070ffa4180e1-m1",
+        "session_id": "session-070ffa4180e1",
+        "role": "USER",
+        "content": "For debate preparation, address one counterexample to my argument first, before polishing the wording.",
+        "timestamp": "2026-08-20T09:00:00+00:00",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-2c1b2d445a19-m1",
+        "session_id": "session-2c1b2d445a19",
+        "role": "USER",
+        "content": "I can set aside 12 minutes for the next debate preparation.",
+        "timestamp": "2026-08-23T09:00:00+00:00",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-2c1b2d445a19-m2",
+        "session_id": "session-2c1b2d445a19",
+        "role": "ASSISTANT",
+        "content": "If convenient, I suggest setting aside 30 minutes; for now, this is only a suggestion.",
+        "timestamp": "2026-08-23T09:01:00+00:00",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1"
+      }
+    ],
+    "setup_operations": [
+      {
+        "operation": "ADD",
+        "memory_type": "PREFERENCE",
+        "content": "For debate preparation, address one counterexample to my argument first, before polishing the wording.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "For debate preparation, address one counterexample to my argument first, before polishing the wording.",
+        "fact_id": "source-operation-0",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-070ffa4180e1-m1",
+        "source_span_chars": [
+          0,
+          102
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "CONSTRAINT",
+        "content": "I can set aside 12 minutes for the next debate preparation.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I can set aside 12 minutes for the next debate preparation.",
+        "fact_id": "source-operation-1",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-2c1b2d445a19-m1",
+        "source_span_chars": [
+          0,
+          59
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "If convenient, I suggest setting aside 30 minutes; for now, this is only a suggestion.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "If convenient, I suggest setting aside 30 minutes; for now, this is only a suggestion.",
+        "fact_id": "source-operation-2",
+        "learner_id": "synthetic-learner-03864c101b6c",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-2c1b2d445a19-m2",
+        "source_span_chars": [
+          0,
+          86
+        ],
+        "claim_basis": "ASSISTANT_ADVICE"
+      }
+    ],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-03864c101b6c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "For my next debate preparation, how much time did I last confirm I could use, and what should I prioritise?",
+      "page": "Debate",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

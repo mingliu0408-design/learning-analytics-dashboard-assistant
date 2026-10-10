@@ -1,0 +1,47 @@
+{
+  "commit": "7d9b51f3d5859ca72db704b66fcede636364c94d",
+  "commit_role": "EXECUTION_BASE_COMMIT",
+  "completion_timestamp": "2026-08-29T23:15:02Z",
+  "first_successful_result": true,
+  "gold_change": false,
+  "input_hashes": {
+    "combined_source": "822ae2ed624416d97a8c36ba6678b620066d8dc703220abc30b3938980c8780e",
+    "gold_bundle": "5c2ee1722594e9e3d4fb40cf5e21ef9a6dc6a833f2704191c9b3fd056ad92fc5",
+    "grouping": "41bb7a1617b8428bb7c02dadb186ba8650b745cc870fc277bee1b86037fbe35a",
+    "label_only_gold": "06df1d02b1e5d11554f8be2be9b0b3daefd5097aacfab4b7822f99e8dd48be7f",
+    "p1_policy": "74236e7166cfa2cc73447f873150812b9700dfcc14e5209e8b157be3c7210942"
+  },
+  "method_identities": {
+    "B0": "B0_ORIGINAL_QUERY_C0_TOP1_HARD_ROUTE_NO_CONTEXT_RESOLUTION",
+    "B1": "B1_CURRENT_PRODUCTION_CONTEXT_RESOLUTION_C0_TOP1_HARD_ROUTE",
+    "P1": "P1_D05_SIGNAL_UNION"
+  },
+  "metric_identity": "697f8f84d8658275e8034da4e24839d3dca9f40a8e7f3409b0f659ba55b8b138",
+  "model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "policy_change": false,
+  "post_result_tuning": false,
+  "python_version": "3.13.5",
+  "reproduction_may_verify_but_not_replace": true,
+  "result_commit_reported_in_git_state": true,
+  "result_hashes": {
+    "docs/thesis_mainline/rq2/RQ2D4_ERROR_AND_CONFUSION_ANALYSIS.md": "764280fae175ff73916600228c84936e494b3e7d4e5b4fa2fc5dfa821a7cc7dc",
+    "docs/thesis_mainline/rq2/RQ2D4_RESEARCH_CONCLUSIONS_AND_LIMITATIONS.md": "8bb14e51dabc4d4e84a328d4e22a20b7cfd0c474a518d4d925376222b8a68da7",
+    "docs/thesis_mainline/rq2/RQ2D4_STATISTICAL_COMPARISONS.md": "ef66196c847043b5ae71c0819b92d715ab72e6a1aa1d13da8c670c31062fe415",
+    "docs/thesis_mainline/rq2/RQ2D4_TRACK_B_FINAL_EVALUATION_RESULTS.md": "1afbf2beaa504b9b5762b9ebec8e9f55b41c1d05e76f42a4b63f7e98b1dd7f0e",
+    "docs/thesis_mainline/rq2/figures/rq2d4_context_subset_comparison.png": "1ab1806e50cb6478bc2d27d19c35e18e477c34f49a4efbce746e834ae8e63b4b",
+    "docs/thesis_mainline/rq2/figures/rq2d4_method_overview.png": "51fc5f46ff48a2cfdd832ddf2b9ce2d898edce1c2b92b5c71eda0a586dac29c0",
+    "docs/thesis_mainline/rq2/figures/rq2d4_per_capability_f1.png": "904436a6d20429b51058cf39ca7d53f633b7fcfa625b6badc319b50f9a8f5e05",
+    "evaluation/capability_routing_rq2d4_research_v1/rq2d4_final_comparisons_v1.json": "cc59f9fa0e37b9845c4a449bc1eda99b0ef780328f305ef90ae54fddebf043d1",
+    "evaluation/capability_routing_rq2d4_research_v1/rq2d4_final_error_summary_v1.json": "94208fac28df29cd290d62dc191940e4b879c1b4614ad706aa435b2b26355c2a",
+    "evaluation/capability_routing_rq2d4_research_v1/rq2d4_final_metrics_v1.json": "3f04683f61d7ac85a08068bcf39e3b974ec22cbc0a940c321ad7f02b3bd56afb",
+    "evaluation/capability_routing_rq2d4_research_v1/rq2d4_per_capability_metrics_v1.csv": "07e4fa692c3e320d70a65fce5703c1d5ca0cbf7ac06af324abbcb08006396069",
+    "evaluation/capability_routing_rq2d4_research_v1/rq2d4_runtime_report_v1.json": "1dc2608dfb2038ec38604435aff407daf32f789227338d27618f16f222c95764"
+  },
+  "schema_version": "rq2d4-result-freeze-v1",
+  "sentence_transformers_version": "5.6.1",
+  "statistical_identity": "90210630b81d2995db78cbe6d64d4ca07877241e77f2b417b77cc2d9f6d49307",
+  "statistical_seed_change": false,
+  "status": "FROZEN",
+  "threshold_change": false,
+  "torch_version": "2.12.1"
+}

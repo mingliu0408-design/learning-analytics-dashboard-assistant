@@ -1,0 +1,37 @@
+{
+  "completed_lock_receipts": [
+    "contamination reference manifest",
+    "canonical case bank",
+    "raw-ID/blinded-ID mapping",
+    "hidden legacy escrow",
+    "contamination audit summary",
+    "Reviewer A packet",
+    "Reviewer B packet",
+    "packet manifest"
+  ],
+  "contamination_binding": [
+    "reference manifest SHA",
+    "reference bundle SHA",
+    "audit summary SHA",
+    "audit summary size",
+    "hard conflict count",
+    "sensitivity overlap count"
+  ],
+  "failure_lock_preserved": true,
+  "persistence_sequence": [
+    "exclusive temporary file",
+    "write",
+    "flush",
+    "fsync file",
+    "os.replace",
+    "fsync parent directory",
+    "reread",
+    "verify SHA-256",
+    "verify size",
+    "verify schema"
+  ],
+  "post_completed_write_permitted": false,
+  "retry_permitted": false,
+  "schema_version": "track-b-durable-receipt-contract-v1",
+  "status": "FROZEN_BEFORE_D1"
+}

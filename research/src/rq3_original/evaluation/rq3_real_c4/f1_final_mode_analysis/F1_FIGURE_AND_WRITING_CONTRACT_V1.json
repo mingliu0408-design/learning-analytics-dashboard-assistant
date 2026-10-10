@@ -1,0 +1,125 @@
+{
+  "backend": "PYTHON_MATPLOTLIB",
+  "backend_basis": "User-specified Python guard and existing sealed Python analysis workflow; task-local preference only.",
+  "claim_boundaries": [
+    "No Human mode effects",
+    "No learning, grades, satisfaction or other-course generalisation claims",
+    "No component causal claims for router-selected strata",
+    "No calibrated or averaged Human-Judge outcome"
+  ],
+  "export_contract": {
+    "all_text_editable": true,
+    "editable_vector": [
+      "PDF",
+      "SVG"
+    ],
+    "font": "DejaVu Sans",
+    "minimum_rendered_text_pt": 5,
+    "raster": [
+      "PNG_300_DPI",
+      "TIFF_600_DPI"
+    ],
+    "target": "Thesis-ready figures; no claim of compliance with unverified current journal submission rules",
+    "target_text_pt": 7.5
+  },
+  "figures": [
+    {
+      "archetype": "quantitative grid",
+      "claim": "Only the targeted Planning removal contrast meets the predeclared improvement interpretation; all effects and pointwise intervals remain visible.",
+      "evidence_chain": [
+        "All eight paired mean differences with 95% family-cluster percentile bootstrap intervals",
+        "Five and three Holm families separately identified; exact adjusted values accompany the plot"
+      ],
+      "id": "figure_1_primary_forest",
+      "question": "What do all eight predeclared paired comparisons establish?",
+      "selection": "All eight in registry order; no sorting by effect or p value.",
+      "size_mm": [
+        180,
+        118
+      ]
+    },
+    {
+      "archetype": "quantitative grid",
+      "claim": "All nine modes have high descriptive means and medians; these absolute values require the frozen Human-Judge bias qualification.",
+      "evidence_chain": [
+        "Mean and median for each of nine modes; n=62 paired scenarios per mode",
+        "Descriptive display only; no inference from marginal ranking or overlapping markers"
+      ],
+      "id": "figure_2_mode_mean_median",
+      "question": "What are the absolute Judge-rated primary outcome levels?",
+      "selection": "All nine in registry order.",
+      "size_mm": [
+        180,
+        105
+      ]
+    },
+    {
+      "archetype": "quantitative grid",
+      "claim": "Criterion means have different applicable denominators; ERROR_HANDLING is entirely NA for C0.",
+      "evidence_chain": [
+        "All eight primary dimensions by all nine modes",
+        "Every cell shows mean and applicable count; missing cells stay NA"
+      ],
+      "id": "figure_3_criterion_profile",
+      "question": "How do descriptive rubric profiles and applicability vary across modes?",
+      "selection": "All 72 criterion-mode cells; no significance annotations.",
+      "size_mm": [
+        180,
+        125
+      ]
+    },
+    {
+      "archetype": "quantitative grid",
+      "claim": "Availability, activation and successful content return differ across components and must remain distinct.",
+      "evidence_chain": [
+        "a: RAG activation decomposed into SUPPORTED, LIMITED_EVIDENCE and NO_RESULT",
+        "b: Memory activation decomposed into AVAILABLE and NO_MATCH",
+        "c: Planner activation decomposed into USED and INSUFFICIENT_EVIDENCE"
+      ],
+      "id": "figure_4_mechanism_outcomes",
+      "question": "How often did component availability yield activation and substantive output?",
+      "selection": "All nine modes in each comparable panel; count scale shared; activation totals do not include inactive conditions.",
+      "size_mm": [
+        180,
+        120
+      ]
+    }
+  ],
+  "image_integrity": {
+    "cropping": false,
+    "imagegen": false,
+    "selective_omission": false,
+    "source": "Frozen aggregate tables only",
+    "synthetic_data": false
+  },
+  "qa_contract": {
+    "fallback": "If PyMuPDF absent, validate final Matplotlib-rendered text and stroke geometry with the same collision geometry core, plus complete raster visual inspection; do not call it a PDF geometry audit.",
+    "multi_panel_alignment_tolerance_pt": 1.5,
+    "pdf_collision_tool": "Run provided tool; record any dependency blocker without claiming a pass. Offline authorization prohibits installing packages from a network.",
+    "pdf_glyph_audit": true,
+    "reproducibility": "Rebuild figures in memory from hash-bound aggregate data, fixed layout/font/SVG hashsalt and deterministic metadata.",
+    "source_preflight": true
+  },
+  "recorded_before_plotting_code": true,
+  "schema_version": "F1_FIGURE_AND_WRITING_CONTRACT_V1",
+  "statistical_contract": {
+    "bootstrap": {
+      "confidence": 0.95,
+      "interval": "pointwise percentile, not multiplicity-adjusted",
+      "replicates": 10000,
+      "seed": 20260831
+    },
+    "mode_and_criterion_plots": "DESCRIPTIVE_ONLY",
+    "outcome": "OVERALL_APPLICABLE_MEAN",
+    "qualitative_examples": 0,
+    "raw_identity_or_text_export": false,
+    "unit": "62 paired scenarios; one scenario per family"
+  },
+  "timestamp_utc": "2026-09-03T07:55:52.652214+00:00",
+  "writing_axes": {
+    "argument": "The full system did not establish a reliable improvement over Evidence; only the predeclared Planning removal comparison supported a higher Judge-rated primary outcome under the frozen analysis.",
+    "artifact": "thesis_results_and_method_audit",
+    "evidence": "completed frozen offline real-C4 experiment",
+    "language": "English"
+  }
+}

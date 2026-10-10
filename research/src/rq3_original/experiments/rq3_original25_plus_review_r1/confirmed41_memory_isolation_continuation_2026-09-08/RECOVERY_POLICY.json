@@ -1,0 +1,67 @@
+{
+  "version": "CONFIRMED41_MEMORY_PROCESS_ISOLATION_V1",
+  "starting_head": "c0082814165067f4c0d157083bd5c5c1ad42a796",
+  "parent_archive_sha256": "61487ebddbaecade38af12b6b8602bf6d7a1413e20e037bfd453c71da2d9ba97",
+  "parent_archive_path": "/Users/liuming/Downloads/RQ3_CONFIRMED41_REMAINING_GENERATION_REVIEW_2026-09-08.zip",
+  "logical_caps": {
+    "ROUTE": 33,
+    "CANDIDATE": 22,
+    "FINAL": 63
+  },
+  "physical_caps": {
+    "ROUTE": 66,
+    "CANDIDATE": 40,
+    "FINAL": 125
+  },
+  "aggregate_new_physical_cap": 232,
+  "cumulative_physical_cap": 518,
+  "cumulative_money_cap_usd": 10,
+  "historical_physical_calls": 286,
+  "historical_budget_debit_usd": 0.57506295,
+  "existing_unknown_resends": {
+    "task-495277e64cd9:S3_EVIDENCE_MEMORY:FINAL": {
+      "source_run": "A2",
+      "role": "FINAL",
+      "request_sha256": "bdd7b31b6433e91a5719e632cbc3446ffc0dd05aadad3b3f25f12a7037b99c77",
+      "prior_attempt_ids": [
+        "609c7eb4e602ef81b3bb2fa491c893062042ece65f1fe62d2c231e828f226db8.1",
+        "609c7eb4e602ef81b3bb2fa491c893062042ece65f1fe62d2c231e828f226db8.2"
+      ],
+      "additional_physical_attempts_allowed": 1
+    },
+    "task-495277e64cd9:S5_FULL:CANDIDATE": {
+      "source_run": "A2",
+      "role": "CANDIDATE",
+      "request_sha256": "b9577deb07127392af5de116aea72672d78132ea3c78afe80e4355ee70d1f73d",
+      "prior_attempt_ids": [
+        "949c00d4abd2fba9c95cc91d0215fde5d1ddc418adc2c81f24f5e4148f4e6cba.1",
+        "949c00d4abd2fba9c95cc91d0215fde5d1ddc418adc2c81f24f5e4148f4e6cba.2"
+      ],
+      "additional_physical_attempts_allowed": 1
+    },
+    "task-495277e64cd9:S4_EVIDENCE_PLANNING:CANDIDATE": {
+      "source_run": "A2",
+      "role": "CANDIDATE",
+      "request_sha256": "01e52e73e4566bcb2df9ba00ec321a9780299f0b61c20b7862366a1850dc6efe",
+      "prior_attempt_ids": [
+        "b39c0cd4c730b95f16b66a4cd8fbc25a6ddf092cee3c498b41b84a53f38b1b0f.1",
+        "b39c0cd4c730b95f16b66a4cd8fbc25a6ddf092cee3c498b41b84a53f38b1b0f.2"
+      ],
+      "additional_physical_attempts_allowed": 1
+    }
+  },
+  "network_retry_wait_seconds": 10,
+  "max_physical_attempts_per_fresh_logical_including_repairs": 2,
+  "existing_unknown_additional_attempts": 1,
+  "sdk_retries": 0,
+  "timeout_seconds": 30,
+  "minimum_start_interval_seconds": 2,
+  "stop_after_consecutive_connection_exhaustions": 3,
+  "accepted_selection": "EARLIEST_FROZEN_MECHANICAL_CHECK_PASS",
+  "scientific_interface": "A1_PLANNING_INTENT_DECLARED_SOURCE_TIME_V1",
+  "scientific_changes_permitted": false,
+  "late_response_replacement_permitted": false,
+  "prior_unknown_reclassification_permitted": false,
+  "authorization_basis": "DIRECT_USER_REPAIR_AND_CONTINUE_AFTER_DIAGNOSIS",
+  "scope_note": "Preserve A2 accepted183; fill remaining63. Three stopped logical requests each at most one newly authorized same-payload attempt, preserving both historical unknown attempts. Fresh requests inherit finite A2 recovery. No budget reset; all new attempts fit unused cumulative ceiling."
+}

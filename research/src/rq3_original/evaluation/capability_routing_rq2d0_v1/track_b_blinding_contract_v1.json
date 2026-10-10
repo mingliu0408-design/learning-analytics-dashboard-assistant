@@ -1,0 +1,36 @@
+{
+  "all_human_fields_blank_at_generation": true,
+  "blind_key_storage": "LOCAL_ONLY_NOT_TRACKED_NOT_IN_REVIEW_ZIP",
+  "different_order_required": true,
+  "hidden_source_fields": [
+    "raw scenario_id",
+    "normalised query",
+    "all existing Intent labels",
+    "source scope",
+    "authority flags",
+    "hard guards",
+    "hybrid policy",
+    "scenario category",
+    "family",
+    "contrast group",
+    "difficulty",
+    "eligibility flags",
+    "all prior review fields and rationales",
+    "all model outputs and automatic proposals"
+  ],
+  "opaque_id_algorithm": "HMAC_SHA256_LOCAL_D1_BLIND_KEY_TRUNCATED_16_HEX",
+  "real_packets_generated_in_d0": false,
+  "reviewer_a_order_seed": 20260830,
+  "reviewer_b_order_seed": 20260831,
+  "same_case_set_required": true,
+  "schema_version": "track-b-blinding-contract-v1",
+  "status": "FROZEN_BEFORE_D1_RAW_ACCESS",
+  "visible_source_fields": [
+    "opaque review_case_id",
+    "effective current query",
+    "current page",
+    "effective conversation history",
+    "Capability definitions",
+    "blank human fields"
+  ]
+}

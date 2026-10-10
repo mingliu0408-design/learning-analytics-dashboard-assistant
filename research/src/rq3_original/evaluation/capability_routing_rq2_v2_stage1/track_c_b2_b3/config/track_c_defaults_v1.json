@@ -1,0 +1,64 @@
+{
+  "schema_version": "rq2-v2-stage1-track-c-config-v1",
+  "scope": "RQ2_V2_STAGE_1_TRACK_C_B2_B3_DEVELOPMENT_ONLY",
+  "capability_fields": [
+    "rag_required",
+    "memory_required",
+    "planning_required"
+  ],
+  "primary_text_representation": "rq2-v2-track-c-canonical-text-v2",
+  "primary_feature_profile": {
+    "name": "R2V2_PRIMARY_SEMANTIC_INPUT_V1",
+    "encoded_fields": [
+      "current_query",
+      "current_page",
+      "dashboard_context",
+      "visible_conversation_history"
+    ],
+    "non_feature_metadata": [
+      "rag_context_state",
+      "memory_context_state"
+    ]
+  },
+  "shared_encoder": {
+    "repo_id": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "embedding_dimension": 768,
+    "local_files_only": true,
+    "fine_tuning": false
+  },
+  "r2v2_b2_prototype": {
+    "score": "cosine(input, positive_prototype) - cosine(input, negative_prototype)",
+    "default_thresholds": {
+      "rag_required": 0.0,
+      "memory_required": 0.0,
+      "planning_required": 0.0
+    }
+  },
+  "r2v2_b3_ovr": {
+    "penalty": "l2",
+    "regularization_c": 1.0,
+    "solver": "liblinear",
+    "random_seed": 20260830,
+    "class_weight": null,
+    "default_thresholds": {
+      "rag_required": 0.5,
+      "memory_required": 0.5,
+      "planning_required": 0.5
+    }
+  },
+  "development_only": {
+    "required_partition": "DEV",
+    "group_field": "scenario_family_id",
+    "grouped_cv_stratum": "rag_memory_planning_bit_signature",
+    "grouped_cv_default_folds": 4,
+    "grouped_cv_random_seed": 20260830,
+    "learning_curve_family_sampling_method": "SEEDED_SIGNATURE_ROUND_ROBIN_V1",
+    "learning_curve_family_sampling_seed": 20260830,
+    "learning_curve_selection_unit": "complete_scenario_family",
+    "test_records_forbidden": true,
+    "clarification_records_excluded": true,
+    "future_final_experiment_run": false,
+    "winner_claim": false
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-rag-specialist-fold-package-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "specialist": "RAG Specialist",
+  "outer_fold": "DEV-CV-FOLD-3",
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_template": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n",
+  "specialist_schema": {
+    "type": "object",
+    "properties": {
+      "rag_required": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "rag_required"
+    ],
+    "additionalProperties": false
+  },
+  "few_shot_examples": [
+    {
+      "input": {
+        "current_query": "Does the way I've used these resources fit the format preference I just mentioned?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: three optional resources were opened, an audio summary was not opened, and all resource-format descriptions are visible.",
+        "visible_conversation_history": [
+          {
+            "content": "Dense diagrams work better for me than audio summaries.",
+            "role": "user"
+          }
+        ]
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What should I revise first in this Week 6 draft, and what should I do next, to better connect the evidence to how my understanding changed?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: the explicitly selected Week 6 reflection draft carries the rubric marker 'connect evidence to changed understanding' and two revision markers.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What two things should I do in the next discussion round to improve this pattern and stay aligned with the participation goal I mentioned earlier?",
+        "current_page": "Debate",
+        "dashboard_context": "Controlled dashboard snapshot: the last discussion shows 2 original posts, 5 replies, and 4 replies submitted during the final six hours.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does the selected 62% engagement score actually mean?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the current week shows 4 active days, 3 completed check-ins, and a 62% engagement indicator; the 62% indicator is explicitly selected.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "How do prediction, discovery and generation connect in Week 7, and how should I organise my next 30-minute sessions before the submission in nine days?",
+        "current_page": "Lecture",
+        "dashboard_context": "Controlled dashboard snapshot: the Week 7 lecture 'From Predictions to Discovery and Generation with AI in Education' is 55% complete.",
+        "visible_conversation_history": [
+          {
+            "content": "My submission is in 9 days, and 30-minute study blocks work best for me.",
+            "role": "user"
+          }
+        ]
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    }
+  ],
+  "complete_rendered_fold_package": {
+    "model": "gpt-4o-mini-2024-07-18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Does the way I've used these resources fit the format preference I just mentioned?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: three optional resources were opened, an audio summary was not opened, and all resource-format descriptions are visible.\",\"visible_conversation_history\":[{\"content\":\"Dense diagrams work better for me than audio summaries.\",\"role\":\"user\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What should I revise first in this Week 6 draft, and what should I do next, to better connect the evidence to how my understanding changed?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: the explicitly selected Week 6 reflection draft carries the rubric marker 'connect evidence to changed understanding' and two revision markers.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What two things should I do in the next discussion round to improve this pattern and stay aligned with the participation goal I mentioned earlier?\",\"current_page\":\"Debate\",\"dashboard_context\":\"Controlled dashboard snapshot: the last discussion shows 2 original posts, 5 replies, and 4 replies submitted during the final six hours.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does the selected 62% engagement score actually mean?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the current week shows 4 active days, 3 completed check-ins, and a 62% engagement indicator; the 62% indicator is explicitly selected.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How do prediction, discovery and generation connect in Week 7, and how should I organise my next 30-minute sessions before the submission in nine days?\",\"current_page\":\"Lecture\",\"dashboard_context\":\"Controlled dashboard snapshot: the Week 7 lecture 'From Predictions to Discovery and Generation with AI in Education' is 55% complete.\",\"visible_conversation_history\":[{\"content\":\"My submission is in 9 days, and 30-minute study blocks work best for me.\",\"role\":\"user\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 32,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "rq2_v2_rag_specialist_v1",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "rag_required": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "rag_required"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "hashes": {
+    "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+    "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+    "example_id_order_sha256": "ab9a6f65f51f495fe2388b43a03daa1fb2a8d0c4c0f02b9ef52eb923e319c720",
+    "specialist_example_set_sha256": "44bdc7c706afbfc7ff1dc5fe31f1546bbb78d93c23485846828e01d1041fd2b1",
+    "complete_rendered_fold_package_sha256": "f769843b3ce59ca7adec758d2c98ee90231ba8dc00fd187c8ba908e29569db44"
+  },
+  "source_b4_reuse": {
+    "example_ids_in_order": [
+      "R2V2-ANN-050",
+      "R2V2-ANN-021",
+      "R2V2-ANN-037",
+      "R2V2-ANN-103",
+      "R2V2-ANN-034",
+      "R2V2-ANN-017",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_id_order": [
+      "R2V2-ANN-050",
+      "R2V2-ANN-021",
+      "R2V2-ANN-037",
+      "R2V2-ANN-103",
+      "R2V2-ANN-034",
+      "R2V2-ANN-017",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_set_sha256": "7e63f0160b63f20aabd185000acb919dd446808c171657635fd855ceac223a69",
+    "identity_and_order_exact": true
+  },
+  "execution_controls": {
+    "sdk_transport_retries": 0,
+    "initial_request_count": 1,
+    "manual_retry_max": 1,
+    "manual_retry_condition": "INVALID_JSON_OR_STRICT_SCHEMA_ONLY",
+    "retry_prompt_identical": true,
+    "correction_message_allowed": false,
+    "string_to_boolean_coercion_allowed": false,
+    "json_extraction_from_prose_allowed": false,
+    "non_retryable_error_categories": [
+      "AUTHENTICATION",
+      "PERMISSION",
+      "REQUEST_CONFIGURATION",
+      "TRANSPORT",
+      "RATE_LIMIT",
+      "MODEL"
+    ],
+    "maximum_output_tokens": 32
+  },
+  "execution_boundary": {
+    "provider_calls_authorized": 0,
+    "provider_calls_made": 0,
+    "specialist_predictions_present": 0
+  }
+}

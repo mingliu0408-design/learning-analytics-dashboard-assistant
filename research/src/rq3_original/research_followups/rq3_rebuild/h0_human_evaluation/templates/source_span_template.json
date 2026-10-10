@@ -1,0 +1,18 @@
+{
+  "source_id": "",
+  "kind": "",
+  "document_or_session_id": "",
+  "version": "",
+  "exact_span": "",
+  "sha256": "",
+  "scope": "",
+  "event_time": "",
+  "captured_at": "",
+  "valid_from": "",
+  "valid_to": "",
+  "supersedes": "",
+  "permission_reference": "",
+  "pre_target_readiness_reference": "",
+  "state": "",
+  "permitted_use": []
+}

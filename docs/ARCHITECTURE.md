@@ -1,3 +1,5 @@
+> Historical v0.1.0 snapshot. Current G0-R1 recovery/publication: [PROJECT_MAP](PROJECT_MAP.md), [RECOVERY](RECOVERY.md), [VALIDATION_G0_R1](VALIDATION_G0_R1.md).
+
 # 演示架构
 
 ```mermaid

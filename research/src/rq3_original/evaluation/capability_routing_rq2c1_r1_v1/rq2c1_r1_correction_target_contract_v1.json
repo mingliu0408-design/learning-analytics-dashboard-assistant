@@ -1,0 +1,20 @@
+{
+  "active_status_required": true,
+  "contract_id": "CORRECTION_TARGET_RESOLUTION_V1",
+  "dense_similarity_target_selection_used": false,
+  "gold_target_selection_used": false,
+  "lexicographic_target_selection_used": false,
+  "llm_target_selection_used": false,
+  "multiple_candidate_failure": "AMBIGUOUS_CORRECTION_TARGET",
+  "resolution_order": [
+    "EXPLICIT_SUPERSEDES_MEMORY_ID",
+    "GOVERNED_TARGET_MEMORY_TYPE_AND_ENTITIES",
+    "UNIQUE_SINGLETON_FALLBACK",
+    "FAIL_CLOSED"
+  ],
+  "schema_version": "rq2c1-r1-correction-target-contract-v1",
+  "scope_match_required": true,
+  "stage": "RQ2-C1-R1_OFFLINE_P2_CORRECTED_RUN",
+  "tombstoned_target_allowed": false,
+  "zero_candidate_failure": "CORRECTION_TARGET_NOT_FOUND"
+}

@@ -1,0 +1,32 @@
+{
+  "applicability_contract_sha256": "bee7bf9d681004f4ab5be549053b7dbeb2f7726361217251495a167257460b0e",
+  "automatic_sdk_retries": 0,
+  "endpoint": "OpenAI Chat Completions",
+  "endpoint_path": "/v1/chat/completions",
+  "judge_calls": 0,
+  "judge_prompt_sha256": "5b99b52bef760daa4e2fc8ae6ab13cead7e031b9d41b52d41e88617d906c35f3",
+  "manual_retry": {
+    "correction_message_added": false,
+    "maximum_retries": 1,
+    "permitted_only_after": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED",
+      "APPLICABILITY_CONTRACT_VIOLATION"
+    ],
+    "request_bytes": "IDENTICAL"
+  },
+  "max_output_tokens": 2048,
+  "minimum_seconds_between_initial_request_starts": 2,
+  "model": "gpt-4.1-2025-04-14",
+  "primary_outcome": "OVERALL_APPLICABLE_MEAN",
+  "primary_rubric_sha256": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+  "provider_schema_sha256": "caf69ff4e8c27b71805414b29caf3b87fa5da92bf0df0dec23c6945b2019be30",
+  "schema_version": "c4-real-judge-configuration-r3d1-r1-v1",
+  "secondary_audits_excluded_from_primary_mean": true,
+  "semantic_contract": "AUTHORITATIVE_RQ3_0B4_V1_UNCHANGED",
+  "serial_execution": true,
+  "status": "FROZEN_NO_JUDGE_CALL_AUTHORIZED_IN_R3D1_R1",
+  "streaming": false,
+  "temperature": 0,
+  "tools": "NONE"
+}

@@ -1,0 +1,60 @@
+{
+  "provenance": "SYNTHETIC_AUTHORED_DIALOGUE",
+  "draft_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+  "student_id": "synthetic-learner-d968fce424f6",
+  "course_id": "dute-archived-materials-experiment-v1",
+  "scope_policy": "read-only prior sessions for this experimental learner and course",
+  "target_session_id": "new-session-b0802114ea5c",
+  "target_time": "2026-08-31T12:00:00+00:00",
+  "sessions": [
+    {
+      "session_id": "session-0c84674d3ed8",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-0c84674d3ed8-m1",
+          "role": "user",
+          "content": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+          "timestamp": "2026-08-20T09:00:00+00:00"
+        },
+        {
+          "message_id": "session-0c84674d3ed8-m2",
+          "role": "assistant",
+          "content": "You could also try writing a complete long essay straight away; this is only my suggestion.",
+          "timestamp": "2026-08-20T09:01:00+00:00"
+        }
+      ]
+    },
+    {
+      "session_id": "session-953c7c2b0575",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-953c7c2b0575-m1",
+          "role": "user",
+          "content": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+          "timestamp": "2026-08-22T09:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "session_id": "session-f583bc77ee85",
+      "student_id": "synthetic-learner-d968fce424f6",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "provenance": "SYNTHETIC_AUTHORED_DIALOGUE_NOT_OBSERVED_STUDENT_DATA",
+      "messages": [
+        {
+          "message_id": "session-f583bc77ee85-m1",
+          "role": "user",
+          "content": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+          "timestamp": "2026-08-25T09:00:00+00:00"
+        }
+      ]
+    }
+  ],
+  "language_version": "EN_V2_TOOL_ASSISTED_UNREVIEWED"
+}

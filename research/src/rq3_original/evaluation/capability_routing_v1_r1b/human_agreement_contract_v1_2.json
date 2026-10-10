@@ -1,0 +1,53 @@
+{
+  "authentic_25_metrics": [
+    "VALIDITY_AGREEMENT",
+    "NATURALNESS_WEIGHTED_KAPPA",
+    "CONTEXT_LINK_AGREEMENT",
+    "CONTEXT_RESOLUTION_AGREEMENT",
+    "PER_CAPABILITY_AGREEMENT",
+    "EXACT_SET_AGREEMENT",
+    "JACCARD",
+    "INCLUDED_CASE_CAPABILITY_DISTRIBUTION"
+  ],
+  "automatic_source_based_deletion": false,
+  "calculation_before_both_packets_frozen": false,
+  "kappa_role": "DIAGNOSTIC_ONLY",
+  "low_kappa_alone_may_change_label": false,
+  "low_kappa_alone_may_delete_case": false,
+  "overall_60_metrics": [
+    "VALIDITY_PERCENT_AGREEMENT_AND_KAPPA",
+    "NATURALNESS_QUADRATIC_WEIGHTED_KAPPA",
+    "CONTEXT_SUFFICIENT_PERCENT_AGREEMENT_AND_KAPPA",
+    "CAPABILITY_UNAMBIGUOUS_PERCENT_AGREEMENT_AND_KAPPA",
+    "CONTEXT_RESOLUTION_PERCENT_POSITIVE_NEGATIVE_AGREEMENT_AND_KAPPA",
+    "PER_CAPABILITY_PERCENT_POSITIVE_NEGATIVE_AGREEMENT_KAPPA_AND_SUPPORT",
+    "EXACT_SET_AGREEMENT",
+    "MEAN_AND_MEDIAN_JACCARD",
+    "ALL_CAPABILITY_MICRO_AGREEMENT",
+    "FORBIDDEN_CAPABILITY_SET_AGREEMENT_AND_JACCARD"
+  ],
+  "schema_version": "human-agreement-contract-v1.2",
+  "single_overall_kappa_sufficient": false,
+  "source_comparison_after_gold_freeze": [
+    "MEAN_AND_MEDIAN_NATURALNESS",
+    "VALIDITY_INCLUSION_RATE",
+    "CAPABILITY_PREVALENCE",
+    "CONTEXT_RESOLUTION_PREVALENCE",
+    "MULTI_CAPABILITY_PREVALENCE"
+  ],
+  "source_comparison_role": "DESCRIPTIVE_ONLY",
+  "source_identity_visible_during_first_round": false,
+  "stage": "RQ2-A-R1B",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "synthetic_35_metrics": [
+    "VALIDITY_AGREEMENT",
+    "NATURALNESS_WEIGHTED_KAPPA",
+    "CONTEXT_LINK_AGREEMENT",
+    "CONTEXT_RESOLUTION_AGREEMENT",
+    "PER_CAPABILITY_AGREEMENT",
+    "EXACT_SET_AGREEMENT",
+    "JACCARD",
+    "INCLUDED_CASE_CAPABILITY_DISTRIBUTION"
+  ],
+  "zero_variance_kappa_policy": "RETURN_NULL_WITH_STATUS"
+}

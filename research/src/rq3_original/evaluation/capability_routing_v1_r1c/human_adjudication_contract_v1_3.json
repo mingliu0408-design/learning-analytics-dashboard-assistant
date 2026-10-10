@@ -1,0 +1,38 @@
+{
+  "adjudication_before_both_packets_frozen": false,
+  "adjudication_triggers": [
+    "CASE_VALIDITY_DISAGREEMENT",
+    "EITHER_REVIEWER_EXCLUDES",
+    "NATURALNESS_DIFFERENCE_AT_LEAST_TWO",
+    "CONTEXT_SUFFICIENT_DISAGREEMENT",
+    "CAPABILITY_UNAMBIGUOUS_DISAGREEMENT",
+    "CONTEXT_RESOLUTION_DISAGREEMENT",
+    "ANY_CAPABILITY_DISAGREEMENT",
+    "FORBIDDEN_CAPABILITY_DISAGREEMENT",
+    "EITHER_REVIEWER_UNCERTAIN",
+    "SYNTHETIC_CONTEXT_LINK_VALID_DISAGREEMENT",
+    "SYNTHETIC_REVIEWER_REJECTS_CONTEXT_LINK",
+    "AUTHENTIC_CONTEXT_INSUFFICIENT"
+  ],
+  "assistant_context_attachment_authorised": false,
+  "authentic_context_sufficient_no_requires_adjudication": true,
+  "authentic_missing_context_dispositions": [
+    "EXCLUDE_FROM_CAPABILITY_GOLD_BUT_RETAIN_AS_CONTEXT_MISSING_CASE",
+    "INCLUDE_AS_STANDALONE_IF_QUERY_IS_SELF_CONTAINED"
+  ],
+  "context_insufficient_capability_exact_set_gold_eligible": false,
+  "context_missing_qualitative_retention_allowed": true,
+  "cross_case_context_splicing_authorised": false,
+  "hidden_proposal_visible_before_final_human_decision": false,
+  "new_complete_query_policy": {
+    "direct_addition_to_current_gold": false,
+    "new_case_id_required": true,
+    "new_independent_two_reviewer_round_required": true
+  },
+  "query_rewrite_authorised": false,
+  "real_prior_context_guessing_authorised": false,
+  "schema_version": "human-adjudication-contract-v1.3",
+  "stage": "RQ2-A-R1C",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "threshold_selection_from_authentic_cases_authorised": false
+}

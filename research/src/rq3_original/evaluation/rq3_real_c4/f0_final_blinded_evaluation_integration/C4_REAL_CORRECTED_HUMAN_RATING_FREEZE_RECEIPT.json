@@ -1,0 +1,117 @@
+{
+  "disagreements_adjudicated": false,
+  "excluded_base_pair_source_audit_metadata_sha256": "9c96d02cb58e16e3d431c2d17e9df8b4b633b4e07c7db5d5984a76b00cb9a0c8",
+  "frozen_at_utc": "2026-09-03T06:10:31.595177+00:00",
+  "human_metadata_sha256": "0416ac7ca58b7531cf3fbdabbcb048cd4a0bcddc92b938a1cdb86250ba9c8f2f",
+  "items_per_rater": 44,
+  "matched_amendment_ids": [
+    "C4HA1-053C4A0E9243003641CB40C7",
+    "C4HA1-2F7A88717D8D28DF091A49D0",
+    "C4HA1-5D9C7F2242F626D3AE0C2CF1",
+    "C4HA1-5F830861FA7606F34D170922",
+    "C4HA1-C0AA0C2FC59513374B5A141C",
+    "C4HA1-EAE885E7D0C6B75EE9EBD6CF"
+  ],
+  "overwrite_permitted": false,
+  "raters": {
+    "A": {
+      "amendment_order_preserved": true,
+      "amendment_rows": 6,
+      "amendment_source_sha256": "8b4fef70cc6d0bd2022dfcd8c5c6b3435734bb43d63d1634277ef385cee753b8",
+      "attestation": {
+        "amendment_attestation_administrative_ai": "AI used only after all substantive amendment ratings and rationales were independently completed to draft/format the attestation; no substantive rating or rationale assistance.",
+        "amendment_attestation_sha256": "e89c379112e88ae03c8276af8b905bd85316e38c92e845ce4c286cdd25135dd3",
+        "base_and_amendment_signed": true,
+        "base_attestation_administrative_ai": "AI used only after completion to draft/format the attestation.",
+        "base_attestation_sha256": "dfa22955ab3aa6ea9885c7bdf0578dfed9e2bc1b83e895e2719e52eb40ba23a3",
+        "completed_source_files_modified": false,
+        "independence": "SELF_ATTESTED_INDEPENDENT_COMPLETION",
+        "substantive_ratings_or_rationales_ai_assisted": false,
+        "technical_independence_verification": "NOT_CLAIMED"
+      },
+      "base_order_preserved": true,
+      "base_rows": 44,
+      "base_source_sha256": "0d4195b4bfa3680cc8079a9c87b3177ee3f207dea14c9a3a7dfaaaef14a6a318",
+      "corrected_na_pairs": 76,
+      "corrected_numeric_pairs": 276,
+      "only_authorized_amendment_fields_changed": true,
+      "total_item_criterion_pairs": 352,
+      "transition_counts": {
+        "OLD_APPLICABLE_NEW_NOT_APPLICABLE_EXCLUDE_OLD_AND_SET_NA": 7,
+        "OLD_NOT_APPLICABLE_NEW_APPLICABLE_REQUIRES_BLIND_AMENDMENT": 6,
+        "UNCHANGED_APPLICABLE_KEEP_EXISTING_RATING": 270,
+        "UNCHANGED_NOT_APPLICABLE_KEEP_NA": 69
+      },
+      "unique_corrected_items": 44,
+      "visible_source_fields_unchanged": true
+    },
+    "B": {
+      "amendment_order_preserved": true,
+      "amendment_rows": 6,
+      "amendment_source_sha256": "77da4b2921fa91ab949f1957cde18c8e1ba883dad585544a76133752c6b35d01",
+      "attestation": {
+        "amendment_attestation_administrative_ai": "AI used only after all substantive amendment ratings and rationales were independently completed to draft/format the attestation; no substantive rating or rationale assistance.",
+        "amendment_attestation_sha256": "a989ed4d77ce737951ead6abda651fbe60b2a29f5fd942ce1037290e49d85100",
+        "base_and_amendment_signed": true,
+        "base_attestation_administrative_ai": "No administrative AI use is stated in the base attestation; no AI reference template use for ratings/rationales is declared.",
+        "base_attestation_sha256": "0146f38074a065e3fa6f3f09579a813f1f8019dad3ee1dc4575bc98d31a722c6",
+        "completed_source_files_modified": false,
+        "independence": "SELF_ATTESTED_INDEPENDENT_COMPLETION",
+        "substantive_ratings_or_rationales_ai_assisted": false,
+        "technical_independence_verification": "NOT_CLAIMED"
+      },
+      "base_order_preserved": true,
+      "base_rows": 44,
+      "base_source_sha256": "02ae76ba9866f8b7115ead815cc587e7c14c2f00c733570839364129bfeeaa46",
+      "corrected_na_pairs": 76,
+      "corrected_numeric_pairs": 276,
+      "only_authorized_amendment_fields_changed": true,
+      "total_item_criterion_pairs": 352,
+      "transition_counts": {
+        "OLD_APPLICABLE_NEW_NOT_APPLICABLE_EXCLUDE_OLD_AND_SET_NA": 7,
+        "OLD_NOT_APPLICABLE_NEW_APPLICABLE_REQUIRES_BLIND_AMENDMENT": 6,
+        "UNCHANGED_APPLICABLE_KEEP_EXISTING_RATING": 270,
+        "UNCHANGED_NOT_APPLICABLE_KEEP_NA": 69
+      },
+      "unique_corrected_items": 44,
+      "visible_source_fields_unchanged": true
+    }
+  },
+  "result_files": [
+    {
+      "filename": "c4_real_corrected_human_ratings_A_frozen_v1.csv",
+      "row_count": 44,
+      "sha256": "da4e4e08f975d7439abedc4980f077fe57b9aacc4611db8f4cd09f3abf7deb43"
+    },
+    {
+      "filename": "c4_real_corrected_human_ratings_A_frozen_v1.jsonl",
+      "row_count": 44,
+      "sha256": "737d7bea8a67da994fe49e8cccb99dc22235eb0842a58fee40eb62f6e0cea949"
+    },
+    {
+      "filename": "c4_real_corrected_human_ratings_B_frozen_v1.csv",
+      "row_count": 44,
+      "sha256": "98f485320dbcb46d9c9c705933bdc5e707246d2a527a50c8f5c9d381a2a8c418"
+    },
+    {
+      "filename": "c4_real_corrected_human_ratings_B_frozen_v1.jsonl",
+      "row_count": 44,
+      "sha256": "2482545e6d4c94939ed9722eafe87687361d281efd50cb227701bd119eaecf5a"
+    }
+  ],
+  "schema_version": "C4_REAL_CORRECTED_HUMAN_RATING_FREEZE_RECEIPT",
+  "source_hashes": {
+    "human_amendment_attestation_A_completed(1).md": "e89c379112e88ae03c8276af8b905bd85316e38c92e845ce4c286cdd25135dd3",
+    "human_amendment_attestation_B_completed(1).md": "a989ed4d77ce737951ead6abda651fbe60b2a29f5fd942ce1037290e49d85100",
+    "human_applicability_amendment_packet_A_completed (1).csv": "8b4fef70cc6d0bd2022dfcd8c5c6b3435734bb43d63d1634277ef385cee753b8",
+    "human_applicability_amendment_packet_B_completed(1).csv": "77da4b2921fa91ab949f1957cde18c8e1ba883dad585544a76133752c6b35d01",
+    "human_rater_attestation_A_completed(1).md": "dfa22955ab3aa6ea9885c7bdf0578dfed9e2bc1b83e895e2719e52eb40ba23a3",
+    "human_rater_attestation_B_completed(1).md": "0146f38074a065e3fa6f3f09579a813f1f8019dad3ee1dc4575bc98d31a722c6",
+    "human_rating_packet_A_completed.csv": "0d4195b4bfa3680cc8079a9c87b3177ee3f207dea14c9a3a7dfaaaef14a6a318",
+    "human_rating_packet_B_completed.csv": "02ae76ba9866f8b7115ead815cc587e7c14c2f00c733570839364129bfeeaa46"
+  },
+  "source_intake_metadata_sha256": "47c5fb747d1a3b6c27cb10f4b03bc9f921a1cb937c05380e272edcc54197fdd7",
+  "source_ratings_or_rationales_modified": false,
+  "status": "FROZEN_CORRECTED_HUMAN_BASE_AND_AMENDMENTS",
+  "write_count": 1
+}

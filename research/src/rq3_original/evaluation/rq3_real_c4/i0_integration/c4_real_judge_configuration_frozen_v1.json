@@ -1,0 +1,34 @@
+{
+  "automatic_sdk_retries": 0,
+  "bootstrap_replicates": 10000,
+  "endpoint": "OpenAI Chat Completions",
+  "human_validation_protocol_preserved": true,
+  "judge_prompt_path": "evaluation/rq3_v2/rq3_0b4_evaluation_protocol/rq3_judge_prompt_frozen_v1.txt",
+  "judge_prompt_sha256": "9958d922c88c2f1058bd3cac269b1dfb211a3a216b438ab652dea1935214a31b",
+  "model": "gpt-4.1-2025-04-14",
+  "multiplicity": "HOLM_STEP_DOWN",
+  "paired_scenario_analysis": true,
+  "primary_criteria": [
+    "CLARITY",
+    "PERSONALISATION",
+    "ACTIONABILITY",
+    "CONTEXT_AWARENESS",
+    "MOTIVATION_AND_ENGAGEMENT",
+    "RELIABILITY",
+    "MULTI_PAGE_COHESIVENESS",
+    "ERROR_HANDLING"
+  ],
+  "primary_outcome": "OVERALL_APPLICABLE_MEAN",
+  "provider_schema_path": "evaluation/rq3_real_c4/i0_integration/c4_real_judge_schema_v1.json",
+  "provider_schema_sha256": "351c773e73082f21bbe755f7641eb0660fc240946e3785e66a28ac14ee199857",
+  "rubric_sha256": "be955850ab2669b8d7380b96a1ab335dc344d89d54dd85d649118a4d86385350",
+  "scale": "1-5_OR_NA_BY_FROZEN_APPLICABILITY",
+  "schema_version": "c4-real-judge-configuration-v1",
+  "secondary_audits": [
+    "EVIDENCE_FAITHFULNESS",
+    "UNSUPPORTED_CLAIM_COUNT"
+  ],
+  "statistical_contract_sha256": "cddf95489eb5142064ca78902555946a74e43b30e9195dc90d456c16fc18d8b0",
+  "status": "FROZEN_UNEXECUTED_NO_JUDGE_CALL_AUTHORIZED_IN_I0",
+  "temperature": 0
+}

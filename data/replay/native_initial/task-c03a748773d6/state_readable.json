@@ -1,0 +1,83 @@
+{
+  "c4_schema_metadata": [
+    {
+      "schema_name": "c4_memory_schema_v1",
+      "schema_version": 1,
+      "architecture_id": "C4_LEARNER_MEMORY_V1",
+      "created_at": "2026-09-01T00:00:00+00:00"
+    }
+  ],
+  "learner_memory_settings": [],
+  "memories": [
+    {
+      "row_id": 1,
+      "memory_id": "mem_f7d64a41f5d3e93d384ec08c",
+      "student_id": "synthetic-learner-a678755b344c",
+      "memory_type": "GOAL",
+      "content": "I have chosen a learning analytics dashboard with a student opt-out for my design critique, focusing on whether students can understand and refuse the use of their data.",
+      "source_session_id": "session-0446d17556ec",
+      "source_turn_id": "session-0446d17556ec-m1",
+      "created_at": "2026-08-21T09:00:00.000000+00:00",
+      "valid_from": "2026-08-21T09:00:00.000000+00:00",
+      "valid_to": null,
+      "last_confirmed_at": "2026-08-21T09:00:00.000000+00:00",
+      "status": "ACTIVE",
+      "importance": 0.5,
+      "confidence": 1.0,
+      "supersedes_memory_id": null,
+      "consent_status": "NOT_REQUIRED",
+      "content_sha256": "82e8979ff15265df9049ee51c3d8740f3d4adc249a0b2e5ea549cf474bbd7cee",
+      "version": 1,
+      "conflict_key": "conflict_ddec3f840d509b413892",
+      "deletion_event_sha256": null
+    },
+    {
+      "row_id": 2,
+      "memory_id": "mem_def6b5e6fc2ef7c1d9aaa12b",
+      "student_id": "synthetic-learner-a678755b344c",
+      "memory_type": "PREFERENCE",
+      "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+      "source_session_id": "session-029e4c5c2a31",
+      "source_turn_id": "session-029e4c5c2a31-m1",
+      "created_at": "2026-08-25T09:00:00.000000+00:00",
+      "valid_from": "2026-08-25T09:00:00.000000+00:00",
+      "valid_to": null,
+      "last_confirmed_at": "2026-08-25T09:00:00.000000+00:00",
+      "status": "ACTIVE",
+      "importance": 0.5,
+      "confidence": 1.0,
+      "supersedes_memory_id": null,
+      "consent_status": "NOT_REQUIRED",
+      "content_sha256": "6ecd047caf2aadf59d09152664a171c174765cd61ef01ba2de742f8a5bd7c32b",
+      "version": 1,
+      "conflict_key": "conflict_14ecc3c5c14aace1c93b",
+      "deletion_event_sha256": null
+    }
+  ],
+  "memory_events": [
+    {
+      "event_id": "evt_1a568ce5548287bcd8b8ac59",
+      "student_id": "synthetic-learner-a678755b344c",
+      "memory_id": "mem_def6b5e6fc2ef7c1d9aaa12b",
+      "operation": "ADD",
+      "event_at": "2026-08-25T09:00:00.000000+00:00",
+      "before_status": null,
+      "after_status": "ACTIVE",
+      "target_memory_id": null,
+      "reason_code": "WRITE_AUTHORISED",
+      "event_sha256": "1a568ce5548287bcd8b8ac597754a14f6f1a633af284c063367650d2f4613557"
+    },
+    {
+      "event_id": "evt_5e6576184079fa1e74401ebd",
+      "student_id": "synthetic-learner-a678755b344c",
+      "memory_id": "mem_f7d64a41f5d3e93d384ec08c",
+      "operation": "ADD",
+      "event_at": "2026-08-21T09:00:00.000000+00:00",
+      "before_status": null,
+      "after_status": "ACTIVE",
+      "target_memory_id": null,
+      "reason_code": "WRITE_AUTHORISED",
+      "event_sha256": "5e6576184079fa1e74401ebde7aca798b89502e84dde406203f9d02f9c84fca2"
+    }
+  ]
+}

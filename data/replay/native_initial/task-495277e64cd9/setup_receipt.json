@@ -1,0 +1,457 @@
+{
+  "task_id": "task-495277e64cd9",
+  "operations": 5,
+  "accepted_writes": 4,
+  "unindexed_suggestions": 1,
+  "receipts": [
+    {
+      "operation_index": 0,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "reflection-goal",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "goal": "connect group disagreement with learning theory"
+        },
+        "valid_from": "2026-08-20T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-0c84674d3ed8",
+        "source_message_id": "session-0c84674d3ed8-m1",
+        "source_char_start": 0,
+        "source_char_end": 144,
+        "source_quote": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "GOAL",
+      "temporal_interpretation": "EXPLICIT_SOURCE_GOAL_OR_CHOICE",
+      "native_source_span": [
+        0,
+        144
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_0c4c404e029e13785f3a61b8",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_0c4c404e029e13785f3a61b8",
+          "student_id": "synthetic-learner-d968fce424f6",
+          "memory_type": "GOAL",
+          "content": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+          "source_session_id": "session-0c84674d3ed8",
+          "source_turn_id": "session-0c84674d3ed8-m1",
+          "created_at": "2026-08-20T09:00:00.000000+00:00",
+          "valid_from": "2026-08-20T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-20T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "d7c153c4bbe687fc87a8b6d0547b95b0c0e7392f389cf462d0cd112e2b6629de",
+          "version": 1,
+          "conflict_key": "conflict_f3de464f7bc3dc8ca023",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 1,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "long-essay-suggestion",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "ASSISTANT_SUGGESTION",
+        "value": {
+          "suggestion": "write a complete long essay",
+          "student_adopted": false
+        },
+        "valid_from": "2026-08-20T09:01:00+00:00",
+        "valid_until": null,
+        "source_role": "assistant",
+        "source_session_id": "session-0c84674d3ed8",
+        "source_message_id": "session-0c84674d3ed8-m2",
+        "source_char_start": 0,
+        "source_char_end": 91,
+        "source_quote": "You could also try writing a complete long essay straight away; this is only my suggestion.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "SOURCE_PRESERVED_NATIVE_WRITER_REJECTS_UNADOPTED_ASSISTANT",
+      "native_source_span": [
+        0,
+        91
+      ],
+      "writer_result": {
+        "accepted": false,
+        "requested_operation": "ADD",
+        "applied_operation": "NOOP",
+        "reason_code": "ASSISTANT_ADVICE_NOT_LEARNER_FACT",
+        "memory_id": null,
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": null,
+        "record": null
+      }
+    },
+    {
+      "operation_index": 2,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "working-preference",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "format": "two-column comparison",
+          "avoid": "video"
+        },
+        "valid_from": "2026-08-22T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-953c7c2b0575",
+        "source_message_id": "session-953c7c2b0575-m1",
+        "source_char_start": 0,
+        "source_char_end": 179,
+        "source_quote": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PREFERENCE",
+      "temporal_interpretation": "EXPLICIT_SOURCE_WORKING_PREFERENCE",
+      "native_source_span": [
+        0,
+        179
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_d7d7fc75ea57b863c5b9b0e7",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_d7d7fc75ea57b863c5b9b0e7",
+          "student_id": "synthetic-learner-d968fce424f6",
+          "memory_type": "PREFERENCE",
+          "content": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+          "source_session_id": "session-953c7c2b0575",
+          "source_turn_id": "session-953c7c2b0575-m1",
+          "created_at": "2026-08-22T09:00:00.000000+00:00",
+          "valid_from": "2026-08-22T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-22T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "0f46c4fd67057694525442d0e04edf2dbdf4694d98dd2f8657010bb7fb1852b7",
+          "version": 1,
+          "conflict_key": "conflict_b93a825db9ea994e1ad8",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 3,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "reflection-budget",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "minutes": 18,
+          "deliverable": "short outline"
+        },
+        "valid_from": "2026-08-25T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-f583bc77ee85",
+        "source_message_id": "session-f583bc77ee85-m1",
+        "source_char_start": 0,
+        "source_char_end": 115,
+        "source_quote": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "HISTORICAL_OCCASION_CURRENT_APPLICABILITY_UNCONFIRMED",
+      "native_source_span": [
+        0,
+        115
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_edf012665a95241b92eba0a0",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_edf012665a95241b92eba0a0",
+          "student_id": "synthetic-learner-d968fce424f6",
+          "memory_type": "PROGRESS_UPDATE",
+          "content": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+          "source_session_id": "session-f583bc77ee85",
+          "source_turn_id": "session-f583bc77ee85-m1",
+          "created_at": "2026-08-25T09:00:00.000000+00:00",
+          "valid_from": "2026-08-25T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-25T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "c0f447f7c43e00adf77513da75b2bc820424bc9d2016abf543eb8644c5bb986e",
+          "version": 1,
+          "conflict_key": "conflict_711ea2cae566d5f761d3",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 4,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "folder-colour",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "colour": "green",
+          "use": "travel receipts"
+        },
+        "valid_from": "2026-08-29T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-d0340d56d28a",
+        "source_message_id": "session-d0340d56d28a-m1",
+        "source_char_start": 0,
+        "source_char_end": 92,
+        "source_quote": "I have just replaced a folder on my desk with a green one, which holds only travel receipts.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "SOURCE_STATE_ONLY",
+      "native_source_span": [
+        0,
+        92
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_e3d89e55355a100d14177c20",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_e3d89e55355a100d14177c20",
+          "student_id": "synthetic-learner-d968fce424f6",
+          "memory_type": "PROGRESS_UPDATE",
+          "content": "I have just replaced a folder on my desk with a green one, which holds only travel receipts.",
+          "source_session_id": "session-d0340d56d28a",
+          "source_turn_id": "session-d0340d56d28a-m1",
+          "created_at": "2026-08-29T09:00:00.000000+00:00",
+          "valid_from": "2026-08-29T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-29T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "3323f7b2aa6e0ced3358e2e8f5e049344998789bb6c118a087c05d571fb030a2",
+          "version": 1,
+          "conflict_key": "conflict_c94298b752d434445781",
+          "deletion_event_sha256": null
+        }
+      }
+    }
+  ],
+  "native_rows": 4,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 4,
+    "fts_row_count": 4
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [
+      {
+        "turn_id": "session-0c84674d3ed8-m1",
+        "session_id": "session-0c84674d3ed8",
+        "role": "USER",
+        "content": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+        "timestamp": "2026-08-20T09:00:00+00:00",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-0c84674d3ed8-m2",
+        "session_id": "session-0c84674d3ed8",
+        "role": "ASSISTANT",
+        "content": "You could also try writing a complete long essay straight away; this is only my suggestion.",
+        "timestamp": "2026-08-20T09:01:00+00:00",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-953c7c2b0575-m1",
+        "session_id": "session-953c7c2b0575",
+        "role": "USER",
+        "content": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+        "timestamp": "2026-08-22T09:00:00+00:00",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-f583bc77ee85-m1",
+        "session_id": "session-f583bc77ee85",
+        "role": "USER",
+        "content": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+        "timestamp": "2026-08-25T09:00:00+00:00",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-d0340d56d28a-m1",
+        "session_id": "session-d0340d56d28a",
+        "role": "USER",
+        "content": "I have just replaced a folder on my desk with a green one, which holds only travel receipts.",
+        "timestamp": "2026-08-29T09:00:00+00:00",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1"
+      }
+    ],
+    "setup_operations": [
+      {
+        "operation": "ADD",
+        "memory_type": "GOAL",
+        "content": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "Next time I work on my reflection, I want to connect a disagreement in my group with a learning theory, rather than just describe what happened.",
+        "fact_id": "source-operation-0",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-0c84674d3ed8-m1",
+        "source_span_chars": [
+          0,
+          144
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "You could also try writing a complete long essay straight away; this is only my suggestion.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "You could also try writing a complete long essay straight away; this is only my suggestion.",
+        "fact_id": "source-operation-1",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-0c84674d3ed8-m2",
+        "source_span_chars": [
+          0,
+          91
+        ],
+        "claim_basis": "ASSISTANT_ADVICE"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PREFERENCE",
+        "content": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I find it easier to start with a two-column comparison table, with the experience on the left and the theoretical explanation on the right. Please do not recommend videos for now.",
+        "fact_id": "source-operation-2",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-953c7c2b0575-m1",
+        "source_span_chars": [
+          0,
+          179
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I only have 18 minutes to work on my reflection this time; start with a short outline that I can continue revising.",
+        "fact_id": "source-operation-3",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-f583bc77ee85-m1",
+        "source_span_chars": [
+          0,
+          115
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "I have just replaced a folder on my desk with a green one, which holds only travel receipts.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I have just replaced a folder on my desk with a green one, which holds only travel receipts.",
+        "fact_id": "source-operation-4",
+        "learner_id": "synthetic-learner-d968fce424f6",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-d0340d56d28a-m1",
+        "source_span_chars": [
+          0,
+          92
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      }
+    ],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-d968fce424f6",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "Based on the goals, working preferences and time limits I mentioned in our previous conversations, what step could I start with next time I work on my reflection?",
+      "page": "Reflection",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

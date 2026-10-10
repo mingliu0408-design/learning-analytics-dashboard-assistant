@@ -1,0 +1,286 @@
+{
+  "task_id": "task-17b1e1304286",
+  "operations": 3,
+  "accepted_writes": 2,
+  "unindexed_suggestions": 1,
+  "receipts": [
+    {
+      "operation_index": 0,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "critique-goal",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "option": "Part B technology critique",
+          "object": "educational chatbot",
+          "perspective": "learner",
+          "distinction": "response speed is not learning effectiveness"
+        },
+        "valid_from": "2026-08-21T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-cf3d663c3a42",
+        "source_message_id": "session-cf3d663c3a42-m1",
+        "source_char_start": 0,
+        "source_char_end": 188,
+        "source_quote": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "GOAL",
+      "temporal_interpretation": "EXPLICIT_SOURCE_GOAL_OR_CHOICE",
+      "native_source_span": [
+        0,
+        188
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_fbe9ef794d84a93cf999388e",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_fbe9ef794d84a93cf999388e",
+          "student_id": "synthetic-learner-c994ecef8f75",
+          "memory_type": "GOAL",
+          "content": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+          "source_session_id": "session-cf3d663c3a42",
+          "source_turn_id": "session-cf3d663c3a42-m1",
+          "created_at": "2026-08-21T09:00:00.000000+00:00",
+          "valid_from": "2026-08-21T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-21T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "36e9dfe46a68e7bd6e93e683f03489133576fba8b4f7e111996c3c56f74cce66",
+          "version": 1,
+          "conflict_key": "conflict_fc43639fadf9dc530388",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 1,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "critique-constraints",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "format": "two-column claim/evidence table",
+          "avoid": "video",
+          "minutes": 22
+        },
+        "valid_from": "2026-08-24T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-97c1062c1ea7",
+        "source_message_id": "session-97c1062c1ea7-m1",
+        "source_char_start": 0,
+        "source_char_end": 188,
+        "source_quote": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "CONSTRAINT",
+      "temporal_interpretation": "SOURCE_DECLARED_NEXT_ACTIVITY_NOT_UNBOUNDED_CURRENT_AVAILABILITY",
+      "native_source_span": [
+        0,
+        188
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_07277e7f071ba161bd0c0ec5",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_07277e7f071ba161bd0c0ec5",
+          "student_id": "synthetic-learner-c994ecef8f75",
+          "memory_type": "CONSTRAINT",
+          "content": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+          "source_session_id": "session-97c1062c1ea7",
+          "source_turn_id": "session-97c1062c1ea7-m1",
+          "created_at": "2026-08-24T09:00:00.000000+00:00",
+          "valid_from": "2026-08-24T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-24T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "227f74fe5565878d1347bb4e2f38f1b2e69e2050b0244c1ed8b53ae2d1aa4189",
+          "version": 1,
+          "conflict_key": "conflict_1e5f07471b5574f20f9d",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 2,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "peer-suggestion",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "ASSISTANT_SUGGESTION",
+        "value": {
+          "suggestion": "ask a peer",
+          "scheduled": false,
+          "student_adopted": false
+        },
+        "valid_from": "2026-08-24T09:01:00+00:00",
+        "valid_until": null,
+        "source_role": "assistant",
+        "source_session_id": "session-97c1062c1ea7",
+        "source_message_id": "session-97c1062c1ea7-m2",
+        "source_char_start": 0,
+        "source_char_end": 104,
+        "source_quote": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "SOURCE_PRESERVED_NATIVE_WRITER_REJECTS_UNADOPTED_ASSISTANT",
+      "native_source_span": [
+        0,
+        104
+      ],
+      "writer_result": {
+        "accepted": false,
+        "requested_operation": "ADD",
+        "applied_operation": "NOOP",
+        "reason_code": "ASSISTANT_ADVICE_NOT_LEARNER_FACT",
+        "memory_id": null,
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": null,
+        "record": null
+      }
+    }
+  ],
+  "native_rows": 2,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 2,
+    "fts_row_count": 2
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [
+      {
+        "turn_id": "session-cf3d663c3a42-m1",
+        "session_id": "session-cf3d663c3a42",
+        "role": "USER",
+        "content": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+        "timestamp": "2026-08-21T09:00:00+00:00",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-97c1062c1ea7-m1",
+        "session_id": "session-97c1062c1ea7",
+        "role": "USER",
+        "content": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+        "timestamp": "2026-08-24T09:00:00+00:00",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-97c1062c1ea7-m2",
+        "session_id": "session-97c1062c1ea7",
+        "role": "ASSISTANT",
+        "content": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+        "timestamp": "2026-08-24T09:01:00+00:00",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1"
+      }
+    ],
+    "setup_operations": [
+      {
+        "operation": "ADD",
+        "memory_type": "GOAL",
+        "content": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I have chosen the technology critique for Part B and intend to critique an educational chatbot from the learner perspective. Do not treat response speed directly as learning effectiveness.",
+        "fact_id": "source-operation-0",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-cf3d663c3a42-m1",
+        "source_span_chars": [
+          0,
+          188
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "CONSTRAINT",
+        "content": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "Next time I continue this critique, I want to start with a two-column table comparing claims and evidence, without videos; at most 22 minutes. Keep to this arrangement unless I correct it.",
+        "fact_id": "source-operation-1",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-97c1062c1ea7-m1",
+        "source_span_chars": [
+          0,
+          188
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "You could discuss it with a peer as well; this is only an optional suggestion and has not been arranged.",
+        "fact_id": "source-operation-2",
+        "learner_id": "synthetic-learner-c994ecef8f75",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-97c1062c1ea7-m2",
+        "source_span_chars": [
+          0,
+          104
+        ],
+        "claim_basis": "ASSISTANT_ADVICE"
+      }
+    ],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-c994ecef8f75",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "Taking account of the assignment direction and working preferences I chose earlier, together with my current reflection draft and resource progress, suggest what I should revise next. Use the time estimates in the draft.",
+      "page": "Reflection",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

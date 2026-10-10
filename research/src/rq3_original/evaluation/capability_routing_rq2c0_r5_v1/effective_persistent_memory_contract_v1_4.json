@@ -1,0 +1,49 @@
+{
+  "actual_retrieval_executed": false,
+  "bundle_required_for_all_downstream_interfaces": true,
+  "candidate_and_admission_safety_base": "RQ2-C0-R3",
+  "effective_admission": "MEMORY_ADMISSION_V1_1",
+  "effective_interval_contract": "TIMEZONE_AWARE_RETRIEVAL_INTERVAL_V1_1",
+  "effective_payload_binding": "PERSISTENT_MEMORY_PAYLOAD_BINDING_V1_3",
+  "effective_payload_scope": "TEXT_ONLY_PRIVATE_PAYLOAD_V1_1",
+  "effective_retrieval": "PMR_HYBRID_STATE_AWARE_V1_1",
+  "effective_retrieval_plan": "VALIDATED_RETRIEVAL_PLAN_V1_2",
+  "effective_validated_bundle": "PERSISTENT_MEMORY_VALIDATED_BUNDLE_V1_4",
+  "episode_timezone_authoritative": false,
+  "free_standing_validation_receipt_authorised": false,
+  "historical_base": "RQ2-C0-R2",
+  "p2_implemented": false,
+  "payload_integrity_base": "RQ2-C0-R4",
+  "persistent_store_implemented": false,
+  "production_behaviour_changed": false,
+  "prohibited_rq2c1_interfaces": {
+    "r2_naive_time_temporal_validity": true,
+    "r2_unvalidated_retrieval_plan_v1_1": true,
+    "r4_free_standing_validation_receipt": true,
+    "r4_standalone_downstream_guard": true
+  },
+  "rq2c1_import_contract": {
+    "require_validated_bundle": "evaluation.capability_routing_rq2c0_r5_v1.validated_bundle_guard_v1_4.require_validated_bundle_for_interface_v1_4",
+    "temporal_validity": "evaluation.capability_routing_rq2c0_r5_v1.retrieval_time_integrity_v1.temporal_validity_aware_v1_1",
+    "validate_and_bind_payload": "evaluation.capability_routing_rq2c0_r5_v1.validated_memory_bundle_v1_4.validate_and_bind_payload_v1_4",
+    "validate_and_bind_retrieval_plan": "evaluation.capability_routing_rq2c0_r5_v1.validated_retrieval_plan_v1_2.validate_and_bind_retrieval_plan_v1_2",
+    "verify_validated_bundle": "evaluation.capability_routing_rq2c0_r5_v1.validated_memory_bundle_v1_4.verify_validated_bundle_v1_4"
+  },
+  "schema_version": "effective-persistent-memory-contract-v1.4",
+  "stage": "RQ2-C0-R5",
+  "status": "FROZEN_FOR_FUTURE_RQ2_C1",
+  "unchanged": {
+    "Capability_Gold": true,
+    "P1": true,
+    "admission_rules": true,
+    "admission_threshold": true,
+    "candidate_ordering": true,
+    "dense_encoder": true,
+    "dense_top_k": true,
+    "fixtures": true,
+    "primary_policy_identity": "PMR_HYBRID_STATE_AWARE",
+    "production_code": true,
+    "ranking_tuple": true,
+    "retrieval_policies": true
+  }
+}

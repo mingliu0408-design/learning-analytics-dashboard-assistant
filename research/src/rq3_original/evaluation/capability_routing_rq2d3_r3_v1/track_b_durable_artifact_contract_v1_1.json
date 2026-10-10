@@ -1,0 +1,1 @@
+{"atomic_publication":"os.replace","directory_fsync":true,"file_fsync":true,"flags":["O_CREAT","O_EXCL","O_NOFOLLOW_IF_AVAILABLE"],"mode":"0600","overwrite_permitted":false,"partial_temporary_cleanup":true,"reread_verification":true,"same_directory_temporary":true,"schema_version":"track-b-durable-artifact-contract-v1-1","status":"FROZEN","target_absent_required":true}

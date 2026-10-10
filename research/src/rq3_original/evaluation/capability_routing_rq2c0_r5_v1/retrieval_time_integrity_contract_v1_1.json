@@ -1,0 +1,32 @@
+{
+  "accepted_zone_forms": [
+    "Z",
+    "+00:00",
+    "+01:00",
+    "-05:00"
+  ],
+  "comparison_instant": "UTC",
+  "contract_id": "TIMEZONE_AWARE_RETRIEVAL_INTERVAL_V1_1",
+  "end_exclusive": true,
+  "episode_timezone_authoritative_for_missing_offset": false,
+  "episode_timezone_descriptive_only": true,
+  "failure_codes": [
+    "INVALID_VALID_FROM",
+    "NAIVE_VALID_FROM",
+    "INVALID_VALID_UNTIL",
+    "NAIVE_VALID_UNTIL",
+    "INVALID_QUERY_TIME",
+    "NAIVE_QUERY_TIME",
+    "VALID_INTERVAL_NOT_STRICTLY_INCREASING"
+  ],
+  "implicit_local_timezone_allowed": false,
+  "parser": "parse_timezone_aware_iso8601_v1_1",
+  "r2_naive_timestamp_interface_authorised_for_rq2c1": false,
+  "retrieval_semantics": "valid_from_utc <= query_time_utc AND (valid_until IS NULL OR query_time_utc < valid_until_utc)",
+  "schema_version": "retrieval-time-integrity-contract-v1.1",
+  "stage": "RQ2-C0-R5",
+  "start_inclusive": true,
+  "status": "FROZEN",
+  "timezone_required": true,
+  "valid_interval": "valid_from < valid_until WHEN valid_until IS NOT NULL"
+}

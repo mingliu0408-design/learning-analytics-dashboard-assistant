@@ -1,0 +1,25 @@
+{
+  "authentic_used_for_selection": false,
+  "frozen_before_authentic_evaluation": true,
+  "frozen_selection_payload_sha256": "6520d387ee43217713e830310cca0b49124f8bbb3f8ce166bb1c8f0aef2c13a5",
+  "immutable_for_future_rq2c_and_track_b": true,
+  "persisted_policy_bytes_verified_unchanged_after_authentic": true,
+  "registry_used_for_selection": false,
+  "schema_version": "rq2b-final-p1-policy-v1",
+  "selected_policy_id": "P1_D05_SIGNAL_UNION",
+  "selection_data_role": "SYNTHETIC_COVERAGE_STRESS_GOLD",
+  "selection_family_count": 18,
+  "selection_record_count": 35,
+  "selection_rule": [
+    "higher_six_capability_macro_f1",
+    "higher_required_capability_recall",
+    "higher_exact_set_accuracy",
+    "lower_unnecessary_capability_rate",
+    "higher_mean_capability_set_jaccard",
+    "lower_mean_predicted_capability_count",
+    "lexicographically_lower_policy_id"
+  ],
+  "stage": "RQ2-B",
+  "status": "FROZEN",
+  "threshold_grid_modified": false
+}

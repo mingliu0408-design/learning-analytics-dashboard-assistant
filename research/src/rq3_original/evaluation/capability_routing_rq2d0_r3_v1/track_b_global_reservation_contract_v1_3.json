@@ -1,0 +1,44 @@
+{
+  "alternative_global_lock_permitted": false,
+  "completed_lock_retry_permitted": false,
+  "durability_sequence": [
+    "write",
+    "flush_by_complete_os_write",
+    "fsync_file",
+    "close",
+    "fsync_parent_directory",
+    "reread_no_follow",
+    "schema_sha_size_verification"
+  ],
+  "exclusive_creation_flags": [
+    "O_WRONLY",
+    "O_CREAT",
+    "O_EXCL",
+    "O_NOFOLLOW_IF_AVAILABLE"
+  ],
+  "execution_contract_id": "RQ2_TRACK_B_PACKET_GENERATION_GLOBAL_ONE_SHOT_V1_3",
+  "existing_any_state_blocks": true,
+  "failed_lock_retry_permitted": false,
+  "first_consuming_state": "GLOBAL_RESERVED",
+  "global_control_directory_mode": "0700",
+  "global_lock_permanently_retained": true,
+  "global_state_order": [
+    "GLOBAL_RESERVED",
+    "KEY_PERSISTED",
+    "ARMED",
+    "OPENED",
+    "CASE_BANK_PERSISTED",
+    "LEGACY_ESCROW_PERSISTED",
+    "CONTAMINATION_AUDIT_PERSISTED",
+    "REVIEW_PACKETS_PERSISTED",
+    "COMPLETED"
+  ],
+  "per_output_consumed_lock_permitted": false,
+  "real_global_lock_created_in_rq2_d0_r3": false,
+  "reservation_before_key_generation": true,
+  "reservation_before_raw_open": true,
+  "reservation_file_mode": "0600",
+  "schema_version": "track-b-global-reservation-contract-v1.3",
+  "status": "FROZEN_BEFORE_REAL_D1",
+  "unknown_but_present_blocks": true
+}

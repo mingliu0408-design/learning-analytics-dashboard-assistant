@@ -1,0 +1,24 @@
+{
+  "schema_version": "c4-real-identical-answer-text-policy-v1",
+  "policy_id": "C4_REAL_IDENTICAL_ANSWER_TEXT_POLICY_V1",
+  "status": "FROZEN_BEFORE_CONDITION_LEVEL_UNBLINDING",
+  "response_uniqueness_basis": [
+    "logical_generation_request_id",
+    "response_blind_id",
+    "provider_payload_sha256"
+  ],
+  "answer_text_sha256_primary_key": false,
+  "identical_text_across_distinct_provider_payloads_permitted": true,
+  "identical_text_may_represent_model_insensitivity": true,
+  "regeneration_to_force_distinct_wording_permitted": false,
+  "merge_rewrite_discard_due_only_to_identical_text_permitted": false,
+  "evaluation_item_deduplication_rule": "COMPLETE_CORRESPONDING_EVALUATION_PAYLOAD_BYTE_IDENTITY_ONLY",
+  "observed_response_set_structure": {
+    "canonical_response_identities": 147,
+    "distinct_answer_text_sha256_values": 146,
+    "duplicate_text_groups": 1,
+    "records_in_duplicate_text_groups": 2
+  },
+  "response_quality_result_inspected_to_establish_policy": false,
+  "condition_identity_compared_before_policy_freeze": false
+}

@@ -1,0 +1,56 @@
+{
+  "adjudication_before_both_packets_frozen": false,
+  "adjudication_triggers": [
+    "CASE_VALIDITY_DISAGREEMENT",
+    "EITHER_REVIEWER_EXCLUDES",
+    "NATURALNESS_DIFFERENCE_AT_LEAST_TWO",
+    "CONTEXT_SUFFICIENT_DISAGREEMENT",
+    "CAPABILITY_UNAMBIGUOUS_DISAGREEMENT",
+    "CONTEXT_RESOLUTION_DISAGREEMENT",
+    "ANY_CAPABILITY_DISAGREEMENT",
+    "FORBIDDEN_CAPABILITY_DISAGREEMENT",
+    "EITHER_REVIEWER_UNCERTAIN"
+  ],
+  "coverage_failure_threshold_change_authorised": false,
+  "final_gold_exclude_rule": [
+    "ADJUDICATED_INVALID",
+    "ADJUDICATED_CONTEXT_INSUFFICIENT",
+    "ADJUDICATED_CAPABILITY_NOT_UNAMBIGUOUS",
+    "UNRESOLVED_UNCERTAINTY"
+  ],
+  "final_gold_include_rule": {
+    "capability_unambiguous_not": "NO",
+    "case_validity": "INCLUDE_VALID_CASE",
+    "context_sufficient_not": "NO",
+    "uncertainty_must_be_resolved": true
+  },
+  "hidden_proposal_use_after_gold_freeze": "ERROR_ANALYSIS_ONLY",
+  "hidden_proposal_visible_during_adjudication": false,
+  "query_rewrite_during_adjudication": false,
+  "required_adjudication_metadata": [
+    "CASE_ID",
+    "FINAL_DECISION_PER_ITEM",
+    "DISAGREEMENT_REASONS",
+    "ADJUDICATOR_ID",
+    "ADJUDICATION_DATE"
+  ],
+  "rewrite_required_policy": {
+    "current_case_disposition": "EXCLUDE",
+    "direct_addition_to_current_gold": false,
+    "new_case_id_required": true,
+    "new_independent_two_reviewer_round_required": true
+  },
+  "rq2_a_r2_coverage_gates": {
+    "clarification_positive_minimum": 2,
+    "context_resolution_positive_minimum": 4,
+    "each_capability_positive_minimum": 2,
+    "failure_status": "BLOCKED_RQ2_A_R2_CALIBRATION_COVERAGE",
+    "included_cases_minimum": 20,
+    "multi_capability_cases_minimum": 4,
+    "safe_direct_response_positive_minimum": 2
+  },
+  "schema_version": "human-adjudication-contract-v1",
+  "stage": "RQ2-A-R1",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "supplemental_cases_require_new_two_reviewer_round": true
+}

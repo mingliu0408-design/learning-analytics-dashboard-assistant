@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "item_id",
+      "rater_id",
+      "criterion_id",
+      "score",
+      "note",
+      "applicability_dispute",
+      "recorded_at"
+    ],
+    "properties": {
+      "item_id": {
+        "type": "string"
+      },
+      "rater_id": {
+        "type": "string"
+      },
+      "criterion_id": {
+        "type": "string",
+        "enum": [
+          "CLARITY",
+          "PERSONALISATION",
+          "ACTIONABILITY",
+          "CONTEXT_AWARENESS",
+          "MOTIVATION_AND_ENGAGEMENT",
+          "RELIABILITY",
+          "MULTI_PAGE_COHESIVENESS",
+          "ERROR_HANDLING"
+        ]
+      },
+      "score": {
+        "type": [
+          "integer",
+          "string",
+          "null"
+        ],
+        "enum": [
+          null,
+          1,
+          2,
+          3,
+          4,
+          5,
+          "NA"
+        ]
+      },
+      "note": {
+        "type": "string"
+      },
+      "applicability_dispute": {
+        "type": "string"
+      },
+      "recorded_at": {
+        "type": "string"
+      }
+    }
+  }
+}

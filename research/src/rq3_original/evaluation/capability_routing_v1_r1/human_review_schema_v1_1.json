@@ -1,0 +1,92 @@
+{
+  "accept_as_presented_removed": true,
+  "all_human_fields_initially_blank": true,
+  "binary_annotation_values": [
+    "YES",
+    "NO"
+  ],
+  "c0_scores_visible": false,
+  "capabilities": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "capability_unambiguous_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "case_validity_values": [
+    "INCLUDE_VALID_CASE",
+    "EXCLUDE_INVALID_CASE",
+    "UNCERTAIN"
+  ],
+  "context_sufficient_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "discussion_before_both_packets_frozen": false,
+  "forbidden_capabilities_delimiter": ";",
+  "hidden_proposal_visible": false,
+  "human_fields": [
+    "case_validity",
+    "query_naturalness_1_to_5",
+    "context_sufficient",
+    "capability_unambiguous",
+    "context_resolution_required",
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification",
+    "forbidden_capabilities",
+    "reviewer_rationale",
+    "reviewer_id",
+    "review_date"
+  ],
+  "invalid_case_capability_fields_required": false,
+  "invalid_case_rationale_required": true,
+  "legacy_output_visible": false,
+  "llm_may_substitute_required_human_reviewer": false,
+  "no_human_labels_filled_by_codex": true,
+  "old_packet_answers_visible": false,
+  "other_reviewer_visible_during_round_one": false,
+  "query_naturalness_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "required_human_reviewer_count": 2,
+  "review_order": [
+    "CASE_VALIDITY",
+    "QUERY_NATURALNESS",
+    "CONTEXT_SUFFICIENT",
+    "CAPABILITY_UNAMBIGUOUS",
+    "CONTEXT_RESOLUTION_REQUIRED",
+    "SIX_CAPABILITIES",
+    "FORBIDDEN_CAPABILITIES",
+    "RATIONALE"
+  ],
+  "reviewer_ids_must_differ": true,
+  "reviewers_independently_assign_capabilities": true,
+  "schema_version": "human-review-schema-v1.1",
+  "stage": "RQ2-A-R1",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "visible_fields": [
+    "case_id",
+    "current_query",
+    "current_page",
+    "necessary_conversation_history",
+    "turn_index",
+    "source_dataset",
+    "capability_definition_reference"
+  ]
+}

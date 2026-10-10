@@ -1,0 +1,259 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-rag-specialist-fold-package-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "specialist": "RAG Specialist",
+  "outer_fold": "DEV-CV-FOLD-1",
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_template": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n",
+  "specialist_schema": {
+    "type": "object",
+    "properties": {
+      "rag_required": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "rag_required"
+    ],
+    "additionalProperties": false
+  },
+  "few_shot_examples": [
+    {
+      "input": {
+        "current_query": "What do these reflection numbers—3 entries, a 96-word average and 3 of 4 prompts answered—show about my current completion?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: 3 reflection entries are submitted, the average length is 96 words, and 3 of 4 prompts have responses.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "How does the course calculate the engagement indicator, and what exactly does this 12-percentage-point drop represent?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the weekly engagement indicator fell by 12 percentage points, with separate lecture, resource, debate, and reflection activity tiles visible.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "Why is this reflection marked as mostly descriptive when 'link experience to evidence' is selected, and how does that connect to the difficulty I mentioned before?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: the selected reflection is tagged as mostly descriptive, with the rubric marker 'link experience to evidence' selected.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "How should I work the Week 7 ideas about prediction, discovery and generation into my next study sessions, keeping the deadline and my usual study pattern in mind?",
+        "current_page": "Lecture",
+        "dashboard_context": "Controlled dashboard snapshot: the Week 7 lecture 'From Predictions to Discovery and Generation with AI in Education' is 55% complete.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "rag_required": true
+      }
+    }
+  ],
+  "complete_rendered_fold_package": {
+    "model": "gpt-4o-mini-2024-07-18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are the RAG capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require additional course or external knowledge that is not already present in the visible input?\n\nSet rag_required to true only when both conditions hold:\n- Correct answering minimally requires course knowledge or external knowledge.\n- That required knowledge is absent from the current visible input.\n\nSet rag_required to false when any of these conditions holds:\n- The visible information is sufficient.\n- The question can be answered from the displayed dashboard or context.\n- Retrieval could merely improve or enrich an answer but is not necessary.\n- A week, course, lecture, resource, or rubric is merely mentioned.\n\nJudge RAG independently:\n- Ignore whether Memory is required.\n- Ignore whether Planning is required.\n- Do not infer RAG from another capability.\n- Do not judge retrieval quality.\n- Decide only whether retrieval is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"rag_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What do these reflection numbers—3 entries, a 96-word average and 3 of 4 prompts answered—show about my current completion?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: 3 reflection entries are submitted, the average length is 96 words, and 3 of 4 prompts have responses.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How does the course calculate the engagement indicator, and what exactly does this 12-percentage-point drop represent?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the weekly engagement indicator fell by 12 percentage points, with separate lecture, resource, debate, and reflection activity tiles visible.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Why is this reflection marked as mostly descriptive when 'link experience to evidence' is selected, and how does that connect to the difficulty I mentioned before?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: the selected reflection is tagged as mostly descriptive, with the rubric marker 'link experience to evidence' selected.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How should I work the Week 7 ideas about prediction, discovery and generation into my next study sessions, keeping the deadline and my usual study pattern in mind?\",\"current_page\":\"Lecture\",\"dashboard_context\":\"Controlled dashboard snapshot: the Week 7 lecture 'From Predictions to Discovery and Generation with AI in Education' is 55% complete.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"rag_required\":true}"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 32,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "rq2_v2_rag_specialist_v1",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "rag_required": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "rag_required"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "hashes": {
+    "prompt_template_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+    "specialist_schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+    "example_id_order_sha256": "ce5cb83d25e94a2dee2797a217f74e6a6666275af4adbba958b184fc4ac55961",
+    "specialist_example_set_sha256": "5343250979e9291e3760c2b197dbe8052fdde0dc2d86bf45259d86b385f2103e",
+    "complete_rendered_fold_package_sha256": "58bbc505b3ff3ded6ba0f1d26cdd40f77115deacb4853de7091423eaf4e32885"
+  },
+  "source_b4_reuse": {
+    "example_ids_in_order": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-035",
+      "R2V2-ANN-084",
+      "R2V2-ANN-090",
+      "R2V2-ANN-030"
+    ],
+    "source_b4_example_id_order": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-035",
+      "R2V2-ANN-084",
+      "R2V2-ANN-090",
+      "R2V2-ANN-030"
+    ],
+    "source_b4_example_set_sha256": "454d6797451353d5c56c8355371a1984479d875d21b79954248952fcbd11fc94",
+    "identity_and_order_exact": true
+  },
+  "execution_controls": {
+    "sdk_transport_retries": 0,
+    "initial_request_count": 1,
+    "manual_retry_max": 1,
+    "manual_retry_condition": "INVALID_JSON_OR_STRICT_SCHEMA_ONLY",
+    "retry_prompt_identical": true,
+    "correction_message_allowed": false,
+    "string_to_boolean_coercion_allowed": false,
+    "json_extraction_from_prose_allowed": false,
+    "non_retryable_error_categories": [
+      "AUTHENTICATION",
+      "PERMISSION",
+      "REQUEST_CONFIGURATION",
+      "TRANSPORT",
+      "RATE_LIMIT",
+      "MODEL"
+    ],
+    "maximum_output_tokens": 32
+  },
+  "execution_boundary": {
+    "provider_calls_authorized": 0,
+    "provider_calls_made": 0,
+    "specialist_predictions_present": 0
+  }
+}

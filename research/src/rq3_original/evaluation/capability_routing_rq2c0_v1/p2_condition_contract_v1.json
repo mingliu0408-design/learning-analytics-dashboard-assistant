@@ -1,0 +1,36 @@
+{
+  "authentic_used_for_mechanism_selection": false,
+  "conditions": {
+    "P1_BASE": {
+      "dual_gated_rag": false,
+      "selective_memory_gate": false
+    },
+    "P2_FULL": {
+      "dual_gated_rag": true,
+      "selective_memory_gate": true
+    },
+    "P2_MEMORY_ONLY": {
+      "dual_gated_rag": false,
+      "selective_memory_gate": true
+    },
+    "P2_RAG_ONLY": {
+      "dual_gated_rag": true,
+      "selective_memory_gate": false
+    }
+  },
+  "frozen_across_conditions": [
+    "C0_COSINE",
+    "P1_D05_SIGNAL_UNION",
+    "CAPABILITY_GOLD",
+    "CASE_SET",
+    "CONTEXT_ENVELOPE_V1",
+    "PRODUCTION_GUARDS"
+  ],
+  "p1_plan_immutable": true,
+  "p1_vs_p2_full_only_comparison_permitted": false,
+  "production_integration": false,
+  "schema_version": "p2-condition-contract-v1",
+  "stage": "RQ2-C0",
+  "status": "FROZEN",
+  "track_b_used": false
+}

@@ -1,0 +1,185 @@
+{
+  "A": {
+    "all_other_failures_non_retryable": true,
+    "authorization_environment_value": "AUTHORIZED_C4_REAL_CORRECTED_JUDGE_EXECUTION_R4",
+    "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+    "authorization_record_exact_fields": [
+      "schema_version",
+      "authorization_id",
+      "authorized_by",
+      "authorized_at_utc",
+      "package_id",
+      "shard_id",
+      "request_count",
+      "maximum_physical_attempts",
+      "package_zip_sha256",
+      "blinded_judge_manifest_sha256",
+      "status"
+    ],
+    "authorization_record_schema_version": "c4-real-corrected-judge-execution-authorization-r4-v1",
+    "automatic_resume_permitted": false,
+    "blinded_judge_manifest_sha256": "8c6bd146cdc20b2ea8dcc14b41967e256afda36ee605c39c4522f9386d4a2fc3",
+    "execution_authorized": false,
+    "existing_output_overwrite_permitted": false,
+    "external_authorization_record_required": true,
+    "failure_policy": "STOP_ENTIRE_SHARD_AND_REQUIRE_NEW_DIRECT_AUTHORIZATION",
+    "maximum_byte_identical_invalid_output_retries": 1,
+    "maximum_physical_attempts": 78,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "nonretryable_failures": [
+      "timeout",
+      "transport",
+      "billing",
+      "rate_limit",
+      "authentication",
+      "permission",
+      "refusal",
+      "model_error"
+    ],
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_A_R4_20260902",
+    "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+    "request_count": 39,
+    "request_timeout_seconds": 120.0,
+    "required_cli_flags": [
+      "--package-zip",
+      "--authorization-record",
+      "--output-dir",
+      "--execute"
+    ],
+    "retryable_failure_codes": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED",
+      "APPLICABILITY_CONTRACT_VIOLATION"
+    ],
+    "runtime_gate": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-execution-contract-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "A"
+  },
+  "B": {
+    "all_other_failures_non_retryable": true,
+    "authorization_environment_value": "AUTHORIZED_C4_REAL_CORRECTED_JUDGE_EXECUTION_R4",
+    "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+    "authorization_record_exact_fields": [
+      "schema_version",
+      "authorization_id",
+      "authorized_by",
+      "authorized_at_utc",
+      "package_id",
+      "shard_id",
+      "request_count",
+      "maximum_physical_attempts",
+      "package_zip_sha256",
+      "blinded_judge_manifest_sha256",
+      "status"
+    ],
+    "authorization_record_schema_version": "c4-real-corrected-judge-execution-authorization-r4-v1",
+    "automatic_resume_permitted": false,
+    "blinded_judge_manifest_sha256": "89be3ee0dc8b00795cd1770867b8fbd0094987fe013246312c99e29498998eba",
+    "execution_authorized": false,
+    "existing_output_overwrite_permitted": false,
+    "external_authorization_record_required": true,
+    "failure_policy": "STOP_ENTIRE_SHARD_AND_REQUIRE_NEW_DIRECT_AUTHORIZATION",
+    "maximum_byte_identical_invalid_output_retries": 1,
+    "maximum_physical_attempts": 76,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "nonretryable_failures": [
+      "timeout",
+      "transport",
+      "billing",
+      "rate_limit",
+      "authentication",
+      "permission",
+      "refusal",
+      "model_error"
+    ],
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_B_R4_20260902",
+    "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+    "request_count": 38,
+    "request_timeout_seconds": 120.0,
+    "required_cli_flags": [
+      "--package-zip",
+      "--authorization-record",
+      "--output-dir",
+      "--execute"
+    ],
+    "retryable_failure_codes": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED",
+      "APPLICABILITY_CONTRACT_VIOLATION"
+    ],
+    "runtime_gate": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-execution-contract-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "B"
+  },
+  "C": {
+    "all_other_failures_non_retryable": true,
+    "authorization_environment_value": "AUTHORIZED_C4_REAL_CORRECTED_JUDGE_EXECUTION_R4",
+    "authorization_environment_variable": "C4_REAL_JUDGE_EXECUTION_AUTHORIZATION",
+    "authorization_record_exact_fields": [
+      "schema_version",
+      "authorization_id",
+      "authorized_by",
+      "authorized_at_utc",
+      "package_id",
+      "shard_id",
+      "request_count",
+      "maximum_physical_attempts",
+      "package_zip_sha256",
+      "blinded_judge_manifest_sha256",
+      "status"
+    ],
+    "authorization_record_schema_version": "c4-real-corrected-judge-execution-authorization-r4-v1",
+    "automatic_resume_permitted": false,
+    "blinded_judge_manifest_sha256": "fe4547a0b2ce05a78a7cefb65d8a4acb2b71c7152e5dd45aa290796152457bc5",
+    "execution_authorized": false,
+    "existing_output_overwrite_permitted": false,
+    "external_authorization_record_required": true,
+    "failure_policy": "STOP_ENTIRE_SHARD_AND_REQUIRE_NEW_DIRECT_AUTHORIZATION",
+    "maximum_byte_identical_invalid_output_retries": 1,
+    "maximum_physical_attempts": 78,
+    "minimum_initial_start_interval_seconds": 15.0,
+    "nonretryable_failures": [
+      "timeout",
+      "transport",
+      "billing",
+      "rate_limit",
+      "authentication",
+      "permission",
+      "refusal",
+      "model_error"
+    ],
+    "package_id": "C4_REAL_CORRECTED_JUDGE_SHARD_C_R4_20260902",
+    "phase_b_entry_receipt_sha256": "abf6fd158e68a406008bee838a74adc9d0cc3e87feef0ad649ea790c0feb44e4",
+    "request_count": 39,
+    "request_timeout_seconds": 120.0,
+    "required_cli_flags": [
+      "--package-zip",
+      "--authorization-record",
+      "--output-dir",
+      "--execute"
+    ],
+    "retryable_failure_codes": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED",
+      "APPLICABILITY_CONTRACT_VIOLATION"
+    ],
+    "runtime_gate": {
+      "openai_sdk_version": "1.109.1",
+      "python_executable": "/opt/anaconda3/bin/python3",
+      "python_version": "3.13.5"
+    },
+    "schema_version": "c4-real-corrected-judge-execution-contract-r4-v1",
+    "sdk_retries": 0,
+    "shard_id": "C"
+  }
+}

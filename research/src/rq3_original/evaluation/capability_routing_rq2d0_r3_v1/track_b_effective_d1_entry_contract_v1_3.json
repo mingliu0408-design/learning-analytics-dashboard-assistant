@@ -1,0 +1,29 @@
+{
+  "execution_contract_id": "RQ2_TRACK_B_PACKET_GENERATION_GLOBAL_ONE_SHOT_V1_3",
+  "fixed_global_control_root_relative": "evaluation/capability_routing_rq2d1_v1/local_control",
+  "fixed_global_lock_relative": "evaluation/capability_routing_rq2d1_v1/local_control/TRACK_B_PACKET_GENERATION_GLOBAL_ACCESS_V1_3.json",
+  "fixed_output_root_relative": "evaluation/capability_routing_rq2d1_v1/local_one_shot",
+  "output_location_from_cli_parameter": false,
+  "output_location_from_config": false,
+  "output_location_from_environment": false,
+  "output_location_from_function_parameter": false,
+  "real_and_synthetic_entry_points_separate": true,
+  "real_entry_point": "execute_real_d1_one_shot_v1_3",
+  "reference_authority_loaded_internally": true,
+  "repo_root_discovery": "git rev-parse --show-toplevel",
+  "rq2_d0_r3_real_execution_performed": false,
+  "schema_version": "track-b-effective-d1-entry-contract-v1.3",
+  "signature": {
+    "approved_head_keyword_only": true,
+    "forbidden_location_parameter_count": 0,
+    "parameters": [
+      "source_path",
+      "approved_head",
+      "schema_authority_sha256"
+    ],
+    "schema_authority_sha256_keyword_only": true,
+    "source_path_positional": true,
+    "status": "PASS"
+  },
+  "status": "FROZEN_BEFORE_REAL_D1"
+}

@@ -10,3 +10,6 @@ __pycache__
 *.log
 .local
 outputs
+
+# Public read-only original study seeds; session databases remain ignored.
+!data/replay/native_initial/*/initial.sqlite

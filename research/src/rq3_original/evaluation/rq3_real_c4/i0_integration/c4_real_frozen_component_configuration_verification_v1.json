@@ -1,0 +1,43 @@
+{
+  "components": {
+    "B4_PLANNING": {
+      "configuration_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "configuration_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "final_example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+      "max_output_tokens": 64,
+      "method_id": "R2V2-B4_JOINT_LLM",
+      "model": "gpt-4o-mini-2024-07-18",
+      "prompt_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "schema_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "temperature": 0,
+      "verification_status": "PASS_ACTUAL_COMMITTED_FROZEN_CONFIGURATION"
+    },
+    "MEMORY": {
+      "configuration_path": "evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_frozen_configuration_v1.json",
+      "configuration_sha256": "8813854b4a73e4c07416e26db0b72f28ab1923f415053f8d48ad31b0eca0a3c3",
+      "final_example_set_sha256": "57a7aecd53710a1587388711177d7564f4560f1a8729939d445268d2514d3eb4",
+      "max_output_tokens": 32,
+      "method_id": "R2V2-MEMORY_SPECIALIST",
+      "model": "gpt-4o-mini-2024-07-18",
+      "prompt_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "temperature": 0,
+      "verification_status": "PASS_ACTUAL_COMMITTED_FROZEN_CONFIGURATION"
+    },
+    "RAG": {
+      "configuration_path": "evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_frozen_configuration_v1.json",
+      "configuration_sha256": "19fc104b55ed92ec6c9a988fe6664d5f062f92e473a5ff4d77f8c88aa871c7cc",
+      "final_example_set_sha256": "a932596e126ab66c054173bd1b9c454cbba9988e9d0b418da2d80c3e1df1e6eb",
+      "max_output_tokens": 32,
+      "method_id": "R2V2-RAG_SPECIALIST",
+      "model": "gpt-4o-mini-2024-07-18",
+      "prompt_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "temperature": 0,
+      "verification_status": "PASS_ACTUAL_COMMITTED_FROZEN_CONFIGURATION"
+    }
+  },
+  "provider_calls": 0,
+  "schema_version": "c4-real-frozen-component-configuration-verification-v1",
+  "status": "PASS_ALL_COMPONENTS_MATCH_COMMITTED_RQ2_FREEZES"
+}

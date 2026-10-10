@@ -1,0 +1,98 @@
+{
+  "all_human_fields_initially_blank": true,
+  "binary_annotation_values": [
+    "YES",
+    "NO"
+  ],
+  "c0_scores_visible": false,
+  "candidate_history_requires_human_link_judgement": true,
+  "canonical_case_id_visible": false,
+  "capabilities": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "capability_proposal_visible": false,
+  "capability_unambiguous_values": [
+    "YES",
+    "NO",
+    "UNCERTAIN"
+  ],
+  "case_validity_values": [
+    "INCLUDE_VALID_CASE",
+    "EXCLUDE_INVALID_CASE",
+    "UNCERTAIN"
+  ],
+  "context_link_valid_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "context_sufficient_values": [
+    "YES",
+    "NO",
+    "NOT_APPLICABLE",
+    "UNCERTAIN"
+  ],
+  "discussion_before_both_packets_frozen": false,
+  "human_fields": [
+    "case_validity",
+    "query_naturalness_1_to_5",
+    "context_link_valid",
+    "context_sufficient",
+    "capability_unambiguous",
+    "context_resolution_required",
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification",
+    "forbidden_capabilities",
+    "reviewer_rationale",
+    "reviewer_id",
+    "review_date"
+  ],
+  "intent_proposal_visible": false,
+  "legacy_output_visible": false,
+  "llm_may_substitute_required_human_reviewer": false,
+  "no_candidate_history_context_link_value": "NOT_APPLICABLE",
+  "other_reviewer_visible": false,
+  "overlap_status_visible": false,
+  "query_naturalness_values": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "required_human_reviewer_count": 2,
+  "review_order": [
+    "CASE_VALIDITY",
+    "QUERY_NATURALNESS",
+    "CONTEXT_LINK_VALID",
+    "CONTEXT_SUFFICIENT",
+    "CAPABILITY_UNAMBIGUOUS",
+    "CONTEXT_RESOLUTION_REQUIRED",
+    "SIX_CAPABILITIES",
+    "FORBIDDEN_CAPABILITIES",
+    "RATIONALE"
+  ],
+  "reviewer_ids_must_differ": true,
+  "schema_version": "human-review-schema-v1.2",
+  "source_identity_visible": false,
+  "stage": "RQ2-A-R1B",
+  "status": "FROZEN_BEFORE_HUMAN_ENTRY",
+  "visible_fields": [
+    "review_case_id",
+    "current_query",
+    "current_page",
+    "necessary_conversation_history",
+    "turn_index",
+    "capability_definition_reference"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "version": "ORIGINAL25_PLUS_EN_V2",
+  "roster_path": "runtime_tasks.jsonl",
+  "roster_sha256": "922f9a9e6b1dec29498dcde6e9f679c2739b219ca4780b2009c9a57b04d601f1",
+  "task_ids": [
+    "original-01",
+    "original-03",
+    "original-06",
+    "original-08",
+    "original-10",
+    "original-11",
+    "original-12",
+    "original-13",
+    "original-15",
+    "original-16",
+    "original-17",
+    "original-19",
+    "original-20",
+    "original-21",
+    "original-23",
+    "original-24",
+    "original-25",
+    "task-c0aa4f8d44d5",
+    "task-95761bc98ed1",
+    "task-b6898be4e38d",
+    "task-0e48341f6309",
+    "task-61b3acfe0a48",
+    "task-88828cd6a19c",
+    "task-f66893e8100a",
+    "task-de163963fb5c",
+    "task-7469f2cfd8c1",
+    "task-373926448336",
+    "task-0dbd26b0464f",
+    "task-4c7a82df46ee",
+    "task-1960017e2839",
+    "task-495277e64cd9",
+    "task-013459503624",
+    "task-d019d3dc3beb",
+    "task-c03a748773d6",
+    "task-b74ac9a2a7d8",
+    "task-7eaffb7ac93a",
+    "task-54fd6c10b998",
+    "task-6c36478d23c7",
+    "task-cc11974765a4",
+    "task-17b1e1304286",
+    "task-03979c9cc009"
+  ],
+  "bindings_sha256": "4941b348767c87bade59019b2b1542c255a7ffe16f5803a998056d717702f51b",
+  "roster_count": 49,
+  "preparable_count": 41,
+  "original_count": 25,
+  "new_count": 24,
+  "new_families": 12,
+  "excluded_pending_source": [
+    {
+      "task_id": "original-02",
+      "missing": [
+        "ASSESSMENT_VIEWS_DEFINITION_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-04",
+      "missing": [
+        "TEN_DAY_START_AND_AVAILABILITY_UNKNOWN",
+        "REQUIRED_TASKS_AND_DEADLINES_NOT_BOUND"
+      ]
+    },
+    {
+      "task_id": "original-05",
+      "missing": [
+        "THIS_REFERS_TO_PRIOR_PLAN_OR_ADVICE_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-07",
+      "missing": [
+        "THIS_REFERS_TO_PRIOR_ADVICE_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-09",
+      "missing": [
+        "FEEDBACK_OR_REFLECTION_TEXT_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-14",
+      "missing": [
+        "W4_SUBMISSION_RECEIPT_AND_DEADLINE_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-18",
+      "missing": [
+        "REFLECTION_TEXT_FOR_STRENGTH_WEAKNESS_JUDGMENT_NOT_RECOVERED"
+      ]
+    },
+    {
+      "task_id": "original-22",
+      "missing": [
+        "NUMBERED_ITEMS_2_AND_3_ANTECEDENT_NOT_RECOVERED"
+      ]
+    }
+  ],
+  "selection_basis": "SOURCE_PREPARATION_BEFORE_NEW_OUTPUTS",
+  "provider_authorized": false,
+  "data_revision": "ORIGINAL25_PLUS_REVIEW_R1",
+  "approved_for_run_task_ids": [],
+  "final_inclusion_status": "PENDING_AUTHOR_DECISION",
+  "reference_sidecar": "evaluation_reference.jsonl",
+  "references_allowed_in_model_input": false,
+  "confirmed_study_sidecars": [
+    {
+      "path": "confirmed41_generation_2026-09-07/CONFIRMED_RESEARCH_DECISIONS.json",
+      "sha256": "67c01842426a5c8dad26a76ef732384f2076e540bf17a78b7ee051f0e71795c4"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/APPLICABILITY_CONFIRMED_41.json",
+      "sha256": "e7b1d2aa577d9ed26220110a6ca95631542f867647aa6f4cea964faf491d02c7"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/APPLICABILITY_ALL49.json",
+      "sha256": "f5d408e832467a18ce89b382df9e0bc742026fd527c9ee3520586597e36387f8"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/TASK_FAMILY_MAP.json",
+      "sha256": "3622ba88a9e1e0396561f33213dab8fa0f769ba192baf09b6393d41f69252d46"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/STUDY_PROTOCOL.md",
+      "sha256": "029c713a325cad36f66567a65f03d19c1258b3aa29f97f8b582e7e8706e90400"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/USER_AUTHORIZATION.md",
+      "sha256": "b627d7fdbe10ac70486b51f3b5197ed65f6ff07246eab61384a4a8166ea57765"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/GENERATION_HANDOFF_CONTRACT.md",
+      "sha256": "3d271b761e7a02555c01b8cd226df7ef83acd79d635320c3044e87e0179d09a0"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/FROZEN_P3_RECEIPT.json",
+      "sha256": "c0a0bbe4eb0da423ecd44dbbf2fd1ee4a3db0fd9b4958e269340d0760a828d64"
+    },
+    {
+      "path": "confirmed41_generation_2026-09-07/export_generation.py",
+      "sha256": "28ae7029a25f9db77cf6430f0f0a9406be1b006662c31f21d85ad355053a0cae"
+    }
+  ]
+}

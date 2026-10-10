@@ -1,0 +1,120 @@
+{
+  "capability_case_contract": {
+    "fields": [
+      "case_id",
+      "source_dataset",
+      "source_scenario_id",
+      "turn_index",
+      "current_query",
+      "current_page",
+      "conversation_history",
+      "existing_expected_intent",
+      "existing_expected_route",
+      "existing_expected_source_scope",
+      "existing_expected_memory",
+      "existing_expected_retrieval",
+      "existing_required_capabilities",
+      "scenario_category",
+      "scenario_family",
+      "provenance",
+      "content_hash"
+    ],
+    "record_schema_version": "capability-case-v1",
+    "schema_version": "capability-case-schema-v1",
+    "storage_policy": "FULL_RECORDS_LOCAL_ONLY_IGNORED",
+    "tracked_natural_language_allowed": false,
+    "tracked_summary_policy": [
+      "COUNTS",
+      "SOURCE_COUNTS",
+      "CONTENT_HASH",
+      "CATEGORY_DISTRIBUTION",
+      "DUPLICATE_COUNTS"
+    ]
+  },
+  "capability_implies_data_access_authority": false,
+  "clarification_exclusive_with_all_other_capabilities": true,
+  "course_retrieval_requires_evidence_sufficiency_gate": true,
+  "deterministic_guards": [
+    "privacy",
+    "student_identity",
+    "data_ownership",
+    "external_action_permission",
+    "provider_capability",
+    "explicit_source_restriction",
+    "unsupported_operation",
+    "course_source_authority",
+    "evidence_sufficiency"
+  ],
+  "deterministic_guards_are_predicted_capabilities": false,
+  "empty_plan_allowed": false,
+  "episodic_memory_requires_relevance_active_and_stale_state_gates": true,
+  "executable_capabilities": [
+    "course_retrieval",
+    "dashboard_evidence",
+    "episodic_memory",
+    "planning"
+  ],
+  "future_capability_threshold_tuning_authorised": false,
+  "future_conditions_frozen_not_implemented": {
+    "B0": "ORIGINAL_QUERY_PLUS_FROZEN_GUARDS_PLUS_C0_TOP1_HARD_ROUTE_NO_CONTEXT_RESOLUTION",
+    "B1": "CURRENT_PRODUCTION_CONTEXT_RESOLUTION_PLUS_FROZEN_GUARDS_PLUS_C0_TOP1_HARD_ROUTE",
+    "P1": "CONTEXT_ENVELOPE_PLUS_FROZEN_C0_VECTOR_PLUS_NEED_SIGNALS_PLUS_MULTILABEL_PLAN",
+    "P2": "P1_PLUS_DUAL_GATED_RAG_PLUS_SELECTIVE_EPISODIC_MEMORY"
+  },
+  "future_metrics_required": {
+    "capability_set": [
+      "EXACT_SET_ACCURACY",
+      "MICRO_PRECISION",
+      "MICRO_RECALL",
+      "MICRO_F1",
+      "MACRO_F1",
+      "REQUIRED_CAPABILITY_RECALL",
+      "UNNECESSARY_CAPABILITY_RATE",
+      "FORBIDDEN_CAPABILITY_VIOLATION_RATE"
+    ],
+    "context": [
+      "CONTEXT_RESOLUTION_ACCURACY",
+      "FALSE_CONTEXT_USE_RATE",
+      "STALE_MEMORY_USE_RATE",
+      "UNNECESSARY_QUERY_ALTERATION_RATE"
+    ],
+    "intent": [
+      "MRR",
+      "TOP1",
+      "RECALL_AT_3"
+    ],
+    "safety_usability": [
+      "CLARIFICATION_PRECISION",
+      "UNNECESSARY_CLARIFICATION_RATE",
+      "MISLEADING_ROUTE_RATE",
+      "SAFE_DIRECT_RESPONSE_ACCURACY"
+    ],
+    "tool_activation": [
+      "RAG_TRIGGER_PRECISION_RECALL",
+      "PLANNER_ACTIVATION_PRECISION_RECALL",
+      "EPISODIC_MEMORY_ACTIVATION_PRECISION_RECALL"
+    ]
+  },
+  "predicted_capabilities": [
+    "dashboard_evidence",
+    "course_retrieval",
+    "episodic_memory",
+    "planning",
+    "safe_direct_response",
+    "clarification"
+  ],
+  "production_router_implemented": false,
+  "router_identity": "C0_COSINE",
+  "safe_direct_response_exclusive_with_all_other_capabilities": true,
+  "safe_direct_response_exclusive_with_executable_capabilities": true,
+  "schema_version": "capability-schema-v1",
+  "semantic_distinction": {
+    "capability": "EXECUTABLE_SYSTEM_REQUIREMENT",
+    "intent": "DESCRIPTIVE_SEMANTIC_RANKING_TARGET",
+    "multi_label_allowed": true,
+    "one_to_one_mapping_forbidden": true
+  },
+  "stage": "RQ2-A",
+  "status": "FROZEN_RESEARCH_ONLY",
+  "working_context_is_capability": false
+}

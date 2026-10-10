@@ -1,0 +1,31 @@
+{
+  "allowed_candidate_sources": [
+    "STRUCTURED_EXPLICIT_USER_ASSERTION",
+    "VERIFIED_PLAN_EVENT",
+    "VERIFIED_COMPLETION_EVENT",
+    "EXPLICIT_USER_CONFIRMATION"
+  ],
+  "forbidden_candidate_sources": [
+    "FREE_FORM_LLM_INFERENCE",
+    "UNCONFIRMED_ASSISTANT_SUGGESTION",
+    "MODEL_DERIVED_PERSONALITY",
+    "MODEL_DERIVED_SRL",
+    "MODEL_DERIVED_ABILITY",
+    "UNVERIFIED_DASHBOARD_INTERPRETATION"
+  ],
+  "open_ended_free_text_memory_candidate_extraction_evaluated_in_rq2c1": false,
+  "persistent_store_implemented": false,
+  "rq2c1_evaluable_operations": [
+    "STORE",
+    "UPDATE",
+    "RETRIEVAL",
+    "ADMISSION",
+    "CONFLICT",
+    "PRIVACY"
+  ],
+  "schema_version": "structured-write-candidate-contract-v1",
+  "source_must_be_explicit_user_or_verified_event": true,
+  "source_must_be_structured": true,
+  "stage": "RQ2-C0-R2",
+  "status": "FROZEN"
+}

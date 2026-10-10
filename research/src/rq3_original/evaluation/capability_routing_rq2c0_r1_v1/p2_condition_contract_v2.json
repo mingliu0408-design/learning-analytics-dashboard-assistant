@@ -1,0 +1,42 @@
+{
+  "condition_evaluation_executed": false,
+  "conditions": {
+    "P1_BASE": {
+      "dual_gated_rag": false,
+      "persistent_memory_retrieval": false,
+      "session_state_use": false
+    },
+    "P2_FULL": {
+      "dual_gated_rag": true,
+      "persistent_memory_retrieval": true,
+      "session_state_use": true
+    },
+    "P2_PERSISTENT_MEMORY_ONLY": {
+      "dual_gated_rag": false,
+      "persistent_memory_retrieval": true,
+      "session_state_use": false
+    },
+    "P2_RAG_ONLY": {
+      "dual_gated_rag": true,
+      "persistent_memory_retrieval": false,
+      "session_state_use": false
+    },
+    "P2_SESSION_STATE_ONLY": {
+      "dual_gated_rag": false,
+      "persistent_memory_retrieval": false,
+      "session_state_use": true
+    }
+  },
+  "frozen_across_conditions": [
+    "C0_COSINE",
+    "P1_D05_SIGNAL_UNION",
+    "PRODUCTION_GUARDS",
+    "RQ2_P2_CONTROLLED_MECHANISM_FIXTURE_BANK_V1",
+    "CAPABILITY_GOLD",
+    "CONTEXT_ENVELOPE_V1"
+  ],
+  "production_integration": false,
+  "schema_version": "p2-condition-contract-v2",
+  "stage": "RQ2-C0-R1",
+  "status": "FROZEN_NOT_EVALUATED"
+}

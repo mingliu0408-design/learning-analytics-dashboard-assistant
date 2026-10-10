@@ -1,0 +1,102 @@
+{
+  "accepted_colon_examples": [
+    "dashboard evidence:",
+    "activity evidence:",
+    "course evidence:",
+    "The evidence:",
+    "Debate Activity:",
+    "Lecture Video Activity:",
+    "Markdown headings and labels followed by colons"
+  ],
+  "allowed_output_forms": [
+    "ordinary prose",
+    "Markdown paragraphs",
+    "numbered or bulleted Markdown lists",
+    "Markdown headings and student-facing labels",
+    "short complete direct answers"
+  ],
+  "answer_text_requirements": [
+    {
+      "id": "SF2-01",
+      "requirement": "answer_text is a string after strict outer-schema parsing"
+    },
+    {
+      "id": "SF2-02",
+      "requirement": "answer_text is non-empty after Unicode whitespace trimming"
+    },
+    {
+      "id": "SF2-03",
+      "requirement": "answer_text contains at least one Unicode alphabetic character and is not punctuation, braces, brackets, quotes, or whitespace only"
+    },
+    {
+      "id": "SF2-04",
+      "requirement": "answer_text does not itself parse as a JSON object or array"
+    },
+    {
+      "id": "SF2-05",
+      "requirement": "answer_text does not itself parse as a Python dict or list"
+    },
+    {
+      "id": "SF2-06",
+      "requirement": "answer_text is not a single fenced code, JSON, YAML, or XML block and is not an XML document"
+    },
+    {
+      "id": "SF2-07",
+      "requirement": "answer_text does not start with a raw left-brace or left-bracket container"
+    },
+    {
+      "id": "SF2-08",
+      "requirement": "answer_text does not contain a strongly diagnostic internal snake_case field in a structurally key-like line-start position"
+    },
+    {
+      "id": "SF2-09",
+      "requirement": "the generic English word evidence followed by a colon is not sufficient by itself to establish a raw internal structure"
+    },
+    {
+      "id": "SF2-10",
+      "requirement": "answer_text can be displayed directly to a student as ordinary prose or Markdown"
+    }
+  ],
+  "audit_classifications": [
+    "VALID_STUDENT_FACING_RESPONSE",
+    "TRIVIAL_NONANSWER",
+    "SERIALIZED_JSON_OBJECT_OR_ARRAY",
+    "RAW_INTERNAL_STRUCTURE",
+    "OTHER_NON_STUDENT_FACING_FORMAT"
+  ],
+  "character_count_definition": "Python Unicode code-point count of answer_text before trimming",
+  "contract_id": "C4_REAL_STUDENT_FACING_RESPONSE_FORMAT_CONTRACT_V2",
+  "evaluation_exclusions": [
+    "factual correctness",
+    "relevance",
+    "helpfulness",
+    "personalisation",
+    "actionability quality",
+    "evidence quality",
+    "expected condition performance",
+    "mode or condition identity",
+    "all response-quality scoring"
+  ],
+  "generic_word_not_diagnostic_alone": "evidence",
+  "strong_internal_field_keys": [
+    "action_steps",
+    "recommended_action",
+    "student_state",
+    "main_issue",
+    "next_steps",
+    "next_step",
+    "availability_notes",
+    "supporting_evidence",
+    "reflection_summary",
+    "activity_summary",
+    "data_summary",
+    "gaps_identified",
+    "planning_support"
+  ],
+  "strong_internal_key_position": "Beginning of a line after optional horizontal whitespace, optional Markdown list marker, and optional quote characters; followed by a colon",
+  "minimum_length_policy": "No minimum response length is imposed beyond excluding punctuation-only, structurally empty, or otherwise non-student-facing responses.",
+  "purpose": "Blind deterministic mechanical pre-Judge format validation only",
+  "schema_version": "c4-real-student-facing-response-format-contract-v2",
+  "v1_compatibility": "Narrows only the serialized-key false-positive rule; all container and genuine raw-internal-structure rejection rules remain in force.",
+  "word_count_definition": "Count of Unicode word tokens matched by the deterministic regular expression \\b\\w+\\b before trimming"
+}

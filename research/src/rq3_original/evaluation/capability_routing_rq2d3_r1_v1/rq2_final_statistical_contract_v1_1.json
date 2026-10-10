@@ -1,0 +1,167 @@
+{
+  "capability_universe": {
+    "contract_id": "RQ2_TRACK_B_SIX_CAPABILITY_UNIVERSE_V1",
+    "excluded_fields": [
+      "context_resolution_required",
+      "forbidden_capabilities",
+      "case_validity",
+      "query_naturalness_1_to_5",
+      "context_link_valid",
+      "context_sufficient",
+      "capability_unambiguous",
+      "gold_decision_source",
+      "source_role"
+    ],
+    "ordered_capabilities": [
+      "dashboard_evidence",
+      "course_retrieval",
+      "episodic_memory",
+      "planning",
+      "safe_direct_response",
+      "clarification"
+    ]
+  },
+  "case_outcomes": {
+    "all_ties_result": "UNDEFINED_ALL_TIES",
+    "comparisons": [
+      "P1_VS_B1",
+      "B1_VS_B0",
+      "P1_VS_B0"
+    ],
+    "contract_id": "RQ2_TRACK_B_CASE_UTILITY_OUTCOME_V1",
+    "direction": "LEFT_MINUS_RIGHT",
+    "loss_rule": "DELTA_LT_ZERO",
+    "matched_rank_biserial": "(WINS-LOSSES)/(WINS+LOSSES)",
+    "tie_rule": "DELTA_EQ_ZERO_EXACT",
+    "win_rule": "DELTA_GT_ZERO"
+  },
+  "cluster_aggregation": {
+    "arithmetic": "EXACT_RATIONAL",
+    "case_order": "REVIEW_CASE_ID_UTF8_ASCENDING",
+    "cases_per_cluster": 2,
+    "cluster_order": "CONTRAST_GROUP_ID_UTF8_ASCENDING",
+    "contract_id": "RQ2_TRACK_B_TWO_CASE_CLUSTER_MEAN_DELTA_V1",
+    "formula": "(CASE_DELTA_1+CASE_DELTA_2)/2",
+    "zero_clusters_retained": true
+  },
+  "clustered_sign_flip": {
+    "all_zero_p_value": "1/1",
+    "clusters": 24,
+    "contract_id": "RQ2_TRACK_B_CLUSTERED_TWO_SIDED_SIGN_FLIP_V1",
+    "direction": "TWO_SIDED",
+    "directly_tests_macro_f1": false,
+    "draw_statistic": "ABS(MEAN_OF_24_SIGNED_CLUSTER_MEAN_DELTAS)",
+    "draws": 100000,
+    "extreme_rule": "T_DRAW_GTE_T_OBSERVED",
+    "minimum_p_value": "1/100001",
+    "nonzero_cluster_rng_bits_per_draw": 1,
+    "observed_statistic": "ABS(MEAN_OF_24_CLUSTER_MEAN_DELTAS)",
+    "p_value": "(EXTREME_COUNT+1)/(100000+1)",
+    "rng": "random.Random.seed(20260829,version=2)+getrandbits(1)",
+    "seed": 20260829,
+    "zero_cluster_rng_bits": 0
+  },
+  "completion_scope": {
+    "comparisons_changed": false,
+    "metric_targets_changed": false,
+    "production_selection_gate_created": false,
+    "seeds_changed": false,
+    "statistical_execution_details_completed": true,
+    "track_b_result_used": false
+  },
+  "completion_timing": "AFTER_GOLD_BEFORE_ANY_PREDICTION_OR_METRIC",
+  "contract_id": "RQ2_TRACK_B_FINAL_STATISTICAL_CONTRACT_V1_1",
+  "gold_bundle_sha256": "5c2ee1722594e9e3d4fb40cf5e21ef9a6dc6a833f2704191c9b3fd056ad92fc5",
+  "historical_base_contract": "RQ2 D0 rq2_final_statistical_contract_v1",
+  "historical_base_sha256": "60543ca8cf55eb200c567e787c0bcf0fbec8d7341d5e972d8ec091cda9880bf3",
+  "interpretation": {
+    "positive_negative_and_nonsignificant_results_valid": true,
+    "significance_threshold_added": false,
+    "track_b_driven_metric_change": false,
+    "track_b_driven_policy_selection": false,
+    "track_b_driven_seed_change": false,
+    "track_b_driven_threshold_change": false
+  },
+  "p_value_scope": {
+    "primary_comparison": "P1_VS_B1",
+    "primary_in_holm_family": false,
+    "primary_p_value": "UNADJUSTED",
+    "secondary_comparisons": [
+      "B1_VS_B0",
+      "P1_VS_B0"
+    ],
+    "secondary_reporting": [
+      "RAW_P_VALUE",
+      "HOLM_ADJUSTED_P_VALUE"
+    ]
+  },
+  "per_case_set_utility": {
+    "arithmetic": "EXACT_RATIONAL",
+    "both_empty_value": "1/1",
+    "contract_id": "RQ2_TRACK_B_PER_CASE_JACCARD_UTILITY_V1",
+    "float_tolerance_used": false,
+    "formula": "ABS_P_INTERSECTION_G_DIVIDED_BY_ABS_P_UNION_G",
+    "is_primary_metric": false,
+    "purpose": [
+      "CLUSTERED_SIGN_FLIP",
+      "WINS_TIES_LOSSES"
+    ]
+  },
+  "runtime_commitments": {
+    "numpy_rng": false,
+    "parallel_nondeterministic_ordering": false,
+    "python_version_must_be_recorded": true,
+    "statistical_code_sha256_must_be_recorded": true,
+    "system_randomness": false
+  },
+  "schema_version": "rq2-final-statistical-contract-v1.1",
+  "secondary_holm": {
+    "contract_id": "RQ2_TRACK_B_SECONDARY_HOLM_ADJUSTMENT_V1",
+    "exploratory_only": true,
+    "family_size": 2,
+    "first": "MIN(1,2*P_1)",
+    "production_or_policy_gate": false,
+    "second": "MIN(1,MAX(2*P_1,P_2))",
+    "sort_key": [
+      "RAW_P_VALUE_ASCENDING",
+      "COMPARISON_ID_ASCENDING"
+    ]
+  },
+  "status": "EFFECTIVE_PRE_EVALUATION_CONTRACT_COMPLETION",
+  "whole_cluster_bootstrap": {
+    "case_level_sampling": false,
+    "cases_per_group": 2,
+    "comparisons": [
+      "P1_VS_B1",
+      "B1_VS_B0",
+      "P1_VS_B0"
+    ],
+    "confidence_interval": {
+      "coverage": 0.95,
+      "formula": "h=(n-1)*p;j=floor(h);gamma=h-j;Q=(1-gamma)*x[j]+gamma*x[j+1]",
+      "interpolation": "LINEAR_TYPE_7",
+      "lower_probability": 0.025,
+      "upper_probability": 0.975
+    },
+    "contract_id": "RQ2_TRACK_B_CLUSTER_BOOTSTRAP_TYPE7_V1",
+    "delta_direction": "LEFT_MINUS_RIGHT",
+    "duplicate_group_draws_retained": true,
+    "groups": 24,
+    "metric_callback_binding": {
+      "formula_redefined_by_r1": false,
+      "relative_path": "evaluation/capability_routing_rq2b_v1/capability_metrics.py",
+      "sha256": "697f8f84d8658275e8034da4e24839d3dca9f40a8e7f3409b0f659ba55b8b138",
+      "unique_frozen_implementation": true
+    },
+    "metrics": [
+      "SIX_CAPABILITY_MACRO_F1",
+      "EXACT_SET_ACCURACY",
+      "REQUIRED_CAPABILITY_RECALL",
+      "UNNECESSARY_CAPABILITY_RATE"
+    ],
+    "resamples": 50000,
+    "rng": "random.Random.seed(20260828,version=2)+24xrandrange(24)",
+    "sample_case_slots": 48,
+    "seed": 20260828
+  }
+}

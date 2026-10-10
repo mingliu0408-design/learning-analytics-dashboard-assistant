@@ -1,0 +1,11 @@
+{
+  "all_real_paths_repository_fixed": true,
+  "control_root_git_ignored_required": true,
+  "control_root_relative": "evaluation/capability_routing_rq2d4_v1/local_control",
+  "entry_accepts_path_override": false,
+  "global_lock_relative": "evaluation/capability_routing_rq2d4_v1/local_control/TRACK_B_FINAL_EVALUATION_GLOBAL_ACCESS_V1.json",
+  "output_root_git_ignored_required": true,
+  "output_root_relative": "evaluation/capability_routing_rq2d4_v1/local_one_shot",
+  "schema_version": "track-b-d4-fixed-path-contract-v1",
+  "status": "FROZEN"
+}

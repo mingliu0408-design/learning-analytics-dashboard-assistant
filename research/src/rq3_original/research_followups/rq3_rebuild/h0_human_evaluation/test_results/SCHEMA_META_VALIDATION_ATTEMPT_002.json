@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "schemas_checked": 8,
+  "jsonschema_version": "4.23.0",
+  "runtime": "existing /opt/anaconda3/bin/python3; no installation or mutation",
+  "scope": "Independent JSON Schema structural validity only",
+  "results": [
+    {
+      "path": "schemas/rater.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/ratings.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/reviewer.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/runtime_capture.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/source_annotation.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/source_span.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/task.schema.json",
+      "status": "PASS"
+    },
+    {
+      "path": "schemas/writer.schema.json",
+      "status": "PASS"
+    }
+  ]
+}

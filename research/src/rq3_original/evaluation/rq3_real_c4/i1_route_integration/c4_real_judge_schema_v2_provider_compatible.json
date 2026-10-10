@@ -1,0 +1,95 @@
+{
+  "type": "object",
+  "properties": {
+    "response_blind_id": {
+      "type": "string"
+    },
+    "clarity": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "personalisation": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "actionability": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "context_awareness": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "motivation_and_engagement": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "reliability": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "multi_page_cohesiveness": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "error_handling": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5", "NA"]
+    },
+    "evidence_faithfulness": {
+      "type": "string",
+      "enum": ["1", "2", "3", "4", "5"]
+    },
+    "unsupported_claim_count": {
+      "type": "string"
+    },
+    "overall_applicable_mean": {
+      "type": "string"
+    },
+    "criterion_rationales": {
+      "type": "object",
+      "properties": {
+        "clarity": {"type": "string"},
+        "personalisation": {"type": "string"},
+        "actionability": {"type": "string"},
+        "context_awareness": {"type": "string"},
+        "motivation_and_engagement": {"type": "string"},
+        "reliability": {"type": "string"},
+        "multi_page_cohesiveness": {"type": "string"},
+        "error_handling": {"type": "string"}
+      },
+      "required": [
+        "clarity",
+        "personalisation",
+        "actionability",
+        "context_awareness",
+        "motivation_and_engagement",
+        "reliability",
+        "multi_page_cohesiveness",
+        "error_handling"
+      ],
+      "additionalProperties": false
+    },
+    "schema_version": {
+      "type": "string",
+      "enum": ["rq3-judge-response-v2-transport"]
+    }
+  },
+  "required": [
+    "response_blind_id",
+    "clarity",
+    "personalisation",
+    "actionability",
+    "context_awareness",
+    "motivation_and_engagement",
+    "reliability",
+    "multi_page_cohesiveness",
+    "error_handling",
+    "evidence_faithfulness",
+    "unsupported_claim_count",
+    "overall_applicable_mean",
+    "criterion_rationales",
+    "schema_version"
+  ],
+  "additionalProperties": false
+}

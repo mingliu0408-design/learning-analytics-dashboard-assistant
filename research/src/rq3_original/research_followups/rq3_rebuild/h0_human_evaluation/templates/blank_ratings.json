@@ -1,0 +1,74 @@
+[
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "CLARITY",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "PERSONALISATION",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "ACTIONABILITY",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "CONTEXT_AWARENESS",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "MOTIVATION_AND_ENGAGEMENT",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "RELIABILITY",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "MULTI_PAGE_COHESIVENESS",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  },
+  {
+    "item_id": "",
+    "rater_id": "",
+    "criterion_id": "ERROR_HANDLING",
+    "score": null,
+    "note": "",
+    "applicability_dispute": "",
+    "recorded_at": ""
+  }
+]

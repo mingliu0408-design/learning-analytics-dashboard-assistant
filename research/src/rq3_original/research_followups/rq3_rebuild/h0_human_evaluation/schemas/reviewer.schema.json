@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "task_id",
+    "reviewer_id",
+    "independent_of_writer",
+    "source_authenticity_checked",
+    "permission_checked",
+    "scope_and_time_checked",
+    "natural_utterance_checked",
+    "runtime_evaluator_separation_checked",
+    "grouping_and_exposure_checked",
+    "applicability_checked_before_answers",
+    "multi_page_observability_checked",
+    "decision",
+    "notes",
+    "reviewed_at",
+    "signature"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "reviewer_id": {
+      "type": "string"
+    },
+    "independent_of_writer": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "source_authenticity_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "permission_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "scope_and_time_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "natural_utterance_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "runtime_evaluator_separation_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "grouping_and_exposure_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "applicability_checked_before_answers": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "multi_page_observability_checked": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "decision": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    }
+  }
+}

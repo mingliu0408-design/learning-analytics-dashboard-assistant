@@ -1,0 +1,184 @@
+{
+  "b4_bound_artifacts": [
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_dev_predictions_v2.csv",
+      "role": "B4_VALID_DEV_PREDICTIONS",
+      "sha256": "f0e776492779341fd4e1feb6d11f2a915246162697f222b1c7c933882e552d39"
+    },
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_dev_terminal_results_v2.jsonl",
+      "role": "B4_TERMINAL_RESULTS",
+      "sha256": "867e62817d8cb4342eb7071532803af2bc8e96e65b05d70743f0304f59473abc"
+    },
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_dev_attempt_records_v2.jsonl",
+      "role": "B4_ATTEMPT_RECORDS",
+      "sha256": "a8e8a66394d159e1af88a153654c63437176ba869dbf0c02f12c43ec1138b1a7"
+    },
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_dev_usage_and_cost_v2.json",
+      "role": "B4_USAGE_AND_COST",
+      "sha256": "503d079b8bebdd613eaaede7c10b7ff31e32e227c02f759a642efe29a8b84c1d"
+    },
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "role": "B4_FROZEN_CONFIGURATION",
+      "sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470"
+    },
+    {
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_response_schema_v2.json",
+      "role": "B4_RESPONSE_SCHEMA_V2",
+      "sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876"
+    }
+  ],
+  "binding_status": "BOUND_TO_VALID_FROZEN_B4_DEV_RESULTS",
+  "frozen_p1_protocol": {
+    "candidate_grid_sha256": "33de16b95f90847f0788c50914b32fbe403b952dc216b9c4f7a43ae14c7859cd",
+    "diagnostic_policy_count": 1,
+    "eligible_policy_count": 9,
+    "nested_selection_protocol_sha256": "d62d9b6bceb435334effb4111d92434488b74d67f6552ea25376a5af6a23c90a",
+    "policy_or_tie_break_changed_for_v2_binding": false
+  },
+  "governance": {
+    "production_integration": false,
+    "rq3_access": false,
+    "stage4j_new_provider_calls": 0,
+    "test_access": false
+  },
+  "hash_algorithm": "SHA-256",
+  "normalized_join": {
+    "audit_or_metric_only_not_runtime_triggers": [
+      "annotation_case_id",
+      "scenario_family_id",
+      "current_page",
+      "outer_fold",
+      "gold",
+      "cost",
+      "contrast_metadata"
+    ],
+    "fallback_output_only": [
+      "b4_complete_signature",
+      "b4_terminal_status"
+    ],
+    "key": "annotation_case_id",
+    "required_identical_case_count": 64,
+    "runtime_trigger_inputs_only": [
+      "b0_complete_signature",
+      "b2_complete_signature",
+      "b3_complete_signature",
+      "b3_probabilities",
+      "b3_case_specific_thresholds"
+    ]
+  },
+  "path_base": "REPOSITORY_ROOT",
+  "population_contract": {
+    "answer_utterances_per_outer_fold": 16,
+    "dialogue_action": "ANSWER",
+    "outer_fold_ids": [
+      "DEV-CV-FOLD-1",
+      "DEV-CV-FOLD-2",
+      "DEV-CV-FOLD-3",
+      "DEV-CV-FOLD-4"
+    ],
+    "partition": "DEV",
+    "test_identifier_count": 0,
+    "unique_annotation_case_id_required": true,
+    "utterance_count": 64
+  },
+  "schema_lineage": {
+    "policy_or_selection_rule_changed": false,
+    "removed_unsupported_or_redundant_metadata": [
+      "$schema",
+      "maxProperties",
+      "minProperties",
+      "title"
+    ],
+    "semantic_output": {
+      "additional_properties": false,
+      "required_boolean_fields": [
+        "rag_required",
+        "memory_required",
+        "planning_required"
+      ],
+      "type": "object"
+    },
+    "semantic_output_unchanged": true,
+    "stage4j0_pre_execution_schema_v1_sha256": "9f364e920cfcca07a90580000196c85a6f801ef2e75c9c907bf820eea6a9aba2",
+    "successful_b4_schema_v2_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876"
+  },
+  "schema_version": "rq2-v2-stage4j-p1-input-contract-v2",
+  "source_artifacts": [
+    {
+      "name": "dev_capability_gold_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/dev_protocol/dev_capability_gold_v1.csv",
+      "sha256": "8d3422198a99422b3e314c60819f3553ff27cd42394ed2d9f68c0eb3ce858b56",
+      "size_bytes": 26613
+    },
+    {
+      "name": "dev_atomic_group_map_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/dev_protocol/dev_atomic_group_map_v1.csv",
+      "sha256": "f1ac8973c590155ee3730de194b4c2afd6d05531744bef70a163be2428d4bd6f",
+      "size_bytes": 5504
+    },
+    {
+      "name": "dev_cv_folds_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/dev_protocol/dev_cv_folds_v1.csv",
+      "sha256": "2a3a4161c81bddfcfe51b238ac5940c64df87a25beed26e54671b64c76c5ab46",
+      "size_bytes": 26371
+    },
+    {
+      "name": "b0_core_oof_predictions_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b0_core_oof_predictions_v1.csv",
+      "sha256": "2dcf2f4e0694b45e53d9f79c7cdbb6b6eeb59cae7c28b399a4a02cfee13f1a58",
+      "size_bytes": 14543
+    },
+    {
+      "name": "b1_core_oof_predictions_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b1_core_oof_predictions_v1.csv",
+      "sha256": "3a0037363872df892561fae926f5f10fef67ac3ef327611af0c96dde138a0b6e",
+      "size_bytes": 19547
+    },
+    {
+      "name": "b2_nested_oof_predictions_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b2_nested_oof_predictions_v1.csv",
+      "sha256": "1e82d8f5f30528b5334cd89ff9427c6a157a6b0ab42bc779d358ac4a5351ca76",
+      "size_bytes": 4554
+    },
+    {
+      "name": "b3_nested_oof_predictions_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b3_nested_oof_predictions_v1.csv",
+      "sha256": "ccd013ee6157858f1508f4fac823fc4a339f530cc27bce3908600ce49a7df00f",
+      "size_bytes": 4554
+    },
+    {
+      "name": "b3_nested_oof_probabilities_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b3_nested_oof_probabilities_v1.csv",
+      "sha256": "8063d7949252316320f8ac2a2cdcea6239308886e143ce0ff33d97caf4121a40",
+      "size_bytes": 11322
+    },
+    {
+      "name": "clarification_gate_frozen_v1.json",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate_frozen_v1.json",
+      "sha256": "ca411f9ef8711811b3aa5408b79e28463cef432fe3fc31bf106d3fa80a350438",
+      "size_bytes": 16451
+    },
+    {
+      "name": "clarification_oof_predictions_v1.csv",
+      "path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_oof_predictions_v1.csv",
+      "sha256": "792308cbd4382466778721b6eafebd023a516e684ee19cd39483af1cbde72aa8",
+      "size_bytes": 15457
+    }
+  ],
+  "status": "BOUND_TO_VALID_FROZEN_B4_DEV_RESULTS",
+  "successful_b4_execution": {
+    "authorized_source_commit": "0382a3560137f0e0dece7845ed6da4446f307692",
+    "depends_on_historical_failure_source_commit": "fa3ba58fbd7abaecb0f7332312aade99bb2fc870",
+    "execution_status": "FROZEN_AFTER_DEV_EXECUTION",
+    "historical_failure_integrated_commit": "e497b20e1e4b5382e2f62351fd3affa91314fa09",
+    "integrated_commit": "22e5f0a174afb0552fea2b3804ce71ef5881a590",
+    "invalid_structured_output_count": 0,
+    "model_snapshot": "gpt-4o-mini-2024-07-18",
+    "provider_error_count": 0,
+    "valid_prediction_count": 64
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "type": "object",
+  "properties": {
+    "goal": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "goal_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "goal_id",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "constraints": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "budget": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "minutes": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1000000
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "required",
+                "minutes"
+              ],
+              "additionalProperties": false
+            },
+            "schedule": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "allowed_windows": {
+                  "anyOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "start": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "end": {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        },
+                        "required": [
+                          "start",
+                          "end"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "minItems": 0,
+                      "maxItems": 1000,
+                      "uniqueItems": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "excluded_windows": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "end": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": false
+                },
+                "forbidden_weekdays": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 6
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                },
+                "non_overlap": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "required",
+                "allowed_windows",
+                "excluded_windows",
+                "forbidden_weekdays",
+                "non_overlap"
+              ],
+              "additionalProperties": false
+            },
+            "forbid_completed_repeat": {
+              "type": "boolean"
+            },
+            "continue_active_plan": {
+              "type": "boolean"
+            },
+            "required_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true
+            },
+            "task_prerequisites": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "task_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "prerequisite_task_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0,
+                    "maxItems": 1000,
+                    "uniqueItems": true
+                  }
+                },
+                "required": [
+                  "task_id",
+                  "prerequisite_task_ids"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": false
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "completed_task_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "maxItems": 1000,
+      "uniqueItems": true
+    },
+    "active_plan": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "plan_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "goal_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "remaining_task_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true
+            },
+            "completed_task_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "plan_id",
+            "goal_id",
+            "remaining_task_ids",
+            "completed_task_ids"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "review_permissions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "task_id",
+          "rationale"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 1000,
+      "uniqueItems": false
+    },
+    "duration_estimates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1000000
+          },
+          "uncertainty": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "task_id",
+          "value",
+          "uncertainty"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 1000,
+      "uniqueItems": false
+    }
+  },
+  "required": [
+    "goal",
+    "constraints",
+    "completed_task_ids",
+    "active_plan",
+    "review_permissions",
+    "duration_estimates"
+  ],
+  "additionalProperties": false
+}

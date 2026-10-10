@@ -1,0 +1,13 @@
+{
+  "classification_frozen_before_restricted_mapping_access": true,
+  "freeze_date": "2026-09-01",
+  "frozen_artifact_sha256": {
+    "C4_REAL_G2_PREJUDGE_FORMAT_AUDIT.md": "62505e9824372144a1e49a3f1302cf049b7be37e3a09415029c44e2698019c9e",
+    "c4_real_g2_prejudge_format_audit_v1.csv": "cfc0d856b2a35aa74cf261edfe4dff4e84c143d2a27ed3cbffc6ac8bce6340f5",
+    "c4_real_g2_prejudge_format_audit_v1.json": "37807cd938a0797f812bf83e36a5df898a8903dc76f7d488216e5755c30432db",
+    "c4_real_g2_response_source_manifest_v1.json": "4ad3924710ef76dd88f5ca9b4d8a5a312006aabb61499be14c736898dd07f60f",
+    "c4_real_student_facing_response_format_contract_v1.json": "e68165bc78294beb490ea37ae45752ce2a41ee4232ae5127cd9d2e7ee6336319"
+  },
+  "restricted_mapping_accessed_by_this_phase": false,
+  "schema_version": "c4-real-g2-blind-format-audit-freeze-receipt-v1"
+}

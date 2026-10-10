@@ -1,0 +1,1 @@
+{"binds_fixed_paths":true,"binds_input_commitments":true,"binds_parent_code_identity":true,"binds_parent_nonce_commitment":true,"binds_sentinel_identity":true,"binds_state_path":true,"mutable_after_creation":false,"publication":"ATOMIC_NO_REPLACE","role":"IMMUTABLE_PARENT_EXECUTION_RECEIPT","schema_version":"track-b-parent-execution-receipt-contract-v1-2","status":"FROZEN"}

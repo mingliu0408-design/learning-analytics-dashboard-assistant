@@ -1,0 +1,110 @@
+{
+  "authorization_environment_value": "AUTHORIZED_C4_REAL_SHARD_C_CONTINUATION_R3C1",
+  "authorization_environment_variable": "C4_REAL_RESPONSE_GENERATION_AUTHORIZATION",
+  "condition_unblinding_actions": 0,
+  "continuation_executed": false,
+  "continuation_generation_configuration_sha256": "b859f0feb71bc12fa483337d65f583a871e40aeb40d1689b9855da7d3d034708",
+  "continuation_manifest_sha256": "1b14542082db9b19a20cadbb1469a19de7b194181fc0f7ad949b39c95755c2d2",
+  "embedded_mocked_tests": {
+    "mock_transport_only": true,
+    "real_provider_network_calls": 0,
+    "status": "PASS",
+    "tests_errored": 0,
+    "tests_failed": 0,
+    "tests_passed": 11,
+    "tests_run": 11
+  },
+  "format_contract_v2_sha256": "60284fda9ad9a8990fde593966cb218ab75061d9ba3f6bfe81e0bc457ac51f53",
+  "generation_configuration_differences": {
+    "student_facing_format_contract_sha256": {
+      "continuation": "60284fda9ad9a8990fde593966cb218ab75061d9ba3f6bfe81e0bc457ac51f53",
+      "source": "e68165bc78294beb490ea37ae45752ce2a41ee4232ae5127cd9d2e7ee6336319"
+    },
+    "student_facing_validator_sha256": {
+      "continuation": "dbfe05b5a659518546bfdda660c9c64927fa929adb57655a49d0ef5814f06cba",
+      "source": "5b098ff2e8368a7830938ae83ea4ea5cbdcdf71fcf61b674c579118c4742fbcc"
+    }
+  },
+  "generation_prompt_identity": "PASS_BYTE_IDENTICAL",
+  "generation_schema_identity": "PASS_BYTE_IDENTICAL",
+  "human_rating_actions": 0,
+  "judge_calls": 0,
+  "maximum_physical_attempts": 86,
+  "opaque_ids_regenerated": false,
+  "package_id": "C4_REAL_GENERATION_SHARD_C_CONTINUATION_R3C1_20260902",
+  "package_member_allowlist": [
+    "BLINDED_REQUESTS.jsonl",
+    "EXECUTION_CONTRACT.json",
+    "GENERATION_CONFIGURATION.json",
+    "GENERATION_PROMPT.txt",
+    "GENERATION_SCHEMA.json",
+    "PACKAGE_SOURCE_HASHES.json",
+    "README.md",
+    "STUDENT_FACING_FORMAT_CONTRACT_V2.json",
+    "c4_real_student_facing_response_validator_v2.py",
+    "generation_execution_runner_v3_1.py",
+    "test_package.py",
+    "validate_package.py"
+  ],
+  "package_member_count": 12,
+  "package_member_sha256": {
+    "BLINDED_REQUESTS.jsonl": "1b14542082db9b19a20cadbb1469a19de7b194181fc0f7ad949b39c95755c2d2",
+    "EXECUTION_CONTRACT.json": "091ff03eec00c0ed949cb05a5ac4b2c0f219dfc152bfd564b9550ade6a3abd0c",
+    "GENERATION_CONFIGURATION.json": "b859f0feb71bc12fa483337d65f583a871e40aeb40d1689b9855da7d3d034708",
+    "GENERATION_PROMPT.txt": "c72c9982899902221d1da6d67724c2058547b0641a285a7c28d9bafd12ec63cb",
+    "GENERATION_SCHEMA.json": "485dbdc6af48577808d3e6a51fc9811e54f7a8f670f50f92c5bbb64ee382f873",
+    "PACKAGE_SOURCE_HASHES.json": "2b31ab29c00cf3a6e533edd8a4065724f43043161e130eda5c5a29fa9d0378ff",
+    "README.md": "d39edc5f3bcb882f5c4eaf4421e3fd1767b095d09e0f71695320c805d6692caf",
+    "STUDENT_FACING_FORMAT_CONTRACT_V2.json": "60284fda9ad9a8990fde593966cb218ab75061d9ba3f6bfe81e0bc457ac51f53",
+    "c4_real_student_facing_response_validator_v2.py": "dbfe05b5a659518546bfdda660c9c64927fa929adb57655a49d0ef5814f06cba",
+    "generation_execution_runner_v3_1.py": "93719a4a080feb641bc9e2f4fd5499e09d283f8f755b093d8ca2a540c79d7b95",
+    "test_package.py": "543886d29d924cdb8cf0534efd3180fffb06fe28948c1ea14c770a0e9293eda5",
+    "validate_package.py": "8cbcae365b359fee6434c66d5a5cd9abc6cfbd10ae96808a83de05e193dd2a87"
+  },
+  "package_path": "/Users/liuming/Downloads/C4_REAL_GENERATION_SHARD_C_CONTINUATION_EXECUTION_PACKAGE_R3C1_2026-09-02.zip",
+  "package_sha256": "cf01993dafb24e38331e1c2fff64d330396307e1feb92ff5e895d6eb47cfba17",
+  "provider_payload_byte_identity": "PASS_ALL_43",
+  "real_provider_network_calls": 0,
+  "request_count": 43,
+  "response_generation_calls": 0,
+  "runner_v3_1_sha256": "93719a4a080feb641bc9e2f4fd5499e09d283f8f755b093d8ca2a540c79d7b95",
+  "schema_version": "c4-real-r3c1-continuation-package-freeze-audit-v1",
+  "scoring_calls": 0,
+  "shard": "C_CONTINUATION",
+  "source_generation_configuration_sha256": "8a4a4a07137336d058645820bdd9d32091afb4df3513ec6324d380015454b138",
+  "source_original_logical_order_range": [
+    5,
+    47
+  ],
+  "source_original_manifest_sha256": "2bc12fbdf114cda1f52f3438820e2ec706bf60e1c8f0965c4ce610d9853f7ea1",
+  "source_original_package_sha256": "16215b04bb875ec8b9b9627df7fb018eff14edf46f5a294049f0dd8442952699",
+  "status": "PASS_PREPARED_NOT_EXECUTED",
+  "validation": {
+    "allowlisted_file_count": 12,
+    "estimated_input_tokens": 46263,
+    "generation_calls": 0,
+    "judge_calls": 0,
+    "maximum_physical_attempts": 86,
+    "package_id": "C4_REAL_GENERATION_SHARD_C_CONTINUATION_R3C1_20260902",
+    "provider_calls": 0,
+    "request_count": 43,
+    "scoring_calls": 0,
+    "shard": "C_CONTINUATION",
+    "status": "PASS"
+  },
+  "validator_v2_sha256": "dbfe05b5a659518546bfdda660c9c64927fa929adb57655a49d0ef5814f06cba",
+  "zip_validation": {
+    "allowlisted_file_count": 12,
+    "estimated_input_tokens": 46263,
+    "generation_calls": 0,
+    "judge_calls": 0,
+    "maximum_physical_attempts": 86,
+    "package_id": "C4_REAL_GENERATION_SHARD_C_CONTINUATION_R3C1_20260902",
+    "package_zip_sha256": "cf01993dafb24e38331e1c2fff64d330396307e1feb92ff5e895d6eb47cfba17",
+    "provider_calls": 0,
+    "request_count": 43,
+    "scoring_calls": 0,
+    "shard": "C_CONTINUATION",
+    "status": "PASS"
+  }
+}

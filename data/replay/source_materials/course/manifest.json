@@ -1,0 +1,3214 @@
+{
+  "corpus_id": "shared-course-v1",
+  "origin_export": "source://final-implementation/research_followups/rq3_rebuild/a_reuse62/local_private/VERIFIED_R0_CORPUS.jsonl",
+  "corpus_sha256": "89fe50ea0436c70e382629142742a774a2fc88727be09b85eb87af9ec3786a2e",
+  "corpus_bytes": 461998,
+  "chunk_count": 624,
+  "selection_rule": "copy entire pre-existing generic corpus, before new query authoring; no target retrieval",
+  "documents": [
+    {
+      "document_id": "handbook",
+      "origin_path": "source://original-dashboard/System Data/Module/Module Handbook.doc",
+      "source_file_key": "source://original-dashboard/System Data/Module/Module Handbook.doc",
+      "raw_path": "source_materials/course/raw/Module Handbook.doc",
+      "raw_sha256": "296ca2e803bf687d328153268354211332f093ca19c691166b53532be62c077f",
+      "raw_bytes": 80489,
+      "extracted_path": "source_materials/course/handbook.txt",
+      "extracted_sha256": "13f5ab857aabeb2548dc12b0586d7517445d634ece98092627947865ddb1f364",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "handbook_module_summary_1",
+          "char_start": 0,
+          "char_end": 1366
+        },
+        {
+          "chunk_id": "handbook_module_summary_2",
+          "char_start": 1368,
+          "char_end": 2213
+        },
+        {
+          "chunk_id": "handbook_module_syllabus",
+          "char_start": 2215,
+          "char_end": 2381
+        },
+        {
+          "chunk_id": "handbook_session_1_introduction_to_module_s_ai_and_analytics_interven",
+          "char_start": 2383,
+          "char_end": 2611
+        },
+        {
+          "chunk_id": "handbook_session_2_data_as_the_key_affordance_of_technology_for_learn",
+          "char_start": 2613,
+          "char_end": 2850
+        },
+        {
+          "chunk_id": "handbook_session_3_richard_noss_lecture_this_week_will_include_a_spec",
+          "char_start": 2852,
+          "char_end": 3088
+        },
+        {
+          "chunk_id": "handbook_session_4_learning_analytics_this_week_will_focus_on_introdu",
+          "char_start": 3090,
+          "char_end": 3292
+        },
+        {
+          "chunk_id": "handbook_session_5_multimodal_learning_analytics_this_week_you_will_h",
+          "char_start": 3294,
+          "char_end": 3455
+        },
+        {
+          "chunk_id": "handbook_session_6_value_driven_nature_of_data_and_performance_measur",
+          "char_start": 3457,
+          "char_end": 3725
+        },
+        {
+          "chunk_id": "handbook_session_7_from_prediction_to_generation_natural_language_pro",
+          "char_start": 3727,
+          "char_end": 3935
+        },
+        {
+          "chunk_id": "handbook_session_8_ai_and_a_vision_for_hybrid_intelligence_systems_th",
+          "char_start": 3937,
+          "char_end": 4447
+        },
+        {
+          "chunk_id": "handbook_session_9_evidence_informed_implementations_of_ai_in_educati",
+          "char_start": 4449,
+          "char_end": 4826
+        },
+        {
+          "chunk_id": "handbook_session_10_student_presentations_and_assessment_in_this_sess",
+          "char_start": 4828,
+          "char_end": 5113
+        },
+        {
+          "chunk_id": "handbook_specification",
+          "char_start": 5115,
+          "char_end": 5611
+        },
+        {
+          "chunk_id": "handbook_core_reading",
+          "char_start": 5613,
+          "char_end": 6748
+        },
+        {
+          "chunk_id": "handbook_module_aims",
+          "char_start": 6750,
+          "char_end": 7293
+        },
+        {
+          "chunk_id": "handbook_intended_learning_outcomes",
+          "char_start": 7295,
+          "char_end": 7717
+        },
+        {
+          "chunk_id": "handbook_overview",
+          "char_start": 7719,
+          "char_end": 8507
+        },
+        {
+          "chunk_id": "handbook_part_a_critical_analysis_and_reflection_portfolio",
+          "char_start": 8509,
+          "char_end": 9710
+        },
+        {
+          "chunk_id": "handbook_part_b_design_case_extension_or_design_critique_1",
+          "char_start": 9712,
+          "char_end": 10595
+        },
+        {
+          "chunk_id": "handbook_part_b_design_case_extension_or_design_critique_2",
+          "char_start": 10597,
+          "char_end": 11814
+        },
+        {
+          "chunk_id": "handbook_part_b_design_case_extension_or_design_critique_3",
+          "char_start": 11816,
+          "char_end": 12998
+        },
+        {
+          "chunk_id": "handbook_assessment_criteria",
+          "char_start": 13000,
+          "char_end": 14400
+        },
+        {
+          "chunk_id": "handbook_the_core_elements_of_academic_reflective_writing_1",
+          "char_start": 14402,
+          "char_end": 15677
+        },
+        {
+          "chunk_id": "handbook_the_core_elements_of_academic_reflective_writing_2",
+          "char_start": 15679,
+          "char_end": 16947
+        },
+        {
+          "chunk_id": "handbook_the_core_elements_of_academic_reflective_writing_3",
+          "char_start": 16949,
+          "char_end": 17668
+        },
+        {
+          "chunk_id": "handbook_referencing_plagiarism_1",
+          "char_start": 17670,
+          "char_end": 18961
+        },
+        {
+          "chunk_id": "handbook_referencing_plagiarism_2",
+          "char_start": 18963,
+          "char_end": 19177
+        },
+        {
+          "chunk_id": "handbook_attendance_1",
+          "char_start": 19179,
+          "char_end": 20440
+        },
+        {
+          "chunk_id": "handbook_attendance_2",
+          "char_start": 20442,
+          "char_end": 21610
+        },
+        {
+          "chunk_id": "handbook_attendance_3",
+          "char_start": 21612,
+          "char_end": 21854
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    },
+    {
+      "document_id": "weekly_pages",
+      "origin_path": "source://original-dashboard/System Data/Module/Module Weekly Pages.html",
+      "source_file_key": "source://original-dashboard/System Data/Module/Module Weekly Pages.html",
+      "raw_path": "source_materials/course/raw/Module Weekly Pages.html",
+      "raw_sha256": "799e0c07bd5655cc3caffa80b320cd4cafda4677d3e1664d951acb0b45740489",
+      "raw_bytes": 1463228,
+      "extracted_path": "source_materials/course/weekly_pages.txt",
+      "extracted_sha256": "21c27f7cf74f3f1165567002348b081dba9a8a1d23d741f34623d3d22532fc38",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "weekly_general",
+          "char_start": 0,
+          "char_end": 1050
+        },
+        {
+          "chunk_id": "weekly_w0_0",
+          "char_start": 1052,
+          "char_end": 1133
+        },
+        {
+          "chunk_id": "weekly_w0_1",
+          "char_start": 1135,
+          "char_end": 1211
+        },
+        {
+          "chunk_id": "weekly_w0_2",
+          "char_start": 1213,
+          "char_end": 1311
+        },
+        {
+          "chunk_id": "weekly_w0_3",
+          "char_start": 1313,
+          "char_end": 1428
+        },
+        {
+          "chunk_id": "weekly_w0_4",
+          "char_start": 1430,
+          "char_end": 1511
+        },
+        {
+          "chunk_id": "weekly_w0_5",
+          "char_start": 1513,
+          "char_end": 1608
+        },
+        {
+          "chunk_id": "weekly_w0_6",
+          "char_start": 1610,
+          "char_end": 1691
+        },
+        {
+          "chunk_id": "weekly_w0_7",
+          "char_start": 1693,
+          "char_end": 1774
+        },
+        {
+          "chunk_id": "weekly_w0_8",
+          "char_start": 1776,
+          "char_end": 1858
+        },
+        {
+          "chunk_id": "weekly_w0_8_debate_1",
+          "char_start": 1860,
+          "char_end": 1942
+        },
+        {
+          "chunk_id": "weekly_w0_9",
+          "char_start": 1944,
+          "char_end": 2044
+        },
+        {
+          "chunk_id": "weekly_w1_10",
+          "char_start": 2046,
+          "char_end": 2138
+        },
+        {
+          "chunk_id": "weekly_w1_10_moodle_link_1",
+          "char_start": 2140,
+          "char_end": 2220
+        },
+        {
+          "chunk_id": "weekly_w1_10_reading_2",
+          "char_start": 2222,
+          "char_end": 2310
+        },
+        {
+          "chunk_id": "weekly_w1_11",
+          "char_start": 2312,
+          "char_end": 2456
+        },
+        {
+          "chunk_id": "weekly_w1_11_lecture_2",
+          "char_start": 2458,
+          "char_end": 2598
+        },
+        {
+          "chunk_id": "weekly_w1_12",
+          "char_start": 2600,
+          "char_end": 2879
+        },
+        {
+          "chunk_id": "weekly_w1_12_debate_1",
+          "char_start": 2881,
+          "char_end": 2963
+        },
+        {
+          "chunk_id": "weekly_w1_12_debate_2",
+          "char_start": 2965,
+          "char_end": 3238
+        },
+        {
+          "chunk_id": "weekly_w1_13",
+          "char_start": 3240,
+          "char_end": 3334
+        },
+        {
+          "chunk_id": "weekly_w1_13_lecture_1",
+          "char_start": 3336,
+          "char_end": 3430
+        },
+        {
+          "chunk_id": "weekly_w1_14",
+          "char_start": 3432,
+          "char_end": 3528
+        },
+        {
+          "chunk_id": "weekly_w1_15",
+          "char_start": 3530,
+          "char_end": 3675
+        },
+        {
+          "chunk_id": "weekly_w1_16",
+          "char_start": 3677,
+          "char_end": 3800
+        },
+        {
+          "chunk_id": "weekly_w1_16_lecture_2",
+          "char_start": 3802,
+          "char_end": 3921
+        },
+        {
+          "chunk_id": "weekly_w1_17",
+          "char_start": 3923,
+          "char_end": 4044
+        },
+        {
+          "chunk_id": "weekly_w1_17_lecture_2",
+          "char_start": 4046,
+          "char_end": 4163
+        },
+        {
+          "chunk_id": "weekly_w2_18",
+          "char_start": 4165,
+          "char_end": 4255
+        },
+        {
+          "chunk_id": "weekly_w2_18_moodle_link_1",
+          "char_start": 4257,
+          "char_end": 4335
+        },
+        {
+          "chunk_id": "weekly_w2_18_reading_2",
+          "char_start": 4337,
+          "char_end": 4423
+        },
+        {
+          "chunk_id": "weekly_w2_19",
+          "char_start": 4425,
+          "char_end": 4569
+        },
+        {
+          "chunk_id": "weekly_w2_19_lecture_2",
+          "char_start": 4571,
+          "char_end": 4711
+        },
+        {
+          "chunk_id": "weekly_w2_20",
+          "char_start": 4713,
+          "char_end": 4904
+        },
+        {
+          "chunk_id": "weekly_w2_20_debate_1",
+          "char_start": 4906,
+          "char_end": 4986
+        },
+        {
+          "chunk_id": "weekly_w2_20_debate_2",
+          "char_start": 4988,
+          "char_end": 5173
+        },
+        {
+          "chunk_id": "weekly_w2_21",
+          "char_start": 5175,
+          "char_end": 5269
+        },
+        {
+          "chunk_id": "weekly_w2_22",
+          "char_start": 5271,
+          "char_end": 5386
+        },
+        {
+          "chunk_id": "weekly_w2_23",
+          "char_start": 5388,
+          "char_end": 5509
+        },
+        {
+          "chunk_id": "weekly_w2_23_lecture_2",
+          "char_start": 5511,
+          "char_end": 5628
+        },
+        {
+          "chunk_id": "weekly_w2_24",
+          "char_start": 5630,
+          "char_end": 5749
+        },
+        {
+          "chunk_id": "weekly_w2_24_lecture_2",
+          "char_start": 5751,
+          "char_end": 5866
+        },
+        {
+          "chunk_id": "weekly_w3_25",
+          "char_start": 5868,
+          "char_end": 5925
+        },
+        {
+          "chunk_id": "weekly_w3_25_moodle_link_1",
+          "char_start": 5927,
+          "char_end": 5972
+        },
+        {
+          "chunk_id": "weekly_w3_25_reading_2",
+          "char_start": 5974,
+          "char_end": 6027
+        },
+        {
+          "chunk_id": "weekly_w3_26",
+          "char_start": 6029,
+          "char_end": 6123
+        },
+        {
+          "chunk_id": "weekly_w3_26_lecture_2",
+          "char_start": 6125,
+          "char_end": 6215
+        },
+        {
+          "chunk_id": "weekly_w3_27",
+          "char_start": 6217,
+          "char_end": 6291
+        },
+        {
+          "chunk_id": "weekly_w3_27_lecture_2",
+          "char_start": 6293,
+          "char_end": 6363
+        },
+        {
+          "chunk_id": "weekly_w3_28",
+          "char_start": 6365,
+          "char_end": 6452
+        },
+        {
+          "chunk_id": "weekly_w3_28_lecture_2",
+          "char_start": 6454,
+          "char_end": 6537
+        },
+        {
+          "chunk_id": "weekly_w3_29",
+          "char_start": 6539,
+          "char_end": 6630
+        },
+        {
+          "chunk_id": "weekly_w3_29_moodle_link_1",
+          "char_start": 6632,
+          "char_end": 6723
+        },
+        {
+          "chunk_id": "weekly_w3_30",
+          "char_start": 6725,
+          "char_end": 6792
+        },
+        {
+          "chunk_id": "weekly_w4_31",
+          "char_start": 6794,
+          "char_end": 6849
+        },
+        {
+          "chunk_id": "weekly_w4_31_moodle_link_1",
+          "char_start": 6851,
+          "char_end": 6894
+        },
+        {
+          "chunk_id": "weekly_w4_31_reading_2",
+          "char_start": 6896,
+          "char_end": 6947
+        },
+        {
+          "chunk_id": "weekly_w4_32",
+          "char_start": 6949,
+          "char_end": 7025
+        },
+        {
+          "chunk_id": "weekly_w4_32_lecture_2",
+          "char_start": 7027,
+          "char_end": 7099
+        },
+        {
+          "chunk_id": "weekly_w4_33",
+          "char_start": 7101,
+          "char_end": 7305
+        },
+        {
+          "chunk_id": "weekly_w4_33_debate_1",
+          "char_start": 7307,
+          "char_end": 7352
+        },
+        {
+          "chunk_id": "weekly_w4_33_debate_2",
+          "char_start": 7354,
+          "char_end": 7552
+        },
+        {
+          "chunk_id": "weekly_w4_34",
+          "char_start": 7554,
+          "char_end": 7631
+        },
+        {
+          "chunk_id": "weekly_w4_35",
+          "char_start": 7633,
+          "char_end": 7719
+        },
+        {
+          "chunk_id": "weekly_w4_35_lecture_2",
+          "char_start": 7721,
+          "char_end": 7803
+        },
+        {
+          "chunk_id": "weekly_w4_36",
+          "char_start": 7805,
+          "char_end": 7882
+        },
+        {
+          "chunk_id": "weekly_w4_37",
+          "char_start": 7884,
+          "char_end": 7963
+        },
+        {
+          "chunk_id": "weekly_w4_37_moodle_link_1",
+          "char_start": 7965,
+          "char_end": 8044
+        },
+        {
+          "chunk_id": "weekly_w4_38",
+          "char_start": 8046,
+          "char_end": 8131
+        },
+        {
+          "chunk_id": "weekly_w4_38_lecture_2",
+          "char_start": 8133,
+          "char_end": 8214
+        },
+        {
+          "chunk_id": "weekly_w5_39",
+          "char_start": 8216,
+          "char_end": 8282
+        },
+        {
+          "chunk_id": "weekly_w5_39_moodle_link_1",
+          "char_start": 8284,
+          "char_end": 8338
+        },
+        {
+          "chunk_id": "weekly_w5_39_reading_2",
+          "char_start": 8340,
+          "char_end": 8402
+        },
+        {
+          "chunk_id": "weekly_w5_40",
+          "char_start": 8404,
+          "char_end": 8500
+        },
+        {
+          "chunk_id": "weekly_w5_40_lecture_2",
+          "char_start": 8502,
+          "char_end": 8594
+        },
+        {
+          "chunk_id": "weekly_w5_41",
+          "char_start": 8596,
+          "char_end": 8789
+        },
+        {
+          "chunk_id": "weekly_w5_41_debate_1",
+          "char_start": 8791,
+          "char_end": 8847
+        },
+        {
+          "chunk_id": "weekly_w5_41_debate_2",
+          "char_start": 8849,
+          "char_end": 9036
+        },
+        {
+          "chunk_id": "weekly_w5_42",
+          "char_start": 9038,
+          "char_end": 9138
+        },
+        {
+          "chunk_id": "weekly_w5_42_moodle_link_1",
+          "char_start": 9140,
+          "char_end": 9240
+        },
+        {
+          "chunk_id": "weekly_w5_43",
+          "char_start": 9242,
+          "char_end": 9339
+        },
+        {
+          "chunk_id": "weekly_w5_43_lecture_2",
+          "char_start": 9341,
+          "char_end": 9434
+        },
+        {
+          "chunk_id": "weekly_w5_44",
+          "char_start": 9436,
+          "char_end": 9510
+        },
+        {
+          "chunk_id": "weekly_w5_45",
+          "char_start": 9512,
+          "char_end": 9608
+        },
+        {
+          "chunk_id": "weekly_w5_45_lecture_2",
+          "char_start": 9610,
+          "char_end": 9702
+        },
+        {
+          "chunk_id": "weekly_w5_46",
+          "char_start": 9704,
+          "char_end": 9789
+        },
+        {
+          "chunk_id": "weekly_w5_46_lecture_2",
+          "char_start": 9791,
+          "char_end": 9872
+        },
+        {
+          "chunk_id": "weekly_w6_47",
+          "char_start": 9874,
+          "char_end": 9963
+        },
+        {
+          "chunk_id": "weekly_w6_47_moodle_link_1",
+          "char_start": 9965,
+          "char_end": 10042
+        },
+        {
+          "chunk_id": "weekly_w6_47_reading_2",
+          "char_start": 10044,
+          "char_end": 10129
+        },
+        {
+          "chunk_id": "weekly_w6_48",
+          "char_start": 10131,
+          "char_end": 10248
+        },
+        {
+          "chunk_id": "weekly_w6_48_lecture_2",
+          "char_start": 10250,
+          "char_end": 10363
+        },
+        {
+          "chunk_id": "weekly_w6_49",
+          "char_start": 10365,
+          "char_end": 10519
+        },
+        {
+          "chunk_id": "weekly_w6_49_debate_1",
+          "char_start": 10521,
+          "char_end": 10600
+        },
+        {
+          "chunk_id": "weekly_w6_49_debate_2",
+          "char_start": 10602,
+          "char_end": 10750
+        },
+        {
+          "chunk_id": "weekly_w6_50",
+          "char_start": 10752,
+          "char_end": 10872
+        },
+        {
+          "chunk_id": "weekly_w6_50_lecture_2",
+          "char_start": 10874,
+          "char_end": 10990
+        },
+        {
+          "chunk_id": "weekly_w6_51",
+          "char_start": 10992,
+          "char_end": 11118
+        },
+        {
+          "chunk_id": "weekly_w6_52",
+          "char_start": 11120,
+          "char_end": 11240
+        },
+        {
+          "chunk_id": "weekly_w6_52_lecture_2",
+          "char_start": 11242,
+          "char_end": 11358
+        },
+        {
+          "chunk_id": "weekly_w7_53",
+          "char_start": 11360,
+          "char_end": 11469
+        },
+        {
+          "chunk_id": "weekly_w7_53_moodle_link_1",
+          "char_start": 11471,
+          "char_end": 11568
+        },
+        {
+          "chunk_id": "weekly_w7_53_reading_2",
+          "char_start": 11570,
+          "char_end": 11675
+        },
+        {
+          "chunk_id": "weekly_w7_54",
+          "char_start": 11677,
+          "char_end": 11852
+        },
+        {
+          "chunk_id": "weekly_w7_54_lecture_2",
+          "char_start": 11854,
+          "char_end": 12025
+        },
+        {
+          "chunk_id": "weekly_w7_55",
+          "char_start": 12027,
+          "char_end": 12170
+        },
+        {
+          "chunk_id": "weekly_w7_55_lecture_2",
+          "char_start": 12172,
+          "char_end": 12311
+        },
+        {
+          "chunk_id": "weekly_w7_56",
+          "char_start": 12313,
+          "char_end": 12574
+        },
+        {
+          "chunk_id": "weekly_w7_56_debate_1",
+          "char_start": 12576,
+          "char_end": 12675
+        },
+        {
+          "chunk_id": "weekly_w7_56_debate_2",
+          "char_start": 12677,
+          "char_end": 12932
+        },
+        {
+          "chunk_id": "weekly_w7_57",
+          "char_start": 12934,
+          "char_end": 13037
+        },
+        {
+          "chunk_id": "weekly_w7_58",
+          "char_start": 13039,
+          "char_end": 13182
+        },
+        {
+          "chunk_id": "weekly_w7_58_moodle_link_1",
+          "char_start": 13184,
+          "char_end": 13327
+        },
+        {
+          "chunk_id": "weekly_w7_59",
+          "char_start": 13329,
+          "char_end": 13469
+        },
+        {
+          "chunk_id": "weekly_w7_59_lecture_2",
+          "char_start": 13471,
+          "char_end": 13607
+        },
+        {
+          "chunk_id": "weekly_w7_60",
+          "char_start": 13609,
+          "char_end": 13749
+        },
+        {
+          "chunk_id": "weekly_w7_60_lecture_2",
+          "char_start": 13751,
+          "char_end": 13887
+        },
+        {
+          "chunk_id": "weekly_w8_61",
+          "char_start": 13889,
+          "char_end": 13973
+        },
+        {
+          "chunk_id": "weekly_w8_61_moodle_link_1",
+          "char_start": 13975,
+          "char_end": 14047
+        },
+        {
+          "chunk_id": "weekly_w8_61_reading_2",
+          "char_start": 14049,
+          "char_end": 14129
+        },
+        {
+          "chunk_id": "weekly_w8_62",
+          "char_start": 14131,
+          "char_end": 14203
+        },
+        {
+          "chunk_id": "weekly_w8_63",
+          "char_start": 14205,
+          "char_end": 14254
+        },
+        {
+          "chunk_id": "weekly_w8_64",
+          "char_start": 14256,
+          "char_end": 14464
+        },
+        {
+          "chunk_id": "weekly_w8_64_debate_1",
+          "char_start": 14466,
+          "char_end": 14540
+        },
+        {
+          "chunk_id": "weekly_w8_64_debate_2",
+          "char_start": 14542,
+          "char_end": 14744
+        },
+        {
+          "chunk_id": "weekly_w8_65",
+          "char_start": 14746,
+          "char_end": 14853
+        },
+        {
+          "chunk_id": "weekly_w8_66",
+          "char_start": 14855,
+          "char_end": 14970
+        },
+        {
+          "chunk_id": "weekly_w8_66_lecture_2",
+          "char_start": 14972,
+          "char_end": 15083
+        },
+        {
+          "chunk_id": "weekly_w8_67",
+          "char_start": 15085,
+          "char_end": 15203
+        },
+        {
+          "chunk_id": "weekly_w8_67_moodle_link_1",
+          "char_start": 15205,
+          "char_end": 15323
+        },
+        {
+          "chunk_id": "weekly_w8_68",
+          "char_start": 15325,
+          "char_end": 15440
+        },
+        {
+          "chunk_id": "weekly_w8_68_lecture_2",
+          "char_start": 15442,
+          "char_end": 15553
+        },
+        {
+          "chunk_id": "weekly_w8_69",
+          "char_start": 15555,
+          "char_end": 15657
+        },
+        {
+          "chunk_id": "weekly_w8_69_reading_1",
+          "char_start": 15659,
+          "char_end": 15761
+        },
+        {
+          "chunk_id": "weekly_w9_70",
+          "char_start": 15763,
+          "char_end": 15852
+        },
+        {
+          "chunk_id": "weekly_w9_70_moodle_link_1",
+          "char_start": 15854,
+          "char_end": 15931
+        },
+        {
+          "chunk_id": "weekly_w9_70_reading_2",
+          "char_start": 15933,
+          "char_end": 16018
+        },
+        {
+          "chunk_id": "weekly_w9_71",
+          "char_start": 16020,
+          "char_end": 16125
+        },
+        {
+          "chunk_id": "weekly_w9_71_lecture_2",
+          "char_start": 16127,
+          "char_end": 16228
+        },
+        {
+          "chunk_id": "weekly_w9_72",
+          "char_start": 16230,
+          "char_end": 16466
+        },
+        {
+          "chunk_id": "weekly_w9_72_debate_1",
+          "char_start": 16468,
+          "char_end": 16547
+        },
+        {
+          "chunk_id": "weekly_w9_72_debate_2",
+          "char_start": 16549,
+          "char_end": 16779
+        },
+        {
+          "chunk_id": "weekly_w9_73",
+          "char_start": 16781,
+          "char_end": 16864
+        },
+        {
+          "chunk_id": "weekly_w9_74",
+          "char_start": 16866,
+          "char_end": 16962
+        },
+        {
+          "chunk_id": "weekly_w9_75",
+          "char_start": 16964,
+          "char_end": 17087
+        },
+        {
+          "chunk_id": "weekly_w9_75_moodle_link_1",
+          "char_start": 17089,
+          "char_end": 17212
+        },
+        {
+          "chunk_id": "weekly_w9_76",
+          "char_start": 17214,
+          "char_end": 17334
+        },
+        {
+          "chunk_id": "weekly_w9_76_lecture_2",
+          "char_start": 17336,
+          "char_end": 17452
+        },
+        {
+          "chunk_id": "weekly_w9_77",
+          "char_start": 17454,
+          "char_end": 17545
+        },
+        {
+          "chunk_id": "weekly_w9_78",
+          "char_start": 17547,
+          "char_end": 17666
+        },
+        {
+          "chunk_id": "weekly_w9_78_lecture_2",
+          "char_start": 17668,
+          "char_end": 17783
+        },
+        {
+          "chunk_id": "weekly_w10_79",
+          "char_start": 17785,
+          "char_end": 17866
+        },
+        {
+          "chunk_id": "weekly_w10_80",
+          "char_start": 17868,
+          "char_end": 17979
+        },
+        {
+          "chunk_id": "weekly_w10_80_moodle_link_1",
+          "char_start": 17981,
+          "char_end": 18092
+        },
+        {
+          "chunk_id": "weekly_w10_81",
+          "char_start": 18094,
+          "char_end": 18204
+        },
+        {
+          "chunk_id": "weekly_w10_81_moodle_link_1",
+          "char_start": 18206,
+          "char_end": 18316
+        },
+        {
+          "chunk_id": "weekly_w10_82",
+          "char_start": 18318,
+          "char_end": 18430
+        },
+        {
+          "chunk_id": "weekly_w10_82_moodle_link_1",
+          "char_start": 18432,
+          "char_end": 18544
+        },
+        {
+          "chunk_id": "weekly_w10_83",
+          "char_start": 18546,
+          "char_end": 18664
+        },
+        {
+          "chunk_id": "weekly_w10_83_moodle_link_1",
+          "char_start": 18666,
+          "char_end": 18740
+        },
+        {
+          "chunk_id": "weekly_w10_83_lecture_2",
+          "char_start": 18742,
+          "char_end": 18856
+        },
+        {
+          "chunk_id": "weekly_w10_84",
+          "char_start": 18858,
+          "char_end": 18979
+        },
+        {
+          "chunk_id": "weekly_w10_84_moodle_link_1",
+          "char_start": 18981,
+          "char_end": 19102
+        },
+        {
+          "chunk_id": "weekly_w10_85_1",
+          "char_start": 19104,
+          "char_end": 19329
+        },
+        {
+          "chunk_id": "weekly_w10_85_2",
+          "char_start": 19331,
+          "char_end": 20698
+        },
+        {
+          "chunk_id": "weekly_w10_85_3",
+          "char_start": 20700,
+          "char_end": 21934
+        },
+        {
+          "chunk_id": "weekly_w10_85_4",
+          "char_start": 21936,
+          "char_end": 23243
+        },
+        {
+          "chunk_id": "weekly_w10_85_5",
+          "char_start": 23245,
+          "char_end": 24600
+        },
+        {
+          "chunk_id": "weekly_w10_85_6",
+          "char_start": 24602,
+          "char_end": 25971
+        },
+        {
+          "chunk_id": "weekly_w10_85_7",
+          "char_start": 25973,
+          "char_end": 27336
+        },
+        {
+          "chunk_id": "weekly_w10_85_8",
+          "char_start": 27338,
+          "char_end": 28646
+        },
+        {
+          "chunk_id": "weekly_w10_85_9",
+          "char_start": 28648,
+          "char_end": 29930
+        },
+        {
+          "chunk_id": "weekly_w10_85_10",
+          "char_start": 29932,
+          "char_end": 31277
+        },
+        {
+          "chunk_id": "weekly_w10_85_11",
+          "char_start": 31279,
+          "char_end": 32565
+        },
+        {
+          "chunk_id": "weekly_w10_85_12",
+          "char_start": 32567,
+          "char_end": 33859
+        },
+        {
+          "chunk_id": "weekly_w10_85_13",
+          "char_start": 33861,
+          "char_end": 35170
+        },
+        {
+          "chunk_id": "weekly_w10_85_14",
+          "char_start": 35172,
+          "char_end": 36533
+        },
+        {
+          "chunk_id": "weekly_w10_85_15",
+          "char_start": 36535,
+          "char_end": 36872
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_2",
+          "char_start": 36874,
+          "char_end": 36988
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_3",
+          "char_start": 36990,
+          "char_end": 37135
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_5",
+          "char_start": 37137,
+          "char_end": 37260
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_8",
+          "char_start": 37262,
+          "char_end": 37356
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_11",
+          "char_start": 37358,
+          "char_end": 37471
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_13",
+          "char_start": 37473,
+          "char_end": 37573
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_15",
+          "char_start": 37575,
+          "char_end": 37685
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_16",
+          "char_start": 37687,
+          "char_end": 37855
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_18",
+          "char_start": 37857,
+          "char_end": 37964
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_19",
+          "char_start": 37966,
+          "char_end": 38147
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_20",
+          "char_start": 38149,
+          "char_end": 38323
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_21",
+          "char_start": 38325,
+          "char_end": 38499
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_23",
+          "char_start": 38501,
+          "char_end": 38599
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_25",
+          "char_start": 38601,
+          "char_end": 38682
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_26",
+          "char_start": 38684,
+          "char_end": 38952
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_27",
+          "char_start": 38954,
+          "char_end": 39037
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_28",
+          "char_start": 39039,
+          "char_end": 39117
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_29",
+          "char_start": 39119,
+          "char_end": 39239
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_30",
+          "char_start": 39241,
+          "char_end": 39353
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_31",
+          "char_start": 39355,
+          "char_end": 39498
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_32",
+          "char_start": 39500,
+          "char_end": 39643
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_33",
+          "char_start": 39645,
+          "char_end": 39780
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_34",
+          "char_start": 39782,
+          "char_end": 39921
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_35",
+          "char_start": 39923,
+          "char_end": 40026
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_36",
+          "char_start": 40028,
+          "char_end": 40120
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_37",
+          "char_start": 40122,
+          "char_end": 40254
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_38",
+          "char_start": 40256,
+          "char_end": 40381
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_39",
+          "char_start": 40383,
+          "char_end": 40652
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_40",
+          "char_start": 40654,
+          "char_end": 40799
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_41",
+          "char_start": 40801,
+          "char_end": 40946
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_42",
+          "char_start": 40948,
+          "char_end": 41181
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_43",
+          "char_start": 41183,
+          "char_end": 41300
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_44",
+          "char_start": 41302,
+          "char_end": 41923
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_45",
+          "char_start": 41925,
+          "char_end": 42284
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_46",
+          "char_start": 42286,
+          "char_end": 42932
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_47",
+          "char_start": 42934,
+          "char_end": 43062
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_48",
+          "char_start": 43064,
+          "char_end": 43206
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_49",
+          "char_start": 43208,
+          "char_end": 43326
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_50",
+          "char_start": 43328,
+          "char_end": 43440
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_51",
+          "char_start": 43442,
+          "char_end": 43819
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_52",
+          "char_start": 43821,
+          "char_end": 44148
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_53",
+          "char_start": 44150,
+          "char_end": 44259
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_54",
+          "char_start": 44261,
+          "char_end": 44516
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_55",
+          "char_start": 44518,
+          "char_end": 44628
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_56",
+          "char_start": 44630,
+          "char_end": 44888
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_57",
+          "char_start": 44890,
+          "char_end": 45251
+        },
+        {
+          "chunk_id": "weekly_w10_85_moodle_link_58",
+          "char_start": 45253,
+          "char_end": 45413
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_59",
+          "char_start": 45415,
+          "char_end": 45657
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_60",
+          "char_start": 45659,
+          "char_end": 46136
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_61",
+          "char_start": 46138,
+          "char_end": 46428
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_62",
+          "char_start": 46430,
+          "char_end": 46700
+        },
+        {
+          "chunk_id": "weekly_w10_85_lecture_63",
+          "char_start": 46702,
+          "char_end": 46939
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_64",
+          "char_start": 46941,
+          "char_end": 47244
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_65",
+          "char_start": 47246,
+          "char_end": 47503
+        },
+        {
+          "chunk_id": "weekly_w10_85_debate_66",
+          "char_start": 47505,
+          "char_end": 47916
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_67",
+          "char_start": 47918,
+          "char_end": 48036
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_68",
+          "char_start": 48038,
+          "char_end": 48151
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_69",
+          "char_start": 48153,
+          "char_end": 48276
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_70",
+          "char_start": 48278,
+          "char_end": 48496
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_71",
+          "char_start": 48498,
+          "char_end": 48702
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_72",
+          "char_start": 48704,
+          "char_end": 48803
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_73",
+          "char_start": 48805,
+          "char_end": 48927
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_74",
+          "char_start": 48929,
+          "char_end": 49490
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_75",
+          "char_start": 49492,
+          "char_end": 49615
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_76",
+          "char_start": 49617,
+          "char_end": 50196
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_77",
+          "char_start": 50198,
+          "char_end": 50360
+        },
+        {
+          "chunk_id": "weekly_w10_85_assessment_78",
+          "char_start": 50362,
+          "char_end": 50663
+        },
+        {
+          "chunk_id": "weekly_w10_85_reading_79",
+          "char_start": 50665,
+          "char_end": 51067
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_80",
+          "char_start": 51069,
+          "char_end": 51316
+        },
+        {
+          "chunk_id": "weekly_w10_85_reflection_81",
+          "char_start": 51318,
+          "char_end": 51429
+        },
+        {
+          "chunk_id": "weekly_w1_86_1",
+          "char_start": 51431,
+          "char_end": 52717
+        },
+        {
+          "chunk_id": "weekly_w1_86_2",
+          "char_start": 52719,
+          "char_end": 54088
+        },
+        {
+          "chunk_id": "weekly_w1_86_3",
+          "char_start": 54090,
+          "char_end": 55208
+        },
+        {
+          "chunk_id": "weekly_w1_86_4",
+          "char_start": 55210,
+          "char_end": 55502
+        },
+        {
+          "chunk_id": "weekly_w1_86_reflection_1",
+          "char_start": 55504,
+          "char_end": 55658
+        },
+        {
+          "chunk_id": "weekly_w1_86_reflection_2",
+          "char_start": 55660,
+          "char_end": 55992
+        },
+        {
+          "chunk_id": "weekly_w1_86_assessment_3",
+          "char_start": 55994,
+          "char_end": 56322
+        },
+        {
+          "chunk_id": "weekly_w1_86_group_activity_4",
+          "char_start": 56324,
+          "char_end": 56489
+        },
+        {
+          "chunk_id": "weekly_w1_86_debate_5",
+          "char_start": 56491,
+          "char_end": 57072
+        },
+        {
+          "chunk_id": "weekly_w1_86_lecture_6",
+          "char_start": 57074,
+          "char_end": 57359
+        },
+        {
+          "chunk_id": "weekly_w1_86_debate_7",
+          "char_start": 57361,
+          "char_end": 57819
+        },
+        {
+          "chunk_id": "weekly_w1_86_moodle_link_8",
+          "char_start": 57821,
+          "char_end": 58493
+        },
+        {
+          "chunk_id": "weekly_w1_86_debate_9",
+          "char_start": 58495,
+          "char_end": 58631
+        },
+        {
+          "chunk_id": "weekly_w1_86_debate_10",
+          "char_start": 58633,
+          "char_end": 58727
+        },
+        {
+          "chunk_id": "weekly_w1_86_moodle_link_11",
+          "char_start": 58729,
+          "char_end": 58820
+        },
+        {
+          "chunk_id": "weekly_w1_86_moodle_link_12",
+          "char_start": 58822,
+          "char_end": 58964
+        },
+        {
+          "chunk_id": "weekly_w0_87_1",
+          "char_start": 58966,
+          "char_end": 60308
+        },
+        {
+          "chunk_id": "weekly_w0_87_2",
+          "char_start": 60310,
+          "char_end": 61678
+        },
+        {
+          "chunk_id": "weekly_w0_87_3",
+          "char_start": 61680,
+          "char_end": 61786
+        },
+        {
+          "chunk_id": "weekly_w0_87_4",
+          "char_start": 61788,
+          "char_end": 63115
+        },
+        {
+          "chunk_id": "weekly_w0_87_debate_1",
+          "char_start": 63117,
+          "char_end": 63725
+        },
+        {
+          "chunk_id": "weekly_w0_87_lecture_2",
+          "char_start": 63727,
+          "char_end": 64160
+        },
+        {
+          "chunk_id": "weekly_w0_87_moodle_link_3",
+          "char_start": 64162,
+          "char_end": 64600
+        },
+        {
+          "chunk_id": "weekly_w0_87_debate_4",
+          "char_start": 64602,
+          "char_end": 64749
+        },
+        {
+          "chunk_id": "weekly_w1_88_1",
+          "char_start": 64751,
+          "char_end": 66084
+        },
+        {
+          "chunk_id": "weekly_w1_88_2",
+          "char_start": 66086,
+          "char_end": 66583
+        },
+        {
+          "chunk_id": "weekly_w1_88_3",
+          "char_start": 66585,
+          "char_end": 67984
+        },
+        {
+          "chunk_id": "weekly_w1_88_reading_1",
+          "char_start": 67986,
+          "char_end": 68491
+        },
+        {
+          "chunk_id": "weekly_w1_88_debate_2",
+          "char_start": 68493,
+          "char_end": 68665
+        },
+        {
+          "chunk_id": "weekly_w1_88_reflection_3",
+          "char_start": 68667,
+          "char_end": 68995
+        },
+        {
+          "chunk_id": "weekly_w1_88_reading_4",
+          "char_start": 68997,
+          "char_end": 69101
+        },
+        {
+          "chunk_id": "weekly_w1_88_reading_5",
+          "char_start": 69103,
+          "char_end": 69195
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_6",
+          "char_start": 69197,
+          "char_end": 69353
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_7",
+          "char_start": 69355,
+          "char_end": 69499
+        },
+        {
+          "chunk_id": "weekly_w1_88_debate_8",
+          "char_start": 69501,
+          "char_end": 69790
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_10",
+          "char_start": 69792,
+          "char_end": 69902
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_11",
+          "char_start": 69904,
+          "char_end": 70007
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_12",
+          "char_start": 70009,
+          "char_end": 70144
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_13",
+          "char_start": 70146,
+          "char_end": 70269
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_14",
+          "char_start": 70271,
+          "char_end": 70404
+        },
+        {
+          "chunk_id": "weekly_w1_88_lecture_15",
+          "char_start": 70406,
+          "char_end": 70617
+        },
+        {
+          "chunk_id": "weekly_w2_89_1",
+          "char_start": 70619,
+          "char_end": 71978
+        },
+        {
+          "chunk_id": "weekly_w2_89_2",
+          "char_start": 71980,
+          "char_end": 73362
+        },
+        {
+          "chunk_id": "weekly_w2_89_3",
+          "char_start": 73364,
+          "char_end": 74115
+        },
+        {
+          "chunk_id": "weekly_w2_89_reading_1",
+          "char_start": 74117,
+          "char_end": 74270
+        },
+        {
+          "chunk_id": "weekly_w2_89_reading_2",
+          "char_start": 74272,
+          "char_end": 74444
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_3",
+          "char_start": 74446,
+          "char_end": 74535
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_4",
+          "char_start": 74537,
+          "char_end": 74755
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_5",
+          "char_start": 74757,
+          "char_end": 74842
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_6",
+          "char_start": 74844,
+          "char_end": 75664
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_7",
+          "char_start": 75666,
+          "char_end": 75999
+        },
+        {
+          "chunk_id": "weekly_w2_89_reflection_8",
+          "char_start": 76001,
+          "char_end": 76217
+        },
+        {
+          "chunk_id": "weekly_w2_89_reading_9",
+          "char_start": 76219,
+          "char_end": 76530
+        },
+        {
+          "chunk_id": "weekly_w2_89_reading_10",
+          "char_start": 76532,
+          "char_end": 76634
+        },
+        {
+          "chunk_id": "weekly_w2_89_reading_11",
+          "char_start": 76636,
+          "char_end": 76726
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_12",
+          "char_start": 76728,
+          "char_end": 76884
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_13",
+          "char_start": 76886,
+          "char_end": 77030
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_14",
+          "char_start": 77032,
+          "char_end": 77233
+        },
+        {
+          "chunk_id": "weekly_w2_89_debate_15",
+          "char_start": 77235,
+          "char_end": 77432
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_16",
+          "char_start": 77434,
+          "char_end": 77567
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_17",
+          "char_start": 77569,
+          "char_end": 77690
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_18",
+          "char_start": 77692,
+          "char_end": 77823
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_19",
+          "char_start": 77825,
+          "char_end": 77944
+        },
+        {
+          "chunk_id": "weekly_w2_89_lecture_20",
+          "char_start": 77946,
+          "char_end": 78086
+        },
+        {
+          "chunk_id": "weekly_w3_90_1",
+          "char_start": 78088,
+          "char_end": 79480
+        },
+        {
+          "chunk_id": "weekly_w3_90_2",
+          "char_start": 79482,
+          "char_end": 80775
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_1",
+          "char_start": 80777,
+          "char_end": 80921
+        },
+        {
+          "chunk_id": "weekly_w3_90_debate_2",
+          "char_start": 80923,
+          "char_end": 81152
+        },
+        {
+          "chunk_id": "weekly_w3_90_debate_3",
+          "char_start": 81154,
+          "char_end": 81721
+        },
+        {
+          "chunk_id": "weekly_w3_90_reading_4",
+          "char_start": 81723,
+          "char_end": 81843
+        },
+        {
+          "chunk_id": "weekly_w3_90_reading_5",
+          "char_start": 81845,
+          "char_end": 81902
+        },
+        {
+          "chunk_id": "weekly_w3_90_moodle_link_6",
+          "char_start": 81904,
+          "char_end": 82041
+        },
+        {
+          "chunk_id": "weekly_w3_90_debate_7",
+          "char_start": 82043,
+          "char_end": 82269
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_8",
+          "char_start": 82271,
+          "char_end": 82398
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_9",
+          "char_start": 82400,
+          "char_end": 82556
+        },
+        {
+          "chunk_id": "weekly_w3_90_reflection_10",
+          "char_start": 82558,
+          "char_end": 82624
+        },
+        {
+          "chunk_id": "weekly_w3_90_debate_11",
+          "char_start": 82626,
+          "char_end": 82744
+        },
+        {
+          "chunk_id": "weekly_w3_90_reading_12",
+          "char_start": 82746,
+          "char_end": 82815
+        },
+        {
+          "chunk_id": "weekly_w3_90_reading_13",
+          "char_start": 82817,
+          "char_end": 82874
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_14",
+          "char_start": 82876,
+          "char_end": 82982
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_15",
+          "char_start": 82984,
+          "char_end": 83078
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_16",
+          "char_start": 83080,
+          "char_end": 83166
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_17",
+          "char_start": 83168,
+          "char_end": 83242
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_18",
+          "char_start": 83244,
+          "char_end": 83343
+        },
+        {
+          "chunk_id": "weekly_w3_90_lecture_19",
+          "char_start": 83345,
+          "char_end": 83494
+        },
+        {
+          "chunk_id": "weekly_w3_90_moodle_link_20",
+          "char_start": 83496,
+          "char_end": 83629
+        },
+        {
+          "chunk_id": "weekly_w4_91_1",
+          "char_start": 83631,
+          "char_end": 84963
+        },
+        {
+          "chunk_id": "weekly_w4_91_2",
+          "char_start": 84965,
+          "char_end": 85866
+        },
+        {
+          "chunk_id": "weekly_w4_91_3",
+          "char_start": 85868,
+          "char_end": 86880
+        },
+        {
+          "chunk_id": "weekly_w4_91_4",
+          "char_start": 86882,
+          "char_end": 87762
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_1",
+          "char_start": 87764,
+          "char_end": 87882
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_2",
+          "char_start": 87884,
+          "char_end": 87939
+        },
+        {
+          "chunk_id": "weekly_w4_91_moodle_link_3",
+          "char_start": 87941,
+          "char_end": 88076
+        },
+        {
+          "chunk_id": "weekly_w4_91_debate_4",
+          "char_start": 88078,
+          "char_end": 88132
+        },
+        {
+          "chunk_id": "weekly_w4_91_debate_5",
+          "char_start": 88134,
+          "char_end": 88366
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_6",
+          "char_start": 88368,
+          "char_end": 88418
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_7",
+          "char_start": 88420,
+          "char_end": 89251
+        },
+        {
+          "chunk_id": "weekly_w4_91_debate_8",
+          "char_start": 89253,
+          "char_end": 89337
+        },
+        {
+          "chunk_id": "weekly_w4_91_group_activity_9",
+          "char_start": 89339,
+          "char_end": 89661
+        },
+        {
+          "chunk_id": "weekly_w4_91_reflection_10",
+          "char_start": 89663,
+          "char_end": 89844
+        },
+        {
+          "chunk_id": "weekly_w4_91_group_activity_11",
+          "char_start": 89846,
+          "char_end": 89989
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_12",
+          "char_start": 89991,
+          "char_end": 90145
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_13",
+          "char_start": 90147,
+          "char_end": 90389
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_14",
+          "char_start": 90391,
+          "char_end": 90458
+        },
+        {
+          "chunk_id": "weekly_w4_91_reading_15",
+          "char_start": 90460,
+          "char_end": 90515
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_16",
+          "char_start": 90517,
+          "char_end": 90605
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_17",
+          "char_start": 90607,
+          "char_end": 90683
+        },
+        {
+          "chunk_id": "weekly_w4_91_debate_18",
+          "char_start": 90685,
+          "char_end": 90899
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_20",
+          "char_start": 90901,
+          "char_end": 90999
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_21",
+          "char_start": 91001,
+          "char_end": 91132
+        },
+        {
+          "chunk_id": "weekly_w4_91_moodle_link_22",
+          "char_start": 91134,
+          "char_end": 91213
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_23",
+          "char_start": 91215,
+          "char_end": 91312
+        },
+        {
+          "chunk_id": "weekly_w4_91_lecture_24",
+          "char_start": 91314,
+          "char_end": 91465
+        },
+        {
+          "chunk_id": "weekly_w5_92_1",
+          "char_start": 91467,
+          "char_end": 92832
+        },
+        {
+          "chunk_id": "weekly_w5_92_2",
+          "char_start": 92834,
+          "char_end": 94084
+        },
+        {
+          "chunk_id": "weekly_w5_92_3",
+          "char_start": 94086,
+          "char_end": 94895
+        },
+        {
+          "chunk_id": "weekly_w5_92_4",
+          "char_start": 94897,
+          "char_end": 95658
+        },
+        {
+          "chunk_id": "weekly_w5_92_reading_1",
+          "char_start": 95660,
+          "char_end": 95789
+        },
+        {
+          "chunk_id": "weekly_w5_92_reading_2",
+          "char_start": 95791,
+          "char_end": 95857
+        },
+        {
+          "chunk_id": "weekly_w5_92_moodle_link_3",
+          "char_start": 95859,
+          "char_end": 96005
+        },
+        {
+          "chunk_id": "weekly_w5_92_debate_4",
+          "char_start": 96007,
+          "char_end": 96072
+        },
+        {
+          "chunk_id": "weekly_w5_92_debate_5",
+          "char_start": 96074,
+          "char_end": 96292
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_6",
+          "char_start": 96294,
+          "char_end": 96355
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_7",
+          "char_start": 96357,
+          "char_end": 97461
+        },
+        {
+          "chunk_id": "weekly_w5_92_debate_8",
+          "char_start": 97463,
+          "char_end": 97558
+        },
+        {
+          "chunk_id": "weekly_w5_92_group_activity_9",
+          "char_start": 97560,
+          "char_end": 97786
+        },
+        {
+          "chunk_id": "weekly_w5_92_reflection_10",
+          "char_start": 97788,
+          "char_end": 97863
+        },
+        {
+          "chunk_id": "weekly_w5_92_group_activity_11",
+          "char_start": 97865,
+          "char_end": 98235
+        },
+        {
+          "chunk_id": "weekly_w5_92_reading_12",
+          "char_start": 98237,
+          "char_end": 98315
+        },
+        {
+          "chunk_id": "weekly_w5_92_reading_13",
+          "char_start": 98317,
+          "char_end": 98383
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_14",
+          "char_start": 98385,
+          "char_end": 98493
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_15",
+          "char_start": 98495,
+          "char_end": 98591
+        },
+        {
+          "chunk_id": "weekly_w5_92_debate_16",
+          "char_start": 98593,
+          "char_end": 98796
+        },
+        {
+          "chunk_id": "weekly_w5_92_moodle_link_18",
+          "char_start": 98798,
+          "char_end": 98898
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_19",
+          "char_start": 98900,
+          "char_end": 99009
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_20",
+          "char_start": 99011,
+          "char_end": 99148
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_21",
+          "char_start": 99150,
+          "char_end": 99258
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_22",
+          "char_start": 99260,
+          "char_end": 99356
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_23",
+          "char_start": 99358,
+          "char_end": 99455
+        },
+        {
+          "chunk_id": "weekly_w5_92_lecture_24",
+          "char_start": 99457,
+          "char_end": 99631
+        },
+        {
+          "chunk_id": "weekly_w6_93_1",
+          "char_start": 99633,
+          "char_end": 100910
+        },
+        {
+          "chunk_id": "weekly_w6_93_2",
+          "char_start": 100912,
+          "char_end": 102207
+        },
+        {
+          "chunk_id": "weekly_w6_93_3",
+          "char_start": 102209,
+          "char_end": 103429
+        },
+        {
+          "chunk_id": "weekly_w6_93_reading_1",
+          "char_start": 103431,
+          "char_end": 103583
+        },
+        {
+          "chunk_id": "weekly_w6_93_reading_2",
+          "char_start": 103585,
+          "char_end": 103674
+        },
+        {
+          "chunk_id": "weekly_w6_93_moodle_link_3",
+          "char_start": 103676,
+          "char_end": 103845
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_4",
+          "char_start": 103847,
+          "char_end": 103935
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_5",
+          "char_start": 103937,
+          "char_end": 104122
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_6",
+          "char_start": 104124,
+          "char_end": 104208
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_7",
+          "char_start": 104210,
+          "char_end": 105112
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_8",
+          "char_start": 105114,
+          "char_end": 105549
+        },
+        {
+          "chunk_id": "weekly_w6_93_reflection_9",
+          "char_start": 105551,
+          "char_end": 105649
+        },
+        {
+          "chunk_id": "weekly_w6_93_group_activity_10",
+          "char_start": 105651,
+          "char_end": 105979
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_11",
+          "char_start": 105981,
+          "char_end": 106227
+        },
+        {
+          "chunk_id": "weekly_w6_93_group_activity_12",
+          "char_start": 106229,
+          "char_end": 106407
+        },
+        {
+          "chunk_id": "weekly_w6_93_reading_13",
+          "char_start": 106409,
+          "char_end": 106510
+        },
+        {
+          "chunk_id": "weekly_w6_93_reading_14",
+          "char_start": 106512,
+          "char_end": 106601
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_15",
+          "char_start": 106603,
+          "char_end": 106732
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_16",
+          "char_start": 106734,
+          "char_end": 106851
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_17",
+          "char_start": 106853,
+          "char_end": 107017
+        },
+        {
+          "chunk_id": "weekly_w6_93_debate_18",
+          "char_start": 107019,
+          "char_end": 107179
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_19",
+          "char_start": 107181,
+          "char_end": 107313
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_20",
+          "char_start": 107315,
+          "char_end": 107504
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_21",
+          "char_start": 107506,
+          "char_end": 107638
+        },
+        {
+          "chunk_id": "weekly_w6_93_lecture_22",
+          "char_start": 107640,
+          "char_end": 107869
+        },
+        {
+          "chunk_id": "weekly_w7_94_1",
+          "char_start": 107871,
+          "char_end": 109267
+        },
+        {
+          "chunk_id": "weekly_w7_94_2",
+          "char_start": 109269,
+          "char_end": 110611
+        },
+        {
+          "chunk_id": "weekly_w7_94_3",
+          "char_start": 110613,
+          "char_end": 111943
+        },
+        {
+          "chunk_id": "weekly_w7_94_4",
+          "char_start": 111945,
+          "char_end": 112779
+        },
+        {
+          "chunk_id": "weekly_w7_94_reading_1",
+          "char_start": 112781,
+          "char_end": 112953
+        },
+        {
+          "chunk_id": "weekly_w7_94_reading_2",
+          "char_start": 112955,
+          "char_end": 113064
+        },
+        {
+          "chunk_id": "weekly_w7_94_moodle_link_3",
+          "char_start": 113066,
+          "char_end": 113255
+        },
+        {
+          "chunk_id": "weekly_w7_94_debate_4",
+          "char_start": 113257,
+          "char_end": 113365
+        },
+        {
+          "chunk_id": "weekly_w7_94_debate_5",
+          "char_start": 113367,
+          "char_end": 113653
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_6",
+          "char_start": 113655,
+          "char_end": 113759
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_7",
+          "char_start": 113761,
+          "char_end": 113979
+        },
+        {
+          "chunk_id": "weekly_w7_94_reading_8",
+          "char_start": 113981,
+          "char_end": 114929
+        },
+        {
+          "chunk_id": "weekly_w7_94_debate_9",
+          "char_start": 114931,
+          "char_end": 115343
+        },
+        {
+          "chunk_id": "weekly_w7_94_group_activity_10",
+          "char_start": 115345,
+          "char_end": 115727
+        },
+        {
+          "chunk_id": "weekly_w7_94_group_activity_11",
+          "char_start": 115729,
+          "char_end": 116058
+        },
+        {
+          "chunk_id": "weekly_w7_94_reflection_12",
+          "char_start": 116060,
+          "char_end": 116178
+        },
+        {
+          "chunk_id": "weekly_w7_94_group_activity_13",
+          "char_start": 116180,
+          "char_end": 116559
+        },
+        {
+          "chunk_id": "weekly_w7_94_reading_14",
+          "char_start": 116561,
+          "char_end": 116682
+        },
+        {
+          "chunk_id": "weekly_w7_94_reading_15",
+          "char_start": 116684,
+          "char_end": 116793
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_16",
+          "char_start": 116795,
+          "char_end": 116982
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_17",
+          "char_start": 116984,
+          "char_end": 117159
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_18",
+          "char_start": 117161,
+          "char_end": 117316
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_19",
+          "char_start": 117318,
+          "char_end": 117461
+        },
+        {
+          "chunk_id": "weekly_w7_94_debate_20",
+          "char_start": 117463,
+          "char_end": 117734
+        },
+        {
+          "chunk_id": "weekly_w7_94_moodle_link_22",
+          "char_start": 117736,
+          "char_end": 117879
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_23",
+          "char_start": 117881,
+          "char_end": 118033
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_24",
+          "char_start": 118035,
+          "char_end": 118175
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_25",
+          "char_start": 118177,
+          "char_end": 118329
+        },
+        {
+          "chunk_id": "weekly_w7_94_lecture_26",
+          "char_start": 118331,
+          "char_end": 118555
+        },
+        {
+          "chunk_id": "weekly_w8_95_1",
+          "char_start": 118557,
+          "char_end": 119937
+        },
+        {
+          "chunk_id": "weekly_w8_95_2",
+          "char_start": 119939,
+          "char_end": 121191
+        },
+        {
+          "chunk_id": "weekly_w8_95_3",
+          "char_start": 121193,
+          "char_end": 121407
+        },
+        {
+          "chunk_id": "weekly_w8_95_lecture_1",
+          "char_start": 121409,
+          "char_end": 121991
+        },
+        {
+          "chunk_id": "weekly_w8_95_assessment_2",
+          "char_start": 121993,
+          "char_end": 122157
+        },
+        {
+          "chunk_id": "weekly_w8_95_reading_3",
+          "char_start": 122159,
+          "char_end": 122306
+        },
+        {
+          "chunk_id": "weekly_w8_95_reading_4",
+          "char_start": 122308,
+          "char_end": 122397
+        },
+        {
+          "chunk_id": "weekly_w8_95_moodle_link_5",
+          "char_start": 122399,
+          "char_end": 122563
+        },
+        {
+          "chunk_id": "weekly_w8_95_debate_6",
+          "char_start": 122565,
+          "char_end": 122648
+        },
+        {
+          "chunk_id": "weekly_w8_95_debate_7",
+          "char_start": 122650,
+          "char_end": 122883
+        },
+        {
+          "chunk_id": "weekly_w8_95_lecture_8",
+          "char_start": 122885,
+          "char_end": 122964
+        },
+        {
+          "chunk_id": "weekly_w8_95_lecture_9",
+          "char_start": 122966,
+          "char_end": 123485
+        },
+        {
+          "chunk_id": "weekly_w8_95_debate_10",
+          "char_start": 123487,
+          "char_end": 123814
+        },
+        {
+          "chunk_id": "weekly_w8_95_group_activity_11",
+          "char_start": 123816,
+          "char_end": 124015
+        },
+        {
+          "chunk_id": "weekly_w8_95_reflection_12",
+          "char_start": 124017,
+          "char_end": 124211
+        },
+        {
+          "chunk_id": "weekly_w8_95_reading_13",
+          "char_start": 124213,
+          "char_end": 124309
+        },
+        {
+          "chunk_id": "weekly_w8_95_reading_14",
+          "char_start": 124311,
+          "char_end": 124395
+        },
+        {
+          "chunk_id": "weekly_w8_95_lecture_15",
+          "char_start": 124397,
+          "char_end": 124531
+        },
+        {
+          "chunk_id": "weekly_w8_96",
+          "char_start": 124533,
+          "char_end": 125567
+        },
+        {
+          "chunk_id": "weekly_w8_96_debate_1",
+          "char_start": 125569,
+          "char_end": 125772
+        },
+        {
+          "chunk_id": "weekly_w8_96_debate_2",
+          "char_start": 125774,
+          "char_end": 125973
+        },
+        {
+          "chunk_id": "weekly_w8_96_lecture_3",
+          "char_start": 125975,
+          "char_end": 126087
+        },
+        {
+          "chunk_id": "weekly_w8_96_lecture_4",
+          "char_start": 126089,
+          "char_end": 126251
+        },
+        {
+          "chunk_id": "weekly_w8_96_moodle_link_5",
+          "char_start": 126253,
+          "char_end": 126356
+        },
+        {
+          "chunk_id": "weekly_w8_96_lecture_6",
+          "char_start": 126358,
+          "char_end": 126470
+        },
+        {
+          "chunk_id": "weekly_w8_96_lecture_7",
+          "char_start": 126472,
+          "char_end": 126661
+        },
+        {
+          "chunk_id": "weekly_w9_97_1",
+          "char_start": 126663,
+          "char_end": 128018
+        },
+        {
+          "chunk_id": "weekly_w9_97_2",
+          "char_start": 128020,
+          "char_end": 129296
+        },
+        {
+          "chunk_id": "weekly_w9_97_3",
+          "char_start": 129298,
+          "char_end": 130680
+        },
+        {
+          "chunk_id": "weekly_w9_97_reading_1",
+          "char_start": 130682,
+          "char_end": 130834
+        },
+        {
+          "chunk_id": "weekly_w9_97_reading_2",
+          "char_start": 130836,
+          "char_end": 130925
+        },
+        {
+          "chunk_id": "weekly_w9_97_moodle_link_3",
+          "char_start": 130927,
+          "char_end": 131096
+        },
+        {
+          "chunk_id": "weekly_w9_97_debate_4",
+          "char_start": 131098,
+          "char_end": 131186
+        },
+        {
+          "chunk_id": "weekly_w9_97_debate_5",
+          "char_start": 131188,
+          "char_end": 131453
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_6",
+          "char_start": 131455,
+          "char_end": 131539
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_7",
+          "char_start": 131541,
+          "char_end": 132256
+        },
+        {
+          "chunk_id": "weekly_w9_97_debate_8",
+          "char_start": 132258,
+          "char_end": 132376
+        },
+        {
+          "chunk_id": "weekly_w9_97_group_activity_9",
+          "char_start": 132378,
+          "char_end": 132676
+        },
+        {
+          "chunk_id": "weekly_w9_97_reflection_10",
+          "char_start": 132678,
+          "char_end": 132900
+        },
+        {
+          "chunk_id": "weekly_w9_97_reading_11",
+          "char_start": 132902,
+          "char_end": 133003
+        },
+        {
+          "chunk_id": "weekly_w9_97_reading_12",
+          "char_start": 133005,
+          "char_end": 133094
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_13",
+          "char_start": 133096,
+          "char_end": 133213
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_14",
+          "char_start": 133215,
+          "char_end": 133320
+        },
+        {
+          "chunk_id": "weekly_w9_97_debate_15",
+          "char_start": 133322,
+          "char_end": 133568
+        },
+        {
+          "chunk_id": "weekly_w9_97_moodle_link_17",
+          "char_start": 133570,
+          "char_end": 133737
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_18",
+          "char_start": 133739,
+          "char_end": 133871
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_19",
+          "char_start": 133873,
+          "char_end": 134027
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_20",
+          "char_start": 134029,
+          "char_end": 134160
+        },
+        {
+          "chunk_id": "weekly_w9_97_lecture_21",
+          "char_start": 134162,
+          "char_end": 134367
+        },
+        {
+          "chunk_id": "weekly_w10_98_1",
+          "char_start": 134369,
+          "char_end": 135674
+        },
+        {
+          "chunk_id": "weekly_w10_98_2",
+          "char_start": 135676,
+          "char_end": 137076
+        },
+        {
+          "chunk_id": "weekly_w10_98_3",
+          "char_start": 137078,
+          "char_end": 138477
+        },
+        {
+          "chunk_id": "weekly_w10_98_4",
+          "char_start": 138479,
+          "char_end": 139175
+        },
+        {
+          "chunk_id": "weekly_w10_98_5",
+          "char_start": 139177,
+          "char_end": 140509
+        },
+        {
+          "chunk_id": "weekly_w10_98_6",
+          "char_start": 140511,
+          "char_end": 141735
+        },
+        {
+          "chunk_id": "weekly_w10_98_7",
+          "char_start": 141737,
+          "char_end": 142978
+        },
+        {
+          "chunk_id": "weekly_w10_98_8",
+          "char_start": 142980,
+          "char_end": 143733
+        },
+        {
+          "chunk_id": "weekly_w10_98_9",
+          "char_start": 143735,
+          "char_end": 144520
+        },
+        {
+          "chunk_id": "weekly_w10_98_debate_1",
+          "char_start": 144522,
+          "char_end": 144671
+        },
+        {
+          "chunk_id": "weekly_w10_98_debate_2",
+          "char_start": 144673,
+          "char_end": 144995
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_3",
+          "char_start": 144997,
+          "char_end": 145164
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_4",
+          "char_start": 145166,
+          "char_end": 145399
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_5",
+          "char_start": 145401,
+          "char_end": 145588
+        },
+        {
+          "chunk_id": "weekly_w10_98_moodle_link_6",
+          "char_start": 145590,
+          "char_end": 145744
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_7",
+          "char_start": 145746,
+          "char_end": 145884
+        },
+        {
+          "chunk_id": "weekly_w10_98_group_activity_8",
+          "char_start": 145886,
+          "char_end": 146383
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_9",
+          "char_start": 146385,
+          "char_end": 146582
+        },
+        {
+          "chunk_id": "weekly_w10_98_moodle_link_10",
+          "char_start": 146584,
+          "char_end": 146747
+        },
+        {
+          "chunk_id": "weekly_w10_98_moodle_link_11",
+          "char_start": 146749,
+          "char_end": 146913
+        },
+        {
+          "chunk_id": "weekly_w10_98_moodle_link_12",
+          "char_start": 146915,
+          "char_end": 147027
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_13",
+          "char_start": 147029,
+          "char_end": 147159
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_14",
+          "char_start": 147161,
+          "char_end": 147342
+        },
+        {
+          "chunk_id": "weekly_w10_98_moodle_link_15",
+          "char_start": 147344,
+          "char_end": 147465
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_16",
+          "char_start": 147467,
+          "char_end": 147597
+        },
+        {
+          "chunk_id": "weekly_w10_98_lecture_17",
+          "char_start": 147599,
+          "char_end": 147717
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_18",
+          "char_start": 147719,
+          "char_end": 147888
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_20",
+          "char_start": 147890,
+          "char_end": 148012
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_21",
+          "char_start": 148014,
+          "char_end": 148166
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_22",
+          "char_start": 148168,
+          "char_end": 148431
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_23",
+          "char_start": 148433,
+          "char_end": 148663
+        },
+        {
+          "chunk_id": "weekly_w10_98_reading_24",
+          "char_start": 148665,
+          "char_end": 148873
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_25",
+          "char_start": 148875,
+          "char_end": 148972
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_26",
+          "char_start": 148974,
+          "char_end": 149591
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_27",
+          "char_start": 149593,
+          "char_end": 149802
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_28",
+          "char_start": 149804,
+          "char_end": 150371
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_29",
+          "char_start": 150373,
+          "char_end": 150546
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_30",
+          "char_start": 150548,
+          "char_end": 150687
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_31",
+          "char_start": 150689,
+          "char_end": 150816
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_32",
+          "char_start": 150818,
+          "char_end": 150928
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_33",
+          "char_start": 150930,
+          "char_end": 151028
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_34",
+          "char_start": 151030,
+          "char_end": 151159
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_35",
+          "char_start": 151161,
+          "char_end": 151278
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_36",
+          "char_start": 151280,
+          "char_end": 151396
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_37",
+          "char_start": 151398,
+          "char_end": 151508
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_38",
+          "char_start": 151510,
+          "char_end": 151636
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_39",
+          "char_start": 151638,
+          "char_end": 151757
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_40",
+          "char_start": 151759,
+          "char_end": 151882
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_41",
+          "char_start": 151884,
+          "char_end": 152000
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_42",
+          "char_start": 152002,
+          "char_end": 152099
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_43",
+          "char_start": 152101,
+          "char_end": 152182
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_44",
+          "char_start": 152184,
+          "char_end": 152298
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_45",
+          "char_start": 152300,
+          "char_end": 152408
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_46",
+          "char_start": 152410,
+          "char_end": 152676
+        },
+        {
+          "chunk_id": "weekly_w10_98_reflection_48",
+          "char_start": 152678,
+          "char_end": 153135
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_49",
+          "char_start": 153137,
+          "char_end": 153369
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_50",
+          "char_start": 153371,
+          "char_end": 153860
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_51",
+          "char_start": 153862,
+          "char_end": 154058
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_52",
+          "char_start": 154060,
+          "char_end": 154407
+        },
+        {
+          "chunk_id": "weekly_w10_98_assessment_53",
+          "char_start": 154409,
+          "char_end": 154796
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    },
+    {
+      "document_id": "reading_list",
+      "origin_path": "source://original-dashboard/System Data/Module/Module readings.pdf",
+      "source_file_key": "source://original-dashboard/System Data/Module/Module readings.pdf",
+      "raw_path": "source_materials/course/raw/Module readings.pdf",
+      "raw_sha256": "351e4e33919cdb5fe29347ed9df2fdf37eca794b736ac88cca4c610bedf087f0",
+      "raw_bytes": 850930,
+      "extracted_path": "source_materials/course/reading_list.txt",
+      "extracted_sha256": "8c6b44152e568c400baec4e22b843f47a08918fdf69b956378703b37e69e22ba",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "module_readings_p1",
+          "char_start": 0,
+          "char_end": 313
+        },
+        {
+          "chunk_id": "module_readings_p2",
+          "char_start": 315,
+          "char_end": 705
+        },
+        {
+          "chunk_id": "module_readings_p3",
+          "char_start": 707,
+          "char_end": 1331
+        },
+        {
+          "chunk_id": "module_readings_p4_1",
+          "char_start": 1333,
+          "char_end": 2674
+        },
+        {
+          "chunk_id": "module_readings_p4_2",
+          "char_start": 2676,
+          "char_end": 2927
+        },
+        {
+          "chunk_id": "module_readings_p5",
+          "char_start": 2929,
+          "char_end": 3047
+        },
+        {
+          "chunk_id": "module_readings_p6",
+          "char_start": 3049,
+          "char_end": 4386
+        },
+        {
+          "chunk_id": "module_readings_p7",
+          "char_start": 4388,
+          "char_end": 4506
+        },
+        {
+          "chunk_id": "module_readings_p8",
+          "char_start": 4508,
+          "char_end": 5003
+        },
+        {
+          "chunk_id": "module_readings_p9",
+          "char_start": 5005,
+          "char_end": 6299
+        },
+        {
+          "chunk_id": "module_readings_p10",
+          "char_start": 6301,
+          "char_end": 6420
+        },
+        {
+          "chunk_id": "module_readings_p11_1",
+          "char_start": 6422,
+          "char_end": 7758
+        },
+        {
+          "chunk_id": "module_readings_p11_2",
+          "char_start": 7760,
+          "char_end": 7879
+        },
+        {
+          "chunk_id": "module_readings_p12",
+          "char_start": 7881,
+          "char_end": 8270
+        },
+        {
+          "chunk_id": "module_readings_p13_1",
+          "char_start": 8272,
+          "char_end": 9659
+        },
+        {
+          "chunk_id": "module_readings_p13_2",
+          "char_start": 9661,
+          "char_end": 10008
+        },
+        {
+          "chunk_id": "module_readings_p14",
+          "char_start": 10010,
+          "char_end": 10129
+        },
+        {
+          "chunk_id": "module_readings_p15_1",
+          "char_start": 10131,
+          "char_end": 11460
+        },
+        {
+          "chunk_id": "module_readings_p15_2",
+          "char_start": 11462,
+          "char_end": 11682
+        },
+        {
+          "chunk_id": "module_readings_p16",
+          "char_start": 11684,
+          "char_end": 12771
+        },
+        {
+          "chunk_id": "module_readings_p17_1",
+          "char_start": 12773,
+          "char_end": 14109
+        },
+        {
+          "chunk_id": "module_readings_p17_2",
+          "char_start": 14111,
+          "char_end": 14518
+        },
+        {
+          "chunk_id": "module_readings_p18",
+          "char_start": 14520,
+          "char_end": 14639
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    },
+    {
+      "document_id": "moodle_links",
+      "origin_path": "source://original-dashboard/input/moodle_links.pdf",
+      "source_file_key": "source://original-dashboard/input/moodle_links.pdf",
+      "raw_path": "source_materials/course/raw/moodle_links.pdf",
+      "raw_sha256": "85d5b03508d2e124e32f812dc4bd6ec96110851b275254a271f53cb3119b1d27",
+      "raw_bytes": 147863,
+      "extracted_path": "source_materials/course/moodle_links.txt",
+      "extracted_sha256": "f8b213787387e95a5ef9675bd7223a494eeee2e9bebc23147b9b19211243f906",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "moodle_links_p1",
+          "char_start": 0,
+          "char_end": 1396
+        },
+        {
+          "chunk_id": "moodle_links_p2_1",
+          "char_start": 1398,
+          "char_end": 1746
+        },
+        {
+          "chunk_id": "moodle_links_p2_2",
+          "char_start": 1748,
+          "char_end": 3084
+        },
+        {
+          "chunk_id": "moodle_links_p2_3",
+          "char_start": 3086,
+          "char_end": 3511
+        },
+        {
+          "chunk_id": "moodle_links_p3_1",
+          "char_start": 3513,
+          "char_end": 4468
+        },
+        {
+          "chunk_id": "moodle_links_p3_2",
+          "char_start": 4470,
+          "char_end": 5385
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    },
+    {
+      "document_id": "dashboard_references",
+      "origin_path": "source://original-dashboard/input/references.txt",
+      "source_file_key": "source://original-dashboard/input/references.txt",
+      "raw_path": "source_materials/course/raw/references.txt",
+      "raw_sha256": "136e26d35ac435b062192551b14216cf049f3e2b5022cf585389e6762f9cb8e9",
+      "raw_bytes": 1757,
+      "extracted_path": "source_materials/course/dashboard_references.txt",
+      "extracted_sha256": "22173ca8ea2936ac5c9652701f12167c7f0074d9fa717d930a672decc39ef9d9",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "references_2",
+          "char_start": 0,
+          "char_end": 393
+        },
+        {
+          "chunk_id": "references_3",
+          "char_start": 395,
+          "char_end": 806
+        },
+        {
+          "chunk_id": "references_4",
+          "char_start": 808,
+          "char_end": 1351
+        },
+        {
+          "chunk_id": "references_5",
+          "char_start": 1353,
+          "char_end": 1727
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    },
+    {
+      "document_id": "lecture_metadata",
+      "origin_path": "source://final-implementation/utils/course_metadata.py",
+      "source_file_key": "utils/course_metadata.py",
+      "raw_path": "source_materials/course/raw/course_metadata.py",
+      "raw_sha256": "b8975fc20897fc1b98d2bcb5076e3950300e5498b46cf4793840980a6a1a9d83",
+      "raw_bytes": 6997,
+      "extracted_path": "source_materials/course/lecture_metadata.txt",
+      "extracted_sha256": "be381173351b5b550e7df1236a573a03de55215d0cf1e831376fcb0b8d0272cd",
+      "native_chunk_intervals": [
+        {
+          "chunk_id": "course_metadata_w1",
+          "char_start": 0,
+          "char_end": 350
+        },
+        {
+          "chunk_id": "course_metadata_w2",
+          "char_start": 352,
+          "char_end": 647
+        },
+        {
+          "chunk_id": "course_metadata_w3",
+          "char_start": 649,
+          "char_end": 978
+        },
+        {
+          "chunk_id": "course_metadata_w4",
+          "char_start": 980,
+          "char_end": 1828
+        },
+        {
+          "chunk_id": "course_metadata_w5",
+          "char_start": 1830,
+          "char_end": 2389
+        },
+        {
+          "chunk_id": "course_metadata_w6",
+          "char_start": 2391,
+          "char_end": 2770
+        },
+        {
+          "chunk_id": "course_metadata_w7",
+          "char_start": 2772,
+          "char_end": 3146
+        },
+        {
+          "chunk_id": "course_metadata_w8",
+          "char_start": 3148,
+          "char_end": 3537
+        },
+        {
+          "chunk_id": "course_metadata_w9",
+          "char_start": 3539,
+          "char_end": 3882
+        }
+      ],
+      "source_role": "EXISTING_ORDINARY_SHARED_CORPUS_NOT_TASK_SELECTED",
+      "provenance_limit": "Previously exposed source domain. Lecture metadata is derived metadata, not full lecture transcript. Local draft reuse does not certify rights for external distribution or real-student linkage."
+    }
+  ]
+}

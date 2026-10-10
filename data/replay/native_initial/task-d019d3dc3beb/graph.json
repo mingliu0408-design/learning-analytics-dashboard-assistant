@@ -1,0 +1,74 @@
+{
+  "version": "M1_RELATIONS_V1",
+  "nodes": {
+    "mem_b9f9d4bb41247d19e43367d4": {
+      "native_id": "mem_b9f9d4bb41247d19e43367d4",
+      "native_version": 1,
+      "content_sha256": "f5384e6ec26064dff8f37d81ab535b07bdf8c3d91cd40334f3b6c0d8e38f8ee5",
+      "memory_type": "PREFERENCE",
+      "learner_id": "synthetic-learner-03864c101b6c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "source_ref": {
+        "event_id": "session-070ffa4180e1-m1",
+        "source_version": 1,
+        "session_id": "session-070ffa4180e1",
+        "event_sha256": "968d331b2ba7ab966d884e2fb15900acaf1c802f1b6634ecd52d4b5b34f0f5eb",
+        "span_chars": [
+          0,
+          102
+        ],
+        "observed_at": "2026-08-20T09:00:00+00:00",
+        "origin": "USER",
+        "claim_basis": "EXPLICIT_USER_STATEMENT",
+        "confirmation": "LEARNER_STATED"
+      }
+    },
+    "mem_a2716e30f0d3fbc35a692653": {
+      "native_id": "mem_a2716e30f0d3fbc35a692653",
+      "native_version": 1,
+      "content_sha256": "4fe86b4f74a2f769c1cda5d94c06198b82e215320dd328950ce1c99b4f1bfbc4",
+      "memory_type": "CONSTRAINT",
+      "learner_id": "synthetic-learner-03864c101b6c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "source_ref": {
+        "event_id": "session-2c1b2d445a19-m1",
+        "source_version": 1,
+        "session_id": "session-2c1b2d445a19",
+        "event_sha256": "554aee4d128016d3a5021748cf89d0e3cd14f8f072a692cf329e7a53afcac0fe",
+        "span_chars": [
+          0,
+          59
+        ],
+        "observed_at": "2026-08-23T09:00:00+00:00",
+        "origin": "USER",
+        "claim_basis": "EXPLICIT_USER_STATEMENT",
+        "confirmation": "LEARNER_STATED"
+      }
+    },
+    "mem_fcc0451e50a3435e66d8c856": {
+      "native_id": "mem_fcc0451e50a3435e66d8c856",
+      "native_version": 2,
+      "content_sha256": "dc0902db7bbae9b954e8a0c566cead1233498e4a1c4a4b022bf279a089345116",
+      "memory_type": "CONSTRAINT",
+      "learner_id": "synthetic-learner-03864c101b6c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "source_ref": {
+        "event_id": "session-35d3edc539ca-m1",
+        "source_version": 1,
+        "session_id": "session-35d3edc539ca",
+        "event_sha256": "84c41c0252cbb682fa52e0c73dae70e72ce449df5527be0203c33c09341d4783",
+        "span_chars": [
+          39,
+          97
+        ],
+        "observed_at": "2026-08-29T09:00:00+00:00",
+        "origin": "USER",
+        "claim_basis": "EXPLICIT_USER_STATEMENT",
+        "confirmation": "LEARNER_STATED"
+      }
+    }
+  },
+  "source_events": {},
+  "edges": [],
+  "sha256": "eceec0a1fb0efc857734454de973a02963ad567723f53ae4f60d3d195c134e1f"
+}

@@ -1,0 +1,39 @@
+{
+  "allowed_transitions": {
+    "ACTIVE": [
+      "SUPERSEDED",
+      "COMPLETED",
+      "CANCELLED",
+      "DELETED"
+    ],
+    "CANCELLED": [
+      "DELETED"
+    ],
+    "COMPLETED": [
+      "DELETED"
+    ],
+    "DELETED": [],
+    "STALE": [
+      "DELETED"
+    ],
+    "SUPERSEDED": [
+      "DELETED"
+    ]
+  },
+  "backdated_failure_code": "BACKDATED_STORE_EVENT",
+  "deleted_memory_can_resurrect": false,
+  "durable_database_claim": false,
+  "episode_timezone_repairs_naive_event_time": false,
+  "event_time_at_or_after_ingested_at": true,
+  "event_time_monotonic_per_memory": true,
+  "event_time_timezone_aware_required": true,
+  "invalid_transition_code": "INVALID_STORE_STATE_TRANSITION",
+  "production_store_implemented": false,
+  "projection_rebuilt_by_complete_event_replay": true,
+  "schema_version": "rq2c1-r1-store-lifecycle-contract-v1.1",
+  "stage": "RQ2-C1-R1_OFFLINE_P2_CORRECTED_RUN",
+  "store_schema": "OfflinePersistentMemoryStoreV1_1",
+  "tombstone_derived_from_complete_delete_event_history": true,
+  "transition_contract_id": "OFFLINE_MEMORY_STORE_STATE_MACHINE_V1_1",
+  "validated_bundle_mutated_in_place": false
+}

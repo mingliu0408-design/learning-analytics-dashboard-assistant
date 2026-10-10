@@ -1,0 +1,208 @@
+{
+  "contracts": [
+    {
+      "accuracy_or_expected_label_comparison_permitted": false,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_P3_ROUTE_EXECUTION_R1",
+      "authorization_environment_variable": "C4_REAL_P3_ROUTE_EXECUTION_AUTHORIZATION",
+      "authorization_scope": "RQ3_REAL_C4_P3_ROUTE_EXECUTION_R1",
+      "automatic_resume_permitted": false,
+      "component": "RAG",
+      "continuation_requires_new_direct_user_authorization": true,
+      "correction_message_on_retry": false,
+      "durable_output_files": [
+        "route_execution_preflight_receipt_v1.json",
+        "route_attempt_records_v1.jsonl",
+        "route_terminal_results_v1.jsonl",
+        "route_error_registry_v1.jsonl",
+        "route_execution_status_v1.json",
+        "route_usage_and_cost_v1.json",
+        "ROUTE_EXECUTION_REPORT.md"
+      ],
+      "execution_outputs_are_external": true,
+      "manual_retry_maximum": 1,
+      "manual_retry_only_after": [
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED"
+      ],
+      "minimum_initial_request_start_interval_seconds": 2.0,
+      "output_directory_created_atomically_before_first_provider_call": true,
+      "output_directory_must_not_exist": true,
+      "package_id": "C4_REAL_P3_RAG_ROUTE_EXECUTION_R1",
+      "package_members_are_read_only": true,
+      "pricing_snapshot": {
+        "observed_at": "2026-09-01",
+        "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+        "status": "APPROXIMATE_ONLY_CURRENT_AT_FREEZE_DATE",
+        "usd_per_1m_cached_input_tokens": 0.075,
+        "usd_per_1m_input_tokens": 0.15,
+        "usd_per_1m_output_tokens": 0.6
+      },
+      "recognized_error_classes": [
+        "AUTHENTICATION_ERROR",
+        "PERMISSION_ERROR",
+        "REQUEST_CONFIGURATION_ERROR",
+        "MODEL_OR_ENDPOINT_NOT_FOUND",
+        "RATE_LIMIT_ERROR",
+        "TRANSPORT_ERROR",
+        "TIMEOUT",
+        "PROVIDER_REFUSAL",
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED",
+        "RETURNED_MODEL_MISMATCH",
+        "UNEXPECTED_PROVIDER_RESPONSE"
+      ],
+      "retry_payload_must_be_identical": true,
+      "schema_version": "c4-real-p3-route-execution-contract-r1-v1",
+      "serial_execution": true,
+      "status": "FROZEN_UNEXECUTED_REQUIRES_NEW_DIRECT_AUTHORIZATION",
+      "strict_authorization_record_fields": [
+        "authorization_id",
+        "authorization_scope",
+        "authorized_by",
+        "authorized_at",
+        "package_id",
+        "component",
+        "logical_call_count",
+        "maximum_physical_attempt_count",
+        "status"
+      ]
+    },
+    {
+      "accuracy_or_expected_label_comparison_permitted": false,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_P3_ROUTE_EXECUTION_R1",
+      "authorization_environment_variable": "C4_REAL_P3_ROUTE_EXECUTION_AUTHORIZATION",
+      "authorization_scope": "RQ3_REAL_C4_P3_ROUTE_EXECUTION_R1",
+      "automatic_resume_permitted": false,
+      "component": "MEMORY",
+      "continuation_requires_new_direct_user_authorization": true,
+      "correction_message_on_retry": false,
+      "durable_output_files": [
+        "route_execution_preflight_receipt_v1.json",
+        "route_attempt_records_v1.jsonl",
+        "route_terminal_results_v1.jsonl",
+        "route_error_registry_v1.jsonl",
+        "route_execution_status_v1.json",
+        "route_usage_and_cost_v1.json",
+        "ROUTE_EXECUTION_REPORT.md"
+      ],
+      "execution_outputs_are_external": true,
+      "manual_retry_maximum": 1,
+      "manual_retry_only_after": [
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED"
+      ],
+      "minimum_initial_request_start_interval_seconds": 2.0,
+      "output_directory_created_atomically_before_first_provider_call": true,
+      "output_directory_must_not_exist": true,
+      "package_id": "C4_REAL_P3_MEMORY_ROUTE_EXECUTION_R1",
+      "package_members_are_read_only": true,
+      "pricing_snapshot": {
+        "observed_at": "2026-09-01",
+        "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+        "status": "APPROXIMATE_ONLY_CURRENT_AT_FREEZE_DATE",
+        "usd_per_1m_cached_input_tokens": 0.075,
+        "usd_per_1m_input_tokens": 0.15,
+        "usd_per_1m_output_tokens": 0.6
+      },
+      "recognized_error_classes": [
+        "AUTHENTICATION_ERROR",
+        "PERMISSION_ERROR",
+        "REQUEST_CONFIGURATION_ERROR",
+        "MODEL_OR_ENDPOINT_NOT_FOUND",
+        "RATE_LIMIT_ERROR",
+        "TRANSPORT_ERROR",
+        "TIMEOUT",
+        "PROVIDER_REFUSAL",
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED",
+        "RETURNED_MODEL_MISMATCH",
+        "UNEXPECTED_PROVIDER_RESPONSE"
+      ],
+      "retry_payload_must_be_identical": true,
+      "schema_version": "c4-real-p3-route-execution-contract-r1-v1",
+      "serial_execution": true,
+      "status": "FROZEN_UNEXECUTED_REQUIRES_NEW_DIRECT_AUTHORIZATION",
+      "strict_authorization_record_fields": [
+        "authorization_id",
+        "authorization_scope",
+        "authorized_by",
+        "authorized_at",
+        "package_id",
+        "component",
+        "logical_call_count",
+        "maximum_physical_attempt_count",
+        "status"
+      ]
+    },
+    {
+      "accuracy_or_expected_label_comparison_permitted": false,
+      "authorization_environment_value": "AUTHORIZED_C4_REAL_P3_ROUTE_EXECUTION_R1",
+      "authorization_environment_variable": "C4_REAL_P3_ROUTE_EXECUTION_AUTHORIZATION",
+      "authorization_scope": "RQ3_REAL_C4_P3_ROUTE_EXECUTION_R1",
+      "automatic_resume_permitted": false,
+      "component": "B4_PLANNING",
+      "continuation_requires_new_direct_user_authorization": true,
+      "correction_message_on_retry": false,
+      "durable_output_files": [
+        "route_execution_preflight_receipt_v1.json",
+        "route_attempt_records_v1.jsonl",
+        "route_terminal_results_v1.jsonl",
+        "route_error_registry_v1.jsonl",
+        "route_execution_status_v1.json",
+        "route_usage_and_cost_v1.json",
+        "ROUTE_EXECUTION_REPORT.md"
+      ],
+      "execution_outputs_are_external": true,
+      "manual_retry_maximum": 1,
+      "manual_retry_only_after": [
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED"
+      ],
+      "minimum_initial_request_start_interval_seconds": 2.0,
+      "output_directory_created_atomically_before_first_provider_call": true,
+      "output_directory_must_not_exist": true,
+      "package_id": "C4_REAL_P3_B4_PLANNING_ROUTE_EXECUTION_R1",
+      "package_members_are_read_only": true,
+      "pricing_snapshot": {
+        "observed_at": "2026-09-01",
+        "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+        "status": "APPROXIMATE_ONLY_CURRENT_AT_FREEZE_DATE",
+        "usd_per_1m_cached_input_tokens": 0.075,
+        "usd_per_1m_input_tokens": 0.15,
+        "usd_per_1m_output_tokens": 0.6
+      },
+      "recognized_error_classes": [
+        "AUTHENTICATION_ERROR",
+        "PERMISSION_ERROR",
+        "REQUEST_CONFIGURATION_ERROR",
+        "MODEL_OR_ENDPOINT_NOT_FOUND",
+        "RATE_LIMIT_ERROR",
+        "TRANSPORT_ERROR",
+        "TIMEOUT",
+        "PROVIDER_REFUSAL",
+        "INVALID_JSON",
+        "STRICT_SCHEMA_VALIDATION_FAILED",
+        "RETURNED_MODEL_MISMATCH",
+        "UNEXPECTED_PROVIDER_RESPONSE"
+      ],
+      "retry_payload_must_be_identical": true,
+      "schema_version": "c4-real-p3-route-execution-contract-r1-v1",
+      "serial_execution": true,
+      "status": "FROZEN_UNEXECUTED_REQUIRES_NEW_DIRECT_AUTHORIZATION",
+      "strict_authorization_record_fields": [
+        "authorization_id",
+        "authorization_scope",
+        "authorized_by",
+        "authorized_at",
+        "package_id",
+        "component",
+        "logical_call_count",
+        "maximum_physical_attempt_count",
+        "status"
+      ]
+    }
+  ],
+  "provider_calls_in_i0_r1": 0,
+  "schema_version": "c4-real-r1-execution-contract-registry-v1",
+  "status": "FROZEN_UNEXECUTED_REQUIRES_NEW_DIRECT_AUTHORIZATION"
+}

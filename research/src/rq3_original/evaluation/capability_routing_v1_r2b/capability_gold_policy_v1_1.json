@@ -1,0 +1,52 @@
+{
+  "assistant_context_attachment_authorised": false,
+  "authentic_context_missing_rule": {
+    "destination": "AUTHENTIC_CONTEXT_MISSING_QUALITATIVE_REGISTRY",
+    "eligible_for_capability_gold": false,
+    "when_context_sufficient": "NO"
+  },
+  "authentic_inclusion_rule": {
+    "capability_unambiguous": "YES",
+    "case_validity": "INCLUDE_VALID_CASE",
+    "context_sufficient": "NOT_NO",
+    "destination": "AUTHENTIC_CODEBOOK_CALIBRATION_GOLD"
+  },
+  "capability_definition_changed": false,
+  "coverage_threshold_changed": false,
+  "human_decision_precedence": {
+    "canonical_adjudication_present": "USE_ADJUDICATED_FINAL_FIELDS",
+    "gold_relevant_fields": [
+      "case_validity",
+      "context_link_valid",
+      "context_sufficient",
+      "capability_unambiguous",
+      "context_resolution_required",
+      "dashboard_evidence",
+      "course_retrieval",
+      "episodic_memory",
+      "planning",
+      "safe_direct_response",
+      "clarification",
+      "forbidden_capabilities"
+    ],
+    "otherwise": "REQUIRE_REVIEWER_A_B_CONSENSUS",
+    "unresolved_disagreement_action": "BLOCKED_RQ2_A_R2B_UNRESOLVED_HUMAN_DISAGREEMENT"
+  },
+  "model_output_may_form_gold": false,
+  "naturalness_role": "HUMAN_REVIEW_QUALITY_DIAGNOSTIC_ONLY",
+  "query_rewrite_authorised": false,
+  "schema_version": "capability-gold-policy-v1.1",
+  "stage": "RQ2-A-R2B",
+  "status": "FROZEN_BEFORE_GOLD_BUILD",
+  "synthetic_clarification_exception": {
+    "applies_to_authentic": false,
+    "authority": "synthetic-clarification-eligibility-amendment-v1",
+    "destination": "SYNTHETIC_COVERAGE_STRESS_GOLD"
+  },
+  "synthetic_default_inclusion_rule": {
+    "capability_unambiguous": "YES",
+    "case_validity": "INCLUDE_VALID_CASE",
+    "context_sufficient": "NOT_NO",
+    "destination": "SYNTHETIC_COVERAGE_STRESS_GOLD"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.local/schemas/rq2-v2-dataset-registry-v1.schema.json",
+  "title": "RQ2-V2 dataset and provenance registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "inventory_date", "legacy_boundary", "assets"],
+  "properties": {
+    "schema_version": {"const": "rq2-v2-dataset-registry-v1"},
+    "inventory_date": {"const": "2026-08-30"},
+    "legacy_boundary": {"const": "RQ2_V1_PILOT"},
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "asset_id",
+          "conceptual_boundary",
+          "path",
+          "path_role",
+          "asset_type",
+          "record_count",
+          "scenario_family_count",
+          "schema_or_format",
+          "provenance_types",
+          "allowed_uses",
+          "prohibited_uses",
+          "prior_exposure_to_model_selection",
+          "final_test_eligible",
+          "contains_natural_language",
+          "sensitivity_class",
+          "exists_at_inventory",
+          "include_in_review_zip",
+          "notes"
+        ],
+        "properties": {
+          "asset_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+          "conceptual_boundary": {"type": "string", "minLength": 1},
+          "path": {"type": "string", "minLength": 1, "pattern": "^[^/].*"},
+          "path_role": {"enum": ["PRIMARY_ASSET", "SAFE_METADATA_PROXY"]},
+          "asset_type": {"type": "string", "minLength": 1},
+          "record_count": {"type": ["integer", "null"], "minimum": 0},
+          "scenario_family_count": {"type": ["integer", "null"], "minimum": 0},
+          "schema_or_format": {"type": "string", "minLength": 1},
+          "provenance_types": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "AUTHENTIC",
+                "HUMAN_ELICITED",
+                "RESEARCHER_SYNTHETIC",
+                "LLM_AUGMENTED",
+                "MIXED_GOVERNED",
+                "MODEL_ARTIFACT",
+                "COURSE_MATERIAL_METADATA",
+                "WHITE_BOX_SYNTHETIC_FIXTURE"
+              ]
+            }
+          },
+          "allowed_uses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "prohibited_uses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "prior_exposure_to_model_selection": {"type": "boolean"},
+          "final_test_eligible": {"type": "boolean"},
+          "contains_natural_language": {"type": "boolean"},
+          "sensitivity_class": {
+            "enum": [
+              "PUBLIC_METADATA",
+              "GOVERNED_LABELS_ONLY",
+              "RESTRICTED_GOVERNED_DATA",
+              "LOCAL_MODEL_ARTIFACT",
+              "COURSE_METADATA",
+              "CODE_OR_CONTRACT"
+            ]
+          },
+          "exists_at_inventory": {"type": "boolean"},
+          "include_in_review_zip": {"const": false},
+          "notes": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
+

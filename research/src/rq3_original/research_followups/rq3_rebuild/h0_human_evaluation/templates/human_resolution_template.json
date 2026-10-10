@@ -1,0 +1,15 @@
+{
+  "status": "BLANK_NOT_ATTESTED",
+  "item_id": "",
+  "rater_id": "",
+  "criterion_id": "",
+  "original_record_sha256": "",
+  "original_score": null,
+  "issue": "",
+  "frozen_rule_reference": "",
+  "human_decision": "",
+  "revised_score": null,
+  "decision_maker_id": "",
+  "decided_at": "",
+  "revision_file_reference": ""
+}

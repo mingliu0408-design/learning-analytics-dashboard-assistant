@@ -1,0 +1,96 @@
+{
+  "corrections": [
+    "HARD_CODED_K0_PARITY_CLAIM",
+    "PURE_DATA_VOLUME_INTERPRETATION",
+    "UNDEFINED_REPRESENTATIVE_SEED_RULE",
+    "UNDEFINED_FINAL_STATISTICAL_THRESHOLDS"
+  ],
+  "duplicate_representation_policy": {
+    "cross_label_duplicate_group_count": 0,
+    "deduplicated_condition_authorised": false,
+    "duplicate_extra_row_count": 21,
+    "report_concentration_in_rq1b": true,
+    "retain_all_governed_records": true
+  },
+  "effective_contract_for_rq1b": "lr4b-experiment-contract-v1.1",
+  "invariants": {
+    "checkpoint_created": false,
+    "checkpoint_loaded": false,
+    "embedding_executed": false,
+    "final_gold_accessed": false,
+    "final_gold_searched": false,
+    "model_training": false,
+    "network_access": false,
+    "production_code_modified": false,
+    "provider_calls": false,
+    "rq1b_started": false,
+    "semantic_runtime_called": false
+  },
+  "k0": {
+    "adapter": "CURRENT_PRODUCTION_KEYWORD_BASELINE",
+    "fixture_sha256": "b4cac34df91c074a4a2fa85e4ccc52623563f3358fe44938771f8303f00b6be9",
+    "match_count": 62,
+    "mismatch_count": 0,
+    "ranking_length": 1,
+    "record_count": 62,
+    "semantic_loader_call_count": 0
+  },
+  "representative_checkpoint": {
+    "applicable_after_m64_scenario_selection": true,
+    "best_seed_selection": false,
+    "final_gold_driven_selection": false,
+    "five_seeds": [
+      20260813,
+      20260814,
+      20260815,
+      20260816,
+      20260817
+    ],
+    "primary_rq1c_comparison_uses_representative_checkpoint": true,
+    "random_selection": false,
+    "remaining_seed_role": "ROBUSTNESS_DIAGNOSTICS_ONLY",
+    "replacement_after_rq1c": false,
+    "scenario_selection_basis": "FIVE_SEED_MEAN_VIEW_A_METRICS",
+    "selection_rule": [
+      "MINIMUM_ABSOLUTE_DISTANCE_TO_FIVE_SEED_MEAN_VIEW_A_MRR",
+      "HIGHER_VIEW_A_TOP1",
+      "HIGHER_VIEW_A_MACRO_F1",
+      "SMALLER_NUMERIC_SEED"
+    ],
+    "unregistered_ensemble": false
+  },
+  "rq1b_must_use_v1_1": true,
+  "schema_version": "lr4b-experiment-contract-v1.1",
+  "stage": "RQ1-A-R1",
+  "statistical_decision_contract": {
+    "final_failure_decision": "C0_REMAINS_SELECTED",
+    "primary_comparison": "REPRESENTATIVE_M64_VS_C0_ON_MRR",
+    "schema_version": "rq1a-r1-statistical-decision-contract-v1"
+  },
+  "status": "EFFECTIVE_CONTRACT_FROZEN",
+  "superseded_artifact_sha256": "d9069a0bed019ddd6aedf954eb8c1b708610e167d70dffc4bc844bc1a4841113",
+  "supersedes": "lr4b-experiment-contract-v1",
+  "training_scenarios": {
+    "legacy_ids": {
+      "V0": 58,
+      "V1": 131,
+      "V2": 154,
+      "V3": 316
+    },
+    "membership_unchanged": true,
+    "method": "CUMULATIVE_GOVERNED_TRAINING_EVIDENCE_EXPANSION",
+    "pure_data_volume_causal_interpretation": false,
+    "sample_size_only_attribution_authorised": false,
+    "strict_nesting": true
+  },
+  "unchanged_inherited_contracts": [
+    "M64_ARCHITECTURE",
+    "D0_DIRECTED_EQUAL_WEIGHT",
+    "PAIR_CONSTRUCTION",
+    "NEGATIVE_SAMPLING",
+    "OPTIMIZER_AND_TRAINING_HYPERPARAMETERS",
+    "DEV_VIEW_A_SELECTION",
+    "CANDIDATE_LABEL_UNIVERSE",
+    "INTENT_TAXONOMY"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "task_id": "task-b74ac9a2a7d8",
+  "operations": 2,
+  "accepted_writes": 2,
+  "unindexed_suggestions": 0,
+  "receipts": [
+    {
+      "operation_index": 0,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "choice-state",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "state": "not yet chosen"
+        },
+        "valid_from": "2026-08-21T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-0446d17556ec",
+        "source_message_id": "session-0446d17556ec-m1",
+        "source_char_start": 0,
+        "source_char_end": 101,
+        "source_quote": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PROGRESS_UPDATE",
+      "temporal_interpretation": "SOURCE_STATE_ONLY",
+      "native_source_span": [
+        0,
+        101
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_c86c8759de04f0baff05f788",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_c86c8759de04f0baff05f788",
+          "student_id": "synthetic-learner-a678755b344c",
+          "memory_type": "PROGRESS_UPDATE",
+          "content": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+          "source_session_id": "session-0446d17556ec",
+          "source_turn_id": "session-0446d17556ec-m1",
+          "created_at": "2026-08-21T09:00:00.000000+00:00",
+          "valid_from": "2026-08-21T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-21T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "65c3ca4337c4c4169fd2d16e23fa3c3311b3527bb749c4eb81160517cdac8f55",
+          "version": 1,
+          "conflict_key": "conflict_b9913e3badc0d4be3b78",
+          "deletion_event_sha256": null
+        }
+      }
+    },
+    {
+      "operation_index": 1,
+      "source_operation": {
+        "operation": "PUT_VERSION",
+        "memory_key": "workflow",
+        "version": 1,
+        "replaces_version": null,
+        "record_type": "FACT",
+        "value": {
+          "request": "recall previous choice before drafting"
+        },
+        "valid_from": "2026-08-25T09:00:00+00:00",
+        "valid_until": null,
+        "source_role": "user",
+        "source_session_id": "session-029e4c5c2a31",
+        "source_message_id": "session-029e4c5c2a31-m1",
+        "source_char_start": 0,
+        "source_char_end": 100,
+        "source_quote": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+        "interpretation_status": "AI_ASSISTED_DRAFT_PENDING_SOURCE_REVIEW",
+        "method": "MANUALLY_SPECIFIED_TRANSPARENT_PRELOAD_NOT_AUTOMATIC_EXTRACTION"
+      },
+      "mapping_type": "PREFERENCE",
+      "temporal_interpretation": "EXPLICIT_SOURCE_WORKING_PREFERENCE",
+      "native_source_span": [
+        0,
+        100
+      ],
+      "writer_result": {
+        "accepted": true,
+        "requested_operation": "ADD",
+        "applied_operation": "ADD",
+        "reason_code": "WRITE_AUTHORISED",
+        "memory_id": "mem_def6b5e6fc2ef7c1d9aaa12b",
+        "target_memory_id": null,
+        "duplicate_memory_id": null,
+        "before_status": null,
+        "after_status": "ACTIVE",
+        "record": {
+          "memory_id": "mem_def6b5e6fc2ef7c1d9aaa12b",
+          "student_id": "synthetic-learner-a678755b344c",
+          "memory_type": "PREFERENCE",
+          "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+          "source_session_id": "session-029e4c5c2a31",
+          "source_turn_id": "session-029e4c5c2a31-m1",
+          "created_at": "2026-08-25T09:00:00.000000+00:00",
+          "valid_from": "2026-08-25T09:00:00.000000+00:00",
+          "valid_to": null,
+          "last_confirmed_at": "2026-08-25T09:00:00.000000+00:00",
+          "status": "ACTIVE",
+          "importance": 0.5,
+          "confidence": 1.0,
+          "supersedes_memory_id": null,
+          "consent_status": "NOT_REQUIRED",
+          "content_sha256": "6ecd047caf2aadf59d09152664a171c174765cd61ef01ba2de742f8a5bd7c32b",
+          "version": 1,
+          "conflict_key": "conflict_14ecc3c5c14aace1c93b",
+          "deletion_event_sha256": null
+        }
+      }
+    }
+  ],
+  "native_rows": 2,
+  "closed_reopened": true,
+  "integrity": {
+    "integrity_check": "ok",
+    "foreign_key_issue_count": 0,
+    "memory_row_count": 2,
+    "fts_row_count": 2
+  },
+  "mode_copies": 6,
+  "target_reads": 0,
+  "source_runtime": {
+    "source_turns": [
+      {
+        "turn_id": "session-0446d17556ec-m1",
+        "session_id": "session-0446d17556ec",
+        "role": "USER",
+        "content": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+        "timestamp": "2026-08-21T09:00:00+00:00",
+        "learner_id": "synthetic-learner-a678755b344c",
+        "course_id": "dute-archived-materials-experiment-v1"
+      },
+      {
+        "turn_id": "session-029e4c5c2a31-m1",
+        "session_id": "session-029e4c5c2a31",
+        "role": "USER",
+        "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+        "timestamp": "2026-08-25T09:00:00+00:00",
+        "learner_id": "synthetic-learner-a678755b344c",
+        "course_id": "dute-archived-materials-experiment-v1"
+      }
+    ],
+    "setup_operations": [
+      {
+        "operation": "ADD",
+        "memory_type": "PROGRESS_UPDATE",
+        "content": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "I have not yet chosen the object or focus of my design critique. I will tell you when I have decided.",
+        "fact_id": "source-operation-0",
+        "learner_id": "synthetic-learner-a678755b344c",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-0446d17556ec-m1",
+        "source_span_chars": [
+          0,
+          101
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      },
+      {
+        "operation": "ADD",
+        "memory_type": "PREFERENCE",
+        "content": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+        "target_memory_id": null,
+        "confidence": 1.0,
+        "evidence_span": "Next time, remind me of the choice I have made first; do not expand it into a full essay for me yet.",
+        "fact_id": "source-operation-1",
+        "learner_id": "synthetic-learner-a678755b344c",
+        "course_id": "dute-archived-materials-experiment-v1",
+        "source_turn_id": "session-029e4c5c2a31-m1",
+        "source_span_chars": [
+          0,
+          100
+        ],
+        "claim_basis": "EXPLICIT_USER_STATEMENT"
+      }
+    ],
+    "relation_events": [],
+    "target": {
+      "learner_id": "synthetic-learner-a678755b344c",
+      "course_id": "dute-archived-materials-experiment-v1",
+      "session_id": "target-session",
+      "as_of": "2026-08-31T12:00:00+00:00",
+      "horizon": "current explicitly scoped request",
+      "query": "Please remind me which object I chose for my design critique last time and what I intended to focus on.",
+      "page": "Resources",
+      "visible_history": [],
+      "visibility_rule": "Only supplied legitimate visible turns; constructed prior sessions require gated native retrieval"
+    }
+  },
+  "consent_basis": "Author-permitted local constructed/replayed state, not real student consent or external authorization.",
+  "history_completeness": "Constructed source histories only; no original student conversation recovered."
+}

@@ -1,0 +1,53 @@
+{
+  "source_commit": "945c99563d3220ef4b8b7eb9eac06570d6173336",
+  "files": [
+    {
+      "path": "p0planner/__init__.py",
+      "sha256": "be11505d68daa2030adc3de68e9d4c3ce0afed4f3503a870a4e461ebe2b6f457"
+    },
+    {
+      "path": "p0planner/contracts.py",
+      "sha256": "9c310a61214e3f8240302d2ea42463d1496e9e38b4da6ae936a994561a53fb74"
+    },
+    {
+      "path": "p0planner/controller.py",
+      "sha256": "a9b451a608c038e0e71ba1ed2faefe1706929dd80fc25a8b0f3c4d28df4a0c7f"
+    },
+    {
+      "path": "p0planner/offline_guard.py",
+      "sha256": "9066caedcd592d3e6b8782296ce349145e0083c58926607933a00bb6b2a6d8ee"
+    },
+    {
+      "path": "p0planner/providers.py",
+      "sha256": "edea37c4833d208eadeaeef9407b1f5f1cacc72f8014de32e0e7c52de12a38d4"
+    },
+    {
+      "path": "p0planner/schema.py",
+      "sha256": "853eb0d389951e5d625df7a10f3fdfd28fbc3a6a8120dfe83041bab7f22cfb99"
+    },
+    {
+      "path": "p0planner/validator.py",
+      "sha256": "5dd2fc4e0781b0a6ef2aa5a0be5e8c963bbc418f95b424b79a1f0bc357f3b9e2"
+    },
+    {
+      "path": "PLANNER_CANDIDATE_SCHEMA_DRAFT.json",
+      "sha256": "92c3ef8ea1e909e8a1e96e3688b85135dbdeb4a1202972f5d8f196dbe967404f"
+    },
+    {
+      "path": "PLANNER_INPUT_SCHEMA_DRAFT.json",
+      "sha256": "5fa87e4eefd0dd55a3a329629f774af14b0537469b311aebaafd63516b818def"
+    },
+    {
+      "path": "PLANNER_OUTPUT_SCHEMA_DRAFT.json",
+      "sha256": "387927b77b43633f251c49887286bc002f5a994faf43eff5eca925139dd24c0d"
+    },
+    {
+      "path": "tools/schema_definitions.py",
+      "sha256": "0d7cd4e21e9cf6b7cd6413541b28f1665ed2fca06638a0dbac442757eb1cb957"
+    },
+    {
+      "path": "tools/build_fixtures.py",
+      "sha256": "5a27d3b74a2ea5dd220bf64e57d9651e6a36e9c7a8a520659c5439ab15db8bfe"
+    }
+  ]
+}

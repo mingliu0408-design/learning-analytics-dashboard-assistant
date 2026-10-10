@@ -1,0 +1,255 @@
+{
+  "authority_role": "RQ2_D0_AND_D1_SCHEMA_PARSER_AUTHORITY_ONLY",
+  "byte_format_contract": {
+    "all_physical_lines_crlf_terminated": true,
+    "blank_csv_field_decodes_to": "",
+    "bom": {
+      "hex": "EFBBBF",
+      "present": true
+    },
+    "csv_dialect": {
+      "delimiter": ",",
+      "doublequote": true,
+      "escapechar": null,
+      "header_row_count": 1,
+      "quotechar": "\"",
+      "quoting": "QUOTE_MINIMAL_COMPATIBLE"
+    },
+    "embedded_cell_newlines_present": false,
+    "encoding": "UTF-8",
+    "final_newline_present": true,
+    "newline": "CRLF",
+    "textual_null_tokens_used": false,
+    "whitespace_only_cells_present": false
+  },
+  "effective_input_resolution": {
+    "effective_conversation_history": {
+      "current_override_count": 1,
+      "override": "human_revised_history",
+      "override_applies_only_when_nonblank": true,
+      "primary": "conversation_history"
+    },
+    "effective_current_page": {
+      "human_final_page_context_is_hidden_prior_review_metadata": true,
+      "source": "current_page"
+    },
+    "effective_current_query": {
+      "current_override_count": 0,
+      "override": "human_revised_query",
+      "override_applies_only_when_nonblank": true,
+      "primary": "current_query"
+    },
+    "legacy_expected_field_overlay": {
+      "applies_only_to_hidden_post_gold_legacy_diagnostics": true,
+      "current_nonblank_count": 1,
+      "must_not_affect_capability_review_packets": true,
+      "overlay_column": "human_revised_expected_fields"
+    }
+  },
+  "field_mapping_contract": {
+    "context_requirement_column": "human_final_context_requirement",
+    "contrast_group_column": "contrast_set_id",
+    "conversation_history_column": "conversation_history",
+    "current_page_column": "current_page",
+    "current_query_column": "current_query",
+    "difficulty_column": "difficulty",
+    "history_required_column": "history_required",
+    "history_turn_count_column": "history_turn_count",
+    "legacy_intent_column": "human_final_label",
+    "legacy_source_scope_column": "human_final_source_scope",
+    "normalised_query_column": "normalised_current_query",
+    "raw_case_id_column": "scenario_id",
+    "review_provenance_columns": [
+      "review_decision",
+      "review_method",
+      "reviewed_dataset_version",
+      "scenario_schema_version",
+      "authoring_provenance",
+      "authoring_notes_safe",
+      "human_decision",
+      "human_rationale",
+      "reviewer_id",
+      "review_timestamp",
+      "review_status"
+    ],
+    "scenario_family_column": "scenario_family_id",
+    "session_id_column": null
+  },
+  "grouping_contract": {
+    "contrast_set_id": {
+      "present": true,
+      "records_per_group": 2,
+      "suitable_as_governed_pair_or_cluster_unit": true,
+      "unique_groups": 24
+    },
+    "scenario_family_id": {
+      "present": true,
+      "records_per_group": 1,
+      "suitable_as_repeated_cluster_unit": false,
+      "unique_groups": 48
+    },
+    "session_id": {
+      "present": false
+    }
+  },
+  "header_contract": {
+    "blank_schema_template_file": "TRACK_B_BLANK_SCHEMA_TEMPLATE_V1.csv",
+    "blank_schema_template_size_bytes": 1077,
+    "column_order_sha256": "4152de0b69d286a68e85061849f70692338d442fcf72ca2bc0e79fb69519b752",
+    "display_only_index_column_is_not_part_of_raw_csv": true,
+    "exact_column_order": [
+      "scenario_id",
+      "current_query",
+      "normalised_current_query",
+      "current_page",
+      "conversation_history",
+      "history_turn_count",
+      "history_required",
+      "final_effective_task_intent",
+      "final_expected_legacy_query_type",
+      "final_expected_source_scope",
+      "final_expected_authority_flags",
+      "final_expected_hard_guard_triggered",
+      "final_expected_source_scope_locked",
+      "final_expected_hybrid_policy_class",
+      "expected_hybrid_policy_class_scored",
+      "expected_production_action",
+      "scenario_category",
+      "scenario_family_id",
+      "contrast_set_id",
+      "difficulty",
+      "semantic_accuracy_denominator_eligible",
+      "hybrid_evaluation_eligible",
+      "threshold_selection_eligible",
+      "primary_heldout_eligible",
+      "review_decision",
+      "review_method",
+      "reviewed_dataset_version",
+      "scenario_schema_version",
+      "authoring_provenance",
+      "authoring_notes_safe",
+      "human_decision",
+      "human_rationale",
+      "human_final_label",
+      "human_final_source_scope",
+      "human_final_context_requirement",
+      "human_final_page_context",
+      "human_naturalness",
+      "human_unambiguity",
+      "human_difficulty_confirmed",
+      "human_independence_confirmed",
+      "human_privacy_check",
+      "human_revised_query",
+      "human_revised_history",
+      "human_revised_expected_fields",
+      "reviewer_id",
+      "review_timestamp",
+      "review_status"
+    ],
+    "raw_header_with_bom_and_crlf_sha256": "bf9bc3df7b1800d9f4f87672afd0e6eafd274a7dea5dd4b5da9ac8a800a7e5d1"
+  },
+  "json_field_contracts": {
+    "conversation_history": {
+      "content_nonempty_string": true,
+      "item_exact_keys": [
+        "content",
+        "role"
+      ],
+      "length": 2,
+      "role_order": [
+        "user",
+        "assistant"
+      ],
+      "type": "array"
+    },
+    "final_expected_authority_flags": {
+      "allowed_keys": [
+        "deceptive_action",
+        "external_action",
+        "official_record_change",
+        "other_student_data",
+        "sensitive_inference",
+        "source_scope_conflict",
+        "unobservable_mental_state",
+        "unsupported_week"
+      ],
+      "empty_object_allowed": true,
+      "type": "object",
+      "values_are_boolean": true
+    },
+    "human_revised_expected_fields": {
+      "allowed_keys": [
+        "final_expected_source_scope"
+      ],
+      "blank_is_zero_length_csv_field": true,
+      "type_when_nonblank": "object"
+    },
+    "human_revised_history": {
+      "blank_is_zero_length_csv_field": true,
+      "length": 2,
+      "role_order": [
+        "user",
+        "assistant"
+      ],
+      "type_when_nonblank": "array"
+    }
+  },
+  "mechanism_evaluability_from_schema": {
+    "capability_human_mapping_required_before_final_evaluation": true,
+    "existing_intent_labels_are_not_capability_gold": true,
+    "expected_persistent_memory_id_columns_present": false,
+    "expected_rag_sufficiency_status_column_present": false,
+    "expected_supporting_chunk_id_columns_present": false,
+    "memory_lifecycle_target_columns_present": false,
+    "persistent_store_state_columns_present": false,
+    "rag_trigger_and_actual_execution_diagnostics_may_be_evaluable_after_capability_gold": true,
+    "session_state_use_diagnostics_may_be_evaluable_after_capability_gold": true,
+    "track_b_persistent_retrieval_evaluable": false,
+    "track_b_rag_sufficiency_accuracy_evaluable": false
+  },
+  "privacy_and_distribution": {
+    "blank_template_contains_header_only": true,
+    "package_is_not_a_review_packet": true,
+    "package_is_not_capability_gold": true,
+    "package_is_not_final_evaluation_output": true,
+    "package_is_safe_for_codex_d0_schema_contract": true,
+    "prior_rationale_or_label_values_in_package": false,
+    "query_or_history_in_package": false,
+    "raw_track_b_in_package": false
+  },
+  "record_order_contract": {
+    "first_scenario_id": "PV3-B-0001",
+    "last_scenario_id": "PV3-B-0048",
+    "ordered_scenario_id_commitment_algorithm": "SHA256(b'RQ2_TRACK_B_RECORD_ORDER_V1\\x00' + UTF8(LF-joined scenario_id sequence))",
+    "ordered_scenario_id_commitment_sha256": "f848379a4b464ea789f9c918487f6f5b16efaf6ce237f2b68ac01be4930e0104",
+    "physical_order_is_authoritative": true,
+    "scenario_id_sequence": "PV3-B-0001..PV3-B-0048",
+    "scenario_id_sequence_is_strict_numeric_ascending": true
+  },
+  "review_packet_blinding_contract": {
+    "all_existing_intent_source_scope_guard_policy_and_review_fields_hidden": true,
+    "automatic_intent_to_capability_mapping_hidden_and_not_gold": true,
+    "family_contrast_difficulty_and_provenance_hidden": true,
+    "model_predictions_hidden": true,
+    "normalised_query_hidden": true,
+    "raw_scenario_id_must_be_replaced_by_opaque_review_case_id": true,
+    "reviewer_visible_source_fields": [
+      "effective_current_query",
+      "current_page",
+      "effective_conversation_history"
+    ]
+  },
+  "schema_version": "track-b-safe-schema-authority-v1",
+  "source_identity": {
+    "column_count": 47,
+    "file_name": "primary_v3_hybrid_context_human_review_researcher_final_v1.csv",
+    "history_dependent": true,
+    "physical_line_count": 49,
+    "record_count": 48,
+    "reserved_for_rq2": true,
+    "sha256": "52c14dbc9e79b3c211e47ffd72697ec6ed87eec0478353066eb5d2f1ab45f351",
+    "size_bytes": 65095,
+    "track_b_excluded_from_rq1": true
+  },
+  "status": "EFFECTIVE_SAFE_SCHEMA_AUTHORITY"
+}

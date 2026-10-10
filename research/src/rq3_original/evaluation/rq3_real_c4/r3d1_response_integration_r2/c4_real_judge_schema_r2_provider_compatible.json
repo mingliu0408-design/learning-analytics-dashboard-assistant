@@ -1,0 +1,167 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "actionability": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "clarity": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "context_awareness": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "criterion_rationales": {
+      "additionalProperties": false,
+      "properties": {
+        "actionability": {
+          "type": "string"
+        },
+        "clarity": {
+          "type": "string"
+        },
+        "context_awareness": {
+          "type": "string"
+        },
+        "error_handling": {
+          "type": "string"
+        },
+        "motivation_and_engagement": {
+          "type": "string"
+        },
+        "multi_page_cohesiveness": {
+          "type": "string"
+        },
+        "personalisation": {
+          "type": "string"
+        },
+        "reliability": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "clarity",
+        "personalisation",
+        "actionability",
+        "context_awareness",
+        "motivation_and_engagement",
+        "reliability",
+        "multi_page_cohesiveness",
+        "error_handling"
+      ],
+      "type": "object"
+    },
+    "error_handling": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "evidence_faithfulness": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "string"
+    },
+    "motivation_and_engagement": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "multi_page_cohesiveness": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "personalisation": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "reliability": {
+      "enum": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "NA"
+      ],
+      "type": "string"
+    },
+    "schema_version": {
+      "enum": [
+        "rq3-judge-response-r3d1-r2-transport"
+      ],
+      "type": "string"
+    },
+    "unsupported_claim_count": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "clarity",
+    "personalisation",
+    "actionability",
+    "context_awareness",
+    "motivation_and_engagement",
+    "reliability",
+    "multi_page_cohesiveness",
+    "error_handling",
+    "evidence_faithfulness",
+    "unsupported_claim_count",
+    "criterion_rationales",
+    "schema_version"
+  ],
+  "type": "object"
+}

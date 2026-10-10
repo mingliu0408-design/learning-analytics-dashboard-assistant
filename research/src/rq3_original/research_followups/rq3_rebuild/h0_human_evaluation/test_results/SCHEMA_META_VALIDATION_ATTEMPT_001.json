@@ -1,0 +1,8 @@
+{
+  "status": "UNAVAILABLE_OPTIONAL_DEPENDENCY",
+  "runtime": "bundled Python",
+  "error": "ModuleNotFoundError: No module named 'jsonschema'",
+  "schemas_checked": 0,
+  "environment_mutated": false,
+  "scope": "Optional independent schema metaschema check; standard-library H0 validators already passed"
+}

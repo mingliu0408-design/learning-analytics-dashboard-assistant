@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "rater_id",
+    "role_and_relationship",
+    "training_reference",
+    "independent_final_rating_reference",
+    "consent_or_agreement_reference",
+    "signed_at",
+    "signature"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "rater_id": {
+      "type": "string"
+    },
+    "role_and_relationship": {
+      "type": "string"
+    },
+    "training_reference": {
+      "type": "string"
+    },
+    "independent_final_rating_reference": {
+      "type": "string"
+    },
+    "consent_or_agreement_reference": {
+      "type": "string"
+    },
+    "signed_at": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    }
+  }
+}

@@ -1,3 +1,5 @@
+> Historical v0.1.0 snapshot. Current G0-R1 recovery/publication: [PROJECT_MAP](PROJECT_MAP.md), [RECOVERY](RECOVERY.md), [VALIDATION_G0_R1](VALIDATION_G0_R1.md).
+
 # 来源与贡献边界
 
 本仓库面向技术演示，将可运行的公开界面与已发表的研究复现代码分开。

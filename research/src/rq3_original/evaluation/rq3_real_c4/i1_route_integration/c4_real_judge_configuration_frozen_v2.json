@@ -1,0 +1,32 @@
+{
+  "bootstrap_replicates": 10000,
+  "judge_calls": 0,
+  "judge_manifest_created": false,
+  "judge_prompt_v1_sha256": "9958d922c88c2f1058bd3cac269b1dfb211a3a216b438ab652dea1935214a31b",
+  "judge_prompt_v2_sha256": "5b99b52bef760daa4e2fc8ae6ab13cead7e031b9d41b52d41e88617d906c35f3",
+  "model": "gpt-4.1-2025-04-14",
+  "multiplicity": "HOLM_STEP_DOWN",
+  "primary_criteria": [
+    "CLARITY",
+    "PERSONALISATION",
+    "ACTIONABILITY",
+    "CONTEXT_AWARENESS",
+    "MOTIVATION_AND_ENGAGEMENT",
+    "RELIABILITY",
+    "MULTI_PAGE_COHESIVENESS",
+    "ERROR_HANDLING"
+  ],
+  "primary_outcome": "OVERALL_APPLICABLE_MEAN",
+  "provider_schema_v2_sha256": "caf69ff4e8c27b71805414b29caf3b87fa5da92bf0df0dec23c6945b2019be30",
+  "scale": "1-5_OR_NA_BY_FROZEN_APPLICABILITY",
+  "schema_version": "c4-real-judge-configuration-v2-provider-compatible",
+  "secondary_audits": [
+    "EVIDENCE_FAITHFULNESS",
+    "UNSUPPORTED_CLAIM_COUNT"
+  ],
+  "semantic_contract": "AUTHORITATIVE_V1_UNCHANGED",
+  "semantic_schema_v1_sha256": "351c773e73082f21bbe755f7641eb0660fc240946e3785e66a28ac14ee199857",
+  "status": "TRANSPORT_READY_NO_RESPONSE_NO_JUDGE_REQUEST_NO_CALL",
+  "temperature": 0,
+  "transport_score_encoding": "DECIMAL_STRINGS_NORMALISED_LOCALLY_TO_V1"
+}

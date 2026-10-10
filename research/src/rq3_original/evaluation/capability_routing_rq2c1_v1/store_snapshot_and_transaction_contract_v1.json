@@ -1,0 +1,19 @@
+{
+  "bound_fields": [
+    "validated_plan_fingerprint",
+    "validated_bundle_fingerprint",
+    "snapshot_fingerprint",
+    "store_revision",
+    "condition_id",
+    "request_fingerprint"
+  ],
+  "cross_condition_reuse": false,
+  "cross_query_reuse": false,
+  "cross_revision_reuse": false,
+  "cross_scope_reuse": false,
+  "execution_context_schema": "ValidatedMemoryExecutionContextV1",
+  "restart_from_candidate_generation_after_revision_change": true,
+  "schema_version": "store-snapshot-and-transaction-contract-v1",
+  "snapshot_schema": "StoreSnapshotV1",
+  "stale_revision_failure": "STALE_STORE_SNAPSHOT"
+}

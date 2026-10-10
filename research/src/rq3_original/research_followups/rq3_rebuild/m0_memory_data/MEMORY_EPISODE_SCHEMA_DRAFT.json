@@ -1,0 +1,509 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "runtime",
+    "evaluation_only"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "family_id",
+        "episode_id",
+        "provenance",
+        "source_turns",
+        "setup_operations",
+        "target"
+      ],
+      "properties": {
+        "case_id": {
+          "type": "string"
+        },
+        "family_id": {
+          "type": "string"
+        },
+        "episode_id": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "authoring_origin",
+            "source_permission",
+            "exposure_status",
+            "source_collection_time"
+          ],
+          "properties": {
+            "authoring_origin": {
+              "type": "string"
+            },
+            "source_permission": {
+              "type": "string"
+            },
+            "exposure_status": {
+              "type": "string"
+            },
+            "source_collection_time": {
+              "type": "string"
+            }
+          }
+        },
+        "source_turns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source_turn"
+          }
+        },
+        "setup_operations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/setup_operation"
+          }
+        },
+        "target": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "learner_id",
+            "course_id",
+            "session_id",
+            "as_of",
+            "horizon",
+            "query",
+            "page",
+            "visible_history",
+            "visibility_rule"
+          ],
+          "properties": {
+            "learner_id": {
+              "type": "string"
+            },
+            "course_id": {
+              "type": "string"
+            },
+            "session_id": {
+              "type": "string"
+            },
+            "as_of": {
+              "type": "string"
+            },
+            "horizon": {
+              "type": "string"
+            },
+            "query": {
+              "type": "string"
+            },
+            "page": {
+              "type": "string"
+            },
+            "visible_history": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/visible_turn"
+              }
+            },
+            "visibility_rule": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "evaluation_only": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "persistent_retrieval_needed",
+        "need_rationale",
+        "source_availability",
+        "expected_fact_ids",
+        "expected_facts",
+        "expected_constraints",
+        "visible_fact_ids",
+        "control_condition",
+        "matched_family_ids",
+        "planned_split",
+        "independent_requirement_review",
+        "human_answers",
+        "human_target_utterance",
+        "writer_signature",
+        "reviewer_signature",
+        "review_status"
+      ],
+      "properties": {
+        "persistent_retrieval_needed": {
+          "type": [
+            "boolean",
+            "string",
+            "null"
+          ]
+        },
+        "need_rationale": {
+          "type": "string"
+        },
+        "source_availability": {
+          "type": [
+            "boolean",
+            "string",
+            "null"
+          ]
+        },
+        "expected_fact_ids": {
+          "type": "array",
+          "items": {
+            "type": [
+              "object",
+              "string"
+            ]
+          }
+        },
+        "expected_facts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/expected_fact"
+          }
+        },
+        "expected_constraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/expected_constraint"
+          }
+        },
+        "visible_fact_ids": {
+          "type": "array",
+          "items": {
+            "type": [
+              "object",
+              "string"
+            ]
+          }
+        },
+        "control_condition": {
+          "type": "string"
+        },
+        "matched_family_ids": {
+          "type": "array",
+          "items": {
+            "type": [
+              "object",
+              "string"
+            ]
+          }
+        },
+        "planned_split": {
+          "type": "string"
+        },
+        "independent_requirement_review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "decision",
+            "rationale",
+            "reviewer_role",
+            "reviewed_at"
+          ],
+          "properties": {
+            "decision": {
+              "type": [
+                "boolean",
+                "string",
+                "null"
+              ]
+            },
+            "rationale": {
+              "type": "string"
+            },
+            "reviewer_role": {
+              "type": "string"
+            },
+            "reviewed_at": {
+              "type": "string"
+            }
+          }
+        },
+        "human_answers": {
+          "type": "string"
+        },
+        "human_target_utterance": {
+          "type": "string"
+        },
+        "writer_signature": {
+          "type": "string"
+        },
+        "reviewer_signature": {
+          "type": "string"
+        },
+        "review_status": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:rq3-rebuild:m0:memory-episode-draft:v0",
+  "title": "M0 draft authoring envelope; not a final research contract",
+  "description": "This shell is for authoring only. Runtime and evaluation_only must be exported into separate files before any execution. Empty/null values mean unfilled, never approved negative labels. The synthetic harness accepts its narrower explicit synthetic format only.",
+  "$defs": {
+    "source_turn": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "turn_id",
+        "learner_id",
+        "course_id",
+        "session_id",
+        "timestamp",
+        "role",
+        "content",
+        "source_sha256",
+        "permission_reference",
+        "provenance"
+      ],
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        },
+        "learner_id": {
+          "type": "string"
+        },
+        "course_id": {
+          "type": "string"
+        },
+        "session_id": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "role": {
+          "enum": [
+            "USER",
+            "SYSTEM",
+            "ASSISTANT"
+          ]
+        },
+        "content": {
+          "type": "string"
+        },
+        "source_sha256": {
+          "type": "string"
+        },
+        "permission_reference": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "string"
+        }
+      }
+    },
+    "setup_operation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fact_id",
+        "operation",
+        "source_turn_id",
+        "source_span_chars",
+        "evidence_span",
+        "memory_type",
+        "content",
+        "target_fact_id",
+        "learner_id",
+        "course_id",
+        "valid_from",
+        "valid_to",
+        "event_time",
+        "claim_basis",
+        "consent_status",
+        "confidence_semantics",
+        "source_origin"
+      ],
+      "properties": {
+        "fact_id": {
+          "type": "string"
+        },
+        "operation": {
+          "enum": [
+            "ADD",
+            "UPDATE",
+            "SUPERSEDE",
+            "DELETE",
+            "NOOP",
+            "DISABLE"
+          ]
+        },
+        "source_turn_id": {
+          "type": "string"
+        },
+        "source_span_chars": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "evidence_span": {
+          "type": "string"
+        },
+        "memory_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_fact_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "learner_id": {
+          "type": "string"
+        },
+        "course_id": {
+          "type": "string"
+        },
+        "valid_from": {
+          "type": "string"
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "event_time": {
+          "type": "string"
+        },
+        "claim_basis": {
+          "enum": [
+            "EXPLICIT_USER_STATEMENT",
+            "VERIFIED_SYSTEM_EVENT"
+          ]
+        },
+        "consent_status": {
+          "type": "string"
+        },
+        "confidence_semantics": {
+          "type": "string"
+        },
+        "source_origin": {
+          "type": "string"
+        }
+      }
+    },
+    "expected_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fact_id",
+        "proposition",
+        "source_turn_id",
+        "why_needed",
+        "why_not_visible",
+        "valid_as_of",
+        "expected_current_version",
+        "availability_basis"
+      ],
+      "properties": {
+        "fact_id": {
+          "type": "string"
+        },
+        "proposition": {
+          "type": "string"
+        },
+        "source_turn_id": {
+          "type": "string"
+        },
+        "why_needed": {
+          "type": "string"
+        },
+        "why_not_visible": {
+          "type": "string"
+        },
+        "valid_as_of": {
+          "type": "string"
+        },
+        "expected_current_version": {
+          "type": "string"
+        },
+        "availability_basis": {
+          "type": "string"
+        }
+      }
+    },
+    "visible_turn": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "turn_id",
+        "role",
+        "content",
+        "timestamp",
+        "visibility_reason"
+      ],
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "visibility_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "expected_constraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fact_id",
+        "description",
+        "why_needed",
+        "applicability_scope"
+      ],
+      "properties": {
+        "fact_id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "why_needed": {
+          "type": "string"
+        },
+        "applicability_scope": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

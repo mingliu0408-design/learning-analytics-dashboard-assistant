@@ -1,0 +1,16 @@
+{
+  "automatic_sdk_retries": 0,
+  "endpoint": "OpenAI Chat Completions",
+  "manual_retry": "ONE_IDENTICAL_RETRY_ONLY_INVALID_STRICT_STRUCTURED_OUTPUT",
+  "max_output_tokens": 512,
+  "model": "gpt-4o-mini-2024-07-18",
+  "output_language": "English",
+  "prompt_sha256": "41748d1f3a69ce6623e607551a8473228c0724871e16e392ecd7872b4e550b21",
+  "route_content_in_generation_input": false,
+  "schema_sha256": "46b79822888d72c3c7c78677a7ca9c5daa8f7cf361174258193d8bad597ed0d2",
+  "schema_version": "c4-real-generation-configuration-v1",
+  "status": "FROZEN_UNEXECUTED_NO_CALL_AUTHORIZED_IN_I0",
+  "streaming": false,
+  "temperature": 0,
+  "tools": "NONE"
+}
