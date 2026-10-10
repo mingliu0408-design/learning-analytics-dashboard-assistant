@@ -1,0 +1,553 @@
+{
+  "c0_identity": {
+    "embedding_matrix_sha256": "8b6fb268970c119ec58ce304e1c9ad0380e161fe086713dbf77d432b547bf9d8",
+    "encoder_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "intent_index_sha256": "b4cac34df91c074a4a2fa85e4ccc52623563f3358fe44938771f8303f00b6be9",
+    "router_id": "C0_COSINE"
+  },
+  "capability_signature_distribution": {
+    "000": 7,
+    "001": 1,
+    "010": 2,
+    "011": 1,
+    "100": 1,
+    "101": 2,
+    "110": 1,
+    "111": 1
+  },
+  "capability_yes_counts": {
+    "Memory": 5,
+    "Planning": 5,
+    "RAG": 5
+  },
+  "final_inference_authorized": false,
+  "intent_universe_count": 16,
+  "mapping_id": "R2V2-B1-C0-TO-CAPABILITY-DEV-V1",
+  "mapping_scope": "DEV_ONLY_NOT_FINAL_GENERALIZATION",
+  "mapping_status": "FROZEN_DEV_DERIVED_B1_MAPPING",
+  "mappings": [
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        }
+      },
+      "intent_id": "access_or_capability_question",
+      "observation_status": "UNOBSERVED",
+      "utterance_count": 0,
+      "weighted_observed_family_count": 0.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 1.0,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 1.5
+        },
+        "Planning": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 1.5,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.6666666666666666,
+          "weighted_negative_count": 0.5,
+          "weighted_positive_count": 1.0
+        }
+      },
+      "intent_id": "course_content_question",
+      "observation_status": "OBSERVED",
+      "utterance_count": 3,
+      "weighted_observed_family_count": 1.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.75,
+          "weighted_negative_count": 0.5,
+          "weighted_positive_count": 1.5
+        },
+        "Planning": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.25,
+          "weighted_negative_count": 1.5,
+          "weighted_positive_count": 0.5
+        }
+      },
+      "intent_id": "cross_page_relationship",
+      "observation_status": "OBSERVED",
+      "utterance_count": 4,
+      "weighted_observed_family_count": 2.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.5555555555555556,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 2.5
+        },
+        "Planning": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.8888888888888888,
+          "weighted_negative_count": 0.5,
+          "weighted_positive_count": 4.0
+        },
+        "RAG": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.6666666666666666,
+          "weighted_negative_count": 1.5,
+          "weighted_positive_count": 3.0
+        }
+      },
+      "intent_id": "dashboard_interpretation",
+      "observation_status": "OBSERVED",
+      "utterance_count": 9,
+      "weighted_observed_family_count": 4.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        }
+      },
+      "intent_id": "discrepancy_or_correction",
+      "observation_status": "UNOBSERVED",
+      "utterance_count": 0,
+      "weighted_observed_family_count": 0.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.7142857142857143,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 2.5
+        },
+        "Planning": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.14285714285714285,
+          "weighted_negative_count": 3.0,
+          "weighted_positive_count": 0.5
+        },
+        "RAG": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.2857142857142857,
+          "weighted_negative_count": 2.5,
+          "weighted_positive_count": 1.0
+        }
+      },
+      "intent_id": "emotional_or_justification",
+      "observation_status": "OBSERVED",
+      "utterance_count": 7,
+      "weighted_observed_family_count": 3.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 0.5,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 1.0,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.5
+        },
+        "RAG": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 1.0,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.5
+        }
+      },
+      "intent_id": "hybrid_course_and_planning",
+      "observation_status": "OBSERVED",
+      "utterance_count": 1,
+      "weighted_observed_family_count": 0.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.6,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 3.0
+        },
+        "Planning": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.6,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 3.0
+        },
+        "RAG": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.3,
+          "weighted_negative_count": 3.5,
+          "weighted_positive_count": 1.5
+        }
+      },
+      "intent_id": "improvement_recommendation",
+      "observation_status": "OBSERVED",
+      "utterance_count": 10,
+      "weighted_observed_family_count": 5.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.375,
+          "weighted_negative_count": 2.5,
+          "weighted_positive_count": 1.5
+        },
+        "Planning": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 4.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.75,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 3.0
+        }
+      },
+      "intent_id": "metric_clarification",
+      "observation_status": "OBSERVED",
+      "utterance_count": 8,
+      "weighted_observed_family_count": 4.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        }
+      },
+      "intent_id": "out_of_scope",
+      "observation_status": "UNOBSERVED",
+      "utterance_count": 0,
+      "weighted_observed_family_count": 0.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.3333333333333333,
+          "weighted_negative_count": 3.0,
+          "weighted_positive_count": 1.5
+        },
+        "Planning": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 1.0,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 4.5
+        },
+        "RAG": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 0.5555555555555556,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 2.5
+        }
+      },
+      "intent_id": "planning_or_strategy",
+      "observation_status": "OBSERVED",
+      "utterance_count": 9,
+      "weighted_observed_family_count": 4.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "EXACT_TIE_MINIMUM_NECESSARY_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.5,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 1.0
+        },
+        "Planning": {
+          "decision_reason": "EXACT_TIE_MINIMUM_NECESSARY_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.5,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 1.0
+        },
+        "RAG": {
+          "decision_reason": "EXACT_TIE_MINIMUM_NECESSARY_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.5,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 1.0
+        }
+      },
+      "intent_id": "quantitative_metric_query",
+      "observation_status": "OBSERVED",
+      "utterance_count": 4,
+      "weighted_observed_family_count": 2.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.4,
+          "weighted_negative_count": 1.5,
+          "weighted_positive_count": 1.0
+        },
+        "Planning": {
+          "decision_reason": "STRICTLY_GREATER_THAN_HALF",
+          "mapping": "YES",
+          "mapping_boolean": true,
+          "positive_prevalence": 1.0,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 2.5
+        },
+        "RAG": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.4,
+          "weighted_negative_count": 1.5,
+          "weighted_positive_count": 1.0
+        }
+      },
+      "intent_id": "reflection_structure_question",
+      "observation_status": "OBSERVED",
+      "utterance_count": 5,
+      "weighted_observed_family_count": 2.5
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        }
+      },
+      "intent_id": "social_interaction",
+      "observation_status": "UNOBSERVED",
+      "utterance_count": 0,
+      "weighted_observed_family_count": 0.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "NOT_GREATER_THAN_HALF",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.0,
+          "weighted_negative_count": 2.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "EXACT_TIE_MINIMUM_NECESSARY_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": 0.5,
+          "weighted_negative_count": 1.0,
+          "weighted_positive_count": 1.0
+        }
+      },
+      "intent_id": "technical_data_question",
+      "observation_status": "OBSERVED",
+      "utterance_count": 4,
+      "weighted_observed_family_count": 2.0
+    },
+    {
+      "capabilities": {
+        "Memory": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "Planning": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        },
+        "RAG": {
+          "decision_reason": "UNOBSERVED_INTENT_CONSERVATIVE_NO",
+          "mapping": "NO",
+          "mapping_boolean": false,
+          "positive_prevalence": null,
+          "weighted_negative_count": 0.0,
+          "weighted_positive_count": 0.0
+        }
+      },
+      "intent_id": "unsupported_task",
+      "observation_status": "UNOBSERVED",
+      "utterance_count": 0,
+      "weighted_observed_family_count": 0.0
+    }
+  ],
+  "method": "FAMILY_BALANCED_UTTERANCE_WEIGHT_0_5_STRICT_GT_HALF",
+  "model_id": "R2V2-B1_LEGACY_INTENT",
+  "positive_threshold": "STRICTLY_GREATER_THAN_0.5",
+  "schema_version": "rq2-v2-stage4g-b1-mapping-frozen-v1",
+  "source_answer_utterance_count": 64,
+  "source_family_count": 32,
+  "test_accessed": false,
+  "tie_behavior": "NO_MINIMUM_NECESSARY",
+  "unobserved_intent_count": 5,
+  "unseen_intent_behavior": "NO_CONSERVATIVE_DEFAULT",
+  "utterance_weight": 0.5
+}

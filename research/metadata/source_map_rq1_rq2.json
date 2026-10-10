@@ -1,0 +1,1238 @@
+{
+  "entries": [
+    {
+      "release_path": "src/rq1_original/evaluation/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/__init__.py",
+      "source_sha256": "e6e34b34640b73210d99ba538ed049cfd311cc0aa024217799023b482c64d694",
+      "release_sha256": "e6e34b34640b73210d99ba538ed049cfd311cc0aa024217799023b482c64d694",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3/data_loader.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3/data_loader.py",
+      "source_sha256": "edfe95ec1e63058ed01d1ebf6633fca28a5ea4773cd68907f8646e2501ddae07",
+      "release_sha256": "edfe95ec1e63058ed01d1ebf6633fca28a5ea4773cd68907f8646e2501ddae07",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3/evaluate_ranker.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3/evaluate_ranker.py",
+      "source_sha256": "fe4c94677419d120ca42cd4605e26286364464f0d8f22b6daed9f63db72223c9",
+      "release_sha256": "fe4c94677419d120ca42cd4605e26286364464f0d8f22b6daed9f63db72223c9",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3/feature_builder.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3/feature_builder.py",
+      "source_sha256": "c4d635f9e05e7afa26234d433b8d85792dfdc7cb982c74a25d4a337f4121ea89",
+      "release_sha256": "c4d635f9e05e7afa26234d433b8d85792dfdc7cb982c74a25d4a337f4121ea89",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3/metrics.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3/metrics.py",
+      "source_sha256": "48894c0de34e7d896ed3bb3c75a95bea656bc2a4103c53e11d3fc2ffc9189c8d",
+      "release_sha256": "48894c0de34e7d896ed3bb3c75a95bea656bc2a4103c53e11d3fc2ffc9189c8d",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3/runtime_fidelity.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3/runtime_fidelity.py",
+      "source_sha256": "462c5a9a5b865abbca7695dba8391a141b2654bfaee70620ddedccaafd1dfbe0",
+      "release_sha256": "462c5a9a5b865abbca7695dba8391a141b2654bfaee70620ddedccaafd1dfbe0",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3r/compact_models.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3r/compact_models.py",
+      "source_sha256": "24e4d3338bed588e8775835febcef61e84742c836504162acbba1f10b7a2becb",
+      "release_sha256": "24e4d3338bed588e8775835febcef61e84742c836504162acbba1f10b7a2becb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr3r/compact_train.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr3r/compact_train.py",
+      "source_sha256": "8fc9fc03bb8f95f16b1af4eb479e0b98eaa94273f84c15afa5e8bc99c31c61cd",
+      "release_sha256": "8fc9fc03bb8f95f16b1af4eb479e0b98eaa94273f84c15afa5e8bc99c31c61cd",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b/__init__.py",
+      "source_sha256": "f872e036c01121a74adf4dee2e32401ba4512d09bd2da9ae0e32460d06bc6010",
+      "release_sha256": "f872e036c01121a74adf4dee2e32401ba4512d09bd2da9ae0e32460d06bc6010",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b/build_lr4b_contract.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b/build_lr4b_contract.py",
+      "source_sha256": "42b3ecdbab3084e05c7bf6b01495290530ff23c91ab82beb5d553e67856b5f2d",
+      "release_sha256": "42b3ecdbab3084e05c7bf6b01495290530ff23c91ab82beb5d553e67856b5f2d",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b/context_representation.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b/context_representation.py",
+      "source_sha256": "2fdb8905bcce0aca36435cf42963a964461be883836627ed60b06c5e72c1aad9",
+      "release_sha256": "2fdb8905bcce0aca36435cf42963a964461be883836627ed60b06c5e72c1aad9",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b/contract_schema.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b/contract_schema.py",
+      "source_sha256": "439130ca7c76d09db1007407349c89f42a1bd0411e9195a3803c391a1c3152b8",
+      "release_sha256": "439130ca7c76d09db1007407349c89f42a1bd0411e9195a3803c391a1c3152b8",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/__init__.py",
+      "source_sha256": "e80cd3bfa213d27229b1568f5ff29696134ee9ee1f3bee5f465dc04b4183a24b",
+      "release_sha256": "e80cd3bfa213d27229b1568f5ff29696134ee9ee1f3bee5f465dc04b4183a24b",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/embedding_cache.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/embedding_cache.py",
+      "source_sha256": "4bf8cf54acc329c067cf6485c6e6aa6ba3089f910fbfec821e3d59e10c4b39fb",
+      "release_sha256": "4bf8cf54acc329c067cf6485c6e6aa6ba3089f910fbfec821e3d59e10c4b39fb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/evaluate_dev.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/evaluate_dev.py",
+      "source_sha256": "1a499839dff8fcfda47039762d36cbeca2a3ec6be92c127f9c387b09f19deeeb",
+      "release_sha256": "1a499839dff8fcfda47039762d36cbeca2a3ec6be92c127f9c387b09f19deeeb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/governed_data_loader.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/governed_data_loader.py",
+      "source_sha256": "89f29ca18e59d62838381e8c727f5d6e7133e5b3dca29746060e1df33424caeb",
+      "release_sha256": "89f29ca18e59d62838381e8c727f5d6e7133e5b3dca29746060e1df33424caeb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/model.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/model.py",
+      "source_sha256": "2019aac9657b455afda3a4bf83a0c894f596c8807f563530ca70a5141b81e312",
+      "release_sha256": "2019aac9657b455afda3a4bf83a0c894f596c8807f563530ca70a5141b81e312",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/pair_builder.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/pair_builder.py",
+      "source_sha256": "04070856db53ec8a5e9ca156e2e9bd1a4c5d3b5ab3cbe5e4c00bbfeb5551a1e8",
+      "release_sha256": "04070856db53ec8a5e9ca156e2e9bd1a4c5d3b5ab3cbe5e4c00bbfeb5551a1e8",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/runtime_preflight.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/runtime_preflight.py",
+      "source_sha256": "debd006be63abc54a9e1775da37d0e31cd4c13feb34544f69800faf2ed90748a",
+      "release_sha256": "debd006be63abc54a9e1775da37d0e31cd4c13feb34544f69800faf2ed90748a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/token_budget.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/token_budget.py",
+      "source_sha256": "7a018d72dd350124a0fe6c57bc449b29aa3a6978ba009404440ff26742b037db",
+      "release_sha256": "7a018d72dd350124a0fe6c57bc449b29aa3a6978ba009404440ff26742b037db",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_dev/train_m64.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_dev/train_m64.py",
+      "source_sha256": "4cfdd4d9d51d5540969670defaebd9215dc6adaaaae67074ae8914f76321728b",
+      "release_sha256": "4cfdd4d9d51d5540969670defaebd9215dc6adaaaae67074ae8914f76321728b",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_r1/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_r1/__init__.py",
+      "source_sha256": "c06f824be638e160f0d340907fdc8551ad7b776f9cf19ff3e1aa7d41d793462b",
+      "release_sha256": "c06f824be638e160f0d340907fdc8551ad7b776f9cf19ff3e1aa7d41d793462b",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_r1/keyword_baseline_adapter.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_r1/keyword_baseline_adapter.py",
+      "source_sha256": "80fea193b7cb9de137c313f0dbb45175154d610997814296ab576a2fa7c17391",
+      "release_sha256": "80fea193b7cb9de137c313f0dbb45175154d610997814296ab576a2fa7c17391",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/lr4b_r1/statistical_decision_contract.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/lr4b_r1/statistical_decision_contract.py",
+      "source_sha256": "c0f1d2197976a0c5f425f3844271f8a54942f5cf68c398f8d1664b41f6602f38",
+      "release_sha256": "c0f1d2197976a0c5f425f3844271f8a54942f5cf68c398f8d1664b41f6602f38",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/__init__.py",
+      "source_sha256": "ca3ad498188f30bcd460e93fd1ed8adedd2d12c712c3103810dd23d8f68ebd05",
+      "release_sha256": "afe3b39770cf68a00055cd691925b7912ff7ad40016de4a8726ece2a8c39803e",
+      "adaptations": [
+        "Replace remaining private Downloads prefix with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/authority_contract.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/authority_contract.py",
+      "source_sha256": "8a0982cf0d9c38e0018c980120f2d7d98b5910bd636bf2244aa1b35dcb7b5253",
+      "release_sha256": "8a0982cf0d9c38e0018c980120f2d7d98b5910bd636bf2244aa1b35dcb7b5253",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/checkpoint_loader.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/checkpoint_loader.py",
+      "source_sha256": "6a4b4936f9080ff8c7cdb698922d2a461759fefaec2b1631b2c058062ff29379",
+      "release_sha256": "6a4b4936f9080ff8c7cdb698922d2a461759fefaec2b1631b2c058062ff29379",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/contamination_audit.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/contamination_audit.py",
+      "source_sha256": "896cf6a91f7b6d1e8ab42386ccf756a9dca384d3a2ee3bc8d51e16ad97638d4e",
+      "release_sha256": "896cf6a91f7b6d1e8ab42386ccf756a9dca384d3a2ee3bc8d51e16ad97638d4e",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/final_input_schema.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/final_input_schema.py",
+      "source_sha256": "54964f326241d4fcb41aee0340e9764cb58c868c8e8af2699ee63d44268e1d3a",
+      "release_sha256": "54964f326241d4fcb41aee0340e9764cb58c868c8e8af2699ee63d44268e1d3a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/final_metrics.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/final_metrics.py",
+      "source_sha256": "11c69e746c572fb98cbc52867320937c2398350e92aa4e4fce248c764a1413ec",
+      "release_sha256": "11c69e746c572fb98cbc52867320937c2398350e92aa4e4fce248c764a1413ec",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/evaluation/learned_intent_ranking/rq1c/final_model_runner.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c/final_model_runner.py",
+      "source_sha256": "6916989e690b732fc6ae53b4fe4cb043e1bc2c676ce91dc332cf6f2b78c3a416",
+      "release_sha256": "6916989e690b732fc6ae53b4fe4cb043e1bc2c676ce91dc332cf6f2b78c3a416",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/course_metadata.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/course_metadata.py",
+      "source_sha256": "b8975fc20897fc1b98d2bcb5076e3950300e5498b46cf4793840980a6a1a9d83",
+      "release_sha256": "b8975fc20897fc1b98d2bcb5076e3950300e5498b46cf4793840980a6a1a9d83",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/dashboard_domain_resolver.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/dashboard_domain_resolver.py",
+      "source_sha256": "ec7390c7813c12fa17c6c476e614afb53cbf2c56792e243ff6bc6183ddb528fb",
+      "release_sha256": "ec7390c7813c12fa17c6c476e614afb53cbf2c56792e243ff6bc6183ddb528fb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/evidence_synthesiser.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/evidence_synthesiser.py",
+      "source_sha256": "e7c6214ff5c0c1a5f45e452152c3b47dd7fbf44d2c59fc225395fd47882a1347",
+      "release_sha256": "e7c6214ff5c0c1a5f45e452152c3b47dd7fbf44d2c59fc225395fd47882a1347",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/intent_example_index.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/intent_example_index.py",
+      "source_sha256": "543b8b072c3a568b31f92b7215d10f1f1828d6e8f5246b5eb157bac62c19222a",
+      "release_sha256": "543b8b072c3a568b31f92b7215d10f1f1828d6e8f5246b5eb157bac62c19222a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/intent_schema.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/intent_schema.py",
+      "source_sha256": "4c99eb1a99152903222a36fbe08590b31843b44861a29adb5134a84fd1dd2387",
+      "release_sha256": "4c99eb1a99152903222a36fbe08590b31843b44861a29adb5134a84fd1dd2387",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/production_intent_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/production_intent_router.py",
+      "source_sha256": "e3b7517a6520c35b6b4727249ed536d617b880a25cb23abe5eab020e5912c6b1",
+      "release_sha256": "e3b7517a6520c35b6b4727249ed536d617b880a25cb23abe5eab020e5912c6b1",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq1_original/utils/semantic_intent_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/semantic_intent_router.py",
+      "source_sha256": "10f64166401ac0ecbf1c4d7051420f5406754190f58ce95d3f890d6cc8d0dbe9",
+      "release_sha256": "10f64166401ac0ecbf1c4d7051420f5406754190f58ce95d3f890d6cc8d0dbe9",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/__init__.py",
+      "source_sha256": "e6e34b34640b73210d99ba538ed049cfd311cc0aa024217799023b482c64d694",
+      "release_sha256": "e6e34b34640b73210d99ba538ed049cfd311cc0aa024217799023b482c64d694",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/__init__.py",
+      "source_sha256": "888f484d65eefd12f47da4aae0f7abb6fb85e77756939f19b8438549bc87f6d2",
+      "release_sha256": "888f484d65eefd12f47da4aae0f7abb6fb85e77756939f19b8438549bc87f6d2",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/contracts.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/contracts.py",
+      "source_sha256": "c30956d6d0b79d2055eba758133b68e0c80431ada775be2672ae83517ae9a6d3",
+      "release_sha256": "c30956d6d0b79d2055eba758133b68e0c80431ada775be2672ae83517ae9a6d3",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/interfaces.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/interfaces.py",
+      "source_sha256": "77ef2827360a6967cdcf11100c5391375ac80885a509f39241ad836e41fdc579",
+      "release_sha256": "77ef2827360a6967cdcf11100c5391375ac80885a509f39241ad836e41fdc579",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/metrics.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/metrics.py",
+      "source_sha256": "c2a82107bae60384e27e3fc4e4c6d38df38e9a70e73fbbc027ad13cb9ddd62fb",
+      "release_sha256": "c2a82107bae60384e27e3fc4e4c6d38df38e9a70e73fbbc027ad13cb9ddd62fb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/__init__.py",
+      "source_sha256": "aa69db40cda341465713422d92e2bf4d986300fae0d0599d8d04ffaa1e485f7c",
+      "release_sha256": "aa69db40cda341465713422d92e2bf4d986300fae0d0599d8d04ffaa1e485f7c",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/b0_rule_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/b0_rule_router.py",
+      "source_sha256": "834a457cf996039a4edae4422240f25047af203a07f35d3d8036aab5f9d28c27",
+      "release_sha256": "834a457cf996039a4edae4422240f25047af203a07f35d3d8036aab5f9d28c27",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/b1_legacy_intent_adapter.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/b1_legacy_intent_adapter.py",
+      "source_sha256": "884a37cef06516d6df1e41ab5cd8316bd5e2a3ddbc999d8364e48cdbb7d0458f",
+      "release_sha256": "884a37cef06516d6df1e41ab5cd8316bd5e2a3ddbc999d8364e48cdbb7d0458f",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/__init__.py",
+      "source_sha256": "002ac2602a234a1d0f1b88553c8ee8143bdebbf10123e0acf5b751118161255a",
+      "release_sha256": "002ac2602a234a1d0f1b88553c8ee8143bdebbf10123e0acf5b751118161255a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/canonical_text.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/canonical_text.py",
+      "source_sha256": "d6eaf3216d40e24c22dd4e4a9e47b49f2542460a2c763a330ee348d1c0ed219d",
+      "release_sha256": "d6eaf3216d40e24c22dd4e4a9e47b49f2542460a2c763a330ee348d1c0ed219d",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/development.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/development.py",
+      "source_sha256": "4cc7225955f0ba5656d36e6f08bd771e0c9b27dfbcc57da928ec1ca633259660",
+      "release_sha256": "4cc7225955f0ba5656d36e6f08bd771e0c9b27dfbcc57da928ec1ca633259660",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/embeddings.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/embeddings.py",
+      "source_sha256": "2091e032c49d8aebcf75a3a1381d8cf8ffc2c8b0d3d87dea28975a6131b15565",
+      "release_sha256": "2091e032c49d8aebcf75a3a1381d8cf8ffc2c8b0d3d87dea28975a6131b15565",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/errors.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/errors.py",
+      "source_sha256": "0a532a4da03247a2266af2332062bc32c74f3b80971d69d852289ad9fe30bb00",
+      "release_sha256": "0a532a4da03247a2266af2332062bc32c74f3b80971d69d852289ad9fe30bb00",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/ovr_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/ovr_router.py",
+      "source_sha256": "ff7f4b870cb7ae0e464a2056b722f92f50ff0f6711e2ec946f53d1da4c964e0b",
+      "release_sha256": "ff7f4b870cb7ae0e464a2056b722f92f50ff0f6711e2ec946f53d1da4c964e0b",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/prototype_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/prototype_router.py",
+      "source_sha256": "abbd46ef137a1e1bb581b36a12ad8df61fc9f08e4132a424e825c6b122de6d3a",
+      "release_sha256": "abbd46ef137a1e1bb581b36a12ad8df61fc9f08e4132a424e825c6b122de6d3a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/router_common.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_c_b2_b3/router_common.py",
+      "source_sha256": "21fc177b26fb0614224568f575dfe56f4cade1944519163acb052055e66c2875",
+      "release_sha256": "21fc177b26fb0614224568f575dfe56f4cade1944519163acb052055e66c2875",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/__init__.py",
+      "source_sha256": "1ebb29256d1a091e53fd4c45f6ec007c62af2a01d09559de480f8f5eff0660ab",
+      "release_sha256": "1ebb29256d1a091e53fd4c45f6ec007c62af2a01d09559de480f8f5eff0660ab",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/b4.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/b4.py",
+      "source_sha256": "781266d12291f5fcad1ff4da58c73b73a2c50bcd72647213bc27e829f65caa5b",
+      "release_sha256": "781266d12291f5fcad1ff4da58c73b73a2c50bcd72647213bc27e829f65caa5b",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/mock_provider.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/mock_provider.py",
+      "source_sha256": "98259f63c57e03f2dd9e57ad3c33a33acf3a2130e6d071b076322ac8cabbb9b3",
+      "release_sha256": "98259f63c57e03f2dd9e57ad3c33a33acf3a2130e6d071b076322ac8cabbb9b3",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/p1.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/p1.py",
+      "source_sha256": "249c85812e60f8d200992c401488554f1f7315a791cea8b05267c9f62d9374f7",
+      "release_sha256": "249c85812e60f8d200992c401488554f1f7315a791cea8b05267c9f62d9374f7",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/__init__.py",
+      "source_sha256": "ff4a1243a0654baed7bf7157978d5c87d1f80a359c2518b70d725720498e223c",
+      "release_sha256": "ff4a1243a0654baed7bf7157978d5c87d1f80a359c2518b70d725720498e223c",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate.py",
+      "source_sha256": "ef532e656da3de775a6f33f8cee5defab8e63e2571066b517a115de1234615eb",
+      "release_sha256": "ef532e656da3de775a6f33f8cee5defab8e63e2571066b517a115de1234615eb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/__init__.py",
+      "source_sha256": "050a799b7d2541f3f088cc318f8f197545bf9bebf0b5adc14db45b0ebd15cc9e",
+      "release_sha256": "050a799b7d2541f3f088cc318f8f197545bf9bebf0b5adc14db45b0ebd15cc9e",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/track_h.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/track_h.py",
+      "source_sha256": "90025880bb523fae599060e8acd6c883d7f1aac1532b5c6d0faa97e6bf56ee59",
+      "release_sha256": "b14bbbbc764acd25d4222393b89a23a1697bf4693ee7f3d0bafbba5e274312e4",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/__init__.py",
+      "source_sha256": "21482df4eef97de558a318d3637501298d20815d9484dbeeace9ca6f45cd68f6",
+      "release_sha256": "21482df4eef97de558a318d3637501298d20815d9484dbeeace9ca6f45cd68f6",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/p1_protocol.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/p1_protocol.py",
+      "source_sha256": "b2c865a0e5379b635f94787df035a4d3cb61005cdd1c450d137e17dae819729d",
+      "release_sha256": "b2c865a0e5379b635f94787df035a4d3cb61005cdd1c450d137e17dae819729d",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/__init__.py",
+      "source_sha256": "b75a9c4f8805baca505fd97aad5433731a9e75c2129b95d721010394334ba4fb",
+      "release_sha256": "b75a9c4f8805baca505fd97aad5433731a9e75c2129b95d721010394334ba4fb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_protocol.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_protocol.py",
+      "source_sha256": "811232eff93520c2885eb38742336efa3f3d80d83a9ac771d6ff5db780eeebf3",
+      "release_sha256": "e627ce14a12cb33c64de439cda5baee57d80d07b0963a0c37a2cc92e7a076e35",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/__init__.py",
+      "source_sha256": "dcf6c22b73fe370d62f14e05c1da8ef6a30cb0b654ac1ab492630463293b9da3",
+      "release_sha256": "dcf6c22b73fe370d62f14e05c1da8ef6a30cb0b654ac1ab492630463293b9da3",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_common.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_common.py",
+      "source_sha256": "6dc17319b34944c21d43056b007d1c0ee61ef9e820577d0093226fcd5223688a",
+      "release_sha256": "1efcba26f09bbe27a1e2e9d5d260bc772626fe6d76e4f85b8273096935bef161",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage5/final_scoring/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage5/final_scoring/__init__.py",
+      "source_sha256": "acac0b9626a32371e6f9e9be8ec9b00b567f2283c77e11929c247cc8dc289c8e",
+      "release_sha256": "acac0b9626a32371e6f9e9be8ec9b00b567f2283c77e11929c247cc8dc289c8e",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage5/final_scoring/compositions.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage5/final_scoring/compositions.py",
+      "source_sha256": "2f97bdeb8dd8e8dde10df55f33b785cd40eaffc9ccc5cf3c4944413f29d532e6",
+      "release_sha256": "2f97bdeb8dd8e8dde10df55f33b785cd40eaffc9ccc5cf3c4944413f29d532e6",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage5/final_scoring/constants.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage5/final_scoring/constants.py",
+      "source_sha256": "06737710b9ba2963366026cf40efaff8507f684c250cae37393897911e24f21d",
+      "release_sha256": "43f8fc591f1f045c7fee8c57e95105482f36ee14841fdeccaf8e26cc0c66109e",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes.",
+        "Replace remaining private Downloads prefix with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage5/final_scoring/metrics.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage5/final_scoring/metrics.py",
+      "source_sha256": "e06db76a9f9c722a7a82a7597291e0ed5d59bf7137596d15b90fb392aeef4a50",
+      "release_sha256": "e06db76a9f9c722a7a82a7597291e0ed5d59bf7137596d15b90fb392aeef4a50",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/__init__.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/course_metadata.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/course_metadata.py",
+      "source_sha256": "b8975fc20897fc1b98d2bcb5076e3950300e5498b46cf4793840980a6a1a9d83",
+      "release_sha256": "b8975fc20897fc1b98d2bcb5076e3950300e5498b46cf4793840980a6a1a9d83",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/dashboard_domain_resolver.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/dashboard_domain_resolver.py",
+      "source_sha256": "ec7390c7813c12fa17c6c476e614afb53cbf2c56792e243ff6bc6183ddb528fb",
+      "release_sha256": "ec7390c7813c12fa17c6c476e614afb53cbf2c56792e243ff6bc6183ddb528fb",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/evidence_synthesiser.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/evidence_synthesiser.py",
+      "source_sha256": "e7c6214ff5c0c1a5f45e452152c3b47dd7fbf44d2c59fc225395fd47882a1347",
+      "release_sha256": "e7c6214ff5c0c1a5f45e452152c3b47dd7fbf44d2c59fc225395fd47882a1347",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/intent_example_index.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/intent_example_index.py",
+      "source_sha256": "543b8b072c3a568b31f92b7215d10f1f1828d6e8f5246b5eb157bac62c19222a",
+      "release_sha256": "543b8b072c3a568b31f92b7215d10f1f1828d6e8f5246b5eb157bac62c19222a",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/intent_schema.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/intent_schema.py",
+      "source_sha256": "4c99eb1a99152903222a36fbe08590b31843b44861a29adb5134a84fd1dd2387",
+      "release_sha256": "4c99eb1a99152903222a36fbe08590b31843b44861a29adb5134a84fd1dd2387",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/production_intent_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/production_intent_router.py",
+      "source_sha256": "e3b7517a6520c35b6b4727249ed536d617b880a25cb23abe5eab020e5912c6b1",
+      "release_sha256": "e3b7517a6520c35b6b4727249ed536d617b880a25cb23abe5eab020e5912c6b1",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/utils/semantic_intent_router.py",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/semantic_intent_router.py",
+      "source_sha256": "10f64166401ac0ecbf1c4d7051420f5406754190f58ce95d3f890d6cc8d0dbe9",
+      "release_sha256": "10f64166401ac0ecbf1c4d7051420f5406754190f58ce95d3f890d6cc8d0dbe9",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b0_frozen_config_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b0_frozen_config_v1.json",
+      "source_sha256": "6b7e8fd5beee14c35375785ae5bcbef4490404c390eaeeb666d19a94987df634",
+      "release_sha256": "6b7e8fd5beee14c35375785ae5bcbef4490404c390eaeeb666d19a94987df634",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b1_mapping_frozen_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/b1_mapping_frozen_v1.json",
+      "source_sha256": "b643aeaabaafdcb665add04eabb12f2435a5c9c82262b8721906335fc4261f09",
+      "release_sha256": "b643aeaabaafdcb665add04eabb12f2435a5c9c82262b8721906335fc4261f09",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate_frozen_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate_frozen_v1.json",
+      "source_sha256": "ca411f9ef8711811b3aa5408b79e28463cef432fe3fc31bf106d3fa80a350438",
+      "release_sha256": "ca411f9ef8711811b3aa5408b79e28463cef432fe3fc31bf106d3fa80a350438",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b2_frozen_model_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b2_frozen_model_v1.json",
+      "source_sha256": "fec02db702dd9ce0a86934c4fe626b27944657b92241ce8e35d4cf06c3fbda17",
+      "release_sha256": "3f8013dbce441debb36fc0a89dd7745f4413f7f233dd5c5b43986fee8db4f7db",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b3_frozen_model_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_h_b2_b3/b3_frozen_model_v1.json",
+      "source_sha256": "256315f594687763513d7586f18b76e94e073ec87e3babec842eab9e3430eb32",
+      "release_sha256": "1b6b48f5dde03edda52bf51c64fd30c1d18f2617108d2b08a0d19833fbe6204e",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/p1_final_policy_frozen_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_j_p1_protocol/p1_final_policy_frozen_v1.json",
+      "source_sha256": "011f11ce244b564f87b4a555d8d0b0d4e2113bc9b77ab58c6ba2d5118d58d855",
+      "release_sha256": "011f11ce244b564f87b4a555d8d0b0d4e2113bc9b77ab58c6ba2d5118d58d855",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_response_schema_v2.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_response_schema_v2.json",
+      "source_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "release_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "source_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "release_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_full_dev_prompt_package_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "245a4f74d2428017ab36fc5eaba41c6f617b5ec01c099153b23524a0d33734d5",
+      "release_sha256": "e8f713d93c2487590165a7bcb8c4a2de788580d963b5aff90791f2173d91b87b",
+      "adaptations": [
+        "Replace private source prefix with external_inputs/; no algorithm changes."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_final_full_dev_prompt_package_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "60c5d9de78bf60c2b186c46ab3c935511c2a994bc8974a2bc965e5aa2ffc6f55",
+      "release_sha256": "60c5d9de78bf60c2b186c46ab3c935511c2a994bc8974a2bc965e5aa2ffc6f55",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_final_full_dev_prompt_package_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "ba27b9ee29960d0dfe67389f685e3338ff90b4ed71b57756a0e3abe890eb6875",
+      "release_sha256": "ba27b9ee29960d0dfe67389f685e3338ff90b4ed71b57756a0e3abe890eb6875",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_schema_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_schema_v1.json",
+      "source_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "release_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_schema_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_schema_v1.json",
+      "source_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "release_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_m_specialist_composition/p2_rag_specialist_composition_frozen_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_m_specialist_composition/p2_rag_specialist_composition_frozen_v1.json",
+      "source_sha256": "bf31ac10f8af9532bff3f071835d3db997987fc1e0ae529525f42c65179ee3ad",
+      "release_sha256": "bf31ac10f8af9532bff3f071835d3db997987fc1e0ae529525f42c65179ee3ad",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_m_specialist_composition/p3_rag_memory_specialists_frozen_v1.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_m_specialist_composition/p3_rag_memory_specialists_frozen_v1.json",
+      "source_sha256": "3a05be7546c62e24b571451a80a801338bf2beb7badc126bfe9dcd5f17255c13",
+      "release_sha256": "3a05be7546c62e24b571451a80a801338bf2beb7badc126bfe9dcd5f17255c13",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/schemas/case_v1.schema.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/schemas/case_v1.schema.json",
+      "source_sha256": "d98b22991f351e19fba6d5f6b561448da7e87a34bd7dcf631d08699495590894",
+      "release_sha256": "d98b22991f351e19fba6d5f6b561448da7e87a34bd7dcf631d08699495590894",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage0/schemas/prediction_v1.schema.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage0/schemas/prediction_v1.schema.json",
+      "source_sha256": "b20c482e0ff09614e8b8b9941773500e3ee6a402cfc80371522071e5a3fdfa89",
+      "release_sha256": "b20c482e0ff09614e8b8b9941773500e3ee6a402cfc80371522071e5a3fdfa89",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/rq1/counts.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c_final/rq1c1_final_metrics_v1.json",
+      "source_sha256": "77397fdc3a611eda583904051956769c85a4ec6883fd6b7ada55eaf143167904",
+      "release_sha256": "048ef9fb899d34461996f0dbbc31ded8eecc8ce5d1e038017bdf8acb831765ab",
+      "adaptations": [
+        "Select only frozen rank distributions and confusion matrices; no per-record identity, text or metric targets."
+      ]
+    },
+    {
+      "release_path": "results/reference/rq1_metrics.json",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/learned_intent_ranking/rq1c_final/rq1c1_final_metrics_v1.json",
+      "source_sha256": "77397fdc3a611eda583904051956769c85a4ec6883fd6b7ada55eaf143167904",
+      "release_sha256": "55ced93e7876f7b3e423a69b21de444e172632b7401d1d9560e0dd0c356b834a",
+      "adaptations": [
+        "Select metric targets for comparison only."
+      ]
+    },
+    {
+      "release_path": "data/reproduction/rq2/evaluation_sidecar.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "evaluation_sidecar.jsonl",
+      "source_sha256": "5c71275efb365185c2633da04bd7c1e6192db8f099960dda419d9407a51c039d",
+      "release_sha256": "5c71275efb365185c2633da04bd7c1e6192db8f099960dda419d9407a51c039d",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/rq2/complete_predictions.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_complete_method_predictions_v1.jsonl",
+      "source_sha256": "9e6efb05e8af5f3e7497d94498cbf14f35f5cc9f34375da79f12cda3a0723ca0",
+      "release_sha256": "9e6efb05e8af5f3e7497d94498cbf14f35f5cc9f34375da79f12cda3a0723ca0",
+      "adaptations": []
+    },
+    {
+      "release_path": "results/reference/rq2_final_test_core_method_metrics_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_core_method_metrics_v1.json",
+      "source_sha256": "336cee1ff2a59b73d9c479a7231785aea25b538d4cc92c4f04238e5232c25f84",
+      "release_sha256": "336cee1ff2a59b73d9c479a7231785aea25b538d4cc92c4f04238e5232c25f84",
+      "adaptations": []
+    },
+    {
+      "release_path": "results/reference/rq2_final_test_end_to_end_metrics_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_end_to_end_metrics_v1.json",
+      "source_sha256": "1e9aa6f929211d3bfca7944edb94b407ab6761df24c1e9c036267608938ffaaf",
+      "release_sha256": "1e9aa6f929211d3bfca7944edb94b407ab6761df24c1e9c036267608938ffaaf",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/r7/evaluation_sidecar.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "evaluation_sidecar.jsonl",
+      "source_sha256": "5c71275efb365185c2633da04bd7c1e6192db8f099960dda419d9407a51c039d",
+      "release_sha256": "5c71275efb365185c2633da04bd7c1e6192db8f099960dda419d9407a51c039d",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/r7/predictions_b2_b3.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "predictions_b2_b3.jsonl",
+      "source_sha256": "1f225d3479aa0915b864a600018a64d9e98953caabf787670d31164bf5ad2e95",
+      "release_sha256": "1f225d3479aa0915b864a600018a64d9e98953caabf787670d31164bf5ad2e95",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/metrics.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/metrics.py",
+      "source_sha256": "e06db76a9f9c722a7a82a7597291e0ed5d59bf7137596d15b90fb392aeef4a50",
+      "release_sha256": "e06db76a9f9c722a7a82a7597291e0ed5d59bf7137596d15b90fb392aeef4a50",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/compositions.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/compositions.py",
+      "source_sha256": "2f97bdeb8dd8e8dde10df55f33b785cd40eaffc9ccc5cf3c4944413f29d532e6",
+      "release_sha256": "2f97bdeb8dd8e8dde10df55f33b785cd40eaffc9ccc5cf3c4944413f29d532e6",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/constants.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/constants.py",
+      "source_sha256": "06737710b9ba2963366026cf40efaff8507f684c250cae37393897911e24f21d",
+      "release_sha256": "43f8fc591f1f045c7fee8c57e95105482f36ee14841fdeccaf8e26cc0c66109e",
+      "adaptations": [
+        "Replace private directory prefixes with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/track_h.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/track_h.py",
+      "source_sha256": "90025880bb523fae599060e8acd6c883d7f1aac1532b5c6d0faa97e6bf56ee59",
+      "release_sha256": "b14bbbbc764acd25d4222393b89a23a1697bf4693ee7f3d0bafbba5e274312e4",
+      "adaptations": [
+        "Replace private directory prefixes with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/canonical_text.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/canonical_text.py",
+      "source_sha256": "d6eaf3216d40e24c22dd4e4a9e47b49f2542460a2c763a330ee348d1c0ed219d",
+      "release_sha256": "d6eaf3216d40e24c22dd4e4a9e47b49f2542460a2c763a330ee348d1c0ed219d",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/b2_frozen_model_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/b2_frozen_model_v1.json",
+      "source_sha256": "fec02db702dd9ce0a86934c4fe626b27944657b92241ce8e35d4cf06c3fbda17",
+      "release_sha256": "3f8013dbce441debb36fc0a89dd7745f4413f7f233dd5c5b43986fee8db4f7db",
+      "adaptations": [
+        "Replace private directory prefixes with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "src/rq2_original/r7/sources/b3_frozen_model_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/b3_frozen_model_v1.json",
+      "source_sha256": "256315f594687763513d7586f18b76e94e073ec87e3babec842eab9e3430eb32",
+      "release_sha256": "1b6b48f5dde03edda52bf51c64fd30c1d18f2617108d2b08a0d19833fbe6204e",
+      "adaptations": [
+        "Replace private directory prefixes with external_inputs/."
+      ]
+    },
+    {
+      "release_path": "data/reproduction/r7/sources/final_test_complete_method_predictions_v1.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_complete_method_predictions_v1.jsonl",
+      "source_sha256": "9e6efb05e8af5f3e7497d94498cbf14f35f5cc9f34375da79f12cda3a0723ca0",
+      "release_sha256": "9e6efb05e8af5f3e7497d94498cbf14f35f5cc9f34375da79f12cda3a0723ca0",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/r7/sources/final_test_core_method_metrics_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_core_method_metrics_v1.json",
+      "source_sha256": "336cee1ff2a59b73d9c479a7231785aea25b538d4cc92c4f04238e5232c25f84",
+      "release_sha256": "336cee1ff2a59b73d9c479a7231785aea25b538d4cc92c4f04238e5232c25f84",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/r7/sources/final_test_end_to_end_metrics_v1.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/final_test_end_to_end_metrics_v1.json",
+      "source_sha256": "1e9aa6f929211d3bfca7944edb94b407ab6761df24c1e9c036267608938ffaaf",
+      "release_sha256": "1e9aa6f929211d3bfca7944edb94b407ab6761df24c1e9c036267608938ffaaf",
+      "adaptations": []
+    },
+    {
+      "release_path": "data/reproduction/r7/sources/original_deterministic.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/original_deterministic.jsonl",
+      "source_sha256": "3f0cad65e0d08a011e7514ddcce10fda4ac4fcb4b2d104ed6ae4e0c0e2b67f90",
+      "release_sha256": "e382905f162c51d9f7f4875379fcab4bf217f57a03d557175077e7c0ac5e028e",
+      "adaptations": [
+        "Keep only anonymous IDs and original bits/scores/probabilities; exclude execution metadata."
+      ]
+    },
+    {
+      "release_path": "data/reproduction/r7/sources/original_b4.jsonl",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "sources/original_b4.jsonl",
+      "source_sha256": "f8c0c0e8e1debc34b99107ee6b1850391a911bfcb15e16be82bcb54c562d5270",
+      "release_sha256": "ac6518982204763807931c8a175304e9909ef346b4939b4b491517b32bb9d13c",
+      "adaptations": [
+        "Keep only anonymous IDs and terminal capability bits."
+      ]
+    },
+    {
+      "release_path": "results/reference/r7_METRICS_ALL.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "METRICS_ALL.json",
+      "source_sha256": "0b2cd06575bd1edd015e0e1bca6b0a85c49debbe80de51d4cabebefe87b08c2e",
+      "release_sha256": "0b2cd06575bd1edd015e0e1bca6b0a85c49debbe80de51d4cabebefe87b08c2e",
+      "adaptations": []
+    },
+    {
+      "release_path": "results/reference/r7_CHANGE_SUMMARY.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "CHANGE_SUMMARY.json",
+      "source_sha256": "e91cbd7c54991ac5768296c5f4600563450140a0ac9ff725047ecd769200a594",
+      "release_sha256": "e91cbd7c54991ac5768296c5f4600563450140a0ac9ff725047ecd769200a594",
+      "adaptations": []
+    },
+    {
+      "release_path": "results/reference/r7_ALL_METRIC_DELTAS.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "ALL_METRIC_DELTAS.json",
+      "source_sha256": "e9b68342f20725442f5565b8d3133dc906f06c17ac15abbd3ae9a4206ea672e4",
+      "release_sha256": "e9b68342f20725442f5565b8d3133dc906f06c17ac15abbd3ae9a4206ea672e4",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/analyze.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "analyze.py",
+      "source_sha256": "5efd30261f8bd8d5ad3be28b64c6c458fa05aee08ee52077121b195340731d62",
+      "release_sha256": "7bf725d8b9b89f4b6b256b5e46a93bd2150798c0f2ba2d37cc178c9a7ae5b583",
+      "adaptations": [
+        "Remove private-tree input preparation only; unchanged frozen analysis calculations."
+      ]
+    },
+    {
+      "release_path": "configs/r7_encoder_runtime.json",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "RUNTIME_ENCODER_SETTINGS.json",
+      "source_sha256": "9baa0ca3c47ada6d3259f761b3b3bd79a051abf696ef461777b2ab555cd7bb28",
+      "release_sha256": "9baa0ca3c47ada6d3259f761b3b3bd79a051abf696ef461777b2ab555cd7bb28",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/prompt_template.txt",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage1/track_d_b4_p1/prompt_template.txt",
+      "source_sha256": "cfb470741a5c96bb0038c46aec964d9acd3a88b23a7e2175d3bf73b5b5f14a20",
+      "release_sha256": "cfb470741a5c96bb0038c46aec964d9acd3a88b23a7e2175d3bf73b5b5f14a20",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_prompt_frozen_v1.txt",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_prompt_frozen_v1.txt",
+      "source_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "release_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_prompt_frozen_v1.txt",
+      "source_component": "RQ3_code_freeze_A",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_prompt_frozen_v1.txt",
+      "source_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "release_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "adaptations": []
+    },
+    {
+      "release_path": "src/rq2_original/r7/run_inference_original.py",
+      "source_component": "frozen_R7_zip",
+      "source_commit": null,
+      "source_path": "run_inference.py",
+      "source_sha256": "e400b29276c7e006ba9362a40342b62419e1ffe057a018eef598af74a60f8fa0",
+      "release_sha256": "e400b29276c7e006ba9362a40342b62419e1ffe057a018eef598af74a60f8fa0",
+      "adaptations": []
+    }
+  ],
+  "release_wrappers": [
+    {
+      "release_path": "reproduce/rq1.py",
+      "release_sha256": "d664fec7e75620416289d08fb91f3af8db1ff4c0a762ff446c25911dd857209b",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "reproduce/rq2.py",
+      "release_sha256": "181a9f307f172f6af66fa540a1753d703227268b3856ec1a526cfaf48ebc75ae",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "reproduce/r7_infer.py",
+      "release_sha256": "77669ed31a800ffd97b5aee9618132e80314fc160ed7ef3c8225bda39f5c1f11",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "reproduce/r7.py",
+      "release_sha256": "37a680acaf3e610f20e3be93929ce49e04cb44ed4236d09138a503b472d1099a",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "checks/test_rq1_rq2.py",
+      "release_sha256": "8455efc8d2f030541c8dcae180b6bcf5de863cf2e437053d03cb93bf4170071f",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "docs/RQ1_RQ2.md",
+      "release_sha256": "8e99e77782ca137738a963f0eed6ab7e4f84a1079fd8bfaf2ec20f8f4a440656",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "prompts/rq2/README.md",
+      "release_sha256": "6a664a61727d95f69d376a144f5aaa3072b77f676ad1d5b54802179017bd9e55",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "configs/schemas/r7_semantic_input.schema.json",
+      "release_sha256": "3d61a875e6a2171626cf1a1ce9364609001090c3a24c19cf7fdbab17a81c2fe4",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    },
+    {
+      "release_path": "configs/schemas/rq1_individual_prediction.schema.json",
+      "release_sha256": "6ece03754cc320abd9d7a26327089e2a0c20774d51b7771307ec4f871b987843",
+      "status": "NEW_RELEASE_ADAPTER_OR_DOCUMENTATION",
+      "purpose": "Portable saved-data analysis, dependency-safe optional inference, explicit input boundary or bounded contract verification."
+    }
+  ]
+}

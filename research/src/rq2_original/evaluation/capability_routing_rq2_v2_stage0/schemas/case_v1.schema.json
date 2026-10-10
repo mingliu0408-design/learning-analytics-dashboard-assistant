@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dute.local/schemas/rq2-v2-case-v1.schema.json",
+  "title": "RQ2-V2 canonical case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "scenario_family_id",
+    "utterance_id",
+    "provenance",
+    "partition",
+    "model_input",
+    "gold",
+    "governance"
+  ],
+  "properties": {
+    "schema_version": {"const": "rq2-v2-case-v1"},
+    "case_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "scenario_family_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "utterance_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "source_asset_id",
+        "prior_exposure_to_model_selection",
+        "human_verified"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "AUTHENTIC",
+            "HUMAN_ELICITED",
+            "RESEARCHER_SYNTHETIC",
+            "LLM_AUGMENTED"
+          ]
+        },
+        "source_asset_id": {"type": "string", "minLength": 1},
+        "prior_exposure_to_model_selection": {"type": "boolean"},
+        "human_verified": {"type": "boolean"},
+        "augmentation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "source_family_id",
+            "source_partition",
+            "generator_model",
+            "generator_version",
+            "generation_prompt_id"
+          ],
+          "properties": {
+            "source_family_id": {"type": "string", "minLength": 1},
+            "source_partition": {"const": "DEV"},
+            "generator_model": {"type": "string", "minLength": 1},
+            "generator_version": {"type": "string", "minLength": 1},
+            "generation_prompt_id": {"type": "string", "minLength": 1}
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"type": {"const": "LLM_AUGMENTED"}}},
+          "then": {"required": ["augmentation"]},
+          "else": {"not": {"required": ["augmentation"]}}
+        }
+      ]
+    },
+    "partition": {"enum": ["DEV", "TEST", "PILOT"]},
+    "model_input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "current_query",
+        "current_page",
+        "dashboard_context",
+        "visible_conversation_history",
+        "rag_context_state",
+        "memory_context_state"
+      ],
+      "properties": {
+        "current_query": {"type": "string", "minLength": 1},
+        "current_page": {
+          "enum": ["Overview", "Resources", "Lecture", "Debate", "Reflection", "Other"]
+        },
+        "dashboard_context": {"type": "string"},
+        "visible_conversation_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "content"],
+            "properties": {
+              "role": {"enum": ["user", "assistant"]},
+              "content": {"type": "string", "minLength": 1}
+            }
+          }
+        },
+        "rag_context_state": {
+          "enum": [
+            "PROVIDED_IN_INPUT",
+            "RETRIEVAL_AVAILABLE",
+            "RETRIEVAL_UNAVAILABLE",
+            "UNKNOWN"
+          ]
+        },
+        "memory_context_state": {
+          "enum": [
+            "VISIBLE_HISTORY_ONLY",
+            "LONG_TERM_MEMORY_AVAILABLE",
+            "LONG_TERM_MEMORY_UNAVAILABLE",
+            "UNKNOWN"
+          ]
+        }
+      }
+    },
+    "gold": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dialogue_action",
+        "rag_required",
+        "memory_required",
+        "planning_required"
+      ],
+      "properties": {
+        "dialogue_action": {"enum": ["ANSWER", "CLARIFY"]},
+        "rag_required": {"type": "boolean"},
+        "memory_required": {"type": "boolean"},
+        "planning_required": {"type": "boolean"}
+      }
+    },
+    "governance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "final_test_eligible",
+        "fixture_only",
+        "authentic_student_data_claim",
+        "contains_restricted_data"
+      ],
+      "properties": {
+        "final_test_eligible": {"type": "boolean"},
+        "fixture_only": {"type": "boolean"},
+        "authentic_student_data_claim": {"type": "boolean"},
+        "contains_restricted_data": {"type": "boolean"}
+      }
+    },
+    "contrast": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contrast_set_id", "contrast_axis", "variant_id"],
+      "properties": {
+        "contrast_set_id": {"type": "string", "minLength": 1},
+        "contrast_axis": {"enum": ["RAG", "MEMORY", "PLANNING"]},
+        "variant_id": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "gold": {
+            "properties": {"dialogue_action": {"const": "CLARIFY"}},
+            "required": ["dialogue_action"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "gold": {
+            "properties": {
+              "rag_required": {"const": false},
+              "memory_required": {"const": false},
+              "planning_required": {"const": false}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "governance": {
+            "properties": {"fixture_only": {"const": true}},
+            "required": ["fixture_only"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "governance": {
+            "properties": {
+              "final_test_eligible": {"const": false},
+              "authentic_student_data_claim": {"const": false},
+              "contains_restricted_data": {"const": false}
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+

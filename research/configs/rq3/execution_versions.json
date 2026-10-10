@@ -1,0 +1,1551 @@
+{
+  "source_archive_sha256": "e042e7eae09119ca640d70e812fc8e3b3ac44fa5b91479d448a799f4a9a6f65d",
+  "source_response_manifest_member": "results/RESPONSE_HANDOFF.jsonl",
+  "selected_run_counts": {
+    "A": 168,
+    "A1": 12,
+    "A2": 3,
+    "A3": 63
+  },
+  "bindings": {
+    "results/parent_sources/experiments/rq3_original25_plus_review_r1/confirmed41_generation_2026-09-07/results/run/RUN_BINDING.json": {
+      "git_head": "911202546d094d3d6cf82d0db22088ea10e3648d",
+      "role_contract_version": "REUSED62_REPLAY_INTERFACE_V1",
+      "config_sha256": "a8be03fbf6cadf6a1e2990fa6f12db45ab8685f8848bb30ec04a8f69b49616e3"
+    },
+    "results/parent_sources/experiments/rq3_original25_plus_review_r1/confirmed41_remaining_generation_2026-09-08/results/run/RUN_BINDING.json": {
+      "git_head": "83f49fda604733416480f54499f3630b49a0e104",
+      "interface_version": "A1_PLANNING_INTENT_DECLARED_SOURCE_TIME_V1",
+      "role_contract_version": "REUSED62_REPLAY_INTERFACE_V1",
+      "data_revision": "ORIGINAL25_PLUS_REVIEW_R1",
+      "recovery_version": "CONFIRMED41_NETWORK_RECOVERY_V1",
+      "config_sha256": "e8e946039dfc834a76c32756ebff7999e04c766df2350d37419e5d05569a979b"
+    },
+    "results/parent_sources/experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/results/run/RUN_BINDING.json": {
+      "git_head": "c73a90e18ec90f75187675b20e4b30db04dd18e7",
+      "interface_version": "A1_PLANNING_INTENT_DECLARED_SOURCE_TIME_V1",
+      "role_contract_version": "REUSED62_REPLAY_INTERFACE_V1",
+      "data_revision": "ORIGINAL25_PLUS_REVIEW_R1",
+      "config_sha256": "8a166943ed1a9312dc563c020b61fb5370af7d40978e230dc52bb7b536b3e76d"
+    },
+    "results/run/RUN_BINDING.json": {
+      "git_head": "54e1dafe59d0cc9215856387cad92af9acd097b3",
+      "interface_version": "A1_PLANNING_INTENT_DECLARED_SOURCE_TIME_V1",
+      "role_contract_version": "REUSED62_REPLAY_INTERFACE_V1",
+      "data_revision": "ORIGINAL25_PLUS_REVIEW_R1",
+      "recovery_version": "CONFIRMED41_MEMORY_PROCESS_ISOLATION_V1",
+      "config_sha256": "db3335a2950f0fe2903604df8bf2ae1a7af253a98a2d101c84da2943be126f62"
+    }
+  },
+  "selected_slots": [
+    {
+      "task_id": "original-01",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-01",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-01",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-01",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-01",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-01",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-03",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-06",
+      "mode": "S5_FULL",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-08",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-10",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-11",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-12",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-13",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-15",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-16",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-17",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-19",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-20",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-21",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-23",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-24",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "original-25",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "mode": "S5_FULL",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "mode": "S5_FULL",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-373926448336",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "mode": "S5_FULL",
+      "selected_run": "A",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "mode": "S5_FULL",
+      "selected_run": "A1",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A2",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A2",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A2",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-013459503624",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S0_PAGE_ONLY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S1_CROSS_PAGE_EVIDENCE",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S2_EVIDENCE_RAG",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S3_EVIDENCE_MEMORY",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S4_EVIDENCE_PLANNING",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "mode": "S5_FULL",
+      "selected_run": "A3",
+      "status": "ACCEPTED"
+    }
+  ],
+  "export_source_comparison_with_A3_execution": [
+    {
+      "path": "utils/c4_rebuild/i1/renderer.py",
+      "a3_execution_sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+      "export_source_sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+      "identical": true
+    },
+    {
+      "path": "research_followups/rq3_rebuild/a_reuse62/interfaces.py",
+      "a3_execution_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "export_source_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "identical": true
+    },
+    {
+      "path": "research_followups/rq3_rebuild/i5_typed_action_planner/typed_v1.py",
+      "a3_execution_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "export_source_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "identical": true
+    },
+    {
+      "path": "experiments/rq3_original25_plus_review_r1/adapter.py",
+      "a3_execution_sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+      "export_source_sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+      "identical": true
+    },
+    {
+      "path": "experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/interface_a1.py",
+      "a3_execution_sha256": "b31ac0d81d6b65cf7881ad130b3b57626b16b0ecb449db36ca99be5a6c6a3354",
+      "export_source_sha256": "b31ac0d81d6b65cf7881ad130b3b57626b16b0ecb449db36ca99be5a6c6a3354",
+      "identical": true
+    }
+  ],
+  "not_a_claim": "Selected answers were preserved from multiple execution stages. Exported current source is not attributed retroactively to every historical response. Private prompt payloads, source contents, identities and raw answers are withheld."
+}

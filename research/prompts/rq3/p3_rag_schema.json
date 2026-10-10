@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "rag_required": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "rag_required"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,209 @@
+{
+  "MEMORY_SPECIALIST_STATUS": "FROZEN_AFTER_DEV_EXECUTION",
+  "execution_evidence": {
+    "attempt_records_sha256": "d13e83f8ae8aff6216d79e1e71b2bcf530d9fbb73e643561e1ca90d6fa50ad72",
+    "call_journal_sha256": "852e791723d88dac0e9ba66305c6ec9ea72376b647cae2ff2e2a1bc8041fe4c0",
+    "dev_predictions_sha256": "386f3695af5fa966e4c851d431a574c88ea803feccf6190534380cb106626b85",
+    "frozen_source_verification_sha256": "1cc33aeccafd9481513a5db5167b7fc97e172542cb2a80435db62044fbb47fb6",
+    "logical_terminal_results": 64,
+    "manifest_v1_sha256": "403e738b95fd2e8a2a9930eacdf6c073b755544bd2ebd32ed5a0f2e279d1ac0d",
+    "manifest_v2_sha256": "89796ddc65683fa25747cfbd4704fee3ff1a29e1837bc1382b4c8d04fb4f30cf",
+    "physical_attempts": 64,
+    "requested_models": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "retries": 0,
+    "returned_models": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "terminal_results_sha256": "1f910711cccee3e26bcf09aa23d1409bd4cc2e6f23bc8914827c82d662c367ab",
+    "valid_predictions": 64
+  },
+  "execution_scope": "64_FROZEN_DEV_ANSWER_UTTERANCES_MEMORY_ONLY",
+  "final_full_dev_examples_and_order": {
+    "complete_rendered_full_dev_package_sha256": "9fa8db7df4f848c7fe6b4795446f99f11ee97b82c9f4746144d3ddc997923ec9",
+    "example_count": 8,
+    "example_id_order_sha256": "b6e8a62a1891fd314f3062353d0f6d29a0d5a57c5955ef950bb24ff7f866100a",
+    "example_ids": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "prompt_package_filename": "memory_specialist_final_full_dev_prompt_package_v1.json",
+    "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+    "signatures": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "specialist_example_set_sha256": "57a7aecd53710a1587388711177d7564f4560f1a8729939d445268d2514d3eb4",
+    "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+    "target_no_count": 4,
+    "target_yes_count": 4
+  },
+  "fold_specific_examples_and_order": {
+    "DEV-CV-FOLD-1": {
+      "complete_rendered_fold_package_sha256": "eb985ab93f8d56c2773ff8b5048eeeb1c9ed189f218dff184875e8a6a0547628",
+      "example_count": 8,
+      "example_id_order_sha256": "ce5cb83d25e94a2dee2797a217f74e6a6666275af4adbba958b184fc4ac55961",
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-049",
+        "R2V2-ANN-037",
+        "R2V2-ANN-038",
+        "R2V2-ANN-035",
+        "R2V2-ANN-084",
+        "R2V2-ANN-090",
+        "R2V2-ANN-030"
+      ],
+      "prompt_package_filename": "memory_specialist_dev_cv_fold_1_prompt_package_v1.json",
+      "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "specialist_example_set_sha256": "243c8af9ef8aa68e8286765d089c59ada7767e6b808a80741cbcfbba10ebfd1a",
+      "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "target_no_count": 4,
+      "target_yes_count": 4
+    },
+    "DEV-CV-FOLD-2": {
+      "complete_rendered_fold_package_sha256": "eec3320e47b866f43e7da69c3dee084b7eaaa8691f38ac16b5d5d6c25fb9a836",
+      "example_count": 8,
+      "example_id_order_sha256": "7f8d7107a850ff85b8057b1b954d1f0e1e70fff80bfb07e3b9314e62f472c0f5",
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-049",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-058",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "prompt_package_filename": "memory_specialist_dev_cv_fold_2_prompt_package_v1.json",
+      "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "specialist_example_set_sha256": "0e6ae20501840655d233cb34ee85864ab73abbd41bc26c313f3155935ed07b88",
+      "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "target_no_count": 4,
+      "target_yes_count": 4
+    },
+    "DEV-CV-FOLD-3": {
+      "complete_rendered_fold_package_sha256": "dafe4f9521b055c3adbbafddf07344e2a3d9a36d58ba30dac0fd6641c749554d",
+      "example_count": 8,
+      "example_id_order_sha256": "ab9a6f65f51f495fe2388b43a03daa1fb2a8d0c4c0f02b9ef52eb923e319c720",
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-021",
+        "R2V2-ANN-037",
+        "R2V2-ANN-103",
+        "R2V2-ANN-034",
+        "R2V2-ANN-017",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "prompt_package_filename": "memory_specialist_dev_cv_fold_3_prompt_package_v1.json",
+      "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "specialist_example_set_sha256": "4deaea66e25aa50eafe9e90105632089026f2e165ef0a21220b2e4d09f8a06ef",
+      "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "target_no_count": 4,
+      "target_yes_count": 4
+    },
+    "DEV-CV-FOLD-4": {
+      "complete_rendered_fold_package_sha256": "335ba7bc320f19935c5a86dc667123d15e0356102a3d3a63260ce98eca6899fc",
+      "example_count": 8,
+      "example_id_order_sha256": "881d2e88e784f0d46406ddef6fc40551a7082e66d55aa41c2f521966cd76d90e",
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-021",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-034",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "prompt_package_filename": "memory_specialist_dev_cv_fold_4_prompt_package_v1.json",
+      "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "specialist_example_set_sha256": "63ecf6b2ca3cbdd9935b48d07881a29b0ca9ce63837f215ec7cbdf59129e0404",
+      "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "target_no_count": 4,
+      "target_yes_count": 4
+    }
+  },
+  "manual_retry_policy": {
+    "correction_message_added": false,
+    "identical_request_required": true,
+    "maximum_retries_per_logical_case": 1,
+    "only_after": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED"
+    ],
+    "silent_repair_allowed": false
+  },
+  "maximum_output_tokens": 32,
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+  "provider_call_boundary": {
+    "further_authority_inferred": false,
+    "future_held_out_calls_or_access": 0,
+    "memory_specialist_dev_logical_calls": 64,
+    "memory_specialist_dev_physical_attempts": 64,
+    "p1_calls_or_execution": 0,
+    "p2_calls_or_scoring": 0,
+    "p3_calls_or_scoring": 0,
+    "rag_specialist_calls": 0,
+    "rq3_calls_or_execution": 0
+  },
+  "schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+  "schema_version": "rq2-v2-stage4-l-memory-specialist-frozen-configuration-v1",
+  "sdk_transport_retries": 0,
+  "stream": false,
+  "temperature": 0
+}

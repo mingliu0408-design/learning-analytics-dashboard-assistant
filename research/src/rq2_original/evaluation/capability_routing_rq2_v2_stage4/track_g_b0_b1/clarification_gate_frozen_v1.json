@@ -1,0 +1,549 @@
+{
+  "candidate_file_sha256": "2fafc85335237943bb600eb7b8acb43a0facf8b26b90aec7aafdefd9acbf7b4e",
+  "candidate_metrics": {
+    "R2V2-CG1-C01_REFERENCE_MULTI_TARGET_UNSELECTED": {
+      "clarify": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 8
+      },
+      "dialogue_action_accuracy": 1.0,
+      "false_clarify_rate_on_gold_answer": 0.0,
+      "family_both_utterances_correct": {
+        "correct_families": 36,
+        "family_count": 36,
+        "rate": 1.0
+      },
+      "gold_answer_count": 64,
+      "gold_clarify_count": 8,
+      "page_stratified_metrics": {
+        "Debate": {
+          "clarify": {
+            "f1": 0.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 0,
+          "population_count": 14
+        },
+        "Lecture": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Overview": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Reflection": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Resources": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 8,
+            "family_count": 8,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 2,
+          "population_count": 16
+        }
+      },
+      "population_count": 72,
+      "writer_a_vs_writer_b_metrics": {
+        "reason": "Writer identity is absent from the frozen Stage 4-0 DEV inputs and cannot be inferred from identifiers.",
+        "status": "NOT_AVAILABLE_AUTHORIZED_WRITER_JOIN_ABSENT"
+      }
+    },
+    "R2V2-CG1-C02_REFERENCE_MULTI_TARGET_OR_TEMPORAL": {
+      "clarify": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 8
+      },
+      "dialogue_action_accuracy": 1.0,
+      "false_clarify_rate_on_gold_answer": 0.0,
+      "family_both_utterances_correct": {
+        "correct_families": 36,
+        "family_count": 36,
+        "rate": 1.0
+      },
+      "gold_answer_count": 64,
+      "gold_clarify_count": 8,
+      "page_stratified_metrics": {
+        "Debate": {
+          "clarify": {
+            "f1": 0.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 0,
+          "population_count": 14
+        },
+        "Lecture": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Overview": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Reflection": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Resources": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 8,
+            "family_count": 8,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 2,
+          "population_count": 16
+        }
+      },
+      "population_count": 72,
+      "writer_a_vs_writer_b_metrics": {
+        "reason": "Writer identity is absent from the frozen Stage 4-0 DEV inputs and cannot be inferred from identifiers.",
+        "status": "NOT_AVAILABLE_AUTHORIZED_WRITER_JOIN_ABSENT"
+      }
+    },
+    "R2V2-CG1-C03_REFERENCE_ANY_TARGET_OR_TEMPORAL": {
+      "clarify": {
+        "f1": 1.0,
+        "false_negative": 0,
+        "false_positive": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true_positive": 8
+      },
+      "dialogue_action_accuracy": 1.0,
+      "false_clarify_rate_on_gold_answer": 0.0,
+      "family_both_utterances_correct": {
+        "correct_families": 36,
+        "family_count": 36,
+        "rate": 1.0
+      },
+      "gold_answer_count": 64,
+      "gold_clarify_count": 8,
+      "page_stratified_metrics": {
+        "Debate": {
+          "clarify": {
+            "f1": 0.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 0,
+          "population_count": 14
+        },
+        "Lecture": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Overview": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Reflection": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 7,
+            "family_count": 7,
+            "rate": 1.0
+          },
+          "gold_answer_count": 12,
+          "gold_clarify_count": 2,
+          "population_count": 14
+        },
+        "Resources": {
+          "clarify": {
+            "f1": 1.0,
+            "false_negative": 0,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "dialogue_action_accuracy": 1.0,
+          "false_clarify_rate_on_gold_answer": 0.0,
+          "family_both_utterances_correct": {
+            "correct_families": 8,
+            "family_count": 8,
+            "rate": 1.0
+          },
+          "gold_answer_count": 14,
+          "gold_clarify_count": 2,
+          "population_count": 16
+        }
+      },
+      "population_count": 72,
+      "writer_a_vs_writer_b_metrics": {
+        "reason": "Writer identity is absent from the frozen Stage 4-0 DEV inputs and cannot be inferred from identifiers.",
+        "status": "NOT_AVAILABLE_AUTHORIZED_WRITER_JOIN_ABSENT"
+      }
+    }
+  },
+  "candidate_mutation_after_scoring": false,
+  "clarification_code_sha256": "ef532e656da3de775a6f33f8cee5defab8e63e2571066b517a115de1234615eb",
+  "gate_id": "R2V2-CG1_CLARIFICATION_RULE",
+  "oof_error_count": 0,
+  "oof_prediction_count": 72,
+  "outer_folds": [
+    "DEV-CV-FOLD-1",
+    "DEV-CV-FOLD-2",
+    "DEV-CV-FOLD-3",
+    "DEV-CV-FOLD-4"
+  ],
+  "schema_version": "rq2-v2-stage4g-clarification-frozen-v1",
+  "selected_config": {
+    "config_id": "R2V2-CG1-C01_REFERENCE_MULTI_TARGET_UNSELECTED",
+    "reference_clause": {
+      "enabled": true,
+      "min_plausible_visible_targets": 2,
+      "require_explicitly_unselected": true,
+      "require_history_unresolved": true,
+      "require_no_explicit_selection": true
+    },
+    "simplicity_rank": 1,
+    "temporal_clause": {
+      "enabled": false,
+      "require_activity_unidentified": true,
+      "require_deadline_unidentified": true
+    }
+  },
+  "selected_config_id": "R2V2-CG1-C01_REFERENCE_MULTI_TARGET_UNSELECTED",
+  "selected_config_sha256": "e988d54231e392a655b3c542b14e55a6f899ca0f6bb555473f9b2cbec3ea40e3",
+  "selected_oof_metrics": {
+    "clarify": {
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "true_positive": 8
+    },
+    "dialogue_action_accuracy": 1.0,
+    "false_clarify_rate_on_gold_answer": 0.0,
+    "family_both_utterances_correct": {
+      "correct_families": 36,
+      "family_count": 36,
+      "rate": 1.0
+    },
+    "gold_answer_count": 64,
+    "gold_clarify_count": 8,
+    "page_stratified_metrics": {
+      "Debate": {
+        "clarify": {
+          "f1": 0.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "true_positive": 0
+        },
+        "dialogue_action_accuracy": 1.0,
+        "false_clarify_rate_on_gold_answer": 0.0,
+        "family_both_utterances_correct": {
+          "correct_families": 7,
+          "family_count": 7,
+          "rate": 1.0
+        },
+        "gold_answer_count": 14,
+        "gold_clarify_count": 0,
+        "population_count": 14
+      },
+      "Lecture": {
+        "clarify": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 2
+        },
+        "dialogue_action_accuracy": 1.0,
+        "false_clarify_rate_on_gold_answer": 0.0,
+        "family_both_utterances_correct": {
+          "correct_families": 7,
+          "family_count": 7,
+          "rate": 1.0
+        },
+        "gold_answer_count": 12,
+        "gold_clarify_count": 2,
+        "population_count": 14
+      },
+      "Overview": {
+        "clarify": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 2
+        },
+        "dialogue_action_accuracy": 1.0,
+        "false_clarify_rate_on_gold_answer": 0.0,
+        "family_both_utterances_correct": {
+          "correct_families": 7,
+          "family_count": 7,
+          "rate": 1.0
+        },
+        "gold_answer_count": 12,
+        "gold_clarify_count": 2,
+        "population_count": 14
+      },
+      "Reflection": {
+        "clarify": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 2
+        },
+        "dialogue_action_accuracy": 1.0,
+        "false_clarify_rate_on_gold_answer": 0.0,
+        "family_both_utterances_correct": {
+          "correct_families": 7,
+          "family_count": 7,
+          "rate": 1.0
+        },
+        "gold_answer_count": 12,
+        "gold_clarify_count": 2,
+        "population_count": 14
+      },
+      "Resources": {
+        "clarify": {
+          "f1": 1.0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "true_positive": 2
+        },
+        "dialogue_action_accuracy": 1.0,
+        "false_clarify_rate_on_gold_answer": 0.0,
+        "family_both_utterances_correct": {
+          "correct_families": 8,
+          "family_count": 8,
+          "rate": 1.0
+        },
+        "gold_answer_count": 14,
+        "gold_clarify_count": 2,
+        "population_count": 16
+      }
+    },
+    "population_count": 72,
+    "writer_a_vs_writer_b_metrics": {
+      "reason": "Writer identity is absent from the frozen Stage 4-0 DEV inputs and cannot be inferred from identifiers.",
+      "status": "NOT_AVAILABLE_AUTHORIZED_WRITER_JOIN_ABSENT"
+    }
+  },
+  "selection_order": [
+    "higher_clarify_f1",
+    "higher_dialogue_action_accuracy",
+    "lower_false_clarify_rate_on_gold_answer",
+    "higher_clarify_recall",
+    "simpler_predeclared_configuration",
+    "deterministic_config_id"
+  ],
+  "selection_status": "FROZEN_DEV_SELECTED_NOT_INDEPENDENT_TEST",
+  "test_accessed": false
+}

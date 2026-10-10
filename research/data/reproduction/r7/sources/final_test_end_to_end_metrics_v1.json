@@ -1,0 +1,2966 @@
+{
+  "methods": {
+    "R2V2-B0_RULE": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.3333333333333333,
+        "complete_gold_route_pattern_matched_groups": 2,
+        "contrast_consistency_rate": 0.3333333333333333,
+        "directed_full_route_change_consistent_groups": 2,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.5,
+        "within_family_prediction_consistent_groups": 3
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 8,
+        "family_count": 18,
+        "rate": 0.4444444444444444
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 12,
+        "family_count": 18,
+        "rate": 0.6666666666666666
+      },
+      "full_route_signature_exact_count": 18,
+      "full_route_signature_exact_match": 0.5,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 7,
+          "full_route_signature_exact_match": 0.875,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 1,
+          "full_route_signature_exact_match": 0.125,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 8,
+          "full_route_signature_exact_match": 1.0,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.3333333333333333,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 10,
+          "full_route_signature_exact_match": 0.5555555555555556,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 8,
+          "full_route_signature_exact_match": 0.4444444444444444,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-B1_LEGACY_INTENT": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.16666666666666666,
+        "complete_gold_route_pattern_matched_groups": 1,
+        "contrast_consistency_rate": 0.16666666666666666,
+        "directed_full_route_change_consistent_groups": 1,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.6666666666666666,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 4,
+        "family_count": 18,
+        "rate": 0.2222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 14,
+        "family_count": 18,
+        "rate": 0.7777777777777778
+      },
+      "full_route_signature_exact_count": 11,
+      "full_route_signature_exact_match": 0.3055555555555556,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 3,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 5,
+          "full_route_signature_exact_match": 0.2777777777777778,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 0.3333333333333333,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-B2_PROTOTYPE": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.16666666666666666,
+        "complete_gold_route_pattern_matched_groups": 1,
+        "contrast_consistency_rate": 0.3333333333333333,
+        "directed_full_route_change_consistent_groups": 2,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.6666666666666666,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 4,
+        "family_count": 18,
+        "rate": 0.2222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 16,
+        "family_count": 18,
+        "rate": 0.8888888888888888
+      },
+      "full_route_signature_exact_count": 10,
+      "full_route_signature_exact_match": 0.2777777777777778,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 3,
+          "full_route_signature_exact_match": 0.375,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 1,
+          "full_route_signature_exact_match": 0.125,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.3333333333333333,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 5,
+          "full_route_signature_exact_match": 0.2777777777777778,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 5,
+          "full_route_signature_exact_match": 0.2777777777777778,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-B3_OVR": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.0,
+        "complete_gold_route_pattern_matched_groups": 0,
+        "contrast_consistency_rate": 0.16666666666666666,
+        "directed_full_route_change_consistent_groups": 1,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.8333333333333334,
+        "within_family_prediction_consistent_groups": 5
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 4,
+        "family_count": 18,
+        "rate": 0.2222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 16,
+        "family_count": 18,
+        "rate": 0.8888888888888888
+      },
+      "full_route_signature_exact_count": 9,
+      "full_route_signature_exact_match": 0.25,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.3333333333333333,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 1,
+          "full_route_signature_exact_match": 0.16666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.2222222222222222,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 5,
+          "full_route_signature_exact_match": 0.2777777777777778,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-B4_JOINT_LLM": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.0,
+        "complete_gold_route_pattern_matched_groups": 0,
+        "contrast_consistency_rate": 0.16666666666666666,
+        "directed_full_route_change_consistent_groups": 1,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 6
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 9,
+        "family_count": 18,
+        "rate": 0.5
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 18,
+        "family_count": 18,
+        "rate": 1.0
+      },
+      "full_route_signature_exact_count": 18,
+      "full_route_signature_exact_match": 0.5,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 0.75,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 9,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 9,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-D0_ALWAYS_ON": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.16666666666666666,
+        "complete_gold_route_pattern_matched_groups": 1,
+        "contrast_consistency_rate": 0.16666666666666666,
+        "directed_full_route_change_consistent_groups": 1,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 6
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 4,
+        "family_count": 18,
+        "rate": 0.2222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 18,
+        "family_count": 18,
+        "rate": 1.0
+      },
+      "full_route_signature_exact_count": 8,
+      "full_route_signature_exact_match": 0.2222222222222222,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.3333333333333333,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.2222222222222222,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.2222222222222222,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-D1_NEVER_ON": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.16666666666666666,
+        "complete_gold_route_pattern_matched_groups": 1,
+        "contrast_consistency_rate": 0.3333333333333333,
+        "directed_full_route_change_consistent_groups": 2,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 6
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 4,
+        "family_count": 18,
+        "rate": 0.2222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 18,
+        "family_count": 18,
+        "rate": 1.0
+      },
+      "full_route_signature_exact_count": 8,
+      "full_route_signature_exact_match": 0.2222222222222222,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 2,
+          "full_route_signature_exact_match": 0.25,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.2222222222222222,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.2222222222222222,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-P1_HYBRID": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.0,
+        "complete_gold_route_pattern_matched_groups": 0,
+        "contrast_consistency_rate": 0.16666666666666666,
+        "directed_full_route_change_consistent_groups": 1,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 6
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 9,
+        "family_count": 18,
+        "rate": 0.5
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 18,
+        "family_count": 18,
+        "rate": 1.0
+      },
+      "full_route_signature_exact_count": 18,
+      "full_route_signature_exact_match": 0.5,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 0.75,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 9,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 9,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-P2_RAG_SPECIALIST_COMPOSITION": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.16666666666666666,
+        "complete_gold_route_pattern_matched_groups": 1,
+        "contrast_consistency_rate": 0.3333333333333333,
+        "directed_full_route_change_consistent_groups": 2,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 6
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 10,
+        "family_count": 18,
+        "rate": 0.5555555555555556
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 18,
+        "family_count": 18,
+        "rate": 1.0
+      },
+      "full_route_signature_exact_count": 20,
+      "full_route_signature_exact_match": 0.5555555555555556,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 0.75,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 1.0,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 0,
+          "full_route_signature_exact_match": 0.0,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 10,
+          "full_route_signature_exact_match": 0.5555555555555556,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 10,
+          "full_route_signature_exact_match": 0.5555555555555556,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-P3_RAG_MEMORY_SPECIALISTS": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.6666666666666666,
+        "complete_gold_route_pattern_matched_groups": 4,
+        "contrast_consistency_rate": 0.6666666666666666,
+        "directed_full_route_change_consistent_groups": 4,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.8333333333333334,
+        "within_family_prediction_consistent_groups": 5
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 14,
+        "family_count": 18,
+        "rate": 0.7777777777777778
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 17,
+        "family_count": 18,
+        "rate": 0.9444444444444444
+      },
+      "full_route_signature_exact_count": 29,
+      "full_route_signature_exact_match": 0.8055555555555556,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 8,
+          "full_route_signature_exact_match": 1.0,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 7,
+          "full_route_signature_exact_match": 0.875,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 6,
+          "full_route_signature_exact_match": 1.0,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 15,
+          "full_route_signature_exact_match": 0.8333333333333334,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 14,
+          "full_route_signature_exact_match": 0.7777777777777778,
+          "population_count": 18
+        }
+      }
+    },
+    "R2V2-P4_MEMORY_SPECIALIST_COMPOSITION": {
+      "complete_contrast": {
+        "complete_gold_route_pattern_match_rate": 0.5,
+        "complete_gold_route_pattern_matched_groups": 3,
+        "contrast_consistency_rate": 0.5,
+        "directed_full_route_change_consistent_groups": 3,
+        "eligible_contrast_groups": 6,
+        "groups": [
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "CLAR-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "CLARIFICATION",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "CLAR-CG-06",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "MEMORY",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "directed_full_route_change_consistent_with_gold": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_route_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "directed_full_route_change_consistent_with_gold": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.8333333333333334,
+        "within_family_prediction_consistent_groups": 5
+      },
+      "core_executed_count": 32,
+      "dialogue_action_accuracy": 1.0,
+      "dialogue_action_macro_f1": 1.0,
+      "dialogue_action_per_class": {
+        "ANSWER": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 32
+        },
+        "CLARIFY": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 4
+        }
+      },
+      "family_both_utterances_correct": {
+        "correct_count": 13,
+        "family_count": 18,
+        "rate": 0.7222222222222222
+      },
+      "family_prediction_consistency": {
+        "consistent_count": 17,
+        "family_count": 18,
+        "rate": 0.9444444444444444
+      },
+      "full_route_signature_exact_count": 27,
+      "full_route_signature_exact_match": 0.75,
+      "page_stratified_metrics": {
+        "Debate": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 8,
+          "full_route_signature_exact_match": 1.0,
+          "population_count": 8
+        },
+        "Lecture": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.5,
+          "population_count": 8
+        },
+        "Overview": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 8
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 7,
+          "full_route_signature_exact_match": 0.875,
+          "population_count": 8
+        },
+        "Reflection": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 4
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        },
+        "Resources": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 0.5,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 6
+            },
+            "CLARIFY": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp": 0
+            }
+          },
+          "full_route_signature_exact_count": 4,
+          "full_route_signature_exact_match": 0.6666666666666666,
+          "population_count": 6
+        }
+      },
+      "population_count": 36,
+      "predicted_clarify_count": 4,
+      "writer_stratified_metrics": {
+        "A": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 14,
+          "full_route_signature_exact_match": 0.7777777777777778,
+          "population_count": 18
+        },
+        "B": {
+          "dialogue_action_accuracy": 1.0,
+          "dialogue_action_macro_f1": 1.0,
+          "dialogue_action_per_class": {
+            "ANSWER": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 16
+            },
+            "CLARIFY": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "tp": 2
+            }
+          },
+          "full_route_signature_exact_count": 13,
+          "full_route_signature_exact_match": 0.7222222222222222,
+          "population_count": 18
+        }
+      }
+    }
+  },
+  "population": "ALL_36_TEST_CASES",
+  "schema_version": "rq2-v2-stage5e-final-end-to-end-metrics-v1",
+  "shared_clarification_gate_id": "R2V2-CG1_CLARIFICATION_RULE"
+}

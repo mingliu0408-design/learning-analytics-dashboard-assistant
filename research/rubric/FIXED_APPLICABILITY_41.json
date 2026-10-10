@@ -1,0 +1,661 @@
+{
+  "source": "S7 anonymous SCORE_COMPONENTS.csv; collapse identical mode masks only",
+  "items": [
+    {
+      "task_id": "original-01",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-03",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-06",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-08",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-10",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-11",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-12",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "original-13",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "original-15",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-16",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-17",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-19",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-20",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-21",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-23",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "original-24",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "original-25",
+      "family_id": "",
+      "condition": "",
+      "stratum": "original17",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-c0aa4f8d44d5",
+      "family_id": "E01",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-95761bc98ed1",
+      "family_id": "E01",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-b6898be4e38d",
+      "family_id": "E02",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-0e48341f6309",
+      "family_id": "E02",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-61b3acfe0a48",
+      "family_id": "E03",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-88828cd6a19c",
+      "family_id": "E03",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-f66893e8100a",
+      "family_id": "R01",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-de163963fb5c",
+      "family_id": "R01",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-7469f2cfd8c1",
+      "family_id": "R02",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-373926448336",
+      "family_id": "R02",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-0dbd26b0464f",
+      "family_id": "R03",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": false,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-4c7a82df46ee",
+      "family_id": "R03",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": false,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-1960017e2839",
+      "family_id": "M01",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-495277e64cd9",
+      "family_id": "M01",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-013459503624",
+      "family_id": "M02",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-d019d3dc3beb",
+      "family_id": "M02",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-c03a748773d6",
+      "family_id": "M03",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-b74ac9a2a7d8",
+      "family_id": "M03",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": false,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": false,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-7eaffb7ac93a",
+      "family_id": "P01",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-54fd6c10b998",
+      "family_id": "P01",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-6c36478d23c7",
+      "family_id": "P02",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-cc11974765a4",
+      "family_id": "P02",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": false
+      }
+    },
+    {
+      "task_id": "task-17b1e1304286",
+      "family_id": "P03",
+      "condition": "A",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    },
+    {
+      "task_id": "task-03979c9cc009",
+      "family_id": "P03",
+      "condition": "B",
+      "stratum": "new12_families",
+      "applicability": {
+        "CLARITY": true,
+        "PERSONALISATION": true,
+        "ACTIONABILITY": true,
+        "CONTEXT_AWARENESS": true,
+        "MOTIVATION_AND_ENGAGEMENT": true,
+        "RELIABILITY": true,
+        "MULTI_PAGE_COHESIVENESS": false,
+        "ERROR_HANDLING": true
+      }
+    }
+  ]
+}

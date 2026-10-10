@@ -1,0 +1,59 @@
+{
+  "P3_STATUS": "FROZEN_AFTER_DEV_COMPOSITION_EVALUATION",
+  "TEST_STATUS": "NOT_EXECUTED",
+  "components": {
+    "B4": {
+      "configuration_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "final_full_dev_example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+      "method": "R2V2-B4_JOINT_LLM",
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "prediction_sha256": "f0e776492779341fd4e1feb6d11f2a915246162697f222b1c7c933882e552d39",
+      "prompt_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "schema_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876"
+    },
+    "MEMORY_SPECIALIST": {
+      "configuration_sha256": "8813854b4a73e4c07416e26db0b72f28ab1923f415053f8d48ad31b0eca0a3c3",
+      "final_full_dev_example_set_sha256": "57a7aecd53710a1587388711177d7564f4560f1a8729939d445268d2514d3eb4",
+      "method": "R2V2-MEMORY_SPECIALIST",
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "prediction_sha256": "386f3695af5fa966e4c851d431a574c88ea803feccf6190534380cb106626b85",
+      "prompt_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7"
+    },
+    "RAG_SPECIALIST": {
+      "configuration_sha256": "19fc104b55ed92ec6c9a988fe6664d5f062f92e473a5ff4d77f8c88aa871c7cc",
+      "final_full_dev_example_set_sha256": "a932596e126ab66c054173bd1b9c454cbba9988e9d0b418da2d80c3e1df1e6eb",
+      "method": "R2V2-RAG_SPECIALIST",
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "prediction_sha256": "b867030addc64d7a02e65513e593b9fb5c013e3d3cf18fea103564d260ac58ff",
+      "prompt_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866"
+    }
+  },
+  "composition_id": "R2V2-P3_RAG_MEMORY_SPECIALISTS",
+  "composition_rule": {
+    "memory_required": "MEMORY_SPECIALIST.memory_required",
+    "planning_required": "B4.planning_required",
+    "rag_required": "RAG_SPECIALIST.rag_required"
+  },
+  "dev_source_sha256": "8d3422198a99422b3e314c60819f3553ff27cd42394ed2d9f68c0eb3ce858b56",
+  "join_key": "annotation_case_id",
+  "method_development_status": "PREDECLARED_SECONDARY_SPECIALIST_EXTENSION",
+  "missing_or_invalid_component_behavior": {
+    "composition_status": "INCOMPLETE",
+    "coverage_reported_separately": true,
+    "fallback_or_router_substitution_allowed": false,
+    "imputation_allowed": false
+  },
+  "normalized_dev_sha256": "3d22cb5f1e8aa5d9009b5d0bab71bc157507123f53688798df6bce34781c6d67",
+  "planning_always_from_frozen_b4": true,
+  "population": "64_FROZEN_DEV_ANSWER_CASES",
+  "predeclared_contract_sha256": "36e4c0589979f762568d29680a6d76b8c6116680072c051d00b2c5739e030288",
+  "predeclared_in_stage4k0": true,
+  "predeclared_role": "SECONDARY_SPECIALIST_EXTENSION",
+  "rq3_access": false,
+  "schema_version": "rq2-v2-stage4m-p3-composition-frozen-v1",
+  "stage4_integration_executed": false,
+  "stage4m_new_provider_calls": 0,
+  "test_winner_designated": false
+}

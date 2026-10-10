@@ -1,0 +1,1216 @@
+{
+  "schema_version": "GH1_SOURCE_MAP_V1",
+  "source_commit_is_local_historical_identity": true,
+  "files": [
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_candidate_configs_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_candidate_configs_v1.json",
+      "source_sha256": "2fafc85335237943bb600eb7b8acb43a0facf8b26b90aec7aafdefd9acbf7b4e",
+      "public_sha256": "2fafc85335237943bb600eb7b8acb43a0facf8b26b90aec7aafdefd9acbf7b4e",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate.py",
+      "source_sha256": "ef532e656da3de775a6f33f8cee5defab8e63e2571066b517a115de1234615eb",
+      "public_sha256": "ef532e656da3de775a6f33f8cee5defab8e63e2571066b517a115de1234615eb",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate_frozen_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_g_b0_b1/clarification_gate_frozen_v1.json",
+      "source_sha256": "ca411f9ef8711811b3aa5408b79e28463cef432fe3fc31bf106d3fa80a350438",
+      "public_sha256": "ca411f9ef8711811b3aa5408b79e28463cef432fe3fc31bf106d3fa80a350438",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_frozen_configuration_v2.json",
+      "source_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "public_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_full_dev_prompt_package_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "245a4f74d2428017ab36fc5eaba41c6f617b5ec01c099153b23524a0d33734d5",
+      "public_sha256": "76af7a5c6c63630ded53fb2bdaf2b24cfcc10e087ac44d99717427e13db2297c",
+      "adaptations": [
+        "Replace private source root by explicit relative external_inputs/course_source placeholder; original inputs withheld."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_prompt_template_frozen_v1.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_prompt_template_frozen_v1.txt",
+      "source_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "public_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_response_schema_v2.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_i_b4/b4_response_schema_v2.json",
+      "source_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "public_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_final_full_dev_prompt_package_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "ba27b9ee29960d0dfe67389f685e3338ff90b4ed71b57756a0e3abe890eb6875",
+      "public_sha256": "ba27b9ee29960d0dfe67389f685e3338ff90b4ed71b57756a0e3abe890eb6875",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_prompt_frozen_v1.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_prompt_frozen_v1.txt",
+      "source_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "public_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_schema_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/memory_specialist_schema_v1.json",
+      "source_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "public_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_final_full_dev_prompt_package_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_final_full_dev_prompt_package_v1.json",
+      "source_sha256": "60c5d9de78bf60c2b186c46ab3c935511c2a994bc8974a2bc965e5aa2ffc6f55",
+      "public_sha256": "60c5d9de78bf60c2b186c46ab3c935511c2a994bc8974a2bc965e5aa2ffc6f55",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_prompt_frozen_v1.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_prompt_frozen_v1.txt",
+      "source_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "public_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_schema_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k0_specialists/rag_specialist_schema_v1.json",
+      "source_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "public_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_frozen_configuration_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_frozen_configuration_v1.json",
+      "source_sha256": "19fc104b55ed92ec6c9a988fe6664d5f062f92e473a5ff4d77f8c88aa871c7cc",
+      "public_sha256": "19fc104b55ed92ec6c9a988fe6664d5f062f92e473a5ff4d77f8c88aa871c7cc",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_frozen_configuration_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_frozen_configuration_v1.json",
+      "source_sha256": "8813854b4a73e4c07416e26db0b72f28ab1923f415053f8d48ad31b0eca0a3c3",
+      "public_sha256": "8813854b4a73e4c07416e26db0b72f28ab1923f415053f8d48ad31b0eca0a3c3",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i0_integration/build_r1_route_packages.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i0_integration/build_r1_route_packages.py",
+      "source_sha256": "fff8d1219df19fa49c814e74794a58dab51528b71c7ecf214fd815de12f55b17",
+      "public_sha256": "e5666bdbec5d504d90e153f84f5537e9cc5f5980b103419f80f736430f003fc2",
+      "adaptations": [
+        "Bind B4 package file guard to sanitized encoder-provenance-path copy. Model-visible prompt, examples, schema, parameters unchanged; source hash retained in source_map.",
+        "Replace exact private Downloads root with ROOT/external_inputs/historical_archives."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i0_integration/c4_real_generation_prompt_frozen_v1.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i0_integration/c4_real_generation_prompt_frozen_v1.txt",
+      "source_sha256": "41748d1f3a69ce6623e607551a8473228c0724871e16e392ecd7872b4e550b21",
+      "public_sha256": "41748d1f3a69ce6623e607551a8473228c0724871e16e392ecd7872b4e550b21",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i0_integration/c4_real_generation_schema_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i0_integration/c4_real_generation_schema_v1.json",
+      "source_sha256": "46b79822888d72c3c7c78677a7ca9c5daa8f7cf361174258193d8bad597ed0d2",
+      "public_sha256": "46b79822888d72c3c7c78677a7ca9c5daa8f7cf361174258193d8bad597ed0d2",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i0_integration/route_execution_runner.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i0_integration/route_execution_runner.py",
+      "source_sha256": "a03e3a09441c5faf6852793edf23fda0afe935b86477eaf2c3ce2fc2f7642259",
+      "public_sha256": "a03e3a09441c5faf6852793edf23fda0afe935b86477eaf2c3ce2fc2f7642259",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i0_integration/route_package_validator_v1.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i0_integration/route_package_validator_v1.py",
+      "source_sha256": "0ffb88d64f778de61fedd9db269e7c5aa0ae7db40cbc9e2016eb1f308c42f7d2",
+      "public_sha256": "0ffb88d64f778de61fedd9db269e7c5aa0ae7db40cbc9e2016eb1f308c42f7d2",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/evaluation/rq3_real_c4/i1_route_integration/c4_real_generation_schema_v2_provider_compatible.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "evaluation/rq3_real_c4/i1_route_integration/c4_real_generation_schema_v2_provider_compatible.json",
+      "source_sha256": "485dbdc6af48577808d3e6a51fc9811e54f7a8f670f50f92c5bbb64ee382f873",
+      "public_sha256": "485dbdc6af48577808d3e6a51fc9811e54f7a8f670f50f92c5bbb64ee382f873",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/adapter.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/adapter.py",
+      "source_sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+      "public_sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/checkpoints.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/checkpoints.py",
+      "source_sha256": "8e498262b4f0cd391314b80c78e325f9b8620914dfbc78ce469cfd4257e07ead",
+      "public_sha256": "27c8cc65bd2ae86c49802d38180d9d560eec605b7fda12107dd50edcbb83b172",
+      "adaptations": [
+        "Replace private operational archive/output root by relative external_inputs/historical_archives placeholder."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/finish_remaining.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/finish_remaining.py",
+      "source_sha256": "1465e636731bb359d5b191d9b4ea5652ecf0f2a5d92a62fca741c239a8561a43",
+      "public_sha256": "1465e636731bb359d5b191d9b4ea5652ecf0f2a5d92a62fca741c239a8561a43",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/isolation.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/isolation.py",
+      "source_sha256": "2dd2e8ff28a9fc4b7e23850aab727da754bb5c52e3e900d3a7f632cf1f98a7ab",
+      "public_sha256": "2dd2e8ff28a9fc4b7e23850aab727da754bb5c52e3e900d3a7f632cf1f98a7ab",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/recovery.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_memory_isolation_continuation_2026-09-08/recovery.py",
+      "source_sha256": "c649f9da5260ba2dfe81908ec7ef3a2d1e51e283ae701518450bc4fa6098d821",
+      "public_sha256": "c649f9da5260ba2dfe81908ec7ef3a2d1e51e283ae701518450bc4fa6098d821",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/a1_common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/a1_common.py",
+      "source_sha256": "ae895993d116dd2cc6f1e0d23a19595b6c682435ccf4679ab9384a64f060e734",
+      "public_sha256": "ae895993d116dd2cc6f1e0d23a19595b6c682435ccf4679ab9384a64f060e734",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/continue_run.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/continue_run.py",
+      "source_sha256": "acd7cb574b499a7ddf935ce6eb95963e4b95e854828471c717e4894ff9b938c1",
+      "public_sha256": "acd7cb574b499a7ddf935ce6eb95963e4b95e854828471c717e4894ff9b938c1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/interface_a1.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/interface_a1.py",
+      "source_sha256": "b31ac0d81d6b65cf7881ad130b3b57626b16b0ecb449db36ca99be5a6c6a3354",
+      "public_sha256": "b31ac0d81d6b65cf7881ad130b3b57626b16b0ecb449db36ca99be5a6c6a3354",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/parent_ledger.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/confirmed41_repair_continuation_2026-09-08/parent_ledger.py",
+      "source_sha256": "1e3f8603a95e0ca4b23c5389d0bf5f39f4bafdaa19bac080c5c56bd06c0a297f",
+      "public_sha256": "1e3f8603a95e0ca4b23c5389d0bf5f39f4bafdaa19bac080c5c56bd06c0a297f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/run_batch.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/run_batch.py",
+      "source_sha256": "b798cb0092cff6f831fa75e08bfb2b567894c387b6fe961e11565bd3d2e6f331",
+      "public_sha256": "b798cb0092cff6f831fa75e08bfb2b567894c387b6fe961e11565bd3d2e6f331",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/experiments/rq3_original25_plus_review_r1/v2_common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "experiments/rq3_original25_plus_review_r1/v2_common.py",
+      "source_sha256": "5012c45db1b95bd72c4069622a28c1bbb09d2cde80511baa581fd6aa2a221d69",
+      "public_sha256": "5012c45db1b95bd72c4069622a28c1bbb09d2cde80511baa581fd6aa2a221d69",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/a_reuse62/interfaces.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62/interfaces.py",
+      "source_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "public_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/a_reuse62_replay_v2/controlled_runtime.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62_replay_v2/controlled_runtime.py",
+      "source_sha256": "f7641038b7eea273b4ef49f5bc7d884a461902c976fd6d213724f1593409454b",
+      "public_sha256": "f7641038b7eea273b4ef49f5bc7d884a461902c976fd6d213724f1593409454b",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/a_reuse62_replay_v2/replay_common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62_replay_v2/replay_common.py",
+      "source_sha256": "2372418ea75c36575aad4b53199b73a0692b598f846c512a0b4df7dac21a331d",
+      "public_sha256": "38d4e80874d74fe5512cd166cb367d28d02e35f1d63be290cf88ffbf90c67862",
+      "adaptations": [
+        "Replace private source root by explicit relative external_inputs/course_source placeholder; original inputs withheld."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/a_reuse62_replay_v2/snapshot_planning.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62_replay_v2/snapshot_planning.py",
+      "source_sha256": "ac23b651248f622bb9a134780fa8a669eab0f6604a4293755a7ed98a50f094c8",
+      "public_sha256": "ac23b651248f622bb9a134780fa8a669eab0f6604a4293755a7ed98a50f094c8",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i0_human_integration/schemas/FINAL_RESPONSE_SCHEMA.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i0_human_integration/schemas/FINAL_RESPONSE_SCHEMA.json",
+      "source_sha256": "20fe67314a2f8aa8681cd1bc0f1cd6a5320104ce741d65bf1abe3f13ca878369",
+      "public_sha256": "20fe67314a2f8aa8681cd1bc0f1cd6a5320104ce741d65bf1abe3f13ca878369",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i0_human_integration/schemas/I0_P1_INPUT_SCHEMA.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i0_human_integration/schemas/I0_P1_INPUT_SCHEMA.json",
+      "source_sha256": "30edb1d6795f9786a0a8e7c17d75b313d70a8dacde5d8b483e2debea73e90f3d",
+      "public_sha256": "30edb1d6795f9786a0a8e7c17d75b313d70a8dacde5d8b483e2debea73e90f3d",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i0_human_integration/schemas/STRUCTURED_PLAN_SCHEMA.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i0_human_integration/schemas/STRUCTURED_PLAN_SCHEMA.json",
+      "source_sha256": "c36612f2f4f52a718364960faf896bf8875c1eb479598bee4c7cb492bcf385da",
+      "public_sha256": "c36612f2f4f52a718364960faf896bf8875c1eb479598bee4c7cb492bcf385da",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i3_planner_diagnosis_repair/repair_v1.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i3_planner_diagnosis_repair/repair_v1.py",
+      "source_sha256": "96388e3c8ede042642e1d1048d812a71f22a13fb040ff42e155569362a39cc3f",
+      "public_sha256": "96388e3c8ede042642e1d1048d812a71f22a13fb040ff42e155569362a39cc3f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i5_typed_action_planner/i5_common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i5_typed_action_planner/i5_common.py",
+      "source_sha256": "0625602761f7740e925d4615ac70ed2c5f4a904759ec74a1a476327f6bcddaa1",
+      "public_sha256": "8a3e166aa5f7beffd774906658d9e74a5a9df2b5c138784875c6b5c251e83af7",
+      "adaptations": [
+        "Replace private operational archive/output root by relative external_inputs/historical_archives placeholder."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/i5_typed_action_planner/typed_v1.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i5_typed_action_planner/typed_v1.py",
+      "source_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "public_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m0_memory_data/code/common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m0_memory_data/code/common.py",
+      "source_sha256": "44298163626d90b5b91cb12094f551bf33038f4761591339fca9e7a7453fd59a",
+      "public_sha256": "44298163626d90b5b91cb12094f551bf33038f4761591339fca9e7a7453fd59a",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m0_memory_data/code/fixture_validation.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m0_memory_data/code/fixture_validation.py",
+      "source_sha256": "c1aa24491d576f3cb292549f41a7e9993106d750e2f73c6d2feb9642fa532600",
+      "public_sha256": "c1aa24491d576f3cb292549f41a7e9993106d750e2f73c6d2feb9642fa532600",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m0_memory_data/code/state_harness.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m0_memory_data/code/state_harness.py",
+      "source_sha256": "751c16945b3e78c7c3d16b321fbad7c4a0568737952d942fdab5b18a197e4a13",
+      "public_sha256": "751c16945b3e78c7c3d16b321fbad7c4a0568737952d942fdab5b18a197e4a13",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m1_memory_completeness/code/m1_common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m1_memory_completeness/code/m1_common.py",
+      "source_sha256": "423aa46b277dd914eb2a6fc32ade961dae3bb30f6f30da0675649d7ad8477f3c",
+      "public_sha256": "423aa46b277dd914eb2a6fc32ade961dae3bb30f6f30da0675649d7ad8477f3c",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m1_memory_completeness/code/native_stage_worker.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m1_memory_completeness/code/native_stage_worker.py",
+      "source_sha256": "9cce920595ce1f6ca8bb9c7a93e93982230fbb1573abf84d4451f10cfa51ca54",
+      "public_sha256": "9cce920595ce1f6ca8bb9c7a93e93982230fbb1573abf84d4451f10cfa51ca54",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/m1_memory_completeness/code/relations.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/m1_memory_completeness/code/relations.py",
+      "source_sha256": "30cedf4f2f38acfdca530bb553b796ea881ab122e303c1c5420803efa6df5243",
+      "public_sha256": "30cedf4f2f38acfdca530bb553b796ea881ab122e303c1c5420803efa6df5243",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_CANDIDATE_SCHEMA_DRAFT.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_CANDIDATE_SCHEMA_DRAFT.json",
+      "source_sha256": "92c3ef8ea1e909e8a1e96e3688b85135dbdeb4a1202972f5d8f196dbe967404f",
+      "public_sha256": "92c3ef8ea1e909e8a1e96e3688b85135dbdeb4a1202972f5d8f196dbe967404f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_INPUT_SCHEMA_DRAFT.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_INPUT_SCHEMA_DRAFT.json",
+      "source_sha256": "5fa87e4eefd0dd55a3a329629f774af14b0537469b311aebaafd63516b818def",
+      "public_sha256": "5fa87e4eefd0dd55a3a329629f774af14b0537469b311aebaafd63516b818def",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_OUTPUT_SCHEMA_DRAFT.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/PLANNER_OUTPUT_SCHEMA_DRAFT.json",
+      "source_sha256": "387927b77b43633f251c49887286bc002f5a994faf43eff5eca925139dd24c0d",
+      "public_sha256": "387927b77b43633f251c49887286bc002f5a994faf43eff5eca925139dd24c0d",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/__init__.py",
+      "source_sha256": "be11505d68daa2030adc3de68e9d4c3ce0afed4f3503a870a4e461ebe2b6f457",
+      "public_sha256": "be11505d68daa2030adc3de68e9d4c3ce0afed4f3503a870a4e461ebe2b6f457",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/contracts.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/contracts.py",
+      "source_sha256": "9c310a61214e3f8240302d2ea42463d1496e9e38b4da6ae936a994561a53fb74",
+      "public_sha256": "9c310a61214e3f8240302d2ea42463d1496e9e38b4da6ae936a994561a53fb74",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/controller.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/controller.py",
+      "source_sha256": "a9b451a608c038e0e71ba1ed2faefe1706929dd80fc25a8b0f3c4d28df4a0c7f",
+      "public_sha256": "a9b451a608c038e0e71ba1ed2faefe1706929dd80fc25a8b0f3c4d28df4a0c7f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/offline_guard.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/offline_guard.py",
+      "source_sha256": "9066caedcd592d3e6b8782296ce349145e0083c58926607933a00bb6b2a6d8ee",
+      "public_sha256": "9066caedcd592d3e6b8782296ce349145e0083c58926607933a00bb6b2a6d8ee",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/providers.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/providers.py",
+      "source_sha256": "edea37c4833d208eadeaeef9407b1f5f1cacc72f8014de32e0e7c52de12a38d4",
+      "public_sha256": "edea37c4833d208eadeaeef9407b1f5f1cacc72f8014de32e0e7c52de12a38d4",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/schema.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/schema.py",
+      "source_sha256": "853eb0d389951e5d625df7a10f3fdfd28fbc3a6a8120dfe83041bab7f22cfb99",
+      "public_sha256": "853eb0d389951e5d625df7a10f3fdfd28fbc3a6a8120dfe83041bab7f22cfb99",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/p0planner/validator.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/p0planner/validator.py",
+      "source_sha256": "5dd2fc4e0781b0a6ef2aa5a0be5e8c963bbc418f95b424b79a1f0bc357f3b9e2",
+      "public_sha256": "5dd2fc4e0781b0a6ef2aa5a0be5e8c963bbc418f95b424b79a1f0bc357f3b9e2",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/tools/build_fixtures.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/tools/build_fixtures.py",
+      "source_sha256": "5a27d3b74a2ea5dd220bf64e57d9651e6a36e9c7a8a520659c5439ab15db8bfe",
+      "public_sha256": "5a27d3b74a2ea5dd220bf64e57d9651e6a36e9c7a8a520659c5439ab15db8bfe",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p0_planner_prototype/tools/schema_definitions.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p0_planner_prototype/tools/schema_definitions.py",
+      "source_sha256": "0d7cd4e21e9cf6b7cd6413541b28f1665ed2fca06638a0dbac442757eb1cb957",
+      "public_sha256": "0d7cd4e21e9cf6b7cd6413541b28f1665ed2fca06638a0dbac442757eb1cb957",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/P0_DEPENDENCY_LOCK.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/P0_DEPENDENCY_LOCK.json",
+      "source_sha256": "10737674621c2cf5d633ff9ea987c608a6993594f67091b4035e4036e7d57190",
+      "public_sha256": "10737674621c2cf5d633ff9ea987c608a6993594f67091b4035e4036e7d57190",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/__init__.py",
+      "source_sha256": "9cf31d46b18974a969665ffa63874f6923916cbb6b13dcc7531fe8de5365b931",
+      "public_sha256": "9cf31d46b18974a969665ffa63874f6923916cbb6b13dcc7531fe8de5365b931",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/checker.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/checker.py",
+      "source_sha256": "c37797c69622c295c09e57510b4876a15382b71fa9da6305e787e0b21a9477e6",
+      "public_sha256": "c37797c69622c295c09e57510b4876a15382b71fa9da6305e787e0b21a9477e6",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/contracts.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/contracts.py",
+      "source_sha256": "548602ec2b7dff81d9ddb1aee5ecbfaf2e4dfc2f41a56eb7f78e4c8c8624797f",
+      "public_sha256": "548602ec2b7dff81d9ddb1aee5ecbfaf2e4dfc2f41a56eb7f78e4c8c8624797f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/mock.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/mock.py",
+      "source_sha256": "ee1daca944bfc4710fb47f6eb396a3ca8cd03e397efeaa01846572b99f0500ea",
+      "public_sha256": "ee1daca944bfc4710fb47f6eb396a3ca8cd03e397efeaa01846572b99f0500ea",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/projection.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/projection.py",
+      "source_sha256": "ffcf64ab1963d0301d02227a95a91c05fdd9955c9f5dc5019c372d48b01cb9a2",
+      "public_sha256": "ffcf64ab1963d0301d02227a95a91c05fdd9955c9f5dc5019c372d48b01cb9a2",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/requests.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/p1_planner_bridge/p1bridge/requests.py",
+      "source_sha256": "255811ff09a201bb31928c76ad9906676535b3be2f9d25aef580e57bdd7342a1",
+      "public_sha256": "255811ff09a201bb31928c76ad9906676535b3be2f9d25aef580e57bdd7342a1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/__init__.py",
+      "source_sha256": "ac7a2fea636ccf6b1567b11d4e4ac4015f365fb28fb9fcc11fe030f5119b5273",
+      "public_sha256": "ac7a2fea636ccf6b1567b11d4e4ac4015f365fb28fb9fcc11fe030f5119b5273",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/aggregate.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/aggregate.py",
+      "source_sha256": "eb9fc7956ca7c857c63608a0f2cb719fa99c7f4399f396d65adf7a14f35238a6",
+      "public_sha256": "eb9fc7956ca7c857c63608a0f2cb719fa99c7f4399f396d65adf7a14f35238a6",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/integration.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/integration.py",
+      "source_sha256": "93fa227ad9cbf38454a4211943451de37810569c292389f2292d3535322660e1",
+      "public_sha256": "93fa227ad9cbf38454a4211943451de37810569c292389f2292d3535322660e1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/loader.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/loader.py",
+      "source_sha256": "b91f7a56ef4ac4f8a53a348b950c86b59bda92f546fff113f5be4c0d575ad45f",
+      "public_sha256": "b91f7a56ef4ac4f8a53a348b950c86b59bda92f546fff113f5be4c0d575ad45f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/scope.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/scope.py",
+      "source_sha256": "abcba6d36566ae60ee15583cba7230b105d643e91187d16e56799865e983ef03",
+      "public_sha256": "abcba6d36566ae60ee15583cba7230b105d643e91187d16e56799865e983ef03",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_dashboard_scoped/select.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_dashboard_scoped/select.py",
+      "source_sha256": "36312b23eddffe5c9b11ecd18cd4d6b40be8c11dd05793bf7759680e0e053609",
+      "public_sha256": "36312b23eddffe5c9b11ecd18cd4d6b40be8c11dd05793bf7759680e0e053609",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/__init__.py",
+      "source_sha256": "55e0ca4805c9f13e90c0d0e5502be5d5cf87171279e7e5d81e3209bf15e2ffb1",
+      "public_sha256": "55e0ca4805c9f13e90c0d0e5502be5d5cf87171279e7e5d81e3209bf15e2ffb1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_contract_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_contract_v1.json",
+      "source_sha256": "c0aef1d4ba4bcf169b6c5f95a8d174beec4cba1b71b999fb0dbb74dd05b5fc53",
+      "public_sha256": "c0aef1d4ba4bcf169b6c5f95a8d174beec4cba1b71b999fb0dbb74dd05b5fc53",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_provider.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_provider.py",
+      "source_sha256": "eb5c8ecd1eb27045e92b781ce1bd407f1525e24f48669464a778511cc76dffde",
+      "public_sha256": "eb5c8ecd1eb27045e92b781ce1bd407f1525e24f48669464a778511cc76dffde",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_retriever.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_retriever.py",
+      "source_sha256": "81a37dc10b10fde95a0fdab8df2ab92380a2f63207801df0ba9bcbdb5af624e5",
+      "public_sha256": "81a37dc10b10fde95a0fdab8df2ab92380a2f63207801df0ba9bcbdb5af624e5",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_schema_v1.sql",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_schema_v1.sql",
+      "source_sha256": "aff2fdfdc2d87470d6a8655e8ee6ad1c7365f1b94ade203eb465041eb091b205",
+      "public_sha256": "aff2fdfdc2d87470d6a8655e8ee6ad1c7365f1b94ade203eb465041eb091b205",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_store.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_store.py",
+      "source_sha256": "42f0979f28701f26d8b7f55f149997ac66da44e1d6575abe75db3a7474830b2b",
+      "public_sha256": "42f0979f28701f26d8b7f55f149997ac66da44e1d6575abe75db3a7474830b2b",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_memory/c4_memory_writer.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_memory/c4_memory_writer.py",
+      "source_sha256": "ae8a617c37c9867c8ae972aeb2e2661236cc9638131d3d5d56676eb01983ebec",
+      "public_sha256": "ae8a617c37c9867c8ae972aeb2e2661236cc9638131d3d5d56676eb01983ebec",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rag/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rag/__init__.py",
+      "source_sha256": "d33cf67a5849fdff4d980ce00cc7ac540c48b7ceaf784700b523ec3b2cde9c6a",
+      "public_sha256": "d33cf67a5849fdff4d980ce00cc7ac540c48b7ceaf784700b523ec3b2cde9c6a",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rag/corpus.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rag/corpus.py",
+      "source_sha256": "5a2f34ad6e661ce35493b4d38f2bb606fcdcebdaf8641e91d4aebc7e6bb031b8",
+      "public_sha256": "9ad9be20ddf9dbaf408e8d5403661ebfd2b88c94c5507d3d9f2330f35a57b0e5",
+      "adaptations": [
+        "Replace private source root by explicit relative external_inputs/course_source placeholder; original inputs withheld.",
+        "Use explicit LAD_COURSE_SOURCE_ROOT/LAD_MPNET_PATH and require installed optional pypdf; remove private interpreter fallback."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rag/models.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rag/models.py",
+      "source_sha256": "8ed30d95f4e29c992da9fea842874d83e6edece4659604d9d91d7ca9710b0790",
+      "public_sha256": "8ed30d95f4e29c992da9fea842874d83e6edece4659604d9d91d7ca9710b0790",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rag/provider.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rag/provider.py",
+      "source_sha256": "8bf57bc21f1d671286cde3c16186df3a4f11675d607a81e8185d3c8a7733d9fd",
+      "public_sha256": "8bf57bc21f1d671286cde3c16186df3a4f11675d607a81e8185d3c8a7733d9fd",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rag/retrievers.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rag/retrievers.py",
+      "source_sha256": "d4b7f9d760d07a981d9515696b9f13252e4aa16faac661b7dd731ec3bb648de0",
+      "public_sha256": "d4b7f9d760d07a981d9515696b9f13252e4aa16faac661b7dd731ec3bb648de0",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_real_adapters.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_real_adapters.py",
+      "source_sha256": "c264c0b6c8ffb6203cd690d76960bb770f40b521998dd2c1433e31eaf01e29f9",
+      "public_sha256": "c264c0b6c8ffb6203cd690d76960bb770f40b521998dd2c1433e31eaf01e29f9",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_real_contracts.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_real_contracts.py",
+      "source_sha256": "e86562d9e8c50804e302eed4930b4d54e30ad250d820d8a18e9c228a4dde6736",
+      "public_sha256": "e86562d9e8c50804e302eed4930b4d54e30ad250d820d8a18e9c228a4dde6736",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_real_service.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_real_service.py",
+      "source_sha256": "33b0d9b007c04bbd978cab90ff2413e1ae2838da64ddcd1f8fdf72564de7647f",
+      "public_sha256": "33b0d9b007c04bbd978cab90ff2413e1ae2838da64ddcd1f8fdf72564de7647f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_real_streamlit.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_real_streamlit.py",
+      "source_sha256": "0d2e08b1fdf5e17d08d58f835bea084b7f2da6bf6cd31e399516869b1cafadcd",
+      "public_sha256": "0d2e08b1fdf5e17d08d58f835bea084b7f2da6bf6cd31e399516869b1cafadcd",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_real_trace.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_real_trace.py",
+      "source_sha256": "bf2eeef0e0d2e65e24b17076c6fcb5ba3d2d9fa344b4d88f215f3645b2b8b85c",
+      "public_sha256": "bf2eeef0e0d2e65e24b17076c6fcb5ba3d2d9fa344b4d88f215f3645b2b8b85c",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/__init__.py",
+      "source_sha256": "a18035f8c83650e52701eff23ab7628db44d6e5a9165f45ecff35794d112383d",
+      "public_sha256": "a18035f8c83650e52701eff23ab7628db44d6e5a9165f45ecff35794d112383d",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/contracts.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/contracts.py",
+      "source_sha256": "cd70059fb728e240046e40791b7d71909cab98db5a51e79547fbf401ebebbe4f",
+      "public_sha256": "cd70059fb728e240046e40791b7d71909cab98db5a51e79547fbf401ebebbe4f",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/generation.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/generation.py",
+      "source_sha256": "4e94e9ef9555bc5b8d42dbef1e124c8d50a80c4ff8900e8f4f48c2c3ff05104a",
+      "public_sha256": "4e94e9ef9555bc5b8d42dbef1e124c8d50a80c4ff8900e8f4f48c2c3ff05104a",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/__init__.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/__init__.py",
+      "source_sha256": "f691c3fd5631f8a7d604ccf6386164dd40c8663e8c495f0c1b832f66f22daa0a",
+      "public_sha256": "f691c3fd5631f8a7d604ccf6386164dd40c8663e8c495f0c1b832f66f22daa0a",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/common.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/common.py",
+      "source_sha256": "97f5e9a2839a51871ba9d9958c0286570257717adcfbeda4218f2a1e4f1f7bfe",
+      "public_sha256": "97f5e9a2839a51871ba9d9958c0286570257717adcfbeda4218f2a1e4f1f7bfe",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/durable.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/durable.py",
+      "source_sha256": "fe2c0a547b7dc585c592101d2e65e5398cb2f3884c4412eeb0a062f5ed4f62ce",
+      "public_sha256": "fe2c0a547b7dc585c592101d2e65e5398cb2f3884c4412eeb0a062f5ed4f62ce",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/frozen_p3.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/memory.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/memory.py",
+      "source_sha256": "2f2be87e478c27856687c22cad90bae5cf4468ff2c26af7cb2d1bec7c34c0a2d",
+      "public_sha256": "2f2be87e478c27856687c22cad90bae5cf4468ff2c26af7cb2d1bec7c34c0a2d",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/native_backend.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/native_backend.py",
+      "source_sha256": "c71fcc44d0045be43bc646d8ed7af4c4536be9012d6a57af364408bb844ba19a",
+      "public_sha256": "2139305e28aad2b794e2680a033fe495a6ee3e2c0c5fcf55f15be0aead948981",
+      "adaptations": [
+        "Replace private source root by explicit relative external_inputs/course_source placeholder; original inputs withheld.",
+        "Model interpreter/path selected explicitly via LAD_MODEL_PYTHON and LAD_MPNET_PATH; no model instantiated on import."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/orchestrator.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/orchestrator.py",
+      "source_sha256": "0b96cbc16a5c2fbecb9683c34b3b32a509ddd54c25e02373c0879a77e00a62a4",
+      "public_sha256": "0b96cbc16a5c2fbecb9683c34b3b32a509ddd54c25e02373c0879a77e00a62a4",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/policy.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/policy.py",
+      "source_sha256": "d1c39b94b9279655a6876263e67e5bf2116ba8432b0a70195ee88ad64b98732e",
+      "public_sha256": "d1c39b94b9279655a6876263e67e5bf2116ba8432b0a70195ee88ad64b98732e",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/renderer.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/renderer.py",
+      "source_sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+      "public_sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/schemas.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/schemas.py",
+      "source_sha256": "d373fb26f8669063f421ca36ad17f8b9d7a56cd433c8a88326af089372ca1236",
+      "public_sha256": "d373fb26f8669063f421ca36ad17f8b9d7a56cd433c8a88326af089372ca1236",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/transport.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/transport.py",
+      "source_sha256": "4f30365f3a585dcbe18a4cfee3f8acaf23174e6ed430bb033f7aac9496e427be",
+      "public_sha256": "4f30365f3a585dcbe18a4cfee3f8acaf23174e6ed430bb033f7aac9496e427be",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/i1/worker.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/worker.py",
+      "source_sha256": "6531abe311f70166444600e5d5c473684ca57d80f5656afd898973ef4a337893",
+      "public_sha256": "6531abe311f70166444600e5d5c473684ca57d80f5656afd898973ef4a337893",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/language.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/language.py",
+      "source_sha256": "c2702db4be8ac8fb941757d33301b2e44ed88679d79e561097eeac814e9581a4",
+      "public_sha256": "c2702db4be8ac8fb941757d33301b2e44ed88679d79e561097eeac814e9581a4",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/memory.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/memory.py",
+      "source_sha256": "82b3e7e7d04aea0fba8b545bb902f5233b64c73fc6ccec0c8447d955f8bbb3cd",
+      "public_sha256": "82b3e7e7d04aea0fba8b545bb902f5233b64c73fc6ccec0c8447d955f8bbb3cd",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/planning.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/planning.py",
+      "source_sha256": "7be22f4f30e2ff348c6199fb641e61497f7c70e3f74e9d615ad7e108e04c7219",
+      "public_sha256": "7be22f4f30e2ff348c6199fb641e61497f7c70e3f74e9d615ad7e108e04c7219",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/rag.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/rag.py",
+      "source_sha256": "5366e191c00ac9f55f321cd5632c9bf5381a902ba4673e18a6d4e5d10178fa45",
+      "public_sha256": "5366e191c00ac9f55f321cd5632c9bf5381a902ba4673e18a6d4e5d10178fa45",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/service.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/service.py",
+      "source_sha256": "014cb35f34143b0f1db3b206698f4f2e63c1eca66651e86ab04686c124967464",
+      "public_sha256": "014cb35f34143b0f1db3b206698f4f2e63c1eca66651e86ab04686c124967464",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/c4_rebuild/sources.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/sources.py",
+      "source_sha256": "b58d54b3a892bc94dd945119d71972931b553f7f16bba9dafe553d291a83eea1",
+      "public_sha256": "b58d54b3a892bc94dd945119d71972931b553f7f16bba9dafe553d291a83eea1",
+      "adaptations": []
+    },
+    {
+      "public_path": "src/rq3_original/utils/course_material_retriever.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/course_material_retriever.py",
+      "source_sha256": "c9ccbf6682df975a1382f45fc82077dc347774fb7efccef362e81af6552a5da8",
+      "public_sha256": "9dcec8603ba9d4172d872c0e2a4603d9d1f12e6fcfbdb192736133129569881f",
+      "adaptations": [
+        "Delay omitted course-metadata import until actual course ingestion; exact metadata remains a documented external prerequisite."
+      ]
+    },
+    {
+      "public_path": "src/rq3_original/utils/recommendation_planner.py",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/recommendation_planner.py",
+      "source_sha256": "2e5b88110e8fbe50391cc75914a366b8b80abf2eec2b9d98519d03cee92aee08",
+      "public_sha256": "2e5b88110e8fbe50391cc75914a366b8b80abf2eec2b9d98519d03cee92aee08",
+      "adaptations": []
+    },
+    {
+      "public_path": "configs/rq3/frozen_parameters.json",
+      "source_component": "RQ3_FINAL_FROZEN_ZIP",
+      "source_archive_sha256": "e042e7eae09119ca640d70e812fc8e3b3ac44fa5b91479d448a799f4a9a6f65d",
+      "source_path": "results/study_materials/CONFIG_PROPOSED.json",
+      "source_sha256": "7d66644f2207708e652f55ceed4f537ef5e9995ff9f7a03909ccfdd749c20abb",
+      "public_sha256": "74bb8323f65b5b62d82f314492287ac44190cbec168f11f73226a95a1c6fb170",
+      "adaptations": [
+        "Allowlisted historical model/mode/threshold/budget configuration projection; omitted identity/task roster/admin fields."
+      ]
+    },
+    {
+      "public_path": "configs/rq3/execution_versions.json",
+      "source_component": "RQ3_FINAL_FROZEN_ZIP",
+      "source_archive_sha256": "e042e7eae09119ca640d70e812fc8e3b3ac44fa5b91479d448a799f4a9a6f65d",
+      "source_path": "results/RESPONSE_HANDOFF.jsonl",
+      "source_sha256": "d02f708217b296b6dc8b992a0e6b152a5a9f095cf0a79f7b694dcfd74d05306a",
+      "public_sha256": "e45880ade77c34f78d381f33a3628573a16d1ed8226e02555b59288113b636ae",
+      "adaptations": [
+        "Project task/mode/selected-stage/status only; no response texts/hashes, requester identities or source payloads; add frozen run-binding identities and fixed-commit code comparison."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/final_system_reused62_v1.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62/interfaces.py",
+      "source_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "public_sha256": "b368a7790acd734c27d88950a7c1cf23d2e40fc23d2328ea6b87046b7726255d",
+      "adaptations": [
+        "Extract exact COMMON runtime final-system string; no study response content."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/final_schema_reused62_v1.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/a_reuse62/interfaces.py",
+      "source_sha256": "c15622efeabe6ef24c6533b5738568e6454534b73a9002d65ce348b14cb36016",
+      "public_sha256": "b8ece63c40f1163dd9eda10ba0ca0ef32f7589ef7daaaf28da42a8292b93e10e",
+      "adaptations": [
+        "Extract exact FINAL_SCHEMA; runtime additionally restricts source IDs to retained evidence."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/typed_ordinary_action_advice_schemas.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i5_typed_action_planner/typed_v1.py",
+      "source_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "public_sha256": "9c6ef9f9b68a4667aaee4202ea3f63ccea74e368edd1e0947aafb9db83eea957",
+      "adaptations": [
+        "Export actual typed local/wire schema pair constructed by schemas(kind), including inherited P0/P1 constraints."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/typed_explicit_schedule_schemas.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "research_followups/rq3_rebuild/i5_typed_action_planner/typed_v1.py",
+      "source_sha256": "97649f4fda3bff58d6910ed69193f56719d840995cf2f3d298d9a683f5f3bac4",
+      "public_sha256": "326dc7f38bbc8bed9f6ae0b5389548d6a0cd40fe20bc2f9558d6bfbcbe74179c",
+      "adaptations": [
+        "Export actual typed local/wire schema pair constructed by schemas(kind), including inherited P0/P1 constraints."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_rag_system.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_rag_schema.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_rag_few_shot.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "c3e7524d3dcfd70a05719667362c45020d3bfa9eb7fb99a45908f398e6568258",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_memory_system.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_memory_schema.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_memory_few_shot.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "732e3037bca17bc9e94c91f0b70aae94edcfb6c75d24bc4b5fa04c8919eef67d",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_b4_planning_system.txt",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_b4_planning_schema.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    },
+    {
+      "public_path": "prompts/rq3/p3_b4_planning_few_shot.json",
+      "source_component": "A:RQ3",
+      "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+      "source_path": "utils/c4_rebuild/i1/frozen_p3.py",
+      "source_sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+      "public_sha256": "25411a73a7b4afc97fb26bbada521a71c1ffc9ae0e7318e929670744d50c8f58",
+      "adaptations": [
+        "Extract actual hash-verified FrozenP3 role model-visible content; original role material hashes in src/rq3_original/evaluation and source_map."
+      ]
+    }
+  ]
+}

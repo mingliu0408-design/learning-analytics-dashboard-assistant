@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+*.pyc
+.env
+.env.*
+.streamlit/secrets.toml
+*.sqlite*
+*.db
+*.log
+.local
+outputs

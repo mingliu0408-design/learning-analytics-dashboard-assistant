@@ -1,0 +1,58 @@
+{
+  "K0": {
+    "mrr": 0.21875,
+    "top1_accuracy": 0.21875,
+    "recall_at_3": 0.21875,
+    "macro_f1": 0.18127370558162545,
+    "mean_gold_rank": 13.5,
+    "top1_correct_count": 28
+  },
+  "C0": {
+    "mrr": 0.5353797461219336,
+    "top1_accuracy": 0.3671875,
+    "recall_at_3": 0.59375,
+    "macro_f1": 0.3623273323253973,
+    "mean_gold_rank": 4.046875,
+    "top1_correct_count": 47
+  },
+  "M64_seed_20260813": {
+    "mrr": 0.425928064990565,
+    "top1_accuracy": 0.2734375,
+    "recall_at_3": 0.4921875,
+    "macro_f1": 0.2352462121212121,
+    "mean_gold_rank": 5.8125,
+    "top1_correct_count": 35
+  },
+  "M64_seed_20260814": {
+    "mrr": 0.3982503173909424,
+    "top1_accuracy": 0.2265625,
+    "recall_at_3": 0.4453125,
+    "macro_f1": 0.1970597843275862,
+    "mean_gold_rank": 5.9921875,
+    "top1_correct_count": 29
+  },
+  "M64_seed_20260815": {
+    "mrr": 0.3942398096694972,
+    "top1_accuracy": 0.21875,
+    "recall_at_3": 0.484375,
+    "macro_f1": 0.18559435785354078,
+    "mean_gold_rank": 5.7890625,
+    "top1_correct_count": 28
+  },
+  "M64_seed_20260816": {
+    "mrr": 0.40650157134532133,
+    "top1_accuracy": 0.2265625,
+    "recall_at_3": 0.4765625,
+    "macro_f1": 0.1954588059886973,
+    "mean_gold_rank": 5.7734375,
+    "top1_correct_count": 29
+  },
+  "M64_seed_20260817": {
+    "mrr": 0.43088567248723497,
+    "top1_accuracy": 0.2734375,
+    "recall_at_3": 0.4921875,
+    "macro_f1": 0.23665317049695372,
+    "mean_gold_rank": 5.765625,
+    "top1_correct_count": 35
+  }
+}

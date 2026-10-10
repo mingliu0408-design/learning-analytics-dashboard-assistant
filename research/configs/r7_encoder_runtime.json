@@ -1,0 +1,17 @@
+{
+  "max_seq_length": 384,
+  "model_dtype": "torch.float32",
+  "modules": "SentenceTransformer(\n  (0): Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'forward', 'method_output_name': 'last_hidden_state'}}, 'module_output_name': 'token_embeddings', 'architecture': 'MPNetModel'})\n  (1): Pooling({'embedding_dimension': 768, 'pooling_mode': 'mean', 'include_prompt': True})\n  (2): Normalize({})\n)",
+  "versions": {
+    "numpy": "2.1.1",
+    "torch": "2.12.1",
+    "transformers": "5.15.0",
+    "sentence-transformers": "5.6.1",
+    "tokenizers": "0.22.2",
+    "scikit-learn": "1.9.0"
+  },
+  "device": "cpu",
+  "batch_size": 16,
+  "normalize_embeddings": true,
+  "source_loader": "sources/execute_deterministic_test.py:132-146; same constructor and encode parameters, one shared model instance"
+}

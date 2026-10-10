@@ -1,0 +1,412 @@
+[
+  {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "PLANNER_CANDIDATE_SCHEMA_DRAFT",
+    "type": "object",
+    "properties": {
+      "plan_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "goal_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "goal": {
+        "type": "string",
+        "minLength": 1
+      },
+      "actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "step_id": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Unique local action identifier in THIS candidate, e.g. step_1. Distinct from task IDs, evidence IDs and resource IDs."
+            },
+            "task_id": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Identity of the proposed task, e.g. proposed_task_1, or an exact supplied historical task ID when applicable. Never invent historical acceptance; preserve completion and prerequisite rules."
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "TASK",
+                "REVIEW"
+              ]
+            },
+            "action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "estimated_duration": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1000000
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "unit": {
+                  "const": "minutes",
+                  "type": "string"
+                },
+                "origin": {
+                  "type": "string",
+                  "enum": [
+                    "SYNTHETIC_ESTIMATE",
+                    "LEARNER_ESTIMATE",
+                    "SOURCE_ESTIMATE",
+                    "UNKNOWN",
+                    "MODEL_ESTIMATE"
+                  ]
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0,
+                  "maxItems": 1000,
+                  "uniqueItems": true
+                },
+                "uncertainty": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "value",
+                "unit",
+                "origin",
+                "evidence_refs",
+                "uncertainty"
+              ],
+              "additionalProperties": false,
+              "description": "Use MODEL_ESTIMATE with explicit uncertainty for your estimate, or UNKNOWN/null. Citations do not prove duration. UNKNOWN is not zero or budget compliance; original checks may block it."
+            },
+            "resource_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true,
+              "description": "Only exact IDs from encoded_planning_fields.resources. Evidence facts are not automatically resources. Empty when no resources are supplied."
+            },
+            "dependencies": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "maxItems": 1000,
+              "uniqueItems": true,
+              "description": "Only step_id values of earlier actions in THIS candidate. Never task_id, goal IDs or evidence IDs. No missing target, duplicate, self-loop, cycle or forward dependency."
+            },
+            "schedule": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "end": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Use the original calendar contract. Every action requires a supported schedule when scheduling is required; null never certifies successful scheduling."
+            },
+            "completion_check": {
+              "type": "string",
+              "minLength": 1,
+              "description": "A meaningful observable check for this proposed action. Do not claim unseen worksheet completion or unknown prior task state."
+            },
+            "evidence_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "maxItems": 1000,
+              "uniqueItems": true,
+              "description": "Exact IDs from the supplied reference_catalog. An ID identifies evidence; it does not prove semantic support."
+            },
+            "brief_rationale": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "step_id",
+            "task_id",
+            "kind",
+            "action",
+            "estimated_duration",
+            "resource_ids",
+            "dependencies",
+            "schedule",
+            "completion_check",
+            "evidence_refs",
+            "brief_rationale"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 100,
+        "uniqueItems": false
+      },
+      "evidence_refs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "maxItems": 1000,
+        "uniqueItems": true,
+        "description": "Exact IDs from the supplied reference_catalog. An ID identifies evidence; it does not prove semantic support."
+      },
+      "continues_plan_id": {
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "description": "Null unless an actually adopted active plan is supplied; a non-null value must be its exact ID."
+      },
+      "brief_rationale": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "plan_id",
+      "goal_id",
+      "goal",
+      "actions",
+      "evidence_refs",
+      "continues_plan_id",
+      "brief_rationale"
+    ],
+    "additionalProperties": false
+  },
+  {
+    "type": "object",
+    "properties": {
+      "plan_id": {
+        "type": "string"
+      },
+      "goal_id": {
+        "type": "string"
+      },
+      "goal": {
+        "type": "string"
+      },
+      "actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "step_id": {
+              "type": "string",
+              "description": "Unique local action identifier in THIS candidate, e.g. step_1. Distinct from task IDs, evidence IDs and resource IDs."
+            },
+            "task_id": {
+              "type": "string",
+              "description": "Identity of the proposed task, e.g. proposed_task_1, or an exact supplied historical task ID when applicable. Never invent historical acceptance; preserve completion and prerequisite rules."
+            },
+            "kind": {
+              "type": "string",
+              "enum": [
+                "TASK",
+                "REVIEW"
+              ]
+            },
+            "action": {
+              "type": "string"
+            },
+            "estimated_duration": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "unit": {
+                  "enum": [
+                    "minutes"
+                  ],
+                  "type": "string"
+                },
+                "origin": {
+                  "type": "string",
+                  "enum": [
+                    "SYNTHETIC_ESTIMATE",
+                    "LEARNER_ESTIMATE",
+                    "SOURCE_ESTIMATE",
+                    "UNKNOWN",
+                    "MODEL_ESTIMATE"
+                  ]
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "uncertainty": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "value",
+                "unit",
+                "origin",
+                "evidence_refs",
+                "uncertainty"
+              ],
+              "additionalProperties": false,
+              "description": "Use MODEL_ESTIMATE with explicit uncertainty for your estimate, or UNKNOWN/null. Citations do not prove duration. UNKNOWN is not zero or budget compliance; original checks may block it."
+            },
+            "resource_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Only exact IDs from encoded_planning_fields.resources. Evidence facts are not automatically resources. Empty when no resources are supplied."
+            },
+            "dependencies": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Only step_id values of earlier actions in THIS candidate. Never task_id, goal IDs or evidence IDs. No missing target, duplicate, self-loop, cycle or forward dependency."
+            },
+            "schedule": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "string"
+                    },
+                    "end": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Use the original calendar contract. Every action requires a supported schedule when scheduling is required; null never certifies successful scheduling."
+            },
+            "completion_check": {
+              "type": "string",
+              "description": "A meaningful observable check for this proposed action. Do not claim unseen worksheet completion or unknown prior task state."
+            },
+            "evidence_refs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Exact IDs from the supplied reference_catalog. An ID identifies evidence; it does not prove semantic support."
+            },
+            "brief_rationale": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "step_id",
+            "task_id",
+            "kind",
+            "action",
+            "estimated_duration",
+            "resource_ids",
+            "dependencies",
+            "schedule",
+            "completion_check",
+            "evidence_refs",
+            "brief_rationale"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "evidence_refs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Exact IDs from the supplied reference_catalog. An ID identifies evidence; it does not prove semantic support."
+      },
+      "continues_plan_id": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "description": "Null unless an actually adopted active plan is supplied; a non-null value must be its exact ID."
+      },
+      "brief_rationale": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "plan_id",
+      "goal_id",
+      "goal",
+      "actions",
+      "evidence_refs",
+      "continues_plan_id",
+      "brief_rationale"
+    ],
+    "additionalProperties": false
+  }
+]

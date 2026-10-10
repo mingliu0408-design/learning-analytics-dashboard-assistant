@@ -1,0 +1,20 @@
+{
+  "b0_code_sha256": "834a457cf996039a4edae4422240f25047af203a07f35d3d8036aab5f9d28c27",
+  "b0_ruleset_sha256": "84fdd1413958199106c10c4105df248e9ace7075ca6988e50c6bcdc253146f53",
+  "dev_error_specific_tuning": false,
+  "model_id": "R2V2-B0_RULE",
+  "model_visible_fields": [
+    "current_query",
+    "current_page",
+    "dashboard_context",
+    "visible_conversation_history"
+  ],
+  "primary_feature_profile": "R2V2_PRIMARY_SEMANTIC_INPUT_V1",
+  "privileged_fields_excluded": true,
+  "rules_modified_for_stage4g": false,
+  "ruleset_id": "R2V2-B0_RULE_BASELINE_V1_R1_FEATURE_FAIR",
+  "ruleset_status": "BASELINE_UNTUNED_NOT_EMPIRICALLY_FINAL",
+  "schema_version": "rq2-v2-stage4g-b0-frozen-config-v1",
+  "source_code_path": "evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/b0_rule_router.py",
+  "source_config_path": "evaluation/capability_routing_rq2_v2_stage1/track_b_b0_b1/config/b0_rules_v1.json"
+}

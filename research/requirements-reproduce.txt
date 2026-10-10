@@ -1,0 +1,2 @@
+# S7 frozen NumPy version; the offline runner has no model/provider dependencies.
+numpy==2.3.5

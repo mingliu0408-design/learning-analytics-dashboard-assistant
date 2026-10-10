@@ -1,0 +1,49 @@
+{
+  "schema": "GH1_SOURCE_MAP_INDEX_V1",
+  "components": [
+    {
+      "map": "metadata/source_map_rq1_rq2.json",
+      "sha256": "d6b79a52c0727407c34b49ccc0497b4cde5434511580f304914dbd60c70451aa",
+      "source_entries": 127
+    },
+    {
+      "map": "metadata/source_map_rq3.json",
+      "sha256": "158d56ff0d1d15a64231ebbacebd58551fea95a2ae08c430267111754a3472a6",
+      "source_entries": 129
+    },
+    {
+      "map": "metadata/source_map_s7.json",
+      "sha256": "02dbc8742239cbf43a0f8d8a2975fb2e6fca67a579c26cf7e64cf435e1d91f37",
+      "source_entries": 23
+    }
+  ],
+  "original_source_hashes_checked": 278,
+  "mapped_release_hashes_checked": 282,
+  "source_rules": "Fixed Git objects or delivered frozen archives only. Original source commits are local historical identities. Release wrappers are identified separately.",
+  "source_archives": [
+    {
+      "role": "W8",
+      "filename": "THESIS_W8_STATISTICS_SENSITIVITY_INTEGRATION_REVIEW_2026-09-08.zip",
+      "sha256": "e44134345b0c7ac33bd0ff4d23ac8c3dde8790af238674d42c1a3f73aad4c4b1",
+      "bytes": 1607369
+    },
+    {
+      "role": "S7",
+      "filename": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "bytes": 2217215
+    },
+    {
+      "role": "R7",
+      "filename": "THESIS_R7_R1_RQ2_SERIALIZER_SENSITIVITY_REVIEW_2026-09-08.zip",
+      "sha256": "7a88995bba4402a21ada79a6acf2a35016c734fddb29468d83df535162251d4f",
+      "bytes": 748236
+    },
+    {
+      "role": "RQ3_FINAL",
+      "filename": "RQ3_CONFIRMED41_MEMORY_ISOLATION_CONTINUATION_REVIEW_2026-09-08.zip",
+      "sha256": "e042e7eae09119ca640d70e812fc8e3b3ac44fa5b91479d448a799f4a9a6f65d",
+      "bytes": 5219770
+    }
+  ]
+}

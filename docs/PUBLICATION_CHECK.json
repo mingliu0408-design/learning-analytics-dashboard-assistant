@@ -1,0 +1,15 @@
+{
+  "tracked_files_checked": 339,
+  "status": "PASS",
+  "research_source": "public repository 2d5ed307397b0f58f777fd2c054bc96a3c145e7d",
+  "scope": "Staged public bundle only; not a whole-machine secret audit",
+  "excluded": [
+    "private student data",
+    "private course corpus",
+    "chat logs",
+    "credentials",
+    "model weights",
+    "local databases",
+    ".venv"
+  ]
+}

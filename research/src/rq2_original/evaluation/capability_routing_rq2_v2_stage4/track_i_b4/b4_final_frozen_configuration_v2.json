@@ -1,0 +1,176 @@
+{
+  "B4_MODEL_STATUS": "FROZEN_AFTER_DEV_EXECUTION",
+  "execution_evidence": {
+    "attempt_records_v2_sha256": "a8e8a66394d159e1af88a153654c63437176ba869dbf0c02f12c43ec1138b1a7",
+    "call_journal_v2_sha256": "d5e447c2c26a24a1a362098fc132a0614a5004c2ff3954d67c83da8f1dad7bad",
+    "cumulative_physical_attempts": 65,
+    "historical_physical_attempts": 1,
+    "new_logical_terminal_results": 64,
+    "new_physical_attempts": 64,
+    "requested_models": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "returned_models": [
+      "gpt-4o-mini-2024-07-18"
+    ],
+    "terminal_results_v2_sha256": "867e62817d8cb4342eb7071532803af2bc8e96e65b05d70743f0304f59473abc",
+    "v2_manifest_sha256": "e3fe5585ccd78d51cf9c154d64a56f919c3fc47b0e2460678a4cb7b058a67c22",
+    "v3_manifest_sha256": "6322295cc124494f68aec1fd37f5df6726b321041ba6abb6cb708d845a108f5e",
+    "valid_predictions": 64
+  },
+  "execution_scope": "DEV_ONLY_CONDITIONAL_B4_ANSWER_CASES_NEW_R1_RUN",
+  "fold_specific_examples": {
+    "DEV-CV-FOLD-1": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-049",
+        "R2V2-ANN-037",
+        "R2V2-ANN-038",
+        "R2V2-ANN-035",
+        "R2V2-ANN-084",
+        "R2V2-ANN-090",
+        "R2V2-ANN-030"
+      ],
+      "example_set_sha256": "454d6797451353d5c56c8355371a1984479d875d21b79954248952fcbd11fc94",
+      "fold_prompt_package_sha256": "0bdd479d1ba3ca9be44cb833d0f119f3b501a25a6c87e60a8dff7da8af1e2074",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-2": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-049",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-058",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "fc36603e7827c756500cfbeaf72f8eae47b4fefd943794e3d3b5cd1e95cd97f2",
+      "fold_prompt_package_sha256": "c9d81e06c969597be208e2ebadd05e5f1bd683b520da29e857d2335ccff97743",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-3": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-050",
+        "R2V2-ANN-021",
+        "R2V2-ANN-037",
+        "R2V2-ANN-103",
+        "R2V2-ANN-034",
+        "R2V2-ANN-017",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "7e63f0160b63f20aabd185000acb919dd446808c171657635fd855ceac223a69",
+      "fold_prompt_package_sha256": "e0af26307ab3149d4c4ca86fa0fdad4a1b778fb7e76b0ae90f29555761d5c795",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "DEV-CV-FOLD-4": {
+      "example_count": 8,
+      "example_ids": [
+        "R2V2-ANN-063",
+        "R2V2-ANN-021",
+        "R2V2-ANN-019",
+        "R2V2-ANN-038",
+        "R2V2-ANN-034",
+        "R2V2-ANN-084",
+        "R2V2-ANN-043",
+        "R2V2-ANN-069"
+      ],
+      "example_set_sha256": "aaca52041d7a13dc7e899d064db137823fad59f2206b76b81e018c5ee31c8bcf",
+      "fold_prompt_package_sha256": "d0de6083efa0e7d0da1bf06b91cf64c8132256c0d1ef31cb1e881dec292ac110",
+      "signatures": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    }
+  },
+  "full_dev_examples": {
+    "example_count": 8,
+    "example_ids": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+    "prompt_package_sha256": "7a4875e23350d4ea2d3e6a6fed7e28d2eb278f79722fb74dfe43788b02216d89",
+    "signatures": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  "future_boundary": {
+    "further_provider_authority_inferred": false,
+    "p1_calls_made": 0,
+    "rq3_calls_made": 0,
+    "test_calls_made": 0
+  },
+  "historical_failed_attempt": {
+    "classification": "PRE_MODEL_REQUEST_CONFIGURATION_FAILURE",
+    "included_in_metrics": false,
+    "preservation_manifest_sha256": "155ef44c2c42f2c470a4e3953ac144252d00b482177f5a3a2c4c234355245c12"
+  },
+  "manual_retry_policy": {
+    "correction_message_added": false,
+    "maximum_retries_per_logical_case": 1,
+    "only_after": [
+      "INVALID_JSON",
+      "STRICT_SCHEMA_VALIDATION_FAILED"
+    ],
+    "prompt_changed": false
+  },
+  "max_output_tokens": 64,
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+  "response_schema_v2_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876",
+  "schema_version": "rq2-v2-stage4-i-x-r1-b4-final-freeze-v2",
+  "sdk_transport_retries": 0,
+  "temperature": 0
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "rq2-v2-stage4-k0-memory-specialist-final-full-dev-package-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "specialist": "Memory Specialist",
+  "population": "FINAL_FULL_DEV_PROMPT_ONLY",
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "prompt_template": "You are the Memory capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require student-specific information from an earlier interaction that is absent from visible conversation history?\n\nSet memory_required to true only when all conditions hold:\n- A student-specific prior goal, preference, constraint, difficulty, deadline, or prior plan is needed.\n- That information is absent from visible conversation history.\n- It must therefore be retrieved from long-term Memory.\n\nSet memory_required to false when any of these conditions holds:\n- The required information is already visible.\n- Current Dashboard information is sufficient.\n- The query is self-contained.\n- Generic course knowledge is needed instead.\n- The query merely mentions the past but no missing personal fact is necessary.\n\nJudge Memory independently:\n- Visible conversation history is not long-term Memory.\n- Ignore whether RAG is required.\n- Ignore whether Planning is required.\n- Do not retrieve or invent the missing memory.\n- Judge only whether long-term Memory is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"memory_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n",
+  "specialist_schema": {
+    "type": "object",
+    "properties": {
+      "memory_required": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "memory_required"
+    ],
+    "additionalProperties": false
+  },
+  "few_shot_examples": [
+    {
+      "input": {
+        "current_query": "What do these reflection numbers—3 entries, a 96-word average and 3 of 4 prompts answered—show about my current completion?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: 3 reflection entries are submitted, the average length is 96 words, and 3 of 4 prompts have responses.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?",
+        "current_page": "Reflection",
+        "dashboard_context": "Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does the selected 62% engagement score actually mean?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the current week shows 4 active days, 3 completed check-ins, and a 62% engagement indicator; the 62% indicator is explicitly selected.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?",
+        "current_page": "Resources",
+        "dashboard_context": "Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false
+      }
+    },
+    {
+      "input": {
+        "current_query": "What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true
+      }
+    },
+    {
+      "input": {
+        "current_query": "Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?",
+        "current_page": "Overview",
+        "dashboard_context": "Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true
+      }
+    }
+  ],
+  "complete_rendered_full_dev_package": {
+    "model": "gpt-4o-mini-2024-07-18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are the Memory capability specialist for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nDecide only this question:\nDoes correctly answering the visible student request minimally require student-specific information from an earlier interaction that is absent from visible conversation history?\n\nSet memory_required to true only when all conditions hold:\n- A student-specific prior goal, preference, constraint, difficulty, deadline, or prior plan is needed.\n- That information is absent from visible conversation history.\n- It must therefore be retrieved from long-term Memory.\n\nSet memory_required to false when any of these conditions holds:\n- The required information is already visible.\n- Current Dashboard information is sufficient.\n- The query is self-contained.\n- Generic course knowledge is needed instead.\n- The query merely mentions the past but no missing personal fact is necessary.\n\nJudge Memory independently:\n- Visible conversation history is not long-term Memory.\n- Ignore whether RAG is required.\n- Ignore whether Planning is required.\n- Do not retrieve or invent the missing memory.\n- Judge only whether long-term Memory is minimally necessary.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on those four fields.\n\nReturn only one JSON object with exactly this key and a JSON boolean value:\n{\"memory_required\":true}\nDo not add Markdown, prose, a free-form explanation, or any other field.\n"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What do these reflection numbers—3 entries, a 96-word average and 3 of 4 prompts answered—show about my current completion?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: 3 reflection entries are submitted, the average length is 96 words, and 3 of 4 prompts have responses.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?\",\"current_page\":\"Reflection\",\"dashboard_context\":\"Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does the selected 62% engagement score actually mean?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the current week shows 4 active days, 3 completed check-ins, and a 62% engagement indicator; the 62% indicator is explicitly selected.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?\",\"current_page\":\"Resources\",\"dashboard_context\":\"Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":false}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":true}"
+      },
+      {
+        "role": "user",
+        "content": "{\"current_query\":\"Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?\",\"current_page\":\"Overview\",\"dashboard_context\":\"Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.\",\"visible_conversation_history\":[]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"memory_required\":true}"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 32,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "rq2_v2_memory_specialist_v1",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "memory_required": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "memory_required"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "hashes": {
+    "prompt_template_sha256": "c8a53b27f16b84ef0373ddfdd20eab997cc986eab10a93a138ede06571ebab04",
+    "specialist_schema_sha256": "41a0f015b3fd7589bd1a08bd1d3e2a7c8bd5491b22c2531ef43ead634642a3d7",
+    "example_id_order_sha256": "b6e8a62a1891fd314f3062353d0f6d29a0d5a57c5955ef950bb24ff7f866100a",
+    "specialist_example_set_sha256": "57a7aecd53710a1587388711177d7564f4560f1a8729939d445268d2514d3eb4",
+    "complete_rendered_full_dev_package_sha256": "9fa8db7df4f848c7fe6b4795446f99f11ee97b82c9f4746144d3ddc997923ec9"
+  },
+  "source_b4_reuse": {
+    "example_ids_in_order": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_id_order": [
+      "R2V2-ANN-063",
+      "R2V2-ANN-049",
+      "R2V2-ANN-037",
+      "R2V2-ANN-038",
+      "R2V2-ANN-034",
+      "R2V2-ANN-084",
+      "R2V2-ANN-043",
+      "R2V2-ANN-069"
+    ],
+    "source_b4_example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+    "identity_and_order_exact": true
+  },
+  "execution_boundary": {
+    "provider_calls_authorized": 0,
+    "provider_calls_made": 0,
+    "specialist_predictions_present": 0
+  }
+}

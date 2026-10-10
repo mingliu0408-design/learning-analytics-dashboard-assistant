@@ -1,0 +1,5 @@
+stratum,rater,n_units,S5_minus_S0,S5_minus_S0_exact,n_positive,n_zero,n_negative,interpretation
+original17,Rater 1,17,0.026470588235294117,9/340,5,8,4,descriptive_fixed_rater_no_resampling_of_raters
+original17,Rater 2,17,0.08739495798319327,52/595,6,6,5,descriptive_fixed_rater_no_resampling_of_raters
+new12_families,Rater 1,12,0.6530753968253968,6583/10080,9,0,3,descriptive_fixed_rater_no_resampling_of_raters
+new12_families,Rater 2,12,0.7038690476190477,473/672,9,0,3,descriptive_fixed_rater_no_resampling_of_raters

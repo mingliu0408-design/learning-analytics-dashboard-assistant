@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "rag_required": {
+      "type": "boolean"
+    },
+    "memory_required": {
+      "type": "boolean"
+    },
+    "planning_required": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "rag_required",
+    "memory_required",
+    "planning_required"
+  ],
+  "additionalProperties": false
+}

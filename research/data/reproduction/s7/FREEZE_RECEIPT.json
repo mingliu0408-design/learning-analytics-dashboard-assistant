@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-09-08T11:32:54.885210+00:00",
+  "analysis_status": "POST_HOC_EXPLORATORY_CONDITIONAL_SUPPLEMENT",
+  "results_already_seen": true,
+  "spec_sha256": "d7c6ad07ccc0721981a7431542d6ac5f92a3c58b4bcdd24892dd90772b211efd",
+  "scope": "This locks this supplementary calculation only; it is not historical preregistration.",
+  "author_method_statement": "Human ratings independently completed by two anonymous raters, as described by the author.",
+  "execution_layout": "Draw one int64 array of shape (50000,4,3), group order E,R,M,P, families 01,02,03, default_rng(20260908). Use these indices for every mode and contrast. Average three within each group and then four groups equally. Percentile quantile method linear.",
+  "code_commit_policy": "No commit planned; report unchanged source HEAD and manifest hashes of supplementary files."
+}

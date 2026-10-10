@@ -1,0 +1,2 @@
+# Preserve frozen source/data bytes and manifest hashes across checkouts.
+* -text

@@ -1,0 +1,13 @@
+{
+  "origin": "SYNTHETIC_MODEL_AUTHORED_RELEASE_TEST_NOT_STUDY_DATA",
+  "scope": {"learner_id":"synthetic-learner","course_id":"synthetic-course","snapshot":"synthetic-snapshot","start":"2026-01-01T00:00:00+00:00","end":"2026-01-08T00:00:00+00:00","timezone":"UTC"},
+  "as_of":"2026-01-04T00:00:00+00:00",
+  "rows": [
+    {"ID":"synthetic-learner","course":"synthetic-course","at":"2026-01-02T00:00:00+00:00","Event":"Resources_views"},
+    {"ID":"different-synthetic-learner","course":"synthetic-course","at":"2026-01-02T00:00:00+00:00","Event":"Resources_views"},
+    {"ID":"synthetic-learner","course":"different-synthetic-course","at":"2026-01-02T00:00:00+00:00","Event":"Resources_views"},
+    {"ID":"synthetic-learner","course":"synthetic-course","at":"2026-01-08T00:00:00+00:00","Event":"Resources_views"}
+  ],
+  "memory_text":"I want to practise synthetic algebra examples.",
+  "course_text":"Synthetic workshop instructions: review each algebra example by writing the known quantities, choosing an operation, carrying out the calculation, and checking the result against the stated assumptions. This fabricated paragraph is used only to test the lexical retrieval interface."
+}

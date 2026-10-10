@@ -1,0 +1,331 @@
+{
+  "component": "RQ3 criterion aggregation and S7 statistics",
+  "entries": [
+    {
+      "release_path": "data/reproduction/rq3/SCORE_COMPONENTS.csv",
+      "release_sha256": "1874324096a72cf1119932a19dc39da19adb487d4fbebbf3fd2f45fe72599787",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/SCORE_COMPONENTS.csv",
+      "source_sha256": "1874324096a72cf1119932a19dc39da19adb487d4fbebbf3fd2f45fe72599787",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/ALL_MODE_CONTRASTS.csv",
+      "release_sha256": "4c796c10ffdef5475a3d44d46aa5e87d632fde28b7af9fac9f270b4cba94469c",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/ALL_MODE_CONTRASTS.csv",
+      "source_sha256": "999751d674e24419f4c15912d28ffeb48d23aaf41d60613891155ad8d6852882",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/ALL_MODE_CONTRAST_UNIT_DELTAS.csv",
+      "release_sha256": "a31755ff824242c549afd00b7fcc75fed71955fd335e78d31ff071112dab612c",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/ALL_MODE_CONTRAST_UNIT_DELTAS.csv",
+      "source_sha256": "c41a26db79f969f411ef4eee1512e714b58e2bd0d9a0cd23cd586bef091683f5",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/CAPABILITY_FAMILY_MEANS.csv",
+      "release_sha256": "9aca95c6dec100949f85a72ca7c764d202f4b776f0bdee3e833e0c1d20d8f052",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/CAPABILITY_FAMILY_MEANS.csv",
+      "source_sha256": "1fa889d6c7eb9c6b720fec992eb13b8c0e434279c4aa00b29f93a8ad72d0ead3",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/MODE_DESCRIPTIVE_SUMMARY.csv",
+      "release_sha256": "0da44e25b7e048365877848b780f73a9b82a1b2671933eef6a87d451ebf326ba",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/MODE_DESCRIPTIVE_SUMMARY.csv",
+      "source_sha256": "87508f1a606ff0399f262e2b312a7a104a22b4ef097223a7ef5dc67819eb5fe7",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/PRIMARY_FAMILY_DIFFERENCES.csv",
+      "release_sha256": "2a3312c8d9fd25923b89641e4045bfbe7935b0849c53a3c60aaff1cd224de70a",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/PRIMARY_FAMILY_DIFFERENCES.csv",
+      "source_sha256": "0db1233b9821661394308d2d07e47a513bd6035a2bebe07b13f89f7a4b084cba",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/inputs/UNIT_MODE_MEANS.csv",
+      "release_sha256": "4834871d54d3c81107b6ca9237e58ef6b14abca744593b03b8696344eb338b0c",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/UNIT_MODE_MEANS.csv",
+      "source_sha256": "9427c6786c9b4597af545857e6bc220fcf2235104284e71af1650911033afd6e",
+      "adaptation": "Neutral rater header names only; numerical values, task/family labels, row order and applicability unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "data/reproduction/s7/EXPLORATORY_SPEC.json",
+      "release_sha256": "d7c6ad07ccc0721981a7431542d6ac5f92a3c58b4bcdd24892dd90772b211efd",
+      "source": "S7 frozen archive",
+      "source_member": "specification/EXPLORATORY_SPEC.json",
+      "source_sha256": "d7c6ad07ccc0721981a7431542d6ac5f92a3c58b4bcdd24892dd90772b211efd",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "data/reproduction/s7/FREEZE_RECEIPT.json",
+      "release_sha256": "e8b6ed35574e8b874b6f7a407e9993c1ffa3c4ba33ef0841977e730b60733158",
+      "source": "S7 frozen archive",
+      "source_member": "specification/FREEZE_RECEIPT.json",
+      "source_sha256": "e8b6ed35574e8b874b6f7a407e9993c1ffa3c4ba33ef0841977e730b60733158",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/ALL_15_NEW_CONTRASTS.csv",
+      "release_sha256": "460991817755cdf9e489f9a56279c1c044aa1d0b5cb8087fecea1fde464d4798",
+      "source": "S7 frozen archive",
+      "source_member": "results/ALL_15_NEW_CONTRASTS.csv",
+      "source_sha256": "460991817755cdf9e489f9a56279c1c044aa1d0b5cb8087fecea1fde464d4798",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/ALL_15_ORIGINAL_DESCRIPTIVE_CONTRASTS.csv",
+      "release_sha256": "517b0fedd8cdcf6ff5b4f4a4a0dcd2c7232bbd5ba49f93e6f9aef57a97706eae",
+      "source": "S7 frozen archive",
+      "source_member": "results/ALL_15_ORIGINAL_DESCRIPTIVE_CONTRASTS.csv",
+      "source_sha256": "517b0fedd8cdcf6ff5b4f4a4a0dcd2c7232bbd5ba49f93e6f9aef57a97706eae",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/ALL_UNIT_DELTAS_EXACT.csv",
+      "release_sha256": "0aa95e1c7fb5e029665848e453bb288bacfc93f442ddbf560b0774532b2f3b9c",
+      "source": "S7 frozen archive",
+      "source_member": "results/ALL_UNIT_DELTAS_EXACT.csv",
+      "source_sha256": "0aa95e1c7fb5e029665848e453bb288bacfc93f442ddbf560b0774532b2f3b9c",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/ANSWER_MEANS_RECONSTRUCTED.csv",
+      "release_sha256": "eef258ba66a8b9688f647cd9e6f67da64612a7c069ba7b3cc9aefd45f7b27ca6",
+      "source": "S7 frozen archive",
+      "source_member": "results/ANSWER_MEANS_RECONSTRUCTED.csv",
+      "source_sha256": "eef258ba66a8b9688f647cd9e6f67da64612a7c069ba7b3cc9aefd45f7b27ca6",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/MODE_MEANS_REPRODUCED.csv",
+      "release_sha256": "e58fecf3845488b85abc2c6314b53c70af5d0b67f447e877ea230796fb0075ec",
+      "source": "S7 frozen archive",
+      "source_member": "results/MODE_MEANS_REPRODUCED.csv",
+      "source_sha256": "e58fecf3845488b85abc2c6314b53c70af5d0b67f447e877ea230796fb0075ec",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/RATER_S5_S0_DESCRIPTIVE.csv",
+      "release_sha256": "625bdcd169ba1be0e9f51fc44d00640390d34a1c5a48b61b911dd6e4c9d9edef",
+      "source": "S7 frozen archive",
+      "source_member": "results/RATER_S5_S0_DESCRIPTIVE.csv",
+      "source_sha256": "625bdcd169ba1be0e9f51fc44d00640390d34a1c5a48b61b911dd6e4c9d9edef",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/S5_S0_LEAVE_ONE_OUT.csv",
+      "release_sha256": "1600d346f244140baee00dac077afbb1a4ba048cb005da36ae60b0a1680fcb2c",
+      "source": "S7 frozen archive",
+      "source_member": "results/S5_S0_LEAVE_ONE_OUT.csv",
+      "source_sha256": "1600d346f244140baee00dac077afbb1a4ba048cb005da36ae60b0a1680fcb2c",
+      "adaptation": "Verbatim file copy",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "results/reference/s7/REFERENCE_OUTPUT_HASHES.json",
+      "release_sha256": "463ca3e122addf0f919c15571b8e1d53b7ad4352be31336aec9d4086fa7a2f8b",
+      "source": "S7 frozen archive",
+      "adaptation": "SHA-256 of each original deterministic output; no reference outputs used as computed values.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP.",
+      "source_members": [
+        {
+          "member": "results/ALL_15_NEW_CONTRASTS.csv",
+          "sha256": "460991817755cdf9e489f9a56279c1c044aa1d0b5cb8087fecea1fde464d4798"
+        },
+        {
+          "member": "results/ALL_15_ORIGINAL_DESCRIPTIVE_CONTRASTS.csv",
+          "sha256": "517b0fedd8cdcf6ff5b4f4a4a0dcd2c7232bbd5ba49f93e6f9aef57a97706eae"
+        },
+        {
+          "member": "results/ALL_UNIT_DELTAS_EXACT.csv",
+          "sha256": "0aa95e1c7fb5e029665848e453bb288bacfc93f442ddbf560b0774532b2f3b9c"
+        },
+        {
+          "member": "results/ANSWER_MEANS_RECONSTRUCTED.csv",
+          "sha256": "eef258ba66a8b9688f647cd9e6f67da64612a7c069ba7b3cc9aefd45f7b27ca6"
+        },
+        {
+          "member": "results/BOOTSTRAP_CONTRAST_DISTRIBUTION.npy",
+          "sha256": "9960a63fba8474ed938f66f993102816752ff1a4ec048bd9d452d84c7c8fcb89"
+        },
+        {
+          "member": "results/BOOTSTRAP_INDICES.npy",
+          "sha256": "0926ff6411ea1295bdaf1205486d9b34bb40807e7c95bbeb96237ef387f55267"
+        },
+        {
+          "member": "results/MODE_MEANS_REPRODUCED.csv",
+          "sha256": "e58fecf3845488b85abc2c6314b53c70af5d0b67f447e877ea230796fb0075ec"
+        },
+        {
+          "member": "results/RATER_S5_S0_DESCRIPTIVE.csv",
+          "sha256": "625bdcd169ba1be0e9f51fc44d00640390d34a1c5a48b61b911dd6e4c9d9edef"
+        },
+        {
+          "member": "results/S5_S0_LEAVE_ONE_OUT.csv",
+          "sha256": "1600d346f244140baee00dac077afbb1a4ba048cb005da36ae60b0a1680fcb2c"
+        }
+      ]
+    },
+    {
+      "release_path": "reproduce/s7.py",
+      "release_sha256": "0b29ef92a13a30d82e9d2286a0b07b2a8960b8d0e019d3dc7c6be6f45d698bb1",
+      "source": "S7 frozen archive",
+      "source_member": "tools/analyze.py",
+      "source_sha256": "775e73c30a55097c1f01f173630a0da7b593d254df46dc1a0898ea2bcd6edb5c",
+      "adaptation": "Relative package paths, neutral rater headers, portable receipt/CLI return, reconstructed values assigned as arithmetic inputs, and frozen output SHA-256 assertions. Statistical functions, settings, score/NA handling and calculations retained.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "checks/test_s7_fixtures.py",
+      "release_sha256": "bc6f8050927b9a975a9072ba96817a1462488214afbf8787ea8ec5fb76d0c4f3",
+      "source": "S7 frozen archive",
+      "source_member": "tools/test_fixtures.py",
+      "source_sha256": "2717e79dfe64e210f0584d7bf84b7620ef21a2fb5e977038b2893ca6f6c67ccf",
+      "adaptation": "Only import location adapted to reproduce.s7; nine original hand-calculable fixtures unchanged.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    },
+    {
+      "release_path": "rubric/LOCAL_OPERATIONAL_ANCHORS.json",
+      "release_sha256": "359acf2309e6f685b2b057de5e64d21ca9583433be320813198afade36a91312",
+      "source": "B frozen Git source",
+      "source_member": "experiments/rq3_original25_plus_human_kit/final246_2026-09-08/packets/Rater1/RUBRIC.json",
+      "source_sha256": "bbc0466dd69c26ef4972c8775ae1b1daee2fd524530e898723b727bc00b97f88",
+      "adaptation": "Remove only third-party transcribed source_description fields and transcription-only note; retain exact local anchors, scale, names, source metadata and draft/calibration labels.",
+      "source_commit": "a6621d03e49e62a5a6964d15e18c3eefe1ff2ef1"
+    },
+    {
+      "release_path": "rubric/rating_validation.py",
+      "release_sha256": "60874fc20ecb823cd9ef46d6b449a2a1f4ef93aa4b75ae74d4cfb08a25abcba5",
+      "source": "B frozen Git source",
+      "source_member": "experiments/rq3_original25_plus_human_kit/vendor/h0/tools/h0.py",
+      "source_sha256": "345c77a59fd6a45b313fa390cc24059b9a4368c5b69bfa339ffccef622d3784d",
+      "adaptation": "Select dependency-closed original CRITERIA/RATING_FIELDS and five functions verbatim; relocate schema root. No data or declarations.",
+      "source_commit": "a6621d03e49e62a5a6964d15e18c3eefe1ff2ef1"
+    },
+    {
+      "release_path": "rubric/schemas/ratings.schema.json",
+      "release_sha256": "526e609bbe25a01f7636e1a37164579058b11755f67025aba8921fc6776f9c86",
+      "source": "B frozen Git source",
+      "source_member": "experiments/rq3_original25_plus_human_kit/vendor/h0/schemas/ratings.schema.json",
+      "source_sha256": "526e609bbe25a01f7636e1a37164579058b11755f67025aba8921fc6776f9c86",
+      "adaptation": "Verbatim file copy",
+      "source_commit": "a6621d03e49e62a5a6964d15e18c3eefe1ff2ef1"
+    },
+    {
+      "release_path": "rubric/FIXED_APPLICABILITY_41.json",
+      "release_sha256": "221638bbeda0fd7d2b4074b43834b45b33c2eaf9d5a7650aed68cdf40c976230",
+      "source": "S7 frozen archive",
+      "source_member": "inputs/SCORE_COMPONENTS.csv",
+      "source_sha256": "1874324096a72cf1119932a19dc39da19adb487d4fbebbf3fd2f45fe72599787",
+      "adaptation": "Project the 41 fixed task applicability masks, identical across all six modes; no rationale, original task text or learner mapping.",
+      "source_archive": "THESIS_S7_R1_RQ3_EXPLORATORY_STATISTICS_REVIEW_2026-09-08.zip",
+      "source_archive_sha256": "d9fcbca0b2738d1d44b1cf28fdd3df5c8018b0296bacf057613d64f593ba019a",
+      "source_commit": null,
+      "source_commit_note": "S7 was frozen as uncommitted files in the supplied review ZIP."
+    }
+  ],
+  "new_code_files": [
+    "docs/RQ3_STATISTICS.md",
+    "rubric/README.md",
+    "checks/test_rubric_validation.py"
+  ],
+  "licensing": "No new blanket license; local operational anchors only, third-party description text omitted.",
+  "release_authored_files": [
+    {
+      "release_path": "docs/RQ3_STATISTICS.md",
+      "release_sha256": "5d67aff94f3b0e5c71bc6f4d45740dafb2fc6406c18ec3f130cd22d463fe8e13",
+      "role": "Documentation or synthetic validation fixtures authored for this release; not original experiment records."
+    },
+    {
+      "release_path": "rubric/README.md",
+      "release_sha256": "a848dcdd8c12b84f0fc52cdfae5f2d0f615a745c8a4e55bcacf8947db44fbd28",
+      "role": "Documentation or synthetic validation fixtures authored for this release; not original experiment records."
+    },
+    {
+      "release_path": "checks/test_rubric_validation.py",
+      "release_sha256": "f3cbb056395c9cb8a7501c31f1699f91ceed1ea62d998c561e737b3d1a9c3aed",
+      "role": "Documentation or synthetic validation fixtures authored for this release; not original experiment records."
+    }
+  ]
+}

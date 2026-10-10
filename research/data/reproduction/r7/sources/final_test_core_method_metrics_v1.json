@@ -1,0 +1,6053 @@
+{
+  "family_count": 16,
+  "methods": {
+    "R2V2-B0_RULE": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.5,
+        "complete_gold_pattern_matched_groups": 2,
+        "consistent_contrast_groups": 2,
+        "contrast_consistency_rate": 0.5,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.5,
+        "within_family_prediction_consistent_groups": 2
+      },
+      "exact_capability_set_match": 0.4375,
+      "exact_correct_case_count": 14,
+      "example_based_f1": 0.6270833333333333,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 6,
+        "both_utterances_exact_correct_rate": 0.375,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.625,
+        "prediction_consistent_count": 10
+      },
+      "hamming_loss": 0.2916666666666667,
+      "jaccard": 0.5833333333333334,
+      "macro_f1": 0.6216030271757825,
+      "mean_predicted_capability_count": 1.1875,
+      "micro_f1": 0.6744186046511628,
+      "micro_precision": 0.7631578947368421,
+      "micro_recall": 0.6041666666666666,
+      "over_routing_count": 9,
+      "over_routing_rate": 0.28125,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.8333333333333334,
+          "exact_correct_case_count": 5,
+          "example_based_f1": 0.9444444444444445,
+          "hamming_loss": 0.05555555555555555,
+          "jaccard": 0.9166666666666666,
+          "macro_f1": 0.8888888888888888,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.9473684210526316,
+          "micro_precision": 1.0,
+          "micro_recall": 0.9,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.6666666666666666,
+              "fn": 1,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.5,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 1
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 0,
+            "tn": 8,
+            "tp": 9
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "010": 1,
+            "011": 1,
+            "100": 2,
+            "110": 2
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.16666666666666666,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 1,
+          "example_based_f1": 0.375,
+          "hamming_loss": 0.5,
+          "jaccard": 0.3125,
+          "macro_f1": 0.26666666666666666,
+          "mean_predicted_capability_count": 1.0,
+          "micro_f1": 0.4,
+          "micro_precision": 0.5,
+          "micro_recall": 0.3333333333333333,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.5,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 8,
+            "fp": 4,
+            "tn": 8,
+            "tp": 4
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "010": 5,
+            "100": 1,
+            "110": 1
+          },
+          "under_routing_count": 6,
+          "under_routing_rate": 0.75,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 1.0,
+          "exact_correct_case_count": 8,
+          "example_based_f1": 1.0,
+          "hamming_loss": 0.0,
+          "jaccard": 1.0,
+          "macro_f1": 1.0,
+          "mean_predicted_capability_count": 1.0,
+          "micro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 16,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "100": 2,
+            "101": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.0,
+          "hamming_loss": 0.4166666666666667,
+          "jaccard": 0.0,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.75,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 3,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.75,
+              "tn": 3,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 3,
+            "tn": 7,
+            "tp": 0
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "010": 1,
+            "100": 2
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.5,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.5666666666666668,
+          "hamming_loss": 0.5555555555555556,
+          "jaccard": 0.4444444444444444,
+          "macro_f1": 0.5252525252525252,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 0.6153846153846154,
+          "micro_precision": 0.8,
+          "micro_recall": 0.5,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.9090909090909091,
+              "fn": 1,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 6,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.6666666666666665,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.6,
+              "recall": 0.75,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 3
+            }
+          },
+          "pooled_counts": {
+            "fn": 8,
+            "fp": 2,
+            "tn": 0,
+            "tp": 8
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "010": 1,
+            "100": 1,
+            "110": 4
+          },
+          "under_routing_count": 6,
+          "under_routing_rate": 1.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.8823529411764706,
+          "fn": 1,
+          "fp": 3,
+          "precision": 0.8333333333333334,
+          "recall": 0.9375,
+          "specificity": 0.8125,
+          "tn": 13,
+          "tp": 15
+        },
+        "Planning": {
+          "f1": 0.3157894736842105,
+          "fn": 13,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.1875,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 3
+        },
+        "RAG": {
+          "f1": 0.6666666666666667,
+          "fn": 5,
+          "fp": 6,
+          "precision": 0.6470588235294118,
+          "recall": 0.6875,
+          "specificity": 0.625,
+          "tn": 10,
+          "tp": 11
+        }
+      },
+      "pooled_counts": {
+        "fn": 19,
+        "fp": 9,
+        "tn": 39,
+        "tp": 29
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 4,
+        "010": 10,
+        "011": 1,
+        "100": 8,
+        "101": 2,
+        "110": 7
+      },
+      "under_routing_count": 15,
+      "under_routing_rate": 0.46875,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 8,
+          "example_based_f1": 0.6229166666666667,
+          "hamming_loss": 0.2916666666666667,
+          "jaccard": 0.59375,
+          "macro_f1": 0.6300653594771242,
+          "mean_predicted_capability_count": 1.125,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.7777777777777778,
+          "micro_recall": 0.5833333333333334,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.823529411764706,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.7777777777777778,
+              "recall": 0.875,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 7
+            },
+            "Planning": {
+              "f1": 0.4,
+              "fn": 6,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.25,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            }
+          },
+          "pooled_counts": {
+            "fn": 10,
+            "fp": 4,
+            "tn": 20,
+            "tp": 14
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 6,
+            "011": 1,
+            "100": 4,
+            "101": 1,
+            "110": 2
+          },
+          "under_routing_count": 7,
+          "under_routing_rate": 0.4375,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.375,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 0.63125,
+          "hamming_loss": 0.2916666666666667,
+          "jaccard": 0.5729166666666666,
+          "macro_f1": 0.6100217864923746,
+          "mean_predicted_capability_count": 1.25,
+          "micro_f1": 0.6818181818181818,
+          "micro_precision": 0.75,
+          "micro_recall": 0.625,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.3125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.9411764705882353,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.8888888888888888,
+              "recall": 1.0,
+              "specificity": 0.875,
+              "tn": 7,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 0.2222222222222222,
+              "fn": 7,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.125,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 1
+            },
+            "RAG": {
+              "f1": 0.6666666666666665,
+              "fn": 2,
+              "fp": 4,
+              "precision": 0.6,
+              "recall": 0.75,
+              "specificity": 0.5,
+              "tn": 4,
+              "tp": 6
+            }
+          },
+          "pooled_counts": {
+            "fn": 9,
+            "fp": 5,
+            "tn": 19,
+            "tp": 15
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 4,
+            "100": 4,
+            "101": 1,
+            "110": 5
+          },
+          "under_routing_count": 8,
+          "under_routing_rate": 0.5,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-B1_LEGACY_INTENT": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.25,
+        "complete_gold_pattern_matched_groups": 1,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.5,
+        "within_family_prediction_consistent_groups": 2
+      },
+      "exact_capability_set_match": 0.21875,
+      "exact_correct_case_count": 7,
+      "example_based_f1": 0.5291666666666667,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 2,
+        "both_utterances_exact_correct_rate": 0.125,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.75,
+        "prediction_consistent_count": 12
+      },
+      "hamming_loss": 0.4375,
+      "jaccard": 0.4427083333333333,
+      "macro_f1": 0.6240740740740741,
+      "mean_predicted_capability_count": 2.0,
+      "micro_f1": 0.625,
+      "micro_precision": 0.546875,
+      "micro_recall": 0.7291666666666666,
+      "over_routing_count": 22,
+      "over_routing_rate": 0.6875,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.4444444444444444,
+          "hamming_loss": 0.6666666666666666,
+          "jaccard": 0.3055555555555555,
+          "macro_f1": 0.4523809523809524,
+          "mean_predicted_capability_count": 2.0,
+          "micro_f1": 0.45454545454545453,
+          "micro_precision": 0.4166666666666667,
+          "micro_recall": 0.5,
+          "over_routing_count": 6,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5714285714285715,
+              "fn": 2,
+              "fp": 1,
+              "precision": 0.6666666666666666,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 1,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 0.5,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.3333333333333333,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.28571428571428575,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.3333333333333333,
+              "recall": 0.25,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 1
+            }
+          },
+          "pooled_counts": {
+            "fn": 5,
+            "fp": 7,
+            "tn": 1,
+            "tp": 5
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "011": 3,
+            "101": 3
+          },
+          "under_routing_count": 5,
+          "under_routing_rate": 0.8333333333333334,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.25,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.4583333333333333,
+          "hamming_loss": 0.375,
+          "jaccard": 0.3958333333333333,
+          "macro_f1": 0.47222222222222215,
+          "mean_predicted_capability_count": 1.125,
+          "micro_f1": 0.5714285714285715,
+          "micro_precision": 0.6666666666666666,
+          "micro_recall": 0.5,
+          "over_routing_count": 3,
+          "over_routing_rate": 0.375,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666665,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.6,
+              "recall": 0.75,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 3
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.75,
+              "fn": 1,
+              "fp": 1,
+              "precision": 0.75,
+              "recall": 0.75,
+              "specificity": 0.75,
+              "tn": 3,
+              "tp": 3
+            }
+          },
+          "pooled_counts": {
+            "fn": 6,
+            "fp": 3,
+            "tn": 9,
+            "tp": 6
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 3,
+            "010": 1,
+            "110": 4
+          },
+          "under_routing_count": 5,
+          "under_routing_rate": 0.625,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.41666666666666663,
+          "hamming_loss": 0.6666666666666666,
+          "jaccard": 0.29166666666666663,
+          "macro_f1": 0.4000000000000001,
+          "mean_predicted_capability_count": 2.5,
+          "micro_f1": 0.4285714285714285,
+          "micro_precision": 0.3,
+          "micro_recall": 0.75,
+          "over_routing_count": 8,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.4,
+              "fn": 0,
+              "fp": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 14,
+            "tn": 2,
+            "tp": 6
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "011": 2,
+            "110": 2,
+            "111": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.25,
+          "exact_correct_case_count": 1,
+          "example_based_f1": 0.41666666666666663,
+          "hamming_loss": 0.25,
+          "jaccard": 0.375,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 1.25,
+          "micro_f1": 0.5714285714285715,
+          "micro_precision": 0.4,
+          "micro_recall": 1.0,
+          "over_routing_count": 3,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.75,
+              "tn": 3,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 3,
+            "tn": 7,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "001": 1,
+            "010": 2,
+            "101": 1
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.6666666666666666,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.9333333333333332,
+          "hamming_loss": 0.1111111111111111,
+          "jaccard": 0.8888888888888888,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "tp": 16
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.65,
+          "fn": 3,
+          "fp": 11,
+          "precision": 0.5416666666666666,
+          "recall": 0.8125,
+          "specificity": 0.3125,
+          "tn": 5,
+          "tp": 13
+        },
+        "Planning": {
+          "f1": 0.5555555555555556,
+          "fn": 6,
+          "fp": 10,
+          "precision": 0.5,
+          "recall": 0.625,
+          "specificity": 0.375,
+          "tn": 6,
+          "tp": 10
+        },
+        "RAG": {
+          "f1": 0.6666666666666665,
+          "fn": 4,
+          "fp": 8,
+          "precision": 0.6,
+          "recall": 0.75,
+          "specificity": 0.5,
+          "tn": 8,
+          "tp": 12
+        }
+      },
+      "pooled_counts": {
+        "fn": 13,
+        "fp": 29,
+        "tn": 19,
+        "tp": 35
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 3,
+        "001": 1,
+        "010": 3,
+        "011": 5,
+        "101": 4,
+        "110": 6,
+        "111": 10
+      },
+      "under_routing_count": 12,
+      "under_routing_rate": 0.375,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.1875,
+          "exact_correct_case_count": 3,
+          "example_based_f1": 0.5604166666666667,
+          "hamming_loss": 0.4166666666666667,
+          "jaccard": 0.4583333333333333,
+          "macro_f1": 0.6518518518518519,
+          "mean_predicted_capability_count": 2.125,
+          "micro_f1": 0.6551724137931034,
+          "micro_precision": 0.5588235294117647,
+          "micro_recall": 0.7916666666666666,
+          "over_routing_count": 12,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.7000000000000001,
+              "fn": 1,
+              "fp": 5,
+              "precision": 0.5833333333333334,
+              "recall": 0.875,
+              "specificity": 0.375,
+              "tn": 3,
+              "tp": 7
+            },
+            "Planning": {
+              "f1": 0.5555555555555556,
+              "fn": 3,
+              "fp": 5,
+              "precision": 0.5,
+              "recall": 0.625,
+              "specificity": 0.375,
+              "tn": 3,
+              "tp": 5
+            },
+            "RAG": {
+              "f1": 0.7000000000000001,
+              "fn": 1,
+              "fp": 5,
+              "precision": 0.5833333333333334,
+              "recall": 0.875,
+              "specificity": 0.375,
+              "tn": 3,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 5,
+            "fp": 15,
+            "tn": 9,
+            "tp": 19
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "010": 1,
+            "011": 2,
+            "101": 3,
+            "110": 4,
+            "111": 5
+          },
+          "under_routing_count": 5,
+          "under_routing_rate": 0.3125,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.25,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.4979166666666667,
+          "hamming_loss": 0.4583333333333333,
+          "jaccard": 0.4270833333333333,
+          "macro_f1": 0.5935185185185184,
+          "mean_predicted_capability_count": 1.875,
+          "micro_f1": 0.5925925925925926,
+          "micro_precision": 0.5333333333333333,
+          "micro_recall": 0.6666666666666666,
+          "over_routing_count": 10,
+          "over_routing_rate": 0.625,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6,
+              "fn": 2,
+              "fp": 6,
+              "precision": 0.5,
+              "recall": 0.75,
+              "specificity": 0.25,
+              "tn": 2,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 0.5555555555555556,
+              "fn": 3,
+              "fp": 5,
+              "precision": 0.5,
+              "recall": 0.625,
+              "specificity": 0.375,
+              "tn": 3,
+              "tp": 5
+            },
+            "RAG": {
+              "f1": 0.625,
+              "fn": 3,
+              "fp": 3,
+              "precision": 0.625,
+              "recall": 0.625,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 5
+            }
+          },
+          "pooled_counts": {
+            "fn": 8,
+            "fp": 14,
+            "tn": 10,
+            "tp": 16
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 1,
+            "010": 2,
+            "011": 3,
+            "101": 1,
+            "110": 2,
+            "111": 5
+          },
+          "under_routing_count": 7,
+          "under_routing_rate": 0.4375,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-B2_PROTOTYPE": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.25,
+        "complete_gold_pattern_matched_groups": 1,
+        "consistent_contrast_groups": 2,
+        "contrast_consistency_rate": 0.5,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.5,
+        "within_family_prediction_consistent_groups": 2
+      },
+      "exact_capability_set_match": 0.1875,
+      "exact_correct_case_count": 6,
+      "example_based_f1": 0.65625,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 2,
+        "both_utterances_exact_correct_rate": 0.125,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.875,
+        "prediction_consistent_count": 14
+      },
+      "hamming_loss": 0.375,
+      "jaccard": 0.5520833333333334,
+      "macro_f1": 0.7407407407407408,
+      "mean_predicted_capability_count": 2.625,
+      "micro_f1": 0.7272727272727273,
+      "micro_precision": 0.5714285714285714,
+      "micro_recall": 1.0,
+      "over_routing_count": 26,
+      "over_routing_rate": 0.8125,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.16666666666666666,
+          "exact_correct_case_count": 1,
+          "example_based_f1": 0.7888888888888889,
+          "hamming_loss": 0.2777777777777778,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.8000000000000002,
+          "mean_predicted_capability_count": 2.5,
+          "micro_f1": 0.8,
+          "micro_precision": 0.6666666666666666,
+          "micro_recall": 1.0,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.8333333333333334,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.75,
+              "tn": 3,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 5,
+            "tn": 3,
+            "tp": 10
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "110": 3,
+            "111": 3
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 1,
+          "example_based_f1": 0.675,
+          "hamming_loss": 0.4583333333333333,
+          "jaccard": 0.5416666666666666,
+          "macro_f1": 0.6868686868686869,
+          "mean_predicted_capability_count": 2.875,
+          "micro_f1": 0.6857142857142856,
+          "micro_precision": 0.5217391304347826,
+          "micro_recall": 1.0,
+          "over_routing_count": 7,
+          "over_routing_rate": 0.875,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.7272727272727273,
+              "fn": 0,
+              "fp": 3,
+              "precision": 0.5714285714285714,
+              "recall": 1.0,
+              "specificity": 0.25,
+              "tn": 1,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 11,
+            "tn": 1,
+            "tp": 12
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "110": 1,
+            "111": 7
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.5333333333333333,
+          "hamming_loss": 0.4166666666666667,
+          "jaccard": 0.41666666666666663,
+          "macro_f1": 0.6888888888888888,
+          "mean_predicted_capability_count": 2.25,
+          "micro_f1": 0.6153846153846153,
+          "micro_precision": 0.4444444444444444,
+          "micro_recall": 1.0,
+          "over_routing_count": 8,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.4,
+              "fn": 0,
+              "fp": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 10,
+            "tn": 6,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "110": 6,
+            "111": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.25,
+          "hamming_loss": 0.6666666666666666,
+          "jaccard": 0.16666666666666666,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 2.5,
+          "micro_f1": 0.33333333333333337,
+          "micro_precision": 0.2,
+          "micro_recall": 1.0,
+          "over_routing_count": 4,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 8,
+            "tn": 2,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "110": 2,
+            "111": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.6666666666666666,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.9333333333333332,
+          "hamming_loss": 0.1111111111111111,
+          "jaccard": 0.8888888888888888,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "tp": 16
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.6666666666666666,
+          "fn": 0,
+          "fp": 16,
+          "precision": 0.5,
+          "recall": 1.0,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 16
+        },
+        "Planning": {
+          "f1": 0.888888888888889,
+          "fn": 0,
+          "fp": 4,
+          "precision": 0.8,
+          "recall": 1.0,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.6666666666666666,
+          "fn": 0,
+          "fp": 16,
+          "precision": 0.5,
+          "recall": 1.0,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 16
+        }
+      },
+      "pooled_counts": {
+        "fn": 0,
+        "fp": 36,
+        "tn": 12,
+        "tp": 48
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "110": 12,
+        "111": 20
+      },
+      "under_routing_count": 0,
+      "under_routing_rate": 0.0,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.1875,
+          "exact_correct_case_count": 3,
+          "example_based_f1": 0.65625,
+          "hamming_loss": 0.375,
+          "jaccard": 0.5520833333333334,
+          "macro_f1": 0.7407407407407408,
+          "mean_predicted_capability_count": 2.625,
+          "micro_f1": 0.7272727272727273,
+          "micro_precision": 0.5714285714285714,
+          "micro_recall": 1.0,
+          "over_routing_count": 13,
+          "over_routing_rate": 0.8125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 0.888888888888889,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.8,
+              "recall": 1.0,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 18,
+            "tn": 6,
+            "tp": 24
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "110": 6,
+            "111": 10
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.1875,
+          "exact_correct_case_count": 3,
+          "example_based_f1": 0.65625,
+          "hamming_loss": 0.375,
+          "jaccard": 0.5520833333333334,
+          "macro_f1": 0.7407407407407408,
+          "mean_predicted_capability_count": 2.625,
+          "micro_f1": 0.7272727272727273,
+          "micro_precision": 0.5714285714285714,
+          "micro_recall": 1.0,
+          "over_routing_count": 13,
+          "over_routing_rate": 0.8125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 0.888888888888889,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.8,
+              "recall": 1.0,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 18,
+            "tn": 6,
+            "tp": 24
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "110": 6,
+            "111": 10
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-B3_OVR": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.0,
+        "complete_gold_pattern_matched_groups": 0,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.75,
+        "within_family_prediction_consistent_groups": 3
+      },
+      "exact_capability_set_match": 0.15625,
+      "exact_correct_case_count": 5,
+      "example_based_f1": 0.665625,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 2,
+        "both_utterances_exact_correct_rate": 0.125,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.875,
+        "prediction_consistent_count": 14
+      },
+      "hamming_loss": 0.3541666666666667,
+      "jaccard": 0.5572916666666666,
+      "macro_f1": 0.752876280535855,
+      "mean_predicted_capability_count": 2.375,
+      "micro_f1": 0.7258064516129032,
+      "micro_precision": 0.5921052631578947,
+      "micro_recall": 0.9375,
+      "over_routing_count": 24,
+      "over_routing_rate": 0.75,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.3333333333333333,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.8222222222222223,
+          "hamming_loss": 0.2222222222222222,
+          "jaccard": 0.7222222222222222,
+          "macro_f1": 0.8666666666666667,
+          "mean_predicted_capability_count": 2.3333333333333335,
+          "micro_f1": 0.8333333333333333,
+          "micro_precision": 0.7142857142857143,
+          "micro_recall": 1.0,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.6666666666666666,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 4,
+            "tn": 4,
+            "tp": 10
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "110": 4,
+            "111": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.25,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.7416666666666667,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.625,
+          "macro_f1": 0.7777777777777777,
+          "mean_predicted_capability_count": 2.5,
+          "micro_f1": 0.7499999999999999,
+          "micro_precision": 0.6,
+          "micro_recall": 1.0,
+          "over_routing_count": 6,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 8,
+            "tn": 4,
+            "tp": 12
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "110": 4,
+            "111": 4
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.5333333333333333,
+          "hamming_loss": 0.4166666666666667,
+          "jaccard": 0.41666666666666663,
+          "macro_f1": 0.6888888888888888,
+          "mean_predicted_capability_count": 2.25,
+          "micro_f1": 0.6153846153846153,
+          "micro_precision": 0.4444444444444444,
+          "micro_recall": 1.0,
+          "over_routing_count": 8,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.4,
+              "fn": 0,
+              "fp": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 10,
+            "tn": 6,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "110": 6,
+            "111": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.29166666666666663,
+          "hamming_loss": 0.5833333333333334,
+          "jaccard": 0.20833333333333331,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 2.25,
+          "micro_f1": 0.3636363636363636,
+          "micro_precision": 0.2222222222222222,
+          "micro_recall": 1.0,
+          "over_routing_count": 4,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 3,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.25,
+              "tn": 1,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 7,
+            "tn": 3,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "011": 1,
+            "110": 2,
+            "111": 1
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.16666666666666666,
+          "exact_correct_case_count": 1,
+          "example_based_f1": 0.8333333333333334,
+          "hamming_loss": 0.2777777777777778,
+          "jaccard": 0.7222222222222222,
+          "macro_f1": 0.8222222222222223,
+          "mean_predicted_capability_count": 2.5,
+          "micro_f1": 0.8387096774193549,
+          "micro_precision": 0.8666666666666667,
+          "micro_recall": 0.8125,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.5,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 3
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 3,
+            "fp": 2,
+            "tn": 0,
+            "tp": 13
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "101": 3,
+            "111": 3
+          },
+          "under_routing_count": 3,
+          "under_routing_rate": 0.5,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.5777777777777777,
+          "fn": 3,
+          "fp": 16,
+          "precision": 0.4482758620689655,
+          "recall": 0.8125,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 13
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.6808510638297872,
+          "fn": 0,
+          "fp": 15,
+          "precision": 0.5161290322580645,
+          "recall": 1.0,
+          "specificity": 0.0625,
+          "tn": 1,
+          "tp": 16
+        }
+      },
+      "pooled_counts": {
+        "fn": 3,
+        "fp": 31,
+        "tn": 17,
+        "tp": 45
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "011": 1,
+        "101": 3,
+        "110": 16,
+        "111": 12
+      },
+      "under_routing_count": 3,
+      "under_routing_rate": 0.09375,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.6541666666666667,
+          "hamming_loss": 0.375,
+          "jaccard": 0.5416666666666666,
+          "macro_f1": 0.7373737373737373,
+          "mean_predicted_capability_count": 2.375,
+          "micro_f1": 0.7096774193548387,
+          "micro_precision": 0.5789473684210527,
+          "micro_recall": 0.9166666666666666,
+          "over_routing_count": 12,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5454545454545454,
+              "fn": 2,
+              "fp": 8,
+              "precision": 0.42857142857142855,
+              "recall": 0.75,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 16,
+            "tn": 8,
+            "tp": 22
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "101": 2,
+            "110": 8,
+            "111": 6
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.125,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.1875,
+          "exact_correct_case_count": 3,
+          "example_based_f1": 0.6770833333333334,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.5729166666666666,
+          "macro_f1": 0.7681159420289855,
+          "mean_predicted_capability_count": 2.375,
+          "micro_f1": 0.7419354838709677,
+          "micro_precision": 0.6052631578947368,
+          "micro_recall": 0.9583333333333334,
+          "over_routing_count": 12,
+          "over_routing_rate": 0.75,
+          "per_label": {
+            "Memory": {
+              "f1": 0.608695652173913,
+              "fn": 1,
+              "fp": 8,
+              "precision": 0.4666666666666667,
+              "recall": 0.875,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 7
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6956521739130436,
+              "fn": 0,
+              "fp": 7,
+              "precision": 0.5333333333333333,
+              "recall": 1.0,
+              "specificity": 0.125,
+              "tn": 1,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 15,
+            "tn": 9,
+            "tp": 23
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "011": 1,
+            "101": 1,
+            "110": 8,
+            "111": 6
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.0625,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-B4_JOINT_LLM": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.0,
+        "complete_gold_pattern_matched_groups": 0,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "exact_capability_set_match": 0.4375,
+      "exact_correct_case_count": 14,
+      "example_based_f1": 0.7958333333333333,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 7,
+        "both_utterances_exact_correct_rate": 0.4375,
+        "family_count": 16,
+        "prediction_consistency_rate": 1.0,
+        "prediction_consistent_count": 16
+      },
+      "hamming_loss": 0.1875,
+      "jaccard": 0.71875,
+      "macro_f1": 0.8148148148148148,
+      "mean_predicted_capability_count": 1.5625,
+      "micro_f1": 0.816326530612245,
+      "micro_precision": 0.8,
+      "micro_recall": 0.8333333333333334,
+      "over_routing_count": 10,
+      "over_routing_rate": 0.3125,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.3333333333333333,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.7777777777777777,
+          "hamming_loss": 0.2222222222222222,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 0.8000000000000002,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 6,
+            "tp": 8
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.3333333333333333,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.8333333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.75,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 2
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 10,
+            "tp": 10
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "001": 4,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.75,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 0.9166666666666666,
+          "hamming_loss": 0.08333333333333333,
+          "jaccard": 0.875,
+          "macro_f1": 0.8888888888888888,
+          "mean_predicted_capability_count": 1.25,
+          "micro_f1": 0.888888888888889,
+          "micro_precision": 0.8,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.6666666666666666,
+              "tn": 4,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 14,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "101": 2,
+            "110": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.5,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 1.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.5,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 8,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "100": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.8000000000000002,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.7666666666666666,
+          "mean_predicted_capability_count": 2.3333333333333335,
+          "micro_f1": 0.7999999999999999,
+          "micro_precision": 0.8571428571428571,
+          "micro_recall": 0.75,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 4,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 2,
+            "tn": 0,
+            "tp": 12
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "101": 4,
+            "111": 2
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.6666666666666666,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.6666666666666666,
+          "fn": 6,
+          "fp": 4,
+          "precision": 0.7142857142857143,
+          "recall": 0.625,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 10
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.7777777777777777,
+          "fn": 2,
+          "fp": 6,
+          "precision": 0.7,
+          "recall": 0.875,
+          "specificity": 0.625,
+          "tn": 10,
+          "tp": 14
+        }
+      },
+      "pooled_counts": {
+        "fn": 8,
+        "fp": 10,
+        "tn": 38,
+        "tp": 40
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 2,
+        "001": 8,
+        "010": 2,
+        "100": 2,
+        "101": 6,
+        "110": 10,
+        "111": 2
+      },
+      "under_routing_count": 8,
+      "under_routing_rate": 0.25,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.4375,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.7958333333333333,
+          "hamming_loss": 0.1875,
+          "jaccard": 0.71875,
+          "macro_f1": 0.8148148148148148,
+          "mean_predicted_capability_count": 1.5625,
+          "micro_f1": 0.816326530612245,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.3125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 5,
+            "tn": 19,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 4,
+            "010": 1,
+            "100": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.4375,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.7958333333333333,
+          "hamming_loss": 0.1875,
+          "jaccard": 0.71875,
+          "macro_f1": 0.8148148148148148,
+          "mean_predicted_capability_count": 1.5625,
+          "micro_f1": 0.816326530612245,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.3125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 5,
+            "tn": 19,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 4,
+            "010": 1,
+            "100": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-D0_ALWAYS_ON": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.25,
+        "complete_gold_pattern_matched_groups": 1,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "exact_capability_set_match": 0.125,
+      "exact_correct_case_count": 4,
+      "example_based_f1": 0.6125,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 2,
+        "both_utterances_exact_correct_rate": 0.125,
+        "family_count": 16,
+        "prediction_consistency_rate": 1.0,
+        "prediction_consistent_count": 16
+      },
+      "hamming_loss": 0.5,
+      "jaccard": 0.5,
+      "macro_f1": 0.6666666666666666,
+      "mean_predicted_capability_count": 3.0,
+      "micro_f1": 0.6666666666666666,
+      "micro_precision": 0.5,
+      "micro_recall": 1.0,
+      "over_routing_count": 28,
+      "over_routing_rate": 0.875,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.7000000000000001,
+          "hamming_loss": 0.4444444444444444,
+          "jaccard": 0.5555555555555555,
+          "macro_f1": 0.7000000000000001,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.7142857142857143,
+          "micro_precision": 0.5555555555555556,
+          "micro_recall": 1.0,
+          "over_routing_count": 6,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.5,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.3333333333333333,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 8,
+            "tn": 0,
+            "tp": 10
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.65,
+          "hamming_loss": 0.5,
+          "jaccard": 0.5,
+          "macro_f1": 0.6666666666666666,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 8,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 12,
+            "tn": 0,
+            "tp": 12
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "111": 8
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.45,
+          "hamming_loss": 0.6666666666666666,
+          "jaccard": 0.3333333333333333,
+          "macro_f1": 0.48888888888888893,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.5,
+          "micro_precision": 0.3333333333333333,
+          "micro_recall": 1.0,
+          "over_routing_count": 8,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.4,
+              "fn": 0,
+              "fp": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 0.4,
+              "fn": 0,
+              "fp": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 16,
+            "tn": 0,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "111": 8
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.25,
+          "hamming_loss": 0.8333333333333334,
+          "jaccard": 0.16666666666666666,
+          "macro_f1": 0.2222222222222222,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.2857142857142857,
+          "micro_precision": 0.16666666666666666,
+          "micro_recall": 1.0,
+          "over_routing_count": 4,
+          "over_routing_rate": 1.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 10,
+            "tn": 0,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "111": 4
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.6666666666666666,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.9333333333333332,
+          "hamming_loss": 0.1111111111111111,
+          "jaccard": 0.8888888888888888,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "tp": 16
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.6666666666666666,
+          "fn": 0,
+          "fp": 16,
+          "precision": 0.5,
+          "recall": 1.0,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 16
+        },
+        "Planning": {
+          "f1": 0.6666666666666666,
+          "fn": 0,
+          "fp": 16,
+          "precision": 0.5,
+          "recall": 1.0,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.6666666666666666,
+          "fn": 0,
+          "fp": 16,
+          "precision": 0.5,
+          "recall": 1.0,
+          "specificity": 0.0,
+          "tn": 0,
+          "tp": 16
+        }
+      },
+      "pooled_counts": {
+        "fn": 0,
+        "fp": 48,
+        "tn": 0,
+        "tp": 48
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "111": 32
+      },
+      "under_routing_count": 0,
+      "under_routing_rate": 0.0,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.6125,
+          "hamming_loss": 0.5,
+          "jaccard": 0.5,
+          "macro_f1": 0.6666666666666666,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 14,
+          "over_routing_rate": 0.875,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 24,
+            "tn": 0,
+            "tp": 24
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "111": 16
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.6125,
+          "hamming_loss": 0.5,
+          "jaccard": 0.5,
+          "macro_f1": 0.6666666666666666,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 14,
+          "over_routing_rate": 0.875,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 8,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 8
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 24,
+            "tn": 0,
+            "tp": 24
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "111": 16
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-D1_NEVER_ON": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.0,
+        "complete_gold_pattern_matched_groups": 0,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "exact_capability_set_match": 0.125,
+      "exact_correct_case_count": 4,
+      "example_based_f1": 0.125,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 2,
+        "both_utterances_exact_correct_rate": 0.125,
+        "family_count": 16,
+        "prediction_consistency_rate": 1.0,
+        "prediction_consistent_count": 16
+      },
+      "hamming_loss": 0.5,
+      "jaccard": 0.125,
+      "macro_f1": 0.0,
+      "mean_predicted_capability_count": 0.0,
+      "micro_f1": 0.0,
+      "micro_precision": 0.0,
+      "micro_recall": 0.0,
+      "over_routing_count": 0,
+      "over_routing_rate": 0.0,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.0,
+          "hamming_loss": 0.5555555555555556,
+          "jaccard": 0.0,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 10,
+            "fp": 0,
+            "tn": 8,
+            "tp": 0
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "000": 6
+          },
+          "under_routing_count": 6,
+          "under_routing_rate": 1.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.0,
+          "hamming_loss": 0.5,
+          "jaccard": 0.0,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 12,
+            "fp": 0,
+            "tn": 12,
+            "tp": 0
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 8
+          },
+          "under_routing_count": 8,
+          "under_routing_rate": 1.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.25,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.25,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.25,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 8,
+            "fp": 0,
+            "tn": 16,
+            "tp": 0
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 8
+          },
+          "under_routing_count": 6,
+          "under_routing_rate": 0.75,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.5,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.5,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 2,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 0,
+            "tn": 10,
+            "tp": 0
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "000": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.5,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.0,
+          "hamming_loss": 0.8888888888888888,
+          "jaccard": 0.0,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 6,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 6,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 4,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 16,
+            "fp": 0,
+            "tn": 2,
+            "tp": 0
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "000": 6
+          },
+          "under_routing_count": 6,
+          "under_routing_rate": 1.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.0,
+          "fn": 16,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 0
+        },
+        "Planning": {
+          "f1": 0.0,
+          "fn": 16,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 0
+        },
+        "RAG": {
+          "f1": 0.0,
+          "fn": 16,
+          "fp": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 0
+        }
+      },
+      "pooled_counts": {
+        "fn": 48,
+        "fp": 0,
+        "tn": 48,
+        "tp": 0
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 32
+      },
+      "under_routing_count": 28,
+      "under_routing_rate": 0.875,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.125,
+          "hamming_loss": 0.5,
+          "jaccard": 0.125,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 24,
+            "fp": 0,
+            "tn": 24,
+            "tp": 0
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 16
+          },
+          "under_routing_count": 14,
+          "under_routing_rate": 0.875,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.125,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.125,
+          "hamming_loss": 0.5,
+          "jaccard": 0.125,
+          "macro_f1": 0.0,
+          "mean_predicted_capability_count": 0.0,
+          "micro_f1": 0.0,
+          "micro_precision": 0.0,
+          "micro_recall": 0.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 8,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 24,
+            "fp": 0,
+            "tn": 24,
+            "tp": 0
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 16
+          },
+          "under_routing_count": 14,
+          "under_routing_rate": 0.875,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-P1_HYBRID": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.0,
+        "complete_gold_pattern_matched_groups": 0,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "exact_capability_set_match": 0.4375,
+      "exact_correct_case_count": 14,
+      "example_based_f1": 0.7958333333333333,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 7,
+        "both_utterances_exact_correct_rate": 0.4375,
+        "family_count": 16,
+        "prediction_consistency_rate": 1.0,
+        "prediction_consistent_count": 16
+      },
+      "hamming_loss": 0.1875,
+      "jaccard": 0.71875,
+      "macro_f1": 0.8148148148148148,
+      "mean_predicted_capability_count": 1.5625,
+      "micro_f1": 0.816326530612245,
+      "micro_precision": 0.8,
+      "micro_recall": 0.8333333333333334,
+      "over_routing_count": 10,
+      "over_routing_rate": 0.3125,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.3333333333333333,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.7777777777777777,
+          "hamming_loss": 0.2222222222222222,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 0.8000000000000002,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 6,
+            "tp": 8
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.3333333333333333,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.8333333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.75,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 2
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 10,
+            "tp": 10
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "001": 4,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.75,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 0.9166666666666666,
+          "hamming_loss": 0.08333333333333333,
+          "jaccard": 0.875,
+          "macro_f1": 0.8888888888888888,
+          "mean_predicted_capability_count": 1.25,
+          "micro_f1": 0.888888888888889,
+          "micro_precision": 0.8,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.6666666666666666,
+              "tn": 4,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 14,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "101": 2,
+            "110": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.5,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 1.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.5,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 8,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "100": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.8000000000000002,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.7666666666666666,
+          "mean_predicted_capability_count": 2.3333333333333335,
+          "micro_f1": 0.7999999999999999,
+          "micro_precision": 0.8571428571428571,
+          "micro_recall": 0.75,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 4,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 2,
+            "tn": 0,
+            "tp": 12
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "101": 4,
+            "111": 2
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.6666666666666666,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.6666666666666666,
+          "fn": 6,
+          "fp": 4,
+          "precision": 0.7142857142857143,
+          "recall": 0.625,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 10
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.7777777777777777,
+          "fn": 2,
+          "fp": 6,
+          "precision": 0.7,
+          "recall": 0.875,
+          "specificity": 0.625,
+          "tn": 10,
+          "tp": 14
+        }
+      },
+      "pooled_counts": {
+        "fn": 8,
+        "fp": 10,
+        "tn": 38,
+        "tp": 40
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 2,
+        "001": 8,
+        "010": 2,
+        "100": 2,
+        "101": 6,
+        "110": 10,
+        "111": 2
+      },
+      "under_routing_count": 8,
+      "under_routing_rate": 0.25,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.4375,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.7958333333333333,
+          "hamming_loss": 0.1875,
+          "jaccard": 0.71875,
+          "macro_f1": 0.8148148148148148,
+          "mean_predicted_capability_count": 1.5625,
+          "micro_f1": 0.816326530612245,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.3125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 5,
+            "tn": 19,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 4,
+            "010": 1,
+            "100": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.4375,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.7958333333333333,
+          "hamming_loss": 0.1875,
+          "jaccard": 0.71875,
+          "macro_f1": 0.8148148148148148,
+          "mean_predicted_capability_count": 1.5625,
+          "micro_f1": 0.816326530612245,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 5,
+          "over_routing_rate": 0.3125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 5,
+            "tn": 19,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 4,
+            "010": 1,
+            "100": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-P2_RAG_SPECIALIST_COMPOSITION": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.0,
+        "complete_gold_pattern_matched_groups": 0,
+        "consistent_contrast_groups": 1,
+        "contrast_consistency_rate": 0.25,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 1.0,
+        "within_family_prediction_consistent_groups": 4
+      },
+      "exact_capability_set_match": 0.5,
+      "exact_correct_case_count": 16,
+      "example_based_f1": 0.8583333333333333,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 8,
+        "both_utterances_exact_correct_rate": 0.5,
+        "family_count": 16,
+        "prediction_consistency_rate": 1.0,
+        "prediction_consistent_count": 16
+      },
+      "hamming_loss": 0.16666666666666666,
+      "jaccard": 0.78125,
+      "macro_f1": 0.8300653594771242,
+      "mean_predicted_capability_count": 1.5,
+      "micro_f1": 0.8333333333333334,
+      "micro_precision": 0.8333333333333334,
+      "micro_recall": 0.8333333333333334,
+      "over_routing_count": 8,
+      "over_routing_rate": 0.25,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 0.3333333333333333,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.7777777777777777,
+          "hamming_loss": 0.2222222222222222,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 0.8000000000000002,
+          "micro_precision": 0.8,
+          "micro_recall": 0.8,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 6,
+            "tp": 8
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.3333333333333333,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.8333333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.75,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 2
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 10,
+            "tp": 10
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "001": 4,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.75,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 0.9166666666666666,
+          "hamming_loss": 0.08333333333333333,
+          "jaccard": 0.875,
+          "macro_f1": 0.8888888888888888,
+          "mean_predicted_capability_count": 1.25,
+          "micro_f1": 0.888888888888889,
+          "micro_precision": 0.8,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 1.0,
+              "specificity": 0.6666666666666666,
+              "tn": 4,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 14,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "101": 2,
+            "110": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 1.0,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 1.0,
+          "hamming_loss": 0.0,
+          "jaccard": 1.0,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 0.5,
+          "micro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 10,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.0,
+          "exact_correct_case_count": 0,
+          "example_based_f1": 0.8000000000000002,
+          "hamming_loss": 0.3333333333333333,
+          "jaccard": 0.6666666666666666,
+          "macro_f1": 0.7666666666666666,
+          "mean_predicted_capability_count": 2.3333333333333335,
+          "micro_f1": 0.7999999999999999,
+          "micro_precision": 0.8571428571428571,
+          "micro_recall": 0.75,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 0.5,
+              "fn": 4,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 2,
+            "tn": 0,
+            "tp": 12
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "101": 4,
+            "111": 2
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.6666666666666666,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.6666666666666666,
+          "fn": 6,
+          "fp": 4,
+          "precision": 0.7142857142857143,
+          "recall": 0.625,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 10
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.823529411764706,
+          "fn": 2,
+          "fp": 4,
+          "precision": 0.7777777777777778,
+          "recall": 0.875,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 14
+        }
+      },
+      "pooled_counts": {
+        "fn": 8,
+        "fp": 8,
+        "tn": 40,
+        "tp": 40
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 4,
+        "001": 8,
+        "010": 2,
+        "101": 6,
+        "110": 10,
+        "111": 2
+      },
+      "under_routing_count": 8,
+      "under_routing_rate": 0.25,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 8,
+          "example_based_f1": 0.8583333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.78125,
+          "macro_f1": 0.8300653594771242,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.823529411764706,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.7777777777777778,
+              "recall": 0.875,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 4,
+            "tn": 20,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 4,
+            "010": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 8,
+          "example_based_f1": 0.8583333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.78125,
+          "macro_f1": 0.8300653594771242,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.6666666666666666,
+              "fn": 3,
+              "fp": 2,
+              "precision": 0.7142857142857143,
+              "recall": 0.625,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 5
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.823529411764706,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.7777777777777778,
+              "recall": 0.875,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 4,
+            "fp": 4,
+            "tn": 20,
+            "tp": 20
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 4,
+            "010": 1,
+            "101": 3,
+            "110": 5,
+            "111": 1
+          },
+          "under_routing_count": 4,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-P3_RAG_MEMORY_SPECIALISTS": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.5,
+        "complete_gold_pattern_matched_groups": 2,
+        "consistent_contrast_groups": 2,
+        "contrast_consistency_rate": 0.5,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.75,
+        "within_family_prediction_consistent_groups": 3
+      },
+      "exact_capability_set_match": 0.78125,
+      "exact_correct_case_count": 25,
+      "example_based_f1": 0.9354166666666667,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 12,
+        "both_utterances_exact_correct_rate": 0.75,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.9375,
+        "prediction_consistent_count": 15
+      },
+      "hamming_loss": 0.07291666666666667,
+      "jaccard": 0.9010416666666666,
+      "macro_f1": 0.9310754604872252,
+      "mean_predicted_capability_count": 1.59375,
+      "micro_f1": 0.9292929292929293,
+      "micro_precision": 0.9019607843137255,
+      "micro_recall": 0.9583333333333334,
+      "over_routing_count": 5,
+      "over_routing_rate": 0.15625,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 1.0,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 1.0,
+          "hamming_loss": 0.0,
+          "jaccard": 1.0,
+          "macro_f1": 1.0,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 8,
+            "tp": 10
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "011": 2,
+            "100": 2,
+            "110": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.8333333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.75,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 2
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 10,
+            "tp": 10
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "001": 4,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.875,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.9583333333333334,
+          "hamming_loss": 0.041666666666666664,
+          "jaccard": 0.9375,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 1.125,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 1,
+          "over_routing_rate": 0.125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.8333333333333334,
+              "tn": 5,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 1,
+            "tn": 15,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "100": 1,
+            "101": 2,
+            "110": 1
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 1.0,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 1.0,
+          "hamming_loss": 0.0,
+          "jaccard": 1.0,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 0.5,
+          "micro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 10,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.6666666666666666,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.9333333333333332,
+          "hamming_loss": 0.1111111111111111,
+          "jaccard": 0.8888888888888888,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "tp": 16
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.9696969696969697,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.9411764705882353,
+          "recall": 1.0,
+          "specificity": 0.9375,
+          "tn": 15,
+          "tp": 16
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.823529411764706,
+          "fn": 2,
+          "fp": 4,
+          "precision": 0.7777777777777778,
+          "recall": 0.875,
+          "specificity": 0.75,
+          "tn": 12,
+          "tp": 14
+        }
+      },
+      "pooled_counts": {
+        "fn": 2,
+        "fp": 5,
+        "tn": 43,
+        "tp": 46
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 4,
+        "001": 6,
+        "010": 2,
+        "011": 2,
+        "100": 3,
+        "101": 2,
+        "110": 7,
+        "111": 6
+      },
+      "under_routing_count": 2,
+      "under_routing_rate": 0.0625,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.8125,
+          "exact_correct_case_count": 13,
+          "example_based_f1": 0.9458333333333333,
+          "hamming_loss": 0.0625,
+          "jaccard": 0.9166666666666666,
+          "macro_f1": 0.9411764705882354,
+          "mean_predicted_capability_count": 1.5625,
+          "micro_f1": 0.9387755102040817,
+          "micro_precision": 0.92,
+          "micro_recall": 0.9583333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.125,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.823529411764706,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.7777777777777778,
+              "recall": 0.875,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 2,
+            "tn": 22,
+            "tp": 23
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 3,
+            "010": 1,
+            "011": 1,
+            "100": 2,
+            "101": 1,
+            "110": 3,
+            "111": 3
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.0625,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.75,
+          "exact_correct_case_count": 12,
+          "example_based_f1": 0.925,
+          "hamming_loss": 0.08333333333333333,
+          "jaccard": 0.8854166666666666,
+          "macro_f1": 0.9215686274509803,
+          "mean_predicted_capability_count": 1.625,
+          "micro_f1": 0.9199999999999999,
+          "micro_precision": 0.8846153846153846,
+          "micro_recall": 0.9583333333333334,
+          "over_routing_count": 3,
+          "over_routing_rate": 0.1875,
+          "per_label": {
+            "Memory": {
+              "f1": 0.9411764705882353,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.8888888888888888,
+              "recall": 1.0,
+              "specificity": 0.875,
+              "tn": 7,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.823529411764706,
+              "fn": 1,
+              "fp": 2,
+              "precision": 0.7777777777777778,
+              "recall": 0.875,
+              "specificity": 0.75,
+              "tn": 6,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 3,
+            "tn": 21,
+            "tp": 23
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "001": 3,
+            "010": 1,
+            "011": 1,
+            "100": 1,
+            "101": 1,
+            "110": 4,
+            "111": 3
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.0625,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    },
+    "R2V2-P4_MEMORY_SPECIALIST_COMPOSITION": {
+      "capability_contrast": {
+        "complete_gold_pattern_match_rate": 0.5,
+        "complete_gold_pattern_matched_groups": 2,
+        "consistent_contrast_groups": 2,
+        "contrast_consistency_rate": 0.5,
+        "definition": "Capability-axis groups only; internally consistent two-utterance family predictions and the exact directed frozen Gold change vector.",
+        "eligible_contrast_groups": 4,
+        "groups": [
+          {
+            "axis": "MEMORY",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "MEM-CG-03",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "PLANNING",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "PLAN-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": false
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": false,
+            "contrast_group_id": "RAG-CG-03",
+            "gold_capability_change_vector_matched": false,
+            "within_family_prediction_consistent": true
+          },
+          {
+            "axis": "RAG",
+            "complete_gold_family_pattern_matched": true,
+            "contrast_group_id": "RAG-CG-04",
+            "gold_capability_change_vector_matched": true,
+            "within_family_prediction_consistent": true
+          }
+        ],
+        "within_family_prediction_consistency_rate": 0.75,
+        "within_family_prediction_consistent_groups": 3
+      },
+      "exact_capability_set_match": 0.71875,
+      "exact_correct_case_count": 23,
+      "example_based_f1": 0.8729166666666667,
+      "family_metrics": {
+        "both_utterances_exact_correct_count": 11,
+        "both_utterances_exact_correct_rate": 0.6875,
+        "family_count": 16,
+        "prediction_consistency_rate": 0.9375,
+        "prediction_consistent_count": 15
+      },
+      "hamming_loss": 0.09375,
+      "jaccard": 0.8385416666666666,
+      "macro_f1": 0.9158249158249158,
+      "mean_predicted_capability_count": 1.65625,
+      "micro_f1": 0.910891089108911,
+      "micro_precision": 0.8679245283018868,
+      "micro_recall": 0.9583333333333334,
+      "over_routing_count": 7,
+      "over_routing_rate": 0.21875,
+      "page_stratified_metrics": {
+        "Debate": {
+          "exact_capability_set_match": 1.0,
+          "exact_correct_case_count": 6,
+          "example_based_f1": 1.0,
+          "hamming_loss": 0.0,
+          "jaccard": 1.0,
+          "macro_f1": 1.0,
+          "mean_predicted_capability_count": 1.6666666666666667,
+          "micro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0,
+          "over_routing_count": 0,
+          "over_routing_rate": 0.0,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 8,
+            "tp": 10
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "011": 2,
+            "100": 2,
+            "110": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Lecture": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.8333333333333333,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.75,
+          "macro_f1": 0.8333333333333334,
+          "mean_predicted_capability_count": 1.5,
+          "micro_f1": 0.8333333333333334,
+          "micro_precision": 0.8333333333333334,
+          "micro_recall": 0.8333333333333334,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            },
+            "RAG": {
+              "f1": 0.5,
+              "fn": 2,
+              "fp": 2,
+              "precision": 0.5,
+              "recall": 0.5,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 2
+            }
+          },
+          "pooled_counts": {
+            "fn": 2,
+            "fp": 2,
+            "tn": 10,
+            "tp": 10
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "001": 4,
+            "110": 4
+          },
+          "under_routing_count": 2,
+          "under_routing_rate": 0.25,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Overview": {
+          "exact_capability_set_match": 0.875,
+          "exact_correct_case_count": 7,
+          "example_based_f1": 0.9583333333333334,
+          "hamming_loss": 0.041666666666666664,
+          "jaccard": 0.9375,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 1.125,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 1,
+          "over_routing_rate": 0.125,
+          "per_label": {
+            "Memory": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.8333333333333334,
+              "tn": 5,
+              "tp": 2
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 6,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 1,
+            "tn": 15,
+            "tp": 8
+          },
+          "population_count": 8,
+          "prediction_signature_distribution": {
+            "000": 2,
+            "010": 2,
+            "100": 1,
+            "101": 2,
+            "110": 1
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 8,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Reflection": {
+          "exact_capability_set_match": 0.5,
+          "exact_correct_case_count": 2,
+          "example_based_f1": 0.5,
+          "hamming_loss": 0.16666666666666666,
+          "jaccard": 0.5,
+          "macro_f1": 0.3333333333333333,
+          "mean_predicted_capability_count": 1.0,
+          "micro_f1": 0.6666666666666666,
+          "micro_precision": 0.5,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.5,
+          "per_label": {
+            "Memory": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 1.0,
+              "tn": 4,
+              "tp": 0
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 2,
+              "tp": 2
+            },
+            "RAG": {
+              "f1": 0.0,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "specificity": 0.5,
+              "tn": 2,
+              "tp": 0
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 8,
+            "tp": 2
+          },
+          "population_count": 4,
+          "prediction_signature_distribution": {
+            "001": 2,
+            "100": 2
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 4,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "Resources": {
+          "exact_capability_set_match": 0.6666666666666666,
+          "exact_correct_case_count": 4,
+          "example_based_f1": 0.9333333333333332,
+          "hamming_loss": 0.1111111111111111,
+          "jaccard": 0.8888888888888888,
+          "macro_f1": 0.9333333333333332,
+          "mean_predicted_capability_count": 3.0,
+          "micro_f1": 0.9411764705882353,
+          "micro_precision": 0.8888888888888888,
+          "micro_recall": 1.0,
+          "over_routing_count": 2,
+          "over_routing_rate": 0.3333333333333333,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 6
+            },
+            "RAG": {
+              "f1": 0.8,
+              "fn": 0,
+              "fp": 2,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "specificity": 0.0,
+              "tn": 0,
+              "tp": 4
+            }
+          },
+          "pooled_counts": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "tp": 16
+          },
+          "population_count": 6,
+          "prediction_signature_distribution": {
+            "111": 6
+          },
+          "under_routing_count": 0,
+          "under_routing_rate": 0.0,
+          "valid_prediction_coverage_count": 6,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      },
+      "per_label": {
+        "Memory": {
+          "f1": 0.9696969696969697,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.9411764705882353,
+          "recall": 1.0,
+          "specificity": 0.9375,
+          "tn": 15,
+          "tp": 16
+        },
+        "Planning": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "specificity": 1.0,
+          "tn": 16,
+          "tp": 16
+        },
+        "RAG": {
+          "f1": 0.7777777777777777,
+          "fn": 2,
+          "fp": 6,
+          "precision": 0.7,
+          "recall": 0.875,
+          "specificity": 0.625,
+          "tn": 10,
+          "tp": 14
+        }
+      },
+      "pooled_counts": {
+        "fn": 2,
+        "fp": 7,
+        "tn": 41,
+        "tp": 46
+      },
+      "population_count": 32,
+      "prediction_signature_distribution": {
+        "000": 2,
+        "001": 6,
+        "010": 2,
+        "011": 2,
+        "100": 5,
+        "101": 2,
+        "110": 7,
+        "111": 6
+      },
+      "under_routing_count": 2,
+      "under_routing_rate": 0.0625,
+      "valid_prediction_coverage_count": 32,
+      "valid_prediction_coverage_rate": 1.0,
+      "writer_stratified_metrics": {
+        "A": {
+          "exact_capability_set_match": 0.75,
+          "exact_correct_case_count": 12,
+          "example_based_f1": 0.8833333333333333,
+          "hamming_loss": 0.08333333333333333,
+          "jaccard": 0.8541666666666666,
+          "macro_f1": 0.9259259259259259,
+          "mean_predicted_capability_count": 1.625,
+          "micro_f1": 0.9199999999999999,
+          "micro_precision": 0.8846153846153846,
+          "micro_recall": 0.9583333333333334,
+          "over_routing_count": 3,
+          "over_routing_rate": 0.1875,
+          "per_label": {
+            "Memory": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 3,
+            "tn": 21,
+            "tp": 23
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 3,
+            "010": 1,
+            "011": 1,
+            "100": 3,
+            "101": 1,
+            "110": 3,
+            "111": 3
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.0625,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        },
+        "B": {
+          "exact_capability_set_match": 0.6875,
+          "exact_correct_case_count": 11,
+          "example_based_f1": 0.8625,
+          "hamming_loss": 0.10416666666666667,
+          "jaccard": 0.8229166666666666,
+          "macro_f1": 0.9063180827886711,
+          "mean_predicted_capability_count": 1.6875,
+          "micro_f1": 0.9019607843137256,
+          "micro_precision": 0.8518518518518519,
+          "micro_recall": 0.9583333333333334,
+          "over_routing_count": 4,
+          "over_routing_rate": 0.25,
+          "per_label": {
+            "Memory": {
+              "f1": 0.9411764705882353,
+              "fn": 0,
+              "fp": 1,
+              "precision": 0.8888888888888888,
+              "recall": 1.0,
+              "specificity": 0.875,
+              "tn": 7,
+              "tp": 8
+            },
+            "Planning": {
+              "f1": 1.0,
+              "fn": 0,
+              "fp": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "specificity": 1.0,
+              "tn": 8,
+              "tp": 8
+            },
+            "RAG": {
+              "f1": 0.7777777777777777,
+              "fn": 1,
+              "fp": 3,
+              "precision": 0.7,
+              "recall": 0.875,
+              "specificity": 0.625,
+              "tn": 5,
+              "tp": 7
+            }
+          },
+          "pooled_counts": {
+            "fn": 1,
+            "fp": 4,
+            "tn": 20,
+            "tp": 23
+          },
+          "population_count": 16,
+          "prediction_signature_distribution": {
+            "000": 1,
+            "001": 3,
+            "010": 1,
+            "011": 1,
+            "100": 2,
+            "101": 1,
+            "110": 4,
+            "111": 3
+          },
+          "under_routing_count": 1,
+          "under_routing_rate": 0.0625,
+          "valid_prediction_coverage_count": 16,
+          "valid_prediction_coverage_rate": 1.0
+        }
+      }
+    }
+  },
+  "metric_definition_source": "Stage_0_and_Stage_4_frozen_set_metrics",
+  "population": "GOLD_DIALOGUE_ACTION_ANSWER",
+  "population_count": 32,
+  "schema_version": "rq2-v2-stage5e-final-core-method-metrics-v1",
+  "selection_values_rounded": false
+}

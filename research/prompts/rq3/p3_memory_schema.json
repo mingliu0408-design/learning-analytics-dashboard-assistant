@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "memory_required": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "memory_required"
+  ],
+  "additionalProperties": false
+}

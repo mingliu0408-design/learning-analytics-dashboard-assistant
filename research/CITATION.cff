@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this fixed software snapshot when using the reproduction code."
+type: software
+title: "LAD Assistant: Dissertation Reproducibility Code"
+authors:
+  - name: "mingliu0408-design"
+    website: "https://github.com/mingliu0408-design"
+version: "1.0.0"
+date-released: "2026-09-08"
+repository-code: "https://github.com/mingliu0408-design/lad-assistant-reproducibility"
+url: "https://github.com/mingliu0408-design/lad-assistant-reproducibility/releases/tag/v1.0.0"
+abstract: "Source code and offline recomputation from permitted saved numerical materials for RQ1, RQ2 and RQ3; synthetic module checks and explicit limits for full model and service reruns."
+keywords:
+  - reproducibility
+  - learning analytics
+  - capability routing

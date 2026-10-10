@@ -1,0 +1,2145 @@
+{
+  "origin": "NEW_PUBLIC_DEMO_SYNTHETIC_OFFLINE_EXPORT_NOT_STUDY_RESULTS",
+  "snapshots": {
+    "Overview": {
+      "page": "Overview",
+      "scope": {
+        "learner_id": "demo-learner",
+        "course_id": "demo-course",
+        "data_kind": "SYNTHETIC"
+      },
+      "metrics": {
+        "resource_views": 36,
+        "video_minutes": 173,
+        "debate_posts": 4,
+        "reflection_words": 1010
+      },
+      "weekly": [
+        {
+          "week": 1,
+          "resource_views": 8,
+          "video_minutes": 42,
+          "video_completion": 70,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 220
+        },
+        {
+          "week": 2,
+          "resource_views": 12,
+          "video_minutes": 55,
+          "video_completion": 82,
+          "debate_posts": 2,
+          "debate_replies": 3,
+          "reflection_words": 340
+        },
+        {
+          "week": 3,
+          "resource_views": 6,
+          "video_minutes": 28,
+          "video_completion": 46,
+          "debate_posts": 0,
+          "debate_replies": 1,
+          "reflection_words": 160
+        },
+        {
+          "week": 4,
+          "resource_views": 10,
+          "video_minutes": 48,
+          "video_completion": 76,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 290
+        }
+      ],
+      "evidence": [
+        {
+          "id": "dashboard-overview-resource_views",
+          "kind": "DASHBOARD",
+          "title": "资源浏览次数",
+          "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Overview"
+        },
+        {
+          "id": "dashboard-overview-video_minutes",
+          "kind": "DASHBOARD",
+          "title": "视频观看分钟",
+          "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Overview"
+        },
+        {
+          "id": "dashboard-overview-debate_posts",
+          "kind": "DASHBOARD",
+          "title": "讨论发帖数",
+          "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Overview"
+        },
+        {
+          "id": "dashboard-overview-reflection_words",
+          "kind": "DASHBOARD",
+          "title": "反思字数",
+          "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Overview"
+        }
+      ],
+      "limitations": [
+        "所有学习活动与课程材料均为原创合成示例。",
+        "图表依据结构化活动数据，不使用图像识别。"
+      ]
+    },
+    "Resources": {
+      "page": "Resources",
+      "scope": {
+        "learner_id": "demo-learner",
+        "course_id": "demo-course",
+        "data_kind": "SYNTHETIC"
+      },
+      "metrics": {
+        "resource_views": 36
+      },
+      "weekly": [
+        {
+          "week": 1,
+          "resource_views": 8,
+          "video_minutes": 42,
+          "video_completion": 70,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 220
+        },
+        {
+          "week": 2,
+          "resource_views": 12,
+          "video_minutes": 55,
+          "video_completion": 82,
+          "debate_posts": 2,
+          "debate_replies": 3,
+          "reflection_words": 340
+        },
+        {
+          "week": 3,
+          "resource_views": 6,
+          "video_minutes": 28,
+          "video_completion": 46,
+          "debate_posts": 0,
+          "debate_replies": 1,
+          "reflection_words": 160
+        },
+        {
+          "week": 4,
+          "resource_views": 10,
+          "video_minutes": 48,
+          "video_completion": 76,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 290
+        }
+      ],
+      "evidence": [
+        {
+          "id": "dashboard-resources-resource_views",
+          "kind": "DASHBOARD",
+          "title": "资源浏览次数",
+          "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Resources"
+        }
+      ],
+      "limitations": [
+        "所有学习活动与课程材料均为原创合成示例。",
+        "图表依据结构化活动数据，不使用图像识别。"
+      ]
+    },
+    "Lecture": {
+      "page": "Lecture",
+      "scope": {
+        "learner_id": "demo-learner",
+        "course_id": "demo-course",
+        "data_kind": "SYNTHETIC"
+      },
+      "metrics": {
+        "video_minutes": 173,
+        "video_completion": 68.5
+      },
+      "weekly": [
+        {
+          "week": 1,
+          "resource_views": 8,
+          "video_minutes": 42,
+          "video_completion": 70,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 220
+        },
+        {
+          "week": 2,
+          "resource_views": 12,
+          "video_minutes": 55,
+          "video_completion": 82,
+          "debate_posts": 2,
+          "debate_replies": 3,
+          "reflection_words": 340
+        },
+        {
+          "week": 3,
+          "resource_views": 6,
+          "video_minutes": 28,
+          "video_completion": 46,
+          "debate_posts": 0,
+          "debate_replies": 1,
+          "reflection_words": 160
+        },
+        {
+          "week": 4,
+          "resource_views": 10,
+          "video_minutes": 48,
+          "video_completion": 76,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 290
+        }
+      ],
+      "evidence": [
+        {
+          "id": "dashboard-lecture-video_minutes",
+          "kind": "DASHBOARD",
+          "title": "视频观看分钟",
+          "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Lecture"
+        },
+        {
+          "id": "dashboard-lecture-video_completion",
+          "kind": "DASHBOARD",
+          "title": "视频平均完成度百分比",
+          "text": "合成学习者4周的视频平均完成度百分比：68.5。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Lecture"
+        }
+      ],
+      "limitations": [
+        "所有学习活动与课程材料均为原创合成示例。",
+        "图表依据结构化活动数据，不使用图像识别。"
+      ]
+    },
+    "Debate": {
+      "page": "Debate",
+      "scope": {
+        "learner_id": "demo-learner",
+        "course_id": "demo-course",
+        "data_kind": "SYNTHETIC"
+      },
+      "metrics": {
+        "debate_posts": 4,
+        "debate_replies": 8
+      },
+      "weekly": [
+        {
+          "week": 1,
+          "resource_views": 8,
+          "video_minutes": 42,
+          "video_completion": 70,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 220
+        },
+        {
+          "week": 2,
+          "resource_views": 12,
+          "video_minutes": 55,
+          "video_completion": 82,
+          "debate_posts": 2,
+          "debate_replies": 3,
+          "reflection_words": 340
+        },
+        {
+          "week": 3,
+          "resource_views": 6,
+          "video_minutes": 28,
+          "video_completion": 46,
+          "debate_posts": 0,
+          "debate_replies": 1,
+          "reflection_words": 160
+        },
+        {
+          "week": 4,
+          "resource_views": 10,
+          "video_minutes": 48,
+          "video_completion": 76,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 290
+        }
+      ],
+      "evidence": [
+        {
+          "id": "dashboard-debate-debate_posts",
+          "kind": "DASHBOARD",
+          "title": "讨论发帖数",
+          "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Debate"
+        },
+        {
+          "id": "dashboard-debate-debate_replies",
+          "kind": "DASHBOARD",
+          "title": "讨论回复数",
+          "text": "合成学习者4周的讨论回复数：8。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Debate"
+        }
+      ],
+      "limitations": [
+        "所有学习活动与课程材料均为原创合成示例。",
+        "图表依据结构化活动数据，不使用图像识别。"
+      ]
+    },
+    "Reflection": {
+      "page": "Reflection",
+      "scope": {
+        "learner_id": "demo-learner",
+        "course_id": "demo-course",
+        "data_kind": "SYNTHETIC"
+      },
+      "metrics": {
+        "reflection_words": 1010
+      },
+      "weekly": [
+        {
+          "week": 1,
+          "resource_views": 8,
+          "video_minutes": 42,
+          "video_completion": 70,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 220
+        },
+        {
+          "week": 2,
+          "resource_views": 12,
+          "video_minutes": 55,
+          "video_completion": 82,
+          "debate_posts": 2,
+          "debate_replies": 3,
+          "reflection_words": 340
+        },
+        {
+          "week": 3,
+          "resource_views": 6,
+          "video_minutes": 28,
+          "video_completion": 46,
+          "debate_posts": 0,
+          "debate_replies": 1,
+          "reflection_words": 160
+        },
+        {
+          "week": 4,
+          "resource_views": 10,
+          "video_minutes": 48,
+          "video_completion": 76,
+          "debate_posts": 1,
+          "debate_replies": 2,
+          "reflection_words": 290
+        }
+      ],
+      "evidence": [
+        {
+          "id": "dashboard-reflection-reflection_words",
+          "kind": "DASHBOARD",
+          "title": "反思字数",
+          "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+          "source": "demo/data.py:WEEKLY",
+          "page": "Reflection"
+        }
+      ],
+      "limitations": [
+        "所有学习活动与课程材料均为原创合成示例。",
+        "图表依据结构化活动数据，不使用图像识别。"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "page": "Overview",
+      "question": "本周学习活动如何？",
+      "result": {
+        "answer": "**Overview · 合成数据演示**\n\n合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-overview-resource_views]\n\n合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-overview-video_minutes]\n\n合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-overview-debate_posts]\n\n合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-overview-reflection_words]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-overview-resource_views",
+            "kind": "DASHBOARD",
+            "title": "资源浏览次数",
+            "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-video_minutes",
+            "kind": "DASHBOARD",
+            "title": "视频观看分钟",
+            "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-debate_posts",
+            "kind": "DASHBOARD",
+            "title": "讨论发帖数",
+            "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-reflection_words",
+            "kind": "DASHBOARD",
+            "title": "反思字数",
+            "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-overview-resource_views",
+            "title": "资源浏览次数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-video_minutes",
+            "title": "视频观看分钟",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-debate_posts",
+            "title": "讨论发帖数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-reflection_words",
+            "title": "反思字数",
+            "source": "demo/data.py:WEEKLY"
+          }
+        ],
+        "capabilities": [],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": []
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Overview"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Overview",
+      "question": "帮我制定一个30分钟的学习计划",
+      "result": {
+        "answer": "**Overview · 合成数据演示**\n\n目标：我希望练习有证据的学习反思。My learning goal is evidence-based reflection.\n\n预算：30 分钟；下列时长是演示估计。\n\n1. 阅读一个与当前问题相关的材料片段，并记下主张与证据。（约 10 分钟） [dashboard-overview-resource_views]\n\n2. 结合当前页面的活动记录，写一个可观察的学习例子。（约 10 分钟） [dashboard-overview-resource_views]\n\n3. 解释例子与材料的关系，记录一个尚未解决的问题。（约 10 分钟） [dashboard-overview-resource_views]\n\n你明确保存的CONSTRAINT：每次学习不超过30分钟。My study time budget is 30 minutes. [mem_fc91bf39a0a355cfece2abee]\n\n你明确保存的GOAL：我希望练习有证据的学习反思。My learning goal is evidence-based reflection. [mem_ddc465637d0c0caa23183e39]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-overview-resource_views",
+            "kind": "DASHBOARD",
+            "title": "资源浏览次数",
+            "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-video_minutes",
+            "kind": "DASHBOARD",
+            "title": "视频观看分钟",
+            "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-debate_posts",
+            "kind": "DASHBOARD",
+            "title": "讨论发帖数",
+            "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "dashboard-overview-reflection_words",
+            "kind": "DASHBOARD",
+            "title": "反思字数",
+            "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Overview"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "kind": "LEARNER_MEMORY",
+            "title": "CONSTRAINT",
+            "text": "每次学习不超过30分钟。My study time budget is 30 minutes.",
+            "source": "explicit learner form",
+            "page": "Overview",
+            "version": 1
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "kind": "LEARNER_MEMORY",
+            "title": "GOAL",
+            "text": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "source": "explicit learner form",
+            "page": "Overview",
+            "version": 1
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-overview-resource_views",
+            "title": "资源浏览次数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-video_minutes",
+            "title": "视频观看分钟",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-debate_posts",
+            "title": "讨论发帖数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-overview-reflection_words",
+            "title": "反思字数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "title": "CONSTRAINT",
+            "source": "explicit learner form"
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "title": "GOAL",
+            "source": "explicit learner form"
+          }
+        ],
+        "capabilities": [
+          "RAG",
+          "Memory",
+          "Planning"
+        ],
+        "plan": {
+          "candidate": {
+            "plan_id": "demo-plan-49eca429ac",
+            "goal_id": "mem_ddc465637d0c0caa23183e39",
+            "goal": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "actions": [
+              {
+                "step_id": "step-1",
+                "task_id": "task-1",
+                "kind": "TASK",
+                "action": "阅读一个与当前问题相关的材料片段，并记下主张与证据。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [],
+                "dependencies": [],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-overview-resource_views",
+                  "dashboard-overview-video_minutes",
+                  "dashboard-overview-debate_posts",
+                  "dashboard-overview-reflection_words",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-2",
+                "task_id": "task-2",
+                "kind": "TASK",
+                "action": "结合当前页面的活动记录，写一个可观察的学习例子。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [],
+                "dependencies": [
+                  "step-1"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-overview-resource_views",
+                  "dashboard-overview-video_minutes",
+                  "dashboard-overview-debate_posts",
+                  "dashboard-overview-reflection_words",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-3",
+                "task_id": "task-3",
+                "kind": "TASK",
+                "action": "解释例子与材料的关系，记录一个尚未解决的问题。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [],
+                "dependencies": [
+                  "step-2"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-overview-resource_views",
+                  "dashboard-overview-video_minutes",
+                  "dashboard-overview-debate_posts",
+                  "dashboard-overview-reflection_words",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              }
+            ],
+            "evidence_refs": [
+              "dashboard-overview-resource_views",
+              "dashboard-overview-video_minutes",
+              "dashboard-overview-debate_posts",
+              "dashboard-overview-reflection_words",
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "continues_plan_id": null,
+            "brief_rationale": "本次公开演示的规则计划；时长为可调整的合成估计。"
+          },
+          "validation": {
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "issues": [],
+            "checks": [
+              {
+                "check": "input_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "runtime_identity_and_provenance",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "required_information_and_active_state",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "mandatory_schedule",
+                "status": "NOT_APPLICABLE",
+                "detail": "Unscheduled output is allowed; supplied candidate schedules are still checked."
+              },
+              {
+                "check": "explicit_scheduling_conditions",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "candidate_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "goal_and_active_plan_binding",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "evidence_and_resource_references",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "dependencies_and_completion",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "declared_duration_and_budget",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "schedule_feasibility",
+                "status": "NOT_APPLICABLE",
+                "detail": "Actions explicitly unscheduled; no scheduling feasibility is certified."
+              },
+              {
+                "check": "supplied_schedule",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "soft_preferences_separate_from_admission",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "semantic_entailment_and_learning_effectiveness",
+                "status": "NOT_IMPLEMENTED",
+                "detail": "Valid source IDs do not establish entailment, goal achievement, pedagogical quality or student outcomes."
+              }
+            ]
+          },
+          "repair_attempts": 0,
+          "budget_minutes": 30,
+          "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+          "semantic_correctness": "NOT_CHECKED",
+          "passed": true
+        },
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG",
+              "Memory",
+              "Planning"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Overview"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "NO_RESULT",
+            "selected_chunk_ids": [],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          },
+          {
+            "step": "memory",
+            "implementation": "C4MemoryRetriever_SQLite_FTS5_LEXICAL",
+            "selected_ids": [
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "diagnostics": {
+              "query_time": "2026-10-10T01:21:02.942344+00:00",
+              "semantic_backend": {
+                "backend": "NOT_CONFIGURED",
+                "network_allowed": false
+              },
+              "limitations": [
+                "SEMANTIC_BACKEND_NOT_CONFIGURED"
+              ],
+              "active_candidate_count": 2,
+              "visible_history_excluded_count": 0,
+              "conflict_excluded_count": 0,
+              "demo_explicit_type_lookup_ids": [
+                "mem_ddc465637d0c0caa23183e39"
+              ]
+            }
+          },
+          {
+            "step": "planning",
+            "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "repair_attempts": 0,
+            "semantic_correctness": "NOT_CHECKED"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Resources",
+      "question": "课程材料建议怎样批判性阅读？",
+      "result": {
+        "answer": "**Resources · 合成数据演示**\n\nFor critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。 [demo-reading-01]\n\nAn evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。 [demo-debate-01]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-resources-resource_views",
+            "kind": "DASHBOARD",
+            "title": "资源浏览次数",
+            "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Resources"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-planning-01",
+            "kind": "COURSE_RAG",
+            "title": "Small study plan / 小规模学习计划",
+            "text": "A small study plan names an explicit goal, selects one permitted resource, schedules a short learning action followed by a self-check, and stays within the time budget supplied by the learner. Estimates are provisional and should be adjusted by the learner. Completion of planned actions is different from achievement of a learning outcome. 学习计划需明确目标、选择材料、安排行动与自查，并遵守学习者提供的时间预算。",
+            "source": "synthetic/course/planning.md",
+            "page": "Overview"
+          },
+          {
+            "id": "demo-video-01",
+            "kind": "COURSE_RAG",
+            "title": "Video understanding check / 视频理解检查",
+            "text": "After watching a lecture video, close the notes and explain one concept in your own words. Produce a small example or counterexample, then compare it with the teaching material and record one remaining question. Video completion measures recorded playback and cannot prove attention, understanding, mastery, or learning gains. 视频观看完成度只反映播放活动，不能证明注意力、理解或学习效果。",
+            "source": "synthetic/course/video.md",
+            "page": "Lecture"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-resources-resource_views",
+            "title": "资源浏览次数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-planning-01",
+            "title": "Small study plan / 小规模学习计划",
+            "source": "synthetic/course/planning.md"
+          },
+          {
+            "id": "demo-video-01",
+            "title": "Video understanding check / 视频理解检查",
+            "source": "synthetic/course/video.md"
+          }
+        ],
+        "capabilities": [
+          "RAG"
+        ],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Resources"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-reading-01",
+              "demo-debate-01",
+              "demo-reflection-01",
+              "demo-planning-01",
+              "demo-video-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Resources",
+      "question": "我的资源浏览次数说明什么？",
+      "result": {
+        "answer": "**Resources · 合成数据演示**\n\n合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-resources-resource_views]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-resources-resource_views",
+            "kind": "DASHBOARD",
+            "title": "资源浏览次数",
+            "text": "合成学习者4周的资源浏览次数：36。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Resources"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-resources-resource_views",
+            "title": "资源浏览次数",
+            "source": "demo/data.py:WEEKLY"
+          }
+        ],
+        "capabilities": [],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": []
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Resources"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Lecture",
+      "question": "视频观看数据能证明我已经理解了吗？",
+      "result": {
+        "answer": "**Lecture · 合成数据演示**\n\n合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-lecture-video_minutes]\n\n合成学习者4周的视频平均完成度百分比：68.5。这是活动记录，不能用于证明理解、能力或学习效果。 [dashboard-lecture-video_completion]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-lecture-video_minutes",
+            "kind": "DASHBOARD",
+            "title": "视频观看分钟",
+            "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Lecture"
+          },
+          {
+            "id": "dashboard-lecture-video_completion",
+            "kind": "DASHBOARD",
+            "title": "视频平均完成度百分比",
+            "text": "合成学习者4周的视频平均完成度百分比：68.5。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Lecture"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-lecture-video_minutes",
+            "title": "视频观看分钟",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-lecture-video_completion",
+            "title": "视频平均完成度百分比",
+            "source": "demo/data.py:WEEKLY"
+          }
+        ],
+        "capabilities": [],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": []
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Lecture"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Lecture",
+      "question": "如何检查视频学习后的理解？",
+      "result": {
+        "answer": "**Lecture · 合成数据演示**\n\nAfter watching a lecture video, close the notes and explain one concept in your own words. Produce a small example or counterexample, then compare it with the teaching material and record one remaining question. Video completion measures recorded playback and cannot prove attention, understanding, mastery, or learning gains. 视频观看完成度只反映播放活动，不能证明注意力、理解或学习效果。 [demo-video-01]\n\nTo write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。 [demo-reflection-01]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-lecture-video_minutes",
+            "kind": "DASHBOARD",
+            "title": "视频观看分钟",
+            "text": "合成学习者4周的视频观看分钟：173。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Lecture"
+          },
+          {
+            "id": "dashboard-lecture-video_completion",
+            "kind": "DASHBOARD",
+            "title": "视频平均完成度百分比",
+            "text": "合成学习者4周的视频平均完成度百分比：68.5。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Lecture"
+          },
+          {
+            "id": "demo-video-01",
+            "kind": "COURSE_RAG",
+            "title": "Video understanding check / 视频理解检查",
+            "text": "After watching a lecture video, close the notes and explain one concept in your own words. Produce a small example or counterexample, then compare it with the teaching material and record one remaining question. Video completion measures recorded playback and cannot prove attention, understanding, mastery, or learning gains. 视频观看完成度只反映播放活动，不能证明注意力、理解或学习效果。",
+            "source": "synthetic/course/video.md",
+            "page": "Lecture"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-planning-01",
+            "kind": "COURSE_RAG",
+            "title": "Small study plan / 小规模学习计划",
+            "text": "A small study plan names an explicit goal, selects one permitted resource, schedules a short learning action followed by a self-check, and stays within the time budget supplied by the learner. Estimates are provisional and should be adjusted by the learner. Completion of planned actions is different from achievement of a learning outcome. 学习计划需明确目标、选择材料、安排行动与自查，并遵守学习者提供的时间预算。",
+            "source": "synthetic/course/planning.md",
+            "page": "Overview"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-lecture-video_minutes",
+            "title": "视频观看分钟",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-lecture-video_completion",
+            "title": "视频平均完成度百分比",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-video-01",
+            "title": "Video understanding check / 视频理解检查",
+            "source": "synthetic/course/video.md"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-planning-01",
+            "title": "Small study plan / 小规模学习计划",
+            "source": "synthetic/course/planning.md"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          }
+        ],
+        "capabilities": [
+          "RAG"
+        ],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Lecture"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-video-01",
+              "demo-reflection-01",
+              "demo-debate-01",
+              "demo-planning-01",
+              "demo-reading-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Debate",
+      "question": "怎样写一条有证据的讨论回复？",
+      "result": {
+        "answer": "**Debate · 合成数据演示**\n\nAn evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。 [demo-debate-01]\n\nTo write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。 [demo-reflection-01]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-debate-debate_posts",
+            "kind": "DASHBOARD",
+            "title": "讨论发帖数",
+            "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Debate"
+          },
+          {
+            "id": "dashboard-debate-debate_replies",
+            "kind": "DASHBOARD",
+            "title": "讨论回复数",
+            "text": "合成学习者4周的讨论回复数：8。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-debate-debate_posts",
+            "title": "讨论发帖数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-debate-debate_replies",
+            "title": "讨论回复数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          }
+        ],
+        "capabilities": [
+          "RAG"
+        ],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Debate"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-debate-01",
+              "demo-reflection-01",
+              "demo-reading-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Debate",
+      "question": "帮我制定一个讨论参与计划",
+      "result": {
+        "answer": "**Debate · 合成数据演示**\n\n目标：我希望练习有证据的学习反思。My learning goal is evidence-based reflection.\n\n预算：30 分钟；下列时长是演示估计。\n\n1. 阅读一个与当前问题相关的材料片段，并记下主张与证据。（约 10 分钟） [dashboard-debate-debate_posts]\n\n2. 结合当前页面的活动记录，写一个可观察的学习例子。（约 10 分钟） [dashboard-debate-debate_posts]\n\n3. 解释例子与材料的关系，记录一个尚未解决的问题。（约 10 分钟） [dashboard-debate-debate_posts]\n\n你明确保存的CONSTRAINT：每次学习不超过30分钟。My study time budget is 30 minutes. [mem_fc91bf39a0a355cfece2abee]\n\n你明确保存的GOAL：我希望练习有证据的学习反思。My learning goal is evidence-based reflection. [mem_ddc465637d0c0caa23183e39]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-debate-debate_posts",
+            "kind": "DASHBOARD",
+            "title": "讨论发帖数",
+            "text": "合成学习者4周的讨论发帖数：4。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Debate"
+          },
+          {
+            "id": "dashboard-debate-debate_replies",
+            "kind": "DASHBOARD",
+            "title": "讨论回复数",
+            "text": "合成学习者4周的讨论回复数：8。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-planning-01",
+            "kind": "COURSE_RAG",
+            "title": "Small study plan / 小规模学习计划",
+            "text": "A small study plan names an explicit goal, selects one permitted resource, schedules a short learning action followed by a self-check, and stays within the time budget supplied by the learner. Estimates are provisional and should be adjusted by the learner. Completion of planned actions is different from achievement of a learning outcome. 学习计划需明确目标、选择材料、安排行动与自查，并遵守学习者提供的时间预算。",
+            "source": "synthetic/course/planning.md",
+            "page": "Overview"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "kind": "LEARNER_MEMORY",
+            "title": "CONSTRAINT",
+            "text": "每次学习不超过30分钟。My study time budget is 30 minutes.",
+            "source": "explicit learner form",
+            "page": "Debate",
+            "version": 1
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "kind": "LEARNER_MEMORY",
+            "title": "GOAL",
+            "text": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "source": "explicit learner form",
+            "page": "Debate",
+            "version": 1
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-debate-debate_posts",
+            "title": "讨论发帖数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "dashboard-debate-debate_replies",
+            "title": "讨论回复数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-planning-01",
+            "title": "Small study plan / 小规模学习计划",
+            "source": "synthetic/course/planning.md"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "title": "CONSTRAINT",
+            "source": "explicit learner form"
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "title": "GOAL",
+            "source": "explicit learner form"
+          }
+        ],
+        "capabilities": [
+          "RAG",
+          "Memory",
+          "Planning"
+        ],
+        "plan": {
+          "candidate": {
+            "plan_id": "demo-plan-54aaced64a",
+            "goal_id": "mem_ddc465637d0c0caa23183e39",
+            "goal": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "actions": [
+              {
+                "step_id": "step-1",
+                "task_id": "task-1",
+                "kind": "TASK",
+                "action": "阅读一个与当前问题相关的材料片段，并记下主张与证据。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-debate-01"
+                ],
+                "dependencies": [],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-debate-debate_posts",
+                  "dashboard-debate-debate_replies",
+                  "demo-debate-01",
+                  "demo-planning-01",
+                  "demo-reflection-01",
+                  "demo-reading-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-2",
+                "task_id": "task-2",
+                "kind": "TASK",
+                "action": "结合当前页面的活动记录，写一个可观察的学习例子。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-debate-01"
+                ],
+                "dependencies": [
+                  "step-1"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-debate-debate_posts",
+                  "dashboard-debate-debate_replies",
+                  "demo-debate-01",
+                  "demo-planning-01",
+                  "demo-reflection-01",
+                  "demo-reading-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-3",
+                "task_id": "task-3",
+                "kind": "TASK",
+                "action": "解释例子与材料的关系，记录一个尚未解决的问题。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-debate-01"
+                ],
+                "dependencies": [
+                  "step-2"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-debate-debate_posts",
+                  "dashboard-debate-debate_replies",
+                  "demo-debate-01",
+                  "demo-planning-01",
+                  "demo-reflection-01",
+                  "demo-reading-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              }
+            ],
+            "evidence_refs": [
+              "dashboard-debate-debate_posts",
+              "dashboard-debate-debate_replies",
+              "demo-debate-01",
+              "demo-planning-01",
+              "demo-reflection-01",
+              "demo-reading-01",
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "continues_plan_id": null,
+            "brief_rationale": "本次公开演示的规则计划；时长为可调整的合成估计。"
+          },
+          "validation": {
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "issues": [],
+            "checks": [
+              {
+                "check": "input_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "runtime_identity_and_provenance",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "required_information_and_active_state",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "mandatory_schedule",
+                "status": "NOT_APPLICABLE",
+                "detail": "Unscheduled output is allowed; supplied candidate schedules are still checked."
+              },
+              {
+                "check": "explicit_scheduling_conditions",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "candidate_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "goal_and_active_plan_binding",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "evidence_and_resource_references",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "dependencies_and_completion",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "declared_duration_and_budget",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "schedule_feasibility",
+                "status": "NOT_APPLICABLE",
+                "detail": "Actions explicitly unscheduled; no scheduling feasibility is certified."
+              },
+              {
+                "check": "supplied_schedule",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "soft_preferences_separate_from_admission",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "semantic_entailment_and_learning_effectiveness",
+                "status": "NOT_IMPLEMENTED",
+                "detail": "Valid source IDs do not establish entailment, goal achievement, pedagogical quality or student outcomes."
+              }
+            ]
+          },
+          "repair_attempts": 0,
+          "budget_minutes": 30,
+          "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+          "semantic_correctness": "NOT_CHECKED",
+          "passed": true
+        },
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG",
+              "Memory",
+              "Planning"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Debate"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-debate-01",
+              "demo-planning-01",
+              "demo-reflection-01",
+              "demo-reading-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          },
+          {
+            "step": "memory",
+            "implementation": "C4MemoryRetriever_SQLite_FTS5_LEXICAL",
+            "selected_ids": [
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "diagnostics": {
+              "query_time": "2026-10-10T01:21:02.952758+00:00",
+              "semantic_backend": {
+                "backend": "NOT_CONFIGURED",
+                "network_allowed": false
+              },
+              "limitations": [
+                "SEMANTIC_BACKEND_NOT_CONFIGURED"
+              ],
+              "active_candidate_count": 2,
+              "visible_history_excluded_count": 0,
+              "conflict_excluded_count": 0,
+              "demo_explicit_type_lookup_ids": []
+            }
+          },
+          {
+            "step": "planning",
+            "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "repair_attempts": 0,
+            "semantic_correctness": "NOT_CHECKED"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Reflection",
+      "question": "怎样写一篇有证据的学习反思？",
+      "result": {
+        "answer": "**Reflection · 合成数据演示**\n\nTo write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。 [demo-reflection-01]\n\nAn evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。 [demo-debate-01]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-reflection-reflection_words",
+            "kind": "DASHBOARD",
+            "title": "反思字数",
+            "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-planning-01",
+            "kind": "COURSE_RAG",
+            "title": "Small study plan / 小规模学习计划",
+            "text": "A small study plan names an explicit goal, selects one permitted resource, schedules a short learning action followed by a self-check, and stays within the time budget supplied by the learner. Estimates are provisional and should be adjusted by the learner. Completion of planned actions is different from achievement of a learning outcome. 学习计划需明确目标、选择材料、安排行动与自查，并遵守学习者提供的时间预算。",
+            "source": "synthetic/course/planning.md",
+            "page": "Overview"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          },
+          {
+            "id": "demo-video-01",
+            "kind": "COURSE_RAG",
+            "title": "Video understanding check / 视频理解检查",
+            "text": "After watching a lecture video, close the notes and explain one concept in your own words. Produce a small example or counterexample, then compare it with the teaching material and record one remaining question. Video completion measures recorded playback and cannot prove attention, understanding, mastery, or learning gains. 视频观看完成度只反映播放活动，不能证明注意力、理解或学习效果。",
+            "source": "synthetic/course/video.md",
+            "page": "Lecture"
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-reflection-reflection_words",
+            "title": "反思字数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-planning-01",
+            "title": "Small study plan / 小规模学习计划",
+            "source": "synthetic/course/planning.md"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          },
+          {
+            "id": "demo-video-01",
+            "title": "Video understanding check / 视频理解检查",
+            "source": "synthetic/course/video.md"
+          }
+        ],
+        "capabilities": [
+          "RAG"
+        ],
+        "plan": null,
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Reflection"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-reflection-01",
+              "demo-debate-01",
+              "demo-planning-01",
+              "demo-reading-01",
+              "demo-video-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    },
+    {
+      "page": "Reflection",
+      "question": "结合我保存的目标，制定反思计划",
+      "result": {
+        "answer": "**Reflection · 合成数据演示**\n\n目标：我希望练习有证据的学习反思。My learning goal is evidence-based reflection.\n\n预算：30 分钟；下列时长是演示估计。\n\n1. 阅读一个与当前问题相关的材料片段，并记下主张与证据。（约 10 分钟） [dashboard-reflection-reflection_words]\n\n2. 结合当前页面的活动记录，写一个可观察的学习例子。（约 10 分钟） [dashboard-reflection-reflection_words]\n\n3. 解释例子与材料的关系，记录一个尚未解决的问题。（约 10 分钟） [dashboard-reflection-reflection_words]\n\n你明确保存的CONSTRAINT：每次学习不超过30分钟。My study time budget is 30 minutes. [mem_fc91bf39a0a355cfece2abee]\n\n你明确保存的GOAL：我希望练习有证据的学习反思。My learning goal is evidence-based reflection. [mem_ddc465637d0c0caa23183e39]\n\n离线回答为确定性证据展示，不代表大模型语义生成；活动量不能证明理解。",
+        "evidence": [
+          {
+            "id": "dashboard-reflection-reflection_words",
+            "kind": "DASHBOARD",
+            "title": "反思字数",
+            "text": "合成学习者4周的反思字数：1010。这是活动记录，不能用于证明理解、能力或学习效果。",
+            "source": "demo/data.py:WEEKLY",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-reflection-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "text": "To write an evidence-based reflection, describe one specific learning event, cite an observable example, explain what changed in your understanding, and choose one next action. Activity counts can describe participation but cannot establish understanding. Separate observation from interpretation and acknowledge missing evidence. 有证据的学习反思应描述具体事件、列出观察证据、解释认识变化，并确定一个下一步行动。活动次数不能证明理解。",
+            "source": "synthetic/course/reflection.md",
+            "page": "Reflection"
+          },
+          {
+            "id": "demo-planning-01",
+            "kind": "COURSE_RAG",
+            "title": "Small study plan / 小规模学习计划",
+            "text": "A small study plan names an explicit goal, selects one permitted resource, schedules a short learning action followed by a self-check, and stays within the time budget supplied by the learner. Estimates are provisional and should be adjusted by the learner. Completion of planned actions is different from achievement of a learning outcome. 学习计划需明确目标、选择材料、安排行动与自查，并遵守学习者提供的时间预算。",
+            "source": "synthetic/course/planning.md",
+            "page": "Overview"
+          },
+          {
+            "id": "demo-debate-01",
+            "kind": "COURSE_RAG",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "text": "An evidence-based debate reply states which claim you respond to, gives one concrete observation or course example, explains why that evidence supports or challenges the claim, and asks a focused question. Respectful disagreement addresses the argument rather than the person. Reply counts show participation frequency, not argument quality. 讨论回复应指出回应的主张、举出具体证据、解释其关系，并提出聚焦问题。",
+            "source": "synthetic/course/debate.md",
+            "page": "Debate"
+          },
+          {
+            "id": "demo-reading-01",
+            "kind": "COURSE_RAG",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "text": "For critical reading, identify the author's main claim, list the evidence offered for that claim, ask what assumptions or limitations remain, and compare one alternative explanation. Keep short notes with separate columns for claims, supporting evidence, and unanswered questions. Reading a page repeatedly does not by itself demonstrate comprehension. 批判性阅读要区分主张、支持证据、假设与局限，并比较替代解释。",
+            "source": "synthetic/course/reading.md",
+            "page": "Resources"
+          },
+          {
+            "id": "demo-video-01",
+            "kind": "COURSE_RAG",
+            "title": "Video understanding check / 视频理解检查",
+            "text": "After watching a lecture video, close the notes and explain one concept in your own words. Produce a small example or counterexample, then compare it with the teaching material and record one remaining question. Video completion measures recorded playback and cannot prove attention, understanding, mastery, or learning gains. 视频观看完成度只反映播放活动，不能证明注意力、理解或学习效果。",
+            "source": "synthetic/course/video.md",
+            "page": "Lecture"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "kind": "LEARNER_MEMORY",
+            "title": "CONSTRAINT",
+            "text": "每次学习不超过30分钟。My study time budget is 30 minutes.",
+            "source": "explicit learner form",
+            "page": "Reflection",
+            "version": 1
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "kind": "LEARNER_MEMORY",
+            "title": "GOAL",
+            "text": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "source": "explicit learner form",
+            "page": "Reflection",
+            "version": 1
+          }
+        ],
+        "citations": [
+          {
+            "id": "dashboard-reflection-reflection_words",
+            "title": "反思字数",
+            "source": "demo/data.py:WEEKLY"
+          },
+          {
+            "id": "demo-reflection-01",
+            "title": "Evidence-based reflection / 有证据的学习反思",
+            "source": "synthetic/course/reflection.md"
+          },
+          {
+            "id": "demo-planning-01",
+            "title": "Small study plan / 小规模学习计划",
+            "source": "synthetic/course/planning.md"
+          },
+          {
+            "id": "demo-debate-01",
+            "title": "Evidence-based debate reply / 有证据的讨论回复",
+            "source": "synthetic/course/debate.md"
+          },
+          {
+            "id": "demo-reading-01",
+            "title": "Critical reading checklist / 批判性阅读检查表",
+            "source": "synthetic/course/reading.md"
+          },
+          {
+            "id": "demo-video-01",
+            "title": "Video understanding check / 视频理解检查",
+            "source": "synthetic/course/video.md"
+          },
+          {
+            "id": "mem_fc91bf39a0a355cfece2abee",
+            "title": "CONSTRAINT",
+            "source": "explicit learner form"
+          },
+          {
+            "id": "mem_ddc465637d0c0caa23183e39",
+            "title": "GOAL",
+            "source": "explicit learner form"
+          }
+        ],
+        "capabilities": [
+          "RAG",
+          "Memory",
+          "Planning"
+        ],
+        "plan": {
+          "candidate": {
+            "plan_id": "demo-plan-2bc06eea61",
+            "goal_id": "mem_ddc465637d0c0caa23183e39",
+            "goal": "我希望练习有证据的学习反思。My learning goal is evidence-based reflection.",
+            "actions": [
+              {
+                "step_id": "step-1",
+                "task_id": "task-1",
+                "kind": "TASK",
+                "action": "阅读一个与当前问题相关的材料片段，并记下主张与证据。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-reflection-01"
+                ],
+                "dependencies": [],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-reflection-reflection_words",
+                  "demo-reflection-01",
+                  "demo-planning-01",
+                  "demo-debate-01",
+                  "demo-reading-01",
+                  "demo-video-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-2",
+                "task_id": "task-2",
+                "kind": "TASK",
+                "action": "结合当前页面的活动记录，写一个可观察的学习例子。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-reflection-01"
+                ],
+                "dependencies": [
+                  "step-1"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-reflection-reflection_words",
+                  "demo-reflection-01",
+                  "demo-planning-01",
+                  "demo-debate-01",
+                  "demo-reading-01",
+                  "demo-video-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              },
+              {
+                "step_id": "step-3",
+                "task_id": "task-3",
+                "kind": "TASK",
+                "action": "解释例子与材料的关系，记录一个尚未解决的问题。",
+                "estimated_duration": {
+                  "value": 10,
+                  "unit": "minutes",
+                  "origin": "SYNTHETIC_ESTIMATE",
+                  "evidence_refs": []
+                },
+                "resource_ids": [
+                  "demo-reflection-01"
+                ],
+                "dependencies": [
+                  "step-2"
+                ],
+                "schedule": null,
+                "completion_check": "学习者手动核对本步骤的书面产物。",
+                "evidence_refs": [
+                  "dashboard-reflection-reflection_words",
+                  "demo-reflection-01",
+                  "demo-planning-01",
+                  "demo-debate-01",
+                  "demo-reading-01",
+                  "demo-video-01",
+                  "mem_fc91bf39a0a355cfece2abee",
+                  "mem_ddc465637d0c0caa23183e39"
+                ],
+                "brief_rationale": "基于已提供的合成课程/活动证据；不推断学习质量。"
+              }
+            ],
+            "evidence_refs": [
+              "dashboard-reflection-reflection_words",
+              "demo-reflection-01",
+              "demo-planning-01",
+              "demo-debate-01",
+              "demo-reading-01",
+              "demo-video-01",
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "continues_plan_id": null,
+            "brief_rationale": "本次公开演示的规则计划；时长为可调整的合成估计。"
+          },
+          "validation": {
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "issues": [],
+            "checks": [
+              {
+                "check": "input_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "runtime_identity_and_provenance",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "required_information_and_active_state",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "mandatory_schedule",
+                "status": "NOT_APPLICABLE",
+                "detail": "Unscheduled output is allowed; supplied candidate schedules are still checked."
+              },
+              {
+                "check": "explicit_scheduling_conditions",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "candidate_schema",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "goal_and_active_plan_binding",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "evidence_and_resource_references",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "dependencies_and_completion",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "declared_duration_and_budget",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "schedule_feasibility",
+                "status": "NOT_APPLICABLE",
+                "detail": "Actions explicitly unscheduled; no scheduling feasibility is certified."
+              },
+              {
+                "check": "supplied_schedule",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "soft_preferences_separate_from_admission",
+                "status": "CHECKED",
+                "detail": "Explicit fields only; warnings are not hard failures."
+              },
+              {
+                "check": "semantic_entailment_and_learning_effectiveness",
+                "status": "NOT_IMPLEMENTED",
+                "detail": "Valid source IDs do not establish entailment, goal achievement, pedagogical quality or student outcomes."
+              }
+            ]
+          },
+          "repair_attempts": 0,
+          "budget_minutes": 30,
+          "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+          "semantic_correctness": "NOT_CHECKED",
+          "passed": true
+        },
+        "trace": [
+          {
+            "step": "route",
+            "implementation": "NEW_PUBLIC_DEMO_RULE_ADAPTER_NOT_FROZEN_P3",
+            "capabilities": [
+              "RAG",
+              "Memory",
+              "Planning"
+            ]
+          },
+          {
+            "step": "dashboard",
+            "data_kind": "SYNTHETIC",
+            "page": "Reflection"
+          },
+          {
+            "step": "retrieval",
+            "implementation": "C4_RAG_R0_LEXICAL",
+            "result_status": "SUPPORTED",
+            "selected_chunk_ids": [
+              "demo-reflection-01",
+              "demo-planning-01",
+              "demo-debate-01",
+              "demo-reading-01",
+              "demo-video-01"
+            ],
+            "corpus_kind": "ORIGINAL_SYNTHETIC_DEMO"
+          },
+          {
+            "step": "memory",
+            "implementation": "C4MemoryRetriever_SQLite_FTS5_LEXICAL",
+            "selected_ids": [
+              "mem_fc91bf39a0a355cfece2abee",
+              "mem_ddc465637d0c0caa23183e39"
+            ],
+            "diagnostics": {
+              "query_time": "2026-10-10T01:21:02.961214+00:00",
+              "semantic_backend": {
+                "backend": "NOT_CONFIGURED",
+                "network_allowed": false
+              },
+              "limitations": [
+                "SEMANTIC_BACKEND_NOT_CONFIGURED"
+              ],
+              "active_candidate_count": 2,
+              "visible_history_excluded_count": 0,
+              "conflict_excluded_count": 0,
+              "demo_explicit_type_lookup_ids": []
+            }
+          },
+          {
+            "step": "planning",
+            "implementation": "DEMO_RULE_CANDIDATE_WITH_ORIGINAL_P0_VALIDATOR",
+            "outcome": "PASSED_ENCODED_CHECKS",
+            "repair_attempts": 0,
+            "semantic_correctness": "NOT_CHECKED"
+          }
+        ],
+        "mode": "offline",
+        "limitations": [
+          "公开演示使用新规则路由，并未运行论文 FrozenP3。",
+          "持久化仅来自明确保存的表单内容，聊天不会自动写入。",
+          "规划校验仅覆盖格式与已编码约束，不保证语义正确。"
+        ]
+      }
+    }
+  ]
+}

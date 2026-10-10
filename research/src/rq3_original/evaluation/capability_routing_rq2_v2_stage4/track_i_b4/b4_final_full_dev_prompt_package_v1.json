@@ -1,0 +1,215 @@
+{
+  "encoder_identity": {
+    "device": "cpu",
+    "embedding_dimension": 768,
+    "embedding_serialization": "canonical JSON of exactly current_query, current_page, dashboard_context, and parsed visible_conversation_history",
+    "family_representation": "L2-normalized mean of the family's two L2-normalized utterance embeddings",
+    "family_selection_distance": "cosine distance to signature-family centroid",
+    "local_files_only": true,
+    "local_path": "external_inputs/course_source/semantic_runtime/models/all-mpnet-base-v2/e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "network_downloads_allowed": false,
+    "prohibited_purpose": "B4_PREDICTION",
+    "purpose": "DETERMINISTIC_FEW_SHOT_EXAMPLE_SELECTION_ONLY",
+    "repo_id": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "runtime_config_path": "external_inputs/course_source/semantic_runtime/config/semantic_routing_config.json",
+    "runtime_config_sha256": "5d1f59587e16f03cd7640e2392fdad757731854ca9e1276de779a0050dac2220",
+    "schema_version": "rq2-v2-stage4-i-b4-encoder-identity-v1",
+    "sentence_transformers_version": "5.6.1",
+    "torch_version": "2.12.1",
+    "utterance_embedding_normalization": "L2",
+    "verified_files": [
+      {
+        "name": "config.json",
+        "sha256": "d46a3e04ded82bba22528424480697d394eeda6a27484e08c5bb2bdf5906cfa0",
+        "size_bytes": 571
+      },
+      {
+        "name": "model.safetensors",
+        "sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658",
+        "size_bytes": 437971872
+      },
+      {
+        "name": "tokenizer.json",
+        "sha256": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842",
+        "size_bytes": 466021
+      }
+    ]
+  },
+  "execution_boundary": {
+    "intended_future_use": "ONE_TIME_B4_TEST_EXECUTION_ONLY_AFTER_MODEL_DEVELOPMENT_FREEZE_AND_NEW_AUTHORIZATION",
+    "model_execution_authorization_status": "REQUIRES_DIRECT_USER_AUTHORIZATION_FOR_B4_EXECUTION",
+    "network_calls_made": 0,
+    "provider_calls_made": 0
+  },
+  "few_shot_examples": [
+    {
+      "input": {
+        "current_page": "Reflection",
+        "current_query": "What do these reflection numbers—3 entries, a 96-word average and 3 of 4 prompts answered—show about my current completion?",
+        "dashboard_context": "Controlled dashboard snapshot: 3 reflection entries are submitted, the average length is 96 words, and 3 of 4 prompts have responses.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false,
+        "planning_required": false,
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_page": "Resources",
+        "current_query": "What order should I do the two short readings and the 8-minute video in so I can finish this Week 3 set before Thursday?",
+        "dashboard_context": "Controlled dashboard snapshot: the selected Week 3 resource group contains two short readings and one 8-minute video; the group is explicitly highlighted.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false,
+        "planning_required": true,
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_page": "Reflection",
+        "current_query": "How does the rise in my confidence ratings alongside the evidence tags compare with the reflection focus I mentioned earlier?",
+        "dashboard_context": "Controlled dashboard snapshot: evidence use is tagged in 3 recent entries and confidence ratings rise from 2 to 3 to 4 across those entries.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true,
+        "planning_required": false,
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_page": "Overview",
+        "current_query": "Given that I only had two active study days this week, how should I structure my next three sessions to get closer to the study pattern I mentioned earlier?",
+        "dashboard_context": "Controlled dashboard snapshot: the current week has 2 active study days compared with 4 in the previous week.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true,
+        "planning_required": true,
+        "rag_required": false
+      }
+    },
+    {
+      "input": {
+        "current_page": "Overview",
+        "current_query": "What does the selected 62% engagement score actually mean?",
+        "dashboard_context": "Controlled dashboard snapshot: the current week shows 4 active days, 3 completed check-ins, and a 62% engagement indicator; the 62% indicator is explicitly selected.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false,
+        "planning_required": false,
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_page": "Resources",
+        "current_query": "I have 30 minutes. Based on relevance, author credibility and evidence traceability, which two sources should I do first, and in what order?",
+        "dashboard_context": "Controlled dashboard snapshot: five sources are listed, two have been opened, and estimated reading times are 6, 12, 15, 20, and 25 minutes. Visible course statement: Course source-selection guidance checks relevance to the weekly question, author credibility, and evidence traceability.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": false,
+        "planning_required": true,
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_page": "Overview",
+        "current_query": "What does this mix of 9 text, 3 audio and 1 video interactions mean in this course, especially in relation to the difficulty I mentioned earlier?",
+        "dashboard_context": "Controlled dashboard snapshot: the Overview groups this week's activity into 9 text interactions, 3 audio interactions, and 1 video interaction.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true,
+        "planning_required": false,
+        "rag_required": true
+      }
+    },
+    {
+      "input": {
+        "current_page": "Overview",
+        "current_query": "Based on the Week 4 pattern here, what order should I use for my next four study sessions so learning design and digital data traces build on each other, while keeping the deadline and participation goal I mentioned earlier in mind?",
+        "dashboard_context": "Controlled dashboard snapshot: Week 4 activity shows lecture completion at 50%, a learning-design resource at 75%, a digital-data-trace exercise at 25%, and two reflection tasks remaining.",
+        "visible_conversation_history": []
+      },
+      "output": {
+        "memory_required": true,
+        "planning_required": true,
+        "rag_required": true
+      }
+    }
+  ],
+  "hashes": {
+    "example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+    "prompt_package_content_sha256": "6185407694bdbcd2f1300049fe8abc0f2eb9b1ca1f236bff95788613114812b7",
+    "prompt_template_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+    "strict_response_schema_sha256": "9f364e920cfcca07a90580000196c85a6f801ef2e75c9c907bf820eea6a9aba2"
+  },
+  "prompt_template": "You are the B4 conditional capability router for an educational chatbot. The shared clarification gate has already predicted ANSWER for this case.\n\nApply the minimum-necessary principle: mark a capability true only when correct handling of the request minimally requires that capability. More than one capability may be true at the same time.\n\nRAG (rag_required): true only when correct answering minimally requires course knowledge or external knowledge that is not already present in the visible input. Information already stated in the current query, page, dashboard context, or visible conversation history does not require RAG merely because it concerns the course.\n\nMemory (memory_required): true only when student-specific prior information that is absent from the visible conversation history must be retrieved. Visible conversation history is short-term visible input and is not long-term Memory.\n\nPlanning (planning_required): true only when the request requires an actionable order, schedule, prioritisation, or concrete next-step sequence. Explanation, interpretation, comparison, or advice without an ordered or prioritised action sequence does not by itself require Planning.\n\nThe only semantic inputs are current_query, current_page, dashboard_context, and visible_conversation_history. Base the decision solely on the content of those four fields; no other metadata is an input.\n\nReturn only one JSON object with exactly these three keys: rag_required, memory_required, planning_required. Every value must be a JSON boolean. Do not add Markdown, prose, an explanation, or any other field.\n",
+  "response_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "maxProperties": 3,
+    "minProperties": 3,
+    "properties": {
+      "memory_required": {
+        "type": "boolean"
+      },
+      "planning_required": {
+        "type": "boolean"
+      },
+      "rag_required": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "rag_required",
+      "memory_required",
+      "planning_required"
+    ],
+    "title": "RQ2-V2 B4 Capability Routing Response V1",
+    "type": "object"
+  },
+  "schema_version": "rq2-v2-stage4-i-b4-final-full-dev-prompt-package-v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "structured_output": {
+    "json_schema": {
+      "name": "rq2_v2_b4_capability_route_v1",
+      "schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "maxProperties": 3,
+        "minProperties": 3,
+        "properties": {
+          "memory_required": {
+            "type": "boolean"
+          },
+          "planning_required": {
+            "type": "boolean"
+          },
+          "rag_required": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "rag_required",
+          "memory_required",
+          "planning_required"
+        ],
+        "title": "RQ2-V2 B4 Capability Routing Response V1",
+        "type": "object"
+      },
+      "strict": true
+    },
+    "type": "json_schema"
+  }
+}

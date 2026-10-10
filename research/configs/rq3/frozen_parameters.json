@@ -1,0 +1,42 @@
+{
+  "schema_version": "ORIGINAL25_PLUS_EN_V2",
+  "role_contract_version": "REUSED62_REPLAY_INTERFACE_V1",
+  "modes": [
+    "S0_PAGE_ONLY",
+    "S1_CROSS_PAGE_EVIDENCE",
+    "S2_EVIDENCE_RAG",
+    "S3_EVIDENCE_MEMORY",
+    "S4_EVIDENCE_PLANNING",
+    "S5_FULL"
+  ],
+  "generation_roles": {
+    "CANDIDATE": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "temperature": 0,
+      "max_output_tokens": 2048
+    },
+    "FINAL": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "temperature": 0,
+      "max_output_tokens": 2048
+    }
+  },
+  "initial_slot_ceilings": {
+    "ROUTE": 123,
+    "CANDIDATE": 82,
+    "FINAL": 246
+  },
+  "aggregate_attempt_ceiling": 902,
+  "max_attempts_per_slot": 2,
+  "minimum_start_interval_seconds": 2,
+  "max_request_input_byte_units": 250000,
+  "transport_timeout_seconds": 30,
+  "evidence_budget": 12000,
+  "request_budget": 50000,
+  "memory_backend": "M1_HYBRID_LINKS_DEV_CANDIDATE",
+  "retries": "AT_MOST_ONE_EXPLICIT_STRUCTURAL_RETRY;UNKNOWN_COMPLETION_NEVER_AUTO_RETRY",
+  "comparison": "PRIMARY_S5_MINUS_S0;COMPONENT_CONTRASTS_PREDECLARED",
+  "evaluation": "FRESH_HUMAN_ONLY",
+  "language": "English",
+  "boundary": "Historical proposed base configuration, later bound by the executed continuation; not a new execution approval. See execution_versions.json."
+}

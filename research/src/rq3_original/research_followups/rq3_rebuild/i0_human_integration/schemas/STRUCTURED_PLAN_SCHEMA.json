@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PLANNER_CANDIDATE_SCHEMA_DRAFT",
+  "type": "object",
+  "properties": {
+    "plan_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "goal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "task_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "TASK",
+              "REVIEW"
+            ]
+          },
+          "action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "estimated_duration": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1000000
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "unit": {
+                "const": "minutes",
+                "type": "string"
+              },
+              "origin": {
+                "type": "string",
+                "enum": [
+                  "SYNTHETIC_ESTIMATE",
+                  "LEARNER_ESTIMATE",
+                  "SOURCE_ESTIMATE",
+                  "UNKNOWN",
+                  "MODEL_ESTIMATE"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0,
+                "maxItems": 1000,
+                "uniqueItems": true
+              },
+              "uncertainty": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "value",
+              "unit",
+              "origin",
+              "evidence_refs",
+              "uncertainty"
+            ],
+            "additionalProperties": false
+          },
+          "resource_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0,
+            "maxItems": 1000,
+            "uniqueItems": true
+          },
+          "dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0,
+            "maxItems": 1000,
+            "uniqueItems": true
+          },
+          "schedule": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "end": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "completion_check": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "maxItems": 1000,
+            "uniqueItems": true
+          },
+          "brief_rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "step_id",
+          "task_id",
+          "kind",
+          "action",
+          "estimated_duration",
+          "resource_ids",
+          "dependencies",
+          "schedule",
+          "completion_check",
+          "evidence_refs",
+          "brief_rationale"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 100,
+      "uniqueItems": false
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "maxItems": 1000,
+      "uniqueItems": true
+    },
+    "continues_plan_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "brief_rationale": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "plan_id",
+    "goal_id",
+    "goal",
+    "actions",
+    "evidence_refs",
+    "continues_plan_id",
+    "brief_rationale"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,132 @@
+{
+  "status": "SOURCE_VERIFIED_LOCAL_ANCHORS_DRAFT",
+  "paper_title": "What Students Ask, How a Generative AI Assistant Responds: Exploring Higher Education Students’ Dialogues on Learning Analytics Feedback",
+  "authors": [
+    "Yildiz Uzun",
+    "Andrea Gauthier",
+    "Mutlu Cukurova"
+  ],
+  "source_version": "User-supplied 17-page accepted manuscript; page 7, Table 1 and preceding paragraph",
+  "scale": {
+    "minimum": 1,
+    "maximum": 5,
+    "1_label": "Poor",
+    "5_label": "Excellent",
+    "not_applicable": "NA"
+  },
+  "criteria": [
+    {
+      "id": "CLARITY",
+      "name": "Clarity",
+      "chinese_explanation": "清楚易懂，避免未解释术语。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "表达难以理解或关键表述相互冲突。",
+        "2": "可辨认大意，但术语未解释或结构使关键步骤难以理解。",
+        "3": "主旨基本清楚，少量术语或组织问题仍需学生自行补足。",
+        "4": "解释清楚、结构合适，仅有轻微不必要术语或冗余。",
+        "5": "用学生可理解的语言准确组织要点，必要术语解释充分且无实质歧义。"
+      }
+    },
+    {
+      "id": "PERSONALISATION",
+      "name": "Personalisation",
+      "chinese_explanation": "有依据地适应该学生的情境与具体数据。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "忽视或违背任务中明确相关的学生情境。",
+        "2": "只笼统称呼学生，重要个体事实未影响解释或建议。",
+        "3": "使用部分相关个体事实，但针对性或约束整合不足。",
+        "4": "大部分相关情境和具体数据恰当影响解释或建议，只有小遗漏。",
+        "5": "在有证据的范围内充分回应相关个体情境和数据，不虚构特征或无关推断。"
+      }
+    },
+    {
+      "id": "ACTIONABILITY",
+      "name": "Actionability",
+      "chinese_explanation": "提出能实行的改善策略，不要求每题都做时间表。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "无可执行改善策略，或策略明显不可实行。",
+        "2": "建议笼统，缺少开始行动所需的主要步骤或条件。",
+        "3": "有可开始的行动，但步骤、优先级或可行性仍有明显缺口。",
+        "4": "策略具体、基本可实行，步骤与已知约束大致协调，仅少量缺口。",
+        "5": "给出足够具体且符合已知条件的改善策略；必要前提或待澄清内容明确，不无端要求排程。"
+      }
+    },
+    {
+      "id": "CONTEXT_AWARENESS",
+      "name": "Context Awareness",
+      "chinese_explanation": "理解多项数据及其学习含义，避免机械罗列。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "误解主要数据或其学习含义，数据之间关系明显错误。",
+        "2": "主要重复孤立数值，关键关系未理解或存在实质误读。",
+        "3": "理解部分相关数据关系，但整合不完整或学习含义解释不足。",
+        "4": "准确整合主要相关数据并谨慎解释其学习含义，少量遗漏。",
+        "5": "连贯整合任务所需的数据关系、时间和范围，区分观察与推测，不作无证据因果判断。"
+      }
+    },
+    {
+      "id": "MOTIVATION_AND_ENGAGEMENT",
+      "name": "Motivation and Engagement",
+      "chinese_explanation": "评价语气和参与鼓励，不测量行为改变。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "语气贬损、责备或明显劝退学习参与。",
+        "2": "语气冷淡/不合情境，鼓励机械或缺乏支持。",
+        "3": "总体尊重，有基本鼓励，但对当前困难或参与机会回应有限。",
+        "4": "支持性语气符合情境，并给出适度的参与鼓励，少量不贴切表达。",
+        "5": "尊重、支持并适度鼓励学生参与，承认困难和选择空间，不施压或许诺学习成效。"
+      }
+    },
+    {
+      "id": "RELIABILITY",
+      "name": "Reliability",
+      "chinese_explanation": "核对事实准确性和误导风险。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "关键事实或表现判断错误，或含严重误导信息。",
+        "2": "有实质事实偏差或将未知说成确定，明显影响理解。",
+        "3": "主要事实大致正确，但仍有局部不准确、限定不足或无支持断言。",
+        "4": "与权威情境和学生表现准确对齐，只有不影响主要判断的轻微问题。",
+        "5": "可核对事实与权威证据一致，范围/时间/不确定性表述准确，不虚构数据或误导学生。"
+      }
+    },
+    {
+      "id": "MULTI_PAGE_COHESIVENESS",
+      "name": "Multi-page Cohesiveness",
+      "chinese_explanation": "评价跨页面回答的一致性，不能按页面提及数量计分。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "在已提供的跨页材料或回答间产生关键矛盾。",
+        "2": "跨页解释割裂，关键关系或前后承接缺失并造成混淆。",
+        "3": "跨页主要陈述不冲突，但联系/承接不充分或有局部不一致。",
+        "4": "跨页解释与固定先前材料基本协调，只有次要承接缺口。",
+        "5": "跨页回答与相关固定材料在事实、解释和建议上协调一致，必要差异有证据解释。"
+      }
+    },
+    {
+      "id": "ERROR_HANDLING",
+      "name": "Error Handling",
+      "chinese_explanation": "处理任务固有的信息不足、冲突、缺失或范围外问题。",
+      "anchor_status": "LOCAL_OPERATIONALISATION_PENDING_HUMAN_CALIBRATION",
+      "proposed_anchors": {
+        "1": "忽略任务已知缺失/冲突/范围外限制并编造或给出误导性确定回答。",
+        "2": "发现部分问题，但处理不清楚或仍作实质无依据推断。",
+        "3": "承认主要信息问题并基本避免编造，但澄清/边界说明不够具体。",
+        "4": "准确指出问题，提供合适澄清或有限回答，只有小的说明缺口。",
+        "5": "恰当地处理缺失/冲突/范围外问题，解释可知边界并给出有针对性的澄清或下一步，不伪装完整信息。"
+      }
+    }
+  ],
+  "notes": [
+    "Table 1 does not provide forty dimension-specific 1–5 behavioural anchors; newly written anchors are local operationalisation requiring review.",
+    "No new score is entered.",
+    "Do not use old pilot metrics such as response_relevance and unsupported_claims_risk as substitutes for these eight names.",
+    "Multi-page cohesiveness concerns consistency across dashboard pages, not merely the count of pages mentioned."
+  ],
+  "rubric_version": "H0_RUBRIC_DRAFT_V1",
+  "source_pdf_sha256": "781dfea68b7236cfdb74eb051c379bf803d9a5202d675cf25fec83a5be807b23",
+  "publication_projection": "Original local operational anchors and explanations retained verbatim. Third-party transcribed English criterion descriptions omitted; source citation metadata retained."
+}

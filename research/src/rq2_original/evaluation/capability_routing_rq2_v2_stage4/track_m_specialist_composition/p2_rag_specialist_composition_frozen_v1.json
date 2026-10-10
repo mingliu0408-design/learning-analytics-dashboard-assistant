@@ -1,0 +1,50 @@
+{
+  "P2_STATUS": "FROZEN_AFTER_DEV_COMPOSITION_EVALUATION",
+  "TEST_STATUS": "NOT_EXECUTED",
+  "components": {
+    "B4": {
+      "configuration_sha256": "12a75dd33298f6e1078b326e7c922eb92f2675ee87c7f7858fdf19494072d470",
+      "final_full_dev_example_set_sha256": "020ec80b8b592a62c9975b47bf5bc63c9dd86c029da05a6a4afd43440291aff2",
+      "method": "R2V2-B4_JOINT_LLM",
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "prediction_sha256": "f0e776492779341fd4e1feb6d11f2a915246162697f222b1c7c933882e552d39",
+      "prompt_sha256": "62dd0072b40f812bea9d2400bf5053c1d727187c47cab3c8777a341e0a185541",
+      "schema_sha256": "8017f1677e3ddc0bdd5042cff1c87e1e8ef4053da10b5c86da2cf45c35319876"
+    },
+    "RAG_SPECIALIST": {
+      "configuration_sha256": "19fc104b55ed92ec6c9a988fe6664d5f062f92e473a5ff4d77f8c88aa871c7cc",
+      "final_full_dev_example_set_sha256": "a932596e126ab66c054173bd1b9c454cbba9988e9d0b418da2d80c3e1df1e6eb",
+      "method": "R2V2-RAG_SPECIALIST",
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "prediction_sha256": "b867030addc64d7a02e65513e593b9fb5c013e3d3cf18fea103564d260ac58ff",
+      "prompt_sha256": "e0e34a097ec0449e2cedfa305d43c7aad7b096ca5fb0a64dc54ad39e9c035d5c",
+      "schema_sha256": "3a304b91bc642e8d04f59077b4f1240bf5f242105f888cfdb634ffa858901866"
+    }
+  },
+  "composition_id": "R2V2-P2_RAG_SPECIALIST_COMPOSITION",
+  "composition_rule": {
+    "memory_required": "B4.memory_required",
+    "planning_required": "B4.planning_required",
+    "rag_required": "RAG_SPECIALIST.rag_required"
+  },
+  "dev_source_sha256": "8d3422198a99422b3e314c60819f3553ff27cd42394ed2d9f68c0eb3ce858b56",
+  "join_key": "annotation_case_id",
+  "method_development_status": "PREDECLARED_PRIMARY_SPECIALIST_EXTENSION",
+  "missing_or_invalid_component_behavior": {
+    "composition_status": "INCOMPLETE",
+    "coverage_reported_separately": true,
+    "fallback_or_router_substitution_allowed": false,
+    "imputation_allowed": false
+  },
+  "normalized_dev_sha256": "3d22cb5f1e8aa5d9009b5d0bab71bc157507123f53688798df6bce34781c6d67",
+  "planning_always_from_frozen_b4": true,
+  "population": "64_FROZEN_DEV_ANSWER_CASES",
+  "predeclared_contract_sha256": "532bd513cc9b5f11003036ecbbc492f0305e359ae48f6cb133a05fe43d26f6ad",
+  "predeclared_in_stage4k0": true,
+  "predeclared_role": "PRIMARY_RAGATE_INSPIRED_EXTENSION",
+  "rq3_access": false,
+  "schema_version": "rq2-v2-stage4m-p2-composition-frozen-v1",
+  "stage4_integration_executed": false,
+  "stage4m_new_provider_calls": 0,
+  "test_winner_designated": false
+}
