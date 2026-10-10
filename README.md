@@ -8,7 +8,7 @@
 
 ![实际本地R0与完整M1组件执行](docs/screenshots/components-local.jpg)
 
-这些截图来自本轮实际本地浏览器。Community Cloud已登录，目前需要作者完成GitHub登录及OAuth连接；尚没有经过验证的云应用地址。原GitHub Pages只是历史静态导览。
+这些截图来自本轮实际本地浏览器。Community Cloud登录与GitHub OAuth已完成，目标仓库/main/app.py已填写；浏览器工具尚无法提交Python下拉选择，需要作者在Advanced settings选择3.13并Save。尚没有经过验证的云应用地址。原GitHub Pages只是历史静态导览。
 
 ## 安装和启动
 

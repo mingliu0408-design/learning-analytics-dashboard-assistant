@@ -8,7 +8,7 @@
   "data_published": true,
   "local_app_tested": true,
   "streamlit_deployed": false,
-  "streamlit_blocker": "Streamlit signed in; author GitHub sign-in and OAuth connection still required before deployment",
+  "streamlit_blocker": "Author Streamlit login and GitHub OAuth completed. Target repo/main/app.py entered. Native browser tool cannot submit the Python selection; author must select Python 3.13 and Save in Advanced settings. No app has yet been created.",
   "live_llm_tested": false,
   "application_tests": 48,
   "research_tests": 20,
@@ -22,5 +22,11 @@
   "release_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/tag/v0.2.0-g0-r1",
   "release_tag": "v0.2.0-g0-r1",
   "public_data_url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/releases/download/v0.2.0-g0-r1/LAD_ASSISTANT_G0_R1_RESEARCH_DATA_2026-10-10.zip",
-  "public_data_download_verified": true
+  "public_data_download_verified": true,
+  "source_complete_code_commit": "b64d991fb669e1d02f05c513fcde3f79a871c3ff",
+  "source_complete_linux_ci": {
+    "status": "SUCCESS",
+    "url": "https://github.com/mingliu0408-design/learning-analytics-dashboard-assistant/actions/runs/38024812270"
+  },
+  "streamlit_url": null
 }
