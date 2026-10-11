@@ -23,7 +23,7 @@ def main():
     args=parser.parse_args()
     target=args.root.resolve()/constants['MPNET_REVISION']
     from huggingface_hub import snapshot_download
-    snapshot_download(repo_id=constants['MPNET_REPO_ID'],revision=constants['MPNET_REVISION'],local_dir=target,
+    snapshot_download(repo_id=constants['MPNET_REPO_ID'],revision=constants['MPNET_REVISION'],local_dir=target,token=False,
         allow_patterns=['config.json','model.safetensors','tokenizer.json','tokenizer_config.json','special_tokens_map.json','vocab.txt','modules.json','sentence_bert_config.json','config_sentence_transformers.json','1_Pooling/config.json','README.md','.gitattributes'])
     for name,expected in constants['MPNET_REQUIRED_HASHES'].items():
         observed=hashlib.sha256((target/name).read_bytes()).hexdigest()

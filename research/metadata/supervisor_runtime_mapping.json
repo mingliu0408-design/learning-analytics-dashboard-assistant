@@ -1,0 +1,597 @@
+{
+  "schema_version": "PUBLIC_RUNTIME_LATEST_W9_MAPPING_V1",
+  "audit_date": "2026-10-12",
+  "source_commit": "fdd9848b2a92b5f50675d193a4765e02dfa9ebb8",
+  "w9_references": [
+    "source/chapters/03_architecture_methodology.tex",
+    "source/figures/current41_methods/detailed_architecture.mmd",
+    "d9/execution/EXECUTION_METHODS.md",
+    "d9/execution/PARAMETERS_AND_STUDY_ROLES.json"
+  ],
+  "frozen_source_modified_by_this_integration": false,
+  "paid_provider_calls": 0,
+  "backend_validation": {
+    "command": "python -m unittest tests.test_runtime tests.test_dashboard_runtime tests.test_plan_memory -v",
+    "tests": 25,
+    "result": "PASS",
+    "elapsed_seconds": 43.078
+  },
+  "actual_hybrid_validation": {
+    "status": "PASS",
+    "model_revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "memory_backend": "M1_HYBRID_LINKS_DEV_CANDIDATE",
+    "readonly_state_unchanged": true,
+    "paid_calls": 0,
+    "provider_roles": [
+      "RAG",
+      "MEMORY",
+      "B4_PLANNING",
+      "CANDIDATE",
+      "FINAL"
+    ],
+    "generation": "MOCK_EXACT_CORE_NO_PAID_CALL",
+    "model_hashes_verified": true
+  },
+  "mapping": [
+    {
+      "component": "Current learner/week source binding",
+      "status": "ACTUAL_LOCAL_CORE",
+      "entrypoint": "PublicAssistant.bind_dashboard(learner_id, week_start=0, week_end=10, lecture_item_id=None)",
+      "behavior": "Eight allowlisted CSV hashes bind the numeric learner ID, course, observed week buckets and optional recording. Worker re-reads rows and original Snapshot/Aggregator, rather than trusting client rows or a frozen research task. Reflection cohort series are separate current-chart context, not personal activity facts.",
+      "limitation": "Calendar UTC dates encode original historical Week buckets. Naive source timestamp timezone and complete coverage are unknown; Echo material weeks and cumulative feature snapshots are not visit-time activity.",
+      "anchors": [
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.bind_dashboard",
+          "line_start": 52,
+          "line_end": 56,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, learner_id, week_start=0, week_end=10, *, lecture_item_id=None"
+        },
+        {
+          "path": "public_runtime/dashboard.py",
+          "symbol": "build_context",
+          "line_start": 71,
+          "line_end": 84,
+          "sha256": "6ac31f19f7e2133645aa1fd161a9984f983f4f9f44c718efacd8eafc91c5c69f",
+          "bytes": 10603,
+          "arguments": "learner_id, *, week_start=MIN_WEEK, week_end=MAX_WEEK, lecture_item_id=None"
+        },
+        {
+          "path": "public_runtime/dashboard.py",
+          "symbol": "validate_context",
+          "line_start": 86,
+          "line_end": 93,
+          "sha256": "6ac31f19f7e2133645aa1fd161a9984f983f4f9f44c718efacd8eafc91c5c69f",
+          "bytes": 10603,
+          "arguments": "context, task_id=None"
+        },
+        {
+          "path": "public_runtime/dashboard.py",
+          "symbol": "source_selection",
+          "line_start": 95,
+          "line_end": 137,
+          "sha256": "6ac31f19f7e2133645aa1fd161a9984f983f4f9f44c718efacd8eafc91c5c69f",
+          "bytes": 10603,
+          "arguments": "context"
+        },
+        {
+          "path": "public_runtime/dashboard.py",
+          "symbol": "reflection_cohort_context",
+          "line_start": 150,
+          "line_end": 205,
+          "sha256": "6ac31f19f7e2133645aa1fd161a9984f983f4f9f44c718efacd8eafc91c5c69f",
+          "bytes": 10603,
+          "arguments": "selection, gdocs_rows, cohort_rows, source_sha256"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "DashboardPages",
+          "line_start": 68,
+          "line_end": 101,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_dashboard_scoped/aggregate.py",
+          "symbol": "aggregate",
+          "line_start": 401,
+          "line_end": 402,
+          "sha256": "eb9fc7956ca7c857c63608a0f2cb719fa99c7f4399f396d65adf7a14f35238a6",
+          "bytes": 22045,
+          "arguments": "snapshot, scope"
+        }
+      ]
+    },
+    {
+      "component": "Evidence and mode/access/clarification gates",
+      "status": "ACTUAL_LOCAL_CORE",
+      "entrypoint": "PublicAssistant.components/live(mode='S0_PAGE_ONLY'..'S5_FULL')",
+      "behavior": "S0 current-page-only; S1 adds Evidence; S2 RAG; S3 Memory; S4 Planning; S5 all permissions. Activation is mode AND requirement AND explicit runtime access AND no clarification. S0/S1 bypass P3. Original frozen clarification returns local clarification before constructing a paid client.",
+      "limitation": "COMPONENTS requirement bits come from visible user controls and are explicitly NO_P3. Permission is not proof of activation or a successful return. Missing schedule fields remain clarification/NOT_CHECKABLE.",
+      "anchors": [
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.components",
+          "line_start": 101,
+          "line_end": 107,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, query, *, task_id=None, page='Overview', rag=True, memory=True, planning=False, controls=None, context=None, mode='S5_FULL', memory_backend='LEXICAL'"
+        },
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.live",
+          "line_start": 126,
+          "line_end": 199,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, query, *, task_id=None, page='Overview', controls=None, transport=None, memory_backend='HYBRID', context=None, mode='S5_FULL'"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "request_for",
+          "line_start": 128,
+          "line_end": 143,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "task, message"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/service.py",
+          "symbol": "ResearchService.prepare",
+          "line_start": 90,
+          "line_end": 242,
+          "sha256": "014cb35f34143b0f1db3b206698f4f2e63c1eca66651e86ab04686c124967464",
+          "bytes": 16996,
+          "arguments": "self, request"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_dashboard_scoped/scope.py",
+          "symbol": "Snapshot.validate_query",
+          "line_start": 187,
+          "line_end": 209,
+          "sha256": "abcba6d36566ae60ee15583cba7230b105d643e91187d16e56799865e983ef03",
+          "bytes": 8692,
+          "arguments": "self, scope, query, now=None"
+        }
+      ]
+    },
+    {
+      "component": "Frozen P3 capability composition",
+      "status": "ORIGINAL_EXACT_WIRE_MOCKED",
+      "entrypoint": "PublicAssistant.live(..., transport=None or exact mock transport)",
+      "behavior": "FrozenP3 verifies committed prompt/config/schema/example hashes and accepts exactly current_query/current_page/dashboard_context/visible_conversation_history. RAG specialist + Memory specialist + B4 Planning bit, model gpt-4o-mini-2024-07-18, temperature 0, output caps 32/32/64.",
+      "limitation": "No paid inference executed. Exact mock validates the same payloads and full downstream chain; it is not an inference-quality result. RQ1/C0 is not inserted into this selected P3 pipeline.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/i1/frozen_p3.py",
+          "symbol": "FrozenP3",
+          "line_start": 24,
+          "line_end": 60,
+          "sha256": "4f051274d4790aa9208f8790d94716c19298aa6fbc64c6f7d3b4882528ea7fe1",
+          "bytes": 3063
+        },
+        {
+          "path": "research/src/rq3_original/evaluation/rq3_real_c4/i0_integration/route_execution_runner.py",
+          "symbol": "build_payload",
+          "line_start": 99,
+          "line_end": 128,
+          "sha256": "a03e3a09441c5faf6852793edf23fda0afe935b86477eaf2c3ce2fc2f7642259",
+          "bytes": 10152,
+          "arguments": "*, plan: Mapping[str, Any], prompt: str, schema: Mapping[str, Any], examples: Iterable[Mapping[str, Any]], request: Mapping[str, Any]"
+        },
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.live",
+          "line_start": 126,
+          "line_end": 199,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, query, *, task_id=None, page='Overview', controls=None, transport=None, memory_backend='HYBRID', context=None, mode='S5_FULL'"
+        }
+      ]
+    },
+    {
+      "component": "Single gated R0 course RAG",
+      "status": "ACTUAL_LOCAL_CORE",
+      "entrypoint": "components(rag=True) or positive P3 RAG bit with a mode permission",
+      "behavior": "R0OnExplicitCorpus retains the original corrected lexical scorer over 624 true chunks. upstream_authorised=True avoids a second needs-retrieval gate; at most five matches; positive score and leading threshold 2.0. UndatedR0 keeps fixed corpus temporal provenance.",
+      "limitation": "No dense course-RAG claim. Raw conversation is ignored by this original R0 scoring path. Public evaluation Gold/ratings are absent from corpus and generation constructors.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/rag.py",
+          "symbol": "R0OnExplicitCorpus",
+          "line_start": 9,
+          "line_end": 15,
+          "sha256": "5366e191c00ac9f55f321cd5632c9bf5381a902ba4673e18a6d4e5d10178fa45",
+          "bytes": 2907
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/rag.py",
+          "symbol": "ProvisionalR0.retrieve",
+          "line_start": 29,
+          "line_end": 50,
+          "sha256": "5366e191c00ac9f55f321cd5632c9bf5381a902ba4673e18a6d4e5d10178fa45",
+          "bytes": 2907,
+          "arguments": "self, request"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rag/retrievers.py",
+          "symbol": "C4RAGLegacyLexical.retrieve",
+          "line_start": 149,
+          "line_end": 201,
+          "sha256": "d4b7f9d760d07a981d9515696b9f13252e4aa16faac661b7dd731ec3bb648de0",
+          "bytes": 21052,
+          "arguments": "self, student_query: str, current_page: str, visible_history: Any, *, top_k: int=5, retrieval_enabled: bool=True, query_type: str | None=None, upstream_authorised: bool=False"
+        },
+        {
+          "path": "research/src/rq3_original/experiments/rq3_original25_plus_review_r1/adapter.py",
+          "symbol": "UndatedR0",
+          "line_start": 236,
+          "line_end": 239,
+          "sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+          "bytes": 17686
+        }
+      ]
+    },
+    {
+      "component": "Full M1 native Memory and Hybrid option",
+      "status": "ACTUAL_LOCAL_CORE_AND_REAL_OFFLINE_MODEL",
+      "entrypoint": "components/live(memory_backend='LEXICAL'|'HYBRID'); controls.memory_purpose",
+      "behavior": "Main UI/API imports no native M1/network guard. Credential-free worker clones native DBs read-only, invokes I1NativeM1/read_bundle, reopens native authority, checks source role/span/hash/version/consent/validity and purpose-bounded links. New dashboard learners start in empty native C4 stores; same learner session shares Memory across pages, other learners/visitors do not. HYBRID uses isolated pinned MPNet model worker with optional LAD_MODEL_PYTHON.",
+      "limitation": "LEXICAL and HYBRID are distinct reported identities. Supported purposes GOAL_RECALL/PLAN_CONTINUATION/COMPLETION_RECALL permit guarded expansion; UNKNOWN is seed-only. Fresh current-window visible-history duplicates remain excluded by the original retriever. Cloud temporary storage is not durable cross-visit Memory.",
+      "anchors": [
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.call",
+          "line_start": 74,
+          "line_end": 90,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, op, *, task_id=None, query=None, page='Overview', history=None, controls=None, context=None, **extra"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "session_memory",
+          "line_start": 163,
+          "line_end": 186,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "task, message"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/memory.py",
+          "symbol": "m1_dependencies",
+          "line_start": 31,
+          "line_end": 37,
+          "sha256": "82b3e7e7d04aea0fba8b545bb902f5233b64c73fc6ccec0c8447d955f8bbb3cd",
+          "bytes": 5048,
+          "arguments": ""
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/memory.py",
+          "symbol": "clone_native_states",
+          "line_start": 13,
+          "line_end": 28,
+          "sha256": "82b3e7e7d04aea0fba8b545bb902f5233b64c73fc6ccec0c8447d955f8bbb3cd",
+          "bytes": 5048,
+          "arguments": "databases, destination"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/memory.py",
+          "symbol": "NativeM1.authority_for",
+          "line_start": 81,
+          "line_end": 103,
+          "sha256": "82b3e7e7d04aea0fba8b545bb902f5233b64c73fc6ccec0c8447d955f8bbb3cd",
+          "bytes": 5048,
+          "arguments": "self, envelope, seed_items=()"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/i1/memory.py",
+          "symbol": "I1NativeM1",
+          "line_start": 32,
+          "line_end": 62,
+          "sha256": "2f2be87e478c27856687c22cad90bae5cf4468ff2c26af7cb2d1bec7c34c0a2d",
+          "bytes": 3288
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/i1/native_backend.py",
+          "symbol": "I1LocalBackend",
+          "line_start": 13,
+          "line_end": 73,
+          "sha256": "2139305e28aad2b794e2680a033fe495a6ee3e2c0c5fcf55f15be0aead948981",
+          "bytes": 3185
+        },
+        {
+          "path": "research/src/rq3_original/research_followups/rq3_rebuild/m1_memory_completeness/code/relations.py",
+          "symbol": "read_bundle",
+          "line_start": 131,
+          "line_end": 255,
+          "sha256": "30cedf4f2f38acfdca530bb553b796ea881ab122e303c1c5420803efa6df5243",
+          "bytes": 17912,
+          "arguments": "databases, graph, request, *, expand, backend=None"
+        }
+      ]
+    },
+    {
+      "component": "Explicit plan adoption/completion and trusted proposal boundary",
+      "status": "NEW_PUBLIC_ADAPTER_USING_ORIGINAL_WRITER_AND_RELATIONS",
+      "entrypoint": "memory_accept_plan(task_id,plan,consent=False); memory_complete_action(task_id,action_memory_id,consent=False); memory_task_state(task_id=None)",
+      "behavior": "Actual worker prepare persists a random session receipt and the original complete prepared result. Candidate payload/check re-read that record and reject changed scope/source/content. An original successful candidate check issues a second receipt, required by FINAL and proposal registration. Model proposals remain outside Memory until literal Boolean consent=True. Original C4 writer records USER ACTIVE_PLAN/PROGRESS_UPDATE and USER self-reported COMPLETED_ACTION; original compile_sidecar validates the three supported relations.",
+      "limitation": "No automatic model suggestion write, inferred user Goal, or VERIFIED_SYSTEM_EVENT. Completion uses immutable native accepted-action ID, not model task ID. Staged DB/graph validation prevents policy-rejection partial writes; final SQLite and JSON commits are individual in the serial session adapter, not a cross-process multi-file transaction guarantee.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "save_runtime_receipt",
+          "line_start": 206,
+          "line_end": 213,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "message, task, request, source, prepared"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "verified_preparation",
+          "line_start": 228,
+          "line_end": 235,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "message, task, request, source"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "save_candidate_receipt",
+          "line_start": 238,
+          "line_end": 244,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "message, task, request, source, preparation_token, candidate"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "verified_candidate",
+          "line_start": 247,
+          "line_end": 253,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "message, task, request, source, plan, preparation_token"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "plan_operation",
+          "line_start": 308,
+          "line_end": 403,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "message, task, request, snapshot, source"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "native_fact",
+          "line_start": 256,
+          "line_end": 273,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "store, request, graph, events, content, memory_type, turn_suffix"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "confirmed_relation",
+          "line_start": 275,
+          "line_end": 286,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "graph, request, kind, left, right"
+        },
+        {
+          "path": "research/src/rq3_original/public_core_worker.py",
+          "symbol": "validate_confirmed_graph",
+          "line_start": 288,
+          "line_end": 306,
+          "sha256": "89815040eaf699ac73c447da9c2a37987e58d15b985988b12730fa995dab1473",
+          "bytes": 32322,
+          "arguments": "graph, events, database, request"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_memory/c4_memory_writer.py",
+          "symbol": "C4MemoryWriter.apply_candidate",
+          "line_start": 234,
+          "line_end": 511,
+          "sha256": "ae8a617c37c9867c8ae972aeb2e2661236cc9638131d3d5d56676eb01983ebec",
+          "bytes": 19509,
+          "arguments": "self, *, student_id: str, source_session_id: str, source_turn_id: str, source_text: str, candidate: StructuredMemoryCandidate | Mapping[str, Any], source_role: str='USER', claim_basis: str='EXPLICIT_USER_STATEMENT', unrelated_sensitive_information: bool=False, importance: float=0.5, consent_status: str='GRANTED', event_at: str | datetime | None=None, valid_from: str | datetime | None=None, valid_to: str | datetime | None=None"
+        },
+        {
+          "path": "research/src/rq3_original/research_followups/rq3_rebuild/m1_memory_completeness/code/relations.py",
+          "symbol": "compile_sidecar",
+          "line_start": 47,
+          "line_end": 119,
+          "sha256": "30cedf4f2f38acfdca530bb553b796ea881ab122e303c1c5420803efa6df5243",
+          "bytes": 17912,
+          "arguments": "runtime, databases, aliases"
+        }
+      ]
+    },
+    {
+      "component": "P1+i5 typed candidate and encoded checks",
+      "status": "ACTUAL_ORIGINAL_PROJECTION_AND_EXACT_WIRE_MOCKED",
+      "entrypoint": "components(planning=True); live with positive P3 Planning and mode permission",
+      "behavior": "Original source-binding projection, bridge checks and candidate checks remain intact. Candidate uses i1_candidate_v1, fixed 2048 token cap, at most one eligible repair. Authoritative completion relations map to accepted native action task IDs and support no-repeat checks. Explicit scheduling needs user-supplied timezone/windows/horizon.",
+      "limitation": "The frozen fields_for encodes Goal, numeric constraint and completion-action links; arbitrary raw ACTIVE_PLAN text is NOT automatically decoded into typed active_plan. P1 planner_input.active_plan remains None and i0_diagnostics.active_plan_adoption remains NOT_ESTABLISHED even though the public UI has explicit adopted-plan state and M1 chosen_active_plan_id. This limitation is not silently weakened. Semantic support and unencoded constraints are not established by the checker.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/planning.py",
+          "symbol": "fields_for",
+          "line_start": 82,
+          "line_end": 120,
+          "sha256": "7be22f4f30e2ff348c6199fb641e61497f7c70e3f74e9d615ad7e108e04c7219",
+          "bytes": 10499,
+          "arguments": "source"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/planning.py",
+          "symbol": "project",
+          "line_start": 123,
+          "line_end": 144,
+          "sha256": "7be22f4f30e2ff348c6199fb641e61497f7c70e3f74e9d615ad7e108e04c7219",
+          "bytes": 10499,
+          "arguments": "source"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/planning.py",
+          "symbol": "bridge_from_m1",
+          "line_start": 162,
+          "line_end": 166,
+          "sha256": "7be22f4f30e2ff348c6199fb641e61497f7c70e3f74e9d615ad7e108e04c7219",
+          "bytes": 10499,
+          "arguments": "bundle, base, task, future_policy"
+        },
+        {
+          "path": "research/src/rq3_original/experiments/rq3_original25_plus_review_r1/adapter.py",
+          "symbol": "planner_for",
+          "line_start": 180,
+          "line_end": 210,
+          "sha256": "1647aff127b828e9d52c473a430ea76153fe88555dd94d5b0e225498c9d1fedd",
+          "bytes": 17686,
+          "arguments": "snapshot"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/i1/renderer.py",
+          "symbol": "candidate_payload",
+          "line_start": 75,
+          "line_end": 90,
+          "sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+          "bytes": 6204,
+          "arguments": "prepared, role_config, previous=None, issues=()"
+        }
+      ]
+    },
+    {
+      "component": "Compiler and FINAL citation contract",
+      "status": "ACTUAL_ORIGINAL_CORE_AND_EXACT_WIRE_MOCKED",
+      "entrypoint": "live FINAL after actual preparation/checking; components gives the original prepared payload without a natural answer",
+      "behavior": "Original common compiler budget is 12000 regex units with complete-request cap 50000. Omitted Memory facts, IDs and links cannot re-enter through planner/raw envelope. Original reused62_final_v1 wire returns answer and cited_evidence_ids; model snapshot/temp0 and fixed 2048 cap. Citation IDs must be retained source IDs, and all FINAL checks remain.",
+      "limitation": "Citation membership is not semantic entailment; final prose fidelity to the accepted typed plan is NOT_CHECKED. No research answers, ratings or paper statistics are regenerated.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/utils/c4_real_adapters.py",
+          "symbol": "C4RealEvidenceCompilerV1",
+          "line_start": 1086,
+          "line_end": 1218,
+          "sha256": "c264c0b6c8ffb6203cd690d76960bb770f40b521998dd2c1433e31eaf01e29f9",
+          "bytes": 63752
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/service.py",
+          "symbol": "ResearchService.prepare",
+          "line_start": 90,
+          "line_end": 242,
+          "sha256": "014cb35f34143b0f1db3b206698f4f2e63c1eca66651e86ab04686c124967464",
+          "bytes": 16996,
+          "arguments": "self, request"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/i1/renderer.py",
+          "symbol": "material",
+          "line_start": 38,
+          "line_end": 62,
+          "sha256": "3e0c92bba812801d7f4d6ea7ed18ac8c1eac74efb23b3673f394c34c221d55c2",
+          "bytes": 6204,
+          "arguments": "prepared"
+        },
+        {
+          "path": "research/src/rq3_original/utils/c4_rebuild/generation.py",
+          "symbol": "check_final_fields",
+          "line_start": 64,
+          "line_end": 81,
+          "sha256": "4e94e9ef9555bc5b8d42dbef1e124c8d50a80c4ff8900e8f4f48c2c3ff05104a",
+          "bytes": 5727,
+          "arguments": "output, evidence_ids, *, accepted_plan=None"
+        },
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.live",
+          "line_start": 126,
+          "line_end": 199,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, query, *, task_id=None, page='Overview', controls=None, transport=None, memory_backend='HYBRID', context=None, mode='S5_FULL'"
+        }
+      ]
+    },
+    {
+      "component": "RQ1 ranking and RQ2 comparisons",
+      "status": "PRESERVED_INDEPENDENT_RESEARCH_ENTRYPOINTS",
+      "entrypoint": "research/src/rq3_original/evaluation/learned_intent_ranking/ and capability_routing_rq2_*",
+      "behavior": "Original RQ1 K0 keyword/C0 MPNet MAX over 62 examples and16 labels/M64 training and final inference remain separate. RQ2 specialist/comparison/frozen serializers remain available as research code. Final UI uses the selected frozen P3 only.",
+      "limitation": "Earlier independent algorithms are not serial runtime stages of P3. Governed training/final evaluation scripts keep their original exact authorization/worktree/artifact preflight and may require original manifests/checkpoints; this task does not re-arm or rerun studies or use Gold for generation.",
+      "anchors": [
+        {
+          "path": "research/src/rq3_original/evaluation/learned_intent_ranking/lr4b_dev/train_m64.py",
+          "symbol": "train_scenario_seed",
+          "line_start": 114,
+          "line_end": 178,
+          "sha256": "4cfdd4d9d51d5540969670defaebd9215dc6adaaaae67074ae8914f76321728b",
+          "bytes": 11412,
+          "arguments": "*, scenario: str, seed: int, sampler: dict[str, Any], bundle: dict[str, Any], embeddings: dict[str, Any], mpnet_model: torch.nn.Module"
+        },
+        {
+          "path": "research/src/rq3_original/evaluation/learned_intent_ranking/rq1c/final_model_runner.py",
+          "symbol": "prepare_final_runtime_bundle",
+          "line_start": 612,
+          "line_end": 627,
+          "sha256": "6916989e690b732fc6ae53b4fe4cb043e1bc2c676ce91dc332cf6f2b78c3a416",
+          "bytes": 27632,
+          "arguments": "root: Path=ROOT, expected_harness_head: str | None=None"
+        },
+        {
+          "path": "research/src/rq3_original/evaluation/learned_intent_ranking/rq1c/final_model_runner.py",
+          "symbol": "run_final_evaluation_in_memory",
+          "line_start": 661,
+          "line_end": 733,
+          "sha256": "6916989e690b732fc6ae53b4fe4cb043e1bc2c676ce91dc332cf6f2b78c3a416",
+          "bytes": 27632,
+          "arguments": "records: list[Mapping[str, Any]], runtime_bundle: FinalRuntimeBundle"
+        },
+        {
+          "path": "research/src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_k_rag_specialist_execution/rag_specialist_protocol.py",
+          "symbol": "verify_required_protocol",
+          "line_start": 354,
+          "line_end": 568,
+          "sha256": "811232eff93520c2885eb38742336efa3f3d80d83a9ac771d6ff5db780eeebf3",
+          "bytes": 36294,
+          "arguments": ""
+        },
+        {
+          "path": "research/src/rq3_original/evaluation/capability_routing_rq2_v2_stage4/track_l_memory_specialist_execution/memory_specialist_common.py",
+          "symbol": "verify_frozen_sources",
+          "line_start": 288,
+          "line_end": 346,
+          "sha256": "6dc17319b34944c21d43056b007d1c0ee61ef9e820577d0093226fcd5223688a",
+          "bytes": 27540,
+          "arguments": ""
+        }
+      ]
+    },
+    {
+      "component": "Historical replay",
+      "status": "SAVED_246_RESPONSES_WITH_IDENTITY_CHECK",
+      "entrypoint": "PublicAssistant.replay(task_id,mode)",
+      "behavior": "246 immutable task/mode answer slots for41 actual questions are verified with original answer_sha256. This selection is independent of currently displayed dashboard learner/week.",
+      "limitation": "New query replay is rejected. A research task scope or seed cannot stand in for the selected current learner.",
+      "anchors": [
+        {
+          "path": "public_runtime/core.py",
+          "symbol": "PublicAssistant.replay",
+          "line_start": 92,
+          "line_end": 99,
+          "sha256": "398c68407acaee9852ead26fa5566c4beb59c1f489b914260fafb4c19ca07715",
+          "bytes": 14197,
+          "arguments": "self, task_id, mode"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "lad-supervisor-ui-readonly-audit-v1",
+  "source_mutated": false,
+  "application_started": false,
+  "secret_values_read": false,
+  "actual_secret_container_present": true,
+  "input_files_same_as_original_dashboard": 13,
+  "ui_pages": [
+    "Introduction",
+    "Resources",
+    "Lecture",
+    "Debate",
+    "Reflection",
+    "Next Steps"
+  ],
+  "files": [
+    {
+      "source_label": "supervisor-demo-fixed-v3/Home.py",
+      "bytes": 6714,
+      "sha256": "3ba35aabb3bdd3fb8f08fd2926fac2ee189b13d66105b2153cd09682b41206be"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/pages/1_Individual_Feedback.py",
+      "bytes": 106948,
+      "sha256": "8b67879f76e60f63c7f892ca6c61f03a3bfb00919d11a25ca317d6615ee00dc9"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/utils/helper.py",
+      "bytes": 2969,
+      "sha256": "9254ac22912ee2568f773b78c8cbc6c9dd7a662046f4bf9ce7c7cbd330d15e79"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/utils/const.py",
+      "bytes": 3123,
+      "sha256": "415e7ae14a70a3d34902f71bddb7ab4142e4043879d9c512c5ce1ba5ea33ef63"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/utils/c_full_service.py",
+      "bytes": 76195,
+      "sha256": "9e6b223c70857bc8cd7d0d63574c2ed595a869db3d5d1e94a9899fe8c50fcb7a"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/utils/conversation_memory.py",
+      "bytes": 73531,
+      "sha256": "5787529e26ebe987de193e6ab5127df27f1bdcc4f00e259ecdb02f15e36b770f"
+    },
+    {
+      "source_label": "supervisor-demo-fixed-v3/utils/course_material_retriever.py",
+      "bytes": 32749,
+      "sha256": "ac30b28e265b228c8c7f52ac6463538cc842aa55acb1a2ad11365dd2e3aeb1e1"
+    }
+  ],
+  "public_integration": {
+    "entrypoint": "app.py",
+    "ui": "public_runtime/supervisor_ui.py",
+    "charts": "public_runtime/dashboard_charts.py",
+    "trusted_selection": "public_runtime/dashboard.py",
+    "provider_adapter": "public_runtime/core.py",
+    "worker": "research/src/rq3_original/public_core_worker.py",
+    "original_directory_read_only": true,
+    "firebase_used": false,
+    "historical_ui_snapshot": "demo/g0_r1_app.py",
+    "research_inputs_and_results_unchanged": true
+  }
+}

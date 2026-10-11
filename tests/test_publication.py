@@ -155,7 +155,7 @@ class NewStreamlitUITests(unittest.TestCase):
         self.labeled(app.checkbox, '同意在当前session保存这条学习信息').set_value(True)
         self.labeled(app.button, '保存原生Memory').click().run()
         self.assertEqual(len(app.exception), 0)
-        selected = self.labeled(app.selectbox, '研究任务 / source context').value
+        selected = first.active_task_id
         self.assertTrue(first.memory_list(selected))
         first.history.append({'role': 'user', 'content': 'session one only'})
         other_app = self.app()
@@ -180,6 +180,7 @@ class NewStreamlitUITests(unittest.TestCase):
             app = self.app()
             self.labeled(app.selectbox, '运行 profile').set_value('LIVE').run()
             self.labeled(app.selectbox, '显式任务类型').set_value('ORDINARY_ACTION_ADVICE').run()
+            self.labeled(app.text_area, '当前问题').set_value('Give me an action plan without dates to study learning analytics.').run()
             self.labeled(app.button, '实时发送到 OpenAI').click().run()
         self.assertEqual(len(app.exception), 0)
         self.assertEqual(len(app.error), 0)
