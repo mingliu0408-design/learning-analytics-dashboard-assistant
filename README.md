@@ -8,7 +8,9 @@
 
 ![实际 Supervisor 有向 Debate 网络，2026-10-11](docs/screenshots/supervisor-debate.jpg)
 
-这些截图来自本轮实际本地浏览器。Community Cloud登录与GitHub OAuth已完成；2026-10-12恢复部署表单时出现`Received no response from server / 1ST`，刷新后浏览器控制未能获得可操作的页面，尚没有经过验证的云应用地址。需在已连接的Streamlit账号中提交部署：本仓库、`main`、`app.py`、Python `3.13`，不配置作者key。原GitHub Pages只是历史静态导览。
+这些截图来自本轮实际本地浏览器。[打开已验证的在线 Streamlit](https://learning-analytics-dashboard-assistant-ekqehs9bochsxp3xlmfmdn.streamlit.app/)：2026-10-12实际部署于Community Cloud，本仓库、`main`、`app.py`、Python `3.13`，未配置作者key。六页、真实历史回放及原R0／完整M1词法组件已通过线上浏览器验证；独立匿名会话通过平台中转，实际应用健康端点返回`ok`。Cloud默认没有可选MPNet资源，完整Hybrid只在本地实测，付费live推理未调用。详情见[部署验收](docs/DEPLOYMENT_CLOUD_2026-10-12.md)。原GitHub Pages保留为历史静态导览。
+
+![实际在线应用首页，2026-10-12](docs/screenshots/cloud-overview-2026-10-12.jpg)
 
 ## 安装和启动
 
@@ -111,4 +113,4 @@ API keys, chat histories and writable Memory are session-specific. Dashboard Mem
 
 The original files, frozen results, notices and licensing boundaries are preserved. Publication copies record identity/path/authentication transformations. Latest W9 manuscript and supplement, ratings, anchors, analyses and separate historical datasets are included in the Release archive. Missing historical execution checkpoints remain unknown. The public adaptation does not establish real-student learning outcomes, production scale or ownership beyond documented contributions.
 
-The final local update passed 79 application tests (including 16 Supervisor UI checks), 20 preserved research tests, seven RQ3 contracts and 315 snapshot hashes. The publication scan found no issues in 2,149 candidate files. Tests left all 24 tracked runtime/dependency identities and eight dashboard input hashes unchanged. Remote CI results are available under GitHub Actions; no verified Community Cloud URL is currently available.
+The final local update passed 79 application tests (including 16 Supervisor UI checks), 20 preserved research tests, seven RQ3 contracts and 315 snapshot hashes. The publication scan found no issues in 2,149 candidate files. Tests left all 24 tracked runtime/dependency identities and eight dashboard input hashes unchanged. Remote CI results are available under GitHub Actions. The [actual Community Cloud app](https://learning-analytics-dashboard-assistant-ekqehs9bochsxp3xlmfmdn.streamlit.app/) was deployed with Python 3.13 and verified on 2026-10-12: six views, saved historical replay and original R0/native M1 lexical execution passed; independent anonymous platform bootstrap and the inner health endpoint returned `ok`. Cloud MPNet/Hybrid resources are not installed; paid live inference remains untested.

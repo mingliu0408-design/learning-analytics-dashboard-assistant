@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "url": "https://learning-analytics-dashboard-assistant-ekqehs9bochsxp3xlmfmdn.streamlit.app/",
+  "python_version_saved_and_reopened": "3.13",
+  "repository": "mingliu0408-design/learning-analytics-dashboard-assistant",
+  "branch": "main",
+  "entrypoint": "app.py",
+  "deployed_runtime_commit": "00f471cec61e4574c9e835d580355710d5157201",
+  "checks": [
+    {
+      "page": "Introduction / Overview",
+      "status": "PASS",
+      "evidence": "Actual Hello learner-001, four activity metrics and six navigation controls rendered at the generated cloud URL."
+    },
+    {
+      "page": "Resources",
+      "status": "PASS",
+      "evidence": "Actual Moodle resource lines and heatmap rendered; 155 scoped resource-view events."
+    },
+    {
+      "page": "Lecture",
+      "status": "PASS",
+      "evidence": "Actual cumulative Panopto lecture bars and source limitations rendered."
+    },
+    {
+      "page": "Debate",
+      "status": "PASS",
+      "evidence": "Actual directed interactive network, replying/viewing controls and scoped native counts rendered."
+    },
+    {
+      "page": "Reflection",
+      "status": "PASS",
+      "evidence": "Actual saved character-edit and previous/current cohort curves rendered with unknown and zero distinctions."
+    },
+    {
+      "page": "Next Steps",
+      "status": "PASS",
+      "evidence": "Actual reflection form and editable goal table rendered; no automatic Memory write."
+    },
+    {
+      "page": "REPLAY",
+      "status": "PASS",
+      "evidence": "Actual S0 historical original-01 replay displayed with SAVED_HISTORICAL_ANSWER_NO_NEW_MODEL_CALL identity."
+    },
+    {
+      "page": "COMPONENTS",
+      "status": "PASS",
+      "evidence": "Actual cloud R0 and isolated native M1 LEXICAL executed without a key; NO_LLM_NO_NATURAL_ANSWER_GENERATION result identity."
+    }
+  ],
+  "paid_provider_calls": 0,
+  "boundaries": [
+    "Cloud browser check used the owner account; anonymous HTTP bootstrap and actual inner health were independently verified with a new empty cookie jar.",
+    "Optional cloud MPNet/Hybrid dependencies were not installed; default cloud components use native LEXICAL.",
+    "No paid live inference, Memory writes, research answer regeneration or rating changes."
+  ],
+  "component_counters": {
+    "rag_calls": 1,
+    "memory_calls": 1,
+    "memory_backend": "M1_LEXICAL_LINKS_DEV_CANDIDATE",
+    "readonly_state_unchanged": true
+  },
+  "anonymous_http_validation": {
+    "fresh_in_memory_cookie_jar": true,
+    "account_or_browser_cookies_used": false,
+    "platform_issued_anonymous_cookie_count": 5,
+    "root_after_bootstrap_http_status": 200,
+    "actual_health_path": "/~/+/_stcore/health",
+    "actual_health_http_status": 200,
+    "actual_health_body": "ok",
+    "wrapper_health_is_not_application_health": true,
+    "authentication_tokens_or_cookie_values_recorded": false
+  }
+}
